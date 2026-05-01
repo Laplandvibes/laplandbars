@@ -1,4 +1,4 @@
-import { MapPin, Clock, ExternalLink, Hotel } from 'lucide-react';
+import { MapPin, Clock, ExternalLink, Hotel, Ticket, Calendar } from 'lucide-react';
 import { BARS } from '../data/images';
 import { bars, cities } from '../data/bars';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
@@ -161,20 +161,53 @@ export default function Bars() {
                             <Clock size={13} className="text-amber/60 mt-0.5 shrink-0" />
                             <p className="text-xs text-white/40 leading-relaxed">{bar.hours}</p>
                           </div>
-                          <div className="flex items-center justify-between pt-1">
-                            <p className="text-xs text-amber/70 font-medium">{bar.price}</p>
-                            {bar.website && (
-                              <a
-                                href={bar.website}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="inline-flex items-center gap-1 text-xs text-amber hover:text-amber/80 no-underline font-medium transition-colors"
-                              >
-                                Website <ExternalLink size={11} />
-                              </a>
-                            )}
-                          </div>
+                          <p className="text-xs text-amber/70 font-medium pt-1">{bar.price}</p>
                         </div>
+
+                        {/* Bookable tour / experience — verified data only */}
+                        {bar.tour && (
+                          <div className="mt-4 p-4 bg-amber/[0.07] border border-amber/25 rounded-xl">
+                            <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
+                              <Ticket size={11} />
+                              {bar.tour.label}
+                            </div>
+                            <div className="space-y-1 mb-3">
+                              <p className="text-sm text-white font-semibold leading-tight">
+                                {bar.tour.priceFrom}
+                              </p>
+                              <div className="flex items-start gap-1.5 text-xs text-white/60 leading-snug">
+                                <Calendar size={11} className="text-amber/70 mt-0.5 shrink-0" />
+                                <span>{bar.tour.schedule}</span>
+                              </div>
+                              {bar.tour.hint && (
+                                <p className="text-[11px] text-white/45 leading-snug">{bar.tour.hint}</p>
+                              )}
+                            </div>
+                            <AffiliateCTA
+                              partner="activities"
+                              sid={`bar_tour_${bar.name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')}`}
+                              destination={bar.tour.gygSlug}
+                              className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                            >
+                              <Ticket size={12} />
+                              Check availability & book
+                            </AffiliateCTA>
+                          </div>
+                        )}
+
+                        {/* Secondary venue website link */}
+                        {bar.website && (
+                          <div className="mt-3 text-right">
+                            <a
+                              href={bar.website}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-1 text-[11px] text-white/35 hover:text-white/60 no-underline transition-colors"
+                            >
+                              Venue website <ExternalLink size={10} />
+                            </a>
+                          </div>
+                        )}
                       </div>
                     </div>
                   ))}

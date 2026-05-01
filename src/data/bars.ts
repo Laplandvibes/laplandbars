@@ -1,3 +1,33 @@
+/**
+ * Tour / experience that this venue actually sells (verified from the
+ * venue's public website, not invented). When set, the bar card surfaces
+ * the concrete details (price + schedule + booking hint) and offers a
+ * primary "Book a tour" CTA routed through GYG via go.laplandvibes.com.
+ *
+ * For the LV ecosystem, GYG is the only affiliate path that maps cleanly
+ * onto the experience side of bar/brewery venues — Finnish independent
+ * pubs and breweries are not in CJ/Awin/Impact, so the choice is
+ * (a) GYG tour search if the venue runs tours/tastings, or (b) Hotels.com
+ * city-level CTA (covered by the city band below the bar grid).
+ */
+export interface BarTour {
+  /** What user actually buys, e.g. "Brewery tour & tasting". */
+  label: string;
+  /** Concrete starting price as the venue advertises it, e.g. "€25 / person". */
+  priceFrom: string;
+  /** Schedule string lifted from the venue site, e.g. "Friday 17:00 + 18:30". */
+  schedule: string;
+  /** One-line booking hint, e.g. "Register by Wed 14:00". Optional. */
+  hint?: string;
+  /**
+   * GYG city slug used by go.laplandvibes.com (e.g. `rovaniemi-l2653`).
+   * The redirect lands the user on the GYG city page — they search/book
+   * under our partner ID. The `sid` (built from venue name) records the
+   * referring venue for our own analytics.
+   */
+  gygSlug: string;
+}
+
 export interface Bar {
   name: string;
   city: string;
@@ -9,6 +39,7 @@ export interface Bar {
   website?: string;
   hours: string;
   featured?: boolean;
+  tour?: BarTour;
 }
 
 export const cities = ['Rovaniemi', 'Levi', 'Ylläs', 'Saariselkä'];
@@ -26,6 +57,13 @@ export const bars: Bar[] = [
     website: 'https://lapinpanimo.fi/en/',
     hours: 'Mon–Fri 09–21, Sat 12–21, Sun closed',
     featured: true,
+    tour: {
+      label: 'Brewery tour & tasting',
+      priceFrom: '€25 / person',
+      schedule: 'Friday 17:00 + 18:30 (Dec–Mar weekly)',
+      hint: 'Register by Wed 14:00 — minimum 3 people.',
+      gygSlug: 'rovaniemi-l2653',
+    },
   },
   {
     name: 'Café & Bar 21',
@@ -83,6 +121,13 @@ export const bars: Bar[] = [
     website: 'https://arcticsnowhotel.fi/en/eat-drink/ice-bar/',
     hours: 'Daily 10–20 (Dec 15 – Mar 31)',
     featured: true,
+    tour: {
+      label: 'Ice bar visit + thermal suit',
+      priceFrom: '€15 / person',
+      schedule: 'Daily 10:00–20:00 (Dec 15 – Mar 31)',
+      hint: 'Includes one drink in an ice glass.',
+      gygSlug: 'rovaniemi-l2653',
+    },
   },
 
   // LEVI
@@ -213,10 +258,15 @@ export const iceBars = [
     highlight: 'New ice sculptures every winter',
     temp: '-5°C inside',
     price: 'Entry + 1 drink ~€25',
+    season: 'Open Dec–Apr (rebuild Oct–Nov)',
     website: 'https://snowvillage.fi',
+    // Hotels.com — sleep on-site
     stayQuery: 'Lainio Snow Village, Ylläs, Finland',
     staySid: 'icebar_snowvillage_lainio',
     stayHint: 'Snow suites + log cabins on-site',
+    // GYG — bookable ice bar visit / day tour
+    visitGygSlug: 'yllas-l34028',
+    visitSid: 'icebar_visit_snowvillage',
   },
   {
     name: 'Arctic SnowHotel IceBar',
@@ -225,10 +275,13 @@ export const iceBars = [
     highlight: 'Thermal suits included',
     temp: '-5°C inside',
     price: 'Entry + 1 drink ~€15',
+    season: 'Daily 10–20 (Dec 15 – Mar 31)',
     website: 'https://arcticsnowhotel.fi',
     stayQuery: 'Arctic SnowHotel, Rovaniemi, Finland',
     staySid: 'icebar_arctic_snowhotel',
     stayHint: 'Snow rooms, glass igloos, log cabins',
+    visitGygSlug: 'rovaniemi-l2653',
+    visitSid: 'icebar_visit_arctic_snowhotel',
   },
   {
     name: 'Snowman World Ice Bar',
@@ -237,10 +290,13 @@ export const iceBars = [
     highlight: 'Santa Claus Village location',
     temp: 'Outdoors / covered',
     price: 'Part of Snowman World entry',
+    season: 'Late Nov – early Apr',
     website: 'https://snowmanworld.fi',
     stayQuery: 'Santa Claus Village, Rovaniemi, Finland',
     staySid: 'icebar_snowman_world',
     stayHint: 'Santa Holiday Village + Nova Skyland nearby',
+    visitGygSlug: 'rovaniemi-l2653',
+    visitSid: 'icebar_visit_snowman_world',
   },
 ];
 

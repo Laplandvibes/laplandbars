@@ -1,4 +1,4 @@
-import { Snowflake, Thermometer, MapPin, Hotel, ExternalLink } from 'lucide-react';
+import { Snowflake, Thermometer, MapPin, Hotel, ExternalLink, Ticket, Calendar } from 'lucide-react';
 import { BARS } from '../data/images';
 import { iceBars } from '../data/bars';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
@@ -117,25 +117,61 @@ export default function IceBars() {
                     <Thermometer size={11} className="text-ice" />
                     {bar.temp}
                   </div>
-                  <p className="text-xs text-amber/70 font-medium pt-1">{bar.price}</p>
+                  <div className="flex items-center gap-2 text-xs text-white/40">
+                    <Calendar size={11} className="text-ice" />
+                    {bar.season}
+                  </div>
+                  <p className="text-xs text-white font-semibold pt-1">{bar.price}</p>
                 </div>
-                {/* Hotel CTA — on-site or nearby lodging */}
+
+                {/* Visit CTA — bookable ice bar experience via GYG */}
                 <div className="mt-4 pt-4 border-t border-white/10">
+                  <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
+                    <Ticket size={11} />
+                    Book the visit
+                  </div>
+                  <AffiliateCTA
+                    partner="activities"
+                    sid={bar.visitSid}
+                    destination={bar.visitGygSlug}
+                    className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                  >
+                    <Ticket size={12} />
+                    Check availability & book
+                  </AffiliateCTA>
+                </div>
+
+                {/* Hotel CTA — on-site lodging */}
+                <div className="mt-3 pt-3 border-t border-white/5">
                   <p className="text-[11px] text-white/40 uppercase tracking-widest mb-2 flex items-center gap-1.5">
                     <Hotel size={11} className="text-amber" />
                     Stay on-site
                   </p>
-                  <p className="text-xs text-white/55 mb-3 leading-relaxed">{bar.stayHint}</p>
+                  <p className="text-xs text-white/55 mb-2 leading-relaxed">{bar.stayHint}</p>
                   <AffiliateCTA
                     partner="hotels"
                     sid={bar.staySid}
                     destination={bar.stayQuery}
-                    className="inline-flex items-center gap-1.5 text-amber hover:text-amber/80 text-sm font-semibold no-underline"
+                    className="inline-flex items-center gap-1.5 text-amber/90 hover:text-amber text-xs font-semibold no-underline"
                   >
                     Book a room nearby
-                    <ExternalLink size={12} />
+                    <ExternalLink size={11} />
                   </AffiliateCTA>
                 </div>
+
+                {/* Secondary venue website */}
+                {bar.website && (
+                  <div className="mt-3 text-right">
+                    <a
+                      href={bar.website}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-[11px] text-white/35 hover:text-white/60 no-underline transition-colors"
+                    >
+                      Venue website <ExternalLink size={10} />
+                    </a>
+                  </div>
+                )}
               </div>
             ))}
           </div>
