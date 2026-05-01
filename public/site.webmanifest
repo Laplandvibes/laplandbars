@@ -1,0 +1,12 @@
+{
+  "name": "LaplandBars",
+  "short_name": "LaplandBars",
+  "description": "Best bars, pubs and ice bars in Finnish Lapland.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#0F172A",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
