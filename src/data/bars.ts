@@ -19,13 +19,31 @@ export interface BarTour {
   schedule: string;
   /** One-line booking hint, e.g. "Register by Wed 14:00". Optional. */
   hint?: string;
+  /** Per-placement analytics tag (matches AffiliateCTA `sid` convention). */
+  sid: string;
+
+  // EXACTLY ONE of these is set per venue:
+
   /**
-   * GYG city slug used by go.laplandvibes.com (e.g. `rovaniemi-l2653`).
-   * The redirect lands the user on the GYG city page — they search/book
-   * under our partner ID. The `sid` (built from venue name) records the
-   * referring venue for our own analytics.
+   * GYG product full path — verified by web search 2026-05-02. Format:
+   * `{city-slug}/{product-slug}-t{id}`. Example:
+   * `rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814`
+   *
+   * NOTE: We deep-link directly to GYG (not via go.laplandvibes.com) because
+   * the redirect worker currently collapses every activities slug to GYG
+   * homepage. Direct linking preserves both intent + partner_id attribution.
    */
-  gygSlug: string;
+  gygProductPath?: string;
+
+  /**
+   * Direct booking URL when no GYG product exists. NOT an affiliate link —
+   * just an honest pass-through to the venue's own booking page (e.g.
+   * lapinpanimo.fi for the Lapland Brewery tour, since it's not on GYG).
+   * Use this until we negotiate direct affiliate deals with venues.
+   */
+  directBookingUrl?: string;
+  /** Optional label override for the direct booking CTA. */
+  directBookingLabel?: string;
 }
 
 export interface Bar {
@@ -61,8 +79,13 @@ export const bars: Bar[] = [
       label: 'Brewery tour & tasting',
       priceFrom: '€25 / person',
       schedule: 'Friday 17:00 + 18:30 (Dec–Mar weekly)',
-      hint: 'Register by Wed 14:00 — minimum 3 people.',
-      gygSlug: 'rovaniemi-l2653',
+      hint: 'Register by Wed 14:00 — minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.',
+      sid: 'bar_lapland_brewery_pub',
+      // Verified 2026-05-02: Lapin Panimo's brewery tour is NOT on GYG.
+      // Direct pass-through to venue booking page until we negotiate a
+      // direct affiliate or GYG list this product.
+      directBookingUrl: 'https://lapinpanimo.fi/en/',
+      directBookingLabel: 'Reserve at lapinpanimo.fi',
     },
   },
   {
@@ -125,8 +148,10 @@ export const bars: Bar[] = [
       label: 'Ice bar visit + thermal suit',
       priceFrom: '€15 / person',
       schedule: 'Daily 10:00–20:00 (Dec 15 – Mar 31)',
-      hint: 'Includes one drink in an ice glass.',
-      gygSlug: 'rovaniemi-l2653',
+      hint: 'Includes one drink in an ice glass + thermal suit.',
+      sid: 'bar_ice_bar_arctic_snowhotel',
+      // Verified GYG product 2026-05-02 via search.
+      gygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
     },
   },
 
@@ -264,8 +289,8 @@ export const iceBars = [
     stayQuery: 'Lainio Snow Village, Ylläs, Finland',
     staySid: 'icebar_snowvillage_lainio',
     stayHint: 'Snow suites + log cabins on-site',
-    // GYG — bookable ice bar visit / day tour
-    visitGygSlug: 'yllas-l34028',
+    // GYG product (verified 2026-05-02): SnowVillage Ice Hotel Guided Tour with Transfer
+    visitGygProductPath: 'yllasjarvi-l248346/yllas-snowvillage-ice-hotel-guided-tour-with-transfer-t1108702',
     visitSid: 'icebar_visit_snowvillage',
   },
   {
@@ -280,7 +305,8 @@ export const iceBars = [
     stayQuery: 'Arctic SnowHotel, Rovaniemi, Finland',
     staySid: 'icebar_arctic_snowhotel',
     stayHint: 'Snow rooms, glass igloos, log cabins',
-    visitGygSlug: 'rovaniemi-l2653',
+    // GYG product (verified 2026-05-02): Arctic SnowHotel Visit with Ice Bar
+    visitGygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
     visitSid: 'icebar_visit_arctic_snowhotel',
   },
   {
@@ -295,7 +321,8 @@ export const iceBars = [
     stayQuery: 'Santa Claus Village, Rovaniemi, Finland',
     staySid: 'icebar_snowman_world',
     stayHint: 'Santa Holiday Village + Nova Skyland nearby',
-    visitGygSlug: 'rovaniemi-l2653',
+    // GYG product (verified 2026-05-02): Snowman World Entry Ticket
+    visitGygProductPath: 'rovaniemi-l2653/entrance-ticket-to-snowman-world-in-santa-claus-village-t404948',
     visitSid: 'icebar_visit_snowman_world',
   },
 ];

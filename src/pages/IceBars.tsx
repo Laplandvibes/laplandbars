@@ -3,6 +3,7 @@ import { BARS } from '../data/images';
 import { iceBars } from '../data/bars';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import { gygDeepLink } from '../lib/gyg';
 
 export default function IceBars() {
   return (
@@ -124,21 +125,21 @@ export default function IceBars() {
                   <p className="text-xs text-white font-semibold pt-1">{bar.price}</p>
                 </div>
 
-                {/* Visit CTA — bookable ice bar experience via GYG */}
+                {/* Visit CTA — deep-linked GYG product (verified slug) */}
                 <div className="mt-4 pt-4 border-t border-white/10">
                   <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
                     <Ticket size={11} />
                     Book the visit
                   </div>
-                  <AffiliateCTA
-                    partner="activities"
-                    sid={bar.visitSid}
-                    destination={bar.visitGygSlug}
+                  <a
+                    href={gygDeepLink(bar.visitGygProductPath, bar.visitSid)}
+                    target="_blank"
+                    rel="sponsored nofollow noopener"
                     className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
                   >
                     <Ticket size={12} />
                     Check availability & book
-                  </AffiliateCTA>
+                  </a>
                 </div>
 
                 {/* Hotel CTA — on-site lodging */}

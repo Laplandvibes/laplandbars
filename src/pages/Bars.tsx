@@ -3,6 +3,7 @@ import { BARS } from '../data/images';
 import { bars, cities } from '../data/bars';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import { gygDeepLink } from '../lib/gyg';
 
 const barImages: Record<string, string> = {
   // Rovaniemi — each unique
@@ -183,15 +184,27 @@ export default function Bars() {
                                 <p className="text-[11px] text-white/45 leading-snug">{bar.tour.hint}</p>
                               )}
                             </div>
-                            <AffiliateCTA
-                              partner="activities"
-                              sid={`bar_tour_${bar.name.toLowerCase().replace(/[^a-z0-9]+/g, '_').replace(/^_|_$/g, '')}`}
-                              destination={bar.tour.gygSlug}
-                              className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
-                            >
-                              <Ticket size={12} />
-                              Check availability & book
-                            </AffiliateCTA>
+                            {bar.tour.gygProductPath ? (
+                              <a
+                                href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid)}
+                                target="_blank"
+                                rel="sponsored nofollow noopener"
+                                className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                              >
+                                <Ticket size={12} />
+                                Check availability & book
+                              </a>
+                            ) : bar.tour.directBookingUrl ? (
+                              <a
+                                href={bar.tour.directBookingUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                              >
+                                <Ticket size={12} />
+                                {bar.tour.directBookingLabel ?? 'Book direct'}
+                              </a>
+                            ) : null}
                           </div>
                         )}
 
