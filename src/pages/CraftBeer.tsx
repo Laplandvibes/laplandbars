@@ -58,8 +58,8 @@ export default function CraftBeer() {
   return (
     <>
       <PageSeo
-        title="Craft Beer in Lapland — Local Breweries & Where to Drink"
-        description="Lapland craft beer guide: Lapin Panimo, Mathildedal, and the pubs across Rovaniemi, Levi and Saariselkä that pour the local taps."
+        titleKey="craftBeer.title"
+        descriptionKey="craftBeer.description"
         path="/craft-beer"
         jsonLd={[
           pillarBreadcrumb('Craft Beer', '/craft-beer'),

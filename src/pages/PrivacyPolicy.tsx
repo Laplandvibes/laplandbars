@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import PrivacyContent from '../../../shared/Legal/PrivacyContent';
+import Hreflang from '../i18n/Hreflang';
 
 export default function PrivacyPolicy() {
+  const { t } = useTranslation('pages');
   return (
     <>
-      <title>Privacy Policy | LaplandBars</title>
-      <meta name="description" content="How LaplandBars handles your data — GDPR compliant. Operated by Lapeso Oy." />
-      <link rel="canonical" href="https://laplandbars.com/privacy" />
+      <title>{t('privacy.title')}</title>
+      <meta name="description" content={t('privacy.description')} />
+      <Hreflang path="/privacy" />
       <meta name="robots" content="index, follow" />
       <PrivacyContent siteName="LaplandBars" />
     </>

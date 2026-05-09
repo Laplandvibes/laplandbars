@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "LaplandBars — Where Lapland Actually Drinks",
+    "description": "Bars, breweries, ice bars, ski-village après, cocktails and the local pubs where Finns actually drink in Lapland. Independent editorial, not a brochure."
+  },
+  "bars": {
+    "title": "Bars in Finnish Lapland | LaplandBars",
+    "description": "The bars in Lapland that locals actually drink at — Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Hours, what they pour, when to walk in."
+  },
+  "iceBars": {
+    "title": "Ice Bars in Lapland | Snow Hotels & Frozen Lounges | LaplandBars",
+    "description": "Lapland's ice bars — SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. What they serve, when they're rebuilt, what to wear inside."
+  },
+  "apresSki": {
+    "title": "Après-Ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
+    "description": "Real après-ski in Lapland — slope-side bars, hotel lobby DJs, ice-bar afters. Where to drink after the lifts close at Levi, Ylläs, Pyhä, Saariselkä."
+  },
+  "cocktails": {
+    "title": "Lapland Cocktails — Cloudberry, Lakka, Pine | LaplandBars",
+    "description": "Cocktails built around Arctic ingredients — cloudberry, lingonberry, pine syrup, juniper, lakka liqueur. Where to drink them, how to make them at home."
+  },
+  "craftBeer": {
+    "title": "Lapland Craft Breweries & Beer Bars | LaplandBars",
+    "description": "Lapland's growing craft-beer scene — Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. What they brew, where to taste it."
+  },
+  "drinkingCulture": {
+    "title": "Finnish Drinking Culture in Lapland | LaplandBars",
+    "description": "Why Finns drink the way they drink — sauna lager, the Alko monopoly, dry January, the polar-night pour. The cultural context for a Lapland bar visit."
+  },
+  "about": { "title": "About LaplandBars", "description": "About LaplandBars — independent editorial about how and where Lapland drinks." },
+  "privacy": { "title": "Privacy Policy | LaplandBars", "description": "How LaplandBars handles your data." },
+  "terms": { "title": "Terms of Use | LaplandBars", "description": "Terms of use for LaplandBars." },
+  "cookie": { "title": "Cookie Policy | LaplandBars", "description": "How LaplandBars uses cookies." }
+}

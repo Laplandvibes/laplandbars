@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next';
 import TermsContent from '../../../shared/Legal/TermsContent';
+import Hreflang from '../i18n/Hreflang';
 
 export default function Terms() {
+  const { t } = useTranslation('pages');
   return (
     <>
-      <title>Terms of Use | LaplandBars</title>
-      <meta name="description" content="Terms of Use for LaplandBars.com — editorial bars guide for Finnish Lapland, operated by Lapeso Oy." />
-      <link rel="canonical" href="https://laplandbars.com/terms" />
+      <title>{t('terms.title')}</title>
+      <meta name="description" content={t('terms.description')} />
+      <Hreflang path="/terms" />
       <meta name="robots" content="index, follow" />
       <TermsContent siteName="LaplandBars" siteUrl="laplandbars.com" />
     </>

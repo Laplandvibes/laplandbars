@@ -46,8 +46,8 @@ export default function Home() {
   return (
     <>
       <PageSeo
-        title="LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland"
-        description="The best bars, pubs, ice bars and après-ski venues in Finnish Lapland — Rovaniemi, Levi, Ylläs, Saariselkä. Verified by people who actually live here."
+        titleKey="home.title"
+        descriptionKey="home.description"
         path="/"
         jsonLd={[
           {

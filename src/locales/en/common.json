@@ -1,0 +1,5 @@
+{
+  "site": { "name": "LaplandBars", "tagline": "Where Lapland actually drinks" },
+  "lang": { "currentEN": "EN", "currentFI": "FI", "switchTo": "Switch language" },
+  "cta": { "readMore": "Read more", "viewAll": "View all", "loading": "Loading…", "subscribe": "Subscribe", "close": "Close" }
+}

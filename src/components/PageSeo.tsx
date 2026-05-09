@@ -1,35 +1,40 @@
 /**
  * Per-page SEO component. Relies on React 19's metadata hoisting — emits
- * <title>, <meta>, <link rel="canonical"> and JSON-LD <script> tags into
- * <head> from the route component.
+ * <title>, <meta>, <link rel="canonical"> + hreflang and JSON-LD into <head>
+ * from the route component.
  *
- * Usage on a pillar page:
- *
- *   <PageSeo
- *     title="Ice Bars in Lapland"
- *     description="..."
- *     path="/ice-bars"
- *     jsonLd={iceBarsJsonLd}
- *   />
+ * Locale-aware (i18n migration 2026-05-09): pass `titleKey` + `descriptionKey`
+ * pointing to the `pages` namespace. Passes the literal `title`/`description`
+ * still work for backwards compatibility.
  */
+import { useTranslation } from 'react-i18next';
+import { useLocale } from '../i18n/useLocale';
+
 interface PageSeoProps {
-  title: string;
-  description: string;
-  /** Site-relative path, e.g. "/ice-bars". Used to build canonical + og:url. */
+  title?: string;
+  description?: string;
+  titleKey?: string;
+  descriptionKey?: string;
+  /** Site-relative path (no locale prefix), e.g. "/ice-bars". */
   path: string;
-  /** Optional OG image URL override. Falls back to site default. */
   ogImage?: string;
-  /** Optional structured-data graph(s). Pass a single object or an array; we'll wrap in @graph. */
   jsonLd?: object | object[];
 }
 
 const ORIGIN = 'https://laplandbars.com';
 const DEFAULT_OG = 'https://lh3.googleusercontent.com/d/1CXCw3caLeOTwU6Is4T_u6xG9TFF-uPGF=w1200';
 
-export default function PageSeo({ title, description, path, ogImage, jsonLd }: PageSeoProps) {
-  const url = `${ORIGIN}${path === '/' ? '' : path}`;
+export default function PageSeo({ title, description, titleKey, descriptionKey, path, ogImage, jsonLd }: PageSeoProps) {
+  const { t } = useTranslation('pages');
+  const { locale } = useLocale();
+  const resolvedTitle = titleKey ? t(titleKey) : (title ?? '');
+  const resolvedDesc = descriptionKey ? t(descriptionKey) : (description ?? '');
+
+  const enUrl = `${ORIGIN}${path === '/' ? '/' : path}`;
+  const fiUrl = `${ORIGIN}/fi${path === '/' ? '' : path}`;
+  const currentUrl = locale === 'fi' ? fiUrl : enUrl;
   const og = ogImage ?? DEFAULT_OG;
-  const fullTitle = path === '/' ? title : `${title} | LaplandBars`;
+  const fullTitle = (path === '/' || resolvedTitle.includes('|')) ? resolvedTitle : `${resolvedTitle} | LaplandBars`;
 
   const graph = jsonLd
     ? Array.isArray(jsonLd)
@@ -40,19 +45,23 @@ export default function PageSeo({ title, description, path, ogImage, jsonLd }: P
   return (
     <>
       <title>{fullTitle}</title>
-      <meta name="description" content={description} />
-      <link rel="canonical" href={url} />
+      <meta name="description" content={resolvedDesc} />
+      <link rel="canonical" href={currentUrl} />
+      <link rel="alternate" hrefLang="en" href={enUrl} />
+      <link rel="alternate" hrefLang="fi" href={fiUrl} />
+      <link rel="alternate" hrefLang="x-default" href={enUrl} />
       <meta name="robots" content="index, follow, max-image-preview:large" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content={fullTitle} />
-      <meta property="og:description" content={description} />
-      <meta property="og:url" content={url} />
+      <meta property="og:description" content={resolvedDesc} />
+      <meta property="og:url" content={currentUrl} />
       <meta property="og:image" content={og} />
       <meta property="og:site_name" content="LaplandBars" />
+      <meta property="og:locale" content={locale === 'fi' ? 'fi_FI' : 'en_US'} />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@laplandvibes" />
       <meta name="twitter:title" content={fullTitle} />
-      <meta name="twitter:description" content={description} />
+      <meta name="twitter:description" content={resolvedDesc} />
       <meta name="twitter:image" content={og} />
       {graph && (
         <script

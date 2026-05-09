@@ -1,0 +1,34 @@
+{
+  "home": {
+    "title": "LaplandBars — Missä Lappi oikeasti juo",
+    "description": "Baarit, panimot, lumibaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä."
+  },
+  "bars": {
+    "title": "Baarit Suomen Lapissa | LaplandBars",
+    "description": "Lapin baarit, joissa paikalliset oikeasti käyvät — Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Aukioloajat, mitä kaadetaan, milloin käydä."
+  },
+  "iceBars": {
+    "title": "Lumibaarit Lapissa | Lumihotellit ja jää-loungit | LaplandBars",
+    "description": "Lapin lumibaarit — SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Mitä tarjoillaan, milloin rakennetaan uudelleen, mihin pukeutua sisällä."
+  },
+  "apresSki": {
+    "title": "Après-ski Lapissa | Levi, Ylläs, Saariselkä | LaplandBars",
+    "description": "Aitoa après-skitä Lapissa — rinnebaarit, hotellien aulan DJ:t, lumibaareihin jatkot. Mihin lähteä kun hissit sulkevat Levillä, Ylläksellä, Pyhällä, Saariselällä."
+  },
+  "cocktails": {
+    "title": "Lapin cocktailit — hilla, lakka, mänty | LaplandBars",
+    "description": "Cocktailit arktisten raaka-aineiden ympärillä — hilla, puolukka, mäntysiirappi, kataja, lakkalikööri. Missä juoda, miten tehdä kotona."
+  },
+  "craftBeer": {
+    "title": "Lapin pienpanimot ja olutbaarit | LaplandBars",
+    "description": "Lapin kasvava pienpanimo­skene — Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Mitä panevat, missä maistat."
+  },
+  "drinkingCulture": {
+    "title": "Suomalainen juomakulttuuri Lapissa | LaplandBars",
+    "description": "Miksi suomalaiset juovat niin kuin juovat — sauna­olut, Alkon monopoli, tipaton tammikuu, kaamoksen kaato. Kulttuuri­konteksti Lapin baarivierailulle."
+  },
+  "about": { "title": "Tietoa LaplandBarsista", "description": "Tietoa LaplandBarsista — riippumatonta toimitusta siitä miten ja missä Lappi juo." },
+  "privacy": { "title": "Tietosuojaseloste | LaplandBars", "description": "Miten LaplandBars käsittelee tietojasi." },
+  "terms": { "title": "Käyttöehdot | LaplandBars", "description": "LaplandBarsin käyttöehdot." },
+  "cookie": { "title": "Evästekäytäntö | LaplandBars", "description": "Miten LaplandBars käyttää evästeitä." }
+}

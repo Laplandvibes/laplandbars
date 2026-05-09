@@ -40,8 +40,8 @@ export default function Cocktails() {
   return (
     <>
       <PageSeo
-        title="Arctic Cocktails — Lingonberry, Cloudberry & Aurora-Inspired Drinks"
-        description="Cocktails built around Lapland ingredients — lingonberry, cloudberry, sea buckthorn, birch syrup. Where to find the best Arctic cocktail bars."
+        titleKey="cocktails.title"
+        descriptionKey="cocktails.description"
         path="/cocktails"
         jsonLd={[
           pillarBreadcrumb('Cocktails', '/cocktails'),

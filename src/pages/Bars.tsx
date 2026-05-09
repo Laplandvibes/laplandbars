@@ -51,8 +51,8 @@ export default function Bars() {
   return (
     <>
       <PageSeo
-        title="Best Bars & Pubs in Finnish Lapland"
-        description="A city-by-city guide to bars and pubs across Finnish Lapland — Rovaniemi, Levi, Ylläs, Saariselkä. Featured venues, local picks, and the actual atmosphere of each."
+        titleKey="bars.title"
+        descriptionKey="bars.description"
         path="/bars"
         jsonLd={[
           pillarBreadcrumb('Bars', '/bars'),

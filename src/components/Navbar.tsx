@@ -1,21 +1,26 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
+import LanguageSwitcher from '../i18n/LanguageSwitcher';
+import { useLocale } from '../i18n/useLocale';
 
-const navLinks = [
-  { label: 'Bars', to: '/bars' },
-  { label: 'Ice Bars', to: '/ice-bars' },
-  { label: 'Après-Ski', to: '/apres-ski' },
-  { label: 'Cocktails', to: '/cocktails' },
-  { label: 'Craft Beer', to: '/craft-beer' },
-  { label: 'Drinking Culture', to: '/drinking-culture' },
-];
+const NAV_KEYS = [
+  { key: 'bars', basePath: '/bars' },
+  { key: 'iceBars', basePath: '/ice-bars' },
+  { key: 'apresSki', basePath: '/apres-ski' },
+  { key: 'cocktails', basePath: '/cocktails' },
+  { key: 'craftBeer', basePath: '/craft-beer' },
+  { key: 'drinkingCulture', basePath: '/drinking-culture' },
+] as const;
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation('nav');
+  const { to, pathWithoutLocale } = useLocale();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -31,28 +36,29 @@ export default function Navbar() {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to="/" className="no-underline">
+          <Link to={to('/')} className="no-underline">
             <Logo light />
           </Link>
 
           <div className="hidden lg:flex items-center gap-6">
-            {navLinks.map((link) => (
+            {NAV_KEYS.map((link) => (
               <Link
-                key={link.to}
-                to={link.to}
+                key={link.basePath}
+                to={to(link.basePath)}
                 className={`font-medium transition-colors duration-200 text-sm tracking-wide no-underline ${
-                  location.pathname === link.to ? 'text-amber' : 'text-white/70 hover:text-amber'
+                  pathWithoutLocale === link.basePath ? 'text-amber' : 'text-white/70 hover:text-amber'
                 }`}
               >
-                {link.label}
+                {t(`links.${link.key}`)}
               </Link>
             ))}
+            <LanguageSwitcher />
           </div>
 
           <button
             onClick={() => setOpen(!open)}
             className="lg:hidden p-2 text-white hover:text-amber transition-colors"
-            aria-label="Toggle menu"
+            aria-label={t('menu')}
           >
             {open ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -62,17 +68,18 @@ export default function Navbar() {
       {open && (
         <div className="lg:hidden bg-night/98 backdrop-blur-md border-t border-white/10">
           <div className="px-4 py-4 space-y-3">
-            {navLinks.map((link) => (
+            {NAV_KEYS.map((link) => (
               <Link
-                key={link.to}
-                to={link.to}
+                key={link.basePath}
+                to={to(link.basePath)}
                 className={`block font-medium transition-colors duration-200 text-base no-underline py-1 ${
-                  location.pathname === link.to ? 'text-amber' : 'text-white/70 hover:text-amber'
+                  pathWithoutLocale === link.basePath ? 'text-amber' : 'text-white/70 hover:text-amber'
                 }`}
               >
-                {link.label}
+                {t(`links.${link.key}`)}
               </Link>
             ))}
+            <div className="pt-2"><LanguageSwitcher /></div>
           </div>
         </div>
       )}

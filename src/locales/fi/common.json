@@ -1,0 +1,5 @@
+{
+  "site": { "name": "LaplandBars", "tagline": "Missä Lappi oikeasti juo" },
+  "lang": { "currentEN": "EN", "currentFI": "FI", "switchTo": "Vaihda kieli" },
+  "cta": { "readMore": "Lue lisää", "viewAll": "Näytä kaikki", "loading": "Ladataan…", "subscribe": "Tilaa", "close": "Sulje" }
+}

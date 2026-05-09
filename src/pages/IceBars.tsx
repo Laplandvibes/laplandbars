@@ -9,8 +9,8 @@ export default function IceBars() {
   return (
     <>
       <PageSeo
-        title="Ice Bars in Finnish Lapland"
-        description="Built from snow and ice every winter, melted every spring. A guide to the actual ice bars in Finnish Lapland — Arctic SnowHotel, Lainio Snow Village, and what to expect inside."
+        titleKey="iceBars.title"
+        descriptionKey="iceBars.description"
         path="/ice-bars"
         jsonLd={[
           pillarBreadcrumb('Ice Bars', '/ice-bars'),

@@ -67,8 +67,8 @@ export default function ApresSki() {
   return (
     <>
       <PageSeo
-        title="Après-Ski Bars in Lapland — Levi, Ylläs, Saariselkä"
-        description="From Hullu Poro Areena's 1,700-person stage to slope-side log cabins. A guide to après-ski venues across Lapland's ski resorts."
+        titleKey="apresSki.title"
+        descriptionKey="apresSki.description"
         path="/apres-ski"
         jsonLd={[
           pillarBreadcrumb('Après-Ski', '/apres-ski'),

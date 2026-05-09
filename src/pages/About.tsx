@@ -5,8 +5,8 @@ export default function About() {
   return (
     <div className="min-h-screen bg-night pt-24 pb-20">
       <PageSeo
-        title="About LaplandBars"
-        description="Who runs LaplandBars, why we exist, and how we verify what we publish. Operated by Lapeso Oy."
+        titleKey="about.title"
+        descriptionKey="about.description"
         path="/about"
       />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">

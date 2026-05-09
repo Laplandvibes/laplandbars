@@ -8,8 +8,8 @@ export default function DrinkingCulture() {
   return (
     <>
       <PageSeo
-        title="Finnish Drinking Culture — A Lapland Primer"
-        description="What Finnish drinking culture actually looks like in Lapland — kalsarikännit, Alko, sauna beers, the unwritten rules. Honest context for visitors."
+        titleKey="drinkingCulture.title"
+        descriptionKey="drinkingCulture.description"
         path="/drinking-culture"
         jsonLd={[
           pillarBreadcrumb('Drinking Culture', '/drinking-culture'),

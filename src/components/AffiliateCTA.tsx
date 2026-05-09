@@ -34,6 +34,8 @@ export interface AffiliateCTAProps
 }
 
 const REDIRECT_HOST = 'https://go.laplandvibes.com';
+const GYG_PARTNER_ID = 'VRMKD7N';
+const SITE_ID = 'laplandbars';
 
 export function buildAffiliateHref({
   partner,
@@ -41,16 +43,17 @@ export function buildAffiliateHref({
   destination,
   query,
 }: Pick<AffiliateCTAProps, 'partner' | 'sid' | 'destination' | 'query'>): string {
-  const params = new URLSearchParams({ sid, ...(query || {}) });
-
-  if (destination && partner !== 'activities') {
-    params.set('ss', destination);
+  if (partner === 'activities') {
+    const path = (destination ?? '').replace(/^\/+/, '').replace(/\/+$/, '');
+    const url = new URL(path ? `https://www.getyourguide.com/${path}/` : 'https://www.getyourguide.com/');
+    url.searchParams.set('partner_id', GYG_PARTNER_ID);
+    url.searchParams.set('cmp', `lv_${SITE_ID}_${sid}`);
+    if (query) for (const [k, v] of Object.entries(query)) if (v) url.searchParams.set(k, v);
+    return url.toString();
   }
-
-  const pathname =
-    partner === 'activities' && destination ? `/go/activities/${destination}` : `/go/${partner}`;
-
-  return `${REDIRECT_HOST}${pathname}?${params.toString()}`;
+  const params = new URLSearchParams({ sid, ...(query || {}) });
+  if (destination) params.set('ss', destination);
+  return `${REDIRECT_HOST}/go/${partner}?${params.toString()}`;
 }
 
 export default function AffiliateCTA({

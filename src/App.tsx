@@ -15,6 +15,7 @@ import About from './pages/About';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import Terms from './pages/Terms';
 import CookiePolicy from './pages/CookiePolicy';
+import { useLocale } from './i18n/useLocale';
 
 const pillarLinks = [
   { name: 'Bars', href: '/bars' },
@@ -33,24 +34,44 @@ function ScrollToTop() {
   return null;
 }
 
+function LocaleSync() { useLocale(); return null; }
+
+const ROUTES: { path: string; element: React.ReactNode }[] = [
+  { path: '/', element: <Home /> },
+  { path: '/fi', element: <Home /> },
+  { path: '/bars', element: <Bars /> },
+  { path: '/fi/bars', element: <Bars /> },
+  { path: '/ice-bars', element: <IceBars /> },
+  { path: '/fi/ice-bars', element: <IceBars /> },
+  { path: '/apres-ski', element: <ApresSki /> },
+  { path: '/fi/apres-ski', element: <ApresSki /> },
+  { path: '/cocktails', element: <Cocktails /> },
+  { path: '/fi/cocktails', element: <Cocktails /> },
+  { path: '/craft-beer', element: <CraftBeer /> },
+  { path: '/fi/craft-beer', element: <CraftBeer /> },
+  { path: '/drinking-culture', element: <DrinkingCulture /> },
+  { path: '/fi/drinking-culture', element: <DrinkingCulture /> },
+  { path: '/about', element: <About /> },
+  { path: '/fi/about', element: <About /> },
+  { path: '/privacy', element: <PrivacyPolicy /> },
+  { path: '/fi/privacy', element: <PrivacyPolicy /> },
+  { path: '/terms', element: <Terms /> },
+  { path: '/fi/terms', element: <Terms /> },
+  { path: '/cookie-policy', element: <CookiePolicy /> },
+  { path: '/fi/cookie-policy', element: <CookiePolicy /> },
+];
+
 function AppLayout() {
   return (
     <div className="min-h-screen bg-night text-white">
       <ScrollToTop />
+      <LocaleSync />
       <Navbar />
       <main>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/bars" element={<Bars />} />
-          <Route path="/ice-bars" element={<IceBars />} />
-          <Route path="/apres-ski" element={<ApresSki />} />
-          <Route path="/cocktails" element={<Cocktails />} />
-          <Route path="/craft-beer" element={<CraftBeer />} />
-          <Route path="/drinking-culture" element={<DrinkingCulture />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/privacy" element={<PrivacyPolicy />} />
-          <Route path="/terms" element={<Terms />} />
-          <Route path="/cookie-policy" element={<CookiePolicy />} />
+          {ROUTES.map(({ path, element }) => (
+            <Route key={path} path={path} element={element} />
+          ))}
         </Routes>
       </main>
       <SharedFooter pillarLinks={pillarLinks} />

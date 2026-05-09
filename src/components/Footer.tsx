@@ -87,7 +87,12 @@ export default function Footer() {
           ))}
         </div>
 
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-8 border-t border-white/10 text-white/30 text-sm">
+        <p className="pt-8 border-t border-white/10 text-[11px] leading-relaxed text-white/45">
+          <span aria-hidden="true">ⓘ </span>
+          This site contains affiliate links. If you book through these links, LaplandVibes may receive a commission at no extra cost to you.
+        </p>
+
+        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4 text-white/30 text-sm">
           <p>© {new Date().getFullYear()} LaplandBars — Part of the LaplandVibes ecosystem</p>
           <div className="flex items-center gap-6">
             <Link to="/privacy" className="hover:text-white/60 transition-colors no-underline">Privacy Policy</Link>
