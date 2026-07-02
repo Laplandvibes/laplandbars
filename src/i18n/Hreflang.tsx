@@ -1,5 +1,12 @@
-import { useLocale } from './useLocale';
+import { SUPPORTED_LOCALES, localePrefix } from './config';
+import type { Locale } from './config';
 
+/**
+ * hreflang alternates only. Canonical is owned exclusively by PageSeo
+ * (src/components/PageSeo.tsx) — never emit a second rel=canonical here.
+ * Short hreflang codes + trailing-slash hrefs match the prerenderer
+ * (_prerender_routes.mjs) and sitemap.xml.
+ */
 export default function Hreflang({
   path,
   origin = 'https://laplandbars.com',
@@ -7,17 +14,20 @@ export default function Hreflang({
   path: string;
   origin?: string;
 }) {
-  const { locale } = useLocale();
   const cleanPath = path.startsWith('/') ? path : `/${path}`;
-  const enUrl = `${origin}${cleanPath === '/' ? '/' : cleanPath}`;
-  const fiUrl = `${origin}/fi${cleanPath === '/' ? '' : cleanPath}`;
-  const canonical = locale === 'fi' ? fiUrl : enUrl;
+  const suffix = cleanPath === '/' ? '' : cleanPath;
+  const urlFor = (loc: Locale) => {
+    const prefix = localePrefix(loc);
+    if (!prefix) return `${origin}${cleanPath === '/' ? '/' : cleanPath}`.replace(/\/?$/, '/');
+    return `${origin}${prefix}${suffix}`.replace(/\/?$/, '/');
+  };
+  const enUrl = urlFor('en');
 
   return (
     <>
-      <link rel="canonical" href={canonical} />
-      <link rel="alternate" hrefLang="en" href={enUrl} />
-      <link rel="alternate" hrefLang="fi" href={fiUrl} />
+      {SUPPORTED_LOCALES.map((loc) => (
+        <link key={loc} rel="alternate" hrefLang={loc} href={urlFor(loc)} />
+      ))}
       <link rel="alternate" hrefLang="x-default" href={enUrl} />
     </>
   );

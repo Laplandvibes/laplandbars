@@ -72,7 +72,7 @@ export default function Navbar() {
               <Link
                 key={link.basePath}
                 to={to(link.basePath)}
-                className={`block font-medium transition-colors duration-200 text-base no-underline py-1 ${
+                className={`block font-medium transition-colors duration-200 text-base no-underline py-2.5 ${
                   pathWithoutLocale === link.basePath ? 'text-amber' : 'text-white/70 hover:text-amber'
                 }`}
               >

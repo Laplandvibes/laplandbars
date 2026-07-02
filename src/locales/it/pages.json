@@ -1,0 +1,756 @@
+{
+  "home": {
+    "title": "Bar Lapponia 2026, scelte locali, cocktail, ice bar, prezzi reali",
+    "description": "Dove si beve davvero in Lapponia 2026, bar scelti dai locali, cocktail artigianali, ice bar, après-ski, prezzi reali. Levi, Rovaniemi, Saariselkä, Ylläs.",
+    "eyebrow": "Lapponia finlandese",
+    "hero": {
+      "headlineLine1": "Alzi il bicchiere,",
+      "headlineLine2": "brindiamo al circolo polare",
+      "sub": "Bar scolpiti nella neve, leggendarie arene di après-ski, pub caldi con l'aurora boreale fuori dalla finestra. I bar che consigliamo davvero in Lapponia finlandese, scelti con cura.",
+      "subSummer": "Terrazze sul lago e bar sui tetti sotto il sole di mezzanotte. Terrazze ancora illuminate dopo mezzanotte, musica dal vivo e festival estivi. I bar che consigliamo davvero in Lapponia finlandese, scelti con cura.",
+      "ctaStay": "Trovi un alloggio vicino",
+      "ctaBrowse": "Sfogli i bar"
+    },
+    "featured": {
+      "title": "In evidenza",
+      "sub": "Una selezione editoriale di bar ed esperienze simbolo della vita notturna lappone.",
+      "viewAll": "Vedi tutti i bar"
+    },
+    "categories": {
+      "title": "Tre modi di bere in Lapponia",
+      "cards": [
+        {
+          "title": "Ice bar",
+          "desc": "Bar intagliati nella neve e nel ghiaccio, bicchieri di ghiaccio. Rifatti ogni inverno, un'esperienza tutta artica."
+        },
+        {
+          "title": "Après-ski",
+          "desc": "Dall'arena Hullu Poro da 1.700 posti ai piccoli pub di montagna, l'après-ski lappone è leggendario per un motivo."
+        },
+        {
+          "title": "Musica dal vivo",
+          "desc": "Open mic, concerti, karaoke nei fienili di legno. Le serate migliori iniziano dopo l'aurora."
+        }
+      ]
+    },
+    "destinations": {
+      "title": "Esplori per destinazione",
+      "sub": "Scelga una località sciistica e veda cosa è aperto stasera.",
+      "statVenues": "locali selezionati",
+      "statDestinations": "destinazioni",
+      "statIceBars": "ice bar"
+    },
+    "stayBand": {
+      "kicker": "Dorma qui vicino",
+      "title": "Dorma a piedi dal bar",
+      "sub": "Scelga dove bere e prenoti una camera lì accanto. Disponibilità in tempo reale su Hotels.com.",
+      "cardCtaLabel": "Dorma a {{city}}",
+      "browseCta": "Vedi hotel",
+      "subs": {
+        "rovaniemi": "Bar & ice bar · vicino all'aeroporto",
+        "levi": "Après-ski Hullu Poro · ai piedi delle piste",
+        "yllas": "Lainio Snow Village · pub nei boschi",
+        "saariselka": "Pub sotto l'aurora · vicino a Inari / Kakslauttanen"
+      },
+      "disclaimer": "Le prenotazioni Hotels.com passano da go.laplandvibes.com, le commissioni sostengono il sito, senza costi aggiuntivi per Lei."
+    },
+    "faq": {
+      "title": "Bar della Lapponia, domande e risposte",
+      "sub": "Quello che i visitatori chiedono prima di una serata nella Lapponia finlandese.",
+      "items": [
+        {
+          "q": "Che cos'è un ice bar in Lapponia?",
+          "a": "Un ice bar è un locale costruito con neve e blocchi di ghiaccio di lago, con bancone, pareti e perfino i bicchieri intagliati nel ghiaccio. All'interno ci sono circa −5 °C, perciò locali come l'Ice Bar dell'Arctic SnowHotel, vicino a Rovaniemi, all'ingresso Le prestano una mantella o una tuta termica. Ciascuno viene ricostruito ogni inverno con un nuovo allestimento e si scioglie in primavera, quindi esiste soltanto da dicembre ad aprile circa."
+        },
+        {
+          "q": "Dove sono i migliori bar di après-ski a Levi e Ylläs?",
+          "a": "A Levi la Hullu Poro Areena si trova ai piedi della pista principale ed è il più grande locale di après-ski della Finlandia, con artisti finlandesi dal vivo e una capienza di 1.700 persone; il Bar Ihku e il Pub Hölmölä tengono banco a notte fonda. Sul versante di Ylläs, il Selvä Pyy, nel villaggio di Äkäslompolo, è il punto di ritrovo dopo i fjell, e la discoteca del Lapland Hotels Äkäshotelli prende il testimone quando i pub chiudono. Gli impianti chiudono verso le 16 e i bar si riempiono subito dopo."
+        },
+        {
+          "q": "Si può bere alcol all'aperto in Finlandia?",
+          "a": "In genere sì: dalla riforma della legge sull'alcol del 2018, bere in luoghi pubblici come parchi e spiagge è consentito agli adulti, purché non si disturbino gli altri né si crei schiamazzo. I singoli comuni possono comunque limitarlo in aree specifiche (per esempio piazze o parchi giochi), e l'ubriachezza molesta in pubblico è un reato. L'età legale per bere è 18 anni per birra, vino e sidro, e 20 anni per i superalcolici."
+        },
+        {
+          "q": "Quali sono gli orari tipici dei bar in Lapponia?",
+          "a": "La maggior parte dei pub apre nel pomeriggio e serve fino a circa mezzanotte nei giorni feriali, con chiusura più tarda, spesso le 2 o le 4, il venerdì e il sabato nelle località sciistiche. La legge consente la vendita di alcol fino all'1:30, mentre per servire più tardi serve un permesso di proroga. Gli orari cambiano con la stagione: nelle località i bar restano aperti a lungo durante i mesi sciistici e accorciano gli orari nelle stagioni intermedie più tranquille, perciò conviene verificare direttamente con il locale prima di uscire."
+        },
+        {
+          "q": "Quali bevande locali provare in Lapponia?",
+          "a": "Cerchi il lakka, liquore di mora artica, ottenuto dalla bacca ambrata che matura solo per poche settimane ogni estate, spesso servito freddo o mescolato in un cocktail. Vale la pena cercare anche la birra artigianale locale: birrifici come Lapland Brewery a Rovaniemi e Lapon Panimo a Saariselkä producono con acqua artica e ingredienti del bosco come germogli di abete rosso e mirtillo rosso. Per qualcosa di classico, la lager Lapin Kulta è prodotta a Tornio da oltre 150 anni, e il Koskenkorva è l'acquavite di cereali di tutti i giorni in Finlandia."
+        },
+        {
+          "q": "Dove si può comprare alcol in Finlandia fuori dai bar?",
+          "a": "Supermercati e minimarket vendono birra, sidro e altre bevande fino al 5,5% di gradazione, di solito fino alle 21. Tutto ciò che è più forte, vino, superalcolici e birra forte, si vende soltanto da Alko, la catena statale, aperta in orario diurno e che chiude presto il sabato e tutta la domenica. Nei villaggi più piccoli della Lapponia l'Alko più vicino può essere piuttosto lontano, perciò conviene fare scorta prima di partire per una baita isolata."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Dove andare poi",
+      "title": "Pianifichi il resto del Suo viaggio in Lapponia",
+      "sub": "LaplandBars fa parte della rete LaplandVibes. Per tutto ciò che ruota intorno ai drink, queste guide sorelle approfondiscono.",
+      "links": [
+        {
+          "anchor": "Vita notturna e bar fino a tardi in Lapponia",
+          "desc": "Discoteche, bar sotto l'aurora e cosa resta aperto quando i pub chiudono.",
+          "href": "https://laplandnightlife.com"
+        },
+        {
+          "anchor": "Dove mangiare in Lapponia",
+          "desc": "Renna, alta cucina artica e i ristoranti che prenotano i locali.",
+          "href": "https://laplanddining.com"
+        },
+        {
+          "anchor": "Pianifica il viaggio in Lapponia",
+          "desc": "Stagioni, destinazioni e come mettere insieme tutto il viaggio.",
+          "href": "https://laplandvisit.com"
+        }
+      ]
+    }
+  },
+  "bars": {
+    "title": "Bar nella Lapponia finlandese | LaplandBars",
+    "description": "I bar dove la gente del posto beve davvero in Lapponia, Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Orari, cosa si beve, quando passare.",
+    "hero": {
+      "title": "Bar & pub",
+      "sub": "Tutti i bar elencati qui esistono davvero, sono aperti adesso e meritano una serata. Niente posti sponsorizzati, niente riempitivi, solo la vera cultura del bere lappone."
+    },
+    "featuredBadge": "In evidenza",
+    "venueWebsite": "Sito del locale",
+    "checkBook": "Verifica disponibilità e prenota",
+    "bookDirect": "Prenota direttamente",
+    "stayBand": {
+      "headline": "Dorma a piedi da questi bar di {{city}}",
+      "sub": "Disponibilità in tempo reale via Hotels.com, prenoti direttamente, senza costi aggiuntivi.",
+      "cta": "Hotel a {{city}}"
+    },
+    "disclaimer": "Prezzi e orari variano con la stagione. Verifichi sempre direttamente con il locale prima di andare. Questa guida è curata con cura ma non è una piattaforma di prenotazione in tempo reale.",
+    "cityVibes": {
+      "Rovaniemi": "La capitale artica dopo il tramonto, pub di birrifici artigianali, cocktail bar e un vero bar fatto di ghiaccio.",
+      "Levi": "La capitale finlandese dell'après-ski. La Hullu Poro Areena ospita 1.700 persone. La montagna chiude alle 16 e la festa parte alle 16:01.",
+      "Yllas": "Più tranquilla di Levi, più calda di qualsiasi altro posto. Accoglienti pub di montagna dove gli abitanti del posto e i visitatori si mescolano senza fronzoli.",
+      "Saariselka": "Remoto, buio e sorprendentemente ben fornito. Il Gastropub Giitu ha una delle migliori selezioni di birra artigianale a nord del Circolo Polare Artico."
+    },
+    "venues": {
+      "Lapland Brewery Pub": {
+        "type": "Pub con birrificio artigianale",
+        "description": "Il pub con birrificio artigianale più a nord di Rovaniemi, che serve birre fresche prodotte sul posto. Lapland Brewery utilizza acqua artica pura e ricette di ispirazione locale, birre alle cime di abete, bionde alla mirtilla rossa, porter affumicate. Si sieda accanto ai tini e beva ciò che è stato prodotto quella stessa settimana.",
+        "highlights": [
+          "Birra artigianale di produzione propria",
+          "Ingredienti artici",
+          "Visite al birrificio"
+        ],
+        "tour": {
+          "label": "Visita al birrificio e degustazione",
+          "schedule": "Venerdì 17:00 + 18:30 (dic–mar, settimanalmente)",
+          "hint": "Si iscriva entro mercoledì alle 14:00, minimo 3 persone. Prenoti via info@lapinpanimo.fi o +358 45 133 4410.",
+          "directLabel": "Prenoti su lapinpanimo.fi"
+        }
+      },
+      "Café & Bar 21": {
+        "type": "Cocktail bar",
+        "description": "Rovakatu 21, proprio nel cuore di Rovaniemi. Il bar più costantemente menzionato della città, un ibrido di caffetteria di giorno e cocktail bar di sera. Drink creativi, carta dei vini curata, un pubblico raffinato. Un preferito degli abitanti del posto e dei visitatori che cercano qualcosa oltre il pub standard.",
+        "highlights": [
+          "Cocktail creativi",
+          "Selezione di vini",
+          "Posizione in centro città"
+        ]
+      },
+      "Uitto Pub": {
+        "type": "Pub tradizionale",
+        "description": "Una leggendaria istituzione di Rovaniemi. \"Confortevole, rilassato e leggendario\", Uitto serve agli abitanti del posto birre di qualità, drink, snack e pasti da decenni. Niente fronzoli, solo un buon pub finlandese che fa quello che un buon pub finlandese deve fare.",
+        "highlights": [
+          "Istituzione locale",
+          "Menu completo",
+          "Birre alla spina"
+        ]
+      },
+      "Nook Lounge": {
+        "type": "Bar & lounge",
+        "description": "Un accogliente ibrido tra caffetteria e bar dove i buoni drink si preparano con calma e le conversazioni si allungano. I baristi sanno il fatto loro. Apprezzato dai viaggiatori che sono stati in piedi tutto il giorno e cercano un posto caldo, senza fretta e ben illuminato.",
+        "highlights": [
+          "Atmosfera lounge",
+          "Drink curati",
+          "Serate lunghe"
+        ]
+      },
+      "Bull Bar & Grill": {
+        "type": "Bar & grill",
+        "description": "Situato all'interno dell'edificio dell'Arctic City Hotel, un grill bar in stile americano con un'atmosfera serale vivace. Buoni hamburger, drink come si deve, sport sugli schermi. Quel genere di posto che si riempie dopo le 21 e resta rumoroso fino a tardi.",
+        "highlights": [
+          "Menu grill",
+          "Sports bar",
+          "Posizione in hotel"
+        ]
+      },
+      "Ice Bar @ Arctic SnowHotel": {
+        "type": "Esperienza ice bar",
+        "description": "Costruito da zero ogni inverno, questo ice bar è scolpito da artisti e ricostruito con un nuovo tema ogni stagione. Si trova all'Arctic SnowHotel sul lago Lehtojärvi, 30 minuti dal centro di Rovaniemi. Drink serviti in bicchieri di ghiaccio. Temperatura: -5°C all'interno. Tuta termica fornita.",
+        "highlights": [
+          "Nuovo tema ogni anno",
+          "Bicchieri di ghiaccio",
+          "Tuta termica inclusa",
+          "-5°C all'interno"
+        ],
+        "tour": {
+          "label": "Visita all'ice bar + tuta termica",
+          "schedule": "Tutti i giorni 10:00–20:00 (15 dic – 31 mar)",
+          "hint": "Include un drink in un bicchiere di ghiaccio + tuta termica."
+        }
+      },
+      "Hullu Poro Areena": {
+        "type": "Venue di musica dal vivo & après-ski",
+        "description": "Il re indiscusso dell'après-ski lappone. Arena da 1.700 posti proprio ai piedi della pista principale di Levi, il più grande locale di après-ski di Finlandia. Artisti finlandesi di punta, pop star, rapper e DJ internazionali si esibiscono ogni sera durante la stagione sciistica. La pista da ballo si riempie alle 16 e non si svuota fino alle 2 di notte.",
+        "highlights": [
+          "Capacità di 1.700 persone",
+          "Artisti finlandesi di punta",
+          "Ai piedi delle piste",
+          "Spettacoli ogni sera"
+        ]
+      },
+      "Bar Ihku": {
+        "type": "Discoteca & bar",
+        "description": "Già una leggenda tra i festaioli di Levi. Ihku ha accumulato storie negli anni di caos notturno lappone. Karaoke, balli, abitanti del posto finlandesi e sciatori internazionali a condividere la stessa pista. Uno di quei posti che sembra ordinario fino alle 23, poi si capisce perché tutti ne parlano.",
+        "highlights": [
+          "Istituzione della notte fonda",
+          "Serate karaoke",
+          "Il preferito dai locali"
+        ]
+      },
+      "Pub Hölmölä": {
+        "type": "Pub",
+        "description": "\"Il pub più divertente di Levi.\" Hölmölä offre i migliori prodotti di birrificio e cocktail, accompagnati da un cibo da bar senza pretese. Giochi da tavolo, calcio balilla e biliardo gratuiti. Quel genere di pub che non si prende troppo sul serio, ed è proprio per questo che funziona.",
+        "highlights": [
+          "Giochi da tavolo & biliardo",
+          "Birre artigianali",
+          "Cibo da bar",
+          "Niente arroganza"
+        ]
+      },
+      "Pub Sohva": {
+        "type": "Birreria con ristorante",
+        "description": "Una birreria-ristorante calda e cordiale lungo la strada principale di Levi. Sohva è quel posto in cui si entra con l'idea di un solo drink e si esce tre ore dopo. Buona selezione di birre, cibo decente, servizio amichevole. Il pubblico del giorno scivola dritto in quello della sera.",
+        "highlights": [
+          "Posizione sulla via principale",
+          "Selezione di birre",
+          "Menu di cucina"
+        ]
+      },
+      "Bar Alakerta": {
+        "type": "Bar con musica dal vivo",
+        "description": "Terrazza soleggiata, musica dal vivo e i leggendari Open Stage Jam della domenica. Alakerta attira musicisti e amanti della musica, sia abitanti del posto sia artisti di passaggio che hanno sentito parlare delle sessioni domenicali. Senza pretese, caldo, con quel tipo di atmosfera che nasce quando la gente ama davvero quello che fa.",
+        "highlights": [
+          "Open Stage Jam la domenica",
+          "Musica dal vivo",
+          "Terrazza soleggiata"
+        ]
+      },
+      "Pub Old Mates": {
+        "type": "Pub britannico",
+        "description": "Un autentico pub in stile britannico piantato nel cuore della Lapponia finlandese. Old Mates spilla pinte come si deve, trasmette il calcio e offre un angolo di conforto familiare a chi ne ha bisogno dopo una lunga giornata sulle piste. Migliore della maggior parte dei pub in Gran Bretagna, perché la birra finlandese è davvero buona.",
+        "highlights": [
+          "Stile pub britannico",
+          "Sport sugli schermi",
+          "Pinte spillate come si deve"
+        ]
+      },
+      "Selvä Pyy": {
+        "type": "Pub & ristorante",
+        "description": "Il pub di riferimento nel villaggio di Äkäslompolo, sul versante Ylläs. Selvä Pyy serve birre artigianali, cocktail e autentico cibo da pub finlandese in una calda atmosfera da baita di tronchi. Dopo una giornata sui fjäll, è qui che convergono abitanti del posto e sciatori, niente fronzoli, solo buoni drink e compagnia rilassata.",
+        "highlights": [
+          "Villaggio di Äkäslompolo",
+          "Birre artigianali",
+          "Cucina da pub finlandese",
+          "Atmosfera da baita di tronchi"
+        ]
+      },
+      "Pirtukellari Night Club": {
+        "type": "Discoteca",
+        "description": "L'unica vera discoteca nell'area di Ylläs, all'interno del Lapland Hotels Äkäshotelli. Quando i pub si svuotano, la festa scende nel sottosuolo al Pirtukellari. DJ, balli e una pista sorprendentemente affollata per un villaggio di 400 abitanti. I venerdì di alta stagione sono davvero scatenati.",
+        "highlights": [
+          "Unica discoteca di Ylläs",
+          "DJ & balli",
+          "Dentro il Lapland Hotels"
+        ]
+      },
+      "Gastropub Giitu": {
+        "type": "Gastropub & birra artigianale",
+        "description": "Il miglior bar di Saariselkä, un autentico gastropub con un'impressionante selezione di birre artigianali e un menu che va ben oltre il classico cibo da pub. Giitu propone piatti di ispirazione lappone accanto a una rotazione di birre alla spina. L'atmosfera è calda, moderna ed esattamente ciò che si desidera dopo una caccia all'aurora boreale.",
+        "highlights": [
+          "Selezione di birra artigianale",
+          "Cucina lappone",
+          "Gastropub moderno"
+        ]
+      },
+      "Pirtti Pub & Restaurant": {
+        "type": "Pub & ristorante",
+        "description": "Un tradizionale pub-ristorante finlandese a Saariselkä che serve un'affidabile cucina finlandese accanto a una buona selezione di drink. Si trova nel complesso del Santa's Hotel Tunturi. Quel genere di posto su cui tutto il gruppo può mettersi d'accordo, che si voglia un hamburger, una birra o solo un angolo caldo dove sedersi dopo una lunga giornata artica.",
+        "highlights": [
+          "Menu completo da ristorante",
+          "Cucina finlandese tradizionale",
+          "Complesso alberghiero"
+        ]
+      }
+    }
+  },
+  "iceBars": {
+    "title": "Ice bar in Lapponia | snow hotel e lounge di ghiaccio | LaplandBars",
+    "description": "Gli ice bar della Lapponia, SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Cosa si serve, quando vengono rifatti, come vestirsi dentro.",
+    "hero": {
+      "title": "Ice bar",
+      "sub": "Ricostruiti ogni inverno con neve e ghiaccio, si sciolgono in primavera e spariscono fino al dicembre successivo. Non un bar a tema: un fenomeno artico stagionale."
+    },
+    "intro": [
+      "Ogni autunno, squadre di artisti del ghiaccio e operai scendono nei villaggi di neve della Lapponia finlandese. Tagliano blocchi di ghiaccio dai laghi gelati, compattano tonnellate di neve in stampi e scolpiscono a mano bar, sedie, archi e statue. A dicembre il risultato è pronto: bar pienamente funzionanti che operano a -5°C, dove ogni superficie, pareti, banco bar, bicchieri, è di ghiaccio.",
+      "Ogni anno porta un nuovo tema. Le sculture non sono mai le stesse. Ciò che vive in un inverno non esisterà più nel successivo. È proprio questa la sua essenza. Un ice bar è, per definizione, effimero, ed è proprio questo a renderlo un'esperienza da vivere prima che svanisca."
+    ],
+    "iceBarKicker": "Ice bar",
+    "bookKicker": "Prenoti la visita",
+    "bookCta": "Verifica disponibilità e prenota",
+    "stayKicker": "Dorma sul posto",
+    "stayCta": "Prenoti una camera vicina",
+    "venueWebsite": "Sito del locale",
+    "band": {
+      "kicker": "Dorma nella neve",
+      "title": "Non si limiti a visitarlo. Dorma in una stanza di neve.",
+      "body": "Le snow suite all'Arctic SnowHotel, al Lainio Snow Village e a Kakslauttanen vengono ricostruite ogni dicembre. -5 °C all'interno, sacco a pelo a tenuta termica, colazione nel caldo ristorante. Una notte basta, la ricorderà per anni.",
+      "ctaArctic": "Camere all'Arctic SnowHotel",
+      "ctaLainio": "Lainio Snow Village"
+    },
+    "expect": {
+      "title": "Cosa aspettarsi",
+      "items": [
+        {
+          "title": "Temperatura",
+          "body": "Intorno a -5°C all'interno. Tutti gli ice bar forniscono mantelle termiche, tute o giacche, incluse nel prezzo di ingresso. Si vesta a strati al di sotto."
+        },
+        {
+          "title": "Durata",
+          "body": "La maggior parte dei visitatori resta dentro 20–45 minuti. Tempo sufficiente per 1–2 drink e qualche foto. Le dita Le diranno quando è il momento di uscire."
+        },
+        {
+          "title": "Drink",
+          "body": "Cocktail classici, vin brulé caldo e specialità di ispirazione artica. Serviti in coppe o bicchieri di ghiaccio, sì, beve dal ghiaccio."
+        },
+        {
+          "title": "Stagione",
+          "body": "Aperti indicativamente da dicembre ad aprile, a seconda delle temperature. Alcuni anni durano più a lungo. Gli ice bar non esistono in estate."
+        }
+      ]
+    },
+    "venues": {
+      "SnowVillage IceBar": {
+        "description": "Scolpito interamente nella neve e nel ghiaccio ogni inverno da artisti del ghiaccio internazionali. Nuovo tema e nuove sculture ogni stagione. Drink serviti in bicchieri di puro ghiaccio artico. Fa parte del complesso del villaggio di neve, lo combini con una notte in una snow suite.",
+        "highlight": "Nuove sculture di ghiaccio ogni inverno",
+        "stayHint": "Snow suite + baite di tronchi sul posto"
+      },
+      "Arctic SnowHotel IceBar": {
+        "description": "Si trova all'Arctic SnowHotel, sulle rive del lago Lehtojärvi. Ricostruito ogni inverno con nuovi temi artistici, scolpito da artisti finlandesi e internazionali. Tuta termica fornita. La cornice del lago lo rende uno degli ice bar più suggestivi al mondo.",
+        "highlight": "Tuta termica inclusa",
+        "stayHint": "Camere di neve, igloo di vetro, baite di tronchi"
+      },
+      "Snowman World Ice Bar": {
+        "description": "All'interno del leggendario Snowman World al Villaggio di Babbo Natale, un'esperienza di ice bar diversa, più accessibile e adatta alle famiglie. Bevande calde e cocktail freddi serviti tra sculture di neve. Una buona opzione se combina l'ice bar con una visita a Babbo Natale.",
+        "highlight": "Posizione al Villaggio di Babbo Natale",
+        "stayHint": "Santa Holiday Village + Nova Skyland nelle vicinanze"
+      }
+    }
+  },
+  "apresSki": {
+    "title": "Après-ski in Lapponia | Levi, Ylläs, Saariselkä | LaplandBars",
+    "description": "Il vero après-ski lappone, bar ai piedi delle piste, DJ nelle lobby degli hotel, after-party negli ice bar. Dove bere a Levi, Ylläs, Pyhä e Saariselkä quando chiudono gli impianti.",
+    "hero": {
+      "title": "Après-ski",
+      "sub": "In Lapponia le piste chiudono alle 16 e la festa post-sci parte alle 16:01. Il doposci finlandese è più rumoroso, più caldo e più diretto che in qualsiasi altro posto al mondo."
+    },
+    "pillars": [
+      {
+        "title": "Ai piedi delle piste",
+        "body": "I migliori bar di après-ski stanno letteralmente alla base delle piste. Sci fino alla porta, sci nella rastrelliera, birra in mano."
+      },
+      {
+        "title": "Musica dal vivo",
+        "body": "Non DJ con i laptop, vere band. Rock, folk e pop finlandese suonati in locali di legno con luci da palco come si deve."
+      },
+      {
+        "title": "Spirito finlandese",
+        "body": "Niente fronzoli. L'après-ski finlandese è per tutti: abitanti del posto, turisti, famiglie, gruppi. L'atmosfera è il vero richiamo."
+      }
+    ],
+    "topInResort": "#1 a {{resort}}",
+    "stayKicker": "Dorma a {{resort}}",
+    "findHotel": "Trovi un hotel",
+    "stayHints": {
+      "Levi": "Ai piedi delle piste all'Hullu Poro, Levi Hotel Spa, K5 Levi.",
+      "Yllas": "Lapland Hotels Äkäshotelli, baite di tronchi, ski-in/ski-out.",
+      "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, igloo di vetro nelle vicinanze.",
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, chalet in baite di tronchi."
+    },
+    "venues": {
+      "Hullu Poro Areena": {
+        "type": "Arena di musica dal vivo",
+        "desc": "Il re indiscusso. Locale da 1.700 posti ai piedi della pista frontale. Artisti finlandesi di punta, DJ e band dal vivo ogni sera durante la stagione sciistica. La serata in baita a cui aspirano tutte le altre stazioni della Lapponia."
+      },
+      "Bar Levi Ihku": {
+        "type": "Discoteca",
+        "desc": "Una leggenda di Levi. Già pieno per le 21 e ancora scatenato alle 2. Karaoke, balli, abitanti del posto finlandesi e sciatori internazionali, alla fine tutti finiscono qui."
+      },
+      "Bar Alakerta": {
+        "type": "Bar con musica dal vivo",
+        "desc": "Open Stage Jam la domenica. L'après-ski per chi preferisce ascoltare un chitarrista a un DJ. Terrazza soleggiata, atmosfera autentica."
+      },
+      "Pub Hölmölä": {
+        "type": "Pub",
+        "desc": "\"Il pub più divertente di Levi.\" Giochi da tavolo, biliardo, birre artigianali e cibo da bar. L'opzione tranquilla dopo una grande giornata sulle piste."
+      },
+      "Selvä Pyy": {
+        "type": "Pub & ristorante",
+        "desc": "Il punto di riferimento per l'après-ski nel villaggio di Äkäslompolo. Birre artigianali, cocktail, cibo da pub finlandese in atmosfera da baita di tronchi. Abitanti del posto finlandesi e visitatori della stazione nello stesso spazio, caldo, rilassato, senza fronzoli."
+      },
+      "Pirtukellari Night Club": {
+        "type": "Discoteca",
+        "desc": "L'unica discoteca di Ylläs, nascosta all'interno del Lapland Hotels Äkäshotelli. Quando i pub si svuotano, la festa scende sotto terra. Solo ven–sab, ma le serate di alta stagione sono davvero scatenate."
+      }
+    },
+    "north": {
+      "title": "Si scia più a nord?",
+      "sub": "Saariselkä e Pyhä sono destinazioni di après-ski più tranquille e intime rispetto a Levi o Ylläs. Ne vale la pena per le folle ridotte e la densità di bar con vista aurora.",
+      "saariselka": "Hotel a Saariselkä",
+      "pyha": "Hotel a Pyhä"
+    },
+    "cta": {
+      "title": "Vedi tutti i bar",
+      "sub": "Sfogli l'elenco completo di bar e pub in tutte e quattro le destinazioni.",
+      "btn": "Tutti i bar e pub"
+    }
+  },
+  "cocktails": {
+    "title": "Cocktail della Lapponia, lampone artico, lakka, pino | LaplandBars",
+    "description": "Cocktail costruiti su ingredienti artici, lampone artico, mirtillo rosso, sciroppo di pino, ginepro, liquore di lakka. Dove berli, come farli a casa.",
+    "hero": {
+      "title": "Cocktail artici",
+      "sub": "Le stesse condizioni artiche che rendono speciali le bacche selvatiche danno cocktail come non si trovano altrove. Una cultura del cocktail costruita su ingredienti raccolti in natura."
+    },
+    "ingredientsTitle": "Gli ingredienti",
+    "ingredientsSub": "Le condizioni artiche producono ingredienti estremi, piante che sviluppano concentrazioni maggiori di sapore e nutrienti per sopravvivere al freddo e al sole infinito dell'estate.",
+    "stayBand": {
+      "kicker": "Dorma vicino al cocktail bar",
+      "title": "Non guidi per tornare a casa, prenoti una camera vicina",
+      "sub": "La maggior parte dei migliori cocktail bar si trova a Rovaniemi, Levi o Saariselkä. Hotel a portata di passeggiata:",
+      "cta": "Trovi hotel in Lapponia"
+    },
+    "cocktails": [
+      {
+        "name": "Cloudberry Sour",
+        "ingredients": "Gin finlandese · liquore di lakka · succo di limone · albume · sciroppo di zucchero",
+        "description": "Il cocktail artico per eccellenza. La camemoro, l'oro dell'Artico, matura per appena 2–3 settimane ogni luglio nelle torbiere subartiche. La sua dolcezza di miele e la sua acidità lavorano alla perfezione in un sour. La schiuma d'albume porta il profumo del fjäll dritto al naso.",
+        "season": "Camemoro: luglio–agosto"
+      },
+      {
+        "name": "Aurora boreale",
+        "ingredients": "Vodka finlandese · blue curaçao · acqua tonica · brillantini commestibili · lime",
+        "description": "Il cocktail da esibizione. Brillantini azzurro-verdi che ruotano nel bicchiere, un tributo dichiarato all'aurora boreale. Va ordinato in un posto con una finestra rivolta a nord. I brillantini si depositano in circa 30 secondi; lo beva prima.",
+        "season": "Aurora: settembre–marzo"
+      },
+      {
+        "name": "Lingonberry Spritz",
+        "ingredients": "Prosecco · succo di mirtillo rosso · liquore di sambuco · acqua di soda · mirtilli rossi freschi",
+        "description": "Rosso rubino intenso, acidulo, dissetante. I mirtilli rossi selvatici della Lapponia, la bacca più raccolta in Finlandia, bilanciano il sambuco floreale contro le bollicine. Semplice ma esattamente come deve essere. Quel tipo di drink che fa una gran figura in un bar a lume di candela.",
+        "season": "Mirtillo rosso: agosto–ottobre"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Camemoro (lakka)",
+        "note": "La bacca artica più rara, cresce solo nelle torbiere subartiche, 2–3 settimane all'anno. Usata in liquori, sorbetti e miscele per sour."
+      },
+      {
+        "name": "Mirtillo rosso",
+        "note": "La bacca selvatica più amata della Finlandia. Aspra, terrosa, versatile. Usata in succhi, liquori e come guarnizione."
+      },
+      {
+        "name": "Linfa di betulla",
+        "note": "Raccolta a inizio primavera quando la linfa scorre. Pulita, lievemente dolce. Impiegata in distillati artigianali e mixer per cocktail."
+      },
+      {
+        "name": "Timo artico",
+        "note": "Raccolto nei prati dei fjäll. Più intenso del timo coltivato per via delle condizioni di crescita estreme."
+      },
+      {
+        "name": "Olivello spinoso",
+        "note": "Bacche arancioni accese con più vitamina C per grammo dell'arancia. Usate in sour e shot."
+      },
+      {
+        "name": "Gin finlandese",
+        "note": "Diverse distillerie finlandesi producono gin aromatizzati con botaniche artiche, betulla, ginepro, camemoro, cime di abete."
+      }
+    ]
+  },
+  "craftBeer": {
+    "title": "Birrifici artigianali e beer bar in Lapponia | LaplandBars",
+    "description": "La scena craft beer in crescita in Lapponia, Pyhä Brewery, Lapin Panimo, Mac Brewing Levi. Cosa producono, dove assaggiarli.",
+    "hero": {
+      "title": "Birra artigianale",
+      "sub": "La birra artigianale finlandese si basa sugli stessi principi della cucina finlandese: acqua pura, ingredienti selvatici locali, niente scorciatoie. L'Artico aggiunge la sua firma a ogni bicchiere."
+    },
+    "featuredKicker": "Birrificio in evidenza",
+    "knownBeers": "Birre conosciute",
+    "stylesTitle": "Stili di birra artici",
+    "stylesSub": "I birrai artigianali finlandesi usano ingredienti dello stesso paesaggio dello chef. Il sottobosco conta quanto il birrificio.",
+    "tours": {
+      "kicker": "Tour e degustazioni",
+      "title": "Tour di birrifici e gastronomici prenotabili ora",
+      "sub": "Disponibilità in tempo reale da GetYourGuide. Visite ai birrifici, degustazioni in distilleria ed esperienze gastronomiche lapponi a Rovaniemi, Saariselkä e oltre.",
+      "fallback": "Vedi tutte le esperienze food & drink in Lapponia su GetYourGuide"
+    },
+    "stay": {
+      "kicker": "Dorma vicino al birrificio",
+      "title": "Eviti il taxi, prenoti un hotel a portata di passeggiata",
+      "body": "Il pub di Lapon Panimo chiude alle 23. Tornion Panimo si trova oltre il fiume rispetto al centro. Lapland Brewery è nel centro di Rovaniemi. Scelga il birrificio e prenoti un hotel a portata di passeggiata.",
+      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
+      "ctaTornio": "Tornio (Tornion Panimo)"
+    },
+    "breweries": [
+      {
+        "name": "Lapon Panimo",
+        "location": "Saariselkä",
+        "description": "Il birrificio artigianale più a nord della Finlandia. Fondato a Saariselkä, uno dei luoghi più remoti in cui operi un birrificio. Le sue birre utilizzano acqua artica pura e ingredienti di ispirazione locale: cime di abete, mirtilli rossi, segale. Il birrificio ha un piccolo pub in cui beve birra fresca a pochi metri da dove è stata prodotta."
+      },
+      {
+        "name": "Tornion Panimo",
+        "location": "Tornio (confine svedese)",
+        "description": "Premiato birrificio artigianale nella città di confine svedese-finlandese di Tornio. Conosciuto per la sua Arctic Circle Ale e per l'innovativa tradizione brassicola nordica. Esporta in tutta la Scandinavia e ha vinto numerosi premi nei concorsi birrari scandinavi."
+      },
+      {
+        "name": "Lapland Brewery",
+        "location": "Rovaniemi",
+        "description": "Il brewpub nel centro di Rovaniemi. Birre prodotte sul posto, servite al bar accanto ai tini. Osservi il processo di produzione mentre beve il risultato. Le release stagionali spesso incorporano ingredienti raccolti nella foresta lappone attorno alla città."
+      }
+    ],
+    "styles": [
+      {
+        "style": "Arctic Lager",
+        "desc": "Pulita, fresca, prodotta con acqua artica di origine glaciale. La base della birra artigianale finlandese, apparentemente semplice, sorprendentemente buona."
+      },
+      {
+        "style": "Spruce Tip Ale",
+        "desc": "Cime di abete raccolte in primavera. Resinose, erbacee, nulla di paragonabile a un birrificio del sud. Un sapore autenticamente artico."
+      },
+      {
+        "style": "Berry Wheat",
+        "desc": "Mirtilli rossi o camemori selvatici aggiunti a una base di birra di frumento. Acida, fruttata e stagionale, si sente da dove viene."
+      },
+      {
+        "style": "Smoked Porter",
+        "desc": "Ricca, scura, con il fumo della betulla finlandese. Una birra invernale per le sere fredde davanti al fuoco. Si sposa con la renna."
+      },
+      {
+        "style": "Rye Saison",
+        "desc": "La segale finlandese, cereale base della cucina del nord, in una saison di stile belga. Terrosa, speziata, insolita."
+      },
+      {
+        "style": "Sole di mezzanotte IPA",
+        "desc": "Prodotta durante il giorno polare in estate. Agrumata in apertura, amara, intitolata al fenomeno che rende possibile la coltivazione del luppolo artico."
+      }
+    ]
+  },
+  "drinkingCulture": {
+    "title": "Cultura finlandese del bere in Lapponia | LaplandBars",
+    "description": "Perché i finlandesi bevono come bevono, sauna-lager, monopolio Alko, dry january, il bicchiere della notte polare. Il contesto culturale da conoscere prima di entrare in un bar della Lapponia.",
+    "hero": {
+      "title": "Cultura finlandese del bere",
+      "sub": "Dal Koskenkorva del venerdì sera al kalsarikännit (bere a casa in mutande), una guida a come bevono davvero i finlandesi."
+    },
+    "intro": [
+      "La cultura finlandese del bere si fonda sulle contraddizioni. La Finlandia ha alcune tra le leggi sull'alcol più severe d'Europa, monopolio statale per i superalcolici, orari dei pub limitati, tasse elevate e tra i bevitori più entusiasti. Qui l'alcol non è rumore di fondo. È un atto deliberato, preso sul serio e spesso compiuto con cerimonia.",
+      "In Lapponia in particolare, il bere è inseparabile dall'ambiente. Si beve dopo una giornata sulle piste, dopo un tour in motoslitta, dopo una serata a caccia dell'aurora. Il freddo rende migliore la bevanda calda. Il buio rende più accogliente il pub a lume di candela. Il silenzio rende più rumorose le risate."
+    ],
+    "kossu": {
+      "title": "Koskenkorva, il distillato nazionale",
+      "body": [
+        "Se la Finlandia ha un distillato nazionale, spiritualmente e letteralmente, è il Koskenkorva. \"Kossu\" per chi lo conosce. Un distillato di cereali al 38% vol., ottenuto dall'orzo finlandese nel villaggio di Koskenkorva, in Ostrobotnia, dal 1953. La distilleria lavora 24 ore al giorno, ogni giorno dell'anno.",
+        "Il Koskenkorva non è vodka, è specificamente un distillato di cereali, con un profilo lievemente più ruvido e caratteriale rispetto alla vodka filtrata. È però estremamente pulito: distillato con grande purezza e congeneri minimi. I finlandesi diranno che la sbornia è quasi inesistente rispetto ai distillati più economici. Cosa che è vera oppure è uno dei miti finlandesi meglio riusciti.",
+        "Come lo bevono i finlandesi? Freddo, liscio, in un bicchierino. A volte con una birra come chaser (la combinazione si chiama viina + kalja, il classico abbinamento operaio finlandese). In Lapponia lo trova in ogni pub, di solito sullo speed rail. È stato sui tavoli finlandesi a matrimoni, funerali, sere di sauna del sabato e colazioni della domenica. Non è glamour. È proprio questo il punto."
+      ],
+      "factsLabel": "In breve:",
+      "facts": "Prodotto da Altia (oggi Anora Group). Oltre 10 milioni di litri venduti ogni anno in Finlandia. Il villaggio di Koskenkorva ha circa 1.500 abitanti. La distilleria è una delle più efficienti al mondo, a zero rifiuti, i residui dei cereali nutrono il bestiame."
+    },
+    "finlandia": {
+      "title": "Finlandia Vodka, la Finlandia al mondo",
+      "body": [
+        "Mentre il Koskenkorva è per i finlandesi, Finlandia è il regalo della Finlandia al resto del mondo. Lanciata nel 1970, lo stesso anno della prima Giornata della Terra, che è una coincidenza o un posizionamento di marca molto studiato, Finlandia è stata tra le prime vodka premium a fare della \"purezza\" il suo argomento centrale di vendita.",
+        "La ricetta è volutamente semplice: orzo a sei file coltivato in Finlandia, acqua di sorgente glaciale da Rajamäki, 200 km a nord di Helsinki. L'acqua è la protagonista. L'acqua di sorgente glaciale finlandese è tra le più morbide al mondo, povera di minerali, poco dura, il che produce una vodka nettamente pulita, leggera, praticamente senza retrogusto.",
+        "Finlandia è distillata oltre 200 volte in un processo di distillazione continua, non in lotti come la maggior parte dei distillati premium. Il risultato è di una coerenza estrema. Ha vinto degustazioni alla cieca internazionali contro concorrenti molto più costosi. In Finlandia ha ancora un prezzo ragionevole. All'estero indossa le sue credenziali finlandesi come distintivo di qualità premium."
+      ],
+      "factsLabel": "In breve:",
+      "facts": "Di proprietà di Brown-Forman (la casa madre di Jack Daniel's) dal 2004. Disponibile in oltre 80 paesi. L'iconica bottiglia satinata è sostanzialmente invariata dal 1970. Prodotta nella distilleria di Rajamäki, che produce distillati dal 1888."
+    },
+    "lapinKulta": {
+      "title": "Lapin Kulta, oro dall'Artico",
+      "body": [
+        "Se una birra appartiene davvero a una guida ai bar della Lapponia, è la Lapin Kulta, letteralmente \"l'oro della Lapponia\". Prodotta a Tornio, sul confine finlandese-svedese alla foce del fiume Tornionjoki, dal 1873. Da oltre 150 anni questa birra viene prodotta con acqua di una delle fonti brassicole più settentrionali al mondo.",
+        "Lapin Kulta è la classica pale lager finlandese, pulita, leggera, maltata e senza complicazioni. Non vince premi di birra artigianale, e non ci prova. È la birra che da cinque generazioni è sui tavoli delle baite finlandesi, sui pancali della sauna e nei festival. Quando un finlandese dice \"prendiamo una birra\", spesso intende questa. In Lapponia in particolare, ordinare una Lapin Kulta in un pub locale ha un senso che nessuna lager d'importazione potrebbe mai eguagliare.",
+        "Il marchio è passato di mano, da Hartwall a Heineken International, ma la birra in sé resta un pilastro finlandese. La trova in ogni bar della Lapponia, in ogni supermercato, in ogni Alko. È, nel migliore senso possibile, completamente ordinaria."
+      ],
+      "priceTitle": "Birra finlandese, quanto costa",
+      "prices": [
+        {
+          "label": "Lapin Kulta (lattina 0,33L, supermercato)",
+          "value": "~€2,30"
+        },
+        {
+          "label": "Karhu lager (lattina 0,33L, supermercato)",
+          "value": "~€2,30"
+        },
+        {
+          "label": "Sandels lager (lattina 0,33L, supermercato)",
+          "value": "~€2,20"
+        },
+        {
+          "label": "Koff Porter / specialità (0,33L, Alko)",
+          "value": "~€3,50–4,50"
+        },
+        {
+          "label": "Pinta alla spina in un bar della Lapponia",
+          "value": "~€6–8"
+        },
+        {
+          "label": "Pinta di birra artigianale in un bar della Lapponia",
+          "value": "~€7–10"
+        }
+      ],
+      "priceFootnote": "Prezzi indicativi al 2025. Le birre forti (oltre il 5,5% vol.) si trovano solo nei negozi statali Alko. I supermercati vendono birre fino al 5,5% vol.",
+      "otherLabel": "Altre lager finlandesi da conoscere:",
+      "other": "Karhu (\"Orso\"), la birra più venduta in Finlandia, leggermente più maltata della Lapin Kulta. Sandels, intitolata a un eroe di guerra finlandese, popolare lager economica. Olvi, prodotta a Iisalmi dal 1878, l'unico grande birrificio finlandese ancora a proprietà finlandese. Koff, il più antico marchio brassicolo di Helsinki (1819), oggi di proprietà Sinebrychoff/Carlsberg."
+    },
+    "lonkero": {
+      "title": "Lonkero, nato per le Olimpiadi",
+      "body": [
+        "Nel 1952 Helsinki ospitò le Olimpiadi estive. C'era un problema: la città non aveva abbastanza bar per servire la folla internazionale e le rigide regole finlandesi sulle licenze rendevano quasi impossibile aprirne di nuovi. Il monopolio statale dell'alcol, Alko, trovò la soluzione: un cocktail in lattina pronto da bere, vendibile legalmente nei luoghi olimpici.",
+        "La bevanda che inventarono era il lonkero, gin finlandese mescolato con soda al pompelmo. Leggero, dissetante, lievemente amaro. 5,5% vol. Venduto in lattine alte con un'etichetta distintiva. Fu un successo tale che continuarono a produrlo anche dopo le Olimpiadi. Da allora la Finlandia beve lonkero.",
+        "Oggi il lonkero è una vera istituzione culturale, esiste una \"festa del lonkero\" nella cultura finlandese (l'ultimo venerdì di luglio) e la categoria long drink ha ispirato l'intero comparto moderno degli RTD a livello globale. La Hartford Distilling negli Stati Uniti ha persino lanciato una versione americana chiamata \"The Long Drink\" dopo aver conosciuto l'originale finlandese. È probabilmente l'esportazione accidentale di maggior successo nella storia delle bevande finlandesi."
+      ]
+    },
+    "kalsarikannit": {
+      "title": "Kalsarikännit, l'arte di bere in mutande",
+      "body": [
+        "C'è un concetto finlandese che non ha equivalente diretto in nessun'altra lingua: kalsarikännit. Da kalsarit (mutande) e känni (essere ubriaco). Letteralmente: \"sbronza in mutande\". L'arte di ubriacarsi a casa, da soli o con persone strette, in mutande, senza la minima intenzione di uscire.",
+        "In Finlandia non è considerata una cosa vergognosa. Non è giudicata antisociale. Molti finlandesi la considerano l'apice del relax, un rifiuto deliberato della performance sociale che richiede andare in un bar. Niente vestiti. Niente attese del taxi. Niente chiacchiere con sconosciuti. Solo il divano, la bevanda preferita e la libertà di guardare qualsiasi cosa in televisione.",
+        "Nel 2018 il Ministero degli Esteri finlandese ha sostenuto ufficialmente il concetto come parte di una campagna nazionale per spiegare la cultura finlandese al mondo. Hanno rilasciato una serie di emoji che raffigura i kalsarikännit, una persona in mutande con un drink. La campagna è diventata virale in tutto il mondo. La Finlandia è stata per un attimo il paese più discusso nei media internazionali, per un motivo che non aveva nulla a che fare con la politica.",
+        "I kalsarikännit non sono solo una battuta. Riflettono qualcosa di autentico nella cultura finlandese: il valore della solitudine, il conforto della propria casa e una profonda diffidenza nazionale verso la socialità di facciata. In Lapponia, dove gli inverni sono lunghi, bui e freddi, i kalsarikännit sono praticamente un meccanismo di sopravvivenza."
+      ],
+      "rulesTitle": "Come praticare i kalsarikännit a regola d'arte",
+      "rules": [
+        "1. Indossi le mutande più comode che ha.",
+        "2. Riempia il frigorifero prima del calare della notte (non è negoziabile).",
+        "3. Disattivi le notifiche del telefono.",
+        "4. Si sieda. Non si alzi per almeno due ore.",
+        "5. Beva lentamente. Non è una gara.",
+        "6. In nessun caso, faccia piani per uscire più tardi."
+      ]
+    },
+    "sauna": {
+      "title": "Sauna & sisu, il quadro completo",
+      "body": [
+        "La cultura finlandese del bere non si può separare dalla sauna. Il sabato finlandese standard segue un ordine preciso: lavoro, sauna, birra. La birra si beve in sauna o subito dopo, quando la temperatura corporea è ancora alta e la birra fredda crea un effetto quasi fisiologico. Questa combinazione è così radicata nella cultura che la maggior parte delle case estive finlandesi ha un rituale sauna-birra dedicato, che inizia intorno alle 16 e prosegue finché qualcuno si addormenta in barca.",
+        "In Lapponia la sauna è ancora più centrale. Dopo una giornata a -30 °C la sauna non è un lusso, è reidratazione, recupero e socialità in un colpo solo. Molti hotel e baite della Lapponia hanno saune private. La combinazione di sauna, tuffo nel lago o nella neve e birra fredda è, secondo i finlandesi, migliore di qualsiasi trattamento termale al mondo. Probabilmente hanno ragione.",
+        "Il sisu, il concetto tipicamente finlandese di determinazione stoica e resilienza di fronte alle avversità, vale anche per il bere. Un finlandese che ha bevuto per sette ore e lunedì mattina è comunque al lavoro non viene considerato irresponsabile. Si dice che abbia sisu."
+      ]
+    },
+    "cta": {
+      "title": "La provi di persona",
+      "sub": "La teoria è interessante. La pratica è meglio. Trovi i bar dove la cultura del bere finlandese è viva.",
+      "btnStay": "Trovi un alloggio in Lapponia",
+      "btnExplore": "Esplora tutti i bar"
+    }
+  },
+  "about": {
+    "title": "Su LaplandBars",
+    "description": "Su LaplandBars, guida editoriale indipendente su dove e come si beve in Lapponia.",
+    "h1": "Su LaplandBars",
+    "body": [
+      "LaplandBars è una guida editoriale indipendente ai bar, ai pub, agli ice bar e alla vita notturna in Lapponia finlandese, scritta dalla Finlandia, non generata automaticamente da un database.",
+      "Ogni locale elencato è un posto reale; le informazioni provengono dalle pagine dei locali stessi e dai dati di Google. La copertura si concentra sulle quattro destinazioni principali della Lapponia finlandese, Rovaniemi, Levi, Ylläs e Saariselkä e viene aggiornata quando i bar aprono, chiudono o cambiano. Fonti citate; correzioni benvenute.",
+      "LaplandBars fa parte dell'ecosistema <1>LaplandVibes</1>, una rete di siti di viaggio dedicati alla Lapponia finlandese.",
+      "Il sito è gestito da Lapeso Oy (Finlandia). Domande o correzioni: <1>info@laplandvibes.com</1>"
+    ],
+    "back": "← Torni alla home"
+  },
+  "newsletter": {
+    "kicker": "Newsletter <1>#LAPLANDVIBES</1>",
+    "headlineLine1": "Beviamo soprattutto in Lapponia,",
+    "headlineLine2": "e scriviamo quello che impariamo.",
+    "sub": "Quando si apre la finestra dell'aurora, quando gli ice bar mostrano il volto invernale, quando un programma di après-ski vale davvero il viaggio, una mail breve. Scritta dalla Finlandia, in italiano. Inviata solo quando ne vale la pena, niente invii a calendario.",
+    "benefits": [
+      {
+        "title": "Quando l'aurora compare davvero",
+        "body": "Seguiamo le previsioni dell'Istituto Meteorologico Finlandese ogni notte serena. Quando il Kp si allinea, Le inviamo un avviso, così può essere nel bar con la finestra giusta quando le luci si accendono."
+      },
+      {
+        "title": "Quando aprono gli ice bar",
+        "body": "Arctic SnowHotel e Lainio si ricostruiscono ogni dicembre. Le condividiamo le vere date di apertura e quale tema dell'anno merita il viaggio, prima che le pagine di prenotazione si riempiano."
+      },
+      {
+        "title": "Chi suona all'après-ski",
+        "body": "L'Hullu Poro Areena annuncia il cartellone della stagione a novembre. Le segnaliamo i nomi per cui vale la pena di prendere un volo, le piccole serate al Bar Levi Ihku e i concerti di Saariselkä che nessun altro nota."
+      },
+      {
+        "title": "Nuovi bar che meritano una deviazione",
+        "body": "Le birre stagionali di Lapon Panimo. Un cocktail bar pop-up a Rovaniemi. Un nuovo birrificio sul versante di Tornio. Le raccontiamo le aperture mentre sono ancora nuove."
+      }
+    ],
+    "doneMessage": "Ricevuto. Ci vediamo sotto l'aurora.",
+    "emailPlaceholder": "indirizzo@email.com",
+    "submitIdle": "Ricevi le lettere dalla Lapponia",
+    "submitLoading": "Invio in corso…",
+    "errorPrefix": "Iscrizione non riuscita",
+    "errorFallback": "Iscrizione non riuscita. Riprovi o scriva a info@laplandvibes.com.",
+    "footnote": "Una mail quando ne vale la pena. Cancellazione con un clic, senza domande. <1>Informativa sulla privacy</1>",
+    "emailLabel": "E-mail"
+  },
+  "privacy": {
+    "title": "Informativa sulla privacy | LaplandBars",
+    "description": "Come trattiamo i Suoi dati su LaplandBars."
+  },
+  "terms": {
+    "title": "Termini di utilizzo | LaplandBars",
+    "description": "I termini di utilizzo di LaplandBars."
+  },
+  "cookie": {
+    "title": "Informativa sui cookie | LaplandBars",
+    "description": "Uso dei cookie su LaplandBars."
+  },
+  "heroComponent": {
+    "titleLine1": "I migliori bar e pub della",
+    "openYearRound": "Aperto tutto l’anno",
+    "iceBarsWinter": "Bar di ghiaccio nella stagione invernale",
+    "exploreVenues": "Scopri i locali"
+  },
+  "rideBand": {
+    "kicker": "Il ritorno",
+    "title": "Organizza il rientro prima del primo giro",
+    "sub": "I drink sono la parte facile. Decidi prima come torni alla baita, poi siediti con calma."
+  },
+  "experiences": {
+    "barCrawl": {
+      "kicker": "Prenota",
+      "rovaniemi": {
+        "title": "Tour di bar e birrifici a Rovaniemi",
+        "body": "Preferisci sistemare tutto prima di arrivare? Le visite guidate ai birrifici, le degustazioni e i giri tra i bar di Rovaniemi si prenotano già ora, con disponibilità in tempo reale e recensioni vere.",
+        "cta": "Vedi i tour a Rovaniemi"
+      },
+      "levi": {
+        "title": "Serate guidate a Levi",
+        "body": "Levi è fatta per questo. Sfoglia le esperienze après-ski e i bar che una guida può organizzare per te: niente da pianificare, basta presentarsi.",
+        "cta": "Vedi le esperienze a Levi"
+      },
+      "sectionTitle": "Preferisci una serata guidata? Prenota in anticipo"
+    },
+    "cocktail": {
+      "kicker": "Falli tu",
+      "title": "Esperienze di cocktail e degustazioni",
+      "body": "Alcune delle migliori sessioni di cocktail artici e degustazioni di distillati in Lapponia si prenotano con una guida. Impara il cloudberry sour alla fonte, poi ordinalo da intenditore.",
+      "cta": "Vedi le esperienze di cocktail e degustazioni"
+    }
+  }
+}

@@ -1,34 +1,756 @@
 {
   "home": {
-    "title": "LaplandBars — Missä Lappi oikeasti juo",
-    "description": "Baarit, panimot, lumibaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä."
+    "title": "LaplandBars: missä Lappi oikeasti juo",
+    "description": "Baarit, panimot, lasibaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
+    "eyebrow": "Suomen Lappi",
+    "hero": {
+      "headlineLine1": "Lapin parhaat",
+      "headlineLine2": "baarit ja pubit",
+      "sub": "Jäästä veistetyt lasibaarit. Legendaariset après-ski-paikat. Lämpimät pubit, joiden ikkunoista näkyy revontulet. Käsin valitut suosikit, kaikki oikeasti olemassa.",
+      "subSummer": "Järvenrantaterassit ja kattobaarit keskiyön auringossa. Terassit, joilla on valoisaa puolenyön jälkeenkin, live-musiikkia ja kesäfestareita. Käsin valitut suosikit, kaikki oikeasti olemassa.",
+      "ctaStay": "Etsi majoitus läheltä",
+      "ctaBrowse": "Selaa baareja"
+    },
+    "featured": {
+      "title": "Toimituksen poiminta",
+      "sub": "Käsin valitut baarit ja kokemukset, jotka määrittävät Lapin iltaelämän.",
+      "viewAll": "Kaikki baarit"
+    },
+    "categories": {
+      "title": "Kolme tapaa juoda Lapissa",
+      "cards": [
+        {
+          "title": "Lasibaarit",
+          "desc": "Juo jäästä veistetyistä laseista baarissa, joka on rakennettu lumesta ja jäästä. Aidosti arktinen kokemus, joka rakennetaan uudelleen joka talvi."
+        },
+        {
+          "title": "Après-ski",
+          "desc": "Hullu Poro Areenan 1 700 hengen lavasta lämpimiin tunturipubeihin. Lapin après-ski on legendaarinen syystä."
+        },
+        {
+          "title": "Live-musiikki",
+          "desc": "Open stage -jamit, bändit, karaokea hirsiladoissa. Lapin parhaat musailtat alkavat, kun revontulet syttyvät."
+        }
+      ]
+    },
+    "destinations": {
+      "title": "Selaa kohteittain",
+      "sub": "Valitse hiihtokeskus ja katso mikä on auki tänä iltana.",
+      "statVenues": "Valittua kohdetta",
+      "statDestinations": "Kohdetta",
+      "statIceBars": "Lasibaaria"
+    },
+    "stayBand": {
+      "kicker": "Yövy lähellä",
+      "title": "Nuku kävelymatkan päässä baarista",
+      "sub": "Valitse missä haluat juoda, varaa huone kulman takaa. Reaaliaikainen saatavuus Hotels.comin kautta.",
+      "cardCtaLabel": "Yövy: {{city}}",
+      "browseCta": "Selaa hotelleja",
+      "subs": {
+        "rovaniemi": "Baarit + lasibaarit · lentokenttä lähellä",
+        "levi": "Hullu Poro après-ski · rinteen vieressä",
+        "yllas": "Lainio Snow Village · metsäpubit",
+        "saariselka": "Revontulipubit · Inari ja Kakslauttanen lähellä"
+      },
+      "disclaimer": "Hotels.com-varaukset go.laplandvibes.comin kautta. Kumppanikomissio tukee sivustoa ilman lisäkustannuksia sinulle."
+    },
+    "faq": {
+      "title": "Lapin baarit: kysymykset ja vastaukset",
+      "sub": "Mitä vierailijat kysyvät ennen iltaa ulkona Suomen Lapissa.",
+      "items": [
+        {
+          "q": "Mikä on lasibaari Lapissa?",
+          "a": "Lasibaari on lumesta ja järvenjäästä rakennettu baari, jonka tiski, seinät ja jopa lasit on veistetty jäästä. Sisällä on noin −5 °C, joten paikoissa kuten Arctic SnowHotelin lasibaari lähellä Rovaniemeä saat ovella lainaksi lämpöviitan tai -haalarin. Jokainen rakennetaan uudelleen uudella teemalla joka talvi ja sulaa keväällä, joten se on olemassa vain suunnilleen joulukuusta huhtikuuhun."
+        },
+        {
+          "q": "Mitkä ovat parhaat après-ski-baarit Levillä ja Ylläksellä?",
+          "a": "Levillä Hullu Poro Areena sijaitsee pääsrinteen juurella ja on Suomen suurin après-ski-paikka, jossa on live-esiintyjiä ja 1 700 hengen kapasiteetti; Bar Ihku ja Pub Hölmölä kantavat myöhäiset tunnit. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on kokoontumispaikka tuntureilta tultaessa, ja Lapland Hotels Äkäshotellin yökerho ottaa vallan, kun pubit hiljenevät. Hissit sulkevat noin klo 16, ja baarit täyttyvät heti perään."
+        },
+        {
+          "q": "Saako Suomessa juoda alkoholia ulkona?",
+          "a": "Pääsääntöisesti kyllä. Vuoden 2018 alkoholilain uudistuksen jälkeen juominen yleisillä paikoilla kuten puistoissa ja rannoilla on sallittua täysi-ikäisille, kunhan et häiritse muita tai aiheuta yleistä häiriötä. Yksittäiset kunnat voivat silti rajoittaa sitä tietyillä alueilla (esimerkiksi toreilla tai leikkipaikoilla), ja julkinen juopumus ja häiriköinti on rangaistavaa. Ikäraja on 18 vuotta oluelle, viinille ja siiderille ja 20 vuotta väkeville."
+        },
+        {
+          "q": "Mitkä ovat baarien tyypilliset aukioloajat Lapissa?",
+          "a": "Useimmat pubit avaavat iltapäivällä ja tarjoilevat arkisin noin puolenyön asti, ja hiihtokeskuksissa perjantaisin ja lauantaisin suljetaan myöhemmin, usein klo 2 tai 4. Lupalainsäädäntö sallii alkoholin myynnin klo 1.30 asti, ja myöhempään tarjoiluun tarvitaan jatkoaikalupa. Ajat muuttuvat kauden mukaan: keskusten baarit ovat pitkään auki talven hiihtokuukausina ja pitävät lyhyempiä aukioloaikoja hiljaisina väliseesonkeina, joten kannattaa tarkistaa suoraan kohteesta ennen lähtöä."
+        },
+        {
+          "q": "Mitä paikallisia juomia kannattaa maistaa Lapissa?",
+          "a": "Etsi lakkaa eli lakkalikööriä, joka tehdään meripihkanvärisestä arktisesta marjasta. Marja kypsyy vain muutaman viikon joka kesä, ja likööri tarjotaan usein kylmänä tai cocktailiin sekoitettuna. Myös paikallista pienpanimo-olutta kannattaa etsiä: panimot kuten Lapland Brewery Rovaniemellä ja Lapon Panimo Saariselällä panevat arktisella vedellä ja metsän raaka-aineilla kuten kuusenkerkällä ja puolukalla. Klassikkoa kaipaavalle Lapin Kulta -lageria on pantu Torniossa yli 150 vuotta, ja Koskenkorva on suomalaisten arkinen viljaviina."
+        },
+        {
+          "q": "Mistä Suomessa voi ostaa alkoholia baarien ulkopuolelta?",
+          "a": "Ruokakaupat ja lähikaupat myyvät olutta, siideriä ja muita enintään 5,5 til-% juomia, yleensä klo 21 asti. Kaikki vahvempi, eli viini, väkevät ja vahva olut, myydään vain Alkossa, valtion ketjussa, joka on auki päiväsaikaan ja sulkee aikaisin lauantaisin ja koko sunnuntain. Pienemmissä Lapin kylissä lähin Alko voi olla matkan päässä, joten kannattaa täydentää varastot ennen syrjäiselle mökille lähtöä."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Minne seuraavaksi",
+      "title": "Suunnittele loput Lapin-matkastasi",
+      "sub": "LaplandBars on osa LaplandVibes-verkostoa. Kaikkeen juomien ympärillä nämä sisaroppaat menevät syvemmälle.",
+      "links": [
+        {
+          "anchor": "Lapin yöelämä ja myöhäiset baarit",
+          "desc": "Yökerhot, revontulibaarit ja mikä on auki, kun pubit sulkevat.",
+          "href": "https://laplandnightlife.com"
+        },
+        {
+          "anchor": "Missä syödä Lapissa",
+          "desc": "Poroa, arktista fine diningia ja ravintolat, jotka paikalliset varaavat.",
+          "href": "https://laplanddining.com"
+        },
+        {
+          "anchor": "Suunnittele Lapin-matkasi",
+          "desc": "Kaudet, kohteet ja miten koota koko matka yhteen.",
+          "href": "https://laplandvisit.com"
+        }
+      ]
+    }
   },
   "bars": {
     "title": "Baarit Suomen Lapissa | LaplandBars",
-    "description": "Lapin baarit, joissa paikalliset oikeasti käyvät — Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Aukioloajat, mitä kaadetaan, milloin käydä."
+    "description": "Lapin baarit, joissa paikalliset oikeasti käyvät: Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Aukioloajat, mitä kaadetaan, milloin käydä.",
+    "hero": {
+      "title": "Baarit ja pubit",
+      "sub": "Jokainen tässä listattu baari on oikeasti olemassa, auki ja iltasi arvoinen. Ei maksettuja sijoituksia, ei täytettä, vain Lapin todellinen baarikulttuuri."
+    },
+    "featuredBadge": "Toimituksen poiminta",
+    "venueWebsite": "Kohteen verkkosivu",
+    "checkBook": "Tarkista saatavuus ja varaa",
+    "bookDirect": "Varaa suoraan",
+    "stayBand": {
+      "headline": "Yövy kävelymatkan päässä {{city}}n baareista",
+      "sub": "Reaaliaikainen saatavuus Hotels.comin kautta. Varaa suoraan, ei piilokuluja.",
+      "cta": "Hotellit: {{city}}"
+    },
+    "disclaimer": "Hinnat ja aukioloajat vaihtelevat kausittain. Varmista aina suoraan kohteesta ennen vierailua. Tämä opas pidetään niin ajantasaisena kuin mahdollista, mutta se ei ole reaaliaikainen varausalusta.",
+    "cityVibes": {
+      "Rovaniemi": "Arktinen pääkaupunki pimeän tultua, pienpanimopubit, cocktailbaarit ja oikea jäästä rakennettu baari.",
+      "Levi": "Suomen rinnejuhlien pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkee klo 16 ja bileet alkavat 16:01.",
+      "Yllas": "Levia rauhallisempi, lämpimämpi kuin missään muualla. Lämpimät tunturipubit, joissa paikalliset ja vierailijat sekoittuvat ilman esittelyä.",
+      "Saariselka": "Syrjäinen, pimeä ja yllättävän hyvin varustettu. Gastropub Giitulla on yksi parhaista pienpanimovalikoimista napapiirin pohjoispuolella."
+    },
+    "venues": {
+      "Lapland Brewery Pub": {
+        "type": "Pienpanimopubi",
+        "description": "Rovaniemen pohjoisin pienpanimopubi, joka tarjoaa paikan päällä pantua tuoretta olutta. Lapland Brewery käyttää puhdasta arktista vettä ja paikallisia raaka-aineita, kuusenkerkkäaleja, puolukkavehnää, savustettua porteria. Istu tankkien viereen ja juo sitä, mitä pantiin viime viikolla.",
+        "highlights": [
+          "Talon panemaa olutta",
+          "Arktiset raaka-aineet",
+          "Panimokierroksia"
+        ],
+        "tour": {
+          "label": "Panimokierros ja maistelu",
+          "schedule": "Perjantaisin 17:00 + 18:30 (joulu–maaliskuu viikoittain)",
+          "hint": "Ilmoittaudu keskiviikkona klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
+          "directLabel": "Varaa lapinpanimo.fi:sta"
+        }
+      },
+      "Café & Bar 21": {
+        "type": "Cocktailbaari",
+        "description": "Rovakatu 21, keskellä Rovaniemen sydäntä. Kaupungin useimmin mainittu baari, hybridikahvila päivisin, cocktailbaari iltaisin. Luovia juomia, harkittu viinilista, sivistynyt yleisö. Paikallisten ja vierailijoiden suosikki, kun haluaa jotain peruspubia enemmän.",
+        "highlights": [
+          "Luovat cocktailit",
+          "Viinivalikoima",
+          "Keskustan sijainti"
+        ]
+      },
+      "Uitto Pub": {
+        "type": "Perinteinen pubi",
+        "description": "Legendaarinen rovaniemeläinen instituutio. \"Mukava, rento ja legendaarinen\", Uitto on tarjonnut paikallisille laadukkaita oluita, drinkkejä, naposteltavaa ja ruokaa vuosikymmeniä. Ei poseerausta, vain hyvä suomalainen pubi, joka tekee sen mitä hyvän suomalaisen pubin kuuluukin.",
+        "highlights": [
+          "Paikallinen instituutio",
+          "Ruokalista",
+          "Hanaoluet"
+        ]
+      },
+      "Nook Lounge": {
+        "type": "Baari ja lounge",
+        "description": "Lämmin kahvilan ja baarin yhdistelmä, jossa hyvät juomat tehdään rauhassa ja keskustelut venyvät. Baarimikot tietävät mitä tekevät. Suosittu matkailijoiden parissa, jotka ovat olleet jaloillaan koko päivän ja kaipaavat lämpimää, kiireetöntä ja hyvin valaistua paikkaa.",
+        "highlights": [
+          "Lounge-tunnelma",
+          "Käsintehdyt juomat",
+          "Pitkät illat"
+        ]
+      },
+      "Bull Bar & Grill": {
+        "type": "Grillibaari",
+        "description": "Sijaitsee Arctic City Hotel -rakennuksessa, amerikkalaistyylinen grillibaari, jossa on vilkas iltatunnelma. Hyviä hampurilaisia, kunnon drinkkejä, urheilua ruuduilla. Sitä lajia paikkoja, jotka täyttyvät yhdeksän jälkeen ja pysyvät äänekkäinä myöhään.",
+        "highlights": [
+          "Grillimenu",
+          "Urheilubaari",
+          "Hotellin sijainti"
+        ]
+      },
+      "Ice Bar @ Arctic SnowHotel": {
+        "type": "Lasibaarielämys",
+        "description": "Rakennetaan alusta joka talvi, lasibaarin veistävät taiteilijat ja jokainen kausi saa uuden teeman. Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla, 30 minuuttia Rovaniemen keskustasta. Juomat tarjoillaan jäästä tehdyissä laseissa. Lämpötila: -5 °C sisällä. Lämpöhaalarit kuuluvat lippuun.",
+        "highlights": [
+          "Uusi teema vuosittain",
+          "Jäälasit",
+          "Lämpöhaalari mukana",
+          "-5 °C sisällä"
+        ],
+        "tour": {
+          "label": "Lasibaarivierailu + lämpöhaalari",
+          "schedule": "Päivittäin 10:00–20:00 (15.12.–31.3.)",
+          "hint": "Sisältää yhden juoman jäälasista + lämpöhaalarin."
+        }
+      },
+      "Hullu Poro Areena": {
+        "type": "Live-musiikkilava ja rinnejuhlat",
+        "description": "Lapin rinnejuhlien kiistaton kuningas. 1 700 hengen areena Levin pääsrinteen juurella, Suomen suurin tanssilava hiihtokeskuksessa. Suomen ykkösartistit, popsähköhevit, räppärit ja kansainväliset DJ:t esiintyvät joka ilta kaudella. Lattia täyttyy klo 16 eikä tyhjene ennen kahta yöllä.",
+        "highlights": [
+          "1 700 hengen kapasiteetti",
+          "Suomen ykkösartistit",
+          "Rinteen vieressä",
+          "Iltaesityksiä päivittäin"
+        ]
+      },
+      "Bar Ihku": {
+        "type": "Yökerho ja baari",
+        "description": "Jo legenda Levin bilettäjille. Ihku on kerännyt tarinoita vuosien aikana myöhäisen Lapin sekoiluista. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä samalla lattialla. Yksi niistä paikoista, joka näyttää tavalliselta kello 23 asti, sitten ymmärrät miksi siitä puhutaan.",
+        "highlights": [
+          "Myöhäisillan instituutio",
+          "Karaokeillat",
+          "Paikallisten suosikki"
+        ]
+      },
+      "Pub Hölmölä": {
+        "type": "Pubi",
+        "description": "\"Levin hauskin pubi.\" Hölmölä tarjoaa parhaita panimotuotteita ja cocktaileja sekä mutkatonta baariruokaa. Lautapelit, pöytäjalkapallo ja biljardi ilmaiseksi käytössä. Pubi, joka ei ota itseään liian vakavasti, juuri siksi se toimii.",
+        "highlights": [
+          "Lautapelit ja biljardi",
+          "Pienpanimo-oluet",
+          "Baariruoka",
+          "Mutkatonta"
+        ]
+      },
+      "Pub Sohva": {
+        "type": "Olutravintola",
+        "description": "Lämmin ja avulias olutravintola Levin pääkadulla. Sohva on sitä lajia paikkoja, jonne mennään yhdelle ja lähdetään kolmen tunnin päästä. Hyvä olutvalikoima, kelpo ruoka, ystävällinen palvelu. Päivän väki sulautuu suoraan illan väkeen.",
+        "highlights": [
+          "Pääkadun sijainti",
+          "Olutvalikoima",
+          "Ruokalista"
+        ]
+      },
+      "Bar Alakerta": {
+        "type": "Live-musiikkibaari",
+        "description": "Aurinkoinen terassi, live-musiikkia ja legendaariset Open Stage Jamit sunnuntaisin. Alakerta vetää muusikkoja ja musiikin ystäviä, sekä paikallisia että vierailevia artisteja, jotka ovat kuulleet sunnuntaisessioista. Mutkaton, lämmin, sitä tunnelmaa joka syntyy kun ihmiset oikeasti rakastavat sitä mitä tekevät.",
+        "highlights": [
+          "Sunnuntain Open Stage Jamit",
+          "Live-musiikkia",
+          "Aurinkoinen terassi"
+        ]
+      },
+      "Pub Old Mates": {
+        "type": "Brittipubi",
+        "description": "Aito brittityylinen pubi keskellä Suomen Lappia. Old Mates osaa pintit kunnolla, näyttää jalkapalloa ja tarjoaa nurkan tuttua mukavuutta niille, jotka tarvitsevat sitä pitkän rinnepäivän jälkeen. Parempi kuin useimmat Britannian pubit, koska suomalainen olut on oikeasti hyvää.",
+        "highlights": [
+          "Brittipubityyli",
+          "Urheilua ruuduilla",
+          "Pintit kunnolla"
+        ]
+      },
+      "Selvä Pyy": {
+        "type": "Pubi ja ravintola",
+        "description": "Mennäänkin-pubi Äkäslompolon kylässä Ylläksen puolella. Selvä Pyy tarjoaa pienpanimo-olutta, cocktaileja ja kunnon suomalaista pubiruokaa lämpimässä hirsimökkitunnelmassa. Tuntureilla vietetyn päivän jälkeen tänne kerääntyvät paikalliset ja hiihtäjät, ei poseerausta, vain hyviä juomia ja helppoa seuraa.",
+        "highlights": [
+          "Äkäslompolon kylä",
+          "Pienpanimo-oluet",
+          "Suomalainen pubiruoka",
+          "Hirsimökkitunnelma"
+        ]
+      },
+      "Pirtukellari Night Club": {
+        "type": "Yökerho",
+        "description": "Ainoa kunnollinen yökerho Ylläksen alueella, Lapland Hotels Äkäshotellin sisällä. Kun pubit hiljenevät, bileet siirtyvät maan alle Pirtukellariin. DJ:itä, tanssia ja yllättävän täynnä oleva lattia 400 asukkaan kylässä. Sesongin perjantait ovat aidosti villejä.",
+        "highlights": [
+          "Ylläksen ainoa yökerho",
+          "DJ:t ja tanssi",
+          "Lapland Hotelsin sisällä"
+        ]
+      },
+      "Gastropub Giitu": {
+        "type": "Gastropubi ja pienpanimo-olut",
+        "description": "Saariselän paras baari, kunnon gastropubi, jossa on vaikuttava pienpanimovalikoima ja menu, joka kulkee selvästi pubin perusasioiden ohi. Giitu tarjoaa lappilaisia annoksia ja vaihtuvaa hanavalikoimaa. Tunnelma on lämmin, moderni ja juuri sitä mitä haluat revontulijahdin jälkeen.",
+        "highlights": [
+          "Pienpanimovalikoima",
+          "Lappilainen keittiö",
+          "Moderni gastropubi"
+        ]
+      },
+      "Pirtti Pub & Restaurant": {
+        "type": "Pubi ja ravintola",
+        "description": "Perinteinen suomalainen pubiravintola Saariselällä, joka tarjoaa luotettavaa suomalaista ruokaa ja kelpo juomavalikoiman. Sijaitsee Santa's Hotel Tunturi -kompleksissa. Sellainen paikka, josta koko porukka voi olla samaa mieltä, halusi sitten hampurilaisen, oluen tai vain lämpimän nurkan istua pitkän arktisen päivän jälkeen.",
+        "highlights": [
+          "Koko ravintolamenu",
+          "Perinteinen suomalainen ruoka",
+          "Hotellikompleksi"
+        ]
+      }
+    }
   },
   "iceBars": {
-    "title": "Lumibaarit Lapissa | Lumihotellit ja jää-loungit | LaplandBars",
-    "description": "Lapin lumibaarit — SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Mitä tarjoillaan, milloin rakennetaan uudelleen, mihin pukeutua sisällä."
+    "title": "Lasibaarit Lapissa | Lumihotellit ja jää-loungit | LaplandBars",
+    "description": "Lapin lasibaarit: SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Mitä tarjoillaan, milloin rakennetaan uudelleen, mihin pukeutua sisällä.",
+    "hero": {
+      "title": "Lasibaarit",
+      "sub": "Rakennetaan lumesta ja jäästä joka talvi. Sulaa joka kevät. Poissa seuraavaan jouluun asti. Tämä ei ole teemabaari, vaan kausittainen arktinen ilmiö."
+    },
+    "intro": [
+      "Joka syksy joukko jäätaiteilijoita ja rakentajia saapuu Suomen Lapin lumikyliin. He sahaavat jäälohkareita jäätyneistä järvistä, pakkaavat tonneittain lunta muotteihin ja veistävät käsin baareja, tuoleja, kaaria ja hahmoja. Joulukuuksi tulos on valmis: täydessä toiminnassa olevia baareja, jotka pyörivät -5 °C:ssa, ja joiden jokainen pinta, seinät, baaritiski, lasit, on jäätä.",
+      "Jokainen vuosi tuo uuden teeman. Veistokset eivät ole koskaan samat. Sitä mitä koet yhtenä talvena, ei ole olemassa seuraavana. Tilapäisyys on pointti. Lasibaari on määritelmänsä mukaan ohimenevä, juuri siksi se kannattaa kokea ennen kuin se on poissa."
+    ],
+    "iceBarKicker": "Lasibaari",
+    "bookKicker": "Varaa vierailu",
+    "bookCta": "Tarkista saatavuus ja varaa",
+    "stayKicker": "Yövy paikan päällä",
+    "stayCta": "Varaa huone läheltä",
+    "venueWebsite": "Kohteen verkkosivu",
+    "band": {
+      "kicker": "Nuku lumessa",
+      "title": "Älä vain vieraile. Nuku lumihuoneessa.",
+      "body": "Arctic SnowHotelin, Lainio Snow Villagen ja Kakslauttasen lumisviitit rakennetaan uudelleen joka joulukuussa. -5 °C sisällä, lämpöluokiteltu makuupussi, aamiainen lämpimässä ravintolassa. Yksi yö riittää, muistat sen vuosia.",
+      "ctaArctic": "Arctic SnowHotelin huoneet",
+      "ctaLainio": "Lainio Snow Village"
+    },
+    "expect": {
+      "title": "Mitä odottaa",
+      "items": [
+        {
+          "title": "Lämpötila",
+          "body": "Noin -5 °C sisällä. Kaikki lasibaarit tarjoavat lämpöviitan, haalarin tai takin, joka sisältyy pääsymaksuun. Pukeudu kerroksittain alle."
+        },
+        {
+          "title": "Kesto",
+          "body": "Useimmat vierailijat viettävät sisällä 20–45 minuuttia. Riittää 1–2 juomaan ja kuviin. Sormet kertovat, milloin on aika lähteä."
+        },
+        {
+          "title": "Juomat",
+          "body": "Klassisia cocktaileja, lämmintä glögiä ja arktisen henkisiä erikoisuuksia. Tarjoillaan jäästä tehdyissä kupeissa tai laseissa, kyllä, juot jäästä."
+        },
+        {
+          "title": "Kausi",
+          "body": "Auki suunnilleen joulukuusta huhtikuuhun, lämpötiloista riippuen. Jotkut vuodet ovat pidempiä. Lasibaareja ei ole olemassa kesällä."
+        }
+      ]
+    },
+    "venues": {
+      "SnowVillage IceBar": {
+        "description": "Veistetään kokonaan lumesta ja jäästä joka talvi kansainvälisten jäätaiteilijoiden voimin. Uusi teema ja veistokset joka kausi. Juomat tarjoillaan puhtaasta arktisesta jäästä tehdyissä laseissa. Osa Snow Village -kompleksia, yhdistä yöpyminen lumisviitissä.",
+        "highlight": "Uudet jäätyöt joka talvi",
+        "stayHint": "Lumisviitit + hirsimökit paikan päällä"
+      },
+      "Arctic SnowHotel IceBar": {
+        "description": "Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla. Rakennetaan uudelleen joka talvi uusin taideteemoin, veistäjinä suomalaisia ja kansainvälisiä taiteilijoita. Lämpöhaalarit kuuluvat lippuun. Järviympäristö tekee tästä yhden maailman tunnelmallisimmista lasibaareista.",
+        "highlight": "Lämpöhaalarit mukana",
+        "stayHint": "Lumihuoneet, lasi-iglut, hirsimökit"
+      },
+      "Snowman World Ice Bar": {
+        "description": "Legendaarisen Snowman Worldin sisällä Joulupukin Pajakylässä, erilainen lasibaarikokemus, perheystävällisempi ja helpommin lähestyttävä. Lämpimiä juomia ja kylmiä cocktaileja lumiveistosten keskellä. Hyvä vaihtoehto, jos yhdistät lasibaarin Joulupukin tapaamiseen.",
+        "highlight": "Pajakylän sijainti",
+        "stayHint": "Santa Holiday Village + Nova Skyland lähellä"
+      }
+    }
   },
   "apresSki": {
     "title": "Après-ski Lapissa | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Aitoa après-skitä Lapissa — rinnebaarit, hotellien aulan DJ:t, lumibaareihin jatkot. Mihin lähteä kun hissit sulkevat Levillä, Ylläksellä, Pyhällä, Saariselällä."
+    "description": "Aitoa après-skitä Lapissa: rinnebaarit, hotellien aulan DJ:t, lasibaareihin jatkot. Mihin lähteä kun hissit sulkevat Levillä, Ylläksellä, Pyhällä, Saariselällä.",
+    "hero": {
+      "title": "Après-ski",
+      "sub": "Lapissa rinteet sulkevat kello 16 ja bileet alkavat 16:01. Suomalainen rinneilta on äänekkäämpi, lämpimämpi ja rehellisempi kuin missään muualla."
+    },
+    "pillars": [
+      {
+        "title": "Rinteen vieressä",
+        "body": "Parhaat iltapaikat ovat kirjaimellisesti rinteen juurella. Sukset ovelle, telineeseen, olut käteen."
+      },
+      {
+        "title": "Live-musiikkia",
+        "body": "Ei DJ:itä läppärien kanssa, oikeita bändejä. Suomalaista rokkia, folkia ja poppia hirsivenueissa kunnon valokeiloilla."
+      },
+      {
+        "title": "Suomalainen henki",
+        "body": "Ei poseerausta. Tunnelma on kaikille: paikallisille, turisteille, perheille, porukoille. Se on se vetonaula."
+      }
+    ],
+    "topInResort": "#1 {{resort}}lla",
+    "stayKicker": "Yövy: {{resort}}",
+    "findHotel": "Etsi hotelli",
+    "stayHints": {
+      "Levi": "Rinteen vieressä Hullu Poro, Levi Hotel Spa, K5 Levi.",
+      "Yllas": "Lapland Hotels Äkäshotelli, hirsimökit, ski-in/ski-out.",
+      "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, lasi-iglut lähellä.",
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, hirsimökkichaletit."
+    },
+    "venues": {
+      "Hullu Poro Areena": {
+        "type": "Live-musiikkiareena",
+        "desc": "Kiistaton kuningas. 1 700 hengen areena pääsrinteen juurella. Suomen ykkösartistit, DJ:t ja bändit joka ilta kaudella. Sellaista tunnelmaa, johon muut Lapin keskukset tähtäävät."
+      },
+      "Bar Levi Ihku": {
+        "type": "Yökerho",
+        "desc": "Levin legenda. Täynnä jo klo 21 ja menee lujaa kello 2. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä, kaikki päätyvät tänne lopulta."
+      },
+      "Bar Alakerta": {
+        "type": "Live-musiikkibaari",
+        "desc": "Open Stage Jameja sunnuntaisin. Iltapaikka niille, jotka kuuntelevat mieluummin kitaristia kuin DJ:tä. Aurinkoinen terassi, kunnon tunnelma."
+      },
+      "Pub Hölmölä": {
+        "type": "Pubi",
+        "desc": "\"Levin hauskin pubi.\" Lautapelejä, biljardia, panimo-oluita ja baariruokaa. Rauhoittumisvaihtoehto suuren rinnepäivän jälkeen."
+      },
+      "Selvä Pyy": {
+        "type": "Pubi ja ravintola",
+        "desc": "Mennäänkin-pubi Äkäslompolon kylässä. Pienpanimo-oluet, cocktailit, suomalainen pubiruoka hirsimökkitunnelmassa. Paikalliset ja keskuksen vierailijat samassa tilassa, lämmin, helppo, mutkaton."
+      },
+      "Pirtukellari Night Club": {
+        "type": "Yökerho",
+        "desc": "Ylläksen ainoa yökerho, kätkettynä Lapland Hotels Äkäshotellin sisään. Kun pubit hiljenevät, bileet siirtyvät maan alle. Vain pe–la, mutta huippukauden illat ovat aidosti villejä."
+      }
+    },
+    "north": {
+      "title": "Hiihtoa pohjoisempana?",
+      "sub": "Saariselkä ja Pyhä ovat rauhallisempia, intiimimpiä après-ski-kohteita kuin Levi tai Ylläs. Pienempien väkijoukkojen ja revontulipubien takia kannattaa harkita.",
+      "saariselka": "Saariselän hotellit",
+      "pyha": "Pyhän hotellit"
+    },
+    "cta": {
+      "title": "Katso kaikki baarit",
+      "sub": "Selaa baarien ja pubien koko listaus neljältä kohteelta.",
+      "btn": "Kaikki baarit ja pubit"
+    }
   },
   "cocktails": {
-    "title": "Lapin cocktailit — hilla, lakka, mänty | LaplandBars",
-    "description": "Cocktailit arktisten raaka-aineiden ympärillä — hilla, puolukka, mäntysiirappi, kataja, lakkalikööri. Missä juoda, miten tehdä kotona."
+    "title": "Lapin cocktailit, hilla, lakka, mänty | LaplandBars",
+    "description": "Cocktailit arktisten raaka-aineiden ympärillä: hilla, puolukka, mäntysiirappi, kataja, lakkalikööri. Missä juoda, miten tehdä kotona.",
+    "hero": {
+      "title": "Arktiset cocktailit",
+      "sub": "Samat arktiset olosuhteet, jotka tekevät Lapin villimarjoista poikkeuksellisia, tekevät niistä myös erinomaisia lasissa. Tämä on cocktailkulttuuri, joka rakentuu kerätyille raaka-aineille, niille joita ei saa muualta."
+    },
+    "ingredientsTitle": "Raaka-aineet",
+    "ingredientsSub": "Arktiset olosuhteet tuottavat äärimmäisiä raaka-aineita, kasveja, jotka kehittävät vahvempia makuja ja ravinteita selvitäkseen kylmästä ja loputtomasta kesän auringosta.",
+    "stayBand": {
+      "kicker": "Yövy cocktailbaarin lähellä",
+      "title": "Älä aja kotiin, varaa huone vierestä",
+      "sub": "Useimmat parhaista cocktailbaareista ovat Rovaniemellä, Levillä tai Saariselällä. Hotellit kävelymatkan päässä:",
+      "cta": "Etsi hotelleja Lapista"
+    },
+    "cocktails": [
+      {
+        "name": "Cloudberry Sour",
+        "ingredients": "Suomalainen gini · lakkalikööri · sitruunamehu · munanvalkuainen · sokerisiirappi",
+        "description": "Arktisen alueen tunnuscocktail. Hilla, Arktisen kulta, kypsyy vain 2–3 viikkoa joka heinäkuussa subarktisilla soilla. Hunajan makea kirpeys toimii souressa täydellisesti. Munanvalkuaisvaahto kantaa tunturin tuoksun suoraan neniisi.",
+        "season": "Hilla: heinä–elokuu"
+      },
+      {
+        "name": "Northern Lights",
+        "ingredients": "Suomalainen vodka · blue curaçao · tonic · syötävä kimallus · lime",
+        "description": "Näyttäytymiscocktail. Sinivihreä kimallus pyörii lasissa, tietoinen kunnianosoitus revontulille. Tilataan parhaiten paikassa, jossa ikkuna avautuu pohjoiseen. Kimallus laskeutuu noin 30 sekunnissa; juo se ennen sitä.",
+        "season": "Revontulet: syys–maaliskuu"
+      },
+      {
+        "name": "Lingonberry Spritz",
+        "ingredients": "Prosecco · puolukkamehu · seljankukkalikööri · soodavesi · tuoreita puolukoita",
+        "description": "Syvänpunainen, kirpeä, raikas. Lapin villit puolukat, Suomen suosituin marja poimittavaksi, tasapainottavat kukkaisen seljankukan kuplien kanssa. Yksinkertainen mutta täsmälleen oikein. Sitä lajia juomaa, joka näyttää kauniilta kynttilävalossa baarissa.",
+        "season": "Puolukka: elo–lokakuu"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Hilla (lakka)",
+        "note": "Arktisen alueen harvinaisin marja, kasvaa vain subarktisilla soilla, 2–3 viikkoa vuodessa. Käytetään liköörissä, sorbetissa ja sour-mikseissä."
+      },
+      {
+        "name": "Puolukka",
+        "note": "Suomen rakastetuin villimarja. Kirpeä, maanläheinen, monikäyttöinen. Käytetään mehuissa, liköörissä ja koristeena."
+      },
+      {
+        "name": "Koivunmahla",
+        "note": "Kerätään alkukeväällä mahlan virratessa. Puhdas, hentoisen makea. Käytetään käsityöväkevissä ja cocktailmiksereissä."
+      },
+      {
+        "name": "Tunturiajuruoho",
+        "note": "Kerätään tunturien niityiltä. Voimakkaampi kuin viljelty timjami äärimmäisten kasvuolosuhteiden takia."
+      },
+      {
+        "name": "Tyrni",
+        "note": "Kirkkaanoranssit marjat, joissa on grammaa kohden enemmän C-vitamiinia kuin appelsiinissa. Käytetään soureissa ja shoteissa."
+      },
+      {
+        "name": "Suomalainen gini",
+        "note": "Useat suomalaiset tislaamot tekevät giniä, jossa on arktisia kasveja, koivua, katajaa, hillaa, kuusenkerkkää."
+      }
+    ]
   },
   "craftBeer": {
     "title": "Lapin pienpanimot ja olutbaarit | LaplandBars",
-    "description": "Lapin kasvava pienpanimo­skene — Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Mitä panevat, missä maistat."
+    "description": "Lapin kasvava pienpanimo­skene: Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Mitä panevat, missä maistat.",
+    "hero": {
+      "title": "Pienpanimo-olut",
+      "sub": "Suomalainen pienpanimo-olut rakentuu samoille periaatteille kuin suomalainen ruoka: puhdas vesi, villit paikalliset raaka-aineet ja ei oikoteitä. Arktinen tuo oman makunsa jokaiseen pintiin."
+    },
+    "featuredKicker": "Toimituksen poiminta",
+    "knownBeers": "Tunnetut oluet",
+    "stylesTitle": "Arktiset olutyypit",
+    "stylesSub": "Suomalaiset pienpanijat käyttävät raaka-aineita samasta maisemasta kuin kokit. Metsänpohja on yhtä tärkeä kuin panimo.",
+    "tours": {
+      "kicker": "Kierrokset ja maistelut",
+      "title": "Panimo- ja ruokakierroksia varattavissa nyt",
+      "sub": "Reaaliaikainen saatavuus GetYourGuidesta. Panimovierailuja, tislaamomaisteluja ja lappilaisia ruokakokemuksia Rovaniemellä, Saariselällä ja muualla.",
+      "fallback": "Katso kaikki Lapin ruoka- ja juomakokemukset GetYourGuidesta"
+    },
+    "stay": {
+      "kicker": "Yövy panimon lähellä",
+      "title": "Skippaa taksi, varaa hotelli kävelymatkan päästä",
+      "body": "Lapon Panimon pubi sulkee klo 23. Tornion Panimo on joen toisella puolella keskustasta. Lapland Brewery on Rovaniemen ydinkeskustassa. Valitse panimo, varaa hotelli kävelymatkan päästä.",
+      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
+      "ctaTornio": "Tornio (Tornion Panimo)"
+    },
+    "breweries": [
+      {
+        "name": "Lapon Panimo",
+        "location": "Saariselkä",
+        "description": "Suomen pohjoisin pienpanimo. Perustettu Saariselälle, yhdelle syrjäisimmistä paikoista, missä mikään panimo toimii. Heidän oluensa käyttävät puhdasta arktista vettä ja paikallisia raaka-aineita: kuusenkerkkiä, puolukkaa, ruista. Panimolla on pieni pubi, jossa juot tuoretta olutta metrien päässä siitä, missä se pantiin."
+      },
+      {
+        "name": "Tornion Panimo",
+        "location": "Tornio (Ruotsin raja)",
+        "description": "Palkittu pienpanimo Ruotsin–Suomen rajakaupunki Torniossa. Tunnetaan Arctic Circle Alestaan ja innovatiivisesta pohjoismaisesta panimotekniikastaan. Vievät tuotteitaan Pohjoismaissa ja ovat voittaneet useita palkintoja skandinaavisissa olutkilpailuissa."
+      },
+      {
+        "name": "Lapland Brewery",
+        "location": "Rovaniemi",
+        "description": "Panimopubi Rovaniemen keskustassa. Oluet pannaan paikan päällä, tarjoillaan baarissa tankkien vieressä. Seuraa panimoprosessia juodessasi tulosta. Heidän kausijulkaisunsa sisältävät usein raaka-aineita, joita on kerätty ympäröivistä lappilaisista metsistä."
+      }
+    ],
+    "styles": [
+      {
+        "style": "Arktinen lager",
+        "desc": "Puhdas, raikas, pantu jäätikkövedellä. Suomalaisen pienpanimo-oluen perusta, petollisen yksinkertainen, yllättävän hyvä."
+      },
+      {
+        "style": "Kuusenkerkkä-ale",
+        "desc": "Keväällä kerättyjä kuusenkerkkiä. Hartsisesti yrtteinen, ei mikään etelän panimon tuotos. Aidosti arktinen maku."
+      },
+      {
+        "style": "Marjavehnä",
+        "desc": "Villi puolukka tai hilla vehnäoluen pohjalle. Kirpeä, hedelmäinen, kausittainen, maistat mistä se tulee."
+      },
+      {
+        "style": "Savustettu porter",
+        "desc": "Täyteläinen, tumma, savunmaku suomalaisesta koivusta. Talvinen olut kylmiin iltoihin takkatulen ääreen. Sopii poron kanssa."
+      },
+      {
+        "style": "Ruis-saison",
+        "desc": "Suomalainen ruis, pohjoisen ruokakulttuurin perusvilja, belgialaistyylisessä saisonissa. Maanläheinen, mausteinen, epätavallinen."
+      },
+      {
+        "style": "Keskiyön aurinko -IPA",
+        "desc": "Pannaan napapäivinä kesällä. Sitrusvoittoinen, karvas, nimetty ilmiön mukaan, joka tekee arktisen humalan kasvatuksen mahdolliseksi."
+      }
+    ]
   },
   "drinkingCulture": {
     "title": "Suomalainen juomakulttuuri Lapissa | LaplandBars",
-    "description": "Miksi suomalaiset juovat niin kuin juovat — sauna­olut, Alkon monopoli, tipaton tammikuu, kaamoksen kaato. Kulttuuri­konteksti Lapin baarivierailulle."
+    "description": "Miksi suomalaiset juovat niin kuin juovat: sauna­olut, Alkon monopoli, tipaton tammikuu, kaamoksen kaato. Kulttuuri­konteksti Lapin baarivierailulle.",
+    "hero": {
+      "title": "Suomalainen juomakulttuuri",
+      "sub": "Perjantai-illan Koskenkorvasta kalsarikänneihin alusvaatteissa. Opas siitä, miten suomalaiset oikeasti juovat."
+    },
+    "intro": [
+      "Suomalainen juomakulttuuri rakentuu ristiriidoille. Suomella on yksi Euroopan tiukimmista alkoholilainsäädännöistä, valtiollinen vähittäismyyntimonopoli, rajatut pubien aukioloajat, korkeat verot ja innokkaimpia juojia. Alkoholi ei täällä ole taustamelua. Se on tietoinen teko, joka otetaan vakavasti ja usein juhlamenoin.",
+      "Lapissa erityisesti juominen kietoutuu ympäristöön. Juodaan rinnepäivän jälkeen, moottorikelkkaretken jälkeen, revontulivahtien jälkeen. Kylmä tekee lämpimästä juomasta paremman. Pimeä tekee kynttilävalossa olevan pubin lämpimämmäksi. Hiljaisuus tekee naurusta äänekkäämpää."
+    ],
+    "kossu": {
+      "title": "Koskenkorva, kansallisväkevä",
+      "body": [
+        "Jos Suomella on kansallisväkevä, henkisesti ja kirjaimellisesti, se on Koskenkorva. \"Kossu\" kaikille, jotka sen tuntevat. 38 til-% viljaviina, joka tislataan suomalaisesta ohrasta Pohjanmaan Koskenkorvan kylässä vuodesta 1953. Tislaamo pyörii 24 tuntia vuorokaudessa, joka päivä.",
+        "Koskenkorva ei ole vodka, se on nimenomaan viljaviina, hieman karkeamman, omaleimaisemman profiilin omaava kuin suodatettu vodka. Se on kuitenkin äärimmäisen puhdas: tislattu erittäin korkeaan puhtauteen, hyvin vähän kongeneeritä. Suomalaiset kertovat, että krapula on lähes olematon halvempiin väkeviin verrattuna. Tämä on joko totta tai erittäin onnistunut suomalainen myytti.",
+        "Miten suomalaiset sitä juovat? Kylmänä, suorana, pienestä lasista. Joskus olutchaserin kanssa (yhdistelmää kutsutaan viinaksi + kaljaksi, klassinen suomalainen työväenluokan pari). Lapissa sitä on tarjolla joka pubissa, useimmiten speed-railissa. Sitä on ollut suomalaisilla pöydillä häissä, hautajaisissa, lauantain saunailloissa ja sunnuntaiaamuissa. Se ei ole glamouria. Se on pointti."
+      ],
+      "factsLabel": "Pikatiedot:",
+      "facts": "Valmistaja Altia (nykyään Anora Group). Yli 10 miljoonaa litraa myydään Suomessa vuosittain. Koskenkorvan kylässä asuu noin 1 500 ihmistä. Tislaamo on yksi maailman tehokkaimmista viljatislaamoista, nollajäte, viljajäännös syötetään karjalle."
+    },
+    "finlandia": {
+      "title": "Finlandia Vodka, Suomesta maailmalle",
+      "body": [
+        "Vaikka Koskenkorva on suomalaisille, Finlandia on Suomen lahja muulle maailmalle. Lanseerattu vuonna 1970, samana vuonna kuin ensimmäinen Maailman ympäristöpäivä, mikä on joko sattumaa tai erittäin tietoista brändäystä, Finlandia oli yksi ensimmäisistä premium-vodkista, joka markkinoi \"puhtautta\" pääväitteenään.",
+        "Reseptin yksinkertaisuus on tarkoituksellinen: Suomessa kasvanut kuusirivinen ohra ja jäätikkölähdevesi Rajamäeltä, 200 km Helsingistä pohjoiseen. Vesi on tähti. Suomalainen jäätikkölähdevesi on yksi maailman pehmeimmistä, vähämineraaliseinen, vähäkovinen, mikä tuottaa selvästi puhtaan, kevyen vodkan, jossa ei käytännössä ole jälkimakua.",
+        "Finlandia tislataan yli 200 kertaa jatkuvassa tislausprosessissa, ei eräkohtaisesti kuten useimmat premium-väkevät. Tulos on äärimmäisen tasalaatuinen. Se on voittanut kansainvälisiä sokkomaisteluja paljon kalliimpia kilpailijoita vastaan. Suomessa se on edelleen kohtuuhintainen. Ulkomailla se kantaa suomalaista alkuperäänsä premium-laatumerkkinä."
+      ],
+      "factsLabel": "Pikatiedot:",
+      "facts": "Omistaja Brown-Forman (Jack Daniel'sin emoyhtiö) vuodesta 2004. Saatavilla yli 80 maassa. Ikoninen huurrettu pullomuotoilu on tuskin muuttunut vuodesta 1970. Valmistetaan Rajamäen tislaamolla, joka on tehnyt väkeviä vuodesta 1888."
+    },
+    "lapinKulta": {
+      "title": "Lapin Kulta, kultaa arktiselta",
+      "body": [
+        "Jos jokin olut kuuluu aidosti Lapin baariopaaseen, se on Lapin Kulta, kirjaimellisesti \"Lapin kulta\". Pannut Torniossa, Suomen ja Ruotsin rajalla Tornionjoen suistossa, vuodesta 1873. Yli 150 vuoden ajan tämä olut on tehty vedellä, joka tulee yhdeltä maailman pohjoisimmista panimolähteistä.",
+        "Lapin Kulta on Suomen klassinen pale lager, puhdas, kevyt, maltainen ja mutkaton. Se ei voita pienpanimo-olutpalkintoja eikä yritäkään. Se on olut, joka on ollut suomalaisilla mökkipöydillä, saunalauteilla ja festarialueilla viiden sukupolven ajan. Kun suomalainen sanoo \"otetaan kalja\", tämä on usein se kalja. Lapissa erityisesti Lapin Kullan tilaaminen paikallisesta pubista tuntuu oikealta tavalla, jolla mikään tuontilager ei voisi.",
+        "Brändi on vaihtanut omistajia, Hartwallista Heineken Internationalille, mutta olut itsessään pysyy suomalaisena perusasiana. Sen löytää joka Lapin baarista, joka kaupasta, joka Alkosta. Se on parhaassa mahdollisessa mielessä täysin tavallinen."
+      ],
+      "priceTitle": "Suomalainen olut, mitä maksaa",
+      "prices": [
+        {
+          "label": "Lapin Kulta (0,33 l tölkki, kauppa)",
+          "value": "~2,30 €"
+        },
+        {
+          "label": "Karhu lager (0,33 l tölkki, kauppa)",
+          "value": "~2,30 €"
+        },
+        {
+          "label": "Sandels lager (0,33 l tölkki, kauppa)",
+          "value": "~2,20 €"
+        },
+        {
+          "label": "Koff Porter / erikoisuus (0,33 l, Alko)",
+          "value": "~3,50–4,50 €"
+        },
+        {
+          "label": "Hanapintti Lapin baarissa",
+          "value": "~6–8 €"
+        },
+        {
+          "label": "Pienpanimopintti Lapin baarissa",
+          "value": "~7–10 €"
+        }
+      ],
+      "priceFootnote": "Hinnat arvioita vuodelta 2025. Vahvoja oluita (yli 5,5 til-%) saa vain Alkosta. Ruokakaupat myyvät oluita 5,5 til-%:iin asti.",
+      "otherLabel": "Muita tutustumisen arvoisia suomalaisia lagereita:",
+      "other": "Karhu, Suomen myydyin olut, hieman maltaisempi kuin Lapin Kulta. Sandels, nimetty suomalaisen sotasankarin mukaan, suosittu budjettilager. Olvi, pantu Iisalmessa vuodesta 1878, ainoa suuri suomalainen panimo, joka on yhä suomalaisomistuksessa. Koff, Helsingin vanhin panimobrändi (1819), nykyään Sinebrychoffin/Carlsbergin omistuksessa."
+    },
+    "lonkero": {
+      "title": "Lonkero, syntyi olympialaisia varten",
+      "body": [
+        "Vuonna 1952 Helsingissä järjestettiin kesäolympialaiset. Oli ongelma: kaupungissa ei ollut riittävästi baareja palvelemaan kansainvälistä yleisöä, ja Suomen tiukat lupakäytännöt tekivät uusien avaamisesta lähes mahdotonta. Valtion alkoholimonopoli Alko keksi ratkaisun: valmiina nautittavan tölkkicocktailin, jota voitaisiin myydä laillisesti olympialaisten alueilla.",
+        "Heidän kehittämänsä juoma oli lonkero, suomalainen gini sekoitettuna greippisoodaan. Kevyt, raikas, hieman karvas. 5,5 til-%. Myynnissä korkeissa tölkeissä omaleimaisella etiketillä. Se oli niin suuri menestys, että sitä jatkettiin olympialaisten jälkeenkin. Suomi on juonut lonkeroa siitä lähtien.",
+        "Tänään lonkero on kunnon kulttuuri-instituutio, suomalaisessa kulttuurissa on \"lonkeropyhä\" (heinäkuun viimeinen perjantai), ja long drink -kategoria on inspiroinut koko modernin RTD-kategorian maailmanlaajuisesti. Hartford Distilling Yhdysvalloissa lanseerasi jopa amerikkalaisversion nimeltä \"The Long Drink\" oppinaisuudet suomalaisesta alkuperäisestä. Se on mahdollisesti onnistunein vahingossa syntynyt vientiartikkeli suomalaisten juomien historiassa."
+      ]
+    },
+    "kalsarikannit": {
+      "title": "Kalsarikännit, alusvaatteissa juomisen taide",
+      "body": [
+        "Suomenkielessä on käsite, jolla ei ole suoraa vastinetta missään muussa kielessä: kalsarikännit. Sanoista kalsarit ja känni. Kirjaimellisesti: \"alusvaatteissa kännissä.\" Käytäntö juoda kotona, yksin tai läheisten kanssa, alusvaatteissa, täysin ilman aikomusta lähteä mihinkään.",
+        "Tätä ei pidetä Suomessa häpeällisenä. Sitä ei pidetä epäsosiaalisena. Monet suomalaiset pitävät sitä rentoutumisen huippuna, tietoisena kieltäytymisenä siitä sosiaalisesta esityksestä, jonka baariin meneminen vaatii. Ei pukeutumista. Ei taksin odottelua. Ei pintapuhetta tuntemattomien kanssa. Vain sohva, valitsemasi juoma ja vapaus katsoa mitä haluat televisiosta.",
+        "Vuonna 2018 Suomen ulkoministeriö hyväksyi käsitteen virallisesti osana kansallista kampanjaa selittää suomalaista kulttuuria maailmalle. He julkaisivat kalsarikänni-emojisarjan, alusvaatteissa oleva henkilö juoma kädessään. Kampanja levisi maailmanlaajuisesti viruksena. Suomi oli hetken aikaa eniten keskusteltu maa kansainvälisissä uutisissa syystä, jolla ei ollut mitään tekemistä politiikan kanssa.",
+        "Kalsarikännit ei ole pelkkä vitsi. Se heijastaa jotain aitoa suomalaisesta kulttuurista: yksinolon arvoa, oman kodin mukavuutta ja syvää kansallista epäluuloa esitettyä sosiaalisuutta kohtaan. Lapissa, missä talvet ovat pitkiä, pimeitä ja kylmiä, kalsarikännit on käytännössä selviytymismekanismi."
+      ],
+      "rulesTitle": "Miten harjoittaa kalsarikänneä oikeaoppisesti",
+      "rules": [
+        "1. Laita päällesi mukavimmat alusvaatteet, jotka omistat.",
+        "2. Täytä jääkaappi ennen pimeän tuloa (tämä ei ole neuvoteltavissa).",
+        "3. Sammuta puhelimen ilmoitukset.",
+        "4. Istu alas. Älä nouse seisomaan vähintään kahteen tuntiin.",
+        "5. Juo hitaasti. Tämä ei ole kilpailu.",
+        "6. Älä missään olosuhteissa tee suunnitelmia lähteä myöhemmin ulos."
+      ]
+    },
+    "sauna": {
+      "title": "Sauna ja sisu, koko kuva",
+      "body": [
+        "Suomalaista juomakulttuuria ei voi erottaa saunasta. Standardi suomalainen lauantai noudattaa tarkkaa järjestystä: työ, sauna, olut. Olut nautitaan saunassa tai heti sen jälkeen, kun ruumiinlämpö on yhä korkealla ja kylmä olut luo lähes fysiologisen vaikutuksen. Tämä yhdistelmä on niin syvällä kulttuurissa, että useimmilla suomalaisilla kesämökeillä on oma sauna-olutrituaali, joka alkaa noin klo 16 ja jatkuu kunnes joku nukahtaa veneeseen.",
+        "Lapissa sauna on vieläkin keskeisempi. Päivän jälkeen -30 °C:ssa sauna ei ole ylellisyyttä, se on nesteytystä, palautumista ja sosialisointia samaan aikaan. Monilla Lapin hotelleilla ja mökeillä on omat saunat. Saunan, jäiseen järveen tai lumeen pulahduksen ja kylmän oluen yhdistelmä on suomalaisten mukaan parempi kuin mikään kylpyläkäsittely maailmassa. He ovat luultavasti oikeassa.",
+        "Sisu, ainutlaatuisen suomalainen käsite stoalaisesta päättäväisyydestä, sitkeydestä vastoinkäymisissä, koskee myös juomista. Suomalaista, joka on juonut seitsemän tuntia ja silti pääsee maanantaina töihin, ei pidetä vastuuttomana. Hänellä katsotaan olevan sisua."
+      ]
+    },
+    "cta": {
+      "title": "Koe se itse",
+      "sub": "Teoria on mielenkiintoinen. Käytäntö on parempi. Etsi baarit, joissa suomalainen juomakulttuuri elää.",
+      "btnStay": "Etsi majoitus Lapista",
+      "btnExplore": "Tutki kaikki baarit"
+    }
   },
-  "about": { "title": "Tietoa LaplandBarsista", "description": "Tietoa LaplandBarsista — riippumatonta toimitusta siitä miten ja missä Lappi juo." },
-  "privacy": { "title": "Tietosuojaseloste | LaplandBars", "description": "Miten LaplandBars käsittelee tietojasi." },
-  "terms": { "title": "Käyttöehdot | LaplandBars", "description": "LaplandBarsin käyttöehdot." },
-  "cookie": { "title": "Evästekäytäntö | LaplandBars", "description": "Miten LaplandBars käyttää evästeitä." }
+  "about": {
+    "title": "Tietoa LaplandBarsista",
+    "description": "Tietoa LaplandBarsista: riippumatonta toimitusta siitä miten ja missä Lappi juo.",
+    "h1": "Tietoa LaplandBarsista",
+    "body": [
+      "LaplandBars on riippumaton toimituksellinen opas Suomen Lapin baareihin, pubeihin, lasibaareihin ja iltakohteisiin, kirjoitettu Suomesta, ei tietokannasta generoitu.",
+      "Jokainen tällä sivustolla listattu kohde on oikea paikka; tiedot on koottu paikkojen omilta sivuilta ja Google-tiedoista. Kattavuus keskittyy Rovaniemeen, Leviin, Ylläkseen ja Saariselälle, Suomen Lapin neljään tärkeimpään kohteeseen ja listaukset päivitetään kun paikkoja avautuu, suljetaan tai muuttuu. Lähteet näkyvillä; korjaukset tervetulleita.",
+      "LaplandBars on osa <1>LaplandVibes</1>-ekosysteemiä, Suomen Lappia kattavaa erikoismatkailusivustojen verkostoa.",
+      "Sivustoa ylläpitää Lapeso Oy (Suomi). Kysymykset tai korjaukset: <1>info@laplandvibes.com</1>"
+    ],
+    "back": "← Takaisin etusivulle"
+  },
+  "newsletter": {
+    "kicker": "<1>#LAPLANDVIBES</1>-uutiskirje",
+    "headlineLine1": "Juomme enimmäkseen Lapissa.",
+    "headlineLine2": "Sitten kirjoitamme mitä opimme.",
+    "sub": "Yksi lyhyt sähköposti silloin kun revontuli-ikkuna aukeaa, kun lasibaarit paljastavat talvensa tai kun après-skin lineup on aidosti lennon arvoinen. Kirjoitettu Suomesta, englanniksi. Vain kun on jotain oikeasti kerrottavaa, ei koskaan aikataulun mukaan.",
+    "benefits": [
+      {
+        "title": "Kun revontulet oikeasti näkyvät",
+        "body": "Seuraamme Ilmatieteen laitoksen ennustetta joka selkeänä iltana. Kun KP osuu, ilmoitamme, jotta voit olla baarissa oikealla ikkunalla kun valot syttyvät."
+      },
+      {
+        "title": "Kun lasibaarit avautuvat",
+        "body": "Arctic SnowHotel ja Lainio rakennetaan uudelleen joka joulukuussa. Kerromme oikeat avajaispäivät ja kumpi vuoden teema on matkan arvoinen, ennen kuin varaussivut täyttyvät."
+      },
+      {
+        "title": "Kuka soittaa après-skillä",
+        "body": "Hullu Poro Areena julkaisee kauden lineupinsa marraskuussa. Välitämme nimet, jotka kannattaa lennättää paikalle, pienet Bar Levi Ihku -illat ja ne Saariselän keikat, joita kukaan muu ei nosta."
+      },
+      {
+        "title": "Uudet kierroksen arvoiset baarit",
+        "body": "Lapon Panimon kausihanat. Pop-up cocktailbaari Rovaniemellä. Uusi panimo Tornion puolella. Kerromme avauksista silloin kun ne vielä tuntuvat uusilta."
+      }
+    ],
+    "doneMessage": "Selvä. Nähdään revontulien alla.",
+    "emailPlaceholder": "sinun@email.com",
+    "submitIdle": "Lähetä minulle Lappia",
+    "submitLoading": "Lähetetään…",
+    "errorPrefix": "Tilaus ei onnistunut",
+    "errorFallback": "Tilaus ei onnistunut. Yritä uudelleen tai lähetä viesti osoitteeseen info@laplandvibes.com.",
+    "footnote": "Yksi sähköposti silloin kun on jotain sanottavaa. Peruuta yhdellä klikkauksella, ilman kysymyksiä. <1>Tietosuojaseloste</1>.",
+    "emailLabel": "Sähköposti"
+  },
+  "privacy": {
+    "title": "Tietosuojaseloste | LaplandBars",
+    "description": "Miten LaplandBars käsittelee tietojasi."
+  },
+  "terms": {
+    "title": "Käyttöehdot | LaplandBars",
+    "description": "LaplandBarsin käyttöehdot."
+  },
+  "cookie": {
+    "title": "Evästekäytäntö | LaplandBars",
+    "description": "Miten LaplandBars käyttää evästeitä."
+  },
+  "heroComponent": {
+    "titleLine1": "Lapin parhaat baarit",
+    "openYearRound": "Avoinna ympäri vuoden",
+    "iceBarsWinter": "Jääbaarit talvikaudella",
+    "exploreVenues": "Tutustu paikkoihin"
+  },
+  "rideBand": {
+    "kicker": "Kotimatka",
+    "title": "Sovi kyyti ennen ensimmäistä tuoppia",
+    "sub": "Juomat on se helppo osa. Mieti ensin miten pääset takaisin mökille, niin illan voi aloittaa rauhassa."
+  },
+  "experiences": {
+    "barCrawl": {
+      "kicker": "Varaa",
+      "rovaniemi": {
+        "title": "Baari- ja panimokierrokset Rovaniemellä",
+        "body": "Haluatko sopia kaiken valmiiksi jo ennen lähtöä? Opastetut panimovierailut, maistelut ja baarikävelyt Rovaniemellä ovat varattavissa nyt, oikeilla saatavuuksilla ja arvosteluilla.",
+        "cta": "Katso Rovaniemen kierrokset"
+      },
+      "levi": {
+        "title": "Opastetut illanvietot Levillä",
+        "body": "Levi on tehty tätä varten. Selaa after ski- ja baarielämyksiä, jotka opas hoitaa puolestasi, niin sinun ei tarvitse suunnitella, vaan pääset suoraan paikalle.",
+        "cta": "Katso Levin elämykset"
+      },
+      "sectionTitle": "Haluatko opastetun illan? Varaa etukäteen"
+    },
+    "cocktail": {
+      "kicker": "Tee itse",
+      "title": "Drinkki- ja maisteluelämykset",
+      "body": "Osa Lapin parhaista arktisen drinkin ja viinan maistelutuokioista on varattavissa oppaan kanssa. Opi tekemään lakkasour itse lähteellä, ja tilaa se sitten kuin konkari.",
+      "cta": "Katso drinkki- ja maisteluelämykset"
+    }
+  }
 }

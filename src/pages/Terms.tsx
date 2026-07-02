@@ -1,16 +1,15 @@
 import { useTranslation } from 'react-i18next';
 import TermsContent from '../../../shared/Legal/TermsContent';
-import Hreflang from '../i18n/Hreflang';
+import PageSeo from '../components/PageSeo';
+import { useLocale } from '../i18n/useLocale';
 
 export default function Terms() {
   const { t } = useTranslation('pages');
+  const { locale } = useLocale();
   return (
     <>
-      <title>{t('terms.title')}</title>
-      <meta name="description" content={t('terms.description')} />
-      <Hreflang path="/terms" />
-      <meta name="robots" content="index, follow" />
-      <TermsContent siteName="LaplandBars" siteUrl="laplandbars.com" />
+      <PageSeo title={t('terms.title')} description={t('terms.description')} path="/terms" />
+      <TermsContent siteName="LaplandBars" siteUrl="laplandbars.com" lang={locale} />
     </>
   );
 }

@@ -1,42 +1,21 @@
-import { Hotel, ExternalLink } from 'lucide-react';
+import { Hotel, ExternalLink, Martini } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import GygSearchCta from '../components/GygSearchCta';
+import AffiliateDisclosure from '../components/AffiliateDisclosure';
+import PageBreadcrumb from '../components/PageBreadcrumb';
 
-const cocktails = [
-  {
-    name: 'Cloudberry Sour',
-    ingredients: 'Finnish gin · cloudberry liqueur · lemon juice · egg white · sugar syrup',
-    description: 'The signature Arctic cocktail. Cloudberries — the gold of the Arctic — ripen for just 2–3 weeks each July in subarctic bogs. Their honey-sweet tartness works perfectly in a sour. The egg white foam carries the scent of the fell straight to your nose.',
-    image: BARS.cocktailSour,
-    season: 'Cloudberry: July–August',
-  },
-  {
-    name: 'Northern Lights',
-    ingredients: 'Finnish vodka · blue curaçao · tonic water · edible shimmer · lime',
-    description: 'The show-off cocktail. Blue-green shimmer swirling in a glass — a deliberate tribute to the aurora borealis. Best ordered somewhere with a window facing north. The glitter settles in about 30 seconds; drink it before it does.',
-    image: BARS.cocktailAurora,
-    season: 'Aurora: September–March',
-  },
-  {
-    name: 'Lingonberry Spritz',
-    ingredients: 'Prosecco · lingonberry juice · elderflower liqueur · soda water · fresh lingonberries',
-    description: 'Deep ruby-red, tart, refreshing. Wild Lapland lingonberries — Finland\'s most-picked berry — balance the floral elderflower against the bubbles. Simple but precisely right. The kind of drink that looks beautiful in a candlelit bar.',
-    image: BARS.cocktailBerry,
-    season: 'Lingonberry: August–October',
-  },
-];
+type CocktailItem = { name: string; ingredients: string; description: string; season: string };
+type IngredientItem = { name: string; note: string };
 
-const arcticIngredients = [
-  { name: 'Cloudberry (Lakka)', note: 'The rarest Arctic berry — grows only in subarctic bogs, 2–3 weeks a year. Used in liqueur, sorbet, sour mixes.' },
-  { name: 'Lingonberry', note: 'Finland\'s most beloved wild berry. Tart, earthy, versatile. Used in juice, liqueur, and garnishes.' },
-  { name: 'Birch Sap', note: 'Collected in early spring when the sap runs. Clean, faintly sweet. Used in craft spirits and cocktail mixers.' },
-  { name: 'Arctic Thyme', note: 'Foraged from fell meadows. More intense than cultivated thyme due to the extreme growing conditions.' },
-  { name: 'Sea Buckthorn', note: 'Bright orange berries with more vitamin C per gram than oranges. Used in sours and shots.' },
-  { name: 'Finnish Gin', note: 'Several Finnish distilleries produce gin infused with Arctic botanicals — birch, juniper, cloudberry, spruce tip.' },
-];
+const cocktailImages = [BARS.cocktailSour, BARS.cocktailAurora, BARS.cocktailBerry];
 
 export default function Cocktails() {
+  const { t } = useTranslation('pages');
+  const cocktails = (t('cocktails.cocktails', { returnObjects: true }) as CocktailItem[]) || [];
+  const ingredients = (t('cocktails.ingredients', { returnObjects: true }) as IngredientItem[]) || [];
   return (
     <>
       <PageSeo
@@ -62,18 +41,17 @@ export default function Cocktails() {
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/65 to-night" />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
-            Arctic Cocktails
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
+            {t('cocktails.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">
-            The same Arctic conditions that make Lapland's wild berries extraordinary
-            make them exceptional in a glass. This is cocktail culture built on foraged ingredients
-            you can't get anywhere else.
+          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+            {t('cocktails.hero.sub')}
           </p>
         </div>
       </section>
+      <PageBreadcrumb />
 
       {/* Featured cocktails */}
       <section className="py-16 bg-night">
@@ -85,14 +63,14 @@ export default function Cocktails() {
                 className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}
               >
                 <div className={`relative rounded-2xl overflow-hidden h-72 lg:h-80 ${i % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                  <img src={c.image} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  <img src={cocktailImages[i] ?? BARS.cocktailAurora} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                 </div>
                 <div className={i % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
                   <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>
                   <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">{c.name}</h2>
-                  <p className="text-white/30 text-sm mb-4 font-mono">{c.ingredients}</p>
-                  <p className="text-white/60 leading-relaxed">{c.description}</p>
+                  <p className="text-white/65 text-sm mb-4 font-mono">{c.ingredients}</p>
+                  <p className="text-white/80 leading-relaxed">{c.description}</p>
                 </div>
               </div>
             ))}
@@ -105,20 +83,40 @@ export default function Cocktails() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
-              The Ingredients
+              {t('cocktails.ingredientsTitle')}
             </h2>
-            <p className="text-white/50 max-w-2xl mx-auto">
-              Arctic conditions produce extreme ingredients — plants that develop higher concentrations of flavour
-              and nutrients to survive the cold and the endless summer sun.
+            <p className="text-white/75 max-w-2xl mx-auto">
+              {t('cocktails.ingredientsSub')}
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {arcticIngredients.map((ing) => (
+            {ingredients.map((ing) => (
               <div key={ing.name} className="bg-white/[0.03] border border-white/10 rounded-2xl p-5 hover:border-amber/20 transition-all">
                 <h3 className="font-heading text-lg text-amber tracking-wide mb-2">{ing.name}</h3>
-                <p className="text-sm text-white/50 leading-relaxed">{ing.note}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{ing.note}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Bookable cocktail & tasting experiences via GetYourGuide (search → live results) */}
+      <section className="py-16 bg-night/95">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="bg-gradient-to-br from-amber/[0.07] via-night/0 to-ice/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10 text-center">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/10 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-4">
+              <Martini size={11} />
+              {t('experiences.cocktail.kicker')}
+            </div>
+            <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3 text-balance">
+              {t('experiences.cocktail.title')}
+            </h2>
+            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto mb-7 text-pretty">
+              {t('experiences.cocktail.body')}
+            </p>
+            <GygSearchCta query="Rovaniemi cocktail tasting experience" sid="cocktails_exp_lapland">
+              {t('experiences.cocktail.cta')}
+            </GygSearchCta>
           </div>
         </div>
       </section>
@@ -130,13 +128,13 @@ export default function Cocktails() {
             <div>
               <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-2 flex items-center gap-1.5">
                 <Hotel size={11} />
-                Stay near the cocktail bar
+                {t('cocktails.stayBand.kicker')}
               </p>
               <h3 className="font-heading text-2xl text-white tracking-wide mb-1.5">
-                Don't drive home — book a room nearby
+                {t('cocktails.stayBand.title')}
               </h3>
-              <p className="text-white/55 text-sm leading-relaxed max-w-xl">
-                Most of the best cocktail bars are in Rovaniemi, Levi or Saariselkä. Hotels with walking-distance access:
+              <p className="text-white/80 text-sm leading-relaxed max-w-xl">
+                {t('cocktails.stayBand.sub')}
               </p>
             </div>
             <AffiliateCTA
@@ -145,10 +143,11 @@ export default function Cocktails() {
               destination="Lapland, Finland"
               className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-3 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
             >
-              Find hotels in Lapland
+              {t('cocktails.stayBand.cta')}
               <ExternalLink size={14} />
             </AffiliateCTA>
           </div>
+          <AffiliateDisclosure variant="full" className="mt-8 text-white/45 max-w-2xl mx-auto" />
         </div>
       </section>
     </>

@@ -1,0 +1,94 @@
+{
+  "site": {
+    "name": "LaplandBars",
+    "tagline": "Wo Lappland wirklich trinkt"
+  },
+  "lang": {
+    "currentEN": "EN",
+    "currentFI": "FI",
+    "currentDE": "DE",
+    "switchTo": "Sprache wechseln"
+  },
+  "cta": {
+    "readMore": "Mehr lesen",
+    "viewAll": "Alle ansehen",
+    "loading": "Lädt…",
+    "subscribe": "Abonnieren",
+    "close": "Schließen"
+  },
+  "footer": {
+    "networkBadge": "Finnisch-Lappland-Netzwerk",
+    "tagline": "Der umfassendste digitale Reiseführer für Finnisch-Lappland.",
+    "groups": {
+      "stay": "Übernachten",
+      "eatDrink": "Essen & Trinken",
+      "do": "Erleben",
+      "explore": "Entdecken",
+      "essentials": "Praktisches"
+    },
+    "travelGuideKicker": "Lappland-Reiseführer",
+    "pillars": {
+      "bars": "Bars",
+      "iceBars": "Eisbars",
+      "apresSki": "Après-Ski",
+      "cocktails": "Cocktails",
+      "craftBeer": "Mikrobrauereien",
+      "culture": "Trinkkultur"
+    },
+    "about": {
+      "eyebrow": "Über LaplandVibes",
+      "body": "Der maßgebliche Reiseführer für Finnisch-Lappland, von den Polarlichtern bis zur Mitternachtssonne. Sorgfältig kuratierte Erlebnisse, Insider-Tipps und alles, was Sie für die Planung Ihres arktischen Abenteuers brauchen.",
+      "badge": "Unabhängig gepflegt · Quellen angegeben"
+    },
+    "spottedError": {
+      "title": "Fehler entdeckt?",
+      "body": "Sehen Sie etwas, das korrigiert werden muss? Sagen Sie uns Bescheid, wir bessern es sofort aus.",
+      "cta": "Fehler melden →"
+    },
+    "partner": {
+      "title": "Werden Sie Partner",
+      "body": "Werbung oder Kooperation in einem Netzwerk von 27 Lappland-Seiten.",
+      "cta": "Kontakt aufnehmen →"
+    },
+    "press": {
+      "title": "Presse und Medien",
+      "body": "Redaktionelle Kooperationen und Pressemappen.",
+      "cta": "Presseanfragen →"
+    },
+    "affiliate": "Diese Website enthält Partnerlinks. Wenn Sie über diese Links buchen, erhält LaplandVibes möglicherweise eine Provision, ohne Mehrkosten für Sie.",
+    "copyright": "{{year}} #LaplandVibes, Teil des #LaplandVibes-Netzwerks",
+    "websiteBy": "Website von Yrityspaketit.fi",
+    "legal": {
+      "privacy": "Datenschutzerklärung",
+      "cookie": "Cookie-Richtlinie",
+      "terms": "Nutzungsbedingungen",
+      "contact": "Kontakt",
+      "about": "Über uns"
+    },
+    "siteLabels": {
+      "hotelDeals": "Hotelangebote",
+      "staysCabins": "Unterkünfte & Hütten",
+      "whereToStay": "Wo übernachten",
+      "familyFriendly": "Familienfreundlich",
+      "localFood": "Lokale Küche",
+      "fineDining": "Gehobene Küche",
+      "barsPubs": "Bars & Pubs",
+      "activities": "Aktivitäten",
+      "huskySafaris": "Husky-Safaris",
+      "skiResorts": "Skigebiete",
+      "snowmobileTours": "Schneemobil-Touren",
+      "spaWellness": "Spa & Wellness",
+      "nightlife": "Nachtleben",
+      "natureParks": "Natur & Parks",
+      "travelGuide": "Reiseführer",
+      "christmas": "Weihnachten in Lappland",
+      "giftsSouvenirs": "Geschenke & Souvenirs",
+      "travelBlog": "Reiseblog",
+      "dealsOffers": "Angebote",
+      "transport": "Transport",
+      "carRental": "Mietwagen",
+      "workInLapland": "Arbeiten in Lappland"
+    },
+    "taglineBars": "Der maßgebliche Guide zu Bars, Pubs, Eisbars und Nachtleben in Finnisch-Lappland."
+  }
+}

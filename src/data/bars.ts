@@ -1,4 +1,35 @@
 /**
+ * Localised string for tabular data fields like `hours` / `price` that we want
+ * to render in the user's current language (EN/FI/DE) without going through a
+ * JSON translation file. Keeping the translations next to the data keeps the
+ * data file self-contained and avoids the "string drifts out of sync with JSON"
+ * class of bugs.
+ *
+ * Read it with the `pickLocalised` helper below.
+ */
+export type Localised = {
+  en: string;
+  fi: string;
+  de?: string;
+  ja?: string;
+  es?: string;
+  'pt-BR'?: string;
+  'zh-CN'?: string;
+};
+
+import type { Locale } from '../i18n/config';
+
+/**
+ * Pick the string for the current locale. Falls back to EN if a translation
+ * for that locale is not yet provided (so a half-bootstrapped `de` doesn't
+ * render an empty cell).
+ */
+export function pickLocalised(value: Localised | string, locale: Locale): string {
+  if (typeof value === 'string') return value;
+  return (value as Record<string, string | undefined>)[locale] ?? value.en;
+}
+
+/**
  * Tour / experience that this venue actually sells (verified from the
  * venue's public website, not invented). When set, the bar card surfaces
  * the concrete details (price + schedule + booking hint) and offers a
@@ -52,10 +83,12 @@ export interface Bar {
   type: string;
   description: string;
   highlights: string[];
-  price: string;
+  /** Price summary localised across EN / FI / DE. Read via `pickLocalised`. */
+  price: Localised;
   address: string;
   website?: string;
-  hours: string;
+  /** Opening hours localised across EN / FI / DE. Read via `pickLocalised`. */
+  hours: Localised;
   featured?: boolean;
   tour?: BarTour;
 }
@@ -70,10 +103,18 @@ export const bars: Bar[] = [
     type: 'Craft Beer Pub',
     description: 'The northernmost craft brewery pub in Rovaniemi, serving fresh beers brewed on-site. Lapland Brewery uses pure Arctic water and locally inspired recipes — spruce tip ales, lingonberry wheat, smoked porter. Sit by the tanks and drink what was brewed that week.',
     highlights: ['House-brewed craft beer', 'Arctic ingredients', 'Brewery tours'],
-    price: 'Pint ~€7',
+    price: {
+      en: 'Pint ~€7',
+      fi: 'Tuoppi noin 7 €',
+      de: 'Pint ~7 €',
+    },
     address: 'Teollisuustie 14, 96320 Rovaniemi',
     website: 'https://lapinpanimo.fi/en/',
-    hours: 'Mon–Fri 09–21, Sat 12–21, Sun closed',
+    hours: {
+      en: 'Mon–Fri 09–21, Sat 12–21, Sun closed',
+      fi: 'Ma–Pe 09–21, La 12–21, Su suljettu',
+      de: 'Mo–Fr 09–21, Sa 12–21, So geschlossen',
+    },
     featured: true,
     tour: {
       label: 'Brewery tour & tasting',
@@ -94,10 +135,18 @@ export const bars: Bar[] = [
     type: 'Cocktail Bar',
     description: 'Rovakatu 21, right in the heart of Rovaniemi. The most consistently mentioned bar in the city — a hybrid café by day, cocktail bar by night. Creative drinks, curated wine list, a refined crowd. A favourite of locals and visitors who want something beyond a standard pub.',
     highlights: ['Creative cocktails', 'Wine selection', 'City centre location'],
-    price: 'Cocktail ~€12–15',
+    price: {
+      en: 'Cocktail ~€12–15',
+      fi: 'Drinkki noin 12–15 €',
+      de: 'Cocktail ~12–15 €',
+    },
     address: 'Rovakatu 21, 96200 Rovaniemi',
     website: 'https://www.cafebar21.fi/en/home',
-    hours: 'Mon–Thu 11–21, Fri 11–22, Sat 12–22, Sun closed',
+    hours: {
+      en: 'Mon–Thu 11–21, Fri 11–22, Sat 12–22, Sun closed',
+      fi: 'Ma–To 11–21, Pe 11–22, La 12–22, Su suljettu',
+      de: 'Mo–Do 11–21, Fr 11–22, Sa 12–22, So geschlossen',
+    },
     featured: true,
   },
   {
@@ -106,10 +155,18 @@ export const bars: Bar[] = [
     type: 'Traditional Pub',
     description: 'A legendary Rovaniemi institution. "Comfortable, relaxed, and legendary" — Uitto has been serving locals high-quality beers, drinks, snacks and meals for decades. No pretension, just a good Finnish pub doing what a good Finnish pub should do.',
     highlights: ['Local institution', 'Full menu', 'Draft beers'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Korkalonkatu 25, 96200 Rovaniemi',
     website: 'https://www.raflaamo.fi/en/restaurant/rovaniemi/uitto-pub',
-    hours: 'Mon–Thu 17–00:30, Fri–Sat 17–02:30, Sun 17–00:30',
+    hours: {
+      en: 'Mon–Thu 17–00:30, Fri–Sat 17–02:30, Sun 17–00:30',
+      fi: 'Ma–To 17–00:30, Pe–La 17–02:30, Su 17–00:30',
+      de: 'Mo–Do 17–00:30, Fr–Sa 17–02:30, So 17–00:30',
+    },
   },
   {
     name: 'Nook Lounge',
@@ -117,10 +174,18 @@ export const bars: Bar[] = [
     type: 'Bar & Lounge',
     description: 'A cosy café-bar hybrid where good drinks are made slowly and conversations run long. The bartenders know what they\'re doing. Popular with travellers who\'ve been on their feet all day and want somewhere warm, unhurried, and properly lit.',
     highlights: ['Lounge atmosphere', 'Crafted drinks', 'Late evenings'],
-    price: 'Cocktail ~€12',
+    price: {
+      en: 'Cocktail ~€12',
+      fi: 'Drinkki noin 12 €',
+      de: 'Cocktail ~12 €',
+    },
     address: 'Koskikatu 14, 96200 Rovaniemi',
     website: 'https://santashotels.fi/en/nook-lounge/',
-    hours: 'Check venue for current hours',
+    hours: {
+      en: 'Check venue for current hours',
+      fi: 'Tarkista aukioloajat suoraan paikasta',
+      de: 'Aktuelle Öffnungszeiten beim Lokal prüfen',
+    },
   },
   {
     name: 'Bull Bar & Grill',
@@ -128,10 +193,18 @@ export const bars: Bar[] = [
     type: 'Bar & Grill',
     description: 'Located in the Arctic City Hotel building — an American-style grill bar with a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.',
     highlights: ['Grill menu', 'Sports bar', 'Hotel location'],
-    price: 'Mains €14–22',
+    price: {
+      en: 'Mains €14–22',
+      fi: 'Pääruoat 14–22 €',
+      de: 'Hauptgerichte 14–22 €',
+    },
     address: 'Maakuntakatu 25, 96200 Rovaniemi',
     website: 'https://www.arcticcityhotel.fi/eat-drink/bull-bar-grill',
-    hours: 'Mon–Thu 17–00, Fri–Sat 17–02, Sun 17–00',
+    hours: {
+      en: 'Mon–Thu 17–00, Fri–Sat 17–02, Sun 17–00',
+      fi: 'Ma–To 17–00, Pe–La 17–02, Su 17–00',
+      de: 'Mo–Do 17–00, Fr–Sa 17–02, So 17–00',
+    },
   },
   {
     name: 'Ice Bar @ Arctic SnowHotel',
@@ -139,10 +212,18 @@ export const bars: Bar[] = [
     type: 'Ice Bar Experience',
     description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi — 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.',
     highlights: ['New theme yearly', 'Ice glasses', 'Thermal suits included', '-5°C inside'],
-    price: 'Entry ~€15 incl. one drink',
+    price: {
+      en: 'Entry ~€15 incl. one drink',
+      fi: 'Sisäänpääsy noin 15 €, sis. yhden juoman',
+      de: 'Eintritt ~15 € inkl. einem Getränk',
+    },
     address: 'Lehtoahontie 27, 97220 Sinettä',
     website: 'https://arcticsnowhotel.fi/en/eat-drink/ice-bar/',
-    hours: 'Daily 10–20 (Dec 15 – Mar 31)',
+    hours: {
+      en: 'Daily 10–20 (Dec 15 – Mar 31)',
+      fi: 'Päivittäin 10–20 (15.12.–31.3.)',
+      de: 'Täglich 10–20 (15. Dez. – 31. März)',
+    },
     featured: true,
     tour: {
       label: 'Ice bar visit + thermal suit',
@@ -162,10 +243,18 @@ export const bars: Bar[] = [
     type: 'Live Music Venue & Après-Ski',
     description: 'The undisputed king of Lapland après-ski. 1,700-capacity arena right at the base of Levi\'s main slope — Finland\'s biggest après-ski venue. Top Finnish artists, pop stars, rap acts and international DJs perform nightly during ski season. The dance floor fills at 4pm and doesn\'t empty until 2am.',
     highlights: ['1,700 capacity', 'Top Finnish artists', 'Slope-side location', 'Nightly shows'],
-    price: 'Entry €0–20 depending on act',
+    price: {
+      en: 'Entry €0–20 depending on act',
+      fi: 'Sisäänpääsy 0–20 € esiintyjästä riippuen',
+      de: 'Eintritt 0–20 € je nach Act',
+    },
     address: 'Myllyjoentie 2, 99130 Levi',
     website: 'https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/',
-    hours: 'Performance nights, doors 20–21, closes 03:30',
+    hours: {
+      en: 'Performance nights, doors 20–21, closes 03:30',
+      fi: 'Keikkailtoina, ovet 20–21, suljetaan 03:30',
+      de: 'Showabende, Einlass 20–21, Schluss 03:30',
+    },
     featured: true,
   },
   {
@@ -174,10 +263,18 @@ export const bars: Bar[] = [
     type: 'Nightclub & Bar',
     description: 'Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm — then you understand why everyone talks about it.',
     highlights: ['Late-night institution', 'Karaoke nights', 'Local favourite'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Keskuskuja 3 A, 99130 Levi',
     website: 'https://ihkubar.fi',
-    hours: 'Karaoke from 18:00, club 22:00–04:00',
+    hours: {
+      en: 'Karaoke from 18:00, club 22:00–04:00',
+      fi: 'Karaoke alkaen 18:00, klubi 22:00–04:00',
+      de: 'Karaoke ab 18:00, Club 22:00–04:00',
+    },
     featured: true,
   },
   {
@@ -186,10 +283,18 @@ export const bars: Bar[] = [
     type: 'Pub',
     description: '"Levi\'s funniest pub." Hölmölä offers the best brewery products and cocktails, followed by unpretentious bar food. Board games, table football and billiards available free of charge. The kind of pub that doesn\'t take itself seriously, which is exactly what makes it great.',
     highlights: ['Board games & billiards', 'Craft beers', 'Bar food', 'No attitude'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Hiihtäjänkuja 10, 99130 Levi',
     website: 'https://www.hulluporo.fi/en/restaurants/pub-holmola/',
-    hours: 'Daily 10–02',
+    hours: {
+      en: 'Daily 10–02',
+      fi: 'Päivittäin 10–02',
+      de: 'Täglich 10–02',
+    },
   },
   {
     name: 'Pub Sohva',
@@ -197,10 +302,18 @@ export const bars: Bar[] = [
     type: 'Beer Restaurant',
     description: 'A warm and helpful beer restaurant along Levi\'s main street. Sohva is the kind of place you walk into planning one drink and leave three hours later. Good beer selection, decent food, friendly service. The daytime crowd flows straight into the evening one.',
     highlights: ['Main street location', 'Beer selection', 'Food menu'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Leviraitti 4 B, 99130 Levi',
     website: 'https://pubsohva.fi/',
-    hours: 'Daily 12–02',
+    hours: {
+      en: 'Daily 12–02',
+      fi: 'Päivittäin 12–02',
+      de: 'Täglich 12–02',
+    },
   },
   {
     name: 'Bar Alakerta',
@@ -208,10 +321,18 @@ export const bars: Bar[] = [
     type: 'Live Music Bar',
     description: 'Sunny terrace, live music and the legendary Open Stage Jams on Sundays. Alakerta attracts musicians and music lovers — both locals and visiting artists who\'ve heard about the Sunday sessions. Unpretentious, warm, with the kind of atmosphere that happens when people actually love what they\'re doing.',
     highlights: ['Sunday Open Stage Jams', 'Live music', 'Sunny terrace'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Myllyjoentie 2, 99130 Levi',
     website: 'https://alakerta.bar',
-    hours: 'Tue–Sun 18–02 (04)',
+    hours: {
+      en: 'Tue–Sun 18–02 (04)',
+      fi: 'Ti–Su 18–02 (04)',
+      de: 'Di–So 18–02 (04)',
+    },
   },
   {
     name: 'Pub Old Mates',
@@ -219,10 +340,18 @@ export const bars: Bar[] = [
     type: 'British Pub',
     description: 'A proper British-style pub dropped into the middle of Finnish Lapland. Old Mates does pints properly, shows football, and provides a corner of familiar comfort for those who need it after a long day on the slopes. Better than most pubs in Britain, because Finnish beer is actually good.',
     highlights: ['British pub style', 'Sports on screen', 'Pints done right'],
-    price: 'Pint ~€6–8',
+    price: {
+      en: 'Pint ~€6–8',
+      fi: 'Tuoppi noin 6–8 €',
+      de: 'Pint ~6–8 €',
+    },
     address: 'Tähtitie 4, 99130 Levi',
     website: 'https://oldmates.fi/levi',
-    hours: 'Daily 12–02, kitchen 12–21:30',
+    hours: {
+      en: 'Daily 12–02, kitchen 12–21:30',
+      fi: 'Päivittäin 12–02, keittiö 12–21:30',
+      de: 'Täglich 12–02, Küche 12–21:30',
+    },
   },
 
   // YLLÄS
@@ -232,10 +361,18 @@ export const bars: Bar[] = [
     type: 'Pub & Restaurant',
     description: 'The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge — no pretension, just good drinks and easy company.',
     highlights: ['Äkäslompolo village', 'Craft beers', 'Finnish pub food', 'Log cabin vibe'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Tunturintie 16, 95970 Äkäslompolo',
     website: 'https://selvapyy.fi',
-    hours: 'Daily 11–01',
+    hours: {
+      en: 'Daily 11–01',
+      fi: 'Päivittäin 11–01',
+      de: 'Täglich 11–01',
+    },
     featured: true,
   },
   {
@@ -244,9 +381,17 @@ export const bars: Bar[] = [
     type: 'Nightclub',
     description: 'The only proper nightclub in the Ylläs area, located inside Lapland Hotels Äkäshotelli. When the pubs wind down, the party moves underground to Pirtukellari. DJs, dancing, and a surprisingly packed floor for a village of 400 people. Peak season Fridays are genuinely wild.',
     highlights: ['Ylläs only nightclub', 'DJs & dancing', 'Inside Lapland Hotels'],
-    price: 'Beer ~€6–7',
+    price: {
+      en: 'Beer ~€6–7',
+      fi: 'Olut noin 6–7 €',
+      de: 'Bier ~6–7 €',
+    },
     address: 'Äkäsentie 10, 95970 Äkäslompolo',
-    hours: 'Fri–Sat 22–03 (season dependent)',
+    hours: {
+      en: 'Fri–Sat 22–03 (season dependent)',
+      fi: 'Pe–La 22–03 (sesongin mukaan)',
+      de: 'Fr–Sa 22–03 (saisonabhängig)',
+    },
   },
 
   // SAARISELKÄ
@@ -256,10 +401,18 @@ export const bars: Bar[] = [
     type: 'Gastropub & Craft Beer',
     description: 'The best bar in Saariselkä — a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lappish-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.',
     highlights: ['Craft beer selection', 'Lappish cuisine', 'Modern gastropub'],
-    price: 'Beer ~€7–8, mains €16–25',
+    price: {
+      en: 'Beer ~€7–8, mains €16–25',
+      fi: 'Olut noin 7–8 €, pääruoat 16–25 €',
+      de: 'Bier ~7–8 €, Hauptgerichte 16–25 €',
+    },
     address: 'Revontulentie 1, 99830 Saariselkä',
     website: 'https://gastropubgiitu.fi/en/home',
-    hours: 'Daily 12–00, kitchen 12–22',
+    hours: {
+      en: 'Daily 12–00, kitchen 12–22',
+      fi: 'Päivittäin 12–00, keittiö 12–22',
+      de: 'Täglich 12–00, Küche 12–22',
+    },
     featured: true,
   },
   {
@@ -268,22 +421,166 @@ export const bars: Bar[] = [
     type: 'Pub & Restaurant',
     description: 'A traditional Finnish pub-restaurant in Saariselkä serving reliable Finnish food alongside a good selection of drinks. Located in the Santa\'s Hotel Tunturi complex. The kind of place the whole group can agree on — whether you want a burger, a beer, or just somewhere warm to sit after a long Arctic day.',
     highlights: ['Full restaurant menu', 'Traditional Finnish food', 'Hotel complex'],
-    price: 'Mains €14–22',
+    price: {
+      en: 'Mains €14–22',
+      fi: 'Pääruoat 14–22 €',
+      de: 'Hauptgerichte 14–22 €',
+    },
     address: 'Honkapolku 2, 99830 Saariselkä',
     website: 'https://pirkonpirtti.fi/',
-    hours: 'Daily 15–21',
+    hours: {
+      en: 'Daily 15–21',
+      fi: 'Päivittäin 15–21',
+      de: 'Täglich 15–21',
+    },
   },
+
+  // --- GEMS added 2026-06-11 (verified addresses/hours) ---
+  {
+    name: 'Kauppayhtiö',
+    city: 'Rovaniemi',
+    type: 'Bar & Live Music',
+    description: 'Valtakatu 24 — part bar, part marketplace, part art gallery. Wood-fired pizza and burgers from the kitchen, DJs spinning into the night, second-hand furniture for sale, and the Edge Gallery of street and pop art on the walls. Nothing in Rovaniemi feels quite like it.',
+    highlights: ['DJs & live music', 'Wood-fired pizza', 'Street-art gallery'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Valtakatu 24, 96200 Rovaniemi',
+    website: 'https://www.kauppayhtio.fi/',
+    hours: { en: 'Tue–Fri 11–22, Sat 13–22, Sun 13–21', fi: 'Ti–Pe 11–22, La 13–22, Su 13–21', de: 'Di–Fr 11–22, Sa 13–22, So 13–21' },
+    featured: true,
+  },
+  {
+    name: 'Rovaniemen Oluthuone',
+    city: 'Rovaniemi',
+    type: 'Beer Bar',
+    description: 'The "Beer Room" on Rovaniemi\'s pedestrian street — a warm beer restaurant with a deep selection of domestic and imported brews plus cocktails and snacks. In summer the terrace and beer garden open up under the midnight sun. A straightforward, well-run place locals keep coming back to.',
+    highlights: ['Deep beer selection', 'Summer beer garden', 'Pedestrian-street location'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Koskikatu 20, 96200 Rovaniemi',
+    website: 'https://www.rovaniemenoluthuone.fi/',
+    hours: { en: 'Mon–Tue 14–00, Wed–Thu 14–02, Fri–Sat 12–03, Sun 12–00', fi: 'Ma–Ti 14–00, Ke–To 14–02, Pe–La 12–03, Su 12–00', de: 'Mo–Di 14–00, Mi–Do 14–02, Fr–Sa 12–03, So 12–00' },
+  },
+  {
+    name: 'MustaKissa Kuppila',
+    city: 'Rovaniemi',
+    type: 'Cocktail Bar',
+    description: 'A small, cosy den for craft cocktails and local beer, where the drinks lean Arctic and seasonal. MustaKissa doubles as a gallery and concert space — temporary exhibitions on the walls, live music some nights. The kind of low-key spot regulars guard a little jealously.',
+    highlights: ['Arctic seasonal cocktails', 'Local craft beer', 'Gallery & live music'],
+    price: { en: 'Cocktail ~€12–15', fi: 'Drinkki noin 12–15 €', de: 'Cocktail ~12–15 €' },
+    address: 'Kansankatu 2, 96100 Rovaniemi',
+    website: 'https://www.facebook.com/MustaKissaKuppila/',
+    hours: { en: 'Tue–Thu 14–23, Fri–Sat 14–02, Sun 14–20, Mon closed', fi: 'Ti–To 14–23, Pe–La 14–02, Su 14–20, Ma suljettu', de: 'Di–Do 14–23, Fr–Sa 14–02, So 14–20, Mo geschlossen' },
+  },
+  {
+    name: 'Pub Sarvi',
+    city: 'Rovaniemi',
+    type: 'Traditional Pub',
+    description: 'A warm, wood-clad neighbourhood pub away from the city-centre crowds. Craft beer on tap, honest shots, and regular live music that pulls in locals who know each other by name. Unpretentious and easy — the sort of pub you settle into for the evening rather than just pass through.',
+    highlights: ['Craft beer on tap', 'Live music', 'Neighbourhood local'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Hillapolku 9, 96500 Rovaniemi',
+    website: 'https://www.facebook.com/pubsarvi/',
+    hours: { en: 'Mon–Thu 16–00, Fri 14–04, Sat 12–04, Sun 12–22', fi: 'Ma–To 16–00, Pe 14–04, La 12–04, Su 12–22', de: 'Mo–Do 16–00, Fr 14–04, Sa 12–04, So 12–22' },
+  },
+  {
+    name: 'Roy Club',
+    city: 'Rovaniemi',
+    type: 'Karaoke Bar & Nightclub',
+    description: 'Rovaniemi\'s legendary karaoke bar and nightclub, running since 1985. Two floors: grab the mic on one, hit the dance floor on the other. It opens late and closes later — the place where a Rovaniemi night out tends to end, whether you planned it that way or not.',
+    highlights: ['Karaoke since 1985', 'Two floors', 'Late-night club'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Maakuntakatu 24, 96200 Rovaniemi',
+    website: 'https://www.royclub.fi/',
+    hours: { en: 'Daily 22–04:30', fi: 'Päivittäin 22–04:30', de: 'Täglich 22–04:30' },
+  },
+  {
+    name: "V'inkkari",
+    city: 'Levi',
+    type: 'Après-Ski Bar',
+    description: 'A Levi après-ski institution at the foot of the slopes, known far beyond Lapland. Live bands play almost daily through the ski season and the crowd ends up dancing on the tables in ski boots. Easygoing by afternoon, loud and packed by evening — pure Levi après.',
+    highlights: ['Live bands daily', 'Slope-side après', 'Dancing in ski boots'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Hissitie 6, 99130 Levi',
+    website: 'https://www.levi.fi/en/services/restaurant-vinkkari/',
+    hours: { en: 'Check venue for current hours', fi: 'Tarkista aukioloajat suoraan paikasta', de: 'Aktuelle Öffnungszeiten beim Lokal prüfen' },
+    featured: true,
+  },
+  {
+    name: 'Restaurant Tuikku',
+    city: 'Levi',
+    type: 'Fell-Top Restaurant & Après-Ski',
+    description: 'Levi\'s oldest fell-top restaurant, perched at the summit with panoramic views across the Western Lapland fells. Reach it on skis, by snowmobile, on foot — or by helicopter via the summit road. Lunch by day, the "Master of After Ski" by afternoon when the winter season is on.',
+    highlights: ['Summit panoramic views', 'Arrive by ski or helicopter', 'Legendary après'],
+    price: { en: 'Lunch / mains €15–25', fi: 'Lounas / pääruoat 15–25 €', de: 'Mittag / Hauptgerichte 15–25 €' },
+    address: 'Tuikuntie 11, 99130 Levi',
+    website: 'https://www.levi.fi/en/services/panoramic-restaurant-tuikku/',
+    hours: { en: 'Daily 11–16 (summer); après-ski hours in winter — check venue', fi: 'Päivittäin 11–16 (kesä); talvella après-ski-ajat — tarkista paikasta', de: 'Täglich 11–16 (Sommer); im Winter Après-Ski-Zeiten — beim Lokal prüfen' },
+  },
+  {
+    name: 'Bar Kaappi',
+    city: 'Ylläs',
+    type: 'Après-Ski Bar',
+    description: 'A lounge-style après-ski bar in the heart of Ylläsjärvi, with a wide drinks list, special beers and cocktails — and the famous "Hattivatti" mocktail families come in for before 10pm. Through winter it runs live music nights and pub quizzes. Out front sits the Ford Sierra from the Lapland Odyssey films.',
+    highlights: ['Hattivatti mocktail', 'Special beers & cocktails', 'Live music & quizzes'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Vaeltajantie 2, 95980 Ylläsjärvi',
+    website: 'https://yllas.fi/en/restaurant/bar-kaappi/',
+    hours: { en: 'Check venue for current hours', fi: 'Tarkista aukioloajat suoraan paikasta', de: 'Aktuelle Öffnungszeiten beim Lokal prüfen' },
+  },
+  {
+    name: 'Teerenpesä',
+    city: 'Saariselkä',
+    type: 'Restaurant, Pub & Nightclub',
+    description: 'Three venues under one log roof in the centre of Saariselkä: a Lappish restaurant doing seasonal northern dishes, a sports pub with screens, darts and pool, and a nightclub that runs both traditional couples\' dances and a disco floor. Whatever the group wants from a night, it\'s here.',
+    highlights: ['Three venues in one', 'Lappish kitchen', 'Dances & disco'],
+    price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
+    address: 'Saariseläntie 5, 99830 Saariselkä',
+    website: 'https://teerenpesa.fi/en/',
+    hours: { en: 'Daily 15–02, kitchen 15–23', fi: 'Päivittäin 15–02, keittiö 15–23', de: 'Täglich 15–02, Küche 15–23' },
+    featured: true,
+  },
+
 ];
 
-export const iceBars = [
+export interface IceBar {
+  name: string;
+  location: string;
+  description: string;
+  highlight: string;
+  /** Temperature label localised across EN / FI / DE. */
+  temp: Localised;
+  /** Price summary localised across EN / FI / DE. */
+  price: Localised;
+  /** Season / availability window localised across EN / FI / DE. */
+  season: Localised;
+  website?: string;
+  stayQuery: string;
+  staySid: string;
+  stayHint: string;
+  visitGygProductPath: string;
+  visitSid: string;
+}
+
+export const iceBars: IceBar[] = [
   {
     name: 'SnowVillage IceBar',
     location: 'Lainio, Ylläs',
     description: 'Carved entirely from snow and ice each winter by international ice artists. New theme and sculptures every season. Drinks served in glasses made of pure Arctic ice. Part of the Snow Village complex — combine it with a night in a snow suite.',
     highlight: 'New ice sculptures every winter',
-    temp: '-5°C inside',
-    price: 'Entry + 1 drink ~€25',
-    season: 'Open Dec–Apr (rebuild Oct–Nov)',
+    temp: {
+      en: '-5°C inside',
+      fi: 'sisällä -5 °C',
+      de: 'innen -5 °C',
+    },
+    price: {
+      en: 'Entry + 1 drink ~€25',
+      fi: 'Sisäänpääsy + 1 juoma noin 25 €',
+      de: 'Eintritt + 1 Getränk ~25 €',
+    },
+    season: {
+      en: 'Open Dec–Apr (rebuild Oct–Nov)',
+      fi: 'Auki joulu–huhtikuu (rakennetaan loka–marraskuussa)',
+      de: 'Geöffnet Dez.–Apr. (Aufbau Okt.–Nov.)',
+    },
     website: 'https://snowvillage.fi',
     // Hotels.com — sleep on-site
     stayQuery: 'Lainio Snow Village, Ylläs, Finland',
@@ -298,9 +595,21 @@ export const iceBars = [
     location: 'Rovaniemi (30min)',
     description: 'Located at Arctic SnowHotel on the shores of Lake Lehtojärvi. Rebuilt every winter with new artistic themes, carved by Finnish and international artists. Thermal suits provided. The Lake setting makes this one of the most atmospheric ice bars in the world.',
     highlight: 'Thermal suits included',
-    temp: '-5°C inside',
-    price: 'Entry + 1 drink ~€15',
-    season: 'Daily 10–20 (Dec 15 – Mar 31)',
+    temp: {
+      en: '-5°C inside',
+      fi: 'sisällä -5 °C',
+      de: 'innen -5 °C',
+    },
+    price: {
+      en: 'Entry + 1 drink ~€15',
+      fi: 'Sisäänpääsy + 1 juoma noin 15 €',
+      de: 'Eintritt + 1 Getränk ~15 €',
+    },
+    season: {
+      en: 'Daily 10–20 (Dec 15 – Mar 31)',
+      fi: 'Päivittäin 10–20 (15.12.–31.3.)',
+      de: 'Täglich 10–20 (15. Dez. – 31. März)',
+    },
     website: 'https://arcticsnowhotel.fi',
     stayQuery: 'Arctic SnowHotel, Rovaniemi, Finland',
     staySid: 'icebar_arctic_snowhotel',
@@ -314,9 +623,21 @@ export const iceBars = [
     location: 'Santa Claus Village, Rovaniemi',
     description: 'Inside the legendary Snowman World at Santa Claus Village — a different kind of ice bar experience, more family-friendly and accessible. Hot drinks and cold cocktails served amid snow sculptures. Good option if you\'re combining the ice bar with a Santa visit.',
     highlight: 'Santa Claus Village location',
-    temp: 'Outdoors / covered',
-    price: 'Part of Snowman World entry',
-    season: 'Late Nov – early Apr',
+    temp: {
+      en: 'Outdoors / covered',
+      fi: 'Ulkona / katettu',
+      de: 'Draußen / überdacht',
+    },
+    price: {
+      en: 'Part of Snowman World entry',
+      fi: 'Sisältyy Snowman Worldin lippuun',
+      de: 'Im Snowman-World-Ticket enthalten',
+    },
+    season: {
+      en: 'Late Nov – early Apr',
+      fi: 'Marraskuun loppu – huhtikuun alku',
+      de: 'Ende Nov. – Anfang Apr.',
+    },
     website: 'https://snowmanworld.fi',
     stayQuery: 'Santa Claus Village, Rovaniemi, Finland',
     staySid: 'icebar_snowman_world',

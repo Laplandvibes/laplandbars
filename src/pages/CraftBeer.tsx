@@ -1,60 +1,40 @@
 import { Beer, Hotel, ExternalLink, Compass } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import GygSearchCta from '../components/GygSearchCta';
+import AffiliateDisclosure from '../components/AffiliateDisclosure';
+import PageBreadcrumb from '../components/PageBreadcrumb';
 
-const breweries = [
-  {
-    name: 'Lapon Panimo',
-    location: 'Saariselkä',
-    description: 'The northernmost craft brewery in Finland. Founded in Saariselkä — one of the most remote locations any brewery operates from. Their beers use pure Arctic water and locally inspired ingredients: spruce tips, lingonberries, rye. The brewery has a small pub where you can drink fresh beer metres from where it was made.',
-    beers: ['Arctic Lager', 'Spruce Tip Pale Ale', 'Lingonberry Wheat', 'Dark Arctic Porter'],
-    featured: true,
-  },
-  {
-    name: 'Tornion Panimo',
-    location: 'Tornio (Swedish border)',
-    description: 'Award-winning craft brewery at the Swedish-Finnish border town of Tornio. Known for their Arctic Circle Ale and innovative Nordic-style brewing. They export throughout the Nordics and have won multiple awards at Scandinavian beer competitions.',
-    beers: ['Arctic Circle Ale', 'Border Stout', 'Midnight Sun IPA', 'Nordic Lager'],
-    featured: true,
-  },
-  {
-    name: 'Lapland Brewery',
-    location: 'Rovaniemi',
-    description: 'The brewery pub in Rovaniemi city centre. Beers brewed on-site, served at the bar alongside the tanks. Watch the brewing process while drinking the results. Their seasonal releases often incorporate ingredients foraged from the Lappish forest around the city.',
-    beers: ['House Lager', 'Amber Fell Ale', 'Smoked Rye Porter', 'Seasonal specials'],
-    featured: false,
-  },
-];
+type Brewery = { name: string; location: string; description: string };
+type Style = { style: string; desc: string };
 
-const beerStyles = [
-  {
-    style: 'Arctic Lager',
-    desc: 'Clean, crisp, brewed with glacial Arctic water. The baseline of Finnish craft beer — deceptively simple, surprisingly good.',
-  },
-  {
-    style: 'Spruce Tip Ale',
-    desc: 'Foraged spruce tips collected in spring. Resinous, herbal, unlike anything from a southern brewery. A genuinely Arctic flavour.',
-  },
-  {
-    style: 'Berry Wheat',
-    desc: 'Wild lingonberry or cloudberry added to a wheat beer base. Tart, fruity, and seasonal — you can taste where it came from.',
-  },
-  {
-    style: 'Smoked Porter',
-    desc: 'Rich, dark, with smoke from Finnish birch wood. A winter beer for cold nights by a fire. Pairs well with reindeer.',
-  },
-  {
-    style: 'Rye Saison',
-    desc: 'Finnish rye — a staple grain of northern food culture — used in a Belgian-style saison. Earthy, spicy, unusual.',
-  },
-  {
-    style: 'Midnight Sun IPA',
-    desc: 'Brewed during the polar day in summer. Citrus-forward, bitter, and named after the phenomenon that makes Arctic hop growing possible.',
-  },
-];
+const breweryBeers: Record<string, string[]> = {
+  'Lapon Panimo': ['Arctic Lager', 'Spruce Tip Pale Ale', 'Lingonberry Wheat', 'Dark Arctic Porter'],
+  'Tornion Panimo': ['Arctic Circle Ale', 'Border Stout', 'Midnight Sun IPA', 'Nordic Lager'],
+  'Lapland Brewery': ['House Lager', 'Amber Fell Ale', 'Smoked Rye Porter', 'Seasonal specials'],
+};
+
+const featuredFlags: Record<string, boolean> = {
+  'Lapon Panimo': true,
+  'Tornion Panimo': true,
+  'Lapland Brewery': false,
+};
+
+// Map the page language → GetYourGuide widget locale code, so the embedded tour
+// cards render in the visitor's language. Without this the GYG SDK geo-defaults
+// to Finnish (the partner's home market), regardless of the page language.
+const GYG_LOCALE: Record<string, string> = {
+  en: 'en-US', fi: 'fi-FI', de: 'de-DE', ja: 'ja-JP', es: 'es-ES',
+  'pt-BR': 'pt-BR', 'zh-CN': 'zh-CN', ko: 'ko-KR', fr: 'fr-FR', it: 'it-IT', nl: 'nl-NL',
+};
 
 export default function CraftBeer() {
+  const { t, i18n } = useTranslation('pages');
+  const lang = i18n.language;
+  const breweries = (t('craftBeer.breweries', { returnObjects: true }) as Brewery[]) || [];
+  const styles = (t('craftBeer.styles', { returnObjects: true }) as Style[]) || [];
   return (
     <>
       <PageSeo
@@ -80,18 +60,17 @@ export default function CraftBeer() {
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/65 to-night" />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
-            Craft Beer
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
+            {t('craftBeer.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">
-            Finnish craft beer is built on the same principles as Finnish food: pure water,
-            wild local ingredients, and no shortcuts. The Arctic brings its own flavour
-            to every pint.
+          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+            {t('craftBeer.hero.sub')}
           </p>
         </div>
       </section>
+      <PageBreadcrumb />
 
       {/* Brewery listings */}
       <section className="py-16 bg-night">
@@ -111,34 +90,38 @@ export default function CraftBeer() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {breweries.map((brewery) => (
-              <div
-                key={brewery.name}
-                className={`bg-white/[0.03] border rounded-2xl p-6 transition-all duration-300 hover:border-amber/20 ${
-                  brewery.featured ? 'border-amber/20' : 'border-white/10'
-                }`}
-              >
-                {brewery.featured && (
-                  <div className="flex items-center gap-2 text-amber text-xs uppercase tracking-widest mb-4">
-                    <Beer size={12} />
-                    Featured Brewery
-                  </div>
-                )}
-                <h3 className="font-heading text-xl text-white tracking-wide mb-1">{brewery.name}</h3>
-                <p className="text-xs text-white/30 uppercase tracking-wider mb-4">{brewery.location}</p>
-                <p className="text-sm text-white/55 leading-relaxed mb-5">{brewery.description}</p>
-                <div>
-                  <p className="text-xs text-white/30 uppercase tracking-wider mb-2">Known Beers</p>
-                  <div className="flex flex-wrap gap-2">
-                    {brewery.beers.map((beer) => (
-                      <span key={beer} className="text-xs bg-amber/8 text-amber/70 px-2 py-1 rounded-full">
-                        {beer}
-                      </span>
-                    ))}
+            {breweries.map((brewery) => {
+              const featured = featuredFlags[brewery.name] ?? false;
+              const beers = breweryBeers[brewery.name] ?? [];
+              return (
+                <div
+                  key={brewery.name}
+                  className={`bg-white/[0.03] border rounded-2xl p-6 transition-all duration-300 hover:border-amber/20 ${
+                    featured ? 'border-amber/20' : 'border-white/10'
+                  }`}
+                >
+                  {featured && (
+                    <div className="flex items-center gap-2 text-amber text-xs uppercase tracking-widest mb-4">
+                      <Beer size={12} />
+                      {t('craftBeer.featuredKicker')}
+                    </div>
+                  )}
+                  <h3 className="font-heading text-xl text-white tracking-wide mb-1">{brewery.name}</h3>
+                  <p className="text-xs text-white/65 uppercase tracking-wider mb-4">{brewery.location}</p>
+                  <p className="text-sm text-white/80 leading-relaxed mb-5">{brewery.description}</p>
+                  <div>
+                    <p className="text-xs text-white/65 uppercase tracking-wider mb-2">{t('craftBeer.knownBeers')}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {beers.map((beer) => (
+                        <span key={beer} className="text-xs bg-amber/8 text-amber/70 px-2 py-1 rounded-full">
+                          {beer}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -148,18 +131,17 @@ export default function CraftBeer() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
-              Arctic Beer Styles
+              {t('craftBeer.stylesTitle')}
             </h2>
-            <p className="text-white/50 max-w-2xl mx-auto">
-              Finnish craft brewers use ingredients from the same landscape as the chefs.
-              The forest floor is as important as the brewery.
+            <p className="text-white/75 max-w-2xl mx-auto">
+              {t('craftBeer.stylesSub')}
             </p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {beerStyles.map((s) => (
+            {styles.map((s) => (
               <div key={s.style} className="bg-white/[0.03] border border-white/10 rounded-2xl p-5 hover:border-amber/20 transition-all">
                 <h3 className="font-heading text-lg text-amber tracking-wide mb-2">{s.style}</h3>
-                <p className="text-sm text-white/50 leading-relaxed">{s.desc}</p>
+                <p className="text-sm text-white/75 leading-relaxed">{s.desc}</p>
               </div>
             ))}
           </div>
@@ -172,40 +154,39 @@ export default function CraftBeer() {
           <div className="text-center mb-10">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-ice/10 border border-ice/30 text-ice text-[11px] font-semibold uppercase tracking-widest mb-3">
               <Compass size={11} />
-              Tours & tastings
+              {t('craftBeer.tours.kicker')}
             </div>
             <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">
-              Brewery & food tours bookable now
+              {t('craftBeer.tours.title')}
             </h2>
-            <p className="text-white/55 text-sm sm:text-base max-w-2xl mx-auto">
-              Live availability from GetYourGuide. Brewery visits, distillery tastings and Lappish food experiences in
-              Rovaniemi, Saariselkä and beyond.
+            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto">
+              {t('craftBeer.tours.sub')}
             </p>
           </div>
 
           {/* GYG widget — auto-populated by the Integration Analyzer in <head> */}
           <div
+            key={`gyg-${lang}`}
             data-gyg-widget="activities"
             data-gyg-partner-id="VRMKD7N"
             data-gyg-number-of-items="6"
             data-gyg-cmp="laplandbars-craftbeer"
             data-gyg-q="Lapland brewery beer tour tasting"
-            data-gyg-locale-code="en-US"
+            data-gyg-locale-code={GYG_LOCALE[lang] ?? 'en-US'}
             data-gyg-currency="EUR"
             className="min-h-[200px]"
           />
 
-          {/* Fallback link if GYG returns no brewery-specific results */}
+          {/* Fallback link if GYG returns no brewery-specific results — GYG search
+              (resolves to live results, never 404s a stale product slug) */}
           <div className="mt-8 text-center">
-            <AffiliateCTA
-              partner="activities"
-              sid="craftbeer_gyg_lapland_food"
-              destination="rovaniemi-l2653"
-              className="inline-flex items-center gap-2 text-amber hover:text-amber/80 text-sm font-semibold no-underline"
+            <GygSearchCta
+              query="Rovaniemi brewery tour tasting"
+              sid="craftbeer_gyg_search_rovaniemi"
+              variant="link"
             >
-              See all food & drink experiences in Lapland on GetYourGuide
-              <ExternalLink size={14} />
-            </AffiliateCTA>
+              {t('craftBeer.tours.fallback')}
+            </GygSearchCta>
           </div>
         </div>
       </section>
@@ -218,14 +199,13 @@ export default function CraftBeer() {
               <div className="lg:col-span-2">
                 <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-3 flex items-center gap-1.5">
                   <Hotel size={11} />
-                  Stay near the brewery
+                  {t('craftBeer.stay.kicker')}
                 </p>
                 <h3 className="font-heading text-2xl sm:text-3xl text-white tracking-wide mb-3">
-                  Skip the taxi — book a hotel within walking distance
+                  {t('craftBeer.stay.title')}
                 </h3>
-                <p className="text-white/60 text-sm leading-relaxed">
-                  Lapon Panimo's pub closes at 11pm. Tornion Panimo is across the river from town. Lapland Brewery sits
-                  in central Rovaniemi. Pick the brewery, book a hotel within walking distance.
+                <p className="text-white/80 text-sm leading-relaxed">
+                  {t('craftBeer.stay.body')}
                 </p>
               </div>
               <div className="flex flex-col gap-2">
@@ -235,8 +215,8 @@ export default function CraftBeer() {
                   destination="Saariselkä, Lapland, Finland"
                   className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-4 py-2.5 rounded-xl text-white text-sm font-semibold transition-all no-underline"
                 >
-                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> Saariselkä (Lapon Panimo)</span>
-                  <ExternalLink size={13} className="text-white/40" />
+                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('craftBeer.stay.ctaSaariselka')}</span>
+                  <ExternalLink size={13} className="text-white/75" />
                 </AffiliateCTA>
                 <AffiliateCTA
                   partner="hotels"
@@ -244,8 +224,8 @@ export default function CraftBeer() {
                   destination="Rovaniemi, Lapland, Finland"
                   className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-4 py-2.5 rounded-xl text-white text-sm font-semibold transition-all no-underline"
                 >
-                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> Rovaniemi (Lapland Brewery)</span>
-                  <ExternalLink size={13} className="text-white/40" />
+                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('craftBeer.stay.ctaRovaniemi')}</span>
+                  <ExternalLink size={13} className="text-white/75" />
                 </AffiliateCTA>
                 <AffiliateCTA
                   partner="hotels"
@@ -253,12 +233,13 @@ export default function CraftBeer() {
                   destination="Tornio, Finland"
                   className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-4 py-2.5 rounded-xl text-white text-sm font-semibold transition-all no-underline"
                 >
-                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> Tornio (Tornion Panimo)</span>
-                  <ExternalLink size={13} className="text-white/40" />
+                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('craftBeer.stay.ctaTornio')}</span>
+                  <ExternalLink size={13} className="text-white/75" />
                 </AffiliateCTA>
               </div>
             </div>
           </div>
+          <AffiliateDisclosure variant="full" className="mt-10 text-white/45 max-w-2xl mx-auto" />
         </div>
       </section>
     </>

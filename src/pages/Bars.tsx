@@ -1,8 +1,13 @@
 import { MapPin, Clock, ExternalLink, Hotel, Ticket, Calendar } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
-import { bars, cities } from '../data/bars';
+import { bars, cities, pickLocalised } from '../data/bars';
+import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import GygSearchCta from '../components/GygSearchCta';
+import AffiliateDisclosure from '../components/AffiliateDisclosure';
+import PageBreadcrumb from '../components/PageBreadcrumb';
 import { gygDeepLink } from '../lib/gyg';
 
 const barImages: Record<string, string> = {
@@ -28,26 +33,23 @@ const barImages: Record<string, string> = {
   'Pirtti Pub & Restaurant': BARS.auroraLounge,
 };
 
-const cityVibes: Record<string, { desc: string; image: string }> = {
-  Rovaniemi: {
-    desc: 'The Arctic capital after dark — craft brewery pubs, cocktail bars, and an actual bar made of ice.',
-    image: BARS.whiskyBar,
-  },
-  Levi: {
-    desc: 'Finland\'s après-ski capital. Hullu Poro Areena holds 1,700 people. The mountain closes at 4pm and the party starts at 4:01.',
-    image: BARS.apresSkiLevi,
-  },
-  Ylläs: {
-    desc: 'Quieter than Levi, warmer than anywhere. Cosy fell pubs where locals and visitors mix without pretension.',
-    image: BARS.heroNightlife,
-  },
-  Saariselkä: {
-    desc: 'Remote, dark, and surprisingly well-stocked. Gastropub Giitu has one of the best craft beer selections above the Arctic Circle.',
-    image: BARS.heroMain,
-  },
+const cityImages: Record<string, string> = {
+  Rovaniemi: BARS.whiskyBar,
+  Levi: BARS.apresSkiLevi,
+  Ylläs: BARS.heroNightlife,
+  Saariselkä: BARS.heroMain,
+};
+
+const cityVibeKey: Record<string, string> = {
+  Rovaniemi: 'Rovaniemi',
+  Levi: 'Levi',
+  Ylläs: 'Yllas',
+  Saariselkä: 'Saariselka',
 };
 
 export default function Bars() {
+  const { t } = useTranslation('pages');
+  const { locale } = useLocale();
   return (
     <>
       <PageSeo
@@ -73,30 +75,31 @@ export default function Bars() {
           decoding="async"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/65 to-night" />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
-            Bars & Pubs
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
+            {t('bars.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">
-            Every bar listed here is real, open, and worth your evening.
-            No sponsored placements, no filler — just Lapland's actual drinking culture.
+          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+            {t('bars.hero.sub')}
           </p>
         </div>
       </section>
+      <PageBreadcrumb />
 
       {/* Bars by city */}
       <section className="py-16 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
           {cities.map((city) => {
             const cityBars = bars.filter((b) => b.city === city);
-            const vibe = cityVibes[city];
+            const vibeImage = cityImages[city] ?? BARS.heroMain;
+            const vibeDesc = t(`bars.cityVibes.${cityVibeKey[city]}`);
             return (
               <div key={city} id={city.toLowerCase().replace(/[^a-z]/g, '')}>
                 {/* City header */}
                 <div className="relative rounded-2xl overflow-hidden h-48 mb-8">
                   <img
-                    src={vibe.image}
+                    src={vibeImage}
                     alt={city}
                     loading="lazy"
                     decoding="async"
@@ -109,121 +112,130 @@ export default function Bars() {
                       {city}
                     </div>
                     <h2 className="font-heading text-4xl text-white tracking-wide mb-2">{city}</h2>
-                    <p className="text-white/60 text-sm max-w-md leading-relaxed">{vibe.desc}</p>
+                    <p className="text-white/80 text-sm max-w-md leading-relaxed">{vibeDesc}</p>
                   </div>
                 </div>
 
                 {/* Bar cards */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                  {cityBars.map((bar) => (
-                    <div
-                      key={bar.name}
-                      className={`group bg-white/[0.03] border rounded-2xl overflow-hidden transition-all duration-300 hover:border-amber/25 flex flex-col ${
-                        bar.featured ? 'border-amber/20 shadow-[0_0_30px_-10px_rgba(245,158,11,0.15)]' : 'border-white/10'
-                      }`}
-                    >
-                      {/* Image */}
-                      <div className="relative h-40 overflow-hidden shrink-0">
-                        <img
-                          src={barImages[bar.name] || BARS.heroMain}
-                          alt={bar.name}
-                          loading="lazy"
-                          decoding="async"
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-night/30" />
-                        {bar.featured && (
-                          <span className="absolute top-3 left-3 text-xs bg-amber/90 text-night px-2.5 py-0.5 rounded-full font-bold">
-                            Featured
-                          </span>
-                        )}
-                      </div>
-
-                      <div className="p-5 flex flex-col flex-1">
-                        <h3 className="font-heading text-lg text-white tracking-wide mb-1 group-hover:text-amber transition-colors">{bar.name}</h3>
-                        <p className="text-xs text-white/30 uppercase tracking-wider mb-3">{bar.type}</p>
-                        <p className="text-sm text-white/55 leading-relaxed mb-4">{bar.description}</p>
-
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          {bar.highlights.slice(0, 3).map((h) => (
-                            <span key={h} className="text-xs bg-amber/10 text-amber/70 px-2 py-1 rounded-full">
-                              {h}
+                  {cityBars.map((bar) => {
+                    const type = t(`bars.venues.${bar.name}.type`, { defaultValue: bar.type });
+                    const description = t(`bars.venues.${bar.name}.description`, { defaultValue: bar.description });
+                    const highlights = (t(`bars.venues.${bar.name}.highlights`, { returnObjects: true, defaultValue: bar.highlights }) as string[]) || bar.highlights;
+                    const tourLabel = bar.tour ? t(`bars.venues.${bar.name}.tour.label`, { defaultValue: bar.tour.label }) : '';
+                    const tourSchedule = bar.tour ? t(`bars.venues.${bar.name}.tour.schedule`, { defaultValue: bar.tour.schedule }) : '';
+                    const tourHint = bar.tour && bar.tour.hint ? t(`bars.venues.${bar.name}.tour.hint`, { defaultValue: bar.tour.hint }) : '';
+                    const directLabel = bar.tour && bar.tour.directBookingLabel ? t(`bars.venues.${bar.name}.tour.directLabel`, { defaultValue: bar.tour.directBookingLabel }) : t('bars.bookDirect');
+                    return (
+                      <div
+                        key={bar.name}
+                        className={`group bg-white/[0.03] border rounded-2xl overflow-hidden transition-all duration-300 hover:border-amber/25 flex flex-col ${
+                          bar.featured ? 'border-amber/20 shadow-[0_0_30px_-10px_rgba(245,158,11,0.15)]' : 'border-white/10'
+                        }`}
+                      >
+                        {/* Image */}
+                        <div className="relative h-40 overflow-hidden shrink-0">
+                          <img
+                            src={barImages[bar.name] || BARS.heroMain}
+                            alt={bar.name}
+                            loading="lazy"
+                            decoding="async"
+                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-night/30" />
+                          {bar.featured && (
+                            <span className="absolute top-3 left-3 text-xs bg-amber/90 text-night px-2.5 py-0.5 rounded-full font-bold">
+                              {t('bars.featuredBadge')}
                             </span>
-                          ))}
+                          )}
                         </div>
 
-                        {/* Info block */}
-                        <div className="mt-auto space-y-2 pt-4 border-t border-white/5">
-                          <div className="flex items-start gap-2">
-                            <MapPin size={13} className="text-amber/60 mt-0.5 shrink-0" />
-                            <p className="text-xs text-white/40 leading-relaxed">{bar.address}</p>
-                          </div>
-                          <div className="flex items-start gap-2">
-                            <Clock size={13} className="text-amber/60 mt-0.5 shrink-0" />
-                            <p className="text-xs text-white/40 leading-relaxed">{bar.hours}</p>
-                          </div>
-                          <p className="text-xs text-amber/70 font-medium pt-1">{bar.price}</p>
-                        </div>
+                        <div className="p-5 flex flex-col flex-1">
+                          <h3 className="font-heading text-lg text-white tracking-wide mb-1 group-hover:text-amber transition-colors">{bar.name}</h3>
+                          <p className="text-xs text-white/80 uppercase tracking-wider mb-3">{type}</p>
+                          <p className="text-sm text-white/80 leading-relaxed mb-4">{description}</p>
 
-                        {/* Bookable tour / experience — verified data only */}
-                        {bar.tour && (
-                          <div className="mt-4 p-4 bg-amber/[0.07] border border-amber/25 rounded-xl">
-                            <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
-                              <Ticket size={11} />
-                              {bar.tour.label}
+                          <div className="flex flex-wrap gap-2 mb-4">
+                            {highlights.slice(0, 3).map((h) => (
+                              <span key={h} className="text-xs bg-amber/10 text-amber/70 px-2 py-1 rounded-full">
+                                {h}
+                              </span>
+                            ))}
+                          </div>
+
+                          {/* Info block */}
+                          <div className="mt-auto space-y-2 pt-4 border-t border-white/5">
+                            <div className="flex items-start gap-2">
+                              <MapPin size={13} className="text-amber/60 mt-0.5 shrink-0" />
+                              <p className="text-xs text-white/65 leading-relaxed">{bar.address}</p>
                             </div>
-                            <div className="space-y-1 mb-3">
-                              <p className="text-sm text-white font-semibold leading-tight">
-                                {bar.tour.priceFrom}
-                              </p>
-                              <div className="flex items-start gap-1.5 text-xs text-white/60 leading-snug">
-                                <Calendar size={11} className="text-amber/70 mt-0.5 shrink-0" />
-                                <span>{bar.tour.schedule}</span>
+                            <div className="flex items-start gap-2">
+                              <Clock size={13} className="text-amber/60 mt-0.5 shrink-0" />
+                              <p className="text-xs text-white/65 leading-relaxed">{pickLocalised(bar.hours, locale)}</p>
+                            </div>
+                            <p className="text-xs text-amber/70 font-medium pt-1">{pickLocalised(bar.price, locale)}</p>
+                          </div>
+
+                          {/* Bookable tour / experience — verified data only */}
+                          {bar.tour && (
+                            <div className="mt-4 p-4 bg-amber/[0.07] border border-amber/25 rounded-xl">
+                              <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
+                                <Ticket size={11} />
+                                {tourLabel}
                               </div>
-                              {bar.tour.hint && (
-                                <p className="text-[11px] text-white/45 leading-snug">{bar.tour.hint}</p>
-                              )}
+                              <div className="space-y-1 mb-3">
+                                <p className="text-sm text-white font-semibold leading-tight">
+                                  {bar.tour.priceFrom}
+                                </p>
+                                <div className="flex items-start gap-1.5 text-xs text-white/80 leading-snug">
+                                  <Calendar size={11} className="text-amber/70 mt-0.5 shrink-0" />
+                                  <span>{tourSchedule}</span>
+                                </div>
+                                {tourHint && (
+                                  <p className="text-[11px] text-white/65 leading-snug">{tourHint}</p>
+                                )}
+                              </div>
+                              {bar.tour.gygProductPath ? (
+                                <a
+                                  href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid)}
+                                  target="_blank"
+                                  rel="sponsored nofollow noopener"
+                                  className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                                >
+                                  <Ticket size={12} />
+                                  {t('bars.checkBook')}
+                                </a>
+                              ) : bar.tour.directBookingUrl ? (
+                                <a
+                                  href={bar.tour.directBookingUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                                >
+                                  <Ticket size={12} />
+                                  {directLabel}
+                                </a>
+                              ) : null}
                             </div>
-                            {bar.tour.gygProductPath ? (
+                          )}
+
+                          {/* Secondary venue website link */}
+                          {bar.website && (
+                            <div className="mt-3 text-right">
                               <a
-                                href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid)}
-                                target="_blank"
-                                rel="sponsored nofollow noopener"
-                                className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
-                              >
-                                <Ticket size={12} />
-                                Check availability & book
-                              </a>
-                            ) : bar.tour.directBookingUrl ? (
-                              <a
-                                href={bar.tour.directBookingUrl}
+                                href={bar.website}
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                                className="inline-flex items-center gap-1 text-[11px] text-white/80 hover:text-white/80 no-underline transition-colors"
                               >
-                                <Ticket size={12} />
-                                {bar.tour.directBookingLabel ?? 'Book direct'}
+                                {t('bars.venueWebsite')} <ExternalLink size={10} />
                               </a>
-                            ) : null}
-                          </div>
-                        )}
-
-                        {/* Secondary venue website link */}
-                        {bar.website && (
-                          <div className="mt-3 text-right">
-                            <a
-                              href={bar.website}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-[11px] text-white/35 hover:text-white/60 no-underline transition-colors"
-                            >
-                              Venue website <ExternalLink size={10} />
-                            </a>
-                          </div>
-                        )}
+                            </div>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
                 {/* Per-city hotel CTA — sleep within walking distance */}
@@ -234,10 +246,10 @@ export default function Bars() {
                     </div>
                     <div>
                       <p className="text-white text-sm font-semibold leading-snug">
-                        Stay walking distance from these {city} bars
+                        {t('bars.stayBand.headline', { city })}
                       </p>
-                      <p className="text-white/50 text-xs leading-relaxed mt-0.5">
-                        Live availability via Hotels.com — book directly, no extra fees.
+                      <p className="text-white/75 text-xs leading-relaxed mt-0.5">
+                        {t('bars.stayBand.sub')}
                       </p>
                     </div>
                   </div>
@@ -247,7 +259,7 @@ export default function Bars() {
                     destination={`${city}, Lapland, Finland`}
                     className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
                   >
-                    {`Hotels in ${city}`}
+                    {t('bars.stayBand.cta', { city })}
                     <ExternalLink size={14} />
                   </AffiliateCTA>
                 </div>
@@ -257,13 +269,44 @@ export default function Bars() {
         </div>
       </section>
 
+      {/* Bookable guided bar/brewery experiences via GetYourGuide (search → live results) */}
+      <section className="py-16 bg-night-light/40 border-t border-white/5">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-10">
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/10 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-3">
+              <Ticket size={11} />
+              {t('experiences.barCrawl.kicker')}
+            </div>
+            <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide text-balance">
+              {t('experiences.barCrawl.sectionTitle')}
+            </h2>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div className="bg-white/[0.03] border border-white/10 hover:border-amber/30 rounded-2xl p-6 transition-all flex flex-col">
+              <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.rovaniemi.title')}</h3>
+              <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.rovaniemi.body')}</p>
+              <GygSearchCta query="Rovaniemi brewery bar tour" sid="bars_exp_rovaniemi" className="self-start">
+                {t('experiences.barCrawl.rovaniemi.cta')}
+              </GygSearchCta>
+            </div>
+            <div className="bg-white/[0.03] border border-white/10 hover:border-amber/30 rounded-2xl p-6 transition-all flex flex-col">
+              <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.levi.title')}</h3>
+              <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.levi.body')}</p>
+              <GygSearchCta query="Levi apres ski bar experience" sid="bars_exp_levi" className="self-start">
+                {t('experiences.barCrawl.levi.cta')}
+              </GygSearchCta>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Disclaimer */}
       <section className="py-10 bg-night">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <p className="text-white/25 text-sm leading-relaxed">
-            Prices and opening hours change seasonally. Always verify directly with the venue before visiting.
-            This guide is maintained as accurately as possible but is not a real-time booking platform.
+          <p className="text-white/75 text-sm leading-relaxed text-pretty">
+            {t('bars.disclaimer')}
           </p>
+          <AffiliateDisclosure variant="full" className="mt-6 text-white/45" />
         </div>
       </section>
     </>

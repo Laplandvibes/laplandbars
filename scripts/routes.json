@@ -1,0 +1,13 @@
+[
+  { "path": "/", "jsonKey": "home" },
+  { "path": "/bars", "jsonKey": "bars" },
+  { "path": "/ice-bars", "jsonKey": "iceBars" },
+  { "path": "/apres-ski", "jsonKey": "apresSki" },
+  { "path": "/cocktails", "jsonKey": "cocktails" },
+  { "path": "/craft-beer", "jsonKey": "craftBeer" },
+  { "path": "/drinking-culture", "jsonKey": "drinkingCulture" },
+  { "path": "/about", "jsonKey": "about" },
+  { "path": "/privacy", "jsonKey": "privacy", "fallbackTitle": "Privacy Policy | LaplandBars" },
+  { "path": "/terms", "jsonKey": "terms", "fallbackTitle": "Terms of Use | LaplandBars" },
+  { "path": "/cookie-policy", "jsonKey": "cookie", "fallbackTitle": "Cookie Policy | LaplandBars" }
+]

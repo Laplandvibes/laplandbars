@@ -1,23 +1,81 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- LV-LOCALE-TITLE (managed by scripts/inject_locale_titles.mjs) -->
+    <script>
+      (function () {
+        try {
+          var T = {"en":"LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland","fi":"LaplandBars — Lapin parhaat baarit, pubit ja jääbaarit","de":"LaplandBars — Beste Bars, Pubs & Eisbars im finnischen Lappland","ja":"LaplandBars — フィンランド・ラップランドの最高のバー、パブ、アイスバー","es":"LaplandBars — los mejores bares, pubs y bares de hielo de la Laponia finlandesa","pt-br":"LaplandBars — os melhores bares, pubs e bares de gelo da Lapônia finlandesa","zh-cn":"LaplandBars — 芬兰拉普兰最佳酒吧、酒馆与冰吧","kr":"LaplandBars — 핀란드 라플란드 최고의 바, 펍, 아이스 바","fr":"LaplandBars — les meilleurs bars, pubs et bars de glace de la Laponie finlandaise","it":"LaplandBars — i migliori bar, pub e ice bar della Lapponia finlandese","nl":"LaplandBars — beste bars, pubs en ijsbars in Fins Lapland"};
+          var path = location.pathname || '/';
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', br: 'pt-br', cn: 'zh-cn', kr: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var loc = 'en';
+          for (var p in map) {
+            if (path === '/' + p || path.indexOf('/' + p + '/') === 0) { loc = map[p]; break; }
+          }
+          if (T[loc]) document.title = T[loc];
+        } catch (e) { /* fail silent */ }
+      })();
+    </script>
+    <!-- /LV-LOCALE-TITLE -->
+    <!-- LV-SYNC-LOCALE-REDIRECT (managed by scripts/inject_sync_redirect.mjs) -->
+    <script>
+      (function () {
+        try {
+          var path = location.pathname || '/';
+          // Already on a locale prefix? — never override
+          var prefixes = ['/fi','/de','/ja','/es','/br','/cn','/kr','/fr','/it','/nl'];
+          for (var i = 0; i < prefixes.length; i++) {
+            if (path === prefixes[i] || path.indexOf(prefixes[i] + '/') === 0) return;
+          }
+          // Only redirect from bare root or sub-pages without a locale prefix
+          var map = { fi: 'fi', de: 'de', ja: 'ja', es: 'es', 'pt-br': 'br', 'zh-cn': 'cn', ko: 'kr', fr: 'fr', it: 'it', nl: 'nl' };
+          var stored = null;
+          try { stored = localStorage.getItem('lv_locale_choice'); } catch (e) {}
+          var target = null;
+          if (stored) {
+            var k = stored.toLowerCase();
+            if (map[k]) target = '/' + map[k];
+            else if (k === 'en') return; // explicit EN choice — stay
+          }
+          if (!target) {
+            var langs = navigator.languages || [navigator.language || 'en'];
+            for (var j = 0; j < langs.length; j++) {
+              var l = (langs[j] || '').toLowerCase();
+              if (l.indexOf('en') === 0) return; // EN browser — stay on /
+              if (l.indexOf('fi') === 0) { target = '/fi'; break; }
+              if (l.indexOf('de') === 0) { target = '/de'; break; }
+              if (l.indexOf('ja') === 0) { target = '/ja'; break; }
+              if (l.indexOf('es') === 0) { target = '/es'; break; }
+              if (l.indexOf('pt') === 0) { target = '/br'; break; }
+              if (l.indexOf('zh') === 0) { target = '/cn'; break; }
+              if (l.indexOf('ko') === 0) { target = '/kr'; break; }
+              if (l.indexOf('fr') === 0) { target = '/fr'; break; }
+              if (l.indexOf('it') === 0) { target = '/it'; break; }
+              if (l.indexOf('nl') === 0) { target = '/nl'; break; }
+            }
+          }
+          if (!target) return;
+          var dest = path === '/' ? target : target + path;
+          if (location.search) dest += location.search;
+          if (location.hash) dest += location.hash;
+          location.replace(dest);
+        } catch (err) { /* fail silent — fall through to React-based redirect */ }
+      })();
+    </script>
+    <!-- /LV-SYNC-LOCALE-REDIRECT -->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#0F172A" />
-
     <!-- Favicons / app icons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/favicon.svg" />
-    <link rel="manifest" href="/site.webmanifest" />
-
     <title>LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland</title>
-    <meta name="description" content="The best bars, pubs, ice bars and après-ski venues in Finnish Lapland — Rovaniemi, Levi, Ylläs, Saariselkä. Verified by people who live here." />
-    <link rel="canonical" href="https://laplandbars.com/" />
+    <meta name="description" content="The best bars, pubs, ice bars and après-ski venues in Finnish Lapland — Rovaniemi, Levi, Ylläs, Saariselkä. Picked by people who live here." />
+    <!-- No static canonical here: PageSeo owns rel=canonical client-side and the
+         prerenderer injects the per-route canonical into every static page. -->
     <meta name="robots" content="index, follow, max-image-preview:large" />
     <meta name="author" content="LaplandVibes editorial team" />
 
-    <!-- Preload home hero image (Drive CDN is slow — get it on the wire early; -rw = WebP variant) -->
-    <link rel="preload" as="image" href="https://lh3.googleusercontent.com/d/1SZN2BoDENmAmzu6a5t7odyR7Oq82T6NW=w1600-rw" fetchpriority="high" />
+    <!-- Preload home hero image (local WebP — matches BARS.heroMain rendered in Home.tsx) -->
+    <link rel="preload" as="image" href="/images/drive/heroMain.webp" fetchpriority="high" />
 
     <!-- DNS warmup for hot third parties -->
     <link rel="preconnect" href="https://lh3.googleusercontent.com" crossorigin />
@@ -36,14 +94,9 @@
     <meta property="og:title" content="LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland" />
     <meta property="og:description" content="The best bars, pubs, ice bars and après-ski venues in Finnish Lapland — Rovaniemi, Levi, Ylläs, Saariselkä." />
     <meta property="og:url" content="https://laplandbars.com/" />
-    <meta property="og:image" content="https://lh3.googleusercontent.com/d/1CXCw3caLeOTwU6Is4T_u6xG9TFF-uPGF=w1200" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_US" />
-    <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@laplandvibes" />
     <meta name="twitter:title" content="LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland" />
-    <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1CXCw3caLeOTwU6Is4T_u6xG9TFF-uPGF=w1200" />
     <!-- Google Search Console verification — replace content value with your GSC HTML tag -->
     <!-- <meta name="google-site-verification" content="REPLACE_WITH_GSC_VERIFICATION_CODE" /> -->
 
@@ -108,7 +161,7 @@
             "https://youtube.com/@laplandvibes",
             "https://facebook.com/laplandvibes",
             "https://instagram.com/laplandvibesofficial",
-            "https://tiktok.com/@laplandvibesofficial"
+            "https://tiktok.com/@laplandvibes"
           ]
         },
         {
@@ -122,6 +175,26 @@
       ]
     }
     </script>
+      <!-- Open Graph image (1200×630 JPEG) -->
+    <meta property="og:image" content="https://laplandbars.com/og-default.jpg?v=20260626b" />
+    <meta property="og:image:secure_url" content="https://laplandbars.com/og-default.jpg?v=20260626b" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="LaplandBars — backlit ice bar interior with neon glow in Finnish Lapland" />
+    <!-- Twitter card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://laplandbars.com/og-default.jpg?v=20260626b" />
+    <meta name="twitter:image:alt" content="LaplandBars — backlit ice bar interior with neon glow in Finnish Lapland" />
+      <!-- Favicon stack (LV ecosystem unified design) -->
+    <link rel="icon" href="/favicon.svg?v=20260626b" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico?v=20260626b" sizes="32x32" type="image/png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=20260626b" sizes="180x180" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0F172A" />
+    <meta name="apple-mobile-web-app-title" content="LaplandBars" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
   </head>
   <body>
     <div id="root"></div>
