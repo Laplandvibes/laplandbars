@@ -5,6 +5,7 @@ import { Menu, X } from 'lucide-react';
 import Logo from './Logo';
 import LanguageSwitcher from '../i18n/LanguageSwitcher';
 import { useLocale } from '../i18n/useLocale';
+import EcosystemMenu from '../../../shared/EcosystemMenu';
 
 const NAV_KEYS = [
   { key: 'bars', basePath: '/bars' },
@@ -20,7 +21,7 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   const { t } = useTranslation('nav');
-  const { to, pathWithoutLocale } = useLocale();
+  const { to, pathWithoutLocale, locale } = useLocale();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -34,13 +35,16 @@ export default function Navbar() {
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled ? 'bg-night/95 backdrop-blur-md border-b border-white/10 shadow-lg' : 'bg-transparent'
     }`}>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <Link to={to('/')} className="no-underline">
-            <Logo light />
-          </Link>
+          <div className="flex items-center gap-3 sm:gap-5 shrink-0">
+            <EcosystemMenu lang={locale} currentDomain="laplandbars.com" />
+            <Link to={to('/')} className="no-underline">
+              <Logo light />
+            </Link>
+          </div>
 
-          <div className="hidden lg:flex items-center gap-6">
+          <div className="hidden xl:flex items-center gap-6">
             {NAV_KEYS.map((link) => (
               <Link
                 key={link.basePath}
@@ -57,7 +61,7 @@ export default function Navbar() {
 
           <button
             onClick={() => setOpen(!open)}
-            className="lg:hidden p-2 text-white hover:text-amber transition-colors"
+            className="xl:hidden p-2 text-white hover:text-amber transition-colors"
             aria-label={t('menu')}
           >
             {open ? <X size={24} /> : <Menu size={24} />}
@@ -66,7 +70,7 @@ export default function Navbar() {
       </div>
 
       {open && (
-        <div className="lg:hidden bg-night/98 backdrop-blur-md border-t border-white/10">
+        <div className="xl:hidden bg-night/98 backdrop-blur-md border-t border-white/10">
           <div className="px-4 py-4 space-y-3">
             {NAV_KEYS.map((link) => (
               <Link

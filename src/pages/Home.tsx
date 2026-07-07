@@ -37,9 +37,30 @@ type CategoryCard = { title: string; desc: string };
 type FaqItem = { q: string; a: string };
 type RelatedLink = { anchor: string; desc: string; href: string };
 
+// Per-question deep links into the pages that back each FAQ answer
+// (Vesa 2026-07-07: FAQ answers must point to our own supporting content).
+// Keys are nav.links entries → labels come pre-translated in all 11 locales.
+const FAQ_ROUTE = {
+  bars: '/bars',
+  iceBars: '/ice-bars',
+  apresSki: '/apres-ski',
+  cocktails: '/cocktails',
+  craftBeer: '/craft-beer',
+  drinkingCulture: '/drinking-culture',
+} as const;
+const FAQ_LINKS: (keyof typeof FAQ_ROUTE)[][] = [
+  ['iceBars'],                      // 1 what is an ice bar
+  ['apresSki'],                     // 2 Levi/Ylläs après-ski
+  ['drinkingCulture'],              // 3 drinking outdoors law
+  ['bars', 'drinkingCulture'],      // 4 opening hours
+  ['cocktails', 'craftBeer'],       // 5 local drinks (lakka, craft beer)
+  ['drinkingCulture'],              // 6 Alko / where to buy
+];
+
 export default function Home() {
   const featured = getFeaturedBars();
   const { t } = useTranslation('pages');
+  const { t: tNav } = useTranslation('nav');
   const { to, locale } = useLocale();
   const categoryCards = (t('home.categories.cards', { returnObjects: true }) as CategoryCard[]) || [];
   const faqItems = (t('home.faq.items', { returnObjects: true }) as FaqItem[]) || [];
@@ -356,7 +377,7 @@ export default function Home() {
             </p>
           </div>
           <div className="space-y-4">
-            {faqItems.map((f) => (
+            {faqItems.map((f, faqIndex) => (
               <details
                 key={f.q}
                 className="group bg-white/[0.03] border border-white/10 rounded-2xl px-5 sm:px-6 py-4 open:border-amber/30 transition-colors"
@@ -368,6 +389,19 @@ export default function Home() {
                 <p className="text-white/80 leading-relaxed mt-3">
                   {f.a}
                 </p>
+                {(FAQ_LINKS[faqIndex] ?? []).length > 0 && (
+                  <div className="flex flex-wrap gap-x-5 gap-y-2 mt-4 mb-1">
+                    {FAQ_LINKS[faqIndex].map((key) => (
+                      <Link
+                        key={key}
+                        to={to(FAQ_ROUTE[key])}
+                        className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber hover:text-white transition-colors"
+                      >
+                        {tNav(`links.${key}`)} <ArrowUpRight className="w-3.5 h-3.5 shrink-0" />
+                      </Link>
+                    ))}
+                  </div>
+                )}
               </details>
             ))}
           </div>
