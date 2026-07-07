@@ -164,14 +164,19 @@ export default function CraftBeer() {
             </p>
           </div>
 
-          {/* GYG widget — auto-populated by the Integration Analyzer in <head> */}
+          {/* GYG widget — auto-populated by the Integration Analyzer in <head>.
+              q note: GYG has zero brewery/distillery inventory in Lapland — the
+              old "brewery beer tour tasting" q fell back to aurora/fishing
+              bestsellers. Current q title-matches the Lappish dinner/tasting
+              products the section copy also promises (verified 6/6 food results
+              in en/fi/de/ja via the widget frame endpoint, 2026-07-07). */}
           <div
             key={`gyg-${lang}`}
             data-gyg-widget="activities"
             data-gyg-partner-id="VRMKD7N"
             data-gyg-number-of-items="6"
             data-gyg-cmp="laplandbars-craftbeer"
-            data-gyg-q="Lapland brewery beer tour tasting"
+            data-gyg-q="food tasting Lappish dinner Rovaniemi"
             data-gyg-locale-code={GYG_LOCALE[lang] ?? 'en-US'}
             data-gyg-currency="EUR"
             className="min-h-[200px]"
