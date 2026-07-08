@@ -1,4 +1,5 @@
 import { Beer, Hotel, ExternalLink, Compass } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
@@ -30,11 +31,38 @@ const GYG_LOCALE: Record<string, string> = {
   'pt-BR': 'pt-BR', 'zh-CN': 'zh-CN', ko: 'ko-KR', fr: 'fr-FR', it: 'it-IT', nl: 'nl-NL',
 };
 
+// Shown when the embed is blocked (ad-block / tracking protection) so the box
+// reads as an enticing panel instead of empty. The GygSearchCta below is the CTA.
+const GYG_FALLBACK_LEAD: Record<string, string> = {
+  en: 'Lappish food, tasting and brewery-adjacent experiences — live prices and instant confirmation.',
+  fi: 'Lappilaista ruokaa, maisteluja ja panimoretkiä — live-hinnat ja välitön vahvistus.',
+  de: 'Lappländisches Essen, Verkostungen und brauereinahe Erlebnisse — Live-Preise und sofortige Bestätigung.',
+  ja: 'ラップランドの食、テイスティング、醸造関連の体験 — リアルタイムの料金と即時確認。',
+  es: 'Comida lapona, catas y experiencias cerca de cervecerías: precios en tiempo real y confirmación inmediata.',
+  'pt-BR': 'Comida lapônia, degustações e experiências ligadas a cervejarias — preços em tempo real e confirmação imediata.',
+  'zh-CN': '拉普兰美食、品鉴及酒厂相关体验——实时价格、即时确认。',
+  ko: '라플란드 음식, 시음, 양조장 관련 체험 — 실시간 가격과 즉시 확정.',
+  fr: 'Cuisine laponne, dégustations et expériences autour des brasseries — prix en temps réel et confirmation immédiate.',
+  it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici — prezzi in tempo reale e conferma immediata.',
+  nl: 'Laplandse gerechten, proeverijen en brouwerij-ervaringen — actuele prijzen en directe bevestiging.',
+};
+
 export default function CraftBeer() {
   const { t, i18n } = useTranslation('pages');
   const lang = i18n.language;
   const breweries = (t('craftBeer.breweries', { returnObjects: true }) as Brewery[]) || [];
   const styles = (t('craftBeer.styles', { returnObjects: true }) as Style[]) || [];
+  const gygRef = useRef<HTMLDivElement>(null);
+  const [gygBlocked, setGygBlocked] = useState(false);
+
+  // If no iframe has mounted shortly after render, the GYG embed is blocked —
+  // swap the empty box for a designed panel (the GygSearchCta below is the CTA).
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setGygBlocked(!(gygRef.current?.querySelector('iframe')));
+    }, 2500);
+    return () => clearTimeout(timer);
+  }, [lang]);
   return (
     <>
       <PageSeo
@@ -171,6 +199,7 @@ export default function CraftBeer() {
               products the section copy also promises (verified 6/6 food results
               in en/fi/de/ja via the widget frame endpoint, 2026-07-07). */}
           <div
+            ref={gygRef}
             key={`gyg-${lang}`}
             data-gyg-widget="activities"
             data-gyg-partner-id="VRMKD7N"
@@ -179,8 +208,19 @@ export default function CraftBeer() {
             data-gyg-q="food tasting Lappish dinner Rovaniemi"
             data-gyg-locale-code={GYG_LOCALE[lang] ?? 'en-US'}
             data-gyg-currency="EUR"
-            className="min-h-[200px]"
+            className={gygBlocked ? 'hidden' : 'min-h-[200px]'}
           />
+
+          {gygBlocked && (
+            <div className="flex flex-col items-center text-center rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-8">
+              <span className="grid place-items-center w-12 h-12 rounded-full bg-amber/15 border border-amber/40 text-amber mb-4">
+                <Beer className="w-6 h-6" strokeWidth={2} />
+              </span>
+              <p className="text-white/80 text-sm leading-relaxed max-w-md">
+                {GYG_FALLBACK_LEAD[lang] ?? GYG_FALLBACK_LEAD.en}
+              </p>
+            </div>
+          )}
 
           {/* Fallback link if GYG returns no brewery-specific results — GYG search
               (resolves to live results, never 404s a stale product slug) */}
