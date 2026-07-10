@@ -6,7 +6,8 @@
 // future re-fetching.
 //
 // NOTE: cocktailSour's Drive original is no longer accessible (returned an HTML
-// error page, not an image) → it now reuses a local image (cocktailAurora).
+// error page, not an image) → the cocktails page no longer references it; each
+// cocktail now maps to its own distinct image.
 
 // Helper for callers that need a specific size of an existing image (cards,
 // thumbs, srcset). For local images this is a no-op (the path has no =w
@@ -39,7 +40,6 @@ export const BARS = {
 
   // Cocktails
   cocktailAurora: '/images/drive/cocktailAurora.webp',  // 1fNE5OsgS-lq4On8usB9cT_XQt7sSDmtM — Blue aurora shimmer cocktails
-  cocktailSour: '/images/drive/cocktailAurora.webp', // Drive original inaccessible (returned HTML) → reuse local aurora cocktail; regen with Picsart later when credits return
   cocktailBerry: '/images/drive/cocktailBerry.webp',    // 1TItGGN1pjEjW2AQJiMVt3bDcXsy5Jz2S — Berry spritz, candlelit bar
 
   // Après-ski & venues
