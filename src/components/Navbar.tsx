@@ -59,13 +59,16 @@ export default function Navbar() {
             <LanguageSwitcher />
           </div>
 
-          <button
-            onClick={() => setOpen(!open)}
-            className="xl:hidden p-2 text-white hover:text-amber transition-colors"
-            aria-label={t('menu')}
-          >
-            {open ? <X size={24} /> : <Menu size={24} />}
-          </button>
+          <div className="xl:hidden flex items-center gap-1.5 shrink-0">
+            <LanguageSwitcher />
+            <button
+              onClick={() => setOpen(!open)}
+              className="p-2 text-white hover:text-amber transition-colors"
+              aria-label={t('menu')}
+            >
+              {open ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -83,7 +86,6 @@ export default function Navbar() {
                 {t(`links.${link.key}`)}
               </Link>
             ))}
-            <div className="pt-2"><LanguageSwitcher /></div>
           </div>
         </div>
       )}
