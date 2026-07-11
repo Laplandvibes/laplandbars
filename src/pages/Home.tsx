@@ -8,6 +8,8 @@ import AffiliateCTA from '../components/AffiliateCTA';
 import AirportRideAd from '../components/AirportRideAd';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import Newsletter from '../components/Newsletter';
+import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots';
+import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
 
 const barImages: Record<string, string> = {
@@ -137,6 +139,10 @@ export default function Home() {
         </div>
       </section>
 
+      {/* PÄÄKUMPPANI-banneri heti heron alla — sivun paras mainospaikka,
+          tyhjänä kompakti house-ad → LV Media -portaali */}
+      <MainPartnerBanner config={AD_SLOTS} locale={locale} className="bg-night" />
+
       {/* Featured bars */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-night">
         <div className="max-w-7xl mx-auto">
@@ -212,6 +218,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Kumppaniosio ylhäällä: kakkospääkumppani + 6 premium-paikkaa —
+          pääkumppanit eivät näy vierekkäin (banneri heron alla ↑) */}
+      <HomeAdSlots config={AD_SLOTS} locale={locale} className="bg-night" />
 
       {/* Category highlights */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-night/95 aurora-glow">
