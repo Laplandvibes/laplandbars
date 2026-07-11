@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "What is an ice bar in Lapland?",
-          "a": "An ice bar is a bar built from snow and blocks of lake ice, with the counter, walls and even the glasses carved from ice. It runs at roughly −5 °C inside, so venues like the Ice Bar at Arctic SnowHotel near Rovaniemi lend you a thermal cape or suit at the door. Each one is rebuilt with a new design every winter and melts away in spring, so it only exists from about December to April."
+          "a": "An ice bar is a bar built from snow and blocks of lake ice, with the counter, walls and even the glasses carved from ice. It runs at roughly −5 °C inside, so venues like the Ice Bar at Arctic SnowHotel near Rovaniemi lend you a thermal cape or suit at the door. Each one is rebuilt with a new design every winter and melts away in spring, so it only exists from about December to April."
         },
         {
           "q": "Where are the best après-ski bars in Levi and Ylläs?",
@@ -193,8 +193,9 @@
         ],
         "tour": {
           "label": "Ice bar visit + thermal suit",
-          "schedule": "Daily 10:00–20:00 (Dec 15 – Mar 31)",
-          "hint": "Includes one drink in an ice glass + thermal suit."
+          "schedule": "Daily 11:00–22:00 (Dec 15 – Mar 31)",
+          "hint": "Guided Snowhotel visit incl. Ice Bar access.",
+          "priceFrom": "Live price on GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Sleep in the snow",
       "title": "Don't just visit. Sleep in a snow room.",
-      "body": "Snow suites at Arctic SnowHotel, Lainio Snow Village and Kakslauttanen rebuild every December. -5 °C inside, thermal-rated sleeping bag, breakfast in the warm restaurant. One night is plenty, you will remember it for years.",
+      "body": "Snow suites at Arctic SnowHotel, Lainio Snow Village and Kakslauttanen rebuild every December. -5 °C inside, thermal-rated sleeping bag, breakfast in the warm restaurant. One night is plenty, you will remember it for years.",
       "ctaArctic": "Arctic SnowHotel rooms",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -353,7 +354,8 @@
         "highlight": "Santa Claus Village location",
         "stayHint": "Santa Holiday Village + Nova Skyland nearby"
       }
-    }
+    },
+    "verifiedNote": "Details checked against the venues' own sites on Jul 10, 2026 — prices and hours may change seasonally."
   },
   "apresSki": {
     "title": "Après-Ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, Born for the Olympics",
       "body": [
-        "In 1952, Helsinki hosted the Summer Olympics. There was a problem: the city didn't have enough bars to serve the international crowd, and Finland's strict licensing laws made opening new ones nearly impossible. The state alcohol monopoly, Alko, came up with a solution: a ready-to-drink canned cocktail that could be sold legally at the Olympic venues.",
-        "The drink they created was the lonkero, Finnish gin mixed with grapefruit soda. Light, refreshing, slightly bitter. 5.5% ABV. Sold in tall cans with a distinctive label. It was such a hit that they kept making it after the Olympics ended. Finland has been drinking lonkero ever since.",
-        "Today lonkero is a proper cultural institution, there is a \"lonkero holiday\" in Finnish culture (the last Friday of July), and the Long Drink category has inspired the entire modern RTD category globally. Hartford Distilling in the US even launched an American version called \"The Long Drink\" after learning about the Finnish original. It is possibly the most successful accidental export in Finnish drinks history."
-      ]
+        "In 1952, Helsinki hosted the Summer Olympics and visitors poured in from around the world — far more than the city's few licensed bars could ever mix drinks for. Alko, the state alcohol monopoly, turned to the Hartwall beverage company: what was needed was a ready-mixed drink that could legally be sold at the Olympic venues.",
+        "Hartwall's answer was the Original Long Drink — Finnish gin and grapefruit soda, 5.5% ABV. Light, crisp, slightly bitter. It was meant to be produced only for the Games, but the public had other plans: demand kept it in production after the Olympics ended. The lonkero was born.",
+        "Today lonkero is a cultural institution and an entire drinks category, still led by the grey-blue Original can. The category has spread far beyond Finland — in the United States, Finnish entrepreneurs turned the long drink into a brand of its own — making lonkero perhaps the most successful accidental export in the history of Finnish drinks."
+      ],
+      "brand": {
+        "kicker": "The original since 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Created for the 1952 Helsinki Olympics, commissioned by state monopoly Alko",
+          "Finnish gin and grapefruit — the same recipe to this day, 5.5% ABV",
+          "The grey-blue can is a fixture of Finnish bars, terraces and sauna evenings"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, The Art of Pants Drinking",

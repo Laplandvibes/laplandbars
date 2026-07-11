@@ -102,6 +102,22 @@ export default function ApresSki() {
         </div>
       </section>
 
+      {/* Atmosphere collage — deck party energy + the toast */}
+      <section className="pb-16 bg-night">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-5 gap-5">
+            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-96 sm:col-span-3">
+              <img src={BARS.apresDanceDeck} alt="Skiers dancing with drinks raised at an outdoor après-ski deck party at twilight" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-96 sm:col-span-2">
+              <img src={BARS.apresToast} alt="Beer mugs clinking in a toast in ski gloves against the low winter sun" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Venues by resort */}
       <section className="pb-20 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">

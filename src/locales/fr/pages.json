@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Qu'est-ce qu'un bar de glace en Laponie ?",
-          "a": "Un bar de glace est entièrement bâti en neige et en blocs de glace de lac : le comptoir, les murs et même les verres sont taillés dans la glace. Il y fait environ −5 °C, c'est pourquoi des adresses comme l'Ice Bar de l'Arctic SnowHotel, près de Rovaniemi, vous prêtent une cape ou une combinaison thermique à l'entrée. Chacun est reconstruit chaque hiver sur un nouveau thème et fond au printemps : il n'existe donc qu'environ de décembre à avril."
+          "a": "Un bar de glace est entièrement bâti en neige et en blocs de glace de lac : le comptoir, les murs et même les verres sont taillés dans la glace. Il y fait environ −5 °C, c'est pourquoi des adresses comme l'Ice Bar de l'Arctic SnowHotel, près de Rovaniemi, vous prêtent une cape ou une combinaison thermique à l'entrée. Chacun est reconstruit chaque hiver sur un nouveau thème et fond au printemps : il n'existe donc qu'environ de décembre à avril."
         },
         {
           "q": "Où trouver les meilleurs bars d'après-ski à Levi et Ylläs ?",
@@ -184,17 +184,18 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Expérience bar de glace",
-        "description": "Reconstruit chaque hiver, ce bar de glace est sculpté par des artistes et réimaginé sur un nouveau thème chaque saison. Situé au Arctic SnowHotel au bord du lac Lehtojärvi, 30 minutes du centre de Rovaniemi. Boissons servies dans des verres de glace. Température : -5 °C à l'intérieur. Combinaisons thermiques fournies.",
+        "description": "Reconstruit chaque hiver, ce bar de glace est sculpté par des artistes et réimaginé sur un nouveau thème chaque saison. Situé au Arctic SnowHotel au bord du lac Lehtojärvi, 30 minutes du centre de Rovaniemi. Boissons servies dans des verres de glace. Température : -5 °C à l'intérieur. Combinaisons thermiques fournies.",
         "highlights": [
           "Nouveau thème chaque année",
           "Verres en glace",
           "Combinaisons thermiques incluses",
-          "-5 °C à l'intérieur"
+          "-5 °C à l'intérieur"
         ],
         "tour": {
           "label": "Visite du bar de glace + combinaison thermique",
-          "schedule": "Tous les jours 10h00–20h00 (15 déc.–31 mars)",
-          "hint": "Comprend une boisson dans un verre de glace + combinaison thermique."
+          "schedule": "Tous les jours 11h00–22h00 (15 déc – 31 mars)",
+          "hint": "Visite guidée du Snowhotel, accès à l'Ice Bar inclus.",
+          "priceFrom": "Prix en direct sur GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -300,7 +301,7 @@
       "sub": "Refaits chaque hiver dans la neige et la glace, ils fondent au printemps et disparaissent jusqu'en décembre suivant. Pas un bar à thème : un phénomène arctique saisonnier."
     },
     "intro": [
-      "Chaque automne, des équipes de sculpteurs sur glace et d'ouvriers s'installent dans les villages de neige de Laponie finlandaise. Ils découpent des blocs de glace dans les lacs gelés, tassent des tonnes de neige dans des moules et sculptent à la main bars, fauteuils, arches et statues. En décembre, le résultat est prêt : des bars pleinement fonctionnels exploités à -5 °C, où chaque surface, murs, comptoir, verres, est en glace.",
+      "Chaque automne, des équipes de sculpteurs sur glace et d'ouvriers s'installent dans les villages de neige de Laponie finlandaise. Ils découpent des blocs de glace dans les lacs gelés, tassent des tonnes de neige dans des moules et sculptent à la main bars, fauteuils, arches et statues. En décembre, le résultat est prêt : des bars pleinement fonctionnels exploités à -5 °C, où chaque surface, murs, comptoir, verres, est en glace.",
       "Chaque année apporte son nouveau thème. Les sculptures ne sont jamais les mêmes. Ce que vous vivez un hiver n'existera plus le suivant. Cette impermanence est précisément le sujet. Un bar de glace est, par définition, temporaire, c'est ce qui vaut le déplacement avant qu'il ne disparaisse."
     ],
     "iceBarKicker": "Bar de glace",
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Dormir dans la neige",
       "title": "Ne vous contentez pas de visiter. Dormez dans une chambre de neige.",
-      "body": "Les suites de neige de l'Arctic SnowHotel, du Lainio Snow Village et de Kakslauttanen sont reconstruites chaque décembre. -5 °C à l'intérieur, sac de couchage thermique adapté, petit-déjeuner au restaurant chauffé. Une nuit suffit, vous vous en souviendrez des années.",
+      "body": "Les suites de neige de l'Arctic SnowHotel, du Lainio Snow Village et de Kakslauttanen sont reconstruites chaque décembre. -5 °C à l'intérieur, sac de couchage thermique adapté, petit-déjeuner au restaurant chauffé. Une nuit suffit, vous vous en souviendrez des années.",
       "ctaArctic": "Chambres Arctic SnowHotel",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -321,7 +322,7 @@
       "items": [
         {
           "title": "Température",
-          "body": "Environ -5 °C à l'intérieur. Tous les bars de glace fournissent capes, combinaisons ou vestes thermiques incluses dans l'entrée. Prévoyez plusieurs couches en dessous."
+          "body": "Environ -5 °C à l'intérieur. Tous les bars de glace fournissent capes, combinaisons ou vestes thermiques incluses dans l'entrée. Prévoyez plusieurs couches en dessous."
         },
         {
           "title": "Durée",
@@ -353,7 +354,8 @@
         "highlight": "Au Santa Claus Village",
         "stayHint": "Santa Holiday Village + Nova Skyland à proximité"
       }
-    }
+    },
+    "verifiedNote": "Informations vérifiées sur les sites des établissements le 10/07/2026 — prix et horaires susceptibles de changer selon la saison."
   },
   "apresSki": {
     "title": "Après-ski en Laponie | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, né pour les Jeux olympiques",
       "body": [
-        "En 1952, Helsinki accueillait les Jeux olympiques d'été. Problème : la ville n'avait pas assez de bars pour servir le public international, et la législation finlandaise rendait quasiment impossible l'ouverture de nouveaux. Le monopole d'État, Alko, trouva une solution : un cocktail prêt à boire en canette, vendable légalement sur les sites olympiques.",
-        "La boisson créée fut le lonkero, gin finlandais et soda au pamplemousse. Léger, rafraîchissant, légèrement amer. 5,5 % vol. Vendu en grandes canettes au label distinctif. Le succès fut tel que la production continua après les Jeux. La Finlande boit du lonkero depuis.",
-        "Aujourd'hui le lonkero est une institution culturelle, il existe un « jour du lonkero » dans la culture finlandaise (le dernier vendredi de juillet), et la catégorie Long Drink a inspiré tout le segment moderne des RTD mondiaux. La Hartford Distilling aux États-Unis a même lancé une version américaine baptisée « The Long Drink » après avoir découvert l'original finlandais. C'est probablement l'exportation accidentelle la plus réussie de l'histoire des spiritueux finlandais."
-      ]
+        "En 1952, Helsinki accueille les Jeux olympiques d'été et les visiteurs affluent du monde entier — bien plus que les rares bars de la ville ne peuvent en servir. Alko, le monopole d'État de l'alcool, se tourne vers la maison Hartwall : il faut une boisson prête à boire, vendable légalement sur les sites olympiques.",
+        "La réponse de Hartwall : l'Original Long Drink — gin finlandais et soda au pamplemousse, 5,5 % vol. Léger, frais, légèrement amer. Il ne devait être produit que pendant les Jeux, mais le public en a décidé autrement : la demande l'a maintenu en production après les Olympiades. Le lonkero était né.",
+        "Aujourd'hui, le lonkero est une institution culturelle et une catégorie de boissons à part entière, toujours menée par la canette gris-bleu de l'Original. La catégorie a traversé l'Atlantique — aux États-Unis, des entrepreneurs finlandais en ont fait une marque à part — faisant du lonkero peut-être l'exportation accidentelle la plus réussie de l'histoire des boissons finlandaises."
+      ],
+      "brand": {
+        "kicker": "L'original depuis 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Créé pour les JO d'Helsinki 1952, à la demande du monopole d'État Alko",
+          "Gin finlandais et pamplemousse — la même recette aujourd'hui encore, 5,5 % vol.",
+          "La canette gris-bleu est un classique des bars, terrasses et soirées sauna de Finlande"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, l'art de boire en sous-vêtements",
@@ -653,7 +664,7 @@
       "title": "Sauna & sisu, l'image complète",
       "body": [
         "La culture finlandaise de la boisson est indissociable du sauna. Le samedi finlandais standard suit un ordre précis : travail, sauna, bière. La bière se boit dans le sauna ou juste après, quand la température du corps est encore élevée et que la bière froide produit un effet presque physiologique. Cette combinaison est si ancrée que la plupart des chalets d'été finlandais ont un rituel sauna-bière dédié, qui commence aux alentours de 16h et se poursuit jusqu'à ce que quelqu'un s'endorme dans la barque.",
-        "En Laponie, le sauna est encore plus central. Après une journée à -30 °C, ce n'est pas un luxe, c'est de la réhydratation, de la récupération et de la sociabilité combinées. De nombreux hôtels et chalets lapons disposent d'un sauna privatif. La combinaison sauna, plongeon dans le lac ou la neige et bière froide vaut, selon les Finlandais, n'importe quel soin de spa au monde. Ils ont sans doute raison.",
+        "En Laponie, le sauna est encore plus central. Après une journée à -30 °C, ce n'est pas un luxe, c'est de la réhydratation, de la récupération et de la sociabilité combinées. De nombreux hôtels et chalets lapons disposent d'un sauna privatif. La combinaison sauna, plongeon dans le lac ou la neige et bière froide vaut, selon les Finlandais, n'importe quel soin de spa au monde. Ils ont sans doute raison.",
         "Sisu, concept finlandais unique de détermination stoïque, de résilience face à l'adversité, s'applique aussi à la boisson. Un Finlandais qui boit depuis sept heures et arrive quand même au travail le lundi n'est pas considéré comme irresponsable. Il est considéré comme ayant du sisu."
       ]
     },

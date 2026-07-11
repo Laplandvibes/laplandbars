@@ -44,7 +44,7 @@ const GYG_DOMAIN: Record<Locale, string> = {
 };
 
 export function gygSearchLink(query: string, sid: string, lang: Locale = 'en'): string {
-  const url = new URL(`${GYG_DOMAIN[lang]}/s/`);
+  const url = new URL(`${GYG_DOMAIN[lang] ?? GYG_DOMAIN.en}/s/`);
   url.searchParams.set('q', query);
   url.searchParams.set('partner_id', GYG_PARTNER_ID);
   url.searchParams.set('cmp', `lv_laplandbars_${sid}`);

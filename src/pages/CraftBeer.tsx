@@ -1,10 +1,11 @@
-import { Beer, Hotel, ExternalLink, Compass } from 'lucide-react';
+import { Beer, Hotel, ExternalLink, Compass, UtensilsCrossed, Flame, ArrowUpRight } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
-import GygSearchCta from '../components/GygSearchCta';
+import GygSearchCta, { gygSearchLink } from '../components/GygSearchCta';
+import type { Locale } from '../i18n/config';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 
@@ -46,6 +47,94 @@ const GYG_FALLBACK_LEAD: Record<string, string> = {
   it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici — prezzi in tempo reale e conferma immediata.',
   nl: 'Laplandse gerechten, proeverijen en brouwerij-ervaringen — actuele prijzen en directe bevestiging.',
 };
+
+// Bookable-experience cards shown when the GYG embed is blocked (ad-block /
+// tracking protection) — a working affiliate booking path per card instead of
+// a lone icon + one sentence. Links use GYG search (never 404s a stale slug).
+const GYG_FALLBACK_CARDS: Array<{
+  icon: typeof Beer;
+  q: string;
+  sid: string;
+  title: Record<string, string>;
+  desc: Record<string, string>;
+}> = [
+  {
+    icon: UtensilsCrossed,
+    q: 'Lappish dinner Rovaniemi',
+    sid: 'craftbeer_card_dinner',
+    title: {
+      en: 'Lappish dinner experiences', fi: 'Lappilaiset illalliset',
+      de: 'Lappländische Dinner-Erlebnisse', ja: 'ラップランドのディナー体験',
+      es: 'Cenas laponas', 'pt-BR': 'Jantares lapões', 'zh-CN': '拉普兰晚餐体验',
+      ko: '라플란드 디너 체험', fr: 'Dîners lapons', it: 'Cene lapponi', nl: 'Laplandse diners',
+    },
+    desc: {
+      en: 'Reindeer, arctic char and open-fire salmon at a log table.',
+      fi: 'Poroa, nieriää ja loimulohta kelopöydässä.',
+      de: 'Rentier, Saibling und Flammlachs am Blockhaustisch.',
+      ja: 'トナカイ、イワナ、炙りサーモンをログテーブルで。',
+      es: 'Reno, trucha ártica y salmón a la llama en mesa de madera.',
+      'pt-BR': 'Rena, truta ártica e salmão na chama em mesa rústica.',
+      'zh-CN': '驯鹿肉、北极红点鲑、明火烤三文鱼。',
+      ko: '순록, 북극 곤들매기, 장작불 연어.',
+      fr: 'Renne, omble chevalier et saumon au feu de bois.',
+      it: 'Renna, salmerino artico e salmone alla fiamma.',
+      nl: 'Rendier, ridderforel en vuurzalm aan een blokhuttafel.',
+    },
+  },
+  {
+    icon: Beer,
+    q: 'Rovaniemi food tasting tour',
+    sid: 'craftbeer_card_tasting',
+    title: {
+      en: 'Food & tasting tours', fi: 'Ruoka- ja maistelukierrokset',
+      de: 'Food- & Tasting-Touren', ja: 'フード＆テイスティングツアー',
+      es: 'Tours gastronómicos y catas', 'pt-BR': 'Tours gastronômicos e degustações',
+      'zh-CN': '美食品鉴之旅', ko: '푸드 & 시음 투어',
+      fr: 'Visites gourmandes et dégustations', it: 'Tour gastronomici e degustazioni',
+      nl: 'Food- & proeverijtours',
+    },
+    desc: {
+      en: 'A local guide, small groups, glass in hand.',
+      fi: 'Paikallisopas, pienet ryhmät, lasi kädessä.',
+      de: 'Lokaler Guide, kleine Gruppen, Glas in der Hand.',
+      ja: '地元ガイドと小グループで、グラス片手に。',
+      es: 'Guía local, grupos pequeños, copa en mano.',
+      'pt-BR': 'Guia local, grupos pequenos, copo na mão.',
+      'zh-CN': '本地向导、小团出行、举杯同行。',
+      ko: '현지 가이드, 소규모 그룹, 손에는 잔.',
+      fr: 'Guide local, petits groupes, verre à la main.',
+      it: 'Guida locale, piccoli gruppi, bicchiere in mano.',
+      nl: 'Lokale gids, kleine groepen, glas in de hand.',
+    },
+  },
+  {
+    icon: Flame,
+    q: 'Rovaniemi sauna evening',
+    sid: 'craftbeer_card_sauna',
+    title: {
+      en: 'Sauna & drinks evenings', fi: 'Sauna- ja juomaillat',
+      de: 'Sauna- & Drinks-Abende', ja: 'サウナ＆ドリンクの夜',
+      es: 'Noches de sauna y copas', 'pt-BR': 'Noites de sauna e drinques',
+      'zh-CN': '桑拿与美酒之夜', ko: '사우나 & 드링크의 밤',
+      fr: 'Soirées sauna & boissons', it: 'Serate sauna e drink',
+      nl: 'Sauna- & drankavonden',
+    },
+    desc: {
+      en: 'Steam, a cold dip and a cold one afterwards — very Finnish.',
+      fi: 'Löylyä, avanto ja kylmä juoma perään — hyvin suomalaista.',
+      de: 'Aufguss, Eisbad und danach ein kaltes Bier — sehr finnisch.',
+      ja: '蒸気、氷水、その後の一杯 — フィンランド流。',
+      es: 'Vapor, baño helado y una bebida fría después: muy finlandés.',
+      'pt-BR': 'Vapor, mergulho gelado e uma bebida gelada depois — bem finlandês.',
+      'zh-CN': '蒸汽、冰水、事后一杯冰饮——非常芬兰。',
+      ko: '증기, 얼음물 입수, 그리고 시원한 한 잔 — 핀란드식.',
+      fr: 'Vapeur, bain glacé et une boisson fraîche ensuite — très finlandais.',
+      it: 'Vapore, tuffo nel ghiaccio e una bevanda fredda dopo — molto finlandese.',
+      nl: 'Stoom, ijsduik en daarna een koud biertje — heel Fins.',
+    },
+  },
+];
 
 export default function CraftBeer() {
   const { t, i18n } = useTranslation('pages');
@@ -212,13 +301,35 @@ export default function CraftBeer() {
           />
 
           {gygBlocked && (
-            <div className="flex flex-col items-center text-center rounded-2xl border border-white/10 bg-white/[0.03] px-6 py-8">
-              <span className="grid place-items-center w-12 h-12 rounded-full bg-amber/15 border border-amber/40 text-amber mb-4">
-                <Beer className="w-6 h-6" strokeWidth={2} />
-              </span>
-              <p className="text-white/80 text-sm leading-relaxed max-w-md">
+            <div>
+              <p className="text-white/80 text-sm leading-relaxed max-w-xl mx-auto text-center mb-6">
                 {GYG_FALLBACK_LEAD[lang] ?? GYG_FALLBACK_LEAD.en}
               </p>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                {GYG_FALLBACK_CARDS.map((card) => {
+                  const Icon = card.icon;
+                  return (
+                    <a
+                      key={card.sid}
+                      href={gygSearchLink(card.q, card.sid, lang as Locale)}
+                      target="_blank"
+                      rel="sponsored nofollow noopener"
+                      className="group flex flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-amber/30 hover:bg-white/[0.05] transition-all no-underline"
+                    >
+                      <span className="grid place-items-center w-10 h-10 rounded-full bg-amber/15 border border-amber/40 text-amber mb-3">
+                        <Icon className="w-5 h-5" strokeWidth={2} />
+                      </span>
+                      <span className="text-white font-semibold text-sm mb-1.5 flex items-center gap-1">
+                        {card.title[lang] ?? card.title.en}
+                        <ArrowUpRight className="w-3.5 h-3.5 text-amber opacity-70 group-hover:opacity-100 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all" />
+                      </span>
+                      <span className="text-white/70 text-xs leading-relaxed">
+                        {card.desc[lang] ?? card.desc.en}
+                      </span>
+                    </a>
+                  );
+                })}
+              </div>
             </div>
           )}
 

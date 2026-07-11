@@ -18,6 +18,7 @@ export default function DrinkingCulture() {
   const finlandiaBody = (t('drinkingCulture.finlandia.body', { returnObjects: true }) as string[]) || [];
   const lapinKultaBody = (t('drinkingCulture.lapinKulta.body', { returnObjects: true }) as string[]) || [];
   const lonkeroBody = (t('drinkingCulture.lonkero.body', { returnObjects: true }) as string[]) || [];
+  const lonkeroBrandFacts = (t('drinkingCulture.lonkero.brand.facts', { returnObjects: true }) as string[]) || [];
   const kalsariBody = (t('drinkingCulture.kalsarikannit.body', { returnObjects: true }) as string[]) || [];
   const saunaBody = (t('drinkingCulture.sauna.body', { returnObjects: true }) as string[]) || [];
   const priceRows = (t('drinkingCulture.lapinKulta.prices', { returnObjects: true }) as PriceRow[]) || [];
@@ -64,6 +65,22 @@ export default function DrinkingCulture() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="space-y-5 text-white/80 leading-relaxed">
             {intro.map((p, i) => <p key={i}>{p}</p>)}
+          </div>
+        </div>
+      </section>
+
+      {/* Life & laughter collage */}
+      <section className="pb-16 bg-night">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80">
+              <img src={BARS.pubLaughter} alt="Friends laughing over beers in a cozy Lapland log pub" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
+            </div>
+            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80">
+              <img src={BARS.terraceLonkero} alt="Friends toasting with long drinks on a summer terrace under the midnight sun" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
+            </div>
           </div>
         </div>
       </section>
@@ -154,6 +171,73 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {lonkeroBody.map((p, i) => <p key={i}>{p}</p>)}
+
+              {/* Hartwall Original Long Drink — the drink that started the category */}
+              <div className="bg-amber/[0.05] border border-amber/20 rounded-2xl overflow-hidden !mt-6">
+                {/* Lead: the poured long drink */}
+                <div className="relative h-56 sm:h-72">
+                  <img
+                    src={BARS.lonkeroDrink}
+                    alt="Sparkling grapefruit long drink in a tall glass with ice and a grapefruit wheel on a dark bar counter"
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-night/70 to-transparent" />
+                </div>
+
+                {/* The iconic can + the facts */}
+                <div className="p-6 grid grid-cols-[112px_1fr] sm:grid-cols-[140px_1fr] gap-5 sm:gap-6 items-start">
+                  <figure className="m-0">
+                    <div className="rounded-xl overflow-hidden border border-white/10 bg-black/25">
+                      <img
+                        src={BARS.lonkeroCan}
+                        alt="Hartwall Original Long Drink — the iconic blue gin & grapefruit can, 5.5%"
+                        loading="lazy"
+                        decoding="async"
+                        className="w-full h-auto object-contain"
+                      />
+                    </div>
+                    <figcaption className="mt-1.5 text-[9px] leading-snug text-white/35">
+                      Hartwall Original Long Drink ·{' '}
+                      <a
+                        href="https://commons.wikimedia.org/wiki/File:Hartwall_Original_Long_Drink.png"
+                        target="_blank"
+                        rel="noopener nofollow"
+                        className="underline hover:text-white/55"
+                      >
+                        ComradeUranium / Wikimedia Commons
+                      </a>{' '}
+                      ·{' '}
+                      <a
+                        href="https://creativecommons.org/licenses/by-sa/4.0/"
+                        target="_blank"
+                        rel="noopener nofollow"
+                        className="underline hover:text-white/55"
+                      >
+                        CC BY-SA 4.0
+                      </a>
+                    </figcaption>
+                  </figure>
+
+                  <div>
+                    <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-1.5">
+                      {t('drinkingCulture.lonkero.brand.kicker')}
+                    </p>
+                    <p className="font-heading text-2xl text-white tracking-wide mb-4">
+                      {t('drinkingCulture.lonkero.brand.title')}
+                    </p>
+                    <ul className="space-y-2">
+                      {lonkeroBrandFacts.map((fact, i) => (
+                        <li key={i} className="flex items-start gap-2.5 text-sm text-white/80 leading-relaxed">
+                          <Star size={13} className="text-amber mt-1 shrink-0" />
+                          {fact}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
@@ -167,6 +251,10 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {kalsariBody.map((p, i) => <p key={i}>{p}</p>)}
+              <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 !mt-6">
+                <img src={BARS.kalsarikannitSofa} alt="Kalsarikännit: relaxing at home on the sofa with a beer, snow falling outside" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
+              </div>
               <div className="bg-amber/[0.05] border border-amber/20 rounded-2xl p-6">
                 <p className="font-heading text-xl text-amber tracking-wide mb-3">
                   {t('drinkingCulture.kalsarikannit.rulesTitle')}
@@ -188,6 +276,10 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {saunaBody.map((p, i) => <p key={i}>{p}</p>)}
+              <div className="relative rounded-2xl overflow-hidden h-64 sm:h-80 !mt-6">
+                <img src={BARS.saunaBeer} alt="Cooling off on the sauna porch with a cold beer at dusk" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
+              </div>
             </div>
           </div>
 

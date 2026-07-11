@@ -10,7 +10,10 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 type CocktailItem = { name: string; ingredients: string; description: string; season: string };
 type IngredientItem = { name: string; note: string };
 
-const cocktailImages = [BARS.cocktailSour, BARS.cocktailAurora, BARS.cocktailBerry];
+// One distinct image per cocktail (index-matched to the translated list:
+// Cloudberry Sour, Northern Lights, Lingonberry Spritz). Northern Lights gets the
+// aurora-shimmer shot and Lingonberry Spritz the lingonberry shot — literal matches.
+const cocktailImages = [BARS.cocktailBerry, BARS.cocktailAurora, BARS.lingonberryCocktails];
 
 export default function Cocktails() {
   const { t } = useTranslation('pages');
@@ -34,7 +37,7 @@ export default function Cocktails() {
       {/* Hero */}
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
-          src={BARS.cocktailAurora}
+          src={BARS.cocktailTrio}
           alt="Arctic cocktails"
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
@@ -63,7 +66,7 @@ export default function Cocktails() {
                 className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}
               >
                 <div className={`relative rounded-2xl overflow-hidden h-72 lg:h-80 ${i % 2 === 1 ? 'lg:col-start-2' : ''}`}>
-                  <img src={cocktailImages[i] ?? BARS.cocktailAurora} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                 </div>
                 <div className={i % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>

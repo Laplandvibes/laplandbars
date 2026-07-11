@@ -185,7 +185,7 @@ export default function Bars() {
                               </div>
                               <div className="space-y-1 mb-3">
                                 <p className="text-sm text-white font-semibold leading-tight">
-                                  {bar.tour.priceFrom}
+                                  {t(`bars.venues.${bar.name}.tour.priceFrom`, { defaultValue: bar.tour.priceFrom })}
                                 </p>
                                 <div className="flex items-start gap-1.5 text-xs text-white/80 leading-snug">
                                   <Calendar size={11} className="text-amber/70 mt-0.5 shrink-0" />

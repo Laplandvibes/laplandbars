@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Wat is een ijsbar in Lapland?",
-          "a": "Een ijsbar is een bar gebouwd van sneeuw en blokken meerijs, waarbij de toog, de muren en zelfs de glazen uit ijs zijn gehakt. Binnen is het ongeveer −5 °C, dus adressen als de Ice Bar bij het Arctic SnowHotel nabij Rovaniemi lenen u bij de deur een thermocape of -pak. Elke ijsbar wordt elke winter met een nieuw ontwerp opnieuw opgebouwd en smelt in het voorjaar weg, dus hij bestaat alleen ongeveer van december tot april."
+          "a": "Een ijsbar is een bar gebouwd van sneeuw en blokken meerijs, waarbij de toog, de muren en zelfs de glazen uit ijs zijn gehakt. Binnen is het ongeveer −5 °C, dus adressen als de Ice Bar bij het Arctic SnowHotel nabij Rovaniemi lenen u bij de deur een thermocape of -pak. Elke ijsbar wordt elke winter met een nieuw ontwerp opnieuw opgebouwd en smelt in het voorjaar weg, dus hij bestaat alleen ongeveer van december tot april."
         },
         {
           "q": "Waar vind je de beste après-ski-bars in Levi en Ylläs?",
@@ -193,8 +193,9 @@
         ],
         "tour": {
           "label": "IJsbar-bezoek + thermisch pak",
-          "schedule": "Dagelijks 10:00–20:00 (15 dec – 31 mrt)",
-          "hint": "Inclusief één drankje in een ijsglas + thermisch pak."
+          "schedule": "Dagelijks 11:00–22:00 (15 dec – 31 mrt)",
+          "hint": "Rondleiding door het Snowhotel, incl. toegang tot de ijsbar.",
+          "priceFrom": "Actuele prijs op GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Slaap in de sneeuw",
       "title": "Kom niet alleen op bezoek. Slaap in een sneeuwkamer.",
-      "body": "De sneeuwsuites bij Arctic SnowHotel, Lainio Snow Village en Kakslauttanen worden elke december opnieuw gebouwd. -5 °C binnen, een thermisch geteste slaapzak en ontbijt in het warme restaurant. Eén nacht is genoeg, u herinnert het zich nog jaren.",
+      "body": "De sneeuwsuites bij Arctic SnowHotel, Lainio Snow Village en Kakslauttanen worden elke december opnieuw gebouwd. -5 °C binnen, een thermisch geteste slaapzak en ontbijt in het warme restaurant. Eén nacht is genoeg, u herinnert het zich nog jaren.",
       "ctaArctic": "Kamers Arctic SnowHotel",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -353,7 +354,8 @@
         "highlight": "Locatie Kerstmandorp",
         "stayHint": "Santa Holiday Village + Nova Skyland in de buurt"
       }
-    }
+    },
+    "verifiedNote": "Gegevens gecontroleerd op de sites van de locaties op 10-07-2026 — prijzen en tijden kunnen per seizoen wijzigen."
   },
   "apresSki": {
     "title": "Après-ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, geboren voor de Olympische Spelen",
       "body": [
-        "In 1952 organiseerde Helsinki de Zomerspelen. Er was een probleem: de stad had niet genoeg bars om het internationale publiek te bedienen, en de strenge Finse vergunningswetten maakten het openen van nieuwe bijna onmogelijk. Het staatsalcoholmonopolie Alko bedacht een oplossing: een kant-en-klare cocktail in blik die wettelijk verkocht mocht worden op de Olympische locaties.",
-        "Het drankje dat zij creëerden, was lonkero, Finse gin gemengd met grapefruitfrisdrank. Licht, fris, licht bitter. 5,5% alcohol. Verkocht in hoge blikjes met een herkenbaar etiket. Het was zo'n succes dat het na de Spelen gewoon werd doorgemaakt. Finland drinkt sindsdien lonkero.",
-        "Vandaag is lonkero een heus cultureel instituut, er bestaat een \"lonkero-feestdag\" in de Finse cultuur (de laatste vrijdag van juli), en de Long Drink-categorie heeft wereldwijd de hele moderne RTD-categorie geïnspireerd. Hartford Distilling in de VS lanceerde zelfs een Amerikaanse versie onder de naam \"The Long Drink\" nadat zij over het Finse origineel hoorden. Het is wellicht de meest succesvolle onbedoelde exportartikel uit de Finse drankgeschiedenis."
-      ]
+        "In 1952 organiseerde Helsinki de Zomerspelen en stroomden bezoekers uit de hele wereld toe — veel meer dan de paar bars van de stad ooit konden bedienen. Alko, het staatsalcoholmonopolie, klopte aan bij drankenproducent Hartwall: er was een kant-en-klare mixdrank nodig die legaal op de olympische locaties verkocht mocht worden.",
+        "Hartwalls antwoord was de Original Long Drink — Finse gin met grapefruitfrisdrank, 5,5% vol. Licht, fris, ietsje bitter. Hij zou alleen tijdens de Spelen worden gemaakt, maar het publiek besliste anders: de vraag hield hem ook na de Olympische Spelen in productie. De lonkero was geboren.",
+        "Vandaag is lonkero een cultureel instituut en een complete drankencategorie, nog altijd aangevoerd door het grijsblauwe Original-blikje. De categorie reikte tot in de Verenigde Staten, waar Finse ondernemers van de long drink een eigen merk maakten — misschien wel het succesvolste toevallige exportproduct uit de Finse drankgeschiedenis."
+      ],
+      "brand": {
+        "kicker": "Het origineel sinds 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Ontwikkeld voor de Olympische Spelen van Helsinki 1952, in opdracht van staatsmonopolie Alko",
+          "Finse gin en grapefruit — nog steeds hetzelfde recept, 5,5% vol.",
+          "Het grijsblauwe blikje hoort bij Finse bars, terrassen en sauna-avonden"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, de kunst van het thuis-in-ondergoed-drinken",

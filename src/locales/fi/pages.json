@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Mikä on lasibaari Lapissa?",
-          "a": "Lasibaari on lumesta ja järvenjäästä rakennettu baari, jonka tiski, seinät ja jopa lasit on veistetty jäästä. Sisällä on noin −5 °C, joten paikoissa kuten Arctic SnowHotelin lasibaari lähellä Rovaniemeä saat ovella lainaksi lämpöviitan tai -haalarin. Jokainen rakennetaan uudelleen uudella teemalla joka talvi ja sulaa keväällä, joten se on olemassa vain suunnilleen joulukuusta huhtikuuhun."
+          "a": "Lasibaari on lumesta ja järvenjäästä rakennettu baari, jonka tiski, seinät ja jopa lasit on veistetty jäästä. Sisällä on noin −5 °C, joten paikoissa kuten Arctic SnowHotelin lasibaari lähellä Rovaniemeä saat ovella lainaksi lämpöviitan tai -haalarin. Jokainen rakennetaan uudelleen uudella teemalla joka talvi ja sulaa keväällä, joten se on olemassa vain suunnilleen joulukuusta huhtikuuhun."
         },
         {
           "q": "Mitkä ovat parhaat après-ski-baarit Levillä ja Ylläksellä?",
@@ -184,17 +184,18 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Lasibaarielämys",
-        "description": "Rakennetaan alusta joka talvi, lasibaarin veistävät taiteilijat ja jokainen kausi saa uuden teeman. Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla, 30 minuuttia Rovaniemen keskustasta. Juomat tarjoillaan jäästä tehdyissä laseissa. Lämpötila: -5 °C sisällä. Lämpöhaalarit kuuluvat lippuun.",
+        "description": "Rakennetaan alusta joka talvi, lasibaarin veistävät taiteilijat ja jokainen kausi saa uuden teeman. Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla, 30 minuuttia Rovaniemen keskustasta. Juomat tarjoillaan jäästä tehdyissä laseissa. Lämpötila: -5 °C sisällä. Lämpöhaalarit kuuluvat lippuun.",
         "highlights": [
           "Uusi teema vuosittain",
           "Jäälasit",
           "Lämpöhaalari mukana",
-          "-5 °C sisällä"
+          "-5 °C sisällä"
         ],
         "tour": {
           "label": "Lasibaarivierailu + lämpöhaalari",
-          "schedule": "Päivittäin 10:00–20:00 (15.12.–31.3.)",
-          "hint": "Sisältää yhden juoman jäälasista + lämpöhaalarin."
+          "schedule": "Päivittäin 11:00–22:00 (15.12.–31.3.)",
+          "hint": "Opastettu Snowhotel-vierailu, sisältää lasibaarin.",
+          "priceFrom": "Live-hinta GetYourGuidessa"
         }
       },
       "Hullu Poro Areena": {
@@ -300,7 +301,7 @@
       "sub": "Rakennetaan lumesta ja jäästä joka talvi. Sulaa joka kevät. Poissa seuraavaan jouluun asti. Tämä ei ole teemabaari, vaan kausittainen arktinen ilmiö."
     },
     "intro": [
-      "Joka syksy joukko jäätaiteilijoita ja rakentajia saapuu Suomen Lapin lumikyliin. He sahaavat jäälohkareita jäätyneistä järvistä, pakkaavat tonneittain lunta muotteihin ja veistävät käsin baareja, tuoleja, kaaria ja hahmoja. Joulukuuksi tulos on valmis: täydessä toiminnassa olevia baareja, jotka pyörivät -5 °C:ssa, ja joiden jokainen pinta, seinät, baaritiski, lasit, on jäätä.",
+      "Joka syksy joukko jäätaiteilijoita ja rakentajia saapuu Suomen Lapin lumikyliin. He sahaavat jäälohkareita jäätyneistä järvistä, pakkaavat tonneittain lunta muotteihin ja veistävät käsin baareja, tuoleja, kaaria ja hahmoja. Joulukuuksi tulos on valmis: täydessä toiminnassa olevia baareja, jotka pyörivät -5 °C:ssa, ja joiden jokainen pinta, seinät, baaritiski, lasit, on jäätä.",
       "Jokainen vuosi tuo uuden teeman. Veistokset eivät ole koskaan samat. Sitä mitä koet yhtenä talvena, ei ole olemassa seuraavana. Tilapäisyys on pointti. Lasibaari on määritelmänsä mukaan ohimenevä, juuri siksi se kannattaa kokea ennen kuin se on poissa."
     ],
     "iceBarKicker": "Lasibaari",
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Nuku lumessa",
       "title": "Älä vain vieraile. Nuku lumihuoneessa.",
-      "body": "Arctic SnowHotelin, Lainio Snow Villagen ja Kakslauttasen lumisviitit rakennetaan uudelleen joka joulukuussa. -5 °C sisällä, lämpöluokiteltu makuupussi, aamiainen lämpimässä ravintolassa. Yksi yö riittää, muistat sen vuosia.",
+      "body": "Arctic SnowHotelin, Lainio Snow Villagen ja Kakslauttasen lumisviitit rakennetaan uudelleen joka joulukuussa. -5 °C sisällä, lämpöluokiteltu makuupussi, aamiainen lämpimässä ravintolassa. Yksi yö riittää, muistat sen vuosia.",
       "ctaArctic": "Arctic SnowHotelin huoneet",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -321,7 +322,7 @@
       "items": [
         {
           "title": "Lämpötila",
-          "body": "Noin -5 °C sisällä. Kaikki lasibaarit tarjoavat lämpöviitan, haalarin tai takin, joka sisältyy pääsymaksuun. Pukeudu kerroksittain alle."
+          "body": "Noin -5 °C sisällä. Kaikki lasibaarit tarjoavat lämpöviitan, haalarin tai takin, joka sisältyy pääsymaksuun. Pukeudu kerroksittain alle."
         },
         {
           "title": "Kesto",
@@ -353,7 +354,8 @@
         "highlight": "Pajakylän sijainti",
         "stayHint": "Santa Holiday Village + Nova Skyland lähellä"
       }
-    }
+    },
+    "verifiedNote": "Tiedot tarkistettu kohteiden omilta sivuilta 10.7.2026 — hinnat ja ajat voivat muuttua kausittain."
   },
   "apresSki": {
     "title": "Après-ski Lapissa | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, syntyi olympialaisia varten",
       "body": [
-        "Vuonna 1952 Helsingissä järjestettiin kesäolympialaiset. Oli ongelma: kaupungissa ei ollut riittävästi baareja palvelemaan kansainvälistä yleisöä, ja Suomen tiukat lupakäytännöt tekivät uusien avaamisesta lähes mahdotonta. Valtion alkoholimonopoli Alko keksi ratkaisun: valmiina nautittavan tölkkicocktailin, jota voitaisiin myydä laillisesti olympialaisten alueilla.",
-        "Heidän kehittämänsä juoma oli lonkero, suomalainen gini sekoitettuna greippisoodaan. Kevyt, raikas, hieman karvas. 5,5 til-%. Myynnissä korkeissa tölkeissä omaleimaisella etiketillä. Se oli niin suuri menestys, että sitä jatkettiin olympialaisten jälkeenkin. Suomi on juonut lonkeroa siitä lähtien.",
-        "Tänään lonkero on kunnon kulttuuri-instituutio, suomalaisessa kulttuurissa on \"lonkeropyhä\" (heinäkuun viimeinen perjantai), ja long drink -kategoria on inspiroinut koko modernin RTD-kategorian maailmanlaajuisesti. Hartford Distilling Yhdysvalloissa lanseerasi jopa amerikkalaisversion nimeltä \"The Long Drink\" oppinaisuudet suomalaisesta alkuperäisestä. Se on mahdollisesti onnistunein vahingossa syntynyt vientiartikkeli suomalaisten juomien historiassa."
-      ]
+        "Vuonna 1952 Helsinki isännöi kesäolympialaisia, ja vieraita virtasi ympäri maailmaa — enemmän kuin kaupungin harvat anniskelupaikat olisivat ikinä ehtineet palvella. Valtion alkoholimonopoli Alko kääntyi Hartwallin puoleen: tarvittiin valmis juomasekoitus, jota voitaisiin myydä laillisesti kisapaikoilla.",
+        "Hartwallin vastaus oli Original Long Drink — suomalaista giniä ja greippisoodaa, 5,5 til-%. Kevyt, raikas, hieman karvas. Sitä piti valmistaa vain kisojen ajan, mutta yleisö päätti toisin: kysyntä piti juoman tuotannossa olympialaisten jälkeenkin. Lonkero oli syntynyt.",
+        "Tänään lonkero on kulttuuri-instituutio ja kokonainen juomakategoria, jonka kärjessä harmaansininen Original-tölkki kulkee yhä. Kategoria on levinnyt maailmalle asti — Yhdysvalloissa suomalaisyrittäjät tekivät long drinkistä oman brändinsä — ja lonkero lienee suomalaisten juomien historian onnistunein puolivahingossa syntynyt vientituote."
+      ],
+      "brand": {
+        "kicker": "Alkuperäinen vuodesta 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Kehitetty Helsingin olympialaisiin 1952 Alkon toimeksiannosta",
+          "Suomalaista giniä ja greippiä — sama resepti yhä, 5,5 til-%",
+          "Harmaansininen tölkki on suomalaisten baarien, terassien ja saunailtojen vakiokalustoa"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, alusvaatteissa juomisen taide",
@@ -653,7 +664,7 @@
       "title": "Sauna ja sisu, koko kuva",
       "body": [
         "Suomalaista juomakulttuuria ei voi erottaa saunasta. Standardi suomalainen lauantai noudattaa tarkkaa järjestystä: työ, sauna, olut. Olut nautitaan saunassa tai heti sen jälkeen, kun ruumiinlämpö on yhä korkealla ja kylmä olut luo lähes fysiologisen vaikutuksen. Tämä yhdistelmä on niin syvällä kulttuurissa, että useimmilla suomalaisilla kesämökeillä on oma sauna-olutrituaali, joka alkaa noin klo 16 ja jatkuu kunnes joku nukahtaa veneeseen.",
-        "Lapissa sauna on vieläkin keskeisempi. Päivän jälkeen -30 °C:ssa sauna ei ole ylellisyyttä, se on nesteytystä, palautumista ja sosialisointia samaan aikaan. Monilla Lapin hotelleilla ja mökeillä on omat saunat. Saunan, jäiseen järveen tai lumeen pulahduksen ja kylmän oluen yhdistelmä on suomalaisten mukaan parempi kuin mikään kylpyläkäsittely maailmassa. He ovat luultavasti oikeassa.",
+        "Lapissa sauna on vieläkin keskeisempi. Päivän jälkeen -30 °C:ssa sauna ei ole ylellisyyttä, se on nesteytystä, palautumista ja sosialisointia samaan aikaan. Monilla Lapin hotelleilla ja mökeillä on omat saunat. Saunan, jäiseen järveen tai lumeen pulahduksen ja kylmän oluen yhdistelmä on suomalaisten mukaan parempi kuin mikään kylpyläkäsittely maailmassa. He ovat luultavasti oikeassa.",
         "Sisu, ainutlaatuisen suomalainen käsite stoalaisesta päättäväisyydestä, sitkeydestä vastoinkäymisissä, koskee myös juomista. Suomalaista, joka on juonut seitsemän tuntia ja silti pääsee maanantaina töihin, ei pidetä vastuuttomana. Hänellä katsotaan olevan sisua."
       ]
     },

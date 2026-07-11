@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Was ist eine Eisbar in Lappland?",
-          "a": "Eine Eisbar ist eine Bar aus Schnee und Blöcken von Seeeis, deren Tresen, Wände und sogar Gläser aus Eis geschnitzt sind. Drinnen herrschen etwa −5 °C, daher leihen Locations wie die Eisbar im Arctic SnowHotel nahe Rovaniemi Ihnen an der Tür einen Thermoumhang oder -overall. Jede wird jeden Winter mit einem neuen Design neu gebaut und schmilzt im Frühling weg, sodass es sie nur etwa von Dezember bis April gibt."
+          "a": "Eine Eisbar ist eine Bar aus Schnee und Blöcken von Seeeis, deren Tresen, Wände und sogar Gläser aus Eis geschnitzt sind. Drinnen herrschen etwa −5 °C, daher leihen Locations wie die Eisbar im Arctic SnowHotel nahe Rovaniemi Ihnen an der Tür einen Thermoumhang oder -overall. Jede wird jeden Winter mit einem neuen Design neu gebaut und schmilzt im Frühling weg, sodass es sie nur etwa von Dezember bis April gibt."
         },
         {
           "q": "Wo sind die besten Après-Ski-Bars in Levi und Ylläs?",
@@ -184,17 +184,18 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Eisbar-Erlebnis",
-        "description": "Jeden Winter von Grund auf neu gebaut, die Eisbar wird von Künstlern geschnitzt und jede Saison erhält ein neues Thema. Im Arctic SnowHotel am Ufer des Lehtojärvi gelegen, 30 Minuten vom Zentrum Rovaniemis entfernt. Die Drinks werden in Gläsern aus Eis serviert. Innentemperatur: -5 °C. Thermooveralls sind im Eintritt enthalten.",
+        "description": "Jeden Winter von Grund auf neu gebaut, die Eisbar wird von Künstlern geschnitzt und jede Saison erhält ein neues Thema. Im Arctic SnowHotel am Ufer des Lehtojärvi gelegen, 30 Minuten vom Zentrum Rovaniemis entfernt. Die Drinks werden in Gläsern aus Eis serviert. Innentemperatur: -5 °C. Thermooveralls sind im Eintritt enthalten.",
         "highlights": [
           "Jedes Jahr neues Thema",
           "Eisgläser",
           "Thermooverall inklusive",
-          "-5 °C drinnen"
+          "-5 °C drinnen"
         ],
         "tour": {
           "label": "Eisbar-Besuch + Thermooverall",
-          "schedule": "Täglich 10:00–20:00 (15.12.–31.3.)",
-          "hint": "Inklusive einem Drink aus dem Eisglas + Thermooverall."
+          "schedule": "Täglich 11:00–22:00 (15. Dez. – 31. März)",
+          "hint": "Geführter Snowhotel-Besuch inkl. Eisbar.",
+          "priceFrom": "Live-Preis auf GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -300,7 +301,7 @@
       "sub": "Jeden Winter aus Schnee und Eis gebaut. Jeden Frühling geschmolzen. Bis zum nächsten Weihnachten verschwunden. Das ist keine Themenbar, das ist ein saisonales arktisches Phänomen."
     },
     "intro": [
-      "Jeden Herbst trifft eine Gruppe von Eiskünstlern und Bauleuten in den Schneedörfern Finnisch-Lapplands ein. Sie sägen Eisblöcke aus gefrorenen Seen, verdichten Tonnen von Schnee in Formen und schnitzen von Hand Bars, Stühle, Bögen und Figuren. Im Dezember ist das Ergebnis fertig: voll funktionsfähige Bars, die bei -5 °C laufen und bei denen jede Oberfläche, Wände, Tresen, Gläser, aus Eis besteht.",
+      "Jeden Herbst trifft eine Gruppe von Eiskünstlern und Bauleuten in den Schneedörfern Finnisch-Lapplands ein. Sie sägen Eisblöcke aus gefrorenen Seen, verdichten Tonnen von Schnee in Formen und schnitzen von Hand Bars, Stühle, Bögen und Figuren. Im Dezember ist das Ergebnis fertig: voll funktionsfähige Bars, die bei -5 °C laufen und bei denen jede Oberfläche, Wände, Tresen, Gläser, aus Eis besteht.",
       "Jedes Jahr bringt ein neues Thema. Die Skulpturen sind nie dieselben. Was Sie in einem Winter erleben, existiert im nächsten nicht mehr. Die Vergänglichkeit ist der Punkt. Eine Eisbar ist per Definition flüchtig, genau deshalb lohnt es sich, sie zu erleben, bevor sie verschwindet."
     ],
     "iceBarKicker": "Eisbar",
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Im Schnee schlafen",
       "title": "Besuchen Sie nicht nur. Schlafen Sie in einem Schneezimmer.",
-      "body": "Die Schneesuiten des Arctic SnowHotel, des Lainio Snow Village und von Kakslauttanen werden jeden Dezember neu gebaut. -5 °C drinnen, temperaturklassifizierter Schlafsack, Frühstück im warmen Restaurant. Eine Nacht reicht, Sie werden sich jahrelang daran erinnern.",
+      "body": "Die Schneesuiten des Arctic SnowHotel, des Lainio Snow Village und von Kakslauttanen werden jeden Dezember neu gebaut. -5 °C drinnen, temperaturklassifizierter Schlafsack, Frühstück im warmen Restaurant. Eine Nacht reicht, Sie werden sich jahrelang daran erinnern.",
       "ctaArctic": "Zimmer im Arctic SnowHotel",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -321,7 +322,7 @@
       "items": [
         {
           "title": "Temperatur",
-          "body": "Etwa -5 °C drinnen. Alle Eisbars stellen einen Thermoumhang, -overall oder -mantel zur Verfügung, der im Eintritt enthalten ist. Ziehen Sie sich darunter in Schichten an."
+          "body": "Etwa -5 °C drinnen. Alle Eisbars stellen einen Thermoumhang, -overall oder -mantel zur Verfügung, der im Eintritt enthalten ist. Ziehen Sie sich darunter in Schichten an."
         },
         {
           "title": "Dauer",
@@ -353,7 +354,8 @@
         "highlight": "Lage im Santa Claus Village",
         "stayHint": "Santa Holiday Village + Nova Skyland in der Nähe"
       }
-    }
+    },
+    "verifiedNote": "Angaben am 10.7.2026 auf den Websites der Anbieter geprüft — Preise und Zeiten können sich saisonal ändern."
   },
   "apresSki": {
     "title": "Après-Ski in Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, geboren für die Olympischen Spiele",
       "body": [
-        "1952 fanden in Helsinki die Olympischen Sommerspiele statt. Es gab ein Problem: In der Stadt gab es nicht genügend Bars, um das internationale Publikum zu bedienen, und Finnlands strenge Lizenzpraktiken machten die Eröffnung neuer Bars nahezu unmöglich. Das staatliche Alkoholmonopol Alko fand eine Lösung: einen verzehrfertigen Dosen-Cocktail, der bei den Olympischen Stätten legal verkauft werden konnte.",
-        "Das Getränk, das sie entwickelten, war lonkero (finnischer Longdrink), finnischer Gin gemischt mit Grapefruitlimo. Leicht, frisch, leicht bitter. 5,5 Vol.-%. Verkauft in hohen Dosen mit einem unverwechselbaren Etikett. Es war so ein großer Erfolg, dass es nach den Olympischen Spielen weitergeführt wurde. Finnland trinkt seither Lonkero.",
-        "Heute ist Lonkero eine ausgewachsene Kulturinstitution, die finnische Kultur kennt den \"Lonkero-Feiertag\" (den letzten Freitag im Juli), und die Long-Drink-Kategorie hat weltweit eine ganze moderne RTD-Kategorie inspiriert. Hartford Distilling in den USA brachte sogar eine amerikanische Version namens \"The Long Drink\" auf den Markt, die vom finnischen Original gelernt hat. Es ist möglicherweise der erfolgreichste versehentlich entstandene Exportartikel in der finnischen Getränkegeschichte."
-      ]
+        "1952 richtete Helsinki die Sommerspiele aus, und Gäste strömten aus aller Welt — weit mehr, als die wenigen Bars der Stadt je hätten bedienen können. Das staatliche Alkoholmonopol Alko wandte sich an das Getränkehaus Hartwall: Gebraucht wurde ein fertig gemischtes Getränk, das an den Olympia-Stätten legal verkauft werden konnte.",
+        "Hartwalls Antwort war der Original Long Drink — finnischer Gin und Grapefruitlimonade, 5,5 % vol. Leicht, frisch, leicht herb. Er sollte nur für die Spiele produziert werden, doch das Publikum entschied anders: Die Nachfrage hielt ihn auch nach Olympia in Produktion. Der Lonkero war geboren.",
+        "Heute ist Lonkero eine Kulturinstitution und eine ganze Getränkekategorie, angeführt nach wie vor von der graublauen Original-Dose. Die Kategorie hat sich bis in die USA verbreitet, wo finnische Gründer den Long Drink zu einer eigenen Marke machten — womöglich der erfolgreichste zufällig entstandene Exportartikel der finnischen Getränkegeschichte."
+      ],
+      "brand": {
+        "kicker": "Das Original seit 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Für die Olympischen Spiele 1952 in Helsinki entwickelt, beauftragt vom Staatsmonopol Alko",
+          "Finnischer Gin und Grapefruit — bis heute dasselbe Rezept, 5,5 % vol.",
+          "Die graublaue Dose gehört in Finnlands Bars, auf Terrassen und zu Saunaabenden dazu"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, die Kunst, in Unterwäsche zu trinken",
@@ -653,7 +664,7 @@
       "title": "Sauna und sisu, das ganze Bild",
       "body": [
         "Die finnische Trinkkultur lässt sich nicht von der Sauna trennen. Ein typischer finnischer Samstag folgt einer genauen Reihenfolge: Arbeit, Sauna, Bier. Das Bier wird in der Sauna oder direkt danach genossen, wenn die Körpertemperatur noch hoch ist und das kalte Bier eine fast physiologische Wirkung entfaltet. Diese Kombination ist so tief in der Kultur verankert, dass die meisten finnischen Sommerhäuser ein eigenes Sauna-Bier-Ritual haben, das gegen 16 Uhr beginnt und so lange dauert, bis jemand im Boot einschläft.",
-        "In Lappland ist die Sauna noch zentraler. Nach einem Tag bei -30 °C ist die Sauna kein Luxus, sie ist gleichzeitig Rehydrierung, Erholung und Geselligkeit. Viele Lappland-Hotels und Hütten haben eigene Saunen. Die Kombination aus Sauna, einem Sprung in den eisigen See oder in den Schnee und einem kalten Bier ist nach Aussage der Finnen besser als jede Spa-Behandlung der Welt. Sie haben wahrscheinlich recht.",
+        "In Lappland ist die Sauna noch zentraler. Nach einem Tag bei -30 °C ist die Sauna kein Luxus, sie ist gleichzeitig Rehydrierung, Erholung und Geselligkeit. Viele Lappland-Hotels und Hütten haben eigene Saunen. Die Kombination aus Sauna, einem Sprung in den eisigen See oder in den Schnee und einem kalten Bier ist nach Aussage der Finnen besser als jede Spa-Behandlung der Welt. Sie haben wahrscheinlich recht.",
         "Sisu, das einzigartig finnische Konzept stoischer Entschlossenheit, Beharrlichkeit angesichts von Widrigkeiten, gilt auch für das Trinken. Ein Finne, der sieben Stunden getrunken hat und es montags trotzdem zur Arbeit schafft, gilt nicht als unverantwortlich. Man sagt, er habe sisu."
       ]
     },

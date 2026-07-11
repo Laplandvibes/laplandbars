@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "¿Qué es un bar de hielo en Laponia?",
-          "a": "Un bar de hielo es un bar levantado con nieve y bloques de hielo de lago, donde la barra, las paredes e incluso los vasos están tallados en hielo. Dentro hay unos −5 °C, así que locales como el Ice Bar del Arctic SnowHotel, cerca de Rovaniemi, te prestan una capa o un traje térmico en la puerta. Cada uno se reconstruye con un diseño nuevo cada invierno y se derrite en primavera, de modo que solo existe entre diciembre y abril aproximadamente."
+          "a": "Un bar de hielo es un bar levantado con nieve y bloques de hielo de lago, donde la barra, las paredes e incluso los vasos están tallados en hielo. Dentro hay unos −5 °C, así que locales como el Ice Bar del Arctic SnowHotel, cerca de Rovaniemi, te prestan una capa o un traje térmico en la puerta. Cada uno se reconstruye con un diseño nuevo cada invierno y se derrite en primavera, de modo que solo existe entre diciembre y abril aproximadamente."
         },
         {
           "q": "¿Dónde están los mejores bares de après-ski en Levi y Ylläs?",
@@ -184,17 +184,18 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Experiencia de bar de hielo",
-        "description": "Construido desde cero cada invierno, este bar de hielo lo esculpen artistas y se reconstruye con un nuevo tema cada temporada. Está en el Arctic SnowHotel, a orillas del lago Lehtojärvi, a 30 minutos del centro de Rovaniemi. Las bebidas se sirven en vasos de hielo. Temperatura: -5 °C dentro. Trajes térmicos incluidos.",
+        "description": "Construido desde cero cada invierno, este bar de hielo lo esculpen artistas y se reconstruye con un nuevo tema cada temporada. Está en el Arctic SnowHotel, a orillas del lago Lehtojärvi, a 30 minutos del centro de Rovaniemi. Las bebidas se sirven en vasos de hielo. Temperatura: -5 °C dentro. Trajes térmicos incluidos.",
         "highlights": [
           "Tema nuevo cada año",
           "Vasos de hielo",
           "Trajes térmicos incluidos",
-          "-5 °C dentro"
+          "-5 °C dentro"
         ],
         "tour": {
           "label": "Visita al bar de hielo con traje térmico",
-          "schedule": "A diario 10:00–20:00 (15 dic – 31 mar)",
-          "hint": "Incluye una bebida en copa de hielo y traje térmico."
+          "schedule": "Todos los días 11:00–22:00 (15 dic – 31 mar)",
+          "hint": "Visita guiada al Snowhotel, incluye acceso al bar de hielo.",
+          "priceFrom": "Precio actual en GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -300,7 +301,7 @@
       "sub": "Se levantan de nieve y hielo cada invierno, se derriten en primavera y desaparecen hasta el siguiente diciembre. Esto no son bares temáticos, son un fenómeno ártico de temporada."
     },
     "intro": [
-      "Cada otoño, equipos de artistas del hielo y constructores aterrizan en los pueblos de nieve de la Laponia finlandesa. Cortan bloques de hielo de los lagos congelados, compactan toneladas de nieve en moldes y esculpen a mano bares, sillas, arcos y figuras. Para diciembre, el resultado está listo: bares en pleno funcionamiento a -5 °C, donde cada superficie, paredes, barra, vasos, es de hielo.",
+      "Cada otoño, equipos de artistas del hielo y constructores aterrizan en los pueblos de nieve de la Laponia finlandesa. Cortan bloques de hielo de los lagos congelados, compactan toneladas de nieve en moldes y esculpen a mano bares, sillas, arcos y figuras. Para diciembre, el resultado está listo: bares en pleno funcionamiento a -5 °C, donde cada superficie, paredes, barra, vasos, es de hielo.",
       "Cada año trae un tema nuevo. Las esculturas no se repiten. Lo que ves un invierno no existirá al siguiente. Esa impermanencia es el punto. Un bar de hielo es, por definición, temporal y por eso merece la pena vivirlo antes de que desaparezca."
     ],
     "iceBarKicker": "bar de hielo",
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Duerme en la nieve",
       "title": "No solo lo visites. Duerme en una habitación de nieve.",
-      "body": "Las suites de nieve del Arctic SnowHotel, Lainio Snow Village y Kakslauttanen se reconstruyen cada diciembre. -5 °C dentro, saco térmico homologado, desayuno en el restaurante cálido. Una noche es suficiente, la recordarás durante años.",
+      "body": "Las suites de nieve del Arctic SnowHotel, Lainio Snow Village y Kakslauttanen se reconstruyen cada diciembre. -5 °C dentro, saco térmico homologado, desayuno en el restaurante cálido. Una noche es suficiente, la recordarás durante años.",
       "ctaArctic": "Habitaciones en Arctic SnowHotel",
       "ctaLainio": "Aldea de Nieve Lainio"
     },
@@ -321,7 +322,7 @@
       "items": [
         {
           "title": "Temperatura",
-          "body": "Alrededor de -5 °C dentro. Todos los bares de hielo proporcionan capa, traje o chaqueta térmica incluidos en la entrada. Vístete por capas debajo."
+          "body": "Alrededor de -5 °C dentro. Todos los bares de hielo proporcionan capa, traje o chaqueta térmica incluidos en la entrada. Vístete por capas debajo."
         },
         {
           "title": "Duración",
@@ -353,7 +354,8 @@
         "highlight": "Ubicación: Pueblo de Papá Noel",
         "stayHint": "Santa Holiday Village y Nova Skyland cerca"
       }
-    }
+    },
+    "verifiedNote": "Datos verificados en las webs de los locales el 10/07/2026; precios y horarios pueden variar según temporada."
   },
   "apresSki": {
     "title": "Après-ski en Laponia | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, nacido para los Juegos Olímpicos",
       "body": [
-        "En 1952, Helsinki acogió los Juegos Olímpicos de Verano. Había un problema: la ciudad no tenía bares suficientes para atender al público internacional, y las estrictas leyes finlandesas de licencias hacían casi imposible abrir nuevos. El monopolio estatal del alcohol, Alko, dio con la solución: un cóctel enlatado listo para beber que se pudiera vender legalmente en las sedes olímpicas.",
-        "La bebida que crearon fue el lonkero, ginebra finlandesa mezclada con refresco de pomelo. Ligero, refrescante, ligeramente amargo. 5,5° de alcohol. Se vendía en latas altas con una etiqueta inconfundible. Fue tal éxito que siguieron haciéndolo tras los Juegos. Finlandia lleva bebiendo lonkero desde entonces.",
-        "Hoy el lonkero es una auténtica institución cultural, hay un \"día del lonkero\" en el calendario finlandés (el último viernes de julio), y la categoría Long Drink ha inspirado toda la categoría moderna de RTD a nivel global. Hartford Distilling, en Estados Unidos, lanzó incluso una versión americana llamada \"The Long Drink\" después de descubrir el original finlandés. Es posiblemente el producto de exportación accidental más exitoso de la historia de las bebidas finlandesas."
-      ]
+        "En 1952 Helsinki acogió los Juegos Olímpicos de verano y llegaron visitantes de todo el mundo, muchos más de los que los pocos bares de la ciudad podían atender. Alko, el monopolio estatal del alcohol, recurrió a la casa Hartwall: hacía falta una bebida ya mezclada que pudiera venderse legalmente en las sedes olímpicas.",
+        "La respuesta de Hartwall fue el Original Long Drink: ginebra finlandesa y refresco de pomelo, 5,5 % vol. Ligero, fresco, ligeramente amargo. Iba a producirse solo durante los Juegos, pero el público decidió otra cosa: la demanda lo mantuvo en producción después de las Olimpiadas. Había nacido el lonkero.",
+        "Hoy el lonkero es una institución cultural y toda una categoría de bebidas, aún liderada por la lata gris azulada del Original. La categoría ha llegado hasta Estados Unidos, donde emprendedores finlandeses convirtieron el long drink en una marca propia; quizá el producto de exportación accidental más exitoso de la historia de las bebidas finlandesas."
+      ],
+      "brand": {
+        "kicker": "El original desde 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Creado para los JJ. OO. de Helsinki 1952 por encargo del monopolio estatal Alko",
+          "Ginebra finlandesa y pomelo: la misma receta hasta hoy, 5,5 % vol.",
+          "La lata gris azulada es un clásico de los bares, terrazas y noches de sauna finlandesas"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, el arte de beber en calzoncillos",
@@ -653,7 +664,7 @@
       "title": "Sauna y sisu, el cuadro completo",
       "body": [
         "La cultura finlandesa del beber no se puede separar de la sauna. El sábado finlandés estándar sigue un orden preciso: trabajo, sauna, cerveza. La cerveza se toma en la sauna o justo después, cuando la temperatura corporal sigue alta y la cerveza fría genera un efecto casi fisiológico. Esta combinación está tan arraigada culturalmente que la mayoría de las cabañas veraniegas finlandesas tienen su propio ritual sauna-cerveza que empieza hacia las 16:00 y continúa hasta que alguien se queda dormido en la barca.",
-        "En Laponia, la sauna es aún más central. Después de un día a -30 °C, la sauna no es un lujo, es rehidratación, recuperación y socialización a la vez. Muchos hoteles y cabañas de Laponia tienen sauna privada. La combinación de sauna, zambullida en el lago o en la nieve y cerveza fría es, según los finlandeses, mejor que cualquier tratamiento de spa del mundo. Probablemente tengan razón.",
+        "En Laponia, la sauna es aún más central. Después de un día a -30 °C, la sauna no es un lujo, es rehidratación, recuperación y socialización a la vez. Muchos hoteles y cabañas de Laponia tienen sauna privada. La combinación de sauna, zambullida en el lago o en la nieve y cerveza fría es, según los finlandeses, mejor que cualquier tratamiento de spa del mundo. Probablemente tengan razón.",
         "El sisu, el concepto típicamente finlandés de determinación estoica, resiliencia ante la adversidad, también aplica al beber. Un finlandés que lleva siete horas bebiendo y aun así llega al trabajo el lunes no se considera irresponsable. Se considera que tiene sisu."
       ]
     },

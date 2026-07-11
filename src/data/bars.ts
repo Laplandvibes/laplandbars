@@ -212,24 +212,27 @@ export const bars: Bar[] = [
     type: 'Ice Bar Experience',
     description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi — 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.',
     highlights: ['New theme yearly', 'Ice glasses', 'Thermal suits included', '-5°C inside'],
+    // Verified from arcticsnowhotel.fi/en/eat-drink/ice-bar/ 2026-07-10:
+    // hours 11–22; access requires a Snowhotel entrance ticket (overnight
+    // guests free) — no standalone ~€15 bar fee.
     price: {
-      en: 'Entry ~€15 incl. one drink',
-      fi: 'Sisäänpääsy noin 15 €, sis. yhden juoman',
-      de: 'Eintritt ~15 € inkl. einem Getränk',
+      en: 'Snowhotel entrance ticket required (overnight guests free)',
+      fi: 'Vaatii Snowhotel-sisäänpääsylipun (hotelliyöpyjille vapaa)',
+      de: 'Snowhotel-Eintrittskarte erforderlich (Übernachtungsgäste frei)',
     },
     address: 'Lehtoahontie 27, 97220 Sinettä',
     website: 'https://arcticsnowhotel.fi/en/eat-drink/ice-bar/',
     hours: {
-      en: 'Daily 10–20 (Dec 15 – Mar 31)',
-      fi: 'Päivittäin 10–20 (15.12.–31.3.)',
-      de: 'Täglich 10–20 (15. Dez. – 31. März)',
+      en: 'Daily 11–22 (Dec 15 – Mar 31)',
+      fi: 'Päivittäin 11–22 (15.12.–31.3.)',
+      de: 'Täglich 11–22 (15. Dez. – 31. März)',
     },
     featured: true,
     tour: {
       label: 'Ice bar visit + thermal suit',
-      priceFrom: '€15 / person',
-      schedule: 'Daily 10:00–20:00 (Dec 15 – Mar 31)',
-      hint: 'Includes one drink in an ice glass + thermal suit.',
+      priceFrom: 'Live price on GetYourGuide',
+      schedule: 'Daily 11:00–22:00 (Dec 15 – Mar 31)',
+      hint: 'Guided Snowhotel visit incl. Ice Bar access.',
       sid: 'bar_ice_bar_arctic_snowhotel',
       // Verified GYG product 2026-05-02 via search.
       gygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
@@ -571,19 +574,26 @@ export const iceBars: IceBar[] = [
       fi: 'sisällä -5 °C',
       de: 'innen -5 °C',
     },
+    // Verified from laplandhotels.com/…/snowvillage/ice-exhibition 2026-07-10:
+    // ice bar is included in the exhibition ticket (hot drink or drink in an
+    // ice shot glass); venue publishes prices seasonally.
     price: {
-      en: 'Entry + 1 drink ~€25',
-      fi: 'Sisäänpääsy + 1 juoma noin 25 €',
-      de: 'Eintritt + 1 Getränk ~25 €',
+      en: 'Exhibition ticket incl. a drink in an ice glass — prices on venue site',
+      fi: 'Näyttelylippu sis. juoman jäälasissa — hinnat kohteen sivulta',
+      de: 'Eintritt inkl. Getränk im Eisglas — Preise auf der Website',
     },
     season: {
-      en: 'Open Dec–Apr (rebuild Oct–Nov)',
-      fi: 'Auki joulu–huhtikuu (rakennetaan loka–marraskuussa)',
-      de: 'Geöffnet Dez.–Apr. (Aufbau Okt.–Nov.)',
+      en: 'Opens Dec 25, 2026 (rebuilt every autumn)',
+      fi: 'Avautuu 25.12.2026 (rakennetaan joka syksy uudelleen)',
+      de: 'Öffnet 25.12.2026 (jeden Herbst neu gebaut)',
     },
     website: 'https://snowvillage.fi',
-    // Hotels.com — sleep on-site
-    stayQuery: 'Lainio Snow Village, Ylläs, Finland',
+    // Hotels.com — the property ("Lapland Hotels Snow Village") does NOT
+    // resolve in the Hotels.com destination search (verified via Expedia
+    // typeahead 2026-07-10, empty for every name variant) → use the
+    // municipality so the search always returns results. Card label says
+    // "book a room nearby", which this honestly is.
+    stayQuery: 'Kittilä, Finland',
     staySid: 'icebar_snowvillage_lainio',
     stayHint: 'Snow suites + log cabins on-site',
     // GYG product (verified 2026-05-02): SnowVillage Ice Hotel Guided Tour with Transfer
@@ -600,18 +610,25 @@ export const iceBars: IceBar[] = [
       fi: 'sisällä -5 °C',
       de: 'innen -5 °C',
     },
+    // Verified from arcticsnowhotel.fi/en/eat-drink/ice-bar/ 2026-07-10:
+    // hours 11–22, season Dec 15 – Mar 31; no standalone bar fee — a Snowhotel
+    // entrance ticket is required (overnight guests enter free).
     price: {
-      en: 'Entry + 1 drink ~€15',
-      fi: 'Sisäänpääsy + 1 juoma noin 15 €',
-      de: 'Eintritt + 1 Getränk ~15 €',
+      en: 'Snowhotel entrance ticket required (overnight guests free)',
+      fi: 'Vaatii Snowhotel-sisäänpääsylipun (hotelliyöpyjille vapaa)',
+      de: 'Snowhotel-Eintrittskarte erforderlich (Übernachtungsgäste frei)',
     },
     season: {
-      en: 'Daily 10–20 (Dec 15 – Mar 31)',
-      fi: 'Päivittäin 10–20 (15.12.–31.3.)',
-      de: 'Täglich 10–20 (15. Dez. – 31. März)',
+      en: 'Daily 11–22 (Dec 15 – Mar 31)',
+      fi: 'Päivittäin 11–22 (15.12.–31.3.)',
+      de: 'Täglich 11–22 (15. Dez. – 31. März)',
     },
     website: 'https://arcticsnowhotel.fi',
-    stayQuery: 'Arctic SnowHotel, Rovaniemi, Finland',
+    // Hotels.com listing name, verified EXACT_MATCH (hotelId 12689601,
+    // Lehtoahontie 27) via Expedia typeahead 2026-07-10. The old
+    // "Arctic SnowHotel, Rovaniemi, Finland" string geocoded to nothing
+    // → the search page showed zero properties.
+    stayQuery: 'Arctic SnowHotel & Glass Igloos',
     staySid: 'icebar_arctic_snowhotel',
     stayHint: 'Snow rooms, glass igloos, log cabins',
     // GYG product (verified 2026-05-02): Arctic SnowHotel Visit with Ice Bar
@@ -628,15 +645,18 @@ export const iceBars: IceBar[] = [
       fi: 'Ulkona / katettu',
       de: 'Draußen / überdacht',
     },
+    // Verified from snowmanworld.fi 2026-07-10: entry €35/person (under-2s
+    // free), season Dec 6, 2026 – Mar 17, 2027; ice bar drinks purchased
+    // separately at the bar.
     price: {
-      en: 'Part of Snowman World entry',
-      fi: 'Sisältyy Snowman Worldin lippuun',
-      de: 'Im Snowman-World-Ticket enthalten',
+      en: 'Snowman World entry €35 — Ice Bar drinks separately',
+      fi: 'Snowman World -lippu 35 € — jääbaarin juomat erikseen',
+      de: 'Snowman-World-Ticket 35 € — Getränke an der Eisbar separat',
     },
     season: {
-      en: 'Late Nov – early Apr',
-      fi: 'Marraskuun loppu – huhtikuun alku',
-      de: 'Ende Nov. – Anfang Apr.',
+      en: 'Dec 6, 2026 – Mar 17, 2027',
+      fi: '6.12.2026–17.3.2027',
+      de: '6. Dez. 2026 – 17. März 2027',
     },
     website: 'https://snowmanworld.fi',
     stayQuery: 'Santa Claus Village, Rovaniemi, Finland',

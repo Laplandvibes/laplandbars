@@ -183,6 +183,11 @@ export default function IceBars() {
             })}
           </div>
 
+          {/* Data provenance — hours/prices checked against the venues' own sites */}
+          <p className="mt-6 text-center text-[11px] text-white/45">
+            {t('iceBars.verifiedNote')}
+          </p>
+
           {/* Lodging-first band — snow suites are a Lapland icon */}
           <div className="mt-12 bg-gradient-to-br from-ice/[0.06] via-night/0 to-amber/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
@@ -202,7 +207,7 @@ export default function IceBars() {
                 <AffiliateCTA
                   partner="hotels"
                   sid="icebar_band_arctic_snowhotel"
-                  destination="Arctic SnowHotel, Rovaniemi, Finland"
+                  destination="Arctic SnowHotel & Glass Igloos"
                   className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-3 rounded-full font-semibold text-sm transition-all shadow-lg shadow-amber/20 no-underline"
                 >
                   <Hotel size={16} />
@@ -211,7 +216,7 @@ export default function IceBars() {
                 <AffiliateCTA
                   partner="hotels"
                   sid="icebar_band_lainio"
-                  destination="Lainio Snow Village, Ylläs, Finland"
+                  destination="Kittilä, Finland"
                   className="inline-flex items-center justify-center gap-2 bg-white/8 hover:bg-white/15 text-white px-5 py-3 rounded-full font-semibold text-sm transition-all border border-white/15 no-underline"
                 >
                   <Hotel size={16} />

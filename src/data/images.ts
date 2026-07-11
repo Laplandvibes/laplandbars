@@ -66,4 +66,19 @@ export const BARS = {
   cabinPubExterior: '/images/drive/cabinPubExterior.webp',         // 1E-U-4cagool47fGfyIRrMeExtU5tLuFd — Snow-covered cabin pub exterior
   skiersApres: '/images/drive/skiersApres.webp',                   // 1u_WIrDyFwjegcjGg3ZZENaI6X60ol8OE — Skiers at log cabin après-ski bar
   friendsFireplace2: '/images/drive/friendsFireplace2.webp',       // 1G-D0GeCrofDx_xxfNpgNWGiQipwfa1ZF — Friends toasting by fireplace alt
+
+  // 2026-07-10 batch — Picsart gemini-3-pro-image 4K (drinking-culture + après-ski life)
+  pubLaughter: '/images/drive/pubLaughter.webp',                   // Friends bursting into laughter in log pub
+  terraceLonkero: '/images/drive/terraceLonkero.webp',             // Midnight-sun terrace, lonkero toast
+  kalsarikannitSofa: '/images/drive/kalsarikannitSofa.webp',       // Kalsarikännit on the sofa, snow outside
+  saunaBeer: '/images/drive/saunaBeer.webp',                       // Sauna porch beer at dusk
+  apresDanceDeck: '/images/drive/apresDanceDeck.webp',             // Après deck party, torches, dancing skiers
+  apresToast: '/images/drive/apresToast.webp',                     // Ski-glove beer toast against low sun
+  // Premium sparkling grapefruit long drink, glass only — drinking-culture Hartwall
+  // card lead. New filename (not the cached lonkeroServe.webp) to bust CDN/browser cache.
+  lonkeroDrink: '/images/drive/lonkeroDrink.webp',
+  // Real Hartwall Original Long Drink can — Wikimedia Commons, © ComradeUranium,
+  // CC BY-SA 4.0 (resized). Attribution rendered on the drinking-culture page.
+  // https://commons.wikimedia.org/wiki/File:Hartwall_Original_Long_Drink.png
+  lonkeroCan: '/images/drive/lonkeroCan.webp',
 };

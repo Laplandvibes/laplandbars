@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Che cos'è un ice bar in Lapponia?",
-          "a": "Un ice bar è un locale costruito con neve e blocchi di ghiaccio di lago, con bancone, pareti e perfino i bicchieri intagliati nel ghiaccio. All'interno ci sono circa −5 °C, perciò locali come l'Ice Bar dell'Arctic SnowHotel, vicino a Rovaniemi, all'ingresso Le prestano una mantella o una tuta termica. Ciascuno viene ricostruito ogni inverno con un nuovo allestimento e si scioglie in primavera, quindi esiste soltanto da dicembre ad aprile circa."
+          "a": "Un ice bar è un locale costruito con neve e blocchi di ghiaccio di lago, con bancone, pareti e perfino i bicchieri intagliati nel ghiaccio. All'interno ci sono circa −5 °C, perciò locali come l'Ice Bar dell'Arctic SnowHotel, vicino a Rovaniemi, all'ingresso Le prestano una mantella o una tuta termica. Ciascuno viene ricostruito ogni inverno con un nuovo allestimento e si scioglie in primavera, quindi esiste soltanto da dicembre ad aprile circa."
         },
         {
           "q": "Dove sono i migliori bar di après-ski a Levi e Ylläs?",
@@ -193,8 +193,9 @@
         ],
         "tour": {
           "label": "Visita all'ice bar + tuta termica",
-          "schedule": "Tutti i giorni 10:00–20:00 (15 dic – 31 mar)",
-          "hint": "Include un drink in un bicchiere di ghiaccio + tuta termica."
+          "schedule": "Tutti i giorni 11:00–22:00 (15 dic – 31 mar)",
+          "hint": "Visita guidata allo Snowhotel, ingresso all'Ice Bar incluso.",
+          "priceFrom": "Prezzo aggiornato su GetYourGuide"
         }
       },
       "Hullu Poro Areena": {
@@ -312,7 +313,7 @@
     "band": {
       "kicker": "Dorma nella neve",
       "title": "Non si limiti a visitarlo. Dorma in una stanza di neve.",
-      "body": "Le snow suite all'Arctic SnowHotel, al Lainio Snow Village e a Kakslauttanen vengono ricostruite ogni dicembre. -5 °C all'interno, sacco a pelo a tenuta termica, colazione nel caldo ristorante. Una notte basta, la ricorderà per anni.",
+      "body": "Le snow suite all'Arctic SnowHotel, al Lainio Snow Village e a Kakslauttanen vengono ricostruite ogni dicembre. -5 °C all'interno, sacco a pelo a tenuta termica, colazione nel caldo ristorante. Una notte basta, la ricorderà per anni.",
       "ctaArctic": "Camere all'Arctic SnowHotel",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -353,7 +354,8 @@
         "highlight": "Posizione al Villaggio di Babbo Natale",
         "stayHint": "Santa Holiday Village + Nova Skyland nelle vicinanze"
       }
-    }
+    },
+    "verifiedNote": "Dati verificati sui siti delle strutture il 10/07/2026 — prezzi e orari possono variare stagionalmente."
   },
   "apresSki": {
     "title": "Après-ski in Lapponia | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -626,10 +628,19 @@
     "lonkero": {
       "title": "Lonkero, nato per le Olimpiadi",
       "body": [
-        "Nel 1952 Helsinki ospitò le Olimpiadi estive. C'era un problema: la città non aveva abbastanza bar per servire la folla internazionale e le rigide regole finlandesi sulle licenze rendevano quasi impossibile aprirne di nuovi. Il monopolio statale dell'alcol, Alko, trovò la soluzione: un cocktail in lattina pronto da bere, vendibile legalmente nei luoghi olimpici.",
-        "La bevanda che inventarono era il lonkero, gin finlandese mescolato con soda al pompelmo. Leggero, dissetante, lievemente amaro. 5,5% vol. Venduto in lattine alte con un'etichetta distintiva. Fu un successo tale che continuarono a produrlo anche dopo le Olimpiadi. Da allora la Finlandia beve lonkero.",
-        "Oggi il lonkero è una vera istituzione culturale, esiste una \"festa del lonkero\" nella cultura finlandese (l'ultimo venerdì di luglio) e la categoria long drink ha ispirato l'intero comparto moderno degli RTD a livello globale. La Hartford Distilling negli Stati Uniti ha persino lanciato una versione americana chiamata \"The Long Drink\" dopo aver conosciuto l'originale finlandese. È probabilmente l'esportazione accidentale di maggior successo nella storia delle bevande finlandesi."
-      ]
+        "Nel 1952 Helsinki ospitò le Olimpiadi estive e i visitatori arrivarono da tutto il mondo — molti più di quanti i pochi bar della città potessero servire. Alko, il monopolio statale degli alcolici, si rivolse alla Hartwall: serviva una bevanda già miscelata, vendibile legalmente nei siti olimpici.",
+        "La risposta di Hartwall fu l'Original Long Drink — gin finlandese e soda al pompelmo, 5,5% vol. Leggero, fresco, appena amaro. Doveva essere prodotto solo per i Giochi, ma il pubblico decise diversamente: la domanda lo tenne in produzione anche dopo le Olimpiadi. Era nato il lonkero.",
+        "Oggi il lonkero è un'istituzione culturale e un'intera categoria di bevande, guidata ancora dalla lattina grigio-azzurra dell'Original. La categoria è arrivata fino agli Stati Uniti, dove imprenditori finlandesi hanno trasformato il long drink in un marchio a sé — forse l'esportazione accidentale più riuscita nella storia delle bevande finlandesi."
+      ],
+      "brand": {
+        "kicker": "L'originale dal 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Creato per le Olimpiadi di Helsinki 1952 su incarico del monopolio statale Alko",
+          "Gin finlandese e pompelmo — la stessa ricetta ancora oggi, 5,5% vol.",
+          "La lattina grigio-azzurra è un punto fermo di bar, terrazze e serate in sauna finlandesi"
+        ]
+      }
     },
     "kalsarikannit": {
       "title": "Kalsarikännit, l'arte di bere in mutande",
@@ -653,7 +664,7 @@
       "title": "Sauna & sisu, il quadro completo",
       "body": [
         "La cultura finlandese del bere non si può separare dalla sauna. Il sabato finlandese standard segue un ordine preciso: lavoro, sauna, birra. La birra si beve in sauna o subito dopo, quando la temperatura corporea è ancora alta e la birra fredda crea un effetto quasi fisiologico. Questa combinazione è così radicata nella cultura che la maggior parte delle case estive finlandesi ha un rituale sauna-birra dedicato, che inizia intorno alle 16 e prosegue finché qualcuno si addormenta in barca.",
-        "In Lapponia la sauna è ancora più centrale. Dopo una giornata a -30 °C la sauna non è un lusso, è reidratazione, recupero e socialità in un colpo solo. Molti hotel e baite della Lapponia hanno saune private. La combinazione di sauna, tuffo nel lago o nella neve e birra fredda è, secondo i finlandesi, migliore di qualsiasi trattamento termale al mondo. Probabilmente hanno ragione.",
+        "In Lapponia la sauna è ancora più centrale. Dopo una giornata a -30 °C la sauna non è un lusso, è reidratazione, recupero e socialità in un colpo solo. Molti hotel e baite della Lapponia hanno saune private. La combinazione di sauna, tuffo nel lago o nella neve e birra fredda è, secondo i finlandesi, migliore di qualsiasi trattamento termale al mondo. Probabilmente hanno ragione.",
         "Il sisu, il concetto tipicamente finlandese di determinazione stoica e resilienza di fronte alle avversità, vale anche per il bere. Un finlandese che ha bevuto per sette ore e lunedì mattina è comunque al lavoro non viene considerato irresponsabile. Si dice che abbia sisu."
       ]
     },
