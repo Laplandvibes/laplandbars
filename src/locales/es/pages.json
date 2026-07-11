@@ -291,6 +291,9 @@
           "Complejo hotelero"
         ]
       }
+    },
+    "cityNav": {
+      "label": "Elige tu destino"
     }
   },
   "iceBars": {

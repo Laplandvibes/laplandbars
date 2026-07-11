@@ -291,6 +291,9 @@
           "Complesso alberghiero"
         ]
       }
+    },
+    "cityNav": {
+      "label": "Scegli la località"
     }
   },
   "iceBars": {

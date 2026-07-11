@@ -291,6 +291,9 @@
           "Hotelkomplex"
         ]
       }
+    },
+    "cityNav": {
+      "label": "Ort wählen"
     }
   },
   "iceBars": {

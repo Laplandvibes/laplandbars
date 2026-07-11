@@ -47,6 +47,8 @@ const cityVibeKey: Record<string, string> = {
   Saariselkä: 'Saariselka',
 };
 
+const cityAnchor = (city: string) => city.toLowerCase().replace(/[^a-z]/g, '');
+
 export default function Bars() {
   const { t } = useTranslation('pages');
   const { locale } = useLocale();
@@ -68,8 +70,8 @@ export default function Bars() {
       {/* Hero */}
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
-          src={BARS.pubExterior}
-          alt="Lapland bar exterior at night"
+          src={BARS.heroBarsNight}
+          alt="Friends walking through snow toward a warmly lit log pub under a starry Lapland night sky"
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -87,6 +89,30 @@ export default function Bars() {
       </section>
       <PageBreadcrumb />
 
+      {/* City quick pick — jump straight to your town */}
+      <nav aria-label={t('bars.cityNav.label')} className="bg-night border-b border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+          <p className="text-center text-white/60 text-xs font-semibold tracking-widest uppercase mb-3">
+            {t('bars.cityNav.label')}
+          </p>
+          <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
+            {cities.map((city) => (
+              <a
+                key={city}
+                href={`#${cityAnchor(city)}`}
+                className="inline-flex items-center gap-2 bg-white/[0.04] border border-white/10 hover:border-amber/40 hover:bg-amber/10 text-white px-4 py-2.5 rounded-full text-sm font-semibold transition-colors no-underline"
+              >
+                <MapPin size={13} className="text-amber" />
+                {city}
+                <span className="text-[11px] text-amber/80 bg-amber/10 rounded-full px-1.5 py-0.5 leading-none">
+                  {bars.filter((b) => b.city === city).length}
+                </span>
+              </a>
+            ))}
+          </div>
+        </div>
+      </nav>
+
       {/* Bars by city */}
       <section className="py-16 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
@@ -95,7 +121,7 @@ export default function Bars() {
             const vibeImage = cityImages[city] ?? BARS.heroMain;
             const vibeDesc = t(`bars.cityVibes.${cityVibeKey[city]}`);
             return (
-              <div key={city} id={city.toLowerCase().replace(/[^a-z]/g, '')}>
+              <div key={city} id={cityAnchor(city)} className="scroll-mt-24">
                 {/* City header */}
                 <div className="relative rounded-2xl overflow-hidden h-48 mb-8">
                   <img

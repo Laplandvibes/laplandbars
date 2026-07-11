@@ -291,6 +291,9 @@
           "Hotellikompleksi"
         ]
       }
+    },
+    "cityNav": {
+      "label": "Valitse paikkakunta"
     }
   },
   "iceBars": {

@@ -81,4 +81,9 @@ export const BARS = {
   // CC BY-SA 4.0 (resized). Attribution rendered on the drinking-culture page.
   // https://commons.wikimedia.org/wiki/File:Hartwall_Original_Long_Drink.png
   lonkeroCan: '/images/drive/lonkeroCan.webp',
+
+  // 2026-07-11 — /bars hero. Replaces pubExterior (1100px soft upscale + a
+  // fabricated "Arctic Lodge Pub" sign). Picsart gemini-3-pro-image 4K,
+  // downscaled to 2400px. No signage/text anywhere in frame by design.
+  heroBarsNight: '/images/drive/heroBarsNight.webp',
 };

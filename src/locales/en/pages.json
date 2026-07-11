@@ -291,6 +291,9 @@
           "Hotel complex"
         ]
       }
+    },
+    "cityNav": {
+      "label": "Pick your town"
     }
   },
   "iceBars": {
