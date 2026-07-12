@@ -147,10 +147,30 @@ export default function CraftBeer() {
   // If no iframe has mounted shortly after render, the GYG embed is blocked —
   // swap the empty box for a designed panel (the GygSearchCta below is the CTA).
   useEffect(() => {
-    const timer = setTimeout(() => {
-      setGygBlocked(!(gygRef.current?.querySelector('iframe')));
-    }, 2500);
-    return () => clearTimeout(timer);
+    // Poll until the iframe mounts (slow loads mount well after 2.5 s) — a
+    // one-shot check left the fallback stuck on (Vesa 2026-07-12).
+    setGygBlocked(false);
+    let cancelled = false;
+    let waited = 0;
+    const FIRST_CHECK = 2500;
+    const STEP = 1000;
+    const MAX_WAIT = 12000;
+    const tick = (delay: number): ReturnType<typeof setTimeout> =>
+      setTimeout(() => {
+        if (cancelled) return;
+        waited += delay;
+        if (gygRef.current?.querySelector('iframe')) {
+          setGygBlocked(false);
+          return;
+        }
+        setGygBlocked(true);
+        if (waited < MAX_WAIT) tick(STEP);
+      }, delay);
+    const timer = tick(FIRST_CHECK);
+    return () => {
+      cancelled = true;
+      clearTimeout(timer);
+    };
   }, [lang]);
   return (
     <>
@@ -297,7 +317,7 @@ export default function CraftBeer() {
             data-gyg-q="food tasting Lappish dinner Rovaniemi"
             data-gyg-locale-code={GYG_LOCALE[lang] ?? 'en-US'}
             data-gyg-currency="EUR"
-            className={gygBlocked ? 'hidden' : 'min-h-[200px]'}
+            className={gygBlocked ? 'h-0 overflow-hidden' : 'min-h-[200px]'}
           />
 
           {gygBlocked && (
