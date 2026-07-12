@@ -17,6 +17,7 @@ const About = lazy(() => import('./pages/About'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
 const CookiePolicy = lazy(() => import('./pages/CookiePolicy'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 import { useLocale } from './i18n/useLocale';
 import LocaleAutoRedirect from './i18n/LocaleAutoRedirect';
 
@@ -136,6 +137,9 @@ for (const p of PAGES) {
     ROUTES.push({ path: full, element: p.element });
   }
 }
+// Catch-all — unknown URLs get the shared network 404 instead of a blank
+// page. Not looped through PREFIXES: "*" already matches every locale.
+ROUTES.push({ path: '*', element: <NotFound /> });
 
 function AppLayout() {
   const { i18n } = useTranslation('common');
