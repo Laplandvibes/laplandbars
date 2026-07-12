@@ -100,11 +100,11 @@ export default function Bars() {
               <a
                 key={city}
                 href={`#${cityAnchor(city)}`}
-                className="inline-flex items-center gap-2 bg-white/[0.04] border border-white/10 hover:border-amber/40 hover:bg-amber/10 text-white px-4 py-2.5 rounded-full text-sm font-semibold transition-colors no-underline"
+                className="inline-flex items-center gap-2 whitespace-nowrap bg-white/[0.04] border border-white/10 hover:border-amber/40 hover:bg-amber/10 text-white px-4 py-2.5 rounded-full text-sm font-semibold transition-colors no-underline"
               >
-                <MapPin size={13} className="text-amber" />
+                <MapPin size={13} className="text-amber shrink-0" />
                 {city}
-                <span className="text-[11px] text-amber/80 bg-amber/10 rounded-full px-1.5 py-0.5 leading-none">
+                <span className="shrink-0 text-[11px] text-amber/80 bg-amber/10 rounded-full px-1.5 py-0.5 leading-none">
                   {bars.filter((b) => b.city === city).length}
                 </span>
               </a>

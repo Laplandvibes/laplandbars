@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "Lasibaari",
     "bookKicker": "Varaa vierailu",
-    "bookCta": "Tarkista saatavuus ja varaa",
+    "bookCta": "Tarkista ja varaa",
     "stayKicker": "Yövy paikan päällä",
     "stayCta": "Varaa huone läheltä",
     "venueWebsite": "Kohteen verkkosivu",
@@ -764,7 +764,7 @@
       "kicker": "Tee itse",
       "title": "Drinkki- ja maisteluelämykset",
       "body": "Osa Lapin parhaista arktisen drinkin ja viinan maistelutuokioista on varattavissa oppaan kanssa. Opi tekemään lakkasour itse lähteellä, ja tilaa se sitten kuin konkari.",
-      "cta": "Katso drinkki- ja maisteluelämykset"
+      "cta": "Katso drinkkielämykset"
     }
   }
 }

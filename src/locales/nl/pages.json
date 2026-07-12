@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "IJsbar",
     "bookKicker": "Boek het bezoek",
-    "bookCta": "Bekijk beschikbaarheid en boek",
+    "bookCta": "Bekijk en boek",
     "stayKicker": "Verblijf ter plaatse",
     "stayCta": "Boek een kamer in de buurt",
     "venueWebsite": "Website van de zaak",
@@ -764,7 +764,7 @@
       "kicker": "Maak ze zelf",
       "title": "Cocktail- en proeverij-ervaringen",
       "body": "Een paar van de leukste sessies met Arctische cocktails en sterke-drankproeverijen in Lapland boek je met een gids. Leer de cloudberry sour bij de bron en bestel 'm daarna met overtuiging.",
-      "cta": "Bekijk cocktail- en proeverij-ervaringen"
+      "cta": "Bekijk cocktailervaringen"
     }
   }
 }

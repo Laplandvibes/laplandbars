@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "Ice Bar",
     "bookKicker": "Book the visit",
-    "bookCta": "Check availability & book",
+    "bookCta": "Check dates & book",
     "stayKicker": "Stay on-site",
     "stayCta": "Book a room nearby",
     "venueWebsite": "Venue website",
@@ -764,7 +764,7 @@
       "kicker": "Make them yourself",
       "title": "Cocktail & tasting experiences",
       "body": "Some of the best Arctic-cocktail and spirit-tasting sessions in Lapland are bookable with a guide. Learn the cloudberry sour at the source, then order it like you mean it.",
-      "cta": "See cocktail & tasting experiences"
+      "cta": "See cocktail experiences"
     }
   }
 }

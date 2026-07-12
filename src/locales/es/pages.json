@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "bar de hielo",
     "bookKicker": "Reserva la visita",
-    "bookCta": "Comprueba disponibilidad y reserva",
+    "bookCta": "Consulta y reserva",
     "stayKicker": "Alójate en el lugar",
     "stayCta": "Reserva una habitación cerca",
     "venueWebsite": "Sitio web del lugar",
@@ -764,7 +764,7 @@
       "kicker": "Hazlos tú",
       "title": "Experiencias de cócteles y catas",
       "body": "Algunas de las mejores sesiones de cócteles árticos y catas de destilados de Laponia se pueden reservar con guía. Aprende a preparar el cloudberry sour en su origen y luego pídelo como quien sabe.",
-      "cta": "Ver experiencias de cócteles y catas"
+      "cta": "Ver experiencias de cóctel"
     }
   }
 }

@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "bar de gelo",
     "bookKicker": "Reserve a visita",
-    "bookCta": "Verifique disponibilidade e reserve",
+    "bookCta": "Consulte e reserve",
     "stayKicker": "Hospede-se no local",
     "stayCta": "Reserve um quarto próximo",
     "venueWebsite": "Site do local",
@@ -764,7 +764,7 @@
       "kicker": "Faça você mesmo",
       "title": "Experiências de coquetéis e degustação",
       "body": "Algumas das melhores sessões de coquetéis árticos e degustação de destilados da Lapônia podem ser reservadas com guia. Aprenda a fazer o cloudberry sour na fonte e depois peça com propriedade.",
-      "cta": "Ver experiências de coquetéis e degustação"
+      "cta": "Ver experiências de drinks"
     }
   }
 }

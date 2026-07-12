@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "Bar de glace",
     "bookKicker": "Réserver la visite",
-    "bookCta": "Voir disponibilités et réserver",
+    "bookCta": "Vérifier et réserver",
     "stayKicker": "Dormir sur place",
     "stayCta": "Réserver une chambre à proximité",
     "venueWebsite": "Site de l'adresse",
@@ -764,7 +764,7 @@
       "kicker": "Faites-les vous-même",
       "title": "Expériences cocktails et dégustations",
       "body": "Certaines des meilleures sessions de cocktails arctiques et de dégustation de spiritueux en Laponie se réservent avec un guide. Apprenez le cloudberry sour à la source, puis commandez-le en connaisseur.",
-      "cta": "Voir les expériences cocktails et dégustations"
+      "cta": "Voir les expériences"
     }
   }
 }

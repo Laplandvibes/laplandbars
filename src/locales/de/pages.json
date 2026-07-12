@@ -309,7 +309,7 @@
     ],
     "iceBarKicker": "Eisbar",
     "bookKicker": "Besuch buchen",
-    "bookCta": "Verfügbarkeit prüfen und buchen",
+    "bookCta": "Prüfen & buchen",
     "stayKicker": "Vor Ort übernachten",
     "stayCta": "Zimmer in der Nähe buchen",
     "venueWebsite": "Website der Location",
@@ -764,7 +764,7 @@
       "kicker": "Selbst mixen",
       "title": "Cocktail- und Verkostungserlebnisse",
       "body": "Einige der besten Sessions für arktische Cocktails und Spirituosen-Verkostungen in Lappland sind mit Guide buchbar. Lernen Sie den Cloudberry Sour direkt an der Quelle und bestellen Sie ihn danach mit Überzeugung.",
-      "cta": "Cocktail- und Verkostungserlebnisse ansehen"
+      "cta": "Cocktail-Erlebnisse ansehen"
     }
   }
 }
