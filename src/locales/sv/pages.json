@@ -1,0 +1,770 @@
+{
+  "home": {
+    "title": "Barer i Lappland 2026: cocktails, isbarer, lokala tips",
+    "description": "Där Lappland faktiskt dricker 2026. Lokalt utvalda barer, hantverkscocktails, isbarer och afterski med riktiga priser. Levi, Rovaniemi, Ylläs.",
+    "eyebrow": "Finska Lappland",
+    "hero": {
+      "headlineLine1": "Höj ett glas",
+      "headlineLine2": "för Arktis",
+      "sub": "Isbarer huggna ur snö. Legendariska afterski-arenor. Mysiga pubar med norrsken genom fönstret. De bästa barerna i finska Lappland, alla på riktigt och alla handplockade.",
+      "subSummer": "Terrasser vid sjön och takbarer under midnattssolen. Uteserveringar som är ljusa långt efter midnatt, livemusik och sommarfestivaler. De bästa barerna i finska Lappland, alla på riktigt och alla handplockade.",
+      "ctaStay": "Hitta boende i närheten",
+      "ctaBrowse": "Bläddra bland barer"
+    },
+    "featured": {
+      "title": "Utvalda ställen",
+      "sub": "Handplockade barer och upplevelser som definierar Lapplands nattliv.",
+      "viewAll": "Visa alla barer"
+    },
+    "categories": {
+      "title": "Tre sätt att dricka i Lappland",
+      "cards": [
+        {
+          "title": "Isbarer",
+          "desc": "Drick ur glas av is inne i barer huggna ur snö och is. En unik arktisk upplevelse som byggs upp på nytt varje vinter."
+        },
+        {
+          "title": "Afterski",
+          "desc": "Från Hullu Poro Areenas scen för 1 700 personer till mysiga fjällpubar. Lapplands afterski är legendarisk med all rätt."
+        },
+        {
+          "title": "Livemusik",
+          "desc": "Öppna jamsessioner, liveband, karaoke i timmerlador. De bästa musikkvällarna i Lappland händer efter att norrskenet kommit fram."
+        }
+      ]
+    },
+    "destinations": {
+      "title": "Bläddra efter destination",
+      "sub": "Välj din ort och se vad som är öppet i kväll.",
+      "statVenues": "Utvalda ställen",
+      "statDestinations": "Destinationer",
+      "statIceBars": "Isbarer"
+    },
+    "stayBand": {
+      "kicker": "Bo i närheten",
+      "title": "Sov på gångavstånd från baren",
+      "sub": "Välj var du vill dricka och boka ett rum runt hörnet. Aktuell tillgänglighet via Hotels.com.",
+      "cardCtaLabel": "Bo i {{city}}",
+      "browseCta": "Bläddra bland hotell",
+      "subs": {
+        "rovaniemi": "Barer + isbarer · nära flygplatsen",
+        "levi": "Hullu Poro afterski · vid backen",
+        "yllas": "Lainio Snow Village · skogspubar",
+        "saariselka": "Norrskenspubar · nära Inari/Kakslauttanen"
+      },
+      "disclaimer": "Bokningar på Hotels.com sker via go.laplandvibes.com; affiliateprovisionen stödjer sajten utan extra kostnad för dig."
+    },
+    "faq": {
+      "title": "Barer i Lappland, frågor och svar",
+      "sub": "Det besökare frågar inför en kväll ute i finska Lappland.",
+      "items": [
+        {
+          "q": "Vad är en isbar i Lappland?",
+          "a": "En isbar är en bar byggd av snö och block av sjöis, där disken, väggarna och till och med glasen är huggna ur is. Inne håller den runt −5 °C, så ställen som Ice Bar på Arctic SnowHotel nära Rovaniemi lånar ut en värmecape eller värmedräkt vid dörren. Varje bar byggs om med ny design varje vinter och smälter bort på våren, så den finns bara från ungefär december till april."
+        },
+        {
+          "q": "Var finns de bästa afterski-barerna i Levi och Ylläs?",
+          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och är Finlands största afterski-ställe, med finska liveartister och plats för 1 700 personer; Bar Ihku och Pub Hölmölä tar hand om de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar över när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
+        },
+        {
+          "q": "Får man dricka alkohol utomhus i Finland?",
+          "a": "I regel ja. Sedan alkohollagsreformen 2018 är det tillåtet för vuxna att dricka på allmänna platser som parker och stränder, så länge du inte stör andra eller orsakar ordningsstörning. Enskilda kommuner kan fortfarande begränsa det på vissa platser (till exempel torg eller lekplatser), och att vara berusad och stökig offentligt är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
+        },
+        {
+          "q": "Vilka är de typiska öppettiderna för barer i Lappland?",
+          "a": "De flesta pubar öppnar på eftermiddagen och serverar till runt midnatt på vardagar, med senare stängning (ofta klockan 02 eller 04) på fredagar och lördagar i skidorterna. Enligt serveringslagen får alkohol säljas till klockan 01.30, och det krävs ett förlängt tillstånd för att servera senare. Tiderna växlar med säsongen: barerna på orterna har långa kvällar under vintersäsongen och kortare tider under de lugna mellansäsongerna, så det lönar sig att kolla med stället direkt innan du ger dig ut."
+        },
+        {
+          "q": "Vilka lokala drycker bör jag prova i Lappland?",
+          "a": "Håll utkik efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar, ofta serverad kyld eller rörd i en cocktail. Lokal hantverksöl är också värd att leta upp: bryggerier som Lapland Brewery i Rovaniemi och Lapon Panimo i Saariselkä brygger med arktiskt vatten och råvaror från skogen som granskott och lingon. För något klassiskt har lagern Lapin Kulta bryggts i Tornio i över 150 år, och Koskenkorva är finländarnas vardagliga sädesbrännvin."
+        },
+        {
+          "q": "Var kan man köpa alkohol i Finland utanför barerna?",
+          "a": "Livsmedelsbutiker och närbutiker säljer öl, cider och andra drycker upp till 5,5 %, oftast till klockan 21. Allt starkare, alltså vin, sprit och starköl, säljs bara på Alko, den statliga kedjan, som har dagtidsöppet och stänger tidigt på lördagar och håller stängt hela söndagen. I mindre byar i Lappland kan närmaste Alko ligga en bit bort, så det lönar sig att fylla på innan du åker ut till en avsides stuga."
+        }
+      ]
+    },
+    "related": {
+      "eyebrow": "Vart härnäst",
+      "title": "Planera resten av din Lapplandsresa",
+      "sub": "LaplandBars är en del av LaplandVibes-nätverket. För allt runt dryckerna går de här systerguiderna djupare.",
+      "links": [
+        {
+          "anchor": "Lapplands nattliv och sena barer",
+          "desc": "Nattklubbar, norrskensbarer och vad som håller öppet efter att pubarna stängt.",
+          "href": "https://laplandnightlife.com"
+        },
+        {
+          "anchor": "Var du äter i Lappland",
+          "desc": "Ren, arktisk fine dining och restaurangerna som lokalborna bokar.",
+          "href": "https://laplanddining.com"
+        },
+        {
+          "anchor": "Planera din Lapplandsresa",
+          "desc": "Säsonger, destinationer och hur du får ihop hela resan.",
+          "href": "https://laplandvisit.com"
+        }
+      ]
+    }
+  },
+  "bars": {
+    "title": "Barer i finska Lappland | LaplandBars",
+    "description": "Barerna i Lappland där lokalborna faktiskt dricker: Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Öppettider, vad de serverar och när du kan kliva in.",
+    "hero": {
+      "title": "Barer och pubar",
+      "sub": "Varje bar här är på riktigt, öppen och värd din kväll. Inga sponsrade placeringar, inget fyllnadsprat, bara Lapplands verkliga dryckeskultur."
+    },
+    "featuredBadge": "Utvald",
+    "venueWebsite": "Ställets webbplats",
+    "checkBook": "Kolla tillgänglighet och boka",
+    "bookDirect": "Boka direkt",
+    "stayBand": {
+      "headline": "Bo på gångavstånd från de här barerna i {{city}}",
+      "sub": "Aktuell tillgänglighet via Hotels.com, boka direkt, utan extra avgifter.",
+      "cta": "Hotell i {{city}}"
+    },
+    "disclaimer": "Priser och öppettider ändras med säsongen. Bekräfta alltid direkt med stället innan du besöker det. Den här guiden hålls så korrekt som möjligt men är ingen bokningsplattform i realtid.",
+    "cityVibes": {
+      "Rovaniemi": "Arktis huvudstad efter mörkrets inbrott: hantverksbryggeriers pubar, cocktailbarer och en bar som faktiskt är gjord av is.",
+      "Levi": "Finlands afterski-huvudstad. Hullu Poro Areena rymmer 1 700 personer. Fjället stänger klockan 16 och festen börjar 16.01.",
+      "Yllas": "Lugnare än Levi, varmare än någon annanstans. Mysiga fjällpubar där lokalbor och besökare blandas utan tillgjordhet.",
+      "Saariselka": "Avsides, mörkt och förvånansvärt välsorterat. Gastropub Giitu har ett av de bästa hantverksölsutbuden norr om polcirkeln."
+    },
+    "venues": {
+      "Lapland Brewery Pub": {
+        "type": "Hantverksölspub",
+        "description": "Den nordligaste hantverksbryggeripuben i Rovaniemi, som serverar färsk öl bryggd på plats. Lapland Brewery använder rent arktiskt vatten och lokalt inspirerade recept: granskottsale, lingonveteöl, rökt porter. Sätt dig vid tankarna och drick det som bryggdes den veckan.",
+        "highlights": [
+          "Egenbryggd hantverksöl",
+          "Arktiska råvaror",
+          "Bryggerirundturer"
+        ],
+        "tour": {
+          "label": "Bryggerirundtur och provsmakning",
+          "schedule": "Fredag 17.00 + 18.30 (dec–mars varje vecka)",
+          "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
+          "directLabel": "Boka på lapinpanimo.fi"
+        }
+      },
+      "Café & Bar 21": {
+        "type": "Cocktailbar",
+        "description": "Rovakatu 21, mitt i hjärtat av Rovaniemi. Den bar som nämns mest konsekvent i staden: café på dagen, cocktailbar på kvällen. Kreativa drinkar, en genomtänkt vinlista, en stilfull publik. En favorit bland lokalbor och besökare som vill ha något utöver en vanlig pub.",
+        "highlights": [
+          "Kreativa cocktails",
+          "Vinutbud",
+          "Läge i centrum"
+        ]
+      },
+      "Uitto Pub": {
+        "type": "Traditionell pub",
+        "description": "En legendarisk institution i Rovaniemi. \"Bekväm, avslappnad och legendarisk\" – Uitto har serverat lokalborna öl, drinkar, tilltugg och mat av hög kvalitet i decennier. Ingen tillgjordhet, bara en bra finsk pub som gör det en bra finsk pub ska göra.",
+        "highlights": [
+          "Lokal institution",
+          "Full meny",
+          "Fatöl"
+        ]
+      },
+      "Nook Lounge": {
+        "type": "Bar och lounge",
+        "description": "En mysig blandning av café och bar där goda drinkar görs i lugn takt och samtalen blir långa. Bartendrarna vet vad de gör. Populär bland resenärer som varit på benen hela dagen och vill ha någonstans varmt, lugnt och väl upplyst.",
+        "highlights": [
+          "Loungestämning",
+          "Omsorgsfullt gjorda drinkar",
+          "Sena kvällar"
+        ]
+      },
+      "Bull Bar & Grill": {
+        "type": "Bar och grill",
+        "description": "Ligger i byggnaden till Arctic City Hotel, en grillbar i amerikansk stil med livlig kvällsstämning. Bra burgare, ordentliga drinkar, sport på skärmen. Den sortens ställe som fylls efter klockan 21 och håller ljudnivån uppe till sent.",
+        "highlights": [
+          "Grillmeny",
+          "Sportbar",
+          "Läge på hotell"
+        ]
+      },
+      "Ice Bar @ Arctic SnowHotel": {
+        "type": "Isbarsupplevelse",
+        "description": "Byggd från grunden varje vinter, huggen av konstnärer och uppbyggd med ett nytt tema varje säsong. Ligger på Arctic SnowHotel vid sjön Lehtojärvi, 30 minuter från Rovaniemi centrum. Drinkarna serveras i glas av is. Temperatur: −5 °C inne. Värmedräkter finns.",
+        "highlights": [
+          "Nytt tema varje år",
+          "Isglas",
+          "Värmedräkter ingår",
+          "−5 °C inne"
+        ],
+        "tour": {
+          "label": "Isbarsbesök + värmedräkt",
+          "schedule": "Dagligen 11.00–22.00 (15 dec – 31 mars)",
+          "hint": "Guidat besök på snöhotellet inkl. tillträde till isbaren.",
+          "priceFrom": "Aktuellt pris på GetYourGuide"
+        }
+      },
+      "Hullu Poro Areena": {
+        "type": "Livemusikscen och afterski",
+        "description": "Den obestridda kungen av Lapplands afterski. En arena med plats för 1 700 personer precis vid foten av Levis huvudbacke, Finlands största afterski-ställe. Finlands toppartister, popstjärnor, rapakter och internationella dj:er uppträder varje kväll under skidsäsongen. Dansgolvet fylls klockan 16 och töms inte förrän klockan 02.",
+        "highlights": [
+          "Plats för 1 700",
+          "Finlands toppartister",
+          "Läge vid backen",
+          "Uppträdanden varje kväll"
+        ]
+      },
+      "Bar Ihku": {
+        "type": "Nattklubb och bar",
+        "description": "Redan en legend bland festsugna i Levi. Ihku har samlat på sig historier under år av sena Lapplandsnätter. Karaoke, dans, finska lokalbor och internationella skidåkare på samma golv. Ett av de ställen som ser vanligt ut fram till klockan 23, sedan förstår du varför alla pratar om det.",
+        "highlights": [
+          "Institution för sena nätter",
+          "Karaokekvällar",
+          "Lokal favorit"
+        ]
+      },
+      "Pub Hölmölä": {
+        "type": "Pub",
+        "description": "\"Levis roligaste pub.\" Hölmölä bjuder på de bästa bryggeriprodukterna och cocktails, följt av enkel barmat. Sällskapsspel, bordsfotboll och biljard finns utan kostnad. Den sortens pub som inte tar sig själv på för stort allvar, vilket är precis det som gör den bra.",
+        "highlights": [
+          "Sällskapsspel och biljard",
+          "Hantverksöl",
+          "Barmat",
+          "Ingen attityd"
+        ]
+      },
+      "Pub Sohva": {
+        "type": "Ölrestaurang",
+        "description": "En varm och hjälpsam ölrestaurang längs Levis huvudgata. Sohva är den sortens ställe du kliver in på med tanken på en drink och lämnar tre timmar senare. Bra ölutbud, hyfsad mat, trevlig service. Dagens gäster flyter direkt in i kvällens.",
+        "highlights": [
+          "Läge vid huvudgatan",
+          "Ölutbud",
+          "Matmeny"
+        ]
+      },
+      "Bar Alakerta": {
+        "type": "Livemusikbar",
+        "description": "Solig terrass, livemusik och de legendariska Open Stage Jams på söndagar. Alakerta drar till sig musiker och musikälskare, både lokalbor och gästande artister som hört talas om söndagssessionerna. Anspråkslös, varm, med den sortens stämning som uppstår när folk verkligen älskar det de gör.",
+        "highlights": [
+          "Open Stage Jams på söndagar",
+          "Livemusik",
+          "Solig terrass"
+        ]
+      },
+      "Pub Old Mates": {
+        "type": "Brittisk pub",
+        "description": "En riktig pub i brittisk stil mitt i finska Lappland. Old Mates sköter sina pints ordentligt, visar fotboll och erbjuder ett hörn av bekant trygghet för den som behöver det efter en lång dag i backen. Bättre än de flesta pubar i Storbritannien, eftersom finsk öl faktiskt är god.",
+        "highlights": [
+          "Brittisk pubstil",
+          "Sport på skärmen",
+          "Pints som ska"
+        ]
+      },
+      "Selvä Pyy": {
+        "type": "Pub och restaurang",
+        "description": "Given pub i byn Äkäslompolo på Ylläs-sidan. Selvä Pyy serverar hantverksöl, cocktails och riktig finsk pubmat i en varm timmerstugemiljö. Efter en dag på fjället är det hit lokalbor och skidåkare samlas, ingen tillgjordhet, bara goda drinkar och avslappnat sällskap.",
+        "highlights": [
+          "Byn Äkäslompolo",
+          "Hantverksöl",
+          "Finsk pubmat",
+          "Timmerstugekänsla"
+        ]
+      },
+      "Pirtukellari Night Club": {
+        "type": "Nattklubb",
+        "description": "Den enda riktiga nattklubben i Ylläsområdet, inne på Lapland Hotels Äkäshotelli. När pubarna stänger flyttar festen ner under jord till Pirtukellari. Dj:er, dans och ett förvånansvärt packat golv för en by med 400 invånare. Fredagar i högsäsong är rejält vilda.",
+        "highlights": [
+          "Ylläs enda nattklubb",
+          "Dj:er och dans",
+          "Inne på Lapland Hotels"
+        ]
+      },
+      "Gastropub Giitu": {
+        "type": "Gastropub och hantverksöl",
+        "description": "Den bästa baren i Saariselkä, en riktig gastropub med ett imponerande hantverksölsutbud och en meny som går långt bortom vanlig pubmat. Giitu serverar lapplandsinspirerade rätter tillsammans med en roterande taplista. Stämningen är varm, modern och precis vad du vill ha efter en norrskensjakt.",
+        "highlights": [
+          "Hantverksölsutbud",
+          "Lapplandskt kök",
+          "Modern gastropub"
+        ]
+      },
+      "Pirtti Pub & Restaurant": {
+        "type": "Pub och restaurang",
+        "description": "En traditionell finsk pubrestaurang i Saariselkä som serverar pålitlig finsk mat och ett bra dryckesutbud. Ligger i komplexet Santa's Hotel Tunturi. Den sortens ställe hela sällskapet kan enas om, oavsett om du vill ha en burgare, en öl eller bara någonstans varmt att sitta efter en lång arktisk dag.",
+        "highlights": [
+          "Full restaurangmeny",
+          "Traditionell finsk mat",
+          "Hotellkomplex"
+        ]
+      }
+    },
+    "cityNav": {
+      "label": "Välj din ort"
+    }
+  },
+  "iceBars": {
+    "title": "Isbarer i Lappland | snöhotellsbarer | LaplandBars",
+    "description": "Lapplands isbarer: SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Vad de serverar, när de byggs om och vad du bör ha på dig inne.",
+    "hero": {
+      "title": "Isbarer",
+      "sub": "Byggda av snö och is varje vinter. Bortsmälta varje vår. Borta till nästa december. Det här är ingen temabar. Det är ett arktiskt säsongsfenomen."
+    },
+    "intro": [
+      "Varje höst kommer arbetslag av iskonstnärer och byggarbetare till snöbyarna i finska Lappland. De sågar isblock ur frusna sjöar, packar ton av snö i formar och formar barer, stolar, valv och figurer för hand. Till december är resultatet klart: fullt fungerande barer som håller −5 °C, där varje yta, väggarna, bardisken, glasen, är gjord av is.",
+      "Varje år har ett nytt tema. Skulpturerna är aldrig desamma. Det du upplever en vinter finns inte kvar nästa. Förgängligheten är hela poängen. En isbar är per definition tillfällig, och det är just det som gör den värd att uppleva innan den är borta."
+    ],
+    "iceBarKicker": "Isbar",
+    "bookKicker": "Boka besöket",
+    "bookCta": "Kolla datum och boka",
+    "stayKicker": "Bo på plats",
+    "stayCta": "Boka ett rum i närheten",
+    "venueWebsite": "Ställets webbplats",
+    "band": {
+      "kicker": "Sov i snön",
+      "title": "Besök inte bara. Sov i ett snörum.",
+      "body": "Snösviterna på Arctic SnowHotel, Lainio Snow Village och Kakslauttanen byggs om varje december. −5 °C inne, sovsäck för minusgrader, frukost i den varma restaurangen. En natt räcker, du kommer minnas den i åratal.",
+      "ctaArctic": "Rum på Arctic SnowHotel",
+      "ctaLainio": "Lainio Snow Village"
+    },
+    "expect": {
+      "title": "Vad du kan vänta dig",
+      "items": [
+        {
+          "title": "Temperatur",
+          "body": "Runt −5 °C inne. Alla isbarer tillhandahåller värmecape, värmedräkt eller jacka som ingår i entrépriset. Klä dig i lager under."
+        },
+        {
+          "title": "Längd",
+          "body": "De flesta besökare stannar 20–45 minuter inne. Nog för 1–2 drinkar och foton. Fingrarna säger till när det är dags att gå."
+        },
+        {
+          "title": "Drinkar",
+          "body": "Klassiska cocktails, varm glögg och arktiskt inspirerade specialiteter. Serveras i muggar eller glas av is, ja, du dricker ur is."
+        },
+        {
+          "title": "Säsong",
+          "body": "Öppet ungefär från december till april, beroende på temperaturen. Vissa år är längre. Isbarer finns inte på sommaren."
+        }
+      ]
+    },
+    "venues": {
+      "SnowVillage IceBar": {
+        "description": "Huggen helt ur snö och is varje vinter av internationella iskonstnärer. Nytt tema och nya skulpturer varje säsong. Drinkarna serveras i glas av ren arktisk is. En del av Snow Village-komplexet, kombinera med en natt i en snösvit.",
+        "highlight": "Nya isskulpturer varje vinter",
+        "stayHint": "Snösviter + timmerstugor på plats"
+      },
+      "Arctic SnowHotel IceBar": {
+        "description": "Ligger på Arctic SnowHotel vid stranden av sjön Lehtojärvi. Byggs om varje vinter med nya konstnärliga teman, huggen av finska och internationella konstnärer. Värmedräkter finns. Läget vid sjön gör den till en av de mest stämningsfulla isbarerna i världen.",
+        "highlight": "Värmedräkter ingår",
+        "stayHint": "Snörum, glasiglor, timmerstugor"
+      },
+      "Snowman World Ice Bar": {
+        "description": "Inne i legendariska Snowman World i Santa Claus Village, en annan sorts isbarsupplevelse, mer familjevänlig och lättillgänglig. Varma drycker och kalla cocktails serveras bland snöskulpturer. Ett bra val om du kombinerar isbaren med ett besök hos tomten.",
+        "highlight": "Läge i Santa Claus Village",
+        "stayHint": "Santa Holiday Village + Nova Skyland i närheten"
+      }
+    },
+    "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026 — priser och tider kan ändras med säsongen."
+  },
+  "apresSki": {
+    "title": "Afterski i Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
+    "description": "Äkta afterski i Lappland: barer vid backen, dj:er i hotellobbyn, efterfest i isbaren. Var du dricker efter att liftarna stängt i Levi, Ylläs, Pyhä och Saariselkä.",
+    "hero": {
+      "title": "Afterski",
+      "sub": "I Lappland stänger backarna klockan 16 och festen börjar 16.01. Finsk afterski är högljuddare, varmare och ärligare än någon annanstans."
+    },
+    "pillars": [
+      {
+        "title": "Vid backen",
+        "body": "De bästa afterski-barerna ligger bokstavligen vid foten av backarna. Åk skidor fram till dörren, skidorna i stället, öl i handen."
+      },
+      {
+        "title": "Livemusik",
+        "body": "Inga dj:er med laptop, riktiga band. Finsk rock, folkmusik och pop framförd i trälokaler med ordentlig scenbelysning."
+      },
+      {
+        "title": "Finsk anda",
+        "body": "Ingen tillgjordhet. Finsk afterski är för alla: lokalbor, turister, familjer, sällskap. Stämningen är dragplåstret."
+      }
+    ],
+    "topInResort": "#1 i {{resort}}",
+    "stayKicker": "Bo i {{resort}}",
+    "findHotel": "Hitta ett hotell",
+    "stayHints": {
+      "Levi": "Vid backen: Hullu Poro, Levi Hotel Spa, K5 Levi.",
+      "Yllas": "Lapland Hotels Äkäshotelli, timmerstugor, ski-in/ski-out.",
+      "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, glasiglor i närheten.",
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, timmerstugor."
+    },
+    "venues": {
+      "Hullu Poro Areena": {
+        "type": "Livemusikarena",
+        "desc": "Den obestridda kungen. Ett ställe med plats för 1 700 personer vid foten av frontbacken. Finlands toppartister, dj:er och liveband varje kväll under skidsäsongen. Den afterski som andra Lapplandsorter strävar efter."
+      },
+      "Bar Levi Ihku": {
+        "type": "Nattklubb",
+        "desc": "En Levi-legend. Redan full klockan 21 och i full gång klockan 02. Karaoke, dans, finska lokalbor och internationella skidåkare, alla hamnar här till slut."
+      },
+      "Bar Alakerta": {
+        "type": "Livemusikbar",
+        "desc": "Open Stage Jams på söndagar. Afterski för dem som hellre lyssnar på en gitarrist än en dj. Solig terrass, ordentlig stämning."
+      },
+      "Pub Hölmölä": {
+        "type": "Pub",
+        "desc": "\"Levis roligaste pub.\" Sällskapsspel, biljard, bryggeriöl och barmat. Lugna-ner-alternativet efter en stor dag i backen."
+      },
+      "Selvä Pyy": {
+        "type": "Pub och restaurang",
+        "desc": "Given afterski-plats i byn Äkäslompolo. Hantverksöl, cocktails, finsk pubmat i timmerstugemiljö. Finska lokalbor och besökare på orten delar samma rum, varmt, avslappnat, anspråkslöst."
+      },
+      "Pirtukellari Night Club": {
+        "type": "Nattklubb",
+        "desc": "Den enda nattklubben i Ylläs, inne på Lapland Hotels Äkäshotelli. När pubarna stänger flyttar festen ner under jord. Bara fre–lör, men kvällarna i högsäsong är rejält vilda."
+      }
+    },
+    "north": {
+      "title": "Åker du skidor längre norrut?",
+      "sub": "Saariselkä och Pyhä är lugnare, mer intima afterski-destinationer än Levi eller Ylläs. Värt det för de mindre folkmassorna och tätheten av norrskensbarer.",
+      "saariselka": "Hotell i Saariselkä",
+      "pyha": "Hotell i Pyhä"
+    },
+    "cta": {
+      "title": "Se alla barer",
+      "sub": "Bläddra genom hela listan med barer och pubar i alla fyra destinationerna.",
+      "btn": "Alla barer och pubar"
+    }
+  },
+  "cocktails": {
+    "title": "Cocktails i Lappland: hjortron, lakka, tall | LaplandBars",
+    "description": "Cocktails byggda kring arktiska råvaror: hjortron, lingon, tallsirap, en, lakkalikör. Var du dricker dem och hur du gör dem hemma.",
+    "hero": {
+      "title": "Arktiska cocktails",
+      "sub": "Samma arktiska förhållanden som gör Lapplands vilda bär utöver det vanliga gör dem exceptionella i ett glas. Det här är cocktailkultur byggd på plockade råvaror du inte får tag på någon annanstans."
+    },
+    "ingredientsTitle": "Råvarorna",
+    "ingredientsSub": "Arktiska förhållanden ger extrema råvaror, växter som utvecklar högre koncentrationer av smak och näring för att överleva kylan och den ändlösa sommarsolen.",
+    "stayBand": {
+      "kicker": "Bo nära cocktailbaren",
+      "title": "Kör inte hem, boka ett rum i närheten",
+      "sub": "De flesta av de bästa cocktailbarerna finns i Rovaniemi, Levi eller Saariselkä. Hotell på gångavstånd:",
+      "cta": "Hitta hotell i Lappland"
+    },
+    "cocktails": [
+      {
+        "name": "Hjortron-sour",
+        "ingredients": "finsk gin · hjortronlikör · citronjuice · äggvita · sockerlag",
+        "description": "Den arktiska signaturcocktailen. Hjortron, Arktis guld, mognar bara 2–3 veckor varje juli i subarktiska myrar. Deras honungssöta syrlighet passar perfekt i en sour. Skummet av äggvita bär fjällets doft rakt upp i näsan.",
+        "season": "Hjortron: juli–augusti"
+      },
+      {
+        "name": "Norrsken",
+        "ingredients": "finsk vodka · blå curaçao · tonic · ätbart skimmer · lime",
+        "description": "Skryt-cocktailen. Ett blågrönt skimmer som virvlar i glaset, en medveten hyllning till norrskenet. Beställs bäst någonstans med ett fönster mot norr. Glittret lägger sig på ungefär 30 sekunder; drick den innan dess.",
+        "season": "Norrsken: september–mars"
+      },
+      {
+        "name": "Lingonspritz",
+        "ingredients": "prosecco · lingonsaft · fläderlikör · sodavatten · färska lingon",
+        "description": "Djupt rubinröd, syrlig, uppfriskande. Vilda lappländska lingon, Finlands mest plockade bär, balanserar den blommiga flädern mot bubblorna. Enkel men precis rätt. Den sortens drink som ser vacker ut i en levandeljusbelyst bar.",
+        "season": "Lingon: augusti–oktober"
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "Hjortron (lakka)",
+        "note": "Det ovanligaste arktiska bäret, växer bara i subarktiska myrar, 2–3 veckor om året. Används i likör, sorbet och sour-mixar."
+      },
+      {
+        "name": "Lingon",
+        "note": "Finlands mest älskade vilda bär. Syrligt, jordigt, mångsidigt. Används i saft, likör och som garnering."
+      },
+      {
+        "name": "Björksav",
+        "note": "Samlas tidigt på våren när saven stiger. Ren, svagt söt. Används i hantverkssprit och cocktailmixar."
+      },
+      {
+        "name": "Arktisk timjan",
+        "note": "Plockas på fjällängar. Intensivare än odlad timjan tack vare de extrema växtförhållandena."
+      },
+      {
+        "name": "Havtorn",
+        "note": "Klarorange bär med mer C-vitamin per gram än apelsiner. Används i sourer och shots."
+      },
+      {
+        "name": "Finsk gin",
+        "note": "Flera finska destillerier gör gin smaksatt med arktiska växter: björk, en, hjortron, granskott."
+      }
+    ]
+  },
+  "craftBeer": {
+    "title": "Lapplands hantverksbryggerier och ölbarer | LaplandBars",
+    "description": "Lapplands växande hantverksölsscen: Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Vad de brygger och var du provar det.",
+    "hero": {
+      "title": "Hantverksöl",
+      "sub": "Finsk hantverksöl bygger på samma principer som finsk mat: rent vatten, vilda lokala råvaror och inga genvägar. Arktis ger varje glas sin egen smak."
+    },
+    "featuredKicker": "Utvalt bryggeri",
+    "knownBeers": "Kända ölsorter",
+    "stylesTitle": "Arktiska ölstilar",
+    "stylesSub": "Finska hantverksbryggare använder råvaror från samma landskap som kockarna. Skogsbotten är lika viktig som bryggeriet.",
+    "tours": {
+      "kicker": "Turer och provsmakningar",
+      "title": "Bryggeri- och matturer bokningsbara nu",
+      "sub": "Aktuell tillgänglighet från GetYourGuide. Bryggeribesök, destilleriprovsmakningar och lapplandska matupplevelser i Rovaniemi, Saariselkä och längre bort.",
+      "fallback": "Se alla mat- och dryckesupplevelser i Lappland på GetYourGuide"
+    },
+    "stay": {
+      "kicker": "Bo nära bryggeriet",
+      "title": "Hoppa över taxin, boka ett hotell på gångavstånd",
+      "body": "Lapon Panimos pub stänger klockan 23. Tornion Panimo ligger på andra sidan älven från stan. Lapland Brewery ligger i centrala Rovaniemi. Välj bryggeri och boka ett hotell på gångavstånd.",
+      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
+      "ctaTornio": "Tornio (Tornion Panimo)"
+    },
+    "breweries": [
+      {
+        "name": "Lapon Panimo",
+        "location": "Saariselkä",
+        "description": "Finlands nordligaste hantverksbryggeri. Grundat i Saariselkä, en av de mest avsides platser något bryggeri drivs från. Ölen görs på rent arktiskt vatten och lokalt inspirerade råvaror: granskott, lingon, råg. Bryggeriet har en liten pub där du kan dricka färsk öl bara meter från där den gjordes."
+      },
+      {
+        "name": "Tornion Panimo",
+        "location": "Tornio (vid svenska gränsen)",
+        "description": "Prisbelönt hantverksbryggeri i gränsstaden Tornio mellan Sverige och Finland. Känt för sin Arctic Circle Ale och nyskapande bryggning i nordisk stil. De exporterar i hela Norden och har vunnit flera priser i skandinaviska öltävlingar."
+      },
+      {
+        "name": "Lapland Brewery",
+        "location": "Rovaniemi",
+        "description": "Bryggeripuben i centrala Rovaniemi. Öl bryggd på plats, serverad i baren bredvid tankarna. Se bryggningen medan du dricker resultatet. Säsongssläppen innehåller ofta råvaror plockade i den lappländska skogen runt staden."
+      }
+    ],
+    "styles": [
+      {
+        "style": "Arktisk lager",
+        "desc": "Ren, frisk, bryggd med arktiskt glaciärvatten. Grunden i finsk hantverksöl, till synes enkel, förvånansvärt god."
+      },
+      {
+        "style": "Granskottsale",
+        "desc": "Plockade granskott, insamlade på våren. Kådig, örtig, olik allt från ett sydligt bryggeri. En genuint arktisk smak."
+      },
+      {
+        "style": "Bärveteöl",
+        "desc": "Vilda lingon eller hjortron tillsatta i en veteölsbas. Syrlig, fruktig och säsongsbetonad, du kan smaka var den kommer ifrån."
+      },
+      {
+        "style": "Rökt porter",
+        "desc": "Fyllig, mörk, med rök från finsk björkved. En vinteröl för kalla kvällar vid en brasa. Passar bra till ren."
+      },
+      {
+        "style": "Rågsaison",
+        "desc": "Finsk råg, en basvara i den nordliga matkulturen, använd i en saison i belgisk stil. Jordig, kryddig, ovanlig."
+      },
+      {
+        "style": "Midnattssol-IPA",
+        "desc": "Bryggd under polardagen på sommaren. Citrusframträdande, bitter, uppkallad efter fenomenet som gör arktisk humleodling möjlig."
+      }
+    ]
+  },
+  "drinkingCulture": {
+    "title": "Finsk dryckeskultur i Lappland | LaplandBars",
+    "description": "Varför finländare dricker som de gör: bastuöl, Alko-monopolet, vit januari, polarnattens drink. Den kulturella bakgrunden till ett barbesök i Lappland.",
+    "hero": {
+      "title": "Finsk dryckeskultur",
+      "sub": "Från Koskenkorva en fredagskväll till kalsarikännit i underkläderna, det här är en guide till hur finländare faktiskt dricker."
+    },
+    "intro": [
+      "Finsk dryckeskultur bygger på motsägelser. Finland har några av de striktaste alkohollagarna i Europa, statligt styrda spritbutiker, begränsade öppettider för pubar, höga skatter och några av de mest hängivna drickarna. Alkohol här är inte bakgrundsljud. Det är en medveten handling, tagen på allvar och ofta gjord med ceremoni.",
+      "Just i Lappland går drickandet inte att skilja från omgivningen. Du dricker efter en dag i backen, efter en snöskotertur, efter en norrskensspaning. Kylan gör den varma drycken bättre. Mörkret gör den levandeljusbelysta puben mysigare. Tystnaden gör skratten högre."
+    ],
+    "kossu": {
+      "title": "Koskenkorva, nationalspriten",
+      "body": [
+        "Om Finland har en nationalsprit, både bildligt och bokstavligt, så är det Koskenkorva. \"Kossu\" för alla som känner till den. Ett sädesbrännvin på 38 % destillerat av finskt korn i byn Koskenkorva i Österbotten sedan 1953. Destilleriet går dygnet runt, varje dag om året.",
+        "Koskenkorva är inte vodka, det är specifikt ett sädesbrännvin, med en något råare och mer karaktärsfull profil än filtrerad vodka. Den är dock extremt ren: destillerad till mycket hög renhet, med minimalt av bismaksämnen. Bakfyllan, säger finländarna, är nästan obefintlig jämfört med billigare sprit. Det är antingen sant eller en mycket lyckad finsk myt.",
+        "Hur dricker finländare den? Kall, ren, ur ett litet glas. Ibland med en öl som skölj (kombinationen kallas viina + kalja, den klassiska finska arbetarklassduon). I Lappland hittar du den på varje pub, oftast i barens snabbställ. Den har funnits på finska bord vid bröllop, begravningar, lördagsbastur och söndagsfrukostar. Den är inte glamorös. Det är hela poängen."
+      ],
+      "factsLabel": "Snabbfakta:",
+      "facts": "Produceras av Altia (numera Anora Group). Över 10 miljoner liter säljs årligen i Finland. Byn Koskenkorva har omkring 1 500 invånare. Destilleriet är ett av de mest effektiva sädesdestillerierna i världen och ger noll avfall, sädesresterna blir djurfoder."
+    },
+    "finlandia": {
+      "title": "Finlandia Vodka, Finland till världen",
+      "body": [
+        "Medan Koskenkorva är för finländare är Finlandia Finlands gåva till resten av världen. Lanserad 1970, samma år som den första Earth Day, vilket antingen är en slump eller en mycket medveten varumärkespositionering, var Finlandia en av de första premiumvodkorna som marknadsförde \"renhet\" som sin centrala säljpunkt.",
+        "Receptet är enkelt med flit: sexradigt korn odlat i Finland, glaciärt källvatten från Rajamäki, 200 km norr om Helsingfors. Vattnet är stjärnan. Finskt glaciärt källvatten är bland det mjukaste i världen, mineralfattigt och med låg hårdhet, vilket ger en tydligt ren, lätt vodka utan nämnvärd eftersmak.",
+        "Finlandia destilleras över 200 gånger genom en kontinuerlig destillationsprocess, inte satsvis som de flesta premiumspritar. Resultatet är extremt jämnt. Den har vunnit internationella blindprovningar mot betydligt dyrare konkurrenter. I Finland är den fortfarande rimligt prissatt. Utomlands bär den sina finska meriter som ett bevis på premiumkvalitet."
+      ],
+      "factsLabel": "Snabbfakta:",
+      "facts": "Ägs av Brown-Forman (moderbolag till Jack Daniel's) sedan 2004. Finns i över 80 länder. Den ikoniska frostade flaskdesignen har knappt ändrats sedan 1970. Tillverkas vid destilleriet i Rajamäki, som gjort sprit sedan 1888."
+    },
+    "lapinKulta": {
+      "title": "Lapin Kulta, guld från Arktis",
+      "body": [
+        "Om någon öl verkligen hör hemma i en guide till Lapplands barer, så är det Lapin Kulta, ordagrant \"Lapplands guld.\" Bryggd i Tornio, vid finsk-svenska gränsen vid Torne älvs mynning, sedan 1873. I över 150 år har den här ölen gjorts med vatten från en av de nordligaste bryggningskällorna i världen.",
+        "Lapin Kulta är Finlands klassiska ljusa lager, ren, lätt, maltig och okomplicerad. Den kommer inte vinna hantverksölspriser, och den försöker inte. Det är ölen som stått på finska stugbord, bastulavar och festivalområden i fem generationer. När finländare säger \"ta en öl\" är det ofta den här ölen de menar. Just i Lappland känns det att beställa en Lapin Kulta på en lokal pub rätt på ett sätt som ingen importerad lager kan.",
+        "Varumärket har bytt ägare, från Hartwall till Heineken International, men själva ölen är fortfarande en finsk basvara. Du hittar den på varje bar i Lappland, i varje livsmedelsbutik, på varje Alko. Den är, i bästa möjliga mening, helt vanlig."
+      ],
+      "priceTitle": "Finsk öl, vad den kostar",
+      "prices": [
+        {
+          "label": "Lapin Kulta (0,33 l burk, livsmedelsbutik)",
+          "value": "~2,30 €"
+        },
+        {
+          "label": "Karhu lager (0,33 l burk, livsmedelsbutik)",
+          "value": "~2,30 €"
+        },
+        {
+          "label": "Sandels lager (0,33 l burk, livsmedelsbutik)",
+          "value": "~2,20 €"
+        },
+        {
+          "label": "Koff Porter / specialöl (0,33 l, Alko)",
+          "value": "~3,50–4,50 €"
+        },
+        {
+          "label": "Fatöl (pint) på en bar i Lappland",
+          "value": "~6–8 €"
+        },
+        {
+          "label": "Hantverksöl (pint) på en bar i Lappland",
+          "value": "~7–10 €"
+        }
+      ],
+      "priceFootnote": "Priserna är ungefärliga och gäller 2025. Starköl (över 5,5 %) kan bara köpas i Alkos statliga butiker. Livsmedelsbutiker säljer öl upp till 5,5 %.",
+      "otherLabel": "Andra finska lagrar värda att känna till:",
+      "other": "Karhu (\"Björn\"), Finlands mest sålda öl, något maltigare än Lapin Kulta. Sandels, uppkallad efter en finsk krigshjälte, en populär budgetlager. Olvi, bryggd i Iisalmi sedan 1878, det enda större finska bryggeriet som fortfarande är finskägt. Koff, Helsingfors äldsta bryggerivarumärke (1819), numera ägt av Sinebrychoff/Carlsberg."
+    },
+    "lonkero": {
+      "title": "Lonkero, född till OS",
+      "body": [
+        "År 1952 stod Helsingfors värd för sommar-OS och besökare strömmade in från hela världen — långt fler än stadens få krogar med serveringstillstånd någonsin kunde blanda drinkar åt. Alko, det statliga alkoholmonopolet, vände sig till dryckesföretaget Hartwall: det som behövdes var en färdigblandad dryck som lagligt kunde säljas på OS-arenorna.",
+        "Hartwalls svar var Original Long Drink — finsk gin och grapefruktläsk, 5,5 %. Lätt, frisk, lite bitter. Den var tänkt att bara tillverkas för spelen, men publiken hade andra planer: efterfrågan höll den i produktion efter att OS tagit slut. Lonkeron var född.",
+        "Idag är lonkero en kulturell institution och en hel dryckeskategori, fortfarande ledd av den gråblå Original-burken. Kategorin har spridit sig långt utanför Finland — i USA gjorde finska entreprenörer long drink till ett eget varumärke — vilket gör lonkeron kanske till den mest lyckade oavsiktliga exporten i finsk dryckeshistoria."
+      ],
+      "brand": {
+        "kicker": "Originalet sedan 1952",
+        "title": "Hartwall Original Long Drink",
+        "facts": [
+          "Skapad till OS i Helsingfors 1952, på beställning av statsmonopolet Alko",
+          "Finsk gin och grapefrukt — samma recept än idag, 5,5 %",
+          "Den gråblå burken är ett fast inslag på finska barer, terrasser och bastukvällar"
+        ]
+      }
+    },
+    "kalsarikannit": {
+      "title": "Kalsarikännit, konsten att dricka i kalsongerna",
+      "body": [
+        "Det finns ett finskt begrepp som saknar direkt motsvarighet i något annat språk: kalsarikännit. Av kalsarit (kalsonger) och känni (att vara berusad). Ordagrant: \"kalsongfull.\" Vanan att bli full hemma, ensam eller med nära vänner, i underkläderna, utan minsta avsikt att gå ut.",
+        "Det är inget skamligt i Finland. Det ses inte som osocialt. Många finländare ser det som avslappningens höjdpunkt, ett medvetet avståndstagande från det sociala spel som ett barbesök kräver. Inget påklädande. Ingen väntan på taxi. Inget kallprat med främlingar. Bara soffan, din dryck och friheten att titta på vad du vill på tv.",
+        "År 2018 ställde sig Finlands utrikesministerium officiellt bakom begreppet som en del av en nationell kampanj för att förklara finsk kultur för världen. De släppte en uppsättning emoji som föreställer kalsarikännit, en person i underkläder med en drink. Kampanjen fick global spridning. Finland var en kort period det mest omtalade landet i internationella nyheter av ett skäl som inte hade något med politik att göra.",
+        "Kalsarikännit är inte bara ett skämt. Det speglar något genuint i finsk kultur: värdet av ensamhet, tryggheten i det egna hemmet och en djup nationell misstänksamhet mot spelat umgänge. I Lappland, där vintrarna är långa, mörka och kalla, är kalsarikännit närmast en överlevnadsmekanism."
+      ],
+      "rulesTitle": "Så gör du kalsarikännit på rätt sätt",
+      "rules": [
+        "1. Ta på dig de bekvämaste underkläderna du äger.",
+        "2. Fyll kylskåpet innan mörkret faller (det är inte förhandlingsbart).",
+        "3. Stäng av aviseringarna på telefonen.",
+        "4. Sätt dig. Res dig inte på minst två timmar.",
+        "5. Drick långsamt. Det här är ingen tävling.",
+        "6. Gör absolut inga planer på att gå ut senare."
+      ]
+    },
+    "sauna": {
+      "title": "Bastu och sisu, hela bilden",
+      "body": [
+        "Finsk dryckeskultur går inte att skilja från bastun. En vanlig finsk lördag följer en bestämd ordning: jobb, bastu, öl. Ölen dricks i bastun eller direkt efter, när kroppstemperaturen fortfarande är hög och den kalla ölen ger en nästan fysiologisk effekt. Kombinationen är så kulturellt inrotad att de flesta finska sommarstugor har en egen bastu-och-öl-ritual som börjar runt klockan 16 och fortsätter tills någon somnar i båten.",
+        "I Lappland är bastun ännu mer central. Efter en dag i −30 °C är en bastu ingen lyx, det är återhämtning, vätskepåfyllning och umgänge i ett. Många hotell och stugor i Lappland har egen bastu. Kombinationen bastu, kallt dopp i sjön eller snön och kall öl är, enligt finländarna, bättre än vilken spabehandling som helst i världen. De har nog rätt.",
+        "Sisu, det unikt finska begreppet för stoisk beslutsamhet, motståndskraft inför motgång, gäller drickandet också. En finländare som druckit i sju timmar och ändå tar sig till jobbet på måndagen ses inte som oansvarig. Hen anses ha sisu."
+      ]
+    },
+    "cta": {
+      "title": "Upplev det själv",
+      "sub": "Teorin är intressant. Praktiken är bättre. Hitta barerna där finsk dryckeskultur lever.",
+      "btnStay": "Hitta boende i Lappland",
+      "btnExplore": "Utforska alla barer"
+    }
+  },
+  "about": {
+    "title": "Om LaplandBars",
+    "description": "Om LaplandBars, oberoende redaktionellt innehåll om hur och var Lappland dricker.",
+    "h1": "Om LaplandBars",
+    "body": [
+      "LaplandBars är en oberoende redaktionell guide till barer, pubar, isbarer och nattliv i hela finska Lappland, skriven från Finland, inte genererad ur en databas.",
+      "Varje ställe på den här sajten är en verklig plats; uppgifterna är sammanställda från ställenas egna sidor och Google-data. Bevakningen fokuserar på Rovaniemi, Levi, Ylläs och Saariselkä, de fyra huvuddestinationerna i finska Lappland, och listorna hålls uppdaterade när ställen öppnar, stänger och ändras. Källor anges; rättelser tas emot med tacksamhet.",
+      "LaplandBars är en del av <1>LaplandVibes</1>-ekosystemet, ett nätverk av nischade resesajter om finska Lappland.",
+      "Sajten drivs av Lapeso Oy (Finland). Frågor eller rättelser: <1>info@laplandvibes.com</1>"
+    ],
+    "back": "← Tillbaka till startsidan"
+  },
+  "newsletter": {
+    "kicker": "<1>#LAPLANDVIBES</1>-nyhetsbrevet",
+    "headlineLine1": "Vi dricker mest i Lappland.",
+    "headlineLine2": "Sedan skriver vi det vi lär oss.",
+    "sub": "Ett kort mejl när norrskensfönstret öppnar sig, när isbarerna avslöjar sin vinter eller när ett afterski-program faktiskt är värt en flygresa. Skrivet från Finland, på engelska. Bara när det finns något som verkligen är värt att berätta, aldrig enligt ett schema.",
+    "benefits": [
+      {
+        "title": "När norrskenet faktiskt visar sig",
+        "body": "Vi följer FMI:s prognos varje klar natt. När KP-värdet stämmer hör vi av oss, så att du kan sitta på baren med rätt läge när norrskenet tänds."
+      },
+      {
+        "title": "När isbarerna öppnar",
+        "body": "Arctic SnowHotel och Lainio byggs om varje december. Vi delar de faktiska öppningsdatumen och vilket års tema som är värt resan, innan bokningssidorna fylls."
+      },
+      {
+        "title": "Vilka som spelar på afterski",
+        "body": "Hullu Poro Areena släpper sitt säsongsprogram i november. Vi tipsar om namnen värda att flyga in för, de små kvällarna på Bar Levi Ihku och spelningarna i Saariselkä som ingen annan uppmärksammar."
+      },
+      {
+        "title": "Nya barer värda en omväg",
+        "body": "Lapon Panimos säsongstappar. En popup-cocktailbar i Rovaniemi. Ett nytt bryggeri på Tornio-sidan. Vi berättar om nyöppningar medan de fortfarande känns nya."
+      }
+    ],
+    "doneMessage": "Klart. Vi ses under norrskenet.",
+    "emailPlaceholder": "din@epost.se",
+    "submitIdle": "Skicka mig Lappland",
+    "submitLoading": "Skickar…",
+    "errorPrefix": "Kunde inte prenumerera",
+    "errorFallback": "Kunde inte prenumerera. Försök igen eller mejla info@laplandvibes.com.",
+    "footnote": "Ett mejl när det finns något att säga. Avsluta med ett klick, inga frågor. <1>Integritetspolicy</1>.",
+    "emailLabel": "E-post"
+  },
+  "privacy": {
+    "title": "Integritetspolicy | LaplandBars",
+    "description": "Hur LaplandBars hanterar dina uppgifter."
+  },
+  "terms": {
+    "title": "Användarvillkor | LaplandBars",
+    "description": "Användarvillkor för LaplandBars."
+  },
+  "cookie": {
+    "title": "Cookiepolicy | LaplandBars",
+    "description": "Hur LaplandBars använder cookies."
+  },
+  "heroComponent": {
+    "titleLine1": "Bästa barerna och pubarna i",
+    "openYearRound": "Öppet året runt",
+    "iceBarsWinter": "Isbarer under vintersäsongen",
+    "exploreVenues": "Utforska ställen"
+  },
+  "rideBand": {
+    "kicker": "Hem igen",
+    "title": "Ordna hemresan före första rundan",
+    "sub": "Drinkarna är den lätta biten. Lista ut hur du tar dig tillbaka till stugan först, slå dig sedan ner ordentligt."
+  },
+  "experiences": {
+    "barCrawl": {
+      "kicker": "Boka det",
+      "sectionTitle": "Vill du ha en guidad kväll ute? Boka i förväg",
+      "rovaniemi": {
+        "title": "Bar- och bryggeriturer i Rovaniemi",
+        "body": "Vill du ha det ordnat innan du landar? Guidade bryggeribesök, provsmakningar och barvandringar runt Rovaniemi går att boka nu, med aktuell tillgänglighet och riktiga omdömen.",
+        "cta": "Se turer i Rovaniemi"
+      },
+      "levi": {
+        "title": "Guidade kvällar ute i Levi",
+        "body": "Levi är gjort för det. Bläddra bland afterski- och barupplevelserna en guide kan ordna så att du slipper planera och bara dyker upp.",
+        "cta": "Se upplevelser i Levi"
+      }
+    },
+    "cocktail": {
+      "kicker": "Gör dem själv",
+      "title": "Cocktail- och provsmakningsupplevelser",
+      "body": "Några av de bästa sessionerna med arktiska cocktails och spritprovning i Lappland går att boka med guide. Lär dig hjortron-souren vid källan, beställ den sedan som du menar det.",
+      "cta": "Se cocktailupplevelser"
+    }
+  }
+}

@@ -116,7 +116,7 @@ function ScrollToTop() {
 
 function LocaleSync() { useLocale(); return null; }
 
-const PREFIXES = ['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl'];
+const PREFIXES = ['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/it', '/nl', '/sv'];
 const PAGES: { path: string; element: React.ReactNode }[] = [
   { path: '/', element: <Home /> },
   { path: '/bars', element: <Bars /> },

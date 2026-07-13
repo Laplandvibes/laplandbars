@@ -41,6 +41,7 @@ const GYG_DOMAIN: Record<Locale, string> = {
   fr: 'https://www.getyourguide.fr',
   it: 'https://www.getyourguide.it',
   nl: 'https://www.getyourguide.nl',
+  sv: 'https://www.getyourguide.com',
 };
 
 export function gygSearchLink(query: string, sid: string, lang: Locale = 'en'): string {

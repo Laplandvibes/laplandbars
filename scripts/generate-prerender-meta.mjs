@@ -20,7 +20,7 @@ const ROOT = resolve(__dirname, '..')
 const LOCALES = resolve(ROOT, 'src', 'locales')
 
 // lang code == folder name under src/locales (matches _prerender_routes.mjs `lang`).
-const LANGS = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl']
+const LANGS = ['en', 'fi', 'de', 'ja', 'es', 'pt-BR', 'zh-CN', 'ko', 'fr', 'it', 'nl', 'sv']
 
 const home = {}
 for (const lang of LANGS) {

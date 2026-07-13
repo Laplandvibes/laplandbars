@@ -100,14 +100,14 @@ export default function AirportRideAd({
   const adLabel = pick({
     en: 'Ad', fi: 'Mainos', de: 'Anzeige', ja: '広告', es: 'Anuncio',
     'pt-BR': 'Anúncio', 'zh-CN': '广告', ko: '광고', fr: 'Annonce',
-    it: 'Annuncio', nl: 'Advertentie',
+    it: 'Annuncio', nl: 'Advertentie', sv: 'Annons',
   });
 
   const eyebrow = pick({
     en: 'Airport transfer', fi: 'Lentokenttäkuljetus', de: 'Flughafentransfer',
     ja: '空港送迎', es: 'Traslado del aeropuerto', 'pt-BR': 'Traslado do aeroporto',
     'zh-CN': '机场接送', ko: '공항 픽업', fr: 'Transfert aéroport',
-    it: 'Transfer aeroporto', nl: 'Luchthaventransfer',
+    it: 'Transfer aeroporto', nl: 'Luchthaventransfer', sv: 'Flygplatstransfer',
   });
 
   const headline = pick({
@@ -122,6 +122,7 @@ export default function AirportRideAd({
     fr: 'Le retour malin après la soirée.',
     it: 'Il modo intelligente di tornare a casa dopo la serata.',
     nl: 'Slim thuiskomen na het stappen.',
+    sv: 'Det smarta sättet att ta sig hem efter kvällen.',
   });
 
   const sub = pick({
@@ -136,6 +137,7 @@ export default function AirportRideAd({
     fr: 'Les bars de Laponie sont disséminés entre les stations et à 2 h du matin aucune file de taxis n’attend dehors. Réservez Welcome Pickups : le chauffeur qui vous a accueilli à l’arrivée vous ramène, prix fixé à l’avance. Personne dans le groupe n’a à rester sobre pour conduire, et personne n’attend dans le froid.',
     it: 'I bar della Lapponia sono sparsi tra le località e alle 2 di notte non c’è una fila di taxi ad aspettare fuori. Prenota Welcome Pickups e lo stesso autista che ti ha accolto agli arrivi ti riporta indietro, prezzo concordato in anticipo. Nessuno del gruppo deve restare sobrio per guidare e nessuno aspetta al freddo.',
     nl: 'De bars in Lapland liggen verspreid tussen de resorts en om 2 uur ’s nachts staat er buiten geen taxi te wachten. Boek Welcome Pickups en dezelfde chauffeur die je bij aankomst opwachtte, brengt je terug, prijs vooraf afgesproken. Niemand in het gezelschap hoeft nuchter te blijven om te rijden, en niemand staat in de kou te wachten.',
+    sv: 'Lapplands barer ligger utspridda mellan orterna, och klockan två på natten står ingen taxikö och väntar utanför. Boka Welcome Pickups, så kör samma förare som mötte dig vid ankomsten dig tillbaka, till ett pris som avtalats i förväg. Ingen i sällskapet behöver hålla sig nykter för att köra, och ingen står och fryser ute.',
   });
 
   const trust: { icon: typeof Car; label: string }[] = [
@@ -153,6 +155,7 @@ export default function AirportRideAd({
         fr: 'Prix fixe convenu à l’avance',
         it: 'Prezzo fisso concordato prima',
         nl: 'Vaste prijs vooraf afgesproken',
+        sv: 'Fast pris avtalat i förväg',
       }),
     },
     {
@@ -169,6 +172,7 @@ export default function AirportRideAd({
         fr: 'Un chauffeur sobre pour le retour',
         it: 'Un autista sobrio per il ritorno',
         nl: 'Een nuchtere chauffeur voor terug',
+        sv: 'En nykter förare på vägen hem',
       }),
     },
     {
@@ -185,6 +189,7 @@ export default function AirportRideAd({
         fr: 'Vous accueille à l’arrivée à l’aller',
         it: 'Ti accoglie agli arrivi all’andata',
         nl: 'Wacht je op bij aankomst op de heenweg',
+        sv: 'Möter dig vid ankomsten på vägen in',
       }),
     },
   ];
@@ -193,14 +198,14 @@ export default function AirportRideAd({
     en: 'Book a transfer', fi: 'Varaa kuljetus', de: 'Transfer buchen',
     ja: '送迎を予約', es: 'Reservar traslado', 'pt-BR': 'Reservar traslado',
     'zh-CN': '预订接送', ko: '픽업 예약', fr: 'Réserver un transfert',
-    it: 'Prenota un transfer', nl: 'Transfer boeken',
+    it: 'Prenota un transfer', nl: 'Transfer boeken', sv: 'Boka transfer',
   });
 
   const poweredBy = pick({
     en: 'By Welcome Pickups', fi: 'Tarjoaa Welcome Pickups', de: 'Von Welcome Pickups',
     ja: '提供：Welcome Pickups', es: 'Por Welcome Pickups', 'pt-BR': 'Pela Welcome Pickups',
     'zh-CN': '由 Welcome Pickups 提供', ko: 'Welcome Pickups 제공', fr: 'Par Welcome Pickups',
-    it: 'Di Welcome Pickups', nl: 'Door Welcome Pickups',
+    it: 'Di Welcome Pickups', nl: 'Door Welcome Pickups', sv: 'Via Welcome Pickups',
   });
 
   const chip = pick({
@@ -215,6 +220,7 @@ export default function AirportRideAd({
     fr: 'Chauffeurs locaux anglophones',
     it: 'Autisti locali che parlano inglese',
     nl: 'Engelssprekende lokale chauffeurs',
+    sv: 'Engelsktalande lokala förare',
   });
 
   return (

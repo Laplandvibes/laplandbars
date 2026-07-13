@@ -1,0 +1,93 @@
+{
+  "site": {
+    "name": "LaplandBars",
+    "tagline": "Där Lappland faktiskt dricker"
+  },
+  "lang": {
+    "currentEN": "EN",
+    "currentFI": "FI",
+    "switchTo": "Byt språk"
+  },
+  "cta": {
+    "readMore": "Läs mer",
+    "viewAll": "Visa alla",
+    "loading": "Laddar…",
+    "subscribe": "Prenumerera",
+    "close": "Stäng"
+  },
+  "footer": {
+    "networkBadge": "Finska Lapplands nätverk",
+    "tagline": "Det självklara digitala hemmet för resor i finska Lappland.",
+    "groups": {
+      "stay": "Bo",
+      "eatDrink": "Äta och dricka",
+      "do": "Göra",
+      "explore": "Utforska",
+      "essentials": "Praktiskt"
+    },
+    "travelGuideKicker": "Reseguide till Lappland",
+    "pillars": {
+      "bars": "Barer",
+      "iceBars": "Isbarer",
+      "apresSki": "Afterski",
+      "cocktails": "Cocktails",
+      "craftBeer": "Hantverksöl",
+      "culture": "Dryckeskultur"
+    },
+    "about": {
+      "eyebrow": "Om LaplandVibes",
+      "body": "Den kompletta guiden till finska Lappland, från norrskenet till midnattssolen. Utvalda upplevelser, lokala tips och det praktiska du behöver inför din resa i Arktis.",
+      "badge": "Oberoende drivet · källor angivna"
+    },
+    "spottedError": {
+      "title": "Hittade du ett fel?",
+      "body": "Ser du något som behöver rättas? Säg till, så fixar vi det direkt.",
+      "cta": "Rapportera ett fel →"
+    },
+    "partner": {
+      "title": "Samarbeta med oss",
+      "body": "Annonsera eller samarbeta på 27 Lappland-sajter.",
+      "cta": "Hör av dig →"
+    },
+    "press": {
+      "title": "Press och media",
+      "body": "Redaktionella samarbeten och presskit.",
+      "cta": "Pressförfrågningar →"
+    },
+    "affiliate": "Den här sajten innehåller affiliatelänkar. Om du bokar via dem kan LaplandVibes få en provision utan extra kostnad för dig.",
+    "copyright": "{{year}} #LaplandVibes, en del av #LaplandVibes-nätverket",
+    "websiteBy": "Webbplats av Yrityspaketit.fi",
+    "legal": {
+      "privacy": "Integritetspolicy",
+      "cookie": "Cookiepolicy",
+      "terms": "Användarvillkor",
+      "contact": "Kontakt",
+      "about": "Om oss"
+    },
+    "siteLabels": {
+      "hotelDeals": "Hotellerbjudanden",
+      "staysCabins": "Boenden och stugor",
+      "whereToStay": "Var du bör bo",
+      "familyFriendly": "Familjevänligt",
+      "localFood": "Lokal mat",
+      "fineDining": "Fine dining",
+      "barsPubs": "Barer och pubar",
+      "activities": "Aktiviteter",
+      "huskySafaris": "Huskysafari",
+      "skiResorts": "Skidorter",
+      "snowmobileTours": "Snöskoterturer",
+      "spaWellness": "Spa och wellness",
+      "nightlife": "Nattliv",
+      "natureParks": "Natur och nationalparker",
+      "travelGuide": "Reseguide",
+      "christmas": "Jul i Lappland",
+      "giftsSouvenirs": "Presenter och souvenirer",
+      "travelBlog": "Reseblogg",
+      "dealsOffers": "Erbjudanden",
+      "transport": "Transport",
+      "carRental": "Biluthyrning",
+      "workInLapland": "Jobba i Lappland"
+    },
+    "taglineBars": "Den kompletta guiden till barer, pubar, isbarer och nattliv i finska Lappland."
+  }
+}

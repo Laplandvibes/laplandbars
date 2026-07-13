@@ -30,6 +30,7 @@ const featuredFlags: Record<string, boolean> = {
 const GYG_LOCALE: Record<string, string> = {
   en: 'en-US', fi: 'fi-FI', de: 'de-DE', ja: 'ja-JP', es: 'es-ES',
   'pt-BR': 'pt-BR', 'zh-CN': 'zh-CN', ko: 'ko-KR', fr: 'fr-FR', it: 'it-IT', nl: 'nl-NL',
+  sv: 'sv-SE',
 };
 
 // Shown when the embed is blocked (ad-block / tracking protection) so the box
@@ -46,6 +47,7 @@ const GYG_FALLBACK_LEAD: Record<string, string> = {
   fr: 'Cuisine laponne, dégustations et expériences autour des brasseries — prix en temps réel et confirmation immédiate.',
   it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici — prezzi in tempo reale e conferma immediata.',
   nl: 'Laplandse gerechten, proeverijen en brouwerij-ervaringen — actuele prijzen en directe bevestiging.',
+  sv: 'Lapplandsk mat, provsmakningar och bryggerinära upplevelser — aktuella priser och direkt bekräftelse.',
 };
 
 // Bookable-experience cards shown when the GYG embed is blocked (ad-block /
@@ -67,6 +69,7 @@ const GYG_FALLBACK_CARDS: Array<{
       de: 'Lappländische Dinner-Erlebnisse', ja: 'ラップランドのディナー体験',
       es: 'Cenas laponas', 'pt-BR': 'Jantares lapões', 'zh-CN': '拉普兰晚餐体验',
       ko: '라플란드 디너 체험', fr: 'Dîners lapons', it: 'Cene lapponi', nl: 'Laplandse diners',
+      sv: 'Lapplandska middagsupplevelser',
     },
     desc: {
       en: 'Reindeer, arctic char and open-fire salmon at a log table.',
@@ -80,6 +83,7 @@ const GYG_FALLBACK_CARDS: Array<{
       fr: 'Renne, omble chevalier et saumon au feu de bois.',
       it: 'Renna, salmerino artico e salmone alla fiamma.',
       nl: 'Rendier, ridderforel en vuurzalm aan een blokhuttafel.',
+      sv: 'Ren, röding och flamlax vid ett timmerbord.',
     },
   },
   {
@@ -92,7 +96,7 @@ const GYG_FALLBACK_CARDS: Array<{
       es: 'Tours gastronómicos y catas', 'pt-BR': 'Tours gastronômicos e degustações',
       'zh-CN': '美食品鉴之旅', ko: '푸드 & 시음 투어',
       fr: 'Visites gourmandes et dégustations', it: 'Tour gastronomici e degustazioni',
-      nl: 'Food- & proeverijtours',
+      nl: 'Food- & proeverijtours', sv: 'Mat- och provsmakningsturer',
     },
     desc: {
       en: 'A local guide, small groups, glass in hand.',
@@ -106,6 +110,7 @@ const GYG_FALLBACK_CARDS: Array<{
       fr: 'Guide local, petits groupes, verre à la main.',
       it: 'Guida locale, piccoli gruppi, bicchiere in mano.',
       nl: 'Lokale gids, kleine groepen, glas in de hand.',
+      sv: 'En lokal guide, små grupper, glas i hand.',
     },
   },
   {
@@ -118,7 +123,7 @@ const GYG_FALLBACK_CARDS: Array<{
       es: 'Noches de sauna y copas', 'pt-BR': 'Noites de sauna e drinques',
       'zh-CN': '桑拿与美酒之夜', ko: '사우나 & 드링크의 밤',
       fr: 'Soirées sauna & boissons', it: 'Serate sauna e drink',
-      nl: 'Sauna- & drankavonden',
+      nl: 'Sauna- & drankavonden', sv: 'Bastu- och drinkkvällar',
     },
     desc: {
       en: 'Steam, a cold dip and a cold one afterwards — very Finnish.',
@@ -132,6 +137,7 @@ const GYG_FALLBACK_CARDS: Array<{
       fr: 'Vapeur, bain glacé et une boisson fraîche ensuite — très finlandais.',
       it: 'Vapore, tuffo nel ghiaccio e una bevanda fredda dopo — molto finlandese.',
       nl: 'Stoom, ijsduik en daarna een koud biertje — heel Fins.',
+      sv: 'Ånga, ett kallt dopp och en kall öl efteråt — mycket finskt.',
     },
   },
 ];

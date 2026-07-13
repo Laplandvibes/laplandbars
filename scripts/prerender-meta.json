@@ -329,6 +329,36 @@
           "a": "Supermarkten en buurtwinkels verkopen bier, cider en andere dranken tot 5,5% alcohol, meestal tot 21.00 uur. Alles wat sterker is, wijn, sterke drank en sterk bier, wordt alleen verkocht bij Alko, de staatsketen, die overdag open is en op zaterdag vroeg en op zondag de hele dag dicht is. In kleinere Laplandse dorpen kan de dichtstbijzijnde Alko een eind weg zijn, dus sla op tijd in voordat u naar een afgelegen hut vertrekt."
         }
       ]
+    },
+    "sv": {
+      "title": "Barer i Lappland 2026: cocktails, isbarer, lokala tips",
+      "description": "Där Lappland faktiskt dricker 2026. Lokalt utvalda barer, hantverkscocktails, isbarer och afterski med riktiga priser. Levi, Rovaniemi, Ylläs.",
+      "faq": [
+        {
+          "q": "Vad är en isbar i Lappland?",
+          "a": "En isbar är en bar byggd av snö och block av sjöis, där disken, väggarna och till och med glasen är huggna ur is. Inne håller den runt −5 °C, så ställen som Ice Bar på Arctic SnowHotel nära Rovaniemi lånar ut en värmecape eller värmedräkt vid dörren. Varje bar byggs om med ny design varje vinter och smälter bort på våren, så den finns bara från ungefär december till april."
+        },
+        {
+          "q": "Var finns de bästa afterski-barerna i Levi och Ylläs?",
+          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och är Finlands största afterski-ställe, med finska liveartister och plats för 1 700 personer; Bar Ihku och Pub Hölmölä tar hand om de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar över när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
+        },
+        {
+          "q": "Får man dricka alkohol utomhus i Finland?",
+          "a": "I regel ja. Sedan alkohollagsreformen 2018 är det tillåtet för vuxna att dricka på allmänna platser som parker och stränder, så länge du inte stör andra eller orsakar ordningsstörning. Enskilda kommuner kan fortfarande begränsa det på vissa platser (till exempel torg eller lekplatser), och att vara berusad och stökig offentligt är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
+        },
+        {
+          "q": "Vilka är de typiska öppettiderna för barer i Lappland?",
+          "a": "De flesta pubar öppnar på eftermiddagen och serverar till runt midnatt på vardagar, med senare stängning (ofta klockan 02 eller 04) på fredagar och lördagar i skidorterna. Enligt serveringslagen får alkohol säljas till klockan 01.30, och det krävs ett förlängt tillstånd för att servera senare. Tiderna växlar med säsongen: barerna på orterna har långa kvällar under vintersäsongen och kortare tider under de lugna mellansäsongerna, så det lönar sig att kolla med stället direkt innan du ger dig ut."
+        },
+        {
+          "q": "Vilka lokala drycker bör jag prova i Lappland?",
+          "a": "Håll utkik efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar, ofta serverad kyld eller rörd i en cocktail. Lokal hantverksöl är också värd att leta upp: bryggerier som Lapland Brewery i Rovaniemi och Lapon Panimo i Saariselkä brygger med arktiskt vatten och råvaror från skogen som granskott och lingon. För något klassiskt har lagern Lapin Kulta bryggts i Tornio i över 150 år, och Koskenkorva är finländarnas vardagliga sädesbrännvin."
+        },
+        {
+          "q": "Var kan man köpa alkohol i Finland utanför barerna?",
+          "a": "Livsmedelsbutiker och närbutiker säljer öl, cider och andra drycker upp till 5,5 %, oftast till klockan 21. Allt starkare, alltså vin, sprit och starköl, säljs bara på Alko, den statliga kedjan, som har dagtidsöppet och stänger tidigt på lördagar och håller stängt hela söndagen. I mindre byar i Lappland kan närmaste Alko ligga en bit bort, så det lönar sig att fylla på innan du åker ut till en avsides stuga."
+        }
+      ]
     }
   }
 }

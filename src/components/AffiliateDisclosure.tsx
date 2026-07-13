@@ -28,6 +28,7 @@ const DISCLOSURE: Record<Locale, string> = {
   fr: "Cette page contient des liens d'affiliation. Si vous réservez ou achetez via ces liens, LaplandVibes peut percevoir une commission sans coût supplémentaire pour vous.",
   it: 'Questa pagina contiene link di affiliazione. Se prenoti o acquisti tramite essi, LaplandVibes può ricevere una commissione senza costi aggiuntivi per te.',
   nl: 'Deze pagina bevat affiliate-links. Als je hierdoor boekt of koopt, kan LaplandVibes een commissie ontvangen zonder extra kosten voor jou.',
+  sv: 'Den här sidan innehåller affiliatelänkar. Om du bokar eller köper via dem kan LaplandVibes få en provision utan extra kostnad för dig.',
 };
 
 interface AffiliateDisclosureProps {
