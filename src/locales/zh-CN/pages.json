@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "就近入住",
       "title": "下榻在步行可达酒吧的地方",
-      "sub": "挑好喝酒的去处,直接预订旁边的房间。Hotels.com 提供实时空房信息。",
+      "sub": "挑好喝酒的去处,直接预订旁边的房间。Trip.com 提供实时空房信息。",
       "cardCtaLabel": "入住 {{city}}",
       "browseCta": "浏览酒店",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio 雪村 · 森林酒馆",
         "saariselka": "极光酒馆 · 邻近伊纳里/Kakslauttanen"
       },
-      "disclaimer": "Hotels.com 预订通过 go.laplandvibes.com，联盟佣金用于支持本站运营,您无需支付任何额外费用。"
+      "disclaimer": "酒店预订通过 go.laplandvibes.com 跳转至合作伙伴 Trip.com，联盟佣金用于支持本站运营,您无需支付任何额外费用。"
     },
     "faq": {
       "title": "拉普兰酒吧，问与答",
@@ -120,7 +120,7 @@
     "bookDirect": "直接预订",
     "stayBand": {
       "headline": "下榻在步行可达这些 {{city}} 酒吧的地方",
-      "sub": "由 Hotels.com 提供实时空房，直接预订,无额外费用。",
+      "sub": "由 Trip.com 提供实时空房，直接预订,无额外费用。",
       "cta": "{{city}} 的酒店"
     },
     "disclaimer": "价格与营业时间随季节变化。前往之前请直接向场所确认。本指南尽力保持最新,但并非实时预订平台。",

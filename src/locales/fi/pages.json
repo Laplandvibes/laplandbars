@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Yövy lähellä",
       "title": "Nuku kävelymatkan päässä baarista",
-      "sub": "Valitse missä haluat juoda, varaa huone kulman takaa. Reaaliaikainen saatavuus Hotels.comin kautta.",
+      "sub": "Valitse missä haluat juoda, varaa huone kulman takaa. Reaaliaikainen saatavuus Sembon kautta.",
       "cardCtaLabel": "Yövy: {{city}}",
       "browseCta": "Selaa hotelleja",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · metsäpubit",
         "saariselka": "Revontulipubit · Inari ja Kakslauttanen lähellä"
       },
-      "disclaimer": "Hotels.com-varaukset go.laplandvibes.comin kautta. Kumppanikomissio tukee sivustoa ilman lisäkustannuksia sinulle."
+      "disclaimer": "Hotellivaraukset ohjautuvat go.laplandvibes.comin kautta kumppanillemme Sembolle. Kumppanikomissio tukee sivustoa ilman lisäkustannuksia sinulle."
     },
     "faq": {
       "title": "Lapin baarit: kysymykset ja vastaukset",
@@ -120,7 +120,7 @@
     "bookDirect": "Varaa suoraan",
     "stayBand": {
       "headline": "Yövy kävelymatkan päässä {{city}}n baareista",
-      "sub": "Reaaliaikainen saatavuus Hotels.comin kautta. Varaa suoraan, ei piilokuluja.",
+      "sub": "Reaaliaikainen saatavuus Sembon kautta. Varaa suoraan, ei piilokuluja.",
       "cta": "Hotellit: {{city}}"
     },
     "disclaimer": "Hinnat ja aukioloajat vaihtelevat kausittain. Varmista aina suoraan kohteesta ennen vierailua. Tämä opas pidetään niin ajantasaisena kuin mahdollista, mutta se ei ole reaaliaikainen varausalusta.",

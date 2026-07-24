@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Alójese cerca",
       "title": "Alójese a una caminata del bar",
-      "sub": "Elija dónde quiere beber y reserve una habitación al lado. Disponibilidad en tiempo real vía Hotels.com.",
+      "sub": "Elija dónde quiere beber y reserve una habitación al lado. Disponibilidad en tiempo real vía Trip.com.",
       "cardCtaLabel": "Alojarse en {{city}}",
       "browseCta": "Ver hoteles",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Pueblo de nieve de Lainio · pubs de bosque",
         "saariselka": "Pubs con aurora boreal · cerca de Inari/Kakslauttanen"
       },
-      "disclaimer": "Reservas de Hotels.com a través de go.laplandvibes.com, las comisiones de afiliación sostienen el sitio y no tienen coste adicional para usted."
+      "disclaimer": "Las reservas de hotel pasan por go.laplandvibes.com hacia nuestro socio Trip.com, las comisiones de afiliación sostienen el sitio y no tienen coste adicional para usted."
     },
     "faq": {
       "title": "Bares de Laponia, preguntas y respuestas",
@@ -120,7 +120,7 @@
     "bookDirect": "Reserva directa",
     "stayBand": {
       "headline": "Alojamiento a una caminata de los bares de {{city}}",
-      "sub": "Disponibilidad en tiempo real vía Hotels.com, reserva directa, sin cargos adicionales.",
+      "sub": "Disponibilidad en tiempo real vía Trip.com, reserva directa, sin cargos adicionales.",
       "cta": "Hoteles en {{city}}"
     },
     "disclaimer": "Los precios y horarios cambian con la temporada. Confírmalos siempre directamente con el local antes de ir. Esta guía se mantiene lo más actualizada posible, pero no es una plataforma de reservas en tiempo real.",

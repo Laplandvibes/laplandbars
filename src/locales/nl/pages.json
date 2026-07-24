@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Slaap dichtbij",
       "title": "Slaap op loopafstand van de bar",
-      "sub": "Kies de plek waar u wilt drinken en boek een kamer er pal naast. Realtime beschikbaarheid via Hotels.com.",
+      "sub": "Kies de plek waar u wilt drinken en boek een kamer er pal naast. Realtime beschikbaarheid via Trip.com.",
       "cardCtaLabel": "Overnacht in {{city}}",
       "browseCta": "Bekijk hotels",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · bospubs",
         "saariselka": "Noorderlicht-pubs · bij Inari / Kakslauttanen"
       },
-      "disclaimer": "Hotels.com-boekingen lopen via go.laplandvibes.com, affiliatecommissies dragen bij aan de site, zonder dat u extra betaalt."
+      "disclaimer": "Hotelboekingen lopen via go.laplandvibes.com naar onze partner Trip.com, affiliatecommissies dragen bij aan de site, zonder dat u extra betaalt."
     },
     "faq": {
       "title": "Bars in Lapland, vragen en antwoorden",
@@ -120,7 +120,7 @@
     "bookDirect": "Direct boeken",
     "stayBand": {
       "headline": "Slaap op loopafstand van deze bars in {{city}}",
-      "sub": "Realtime beschikbaarheid via Hotels.com, boek rechtstreeks, zonder extra kosten.",
+      "sub": "Realtime beschikbaarheid via Trip.com, boek rechtstreeks, zonder extra kosten.",
       "cta": "Hotels in {{city}}"
     },
     "disclaimer": "Prijzen en openingstijden wisselen per seizoen. Controleer voor uw bezoek altijd direct bij de zaak. Deze gids houden wij zo actueel mogelijk, maar is geen realtime boekingsplatform.",

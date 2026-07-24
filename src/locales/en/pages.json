@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Stay nearby",
       "title": "Sleep Walking Distance from the Bar",
-      "sub": "Pick where you want to drink, book a room around the corner. Live availability via Hotels.com.",
+      "sub": "Pick where you want to drink, book a room around the corner. Live availability via Trip.com.",
       "cardCtaLabel": "Stay in {{city}}",
       "browseCta": "Browse hotels",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · forest pubs",
         "saariselka": "Aurora pubs · Inari/Kakslauttanen close"
       },
-      "disclaimer": "Hotels.com bookings via go.laplandvibes.com, affiliate commission supports the site at no extra cost to you."
+      "disclaimer": "Hotel bookings route through go.laplandvibes.com to our partner Trip.com, affiliate commission supports the site at no extra cost to you."
     },
     "faq": {
       "title": "Lapland Bars, Questions & Answers",
@@ -120,7 +120,7 @@
     "bookDirect": "Book direct",
     "stayBand": {
       "headline": "Stay walking distance from these {{city}} bars",
-      "sub": "Live availability via Hotels.com, book directly, no extra fees.",
+      "sub": "Live availability via Trip.com, book directly, no extra fees.",
       "cta": "Hotels in {{city}}"
     },
     "disclaimer": "Prices and opening hours change seasonally. Always verify directly with the venue before visiting. This guide is maintained as accurately as possible but is not a real-time booking platform.",

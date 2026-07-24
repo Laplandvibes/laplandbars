@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "In der Nähe übernachten",
       "title": "Schlafen Sie in Gehweite zur Bar",
-      "sub": "Wählen Sie, wo Sie trinken möchten, und buchen Sie das Zimmer um die Ecke. Live-Verfügbarkeit über Hotels.com.",
+      "sub": "Wählen Sie, wo Sie trinken möchten, und buchen Sie das Zimmer um die Ecke. Live-Verfügbarkeit über Trip.com.",
       "cardCtaLabel": "Übernachten: {{city}}",
       "browseCta": "Hotels durchstöbern",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · Wald-Pubs",
         "saariselka": "Polarlichter-Pubs · nahe Inari und Kakslauttanen"
       },
-      "disclaimer": "Hotels.com-Buchungen über go.laplandvibes.com, Partner-Provisionen tragen die Seite, ohne dass für Sie Mehrkosten entstehen."
+      "disclaimer": "Hotelbuchungen laufen über go.laplandvibes.com zu unserem Partner Trip.com, Partner-Provisionen tragen die Seite, ohne dass für Sie Mehrkosten entstehen."
     },
     "faq": {
       "title": "Lapplands Bars, Fragen und Antworten",
@@ -120,7 +120,7 @@
     "bookDirect": "Direkt buchen",
     "stayBand": {
       "headline": "Übernachten Sie in Gehweite zu den Bars von {{city}}",
-      "sub": "Live-Verfügbarkeit über Hotels.com, direkt buchen, ohne versteckte Gebühren.",
+      "sub": "Live-Verfügbarkeit über Trip.com, direkt buchen, ohne versteckte Gebühren.",
       "cta": "Hotels: {{city}}"
     },
     "disclaimer": "Preise und Öffnungszeiten variieren saisonal. Bestätigen Sie immer direkt bei der Location, bevor Sie hingehen. Dieser Reiseführer wird so aktuell wie möglich gehalten, ist aber keine Echtzeit-Buchungsplattform.",

@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Bo i närheten",
       "title": "Sov på gångavstånd från baren",
-      "sub": "Välj var du vill dricka och boka ett rum runt hörnet. Aktuell tillgänglighet via Hotels.com.",
+      "sub": "Välj var du vill dricka och boka ett rum runt hörnet. Aktuell tillgänglighet via Trip.com.",
       "cardCtaLabel": "Bo i {{city}}",
       "browseCta": "Bläddra bland hotell",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · skogspubar",
         "saariselka": "Norrskenspubar · nära Inari/Kakslauttanen"
       },
-      "disclaimer": "Bokningar på Hotels.com sker via go.laplandvibes.com; affiliateprovisionen stödjer sajten utan extra kostnad för dig."
+      "disclaimer": "Hotellbokningar går via go.laplandvibes.com till vår partner Trip.com; affiliateprovisionen stödjer sajten utan extra kostnad för dig."
     },
     "faq": {
       "title": "Barer i Lappland, frågor och svar",
@@ -120,7 +120,7 @@
     "bookDirect": "Boka direkt",
     "stayBand": {
       "headline": "Bo på gångavstånd från de här barerna i {{city}}",
-      "sub": "Aktuell tillgänglighet via Hotels.com, boka direkt, utan extra avgifter.",
+      "sub": "Aktuell tillgänglighet via Trip.com, boka direkt, utan extra avgifter.",
       "cta": "Hotell i {{city}}"
     },
     "disclaimer": "Priser och öppettider ändras med säsongen. Bekräfta alltid direkt med stället innan du besöker det. Den här guiden hålls så korrekt som möjligt men är ingen bokningsplattform i realtid.",
