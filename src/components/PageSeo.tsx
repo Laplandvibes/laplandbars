@@ -127,7 +127,8 @@ export function articleSchema(headline: string, description: string, path: strin
     headline,
     description,
     url: `${ORIGIN}${path}`,
-    inLanguage: 'en',
+    // inLanguage intentionally NOT set here — PageSeo's injectInLanguage fills
+    // the current locale's BCP-47 code (a hardcoded 'en' blocked that ×11).
     author: { '@type': 'Organization', name: 'LaplandVibes editorial team', url: 'https://laplandvibes.com' },
     publisher: {
       '@type': 'Organization',

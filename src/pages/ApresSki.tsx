@@ -23,7 +23,7 @@ const spotsMeta = [
     image: BARS.apresSkiLevi,
     venues: [
       { name: 'Hullu Poro Areena', highlight: true },
-      { name: 'Bar Levi Ihku', highlight: false },
+      { name: 'Bar Ihku', highlight: false },
       { name: 'Bar Alakerta', highlight: false },
       { name: 'Pub Hölmölä', highlight: false },
     ],

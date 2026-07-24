@@ -8,6 +8,7 @@ import AffiliateCTA from '../components/AffiliateCTA';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import { gygDeepLink } from '../lib/gyg';
+import { withReferral } from '../lib/withReferral';
 
 type ExpectItem = { title: string; body: string };
 
@@ -70,9 +71,9 @@ export default function IceBars() {
       {/* Ice bar listings */}
       <section className="py-8 pb-20 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Featured image left */}
-            <div className="relative rounded-2xl overflow-hidden h-80 lg:h-auto min-h-[320px]">
+            <div className="relative rounded-2xl overflow-hidden h-80 md:h-auto min-h-[320px]">
               <img
                 src={BARS.iceBarTunnel}
                 alt="Ice bar tunnel"
@@ -82,7 +83,7 @@ export default function IceBars() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
-            <div className="relative rounded-2xl overflow-hidden h-80 lg:h-auto min-h-[320px]">
+            <div className="relative rounded-2xl overflow-hidden h-80 md:h-auto min-h-[320px]">
               <img
                 src={BARS.iceBarDrinks}
                 alt="Drinks on ice bar counter"
@@ -169,7 +170,7 @@ export default function IceBars() {
                   {bar.website && (
                     <div className="mt-3 text-right">
                       <a
-                        href={bar.website}
+                        href={withReferral(bar.website, 'bars_ice_bars')}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1 text-[11px] text-white/65 hover:text-white/80 no-underline transition-colors"
@@ -190,8 +191,8 @@ export default function IceBars() {
 
           {/* Lodging-first band — snow suites are a Lapland icon */}
           <div className="mt-12 bg-gradient-to-br from-ice/[0.06] via-night/0 to-amber/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-              <div className="lg:col-span-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+              <div className="md:col-span-2">
                 <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/15 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-3">
                   <Snowflake size={11} />
                   {t('iceBars.band.kicker')}

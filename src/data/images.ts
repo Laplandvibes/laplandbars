@@ -36,7 +36,7 @@ export const BARS = {
 
   // Craft beer & brewery
   craftBeerGlasses: '/images/drive/craftBeerGlasses.webp', // 16vObeqDMHa2cY_bZtju68h73D446xTh0 — Two beers, snowy window
-  breweryInterior: '/images/drive/breweryInterior.webp',   // 1MFGwHkLMU7R8sA1BQnjIxEpWug3piitz — Lapon Panimo copper tanks
+  breweryInterior: '/images/drive/breweryInterior.webp',   // 1MFGwHkLMU7R8sA1BQnjIxEpWug3piitz — brewery copper tanks (AI, generic)
 
   // Cocktails
   cocktailAurora: '/images/drive/cocktailAurora.webp',  // 1fNE5OsgS-lq4On8usB9cT_XQt7sSDmtM — Blue aurora shimmer cocktails

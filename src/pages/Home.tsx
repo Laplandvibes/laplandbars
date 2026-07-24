@@ -2,7 +2,7 @@ import { ChevronDown, MapPin, ExternalLink, Snowflake, Music, Beer, Hotel, Arrow
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BARS, isSummerSeason } from '../data/images';
-import { getFeaturedBars, cities, pickLocalised } from '../data/bars';
+import { bars, iceBars, getFeaturedBars, cities, pickLocalised } from '../data/bars';
 import PageSeo from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
 import AirportRideAd from '../components/AirportRideAd';
@@ -20,6 +20,11 @@ const barImages: Record<string, string> = {
   'Bar Ihku': BARS.liveMusic,
   'Selvä Pyy': BARS.cabinPubExterior,
   'Gastropub Giitu': BARS.breweryTaps,
+  // Featured gems (added 2026-06-11) — without these three the cards fell
+  // back to the shared hero image and looked like duplicates.
+  'Kauppayhtiö': BARS.pubLaughter,
+  "V'inkkari": BARS.apresToast,
+  'Teerenpesä': BARS.snowyVillageStreet,
 };
 
 const categoryCardsMeta = [
@@ -89,7 +94,6 @@ export default function Home() {
             name: 'LaplandBars: Best Bars, Pubs & Ice Bars in Finnish Lapland',
             url: 'https://laplandbars.com/',
             description: 'Definitive guide to bars and nightlife in Finnish Lapland.',
-            inLanguage: 'en',
           },
           faqPageSchema,
         ]}
@@ -289,19 +293,22 @@ export default function Home() {
             ))}
           </div>
 
-          <div className="mt-16 flex flex-wrap justify-center gap-12 text-center">
-            <div>
-              <p className="font-heading text-4xl text-amber tracking-wide">16</p>
-              <p className="text-white/65 text-sm mt-1">{t('home.destinations.statVenues')}</p>
-            </div>
-            <div>
-              <p className="font-heading text-4xl text-amber tracking-wide">4</p>
-              <p className="text-white/65 text-sm mt-1">{t('home.destinations.statDestinations')}</p>
-            </div>
-            <div>
-              <p className="font-heading text-4xl text-amber tracking-wide">3</p>
-              <p className="text-white/65 text-sm mt-1">{t('home.destinations.statIceBars')}</p>
-            </div>
+          {/* Stat tiles — numbers derived from the live data (bars.ts), never
+              hardcoded: the old "16" survived two directory expansions. */}
+          <div className="mt-16 grid grid-cols-3 gap-3 md:gap-4 max-w-2xl mx-auto">
+            {[
+              { value: bars.length, label: t('home.destinations.statVenues') },
+              { value: cities.length, label: t('home.destinations.statDestinations') },
+              { value: iceBars.length, label: t('home.destinations.statIceBars') },
+            ].map((s) => (
+              <div
+                key={s.label}
+                className="rounded-2xl border border-white/10 bg-night/85 backdrop-blur-md p-4 md:p-5 text-center shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
+              >
+                <p className="font-heading text-4xl md:text-5xl text-amber tracking-wide">{s.value}</p>
+                <p className="text-white/65 text-xs md:text-sm mt-1">{s.label}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>

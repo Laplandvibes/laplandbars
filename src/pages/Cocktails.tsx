@@ -63,13 +63,13 @@ export default function Cocktails() {
             {cocktails.map((c, i) => (
               <div
                 key={c.name}
-                className={`grid grid-cols-1 lg:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'lg:grid-flow-col-dense' : ''}`}
+                className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'md:grid-flow-col-dense' : ''}`}
               >
-                <div className={`relative rounded-2xl overflow-hidden h-72 lg:h-80 ${i % 2 === 1 ? 'lg:col-start-2' : ''}`}>
+                <div className={`relative rounded-2xl overflow-hidden h-72 md:h-80 ${i % 2 === 1 ? 'md:col-start-2' : ''}`}>
                   <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                 </div>
-                <div className={i % 2 === 1 ? 'lg:col-start-1 lg:row-start-1' : ''}>
+                <div className={i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                   <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>
                   <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">{c.name}</h2>
                   <p className="text-white/65 text-sm mb-4 font-mono">{c.ingredients}</p>

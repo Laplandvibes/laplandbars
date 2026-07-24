@@ -12,16 +12,17 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 type Brewery = { name: string; location: string; description: string };
 type Style = { style: string; desc: string };
 
+// Real, verified beers per brewery (Untappd + brewery sites, checked
+// 2026-07-24). The old list ("Arctic Lager", "Spruce Tip Pale Ale", …) was
+// invented, and "Lapon Panimo" was a garbled duplicate of Lapin Panimo.
 const breweryBeers: Record<string, string[]> = {
-  'Lapon Panimo': ['Arctic Lager', 'Spruce Tip Pale Ale', 'Lingonberry Wheat', 'Dark Arctic Porter'],
-  'Tornion Panimo': ['Arctic Circle Ale', 'Border Stout', 'Midnight Sun IPA', 'Nordic Lager'],
-  'Lapland Brewery': ['House Lager', 'Amber Fell Ale', 'Smoked Rye Porter', 'Seasonal specials'],
+  'Lapin Panimo': ['Hippu Lapland Golden Pilsner', 'Saana Lapland Pale Ale', 'Aihki Lapland Dark Lager', 'Saariselkä Pilsner'],
+  'Tornion Panimo': ['Original Lapland Lager', 'Arctic Pale Ale', 'Routa Imperial Stout', 'Laavu Smoky ESB'],
 };
 
 const featuredFlags: Record<string, boolean> = {
-  'Lapon Panimo': true,
+  'Lapin Panimo': true,
   'Tornion Panimo': true,
-  'Lapland Brewery': false,
 };
 
 // Map the page language → GetYourGuide widget locale code, so the embedded tour
@@ -42,7 +43,7 @@ const GYG_FALLBACK_LEAD: Record<string, string> = {
   ja: 'ラップランドの食、テイスティング、醸造関連の体験。リアルタイムの料金と即時確認。',
   es: 'Comida lapona, catas y experiencias cerca de cervecerías: precios en tiempo real y confirmación inmediata.',
   'pt-BR': 'Comida lapônia, degustações e experiências ligadas a cervejarias. Preços em tempo real e confirmação imediata.',
-  'zh-CN': '拉普兰美食、品鉴及酒厂相关体验——实时价格、即时确认。',
+  'zh-CN': '拉普兰美食、品鉴及酒厂相关体验：实时价格、即时确认。',
   ko: '라플란드 음식, 시음, 양조장 관련 체험. 실시간 가격과 즉시 확정.',
   fr: 'Cuisine laponne, dégustations et expériences autour des brasseries. Prix en temps réel et confirmation immédiate.',
   it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici. Prezzi in tempo reale e conferma immediata.',
@@ -132,7 +133,7 @@ const GYG_FALLBACK_CARDS: Array<{
       ja: '蒸気、氷水、その後の一杯。フィンランド流。',
       es: 'Vapor, baño helado y una bebida fría después: muy finlandés.',
       'pt-BR': 'Vapor, mergulho gelado e uma bebida gelada depois. Bem finlandês.',
-      'zh-CN': '蒸汽、冰水、事后一杯冰饮——非常芬兰。',
+      'zh-CN': '蒸汽、冰水、事后一杯冰饮，非常芬兰。',
       ko: '증기, 얼음물 입수, 그리고 시원한 한 잔. 핀란드식.',
       fr: 'Vapeur, bain glacé et une boisson fraîche ensuite. Très finlandais.',
       it: 'Vapore, tuffo nel ghiaccio e una bevanda fredda dopo. Molto finlandese.',
@@ -218,13 +219,13 @@ export default function CraftBeer() {
       {/* Brewery listings */}
       <section className="py-16 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            {/* Mood images — AI-generated, so no real brewery is named in the
+                caption (the old "Lapon Panimo, Saariselkä" was doubly wrong:
+                misspelled brewery, wrong town). */}
             <div className="relative rounded-2xl overflow-hidden h-72">
-              <img src={BARS.breweryInterior} alt="Lapon Panimo brewery" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              <img src={BARS.breweryInterior} alt="Copper brewing tanks in a craft brewery taproom" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
-              <div className="absolute bottom-4 left-4">
-                <p className="text-white/70 text-sm font-medium">Lapon Panimo, Saariselkä</p>
-              </div>
             </div>
             <div className="relative rounded-2xl overflow-hidden h-72">
               <img src={BARS.craftBeerGlasses} alt="Craft beer glasses" loading="lazy" decoding="async" className="w-full h-full object-cover" />
@@ -232,7 +233,7 @@ export default function CraftBeer() {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             {breweries.map((brewery) => {
               const featured = featuredFlags[brewery.name] ?? false;
               const beers = breweryBeers[brewery.name] ?? [];
@@ -377,8 +378,8 @@ export default function CraftBeer() {
       <section className="py-16 bg-night/95">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-amber/[0.06] via-night/0 to-ice/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10">
-            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-              <div className="lg:col-span-2">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
+              <div className="md:col-span-2">
                 <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-3 flex items-center gap-1.5">
                   <Hotel size={11} />
                   {t('craftBeer.stay.kicker')}
@@ -391,15 +392,6 @@ export default function CraftBeer() {
                 </p>
               </div>
               <div className="flex flex-col gap-2">
-                <AffiliateCTA
-                  partner="hotels"
-                  sid="craftbeer_stay_saariselka_lapon"
-                  destination="Saariselkä, Lapland, Finland"
-                  className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-4 py-2.5 rounded-xl text-white text-sm font-semibold transition-all no-underline"
-                >
-                  <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('craftBeer.stay.ctaSaariselka')}</span>
-                  <ExternalLink size={13} className="text-white/75" />
-                </AffiliateCTA>
                 <AffiliateCTA
                   partner="hotels"
                   sid="craftbeer_stay_rovaniemi"

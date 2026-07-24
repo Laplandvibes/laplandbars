@@ -9,6 +9,8 @@ import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import { gygDeepLink } from '../lib/gyg';
+import { withReferral } from '../lib/withReferral';
+import { iceBars } from '../data/bars';
 
 const barImages: Record<string, string> = {
   // Rovaniemi — each unique
@@ -31,6 +33,17 @@ const barImages: Record<string, string> = {
   // Saariselkä — each unique
   'Gastropub Giitu': BARS.breweryTaps,
   'Pirtti Pub & Restaurant': BARS.auroraLounge,
+  // Gems (added 2026-06-11) — each unique; without these the nine cards all
+  // fell back to the same shared hero image.
+  'Kauppayhtiö': BARS.pubLaughter,
+  'Rovaniemen Oluthuone': BARS.terraceLonkero,
+  'MustaKissa Kuppila': BARS.cocktailBerry,
+  'Pub Sarvi': BARS.saunaBeer,
+  'Roy Club': BARS.apresDanceDeck,
+  "V'inkkari": BARS.apresToast,
+  'Restaurant Tuikku': BARS.auroraVillage,
+  'Bar Kaappi': BARS.lonkeroDrink,
+  'Teerenpesä': BARS.snowyVillageStreet,
 };
 
 const cityImages: Record<string, string> = {
@@ -67,8 +80,8 @@ export default function Bars() {
           ),
         ]}
       />
-      {/* Hero */}
-      <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
+      {/* Hero — pb reserves room for the overlapping stat band below */}
+      <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden pb-24 md:pb-28">
         <img
           src={BARS.heroBarsNight}
           alt="Friends walking through snow toward a warmly lit log pub under a starry Lapland night sky"
@@ -87,6 +100,26 @@ export default function Bars() {
           </p>
         </div>
       </section>
+
+      {/* Stat band — glass tiles overlapping the hero; numbers derived from data */}
+      <div className="relative z-10 -mt-14 md:-mt-16 max-w-3xl mx-auto px-4 sm:px-6">
+        <div className="grid grid-cols-3 gap-3 md:gap-4">
+          {[
+            { value: bars.length, label: t('home.destinations.statVenues') },
+            { value: cities.length, label: t('home.destinations.statDestinations') },
+            { value: iceBars.length, label: t('home.destinations.statIceBars') },
+          ].map((s) => (
+            <div
+              key={s.label}
+              className="rounded-2xl border border-white/10 bg-night/85 backdrop-blur-md p-4 md:p-5 text-center shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
+            >
+              <p className="font-heading text-4xl md:text-5xl text-amber tracking-wide">{s.value}</p>
+              <p className="text-white/65 text-xs md:text-sm mt-1">{s.label}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+      <div className="h-8 bg-transparent" aria-hidden="true" />
       <PageBreadcrumb />
 
       {/* City quick pick — jump straight to your town */}
@@ -233,7 +266,7 @@ export default function Bars() {
                                 </a>
                               ) : bar.tour.directBookingUrl ? (
                                 <a
-                                  href={bar.tour.directBookingUrl}
+                                  href={withReferral(bar.tour.directBookingUrl, 'bars_tour_direct')}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
@@ -249,7 +282,7 @@ export default function Bars() {
                           {bar.website && (
                             <div className="mt-3 text-right">
                               <a
-                                href={bar.website}
+                                href={withReferral(bar.website, 'bars_directory')}
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center gap-1 text-[11px] text-white/80 hover:text-white/80 no-underline transition-colors"
