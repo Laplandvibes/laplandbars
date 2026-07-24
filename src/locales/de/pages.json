@@ -358,7 +358,7 @@
         "stayHint": "Santa Holiday Village + Nova Skyland in der Nähe"
       }
     },
-    "verifiedNote": "Angaben am 10.7.2026 auf den Websites der Anbieter geprüft — Preise und Zeiten können sich saisonal ändern."
+    "verifiedNote": "Angaben am 10.7.2026 auf den Websites der Anbieter geprüft. Preise und Zeiten können sich saisonal ändern."
   },
   "apresSki": {
     "title": "Après-Ski in Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -631,16 +631,16 @@
     "lonkero": {
       "title": "Lonkero, geboren für die Olympischen Spiele",
       "body": [
-        "1952 richtete Helsinki die Sommerspiele aus, und Gäste strömten aus aller Welt — weit mehr, als die wenigen Bars der Stadt je hätten bedienen können. Das staatliche Alkoholmonopol Alko wandte sich an das Getränkehaus Hartwall: Gebraucht wurde ein fertig gemischtes Getränk, das an den Olympia-Stätten legal verkauft werden konnte.",
-        "Hartwalls Antwort war der Original Long Drink — finnischer Gin und Grapefruitlimonade, 5,5 % vol. Leicht, frisch, leicht herb. Er sollte nur für die Spiele produziert werden, doch das Publikum entschied anders: Die Nachfrage hielt ihn auch nach Olympia in Produktion. Der Lonkero war geboren.",
-        "Heute ist Lonkero eine Kulturinstitution und eine ganze Getränkekategorie, angeführt nach wie vor von der graublauen Original-Dose. Die Kategorie hat sich bis in die USA verbreitet, wo finnische Gründer den Long Drink zu einer eigenen Marke machten — womöglich der erfolgreichste zufällig entstandene Exportartikel der finnischen Getränkegeschichte."
+        "1952 richtete Helsinki die Sommerspiele aus, und Gäste strömten aus aller Welt, weit mehr, als die wenigen Bars der Stadt je hätten bedienen können. Das staatliche Alkoholmonopol Alko wandte sich an das Getränkehaus Hartwall: Gebraucht wurde ein fertig gemischtes Getränk, das an den Olympia-Stätten legal verkauft werden konnte.",
+        "Hartwalls Antwort war der Original Long Drink: finnischer Gin und Grapefruitlimonade, 5,5 % vol. Leicht, frisch, leicht herb. Er sollte nur für die Spiele produziert werden, doch das Publikum entschied anders: Die Nachfrage hielt ihn auch nach Olympia in Produktion. Der Lonkero war geboren.",
+        "Heute ist Lonkero eine Kulturinstitution und eine ganze Getränkekategorie, angeführt nach wie vor von der graublauen Original-Dose. Die Kategorie hat sich bis in die USA verbreitet, wo finnische Gründer den Long Drink zu einer eigenen Marke machten, womöglich der erfolgreichste zufällig entstandene Exportartikel der finnischen Getränkegeschichte."
       ],
       "brand": {
         "kicker": "Das Original seit 1952",
         "title": "Hartwall Original Long Drink",
         "facts": [
           "Für die Olympischen Spiele 1952 in Helsinki entwickelt, beauftragt vom Staatsmonopol Alko",
-          "Finnischer Gin und Grapefruit — bis heute dasselbe Rezept, 5,5 % vol.",
+          "Finnischer Gin und Grapefruit: bis heute dasselbe Rezept, 5,5 % vol.",
           "Die graublaue Dose gehört in Finnlands Bars, auf Terrassen und zu Saunaabenden dazu"
         ]
       }

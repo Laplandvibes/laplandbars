@@ -358,7 +358,7 @@
         "stayHint": "Santa Holiday Village + Nova Skyland nelle vicinanze"
       }
     },
-    "verifiedNote": "Dati verificati sui siti delle strutture il 10/07/2026 — prezzi e orari possono variare stagionalmente."
+    "verifiedNote": "Dati verificati sui siti delle strutture il 10/07/2026. Prezzi e orari possono variare stagionalmente."
   },
   "apresSki": {
     "title": "Après-ski in Lapponia | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -631,16 +631,16 @@
     "lonkero": {
       "title": "Lonkero, nato per le Olimpiadi",
       "body": [
-        "Nel 1952 Helsinki ospitò le Olimpiadi estive e i visitatori arrivarono da tutto il mondo — molti più di quanti i pochi bar della città potessero servire. Alko, il monopolio statale degli alcolici, si rivolse alla Hartwall: serviva una bevanda già miscelata, vendibile legalmente nei siti olimpici.",
-        "La risposta di Hartwall fu l'Original Long Drink — gin finlandese e soda al pompelmo, 5,5% vol. Leggero, fresco, appena amaro. Doveva essere prodotto solo per i Giochi, ma il pubblico decise diversamente: la domanda lo tenne in produzione anche dopo le Olimpiadi. Era nato il lonkero.",
-        "Oggi il lonkero è un'istituzione culturale e un'intera categoria di bevande, guidata ancora dalla lattina grigio-azzurra dell'Original. La categoria è arrivata fino agli Stati Uniti, dove imprenditori finlandesi hanno trasformato il long drink in un marchio a sé — forse l'esportazione accidentale più riuscita nella storia delle bevande finlandesi."
+        "Nel 1952 Helsinki ospitò le Olimpiadi estive e i visitatori arrivarono da tutto il mondo, molti più di quanti i pochi bar della città potessero servire. Alko, il monopolio statale degli alcolici, si rivolse alla Hartwall: serviva una bevanda già miscelata, vendibile legalmente nei siti olimpici.",
+        "La risposta di Hartwall fu l'Original Long Drink: gin finlandese e soda al pompelmo, 5,5% vol. Leggero, fresco, appena amaro. Doveva essere prodotto solo per i Giochi, ma il pubblico decise diversamente: la domanda lo tenne in produzione anche dopo le Olimpiadi. Era nato il lonkero.",
+        "Oggi il lonkero è un'istituzione culturale e un'intera categoria di bevande, guidata ancora dalla lattina grigio-azzurra dell'Original. La categoria è arrivata fino agli Stati Uniti, dove imprenditori finlandesi hanno trasformato il long drink in un marchio a sé, forse l'esportazione accidentale più riuscita nella storia delle bevande finlandesi."
       ],
       "brand": {
         "kicker": "L'originale dal 1952",
         "title": "Hartwall Original Long Drink",
         "facts": [
           "Creato per le Olimpiadi di Helsinki 1952 su incarico del monopolio statale Alko",
-          "Gin finlandese e pompelmo — la stessa ricetta ancora oggi, 5,5% vol.",
+          "Gin finlandese e pompelmo: la stessa ricetta ancora oggi, 5,5% vol.",
           "La lattina grigio-azzurra è un punto fermo di bar, terrazze e serate in sauna finlandesi"
         ]
       }

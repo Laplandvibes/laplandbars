@@ -33,7 +33,7 @@ export default function DrinkingCulture() {
           pillarBreadcrumb('Drinking Culture', '/drinking-culture'),
           articleSchema(
             'Finnish Drinking Culture in Lapland',
-            'How Finns actually drink — context for visitors.',
+            'How Finns actually drink: context for visitors.',
             '/drinking-culture'
           ),
         ]}
@@ -192,7 +192,7 @@ export default function DrinkingCulture() {
                     <div className="rounded-xl overflow-hidden border border-white/10 bg-black/25">
                       <img
                         src={BARS.lonkeroCan}
-                        alt="Hartwall Original Long Drink — the iconic blue gin & grapefruit can, 5.5%"
+                        alt="Hartwall Original Long Drink, the iconic blue gin & grapefruit can, 5.5%"
                         loading="lazy"
                         decoding="async"
                         className="w-full h-auto object-contain"

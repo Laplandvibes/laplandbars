@@ -358,7 +358,7 @@
         "stayHint": "Santa Holiday Village + Nova Skyland lähellä"
       }
     },
-    "verifiedNote": "Tiedot tarkistettu kohteiden omilta sivuilta 10.7.2026 — hinnat ja ajat voivat muuttua kausittain."
+    "verifiedNote": "Tiedot tarkistettu kohteiden omilta sivuilta 10.7.2026. Hinnat ja ajat voivat muuttua kausittain."
   },
   "apresSki": {
     "title": "Après-ski Lapissa | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -631,16 +631,16 @@
     "lonkero": {
       "title": "Lonkero, syntyi olympialaisia varten",
       "body": [
-        "Vuonna 1952 Helsinki isännöi kesäolympialaisia, ja vieraita virtasi ympäri maailmaa — enemmän kuin kaupungin harvat anniskelupaikat olisivat ikinä ehtineet palvella. Valtion alkoholimonopoli Alko kääntyi Hartwallin puoleen: tarvittiin valmis juomasekoitus, jota voitaisiin myydä laillisesti kisapaikoilla.",
-        "Hartwallin vastaus oli Original Long Drink — suomalaista giniä ja greippisoodaa, 5,5 til-%. Kevyt, raikas, hieman karvas. Sitä piti valmistaa vain kisojen ajan, mutta yleisö päätti toisin: kysyntä piti juoman tuotannossa olympialaisten jälkeenkin. Lonkero oli syntynyt.",
-        "Tänään lonkero on kulttuuri-instituutio ja kokonainen juomakategoria, jonka kärjessä harmaansininen Original-tölkki kulkee yhä. Kategoria on levinnyt maailmalle asti — Yhdysvalloissa suomalaisyrittäjät tekivät long drinkistä oman brändinsä — ja lonkero lienee suomalaisten juomien historian onnistunein puolivahingossa syntynyt vientituote."
+        "Vuonna 1952 Helsinki isännöi kesäolympialaisia, ja vieraita virtasi ympäri maailmaa, enemmän kuin kaupungin harvat anniskelupaikat olisivat ikinä ehtineet palvella. Valtion alkoholimonopoli Alko kääntyi Hartwallin puoleen: tarvittiin valmis juomasekoitus, jota voitaisiin myydä laillisesti kisapaikoilla.",
+        "Hartwallin vastaus oli Original Long Drink: suomalaista giniä ja greippisoodaa, 5,5 til-%. Kevyt, raikas, hieman karvas. Sitä piti valmistaa vain kisojen ajan, mutta yleisö päätti toisin: kysyntä piti juoman tuotannossa olympialaisten jälkeenkin. Lonkero oli syntynyt.",
+        "Tänään lonkero on kulttuuri-instituutio ja kokonainen juomakategoria, jonka kärjessä harmaansininen Original-tölkki kulkee yhä. Kategoria on levinnyt maailmalle asti. Yhdysvalloissa suomalaisyrittäjät tekivät long drinkistä oman brändinsä, ja lonkero lienee suomalaisten juomien historian onnistunein puolivahingossa syntynyt vientituote."
       ],
       "brand": {
         "kicker": "Alkuperäinen vuodesta 1952",
         "title": "Hartwall Original Long Drink",
         "facts": [
           "Kehitetty Helsingin olympialaisiin 1952 Alkon toimeksiannosta",
-          "Suomalaista giniä ja greippiä — sama resepti yhä, 5,5 til-%",
+          "Suomalaista giniä ja greippiä: sama resepti yhä, 5,5 til-%",
           "Harmaansininen tölkki on suomalaisten baarien, terassien ja saunailtojen vakiokalustoa"
         ]
       }

@@ -101,7 +101,7 @@ export const bars: Bar[] = [
     name: 'Lapland Brewery Pub',
     city: 'Rovaniemi',
     type: 'Craft Beer Pub',
-    description: 'The northernmost craft brewery pub in Rovaniemi, serving fresh beers brewed on-site. Lapland Brewery uses pure Arctic water and locally inspired recipes — spruce tip ales, lingonberry wheat, smoked porter. Sit by the tanks and drink what was brewed that week.',
+    description: 'The northernmost craft brewery pub in Rovaniemi, serving fresh beers brewed on-site. Lapland Brewery uses pure Arctic water and locally inspired recipes: spruce tip ales, lingonberry wheat, smoked porter. Sit by the tanks and drink what was brewed that week.',
     highlights: ['House-brewed craft beer', 'Arctic ingredients', 'Brewery tours'],
     price: {
       en: 'Pint ~€7',
@@ -120,7 +120,7 @@ export const bars: Bar[] = [
       label: 'Brewery tour & tasting',
       priceFrom: '€25 / person',
       schedule: 'Friday 17:00 + 18:30 (Dec–Mar weekly)',
-      hint: 'Register by Wed 14:00 — minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.',
+      hint: 'Register by Wed 14:00. Minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.',
       sid: 'bar_lapland_brewery_pub',
       // Verified 2026-05-02: Lapin Panimo's brewery tour is NOT on GYG.
       // Direct pass-through to venue booking page until we negotiate a
@@ -133,7 +133,7 @@ export const bars: Bar[] = [
     name: 'Café & Bar 21',
     city: 'Rovaniemi',
     type: 'Cocktail Bar',
-    description: 'Rovakatu 21, right in the heart of Rovaniemi. The most consistently mentioned bar in the city — a hybrid café by day, cocktail bar by night. Creative drinks, curated wine list, a refined crowd. A favourite of locals and visitors who want something beyond a standard pub.',
+    description: 'Rovakatu 21, right in the heart of Rovaniemi. The most consistently mentioned bar in the city, a hybrid café by day, cocktail bar by night. Creative drinks, curated wine list, a refined crowd. A favourite of locals and visitors who want something beyond a standard pub.',
     highlights: ['Creative cocktails', 'Wine selection', 'City centre location'],
     price: {
       en: 'Cocktail ~€12–15',
@@ -153,7 +153,7 @@ export const bars: Bar[] = [
     name: 'Uitto Pub',
     city: 'Rovaniemi',
     type: 'Traditional Pub',
-    description: 'A legendary Rovaniemi institution. "Comfortable, relaxed, and legendary" — Uitto has been serving locals high-quality beers, drinks, snacks and meals for decades. No pretension, just a good Finnish pub doing what a good Finnish pub should do.',
+    description: 'A legendary Rovaniemi institution. "Comfortable, relaxed, and legendary". Uitto has been serving locals high-quality beers, drinks, snacks and meals for decades. No pretension, just a good Finnish pub doing what a good Finnish pub should do.',
     highlights: ['Local institution', 'Full menu', 'Draft beers'],
     price: {
       en: 'Beer ~€6–7',
@@ -191,7 +191,7 @@ export const bars: Bar[] = [
     name: 'Bull Bar & Grill',
     city: 'Rovaniemi',
     type: 'Bar & Grill',
-    description: 'Located in the Arctic City Hotel building — an American-style grill bar with a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.',
+    description: 'Located in the Arctic City Hotel building, an American-style grill bar with a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.',
     highlights: ['Grill menu', 'Sports bar', 'Hotel location'],
     price: {
       en: 'Mains €14–22',
@@ -210,7 +210,7 @@ export const bars: Bar[] = [
     name: 'Ice Bar @ Arctic SnowHotel',
     city: 'Rovaniemi',
     type: 'Ice Bar Experience',
-    description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi — 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.',
+    description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi, 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.',
     highlights: ['New theme yearly', 'Ice glasses', 'Thermal suits included', '-5°C inside'],
     // Verified from arcticsnowhotel.fi/en/eat-drink/ice-bar/ 2026-07-10:
     // hours 11–22; access requires a Snowhotel entrance ticket (overnight
@@ -244,7 +244,7 @@ export const bars: Bar[] = [
     name: 'Hullu Poro Areena',
     city: 'Levi',
     type: 'Live Music Venue & Après-Ski',
-    description: 'The undisputed king of Lapland après-ski. 1,700-capacity arena right at the base of Levi\'s main slope — Finland\'s biggest après-ski venue. Top Finnish artists, pop stars, rap acts and international DJs perform nightly during ski season. The dance floor fills at 4pm and doesn\'t empty until 2am.',
+    description: 'The undisputed king of Lapland après-ski. 1,700-capacity arena right at the base of Levi\'s main slope, Finland\'s biggest après-ski venue. Top Finnish artists, pop stars, rap acts and international DJs perform nightly during ski season. The dance floor fills at 4pm and doesn\'t empty until 2am.',
     highlights: ['1,700 capacity', 'Top Finnish artists', 'Slope-side location', 'Nightly shows'],
     price: {
       en: 'Entry €0–20 depending on act',
@@ -264,7 +264,7 @@ export const bars: Bar[] = [
     name: 'Bar Ihku',
     city: 'Levi',
     type: 'Nightclub & Bar',
-    description: 'Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm — then you understand why everyone talks about it.',
+    description: 'Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm, then you understand why everyone talks about it.',
     highlights: ['Late-night institution', 'Karaoke nights', 'Local favourite'],
     price: {
       en: 'Beer ~€6–7',
@@ -322,7 +322,7 @@ export const bars: Bar[] = [
     name: 'Bar Alakerta',
     city: 'Levi',
     type: 'Live Music Bar',
-    description: 'Sunny terrace, live music and the legendary Open Stage Jams on Sundays. Alakerta attracts musicians and music lovers — both locals and visiting artists who\'ve heard about the Sunday sessions. Unpretentious, warm, with the kind of atmosphere that happens when people actually love what they\'re doing.',
+    description: 'Sunny terrace, live music and the legendary Open Stage Jams on Sundays. Alakerta attracts musicians and music lovers, both locals and visiting artists who\'ve heard about the Sunday sessions. Unpretentious, warm, with the kind of atmosphere that happens when people actually love what they\'re doing.',
     highlights: ['Sunday Open Stage Jams', 'Live music', 'Sunny terrace'],
     price: {
       en: 'Beer ~€6–7',
@@ -362,7 +362,7 @@ export const bars: Bar[] = [
     name: 'Selvä Pyy',
     city: 'Ylläs',
     type: 'Pub & Restaurant',
-    description: 'The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge — no pretension, just good drinks and easy company.',
+    description: 'The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge: no pretension, just good drinks and easy company.',
     highlights: ['Äkäslompolo village', 'Craft beers', 'Finnish pub food', 'Log cabin vibe'],
     price: {
       en: 'Beer ~€6–7',
@@ -402,7 +402,7 @@ export const bars: Bar[] = [
     name: 'Gastropub Giitu',
     city: 'Saariselkä',
     type: 'Gastropub & Craft Beer',
-    description: 'The best bar in Saariselkä — a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lappish-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.',
+    description: 'The best bar in Saariselkä, a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lappish-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.',
     highlights: ['Craft beer selection', 'Lappish cuisine', 'Modern gastropub'],
     price: {
       en: 'Beer ~€7–8, mains €16–25',
@@ -422,7 +422,7 @@ export const bars: Bar[] = [
     name: 'Pirtti Pub & Restaurant',
     city: 'Saariselkä',
     type: 'Pub & Restaurant',
-    description: 'A traditional Finnish pub-restaurant in Saariselkä serving reliable Finnish food alongside a good selection of drinks. Located in the Santa\'s Hotel Tunturi complex. The kind of place the whole group can agree on — whether you want a burger, a beer, or just somewhere warm to sit after a long Arctic day.',
+    description: 'A traditional Finnish pub-restaurant in Saariselkä serving reliable Finnish food alongside a good selection of drinks. Located in the Santa\'s Hotel Tunturi complex. The kind of place the whole group can agree on, whether you want a burger, a beer, or just somewhere warm to sit after a long Arctic day.',
     highlights: ['Full restaurant menu', 'Traditional Finnish food', 'Hotel complex'],
     price: {
       en: 'Mains €14–22',
@@ -443,7 +443,7 @@ export const bars: Bar[] = [
     name: 'Kauppayhtiö',
     city: 'Rovaniemi',
     type: 'Bar & Live Music',
-    description: 'Valtakatu 24 — part bar, part marketplace, part art gallery. Wood-fired pizza and burgers from the kitchen, DJs spinning into the night, second-hand furniture for sale, and the Edge Gallery of street and pop art on the walls. Nothing in Rovaniemi feels quite like it.',
+    description: 'Valtakatu 24: part bar, part marketplace, part art gallery. Wood-fired pizza and burgers from the kitchen, DJs spinning into the night, second-hand furniture for sale, and the Edge Gallery of street and pop art on the walls. Nothing in Rovaniemi feels quite like it.',
     highlights: ['DJs & live music', 'Wood-fired pizza', 'Street-art gallery'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Valtakatu 24, 96200 Rovaniemi',
@@ -455,7 +455,7 @@ export const bars: Bar[] = [
     name: 'Rovaniemen Oluthuone',
     city: 'Rovaniemi',
     type: 'Beer Bar',
-    description: 'The "Beer Room" on Rovaniemi\'s pedestrian street — a warm beer restaurant with a deep selection of domestic and imported brews plus cocktails and snacks. In summer the terrace and beer garden open up under the midnight sun. A straightforward, well-run place locals keep coming back to.',
+    description: 'The "Beer Room" on Rovaniemi\'s pedestrian street, a warm beer restaurant with a deep selection of domestic and imported brews plus cocktails and snacks. In summer the terrace and beer garden open up under the midnight sun. A straightforward, well-run place locals keep coming back to.',
     highlights: ['Deep beer selection', 'Summer beer garden', 'Pedestrian-street location'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Koskikatu 20, 96200 Rovaniemi',
@@ -466,7 +466,7 @@ export const bars: Bar[] = [
     name: 'MustaKissa Kuppila',
     city: 'Rovaniemi',
     type: 'Cocktail Bar',
-    description: 'A small, cosy den for craft cocktails and local beer, where the drinks lean Arctic and seasonal. MustaKissa doubles as a gallery and concert space — temporary exhibitions on the walls, live music some nights. The kind of low-key spot regulars guard a little jealously.',
+    description: 'A small, cosy den for craft cocktails and local beer, where the drinks lean Arctic and seasonal. MustaKissa doubles as a gallery and concert space: temporary exhibitions on the walls, live music some nights. The kind of low-key spot regulars guard a little jealously.',
     highlights: ['Arctic seasonal cocktails', 'Local craft beer', 'Gallery & live music'],
     price: { en: 'Cocktail ~€12–15', fi: 'Drinkki noin 12–15 €', de: 'Cocktail ~12–15 €' },
     address: 'Kansankatu 2, 96100 Rovaniemi',
@@ -477,7 +477,7 @@ export const bars: Bar[] = [
     name: 'Pub Sarvi',
     city: 'Rovaniemi',
     type: 'Traditional Pub',
-    description: 'A warm, wood-clad neighbourhood pub away from the city-centre crowds. Craft beer on tap, honest shots, and regular live music that pulls in locals who know each other by name. Unpretentious and easy — the sort of pub you settle into for the evening rather than just pass through.',
+    description: 'A warm, wood-clad neighbourhood pub away from the city-centre crowds. Craft beer on tap, honest shots, and regular live music that pulls in locals who know each other by name. Unpretentious and easy, the sort of pub you settle into for the evening rather than just pass through.',
     highlights: ['Craft beer on tap', 'Live music', 'Neighbourhood local'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Hillapolku 9, 96500 Rovaniemi',
@@ -488,7 +488,7 @@ export const bars: Bar[] = [
     name: 'Roy Club',
     city: 'Rovaniemi',
     type: 'Karaoke Bar & Nightclub',
-    description: 'Rovaniemi\'s legendary karaoke bar and nightclub, running since 1985. Two floors: grab the mic on one, hit the dance floor on the other. It opens late and closes later — the place where a Rovaniemi night out tends to end, whether you planned it that way or not.',
+    description: 'Rovaniemi\'s legendary karaoke bar and nightclub, running since 1985. Two floors: grab the mic on one, hit the dance floor on the other. It opens late and closes later, the place where a Rovaniemi night out tends to end, whether you planned it that way or not.',
     highlights: ['Karaoke since 1985', 'Two floors', 'Late-night club'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Maakuntakatu 24, 96200 Rovaniemi',
@@ -499,7 +499,7 @@ export const bars: Bar[] = [
     name: "V'inkkari",
     city: 'Levi',
     type: 'Après-Ski Bar',
-    description: 'A Levi après-ski institution at the foot of the slopes, known far beyond Lapland. Live bands play almost daily through the ski season and the crowd ends up dancing on the tables in ski boots. Easygoing by afternoon, loud and packed by evening — pure Levi après.',
+    description: 'A Levi après-ski institution at the foot of the slopes, known far beyond Lapland. Live bands play almost daily through the ski season and the crowd ends up dancing on the tables in ski boots. Easygoing by afternoon, loud and packed by evening: pure Levi après.',
     highlights: ['Live bands daily', 'Slope-side après', 'Dancing in ski boots'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Hissitie 6, 99130 Levi',
@@ -511,18 +511,18 @@ export const bars: Bar[] = [
     name: 'Restaurant Tuikku',
     city: 'Levi',
     type: 'Fell-Top Restaurant & Après-Ski',
-    description: 'Levi\'s oldest fell-top restaurant, perched at the summit with panoramic views across the Western Lapland fells. Reach it on skis, by snowmobile, on foot — or by helicopter via the summit road. Lunch by day, the "Master of After Ski" by afternoon when the winter season is on.',
+    description: 'Levi\'s oldest fell-top restaurant, perched at the summit with panoramic views across the Western Lapland fells. Reach it on skis, by snowmobile, on foot, or by helicopter via the summit road. Lunch by day, the "Master of After Ski" by afternoon when the winter season is on.',
     highlights: ['Summit panoramic views', 'Arrive by ski or helicopter', 'Legendary après'],
     price: { en: 'Lunch / mains €15–25', fi: 'Lounas / pääruoat 15–25 €', de: 'Mittag / Hauptgerichte 15–25 €' },
     address: 'Tuikuntie 11, 99130 Levi',
     website: 'https://www.levi.fi/en/services/panoramic-restaurant-tuikku/',
-    hours: { en: 'Daily 11–16 (summer); après-ski hours in winter — check venue', fi: 'Päivittäin 11–16 (kesä); talvella après-ski-ajat — tarkista paikasta', de: 'Täglich 11–16 (Sommer); im Winter Après-Ski-Zeiten — beim Lokal prüfen' },
+    hours: { en: 'Daily 11–16 (summer); après-ski hours in winter. Check venue', fi: 'Päivittäin 11–16 (kesä); talvella après-ski-ajat. Tarkista paikasta', de: 'Täglich 11–16 (Sommer); im Winter Après-Ski-Zeiten. Beim Lokal prüfen' },
   },
   {
     name: 'Bar Kaappi',
     city: 'Ylläs',
     type: 'Après-Ski Bar',
-    description: 'A lounge-style après-ski bar in the heart of Ylläsjärvi, with a wide drinks list, special beers and cocktails — and the famous "Hattivatti" mocktail families come in for before 10pm. Through winter it runs live music nights and pub quizzes. Out front sits the Ford Sierra from the Lapland Odyssey films.',
+    description: 'A lounge-style après-ski bar in the heart of Ylläsjärvi, with a wide drinks list, special beers and cocktails, and the famous "Hattivatti" mocktail families come in for before 10pm. Through winter it runs live music nights and pub quizzes. Out front sits the Ford Sierra from the Lapland Odyssey films.',
     highlights: ['Hattivatti mocktail', 'Special beers & cocktails', 'Live music & quizzes'],
     price: { en: 'Beer ~€6–7', fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €' },
     address: 'Vaeltajantie 2, 95980 Ylläsjärvi',
@@ -567,7 +567,7 @@ export const iceBars: IceBar[] = [
   {
     name: 'SnowVillage IceBar',
     location: 'Lainio, Ylläs',
-    description: 'Carved entirely from snow and ice each winter by international ice artists. New theme and sculptures every season. Drinks served in glasses made of pure Arctic ice. Part of the Snow Village complex — combine it with a night in a snow suite.',
+    description: 'Carved entirely from snow and ice each winter by international ice artists. New theme and sculptures every season. Drinks served in glasses made of pure Arctic ice. Part of the Snow Village complex. Combine it with a night in a snow suite.',
     highlight: 'New ice sculptures every winter',
     temp: {
       en: '-5°C inside',
@@ -578,9 +578,9 @@ export const iceBars: IceBar[] = [
     // ice bar is included in the exhibition ticket (hot drink or drink in an
     // ice shot glass); venue publishes prices seasonally.
     price: {
-      en: 'Exhibition ticket incl. a drink in an ice glass — prices on venue site',
-      fi: 'Näyttelylippu sis. juoman jäälasissa — hinnat kohteen sivulta',
-      de: 'Eintritt inkl. Getränk im Eisglas — Preise auf der Website',
+      en: 'Exhibition ticket incl. a drink in an ice glass. Prices on venue site',
+      fi: 'Näyttelylippu sis. juoman jäälasissa. Hinnat kohteen sivulta',
+      de: 'Eintritt inkl. Getränk im Eisglas. Preise auf der Website',
     },
     season: {
       en: 'Opens Dec 25, 2026 (rebuilt every autumn)',
@@ -638,7 +638,7 @@ export const iceBars: IceBar[] = [
   {
     name: 'Snowman World Ice Bar',
     location: 'Santa Claus Village, Rovaniemi',
-    description: 'Inside the legendary Snowman World at Santa Claus Village — a different kind of ice bar experience, more family-friendly and accessible. Hot drinks and cold cocktails served amid snow sculptures. Good option if you\'re combining the ice bar with a Santa visit.',
+    description: 'Inside the legendary Snowman World at Santa Claus Village, a different kind of ice bar experience, more family-friendly and accessible. Hot drinks and cold cocktails served amid snow sculptures. Good option if you\'re combining the ice bar with a Santa visit.',
     highlight: 'Santa Claus Village location',
     temp: {
       en: 'Outdoors / covered',
@@ -649,9 +649,9 @@ export const iceBars: IceBar[] = [
     // free), season Dec 6, 2026 – Mar 17, 2027; ice bar drinks purchased
     // separately at the bar.
     price: {
-      en: 'Snowman World entry €35 — Ice Bar drinks separately',
-      fi: 'Snowman World -lippu 35 € — jääbaarin juomat erikseen',
-      de: 'Snowman-World-Ticket 35 € — Getränke an der Eisbar separat',
+      en: 'Snowman World entry €35. Ice Bar drinks separately',
+      fi: 'Snowman World -lippu 35 €. Jääbaarin juomat erikseen',
+      de: 'Snowman-World-Ticket 35 €. Getränke an der Eisbar separat',
     },
     season: {
       en: 'Dec 6, 2026 – Mar 17, 2027',

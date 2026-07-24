@@ -358,7 +358,7 @@
         "stayHint": "Santa Holiday Village + Nova Skyland i närheten"
       }
     },
-    "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026 — priser och tider kan ändras med säsongen."
+    "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026. Priser och tider kan ändras med säsongen."
   },
   "apresSki": {
     "title": "Afterski i Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -631,16 +631,16 @@
     "lonkero": {
       "title": "Lonkero, född till OS",
       "body": [
-        "År 1952 stod Helsingfors värd för sommar-OS och besökare strömmade in från hela världen — långt fler än stadens få krogar med serveringstillstånd någonsin kunde blanda drinkar åt. Alko, det statliga alkoholmonopolet, vände sig till dryckesföretaget Hartwall: det som behövdes var en färdigblandad dryck som lagligt kunde säljas på OS-arenorna.",
-        "Hartwalls svar var Original Long Drink — finsk gin och grapefruktläsk, 5,5 %. Lätt, frisk, lite bitter. Den var tänkt att bara tillverkas för spelen, men publiken hade andra planer: efterfrågan höll den i produktion efter att OS tagit slut. Lonkeron var född.",
-        "Idag är lonkero en kulturell institution och en hel dryckeskategori, fortfarande ledd av den gråblå Original-burken. Kategorin har spridit sig långt utanför Finland — i USA gjorde finska entreprenörer long drink till ett eget varumärke — vilket gör lonkeron kanske till den mest lyckade oavsiktliga exporten i finsk dryckeshistoria."
+        "År 1952 stod Helsingfors värd för sommar-OS och besökare strömmade in från hela världen, långt fler än stadens få krogar med serveringstillstånd någonsin kunde blanda drinkar åt. Alko, det statliga alkoholmonopolet, vände sig till dryckesföretaget Hartwall: det som behövdes var en färdigblandad dryck som lagligt kunde säljas på OS-arenorna.",
+        "Hartwalls svar var Original Long Drink: finsk gin och grapefruktläsk, 5,5 %. Lätt, frisk, lite bitter. Den var tänkt att bara tillverkas för spelen, men publiken hade andra planer: efterfrågan höll den i produktion efter att OS tagit slut. Lonkeron var född.",
+        "Idag är lonkero en kulturell institution och en hel dryckeskategori, fortfarande ledd av den gråblå Original-burken. Kategorin har spridit sig långt utanför Finland. I USA gjorde finska entreprenörer long drink till ett eget varumärke, vilket gör lonkeron kanske till den mest lyckade oavsiktliga exporten i finsk dryckeshistoria."
       ],
       "brand": {
         "kicker": "Originalet sedan 1952",
         "title": "Hartwall Original Long Drink",
         "facts": [
           "Skapad till OS i Helsingfors 1952, på beställning av statsmonopolet Alko",
-          "Finsk gin och grapefrukt — samma recept än idag, 5,5 %",
+          "Finsk gin och grapefrukt: samma recept än idag, 5,5 %",
           "Den gråblå burken är ett fast inslag på finska barer, terrasser och bastukvällar"
         ]
       }

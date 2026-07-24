@@ -86,7 +86,7 @@ export default function Home() {
         jsonLd={[
           {
             '@type': 'WebPage',
-            name: 'LaplandBars — Best Bars, Pubs & Ice Bars in Finnish Lapland',
+            name: 'LaplandBars: Best Bars, Pubs & Ice Bars in Finnish Lapland',
             url: 'https://laplandbars.com/',
             description: 'Definitive guide to bars and nightlife in Finnish Lapland.',
             inLanguage: 'en',

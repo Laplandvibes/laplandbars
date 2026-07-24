@@ -30,7 +30,7 @@ export default function Newsletter() {
     setError(null);
     try {
       if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
-        throw new Error('Newsletter is offline — try again later');
+        throw new Error('Newsletter is offline. Try again later');
       }
       const res = await fetch(`${SUPABASE_URL}/functions/v1/send-welcome-email`, {
         method: 'POST',

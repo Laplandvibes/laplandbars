@@ -358,7 +358,7 @@
         "stayHint": "Santa Holiday Village + Nova Skyland nearby"
       }
     },
-    "verifiedNote": "Details checked against the venues' own sites on Jul 10, 2026 — prices and hours may change seasonally."
+    "verifiedNote": "Details checked against the venues' own sites on Jul 10, 2026. Prices and hours may change seasonally."
   },
   "apresSki": {
     "title": "Après-Ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
@@ -631,16 +631,16 @@
     "lonkero": {
       "title": "Lonkero, Born for the Olympics",
       "body": [
-        "In 1952, Helsinki hosted the Summer Olympics and visitors poured in from around the world — far more than the city's few licensed bars could ever mix drinks for. Alko, the state alcohol monopoly, turned to the Hartwall beverage company: what was needed was a ready-mixed drink that could legally be sold at the Olympic venues.",
-        "Hartwall's answer was the Original Long Drink — Finnish gin and grapefruit soda, 5.5% ABV. Light, crisp, slightly bitter. It was meant to be produced only for the Games, but the public had other plans: demand kept it in production after the Olympics ended. The lonkero was born.",
-        "Today lonkero is a cultural institution and an entire drinks category, still led by the grey-blue Original can. The category has spread far beyond Finland — in the United States, Finnish entrepreneurs turned the long drink into a brand of its own — making lonkero perhaps the most successful accidental export in the history of Finnish drinks."
+        "In 1952, Helsinki hosted the Summer Olympics and visitors poured in from around the world, far more than the city's few licensed bars could ever mix drinks for. Alko, the state alcohol monopoly, turned to the Hartwall beverage company: what was needed was a ready-mixed drink that could legally be sold at the Olympic venues.",
+        "Hartwall's answer was the Original Long Drink: Finnish gin and grapefruit soda, 5.5% ABV. Light, crisp, slightly bitter. It was meant to be produced only for the Games, but the public had other plans: demand kept it in production after the Olympics ended. The lonkero was born.",
+        "Today lonkero is a cultural institution and an entire drinks category, still led by the grey-blue Original can. The category has spread far beyond Finland: in the United States, Finnish entrepreneurs turned the long drink into a brand of its own, making lonkero perhaps the most successful accidental export in the history of Finnish drinks."
       ],
       "brand": {
         "kicker": "The original since 1952",
         "title": "Hartwall Original Long Drink",
         "facts": [
           "Created for the 1952 Helsinki Olympics, commissioned by state monopoly Alko",
-          "Finnish gin and grapefruit — the same recipe to this day, 5.5% ABV",
+          "Finnish gin and grapefruit: the same recipe to this day, 5.5% ABV",
           "The grey-blue can is a fixture of Finnish bars, terraces and sauna evenings"
         ]
       }
