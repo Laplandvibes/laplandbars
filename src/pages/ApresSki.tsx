@@ -10,11 +10,14 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 import { useLocale } from '../i18n/useLocale';
 
 // Hotel search query + sid per resort (for Hotels.com via go.laplandvibes.com)
+// Single-part place names only ("X, Finland") — "X, Lapland, Finland" can hit
+// a HOTEL in Sembo's autosuggest. Ylläs searches use the main village
+// Äkäslompolo (13 Sembo properties vs 3 on the bare "Ylläs" polygon).
 const resortStays: Record<string, { query: string; sid: string; hintKey: string }> = {
-  Levi: { query: 'Levi, Lapland, Finland', sid: 'apres_stay_levi', hintKey: 'Levi' },
-  'Ylläs': { query: 'Ylläs, Lapland, Finland', sid: 'apres_stay_yllas', hintKey: 'Yllas' },
-  'Saariselkä': { query: 'Saariselkä, Lapland, Finland', sid: 'apres_stay_saariselka', hintKey: 'Saariselka' },
-  'Pyhä': { query: 'Pyhä, Lapland, Finland', sid: 'apres_stay_pyha', hintKey: 'Pyha' },
+  Levi: { query: 'Levi, Finland', sid: 'apres_stay_levi', hintKey: 'Levi' },
+  'Ylläs': { query: 'Äkäslompolo, Finland', sid: 'apres_stay_yllas', hintKey: 'Yllas' },
+  'Saariselkä': { query: 'Saariselkä, Finland', sid: 'apres_stay_saariselka', hintKey: 'Saariselka' },
+  'Pyhä': { query: 'Pyhä, Finland', sid: 'apres_stay_pyha', hintKey: 'Pyha' },
 };
 
 const spotsMeta = [
@@ -197,7 +200,7 @@ export default function ApresSki() {
               <AffiliateCTA
                 partner="hotels"
                 sid="apres_band_saariselka"
-                destination="Saariselkä, Lapland, Finland"
+                destination="Saariselkä, Finland"
                 className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-5 py-3 rounded-xl text-white text-sm font-semibold transition-all no-underline"
               >
                 <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('apresSki.north.saariselka')}</span>
@@ -206,7 +209,7 @@ export default function ApresSki() {
               <AffiliateCTA
                 partner="hotels"
                 sid="apres_band_pyha"
-                destination="Pyhä, Lapland, Finland"
+                destination="Pyhä, Finland"
                 className="inline-flex items-center justify-between gap-2 bg-white/[0.04] hover:bg-white/[0.08] border border-white/10 hover:border-amber/30 px-5 py-3 rounded-xl text-white text-sm font-semibold transition-all no-underline"
               >
                 <span className="flex items-center gap-2"><Hotel size={14} className="text-amber" /> {t('apresSki.north.pyha')}</span>

@@ -338,7 +338,7 @@ export default function Home() {
                 key={d.cityKey}
                 partner="hotels"
                 sid={d.sid}
-                destination={`${d.cityKey}, Lapland, Finland`}
+                destination={`${d.cityKey === 'Ylläs' ? 'Äkäslompolo' : d.cityKey}, Finland`}
                 className="group bg-white/[0.03] border border-white/10 hover:border-amber/40 rounded-2xl p-5 transition-all duration-300 hover:bg-white/[0.05] no-underline flex flex-col"
               >
                 <div className="flex items-center gap-2 text-amber/80 group-hover:text-amber text-xs uppercase tracking-widest mb-3 transition-colors">

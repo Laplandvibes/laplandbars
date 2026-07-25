@@ -315,7 +315,7 @@ export default function Bars() {
                   <AffiliateCTA
                     partner="hotels"
                     sid={`bars_city_stay_${city.toLowerCase().replace(/[^a-z]/g, '')}`}
-                    destination={`${city}, Lapland, Finland`}
+                    destination={`${city === 'Ylläs' ? 'Äkäslompolo' : city}, Finland`}
                     className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
                   >
                     {t('bars.stayBand.cta', { city })}
