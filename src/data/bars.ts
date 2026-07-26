@@ -98,17 +98,23 @@ export const cities = ['Rovaniemi', 'Levi', 'Ylläs', 'Saariselkä'];
 export const bars: Bar[] = [
   // ROVANIEMI
   {
-    name: 'Lapland Brewery Pub',
+    // Verified 2026-07-26 against lapinpanimo.fi: the business is "Lapland
+    // Brewery" (fi: Lapin Panimo), not "Lapland Brewery Pub"; Google Places
+    // lists it as "Lapland Brewery" at Teollisuustie 14 B. The old copy placed
+    // it in the city centre — Teollisuustie is an industrial estate outside it.
+    // The named beer styles were unverifiable and have been dropped rather than
+    // replaced with invented ones.
+    name: 'Lapland Brewery',
     city: 'Rovaniemi',
-    type: 'Craft Beer Pub',
-    description: 'The northernmost craft brewery pub in Rovaniemi, serving fresh beers brewed on-site. Lapland Brewery uses pure Arctic water and locally inspired recipes: spruce tip ales, lingonberry wheat, smoked porter. Sit by the tanks and drink what was brewed that week.',
-    highlights: ['House-brewed craft beer', 'Arctic ingredients', 'Brewery tours'],
+    type: 'Brewery Taproom',
+    description: "Rovaniemi's own brewery, out on Teollisuustie a short drive from the centre rather than in town. Beers are brewed on site and poured in the taproom beside the tanks. The brewery describes itself as Finland's northernmost. The Friday tour and tasting needs booking in advance.",
+    highlights: ['House-brewed beer', 'Taproom beside the tanks', 'Brewery tours'],
     price: {
       en: 'Pint ~€7',
       fi: 'Tuoppi noin 7 €',
       de: 'Pint ~7 €',
     },
-    address: 'Teollisuustie 14, 96320 Rovaniemi',
+    address: 'Teollisuustie 14 B, 96320 Rovaniemi',
     website: 'https://lapinpanimo.fi/en/',
     hours: {
       en: 'Mon–Fri 09–21, Sat 12–21, Sun closed',
@@ -244,8 +250,13 @@ export const bars: Bar[] = [
     name: 'Hullu Poro Areena',
     city: 'Levi',
     type: 'Live Music Venue & Après-Ski',
-    description: 'The undisputed king of Lapland après-ski. 1,700-capacity arena right at the base of Levi\'s main slope, Finland\'s biggest après-ski venue. Top Finnish artists, pop stars, rap acts and international DJs perform nightly during ski season. The dance floor fills at 4pm and doesn\'t empty until 2am.',
-    highlights: ['1,700 capacity', 'Top Finnish artists', 'Slope-side location', 'Nightly shows'],
+    // Verified 2026-07-26 against hulluporo.fi: the venue states "up to 1700
+    // people ... over Areena's two floors", "ten bars and a large dance floor",
+    // and that it opened in 2001. It does NOT claim to be Finland's biggest
+    // après-ski venue — that superlative was ours and is unverifiable, so it is
+    // replaced with the operator's own numbers.
+    description: "Levi's big room, at the foot of the main slope. Up to 1,700 people across two floors, ten bars and a large dance floor. Finnish headliners and DJs through the ski season. It has been running since 2001.",
+    highlights: ['1,700 capacity', 'Ten bars, two floors', 'Slope-side location', 'Open since 2001'],
     price: {
       en: 'Entry €0–20 depending on act',
       fi: 'Sisäänpääsy 0–20 € esiintyjästä riippuen',
@@ -272,7 +283,9 @@ export const bars: Bar[] = [
       de: 'Bier ~6–7 €',
     },
     address: 'Keskuskuja 3 A, 99130 Levi',
-    website: 'https://ihkubar.fi',
+    // 2026-07-26: ihkubar.fi no longer resolves to the venue (TLS cert belongs
+    // to wisenetwork.fi). The chain's own site is barihku.fi; Levi page below.
+    website: 'https://barihku.fi/levi',
     hours: {
       en: 'Karaoke from 18:00, club 22:00–04:00',
       fi: 'Karaoke alkaen 18:00, klubi 22:00–04:00',
@@ -300,7 +313,9 @@ export const bars: Bar[] = [
     },
   },
   {
-    name: 'Pub Sohva',
+    // Verified 2026-07-26 against pubsohva.fi: the venue trades as "Public
+    // House Sohva". Google Places lists it as "Public House Sohva levi".
+    name: 'Public House Sohva',
     city: 'Levi',
     type: 'Beer Restaurant',
     description: 'A warm and helpful beer restaurant along Levi\'s main street. Sohva is the kind of place you walk into planning one drink and leave three hours later. Good beer selection, decent food, friendly service. The daytime crowd flows straight into the evening one.',
@@ -382,8 +397,12 @@ export const bars: Bar[] = [
     name: 'Pirtukellari Night Club',
     city: 'Ylläs',
     type: 'Nightclub',
-    description: 'The only proper nightclub in the Ylläs area, located inside Lapland Hotels Äkäshotelli. When the pubs wind down, the party moves underground to Pirtukellari. DJs, dancing, and a surprisingly packed floor for a village of 400 people. Peak season Fridays are genuinely wild.',
-    highlights: ['Ylläs only nightclub', 'DJs & dancing', 'Inside Lapland Hotels'],
+    // Verified 2026-07-26: Pirtukellari is at Lapland Hotels Äkäshotelli, in the
+    // same building as the Pirtukirkko restaurant. The "only nightclub in Ylläs"
+    // claim is dropped — the hotel's own listings name Parvi as a second
+    // late-night option — as is the unsourced "village of 400 people" figure.
+    description: 'The nightclub at Lapland Hotels Äkäshotelli, in the same building as the Pirtukirkko restaurant. When the pubs wind down, the party moves downstairs: DJs, dancing, and a floor that fills fast in peak season.',
+    highlights: ['Inside Lapland Hotels Äkäshotelli', 'DJs & dancing', 'Late weekend hours'],
     price: {
       en: 'Beer ~€6–7',
       fi: 'Olut noin 6–7 €',
@@ -418,25 +437,14 @@ export const bars: Bar[] = [
     },
     featured: true,
   },
-  {
-    name: 'Pirtti Pub & Restaurant',
-    city: 'Saariselkä',
-    type: 'Pub & Restaurant',
-    description: 'A traditional Finnish pub-restaurant in Saariselkä serving reliable Finnish food alongside a good selection of drinks. Located in the Santa\'s Hotel Tunturi complex. The kind of place the whole group can agree on, whether you want a burger, a beer, or just somewhere warm to sit after a long Arctic day.',
-    highlights: ['Full restaurant menu', 'Traditional Finnish food', 'Hotel complex'],
-    price: {
-      en: 'Mains €14–22',
-      fi: 'Pääruoat 14–22 €',
-      de: 'Hauptgerichte 14–22 €',
-    },
-    address: 'Honkapolku 2, 99830 Saariselkä',
-    website: 'https://pirkonpirtti.fi/',
-    hours: {
-      en: 'Daily 15–21',
-      fi: 'Päivittäin 15–21',
-      de: 'Täglich 15–21',
-    },
-  },
+  // REMOVED 2026-07-26 — "Pirtti Pub & Restaurant" was not a real business.
+  // Google Places Text Search returned zero candidates for the name. The
+  // website on the entry (pirkonpirtti.fi) belongs to Ravintola Pirkon Pirtti,
+  // Honkapolku 2, 99800 Saariselkä (the entry had 99830), which its own site
+  // describes as a traditional à la carte restaurant with no bar or pub, and
+  // which is independent rather than part of the Santa's Hotel Tunturi complex
+  // as the copy claimed. A restaurant with no bar does not belong in a bars and
+  // pubs guide, so the card is removed rather than relabelled.
 
   // --- GEMS added 2026-06-11 (verified addresses/hours) ---
   {

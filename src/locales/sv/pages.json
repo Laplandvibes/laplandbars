@@ -64,11 +64,11 @@
         },
         {
           "q": "Var finns de bästa afterski-barerna i Levi och Ylläs?",
-          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och är Finlands största afterski-ställe, med finska liveartister och plats för 1 700 personer; Bar Ihku och Pub Hölmölä tar hand om de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar över när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
+          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och rymmer upp till 1 700 personer på två våningar, med tio barer och finska liveakter. Bar Ihku och Pub Hölmölä tar de sena timmarna. På Ylläs-sidan är Selvä Pyy i Äkäslompolo by samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar vid när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
         },
         {
           "q": "Får man dricka alkohol utomhus i Finland?",
-          "a": "I regel ja. Sedan alkohollagsreformen 2018 är det tillåtet för vuxna att dricka på allmänna platser som parker och stränder, så länge du inte stör andra eller orsakar ordningsstörning. Enskilda kommuner kan fortfarande begränsa det på vissa platser (till exempel torg eller lekplatser), och att vara berusad och stökig offentligt är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
+          "a": "I stort sett ja, med ett förbehåll. Finlands ordningslag förbjuder att dricka på allmän plats, men undantar uttryckligen parker och jämförbara allmänna områden så länge du inte hindrar andra eller stör. Kommuner kan fortfarande begränsa enskilda platser som torg eller lekparker, och att vara berusad och störa ordningen är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
         },
         {
           "q": "Vilka är de typiska öppettiderna för barer i Lappland?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "Vilka lokala drycker bör jag prova i Lappland?",
-          "a": "Håll utkik efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar, ofta serverad kyld eller rörd i en cocktail. Lokal hantverksöl är också värd att leta upp: bryggerier som Lapland Brewery i Rovaniemi och Lapon Panimo i Saariselkä brygger med arktiskt vatten och råvaror från skogen som granskott och lingon. För något klassiskt har lagern Lapin Kulta bryggts i Tornio i över 150 år, och Koskenkorva är finländarnas vardagliga sädesbrännvin."
+          "a": "Leta efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar och ofta serveras kylt eller i en drink. Lokal hantverksöl är också värd att leta upp: Lapland Brewery i Rovaniemi och Tornion Panimo i Tornio brygger båda med arktiskt vatten. Som klassiker finns Lapin Kulta, grundat i Tornio 1873, även om produktionen flyttade till Lahtis 2010, och Koskenkorva är den finska vardagsbrännvinet av säd."
         },
         {
           "q": "Var kan man köpa alkohol i Finland utanför barerna?",
@@ -128,24 +128,9 @@
       "Rovaniemi": "Arktis huvudstad efter mörkrets inbrott: hantverksbryggeriers pubar, cocktailbarer och en bar som faktiskt är gjord av is.",
       "Levi": "Finlands afterski-huvudstad. Hullu Poro Areena rymmer 1 700 personer. Fjället stänger klockan 16 och festen börjar 16.01.",
       "Yllas": "Lugnare än Levi, varmare än någon annanstans. Mysiga fjällpubar där lokalbor och besökare blandas utan tillgjordhet.",
-      "Saariselka": "Avsides, mörkt och förvånansvärt välsorterat. Gastropub Giitu har ett av de bästa hantverksölsutbuden norr om polcirkeln."
+      "Saariselka": "Avlägset, mörkt och förvånansvärt välsorterat. Gastropub Giitu har en ölmeny som gör resan så här långt norrut värd besväret."
     },
     "venues": {
-      "Lapland Brewery Pub": {
-        "type": "Hantverksölspub",
-        "description": "Den nordligaste hantverksbryggeripuben i Rovaniemi, som serverar färsk öl bryggd på plats. Lapland Brewery använder rent arktiskt vatten och lokalt inspirerade recept: granskottsale, lingonveteöl, rökt porter. Sätt dig vid tankarna och drick det som bryggdes den veckan.",
-        "highlights": [
-          "Egenbryggd hantverksöl",
-          "Arktiska råvaror",
-          "Bryggerirundturer"
-        ],
-        "tour": {
-          "label": "Bryggerirundtur och provsmakning",
-          "schedule": "Fredag 17.00 + 18.30 (dec–mars varje vecka)",
-          "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
-          "directLabel": "Boka på lapinpanimo.fi"
-        }
-      },
       "Café & Bar 21": {
         "type": "Cocktailbar",
         "description": "Rovakatu 21, mitt i hjärtat av Rovaniemi. Den bar som nämns mest konsekvent i staden: café på dagen, cocktailbar på kvällen. Kreativa drinkar, en genomtänkt vinlista, en stilfull publik. En favorit bland lokalbor och besökare som vill ha något utöver en vanlig pub.",
@@ -200,12 +185,12 @@
       },
       "Hullu Poro Areena": {
         "type": "Livemusikscen och afterski",
-        "description": "Den obestridda kungen av Lapplands afterski. En arena med plats för 1 700 personer precis vid foten av Levis huvudbacke, Finlands största afterski-ställe. Finlands toppartister, popstjärnor, rapakter och internationella dj:er uppträder varje kväll under skidsäsongen. Dansgolvet fylls klockan 16 och töms inte förrän klockan 02.",
+        "description": "Levis stora sal, vid foten av huvudbacken. Upp till 1 700 personer på två våningar, tio barer och ett stort dansgolv. Finska headliners och dj:s hela skidsäsongen. Har varit i gång sedan 2001.",
         "highlights": [
-          "Plats för 1 700",
-          "Finlands toppartister",
-          "Läge vid backen",
-          "Uppträdanden varje kväll"
+          "1 700 personer",
+          "Tio barer, två våningar",
+          "Intill backen",
+          "Öppet sedan 2001"
         ]
       },
       "Bar Ihku": {
@@ -225,15 +210,6 @@
           "Hantverksöl",
           "Barmat",
           "Ingen attityd"
-        ]
-      },
-      "Pub Sohva": {
-        "type": "Ölrestaurang",
-        "description": "En varm och hjälpsam ölrestaurang längs Levis huvudgata. Sohva är den sortens ställe du kliver in på med tanken på en drink och lämnar tre timmar senare. Bra ölutbud, hyfsad mat, trevlig service. Dagens gäster flyter direkt in i kvällens.",
-        "highlights": [
-          "Läge vid huvudgatan",
-          "Ölutbud",
-          "Matmeny"
         ]
       },
       "Bar Alakerta": {
@@ -266,11 +242,11 @@
       },
       "Pirtukellari Night Club": {
         "type": "Nattklubb",
-        "description": "Den enda riktiga nattklubben i Ylläsområdet, inne på Lapland Hotels Äkäshotelli. När pubarna stänger flyttar festen ner under jord till Pirtukellari. Dj:er, dans och ett förvånansvärt packat golv för en by med 400 invånare. Fredagar i högsäsong är rejält vilda.",
+        "description": "Nattklubben på Lapland Hotels Äkäshotelli, i samma byggnad som restaurang Pirtukirkko. När pubarna stänger flyttar festen ner en våning: dj:s, dans och ett golv som fylls snabbt under högsäsong.",
         "highlights": [
-          "Ylläs enda nattklubb",
-          "Dj:er och dans",
-          "Inne på Lapland Hotels"
+          "I Lapland Hotels Äkäshotelli",
+          "Dj:s och dans",
+          "Sena helgtimmar"
         ]
       },
       "Gastropub Giitu": {
@@ -282,13 +258,28 @@
           "Modern gastropub"
         ]
       },
-      "Pirtti Pub & Restaurant": {
-        "type": "Pub och restaurang",
-        "description": "En traditionell finsk pubrestaurang i Saariselkä som serverar pålitlig finsk mat och ett bra dryckesutbud. Ligger i komplexet Santa's Hotel Tunturi. Den sortens ställe hela sällskapet kan enas om, oavsett om du vill ha en burgare, en öl eller bara någonstans varmt att sitta efter en lång arktisk dag.",
+      "Lapland Brewery": {
+        "type": "Bryggeriets taproom",
+        "description": "Rovaniemis eget bryggeri, vid Teollisuustie och alltså en kort bilfärd från centrum snarare än inne i stan. Ölen bryggs på plats och serveras i taproomet intill tankarna. Bryggeriet beskriver sig som Finlands nordligaste. Fredagens rundtur med provning måste bokas i förväg.",
         "highlights": [
-          "Full restaurangmeny",
-          "Traditionell finsk mat",
-          "Hotellkomplex"
+          "Egenbryggd öl",
+          "Taproom intill tankarna",
+          "Bryggerirundturer"
+        ],
+        "tour": {
+          "label": "Bryggerirundtur och provsmakning",
+          "schedule": "Fredag 17.00 + 18.30 (dec–mars varje vecka)",
+          "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
+          "directLabel": "Boka på lapinpanimo.fi"
+        }
+      },
+      "Public House Sohva": {
+        "type": "Ölrestaurang",
+        "description": "En varm och hjälpsam ölrestaurang längs Levis huvudgata. Sohva är den sortens ställe du kliver in på med tanken på en drink och lämnar tre timmar senare. Bra ölutbud, hyfsad mat, trevlig service. Dagens gäster flyter direkt in i kvällens.",
+        "highlights": [
+          "Läge vid huvudgatan",
+          "Ölutbud",
+          "Matmeny"
         ]
       }
     },
@@ -413,7 +404,7 @@
       },
       "Pirtukellari Night Club": {
         "type": "Nattklubb",
-        "desc": "Den enda nattklubben i Ylläs, inne på Lapland Hotels Äkäshotelli. När pubarna stänger flyttar festen ner under jord. Bara fre–lör, men kvällarna i högsäsong är rejält vilda."
+        "desc": "Nattklubben på Lapland Hotels Äkäshotelli, i samma byggnad som restaurang Pirtukirkko. När pubarna stänger flyttar festen ner en våning. Bara fre–lör, och under högsäsong fylls den snabbt."
       }
     },
     "north": {
@@ -510,26 +501,20 @@
     "stay": {
       "kicker": "Bo nära bryggeriet",
       "title": "Hoppa över taxin, boka ett hotell på gångavstånd",
-      "body": "Lapon Panimos pub stänger klockan 23. Tornion Panimo ligger på andra sidan älven från stan. Lapland Brewery ligger i centrala Rovaniemi. Välj bryggeri och boka ett hotell på gångavstånd.",
-      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "body": "Tornion Panimo ligger på andra sidan älven. Lapland Brewery ligger på industriområdet vid Teollisuustie, en kort bilfärd från Rovaniemis centrum. Välj bryggeri först och boka sedan ett hotell som är lätt att ta sig tillbaka till.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
     "breweries": [
       {
-        "name": "Lapon Panimo",
-        "location": "Saariselkä",
-        "description": "Finlands nordligaste hantverksbryggeri. Grundat i Saariselkä, en av de mest avsides platser något bryggeri drivs från. Ölen görs på rent arktiskt vatten och lokalt inspirerade råvaror: granskott, lingon, råg. Bryggeriet har en liten pub där du kan dricka färsk öl bara meter från där den gjordes."
-      },
-      {
         "name": "Tornion Panimo",
         "location": "Tornio (vid svenska gränsen)",
-        "description": "Prisbelönt hantverksbryggeri i gränsstaden Tornio mellan Sverige och Finland. Känt för sin Arctic Circle Ale och nyskapande bryggning i nordisk stil. De exporterar i hela Norden och har vunnit flera priser i skandinaviska öltävlingar."
+        "description": "På stranden av Torneälven har det bryggts öl sedan 1873. Hartwall stängde bryggeriet 2010 och flyttade produktionen söderut, men 2016 återuppväckte drygt 1 900 småsparare bryggeriet genom en gräsrotsfinansiering. Här görs både öl och sprit, bland annat Original Lapland Lager och Arctic Pale Ale, och bryggeriet ordnar provningsturer."
       },
       {
         "name": "Lapland Brewery",
         "location": "Rovaniemi",
-        "description": "Bryggeripuben i centrala Rovaniemi. Öl bryggd på plats, serverad i baren bredvid tankarna. Se bryggningen medan du dricker resultatet. Säsongssläppen innehåller ofta råvaror plockade i den lappländska skogen runt staden."
+        "description": "Rovaniemis eget bryggeri, ute på industriområdet vid Teollisuustie och inte i centrum. Ölen bryggs på plats och serveras i taproomet intill tankarna. Bryggeriet beskriver sig som Finlands nordligaste. Fredagsturerna går hela vintern och måste bokas i förväg."
       }
     ],
     "styles": [
@@ -593,7 +578,7 @@
     "lapinKulta": {
       "title": "Lapin Kulta, guld från Arktis",
       "body": [
-        "Om någon öl verkligen hör hemma i en guide till Lapplands barer, så är det Lapin Kulta, ordagrant \"Lapplands guld.\" Bryggd i Tornio, vid finsk-svenska gränsen vid Torne älvs mynning, sedan 1873. I över 150 år har den här ölen gjorts med vatten från en av de nordligaste bryggningskällorna i världen.",
+        "Om någon öl hör hemma i en guide till Lapplands barer är det Lapin Kulta, ordagrant \"Lapplands guld\". Bryggeriet grundades 1873 i Tornio, vid finsk-svenska gränsen där Torneälven mynnar ut, och ölen bar den arktiska adressen i långt över ett sekel. Hartwall stängde bryggeriet i Tornio 2010 och flyttade produktionen till Lahtis, så namnet pekar fortfarande norrut även om bryggandet inte längre sker här.",
         "Lapin Kulta är Finlands klassiska ljusa lager, ren, lätt, maltig och okomplicerad. Den kommer inte vinna hantverksölspriser, och den försöker inte. Det är ölen som stått på finska stugbord, bastulavar och festivalområden i fem generationer. När finländare säger \"ta en öl\" är det ofta den här ölen de menar. Just i Lappland känns det att beställa en Lapin Kulta på en lokal pub rätt på ett sätt som ingen importerad lager kan.",
         "Varumärket har bytt ägare, från Hartwall till Heineken International, men själva ölen är fortfarande en finsk basvara. Du hittar den på varje bar i Lappland, i varje livsmedelsbutik, på varje Alko. Den är, i bästa möjliga mening, helt vanlig."
       ],
@@ -710,7 +695,7 @@
       },
       {
         "title": "Nya barer värda en omväg",
-        "body": "Lapon Panimos säsongstappar. En popup-cocktailbar i Rovaniemi. Ett nytt bryggeri på Tornio-sidan. Vi berättar om nyöppningar medan de fortfarande känns nya."
+        "body": "En ny säsongslista på fat i Rovaniemi. En pop-up-cocktailbar. Ett nytt bryggeri på Tornio-sidan. Vi berättar om nyöppningar medan de fortfarande känns nya."
       }
     ],
     "doneMessage": "Klart. Vi ses under norrskenet.",

@@ -64,11 +64,11 @@
         },
         {
           "q": "Mitkä ovat parhaat après-ski-baarit Levillä ja Ylläksellä?",
-          "a": "Levillä Hullu Poro Areena sijaitsee pääsrinteen juurella ja on Suomen suurin après-ski-paikka, jossa on live-esiintyjiä ja 1 700 hengen kapasiteetti; Bar Ihku ja Pub Hölmölä kantavat myöhäiset tunnit. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on kokoontumispaikka tuntureilta tultaessa, ja Lapland Hotels Äkäshotellin yökerho ottaa vallan, kun pubit hiljenevät. Hissit sulkevat noin klo 16, ja baarit täyttyvät heti perään."
+          "a": "Levillä Hullu Poro Areena sijaitsee päärinteen juurella ja vetää kahteen kerrokseen jopa 1 700 ihmistä. Areenalla on kymmenen baaria ja kotimaisia esiintyjiä, ja myöhäiset tunnit jatkuvat Bar Ihkussa ja Pub Hölmölässä. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on tunturipäivän jälkeinen kokoontumispaikka, ja kun pubit hiljenevät, vuoro siirtyy Lapland Hotels Äkäshotellin yökerhoon. Hissit sulkeutuvat noin kello 16 ja baarit täyttyvät heti perään."
         },
         {
           "q": "Saako Suomessa juoda alkoholia ulkona?",
-          "a": "Pääsääntöisesti kyllä. Vuoden 2018 alkoholilain uudistuksen jälkeen juominen yleisillä paikoilla kuten puistoissa ja rannoilla on sallittua täysi-ikäisille, kunhan et häiritse muita tai aiheuta yleistä häiriötä. Yksittäiset kunnat voivat silti rajoittaa sitä tietyillä alueilla (esimerkiksi toreilla tai leikkipaikoilla), ja julkinen juopumus ja häiriköinti on rangaistavaa. Ikäraja on 18 vuotta oluelle, viinille ja siiderille ja 20 vuotta väkeville."
+          "a": "Pääosin kyllä, mutta yhdellä varauksella. Järjestyslaki kieltää päihtyneenä juomisen yleisillä paikoilla, mutta se ei koske puistoja ja niihin verrattavia yleisiä alueita, kunhan et haittaa muita tai aiheuta häiriötä. Kunnat voivat silti rajoittaa yksittäisiä paikkoja, kuten toreja tai leikkipuistoja, ja julkinen juopumus ja häiriökäyttäytyminen ovat rangaistavia. Ikäraja on 18 vuotta oluelle, viinille ja siiderille sekä 20 vuotta väkeville."
         },
         {
           "q": "Mitkä ovat baarien tyypilliset aukioloajat Lapissa?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "Mitä paikallisia juomia kannattaa maistaa Lapissa?",
-          "a": "Etsi lakkaa eli lakkalikööriä, joka tehdään meripihkanvärisestä arktisesta marjasta. Marja kypsyy vain muutaman viikon joka kesä, ja likööri tarjotaan usein kylmänä tai cocktailiin sekoitettuna. Myös paikallista pienpanimo-olutta kannattaa etsiä: panimot kuten Lapland Brewery Rovaniemellä ja Lapon Panimo Saariselällä panevat arktisella vedellä ja metsän raaka-aineilla kuten kuusenkerkällä ja puolukalla. Klassikkoa kaipaavalle Lapin Kulta -lageria on pantu Torniossa yli 150 vuotta, ja Koskenkorva on suomalaisten arkinen viljaviina."
+          "a": "Etsi lakkalikööriä, joka tehdään lakasta eli hillasta. Marja kypsyy vain muutaman viikon ajan kesässä, ja likööri tarjoillaan usein kylmänä tai drinkkiin sekoitettuna. Myös paikallinen pienpanimo-olut kannattaa etsiä käsiin: Lapland Brewery Rovaniemellä ja Tornion Panimo Torniossa panevat molemmat arktisella vedellä. Klassikoksi käy Lapin Kulta, joka perustettiin Tornioon vuonna 1873, joskin tuotanto siirtyi Lahteen vuonna 2010. Koskenkorva puolestaan on suomalaisten arkinen viljaviina."
         },
         {
           "q": "Mistä Suomessa voi ostaa alkoholia baarien ulkopuolelta?",
@@ -128,24 +128,9 @@
       "Rovaniemi": "Arktinen pääkaupunki pimeän tultua, pienpanimopubit, cocktailbaarit ja oikea jäästä rakennettu baari.",
       "Levi": "Suomen rinnejuhlien pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkee klo 16 ja bileet alkavat 16:01.",
       "Yllas": "Levia rauhallisempi, lämpimämpi kuin missään muualla. Lämpimät tunturipubit, joissa paikalliset ja vierailijat sekoittuvat ilman esittelyä.",
-      "Saariselka": "Syrjäinen, pimeä ja yllättävän hyvin varustettu. Gastropub Giitulla on yksi parhaista pienpanimovalikoimista napapiirin pohjoispuolella."
+      "Saariselka": "Syrjäinen, pimeä ja yllättävän hyvin varustettu. Gastropub Giitussa on olutlista, jonka vuoksi kannattaa tulla näin pohjoiseen."
     },
     "venues": {
-      "Lapland Brewery Pub": {
-        "type": "Pienpanimopubi",
-        "description": "Rovaniemen pohjoisin pienpanimopubi, joka tarjoaa paikan päällä pantua tuoretta olutta. Lapland Brewery käyttää puhdasta arktista vettä ja paikallisia raaka-aineita, kuusenkerkkäaleja, puolukkavehnää, savustettua porteria. Istu tankkien viereen ja juo sitä, mitä pantiin viime viikolla.",
-        "highlights": [
-          "Talon panemaa olutta",
-          "Arktiset raaka-aineet",
-          "Panimokierroksia"
-        ],
-        "tour": {
-          "label": "Panimokierros ja maistelu",
-          "schedule": "Perjantaisin 17:00 + 18:30 (joulu–maaliskuu viikoittain)",
-          "hint": "Ilmoittaudu keskiviikkona klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
-          "directLabel": "Varaa lapinpanimo.fi:sta"
-        }
-      },
       "Café & Bar 21": {
         "type": "Cocktailbaari",
         "description": "Rovakatu 21, keskellä Rovaniemen sydäntä. Kaupungin useimmin mainittu baari, hybridikahvila päivisin, cocktailbaari iltaisin. Luovia juomia, harkittu viinilista, sivistynyt yleisö. Paikallisten ja vierailijoiden suosikki, kun haluaa jotain peruspubia enemmän.",
@@ -200,12 +185,12 @@
       },
       "Hullu Poro Areena": {
         "type": "Live-musiikkilava ja rinnejuhlat",
-        "description": "Lapin rinnejuhlien kiistaton kuningas. 1 700 hengen areena Levin pääsrinteen juurella, Suomen suurin tanssilava hiihtokeskuksessa. Suomen ykkösartistit, popsähköhevit, räppärit ja kansainväliset DJ:t esiintyvät joka ilta kaudella. Lattia täyttyy klo 16 eikä tyhjene ennen kahta yöllä.",
+        "description": "Levin iso sali päärinteen juurella. Kahteen kerrokseen mahtuu jopa 1 700 ihmistä, baareja on kymmenen ja tanssilattia on iso. Kotimaisia nimiä ja DJ:tä läpi hiihtokauden. Paikka on ollut auki vuodesta 2001.",
         "highlights": [
-          "1 700 hengen kapasiteetti",
-          "Suomen ykkösartistit",
+          "1 700 hengen tila",
+          "Kymmenen baaria, kaksi kerrosta",
           "Rinteen vieressä",
-          "Iltaesityksiä päivittäin"
+          "Auki vuodesta 2001"
         ]
       },
       "Bar Ihku": {
@@ -225,15 +210,6 @@
           "Pienpanimo-oluet",
           "Baariruoka",
           "Mutkatonta"
-        ]
-      },
-      "Pub Sohva": {
-        "type": "Olutravintola",
-        "description": "Lämmin ja avulias olutravintola Levin pääkadulla. Sohva on sitä lajia paikkoja, jonne mennään yhdelle ja lähdetään kolmen tunnin päästä. Hyvä olutvalikoima, kelpo ruoka, ystävällinen palvelu. Päivän väki sulautuu suoraan illan väkeen.",
-        "highlights": [
-          "Pääkadun sijainti",
-          "Olutvalikoima",
-          "Ruokalista"
         ]
       },
       "Bar Alakerta": {
@@ -266,11 +242,11 @@
       },
       "Pirtukellari Night Club": {
         "type": "Yökerho",
-        "description": "Ainoa kunnollinen yökerho Ylläksen alueella, Lapland Hotels Äkäshotellin sisällä. Kun pubit hiljenevät, bileet siirtyvät maan alle Pirtukellariin. DJ:itä, tanssia ja yllättävän täynnä oleva lattia 400 asukkaan kylässä. Sesongin perjantait ovat aidosti villejä.",
+        "description": "Lapland Hotels Äkäshotellin yökerho, samassa rakennuksessa Pirtukirkko-ravintolan kanssa. Kun pubit hiljenevät, meno siirtyy alakertaan: DJ:tä, tanssia ja lattia, joka täyttyy sesonkiaikaan nopeasti.",
         "highlights": [
-          "Ylläksen ainoa yökerho",
+          "Lapland Hotels Äkäshotellissa",
           "DJ:t ja tanssi",
-          "Lapland Hotelsin sisällä"
+          "Myöhäiset viikonloput"
         ]
       },
       "Gastropub Giitu": {
@@ -282,13 +258,28 @@
           "Moderni gastropubi"
         ]
       },
-      "Pirtti Pub & Restaurant": {
-        "type": "Pubi ja ravintola",
-        "description": "Perinteinen suomalainen pubiravintola Saariselällä, joka tarjoaa luotettavaa suomalaista ruokaa ja kelpo juomavalikoiman. Sijaitsee Santa's Hotel Tunturi -kompleksissa. Sellainen paikka, josta koko porukka voi olla samaa mieltä, halusi sitten hampurilaisen, oluen tai vain lämpimän nurkan istua pitkän arktisen päivän jälkeen.",
+      "Lapland Brewery": {
+        "type": "Panimon taproom",
+        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella lyhyen ajomatkan päässä keskustasta. Oluet pannaan paikan päällä ja tarjoillaan taproomissa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain kierros ja maistelu vaativat ennakkovarauksen.",
         "highlights": [
-          "Koko ravintolamenu",
-          "Perinteinen suomalainen ruoka",
-          "Hotellikompleksi"
+          "Talon omat oluet",
+          "Taproom tankkien vieressä",
+          "Panimokierrokset"
+        ],
+        "tour": {
+          "label": "Panimokierros ja maistelu",
+          "schedule": "Perjantaisin 17:00 + 18:30 (joulu–maaliskuu viikoittain)",
+          "hint": "Ilmoittaudu keskiviikkona klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
+          "directLabel": "Varaa lapinpanimo.fi:sta"
+        }
+      },
+      "Public House Sohva": {
+        "type": "Olutravintola",
+        "description": "Lämmin ja avulias olutravintola Levin pääkadulla. Sohva on sitä lajia paikkoja, jonne mennään yhdelle ja lähdetään kolmen tunnin päästä. Hyvä olutvalikoima, kelpo ruoka, ystävällinen palvelu. Päivän väki sulautuu suoraan illan väkeen.",
+        "highlights": [
+          "Pääkadun sijainti",
+          "Olutvalikoima",
+          "Ruokalista"
         ]
       }
     },
@@ -413,7 +404,7 @@
       },
       "Pirtukellari Night Club": {
         "type": "Yökerho",
-        "desc": "Ylläksen ainoa yökerho, kätkettynä Lapland Hotels Äkäshotellin sisään. Kun pubit hiljenevät, bileet siirtyvät maan alle. Vain pe–la, mutta huippukauden illat ovat aidosti villejä."
+        "desc": "Lapland Hotels Äkäshotellin yökerho, samassa rakennuksessa Pirtukirkko-ravintolan kanssa. Kun pubit hiljenevät, meno siirtyy alakertaan. Auki vain perjantaisin ja lauantaisin, ja sesonkiöinä paikka täyttyy nopeasti."
       }
     },
     "north": {
@@ -510,26 +501,20 @@
     "stay": {
       "kicker": "Yövy panimon lähellä",
       "title": "Skippaa taksi, varaa hotelli kävelymatkan päästä",
-      "body": "Lapon Panimon pubi sulkee klo 23. Tornion Panimo on joen toisella puolella keskustasta. Lapland Brewery on Rovaniemen ydinkeskustassa. Valitse panimo, varaa hotelli kävelymatkan päästä.",
-      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "body": "Tornion Panimo on joen toisella puolella keskustasta. Lapland Brewery sijaitsee Teollisuustien varrella, lyhyen matkan päässä Rovaniemen keskustasta. Valitse panimo ja varaa hotelli, josta pääset helposti takaisin.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
     "breweries": [
       {
-        "name": "Lapon Panimo",
-        "location": "Saariselkä",
-        "description": "Suomen pohjoisin pienpanimo. Perustettu Saariselälle, yhdelle syrjäisimmistä paikoista, missä mikään panimo toimii. Heidän oluensa käyttävät puhdasta arktista vettä ja paikallisia raaka-aineita: kuusenkerkkiä, puolukkaa, ruista. Panimolla on pieni pubi, jossa juot tuoretta olutta metrien päässä siitä, missä se pantiin."
-      },
-      {
         "name": "Tornion Panimo",
         "location": "Tornio (Ruotsin raja)",
-        "description": "Palkittu pienpanimo Ruotsin–Suomen rajakaupunki Torniossa. Tunnetaan Arctic Circle Alestaan ja innovatiivisesta pohjoismaisesta panimotekniikastaan. Vievät tuotteitaan Pohjoismaissa ja ovat voittaneet useita palkintoja skandinaavisissa olutkilpailuissa."
+        "description": "Oluenpano alkoi Tornionjoen rannalla jo vuonna 1873. Hartwall sulki panimon vuonna 2010 ja siirsi tuotannon etelään, mutta vuonna 2016 yli 1 900 pientä sijoittajaa herätti panimon henkiin joukkorahoituksella. Panimo tekee sekä oluita että väkeviä, muun muassa Original Lapland Lageria ja Arctic Pale Alea, ja järjestää maistelukierroksia."
       },
       {
         "name": "Lapland Brewery",
         "location": "Rovaniemi",
-        "description": "Panimopubi Rovaniemen keskustassa. Oluet pannaan paikan päällä, tarjoillaan baarissa tankkien vieressä. Seuraa panimoprosessia juodessasi tulosta. Heidän kausijulkaisunsa sisältävät usein raaka-aineita, joita on kerätty ympäröivistä lappilaisista metsistä."
+        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella keskustan ulkopuolella. Oluet pannaan paikan päällä ja tarjoillaan taproomissa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain panimokierrokset pyörivät läpi talvikauden ja vaativat ennakkovarauksen."
       }
     ],
     "styles": [
@@ -593,7 +578,7 @@
     "lapinKulta": {
       "title": "Lapin Kulta, kultaa arktiselta",
       "body": [
-        "Jos jokin olut kuuluu aidosti Lapin baariopaaseen, se on Lapin Kulta, kirjaimellisesti \"Lapin kulta\". Pannut Torniossa, Suomen ja Ruotsin rajalla Tornionjoen suistossa, vuodesta 1873. Yli 150 vuoden ajan tämä olut on tehty vedellä, joka tulee yhdeltä maailman pohjoisimmista panimolähteistä.",
+        "Jos jokin olut kuuluu Lapin baariopaassa, se on Lapin Kulta. Panimo perustettiin vuonna 1873 Tornioon, Suomen ja Ruotsin rajalle Tornionjoen suulle, ja olut kantoi tuota arktista osoitetta reilusti yli vuosisadan. Hartwall sulki Tornion panimon vuonna 2010 ja siirsi tuotannon Lahteen, joten nimi osoittaa yhä pohjoiseen, vaikka olutta ei enää panna täällä.",
         "Lapin Kulta on Suomen klassinen pale lager, puhdas, kevyt, maltainen ja mutkaton. Se ei voita pienpanimo-olutpalkintoja eikä yritäkään. Se on olut, joka on ollut suomalaisilla mökkipöydillä, saunalauteilla ja festarialueilla viiden sukupolven ajan. Kun suomalainen sanoo \"otetaan kalja\", tämä on usein se kalja. Lapissa erityisesti Lapin Kullan tilaaminen paikallisesta pubista tuntuu oikealta tavalla, jolla mikään tuontilager ei voisi.",
         "Brändi on vaihtanut omistajia, Hartwallista Heineken Internationalille, mutta olut itsessään pysyy suomalaisena perusasiana. Sen löytää joka Lapin baarista, joka kaupasta, joka Alkosta. Se on parhaassa mahdollisessa mielessä täysin tavallinen."
       ],
@@ -710,7 +695,7 @@
       },
       {
         "title": "Uudet kierroksen arvoiset baarit",
-        "body": "Lapon Panimon kausihanat. Pop-up cocktailbaari Rovaniemellä. Uusi panimo Tornion puolella. Kerromme avauksista silloin kun ne vielä tuntuvat uusilta."
+        "body": "Uusi kausiolutlista Rovaniemellä. Pop-up-cocktailbaari. Uusi panimo Tornion suunnalla. Kerromme avauksista silloin, kun ne vielä tuntuvat uusilta."
       }
     ],
     "doneMessage": "Selvä. Nähdään revontulien alla.",

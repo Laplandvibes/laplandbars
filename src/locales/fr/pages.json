@@ -64,11 +64,11 @@
         },
         {
           "q": "Où trouver les meilleurs bars d'après-ski à Levi et Ylläs ?",
-          "a": "À Levi, la Hullu Poro Areena se dresse au pied de la piste principale : c'est la plus grande salle d'après-ski de Finlande, avec des artistes finlandais en concert et une capacité de 1 700 personnes ; le Bar Ihku et le Pub Hölmölä prennent le relais tard dans la nuit. Côté Ylläs, le Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement au retour des fjells, et la boîte du Lapland Hotels Äkäshotelli prend la suite une fois les pubs fermés. Les remontées s'arrêtent vers 16 h et les bars se remplissent juste après."
+          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après les fjells, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
         },
         {
           "q": "Peut-on boire de l'alcool en plein air en Finlande ?",
-          "a": "En général oui : depuis la réforme de la loi sur l'alcool de 2018, boire dans les lieux publics comme les parcs et les plages est autorisé aux adultes, à condition de ne pas gêner les autres ni de troubler l'ordre public. Chaque commune peut toutefois le restreindre dans certaines zones (places ou aires de jeux, par exemple), et l'ivresse accompagnée de tapage en public est un délit. L'âge légal pour boire est de 18 ans pour la bière, le vin et le cidre, et de 20 ans pour les spiritueux."
+          "a": "Globalement oui, avec une nuance. La loi finlandaise sur l’ordre public interdit de boire dans les lieux publics, mais elle exempte explicitement les parcs et espaces publics comparables, tant que vous ne gênez personne. Les communes peuvent encore interdire certains endroits, comme les places ou les aires de jeux, et l’ivresse accompagnée de troubles est une infraction. L’âge légal est de 18 ans pour la bière, le vin et le cidre, et de 20 ans pour les spiritueux."
         },
         {
           "q": "Quels sont les horaires habituels des bars en Laponie ?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "Quelles boissons locales goûter en Laponie ?",
-          "a": "Cherchez le lakka (liqueur de plaquebière), élaboré à partir de cette baie arctique ambrée qui ne mûrit que quelques semaines chaque été, souvent servi bien frais ou mêlé à un cocktail. La bière artisanale locale vaut aussi le détour : des brasseries comme Lapland Brewery à Rovaniemi et Lapon Panimo à Saariselkä brassent avec de l'eau arctique et des ingrédients de la forêt, comme la pousse d'épicéa et l'airelle rouge. Pour un grand classique, la lager Lapin Kulta est brassée à Tornio depuis plus de 150 ans, et le Koskenkorva est l'eau-de-vie de grain du quotidien en Finlande."
+          "a": "Cherchez le lakka, une liqueur de mûre arctique tirée de la baie ambrée qui ne mûrit que quelques semaines par été, servie fraîche ou en cocktail. La bière artisanale locale vaut aussi le détour : Lapland Brewery à Rovaniemi et Tornion Panimo à Tornio brassent toutes deux avec de l’eau arctique. Côté classique, Lapin Kulta a été fondée à Tornio en 1873, même si sa production a déménagé à Lahti en 2010, et le Koskenkorva est l’eau-de-vie de grain du quotidien."
         },
         {
           "q": "Où acheter de l'alcool en Finlande en dehors des bars ?",
@@ -128,24 +128,9 @@
       "Rovaniemi": "La capitale arctique à la nuit tombée, pubs de brasserie artisanale, bars à cocktails, et un vrai bar tout en glace.",
       "Levi": "La capitale finlandaise de l'après-ski. L'arène Hullu Poro accueille 1 700 personnes. La montagne ferme à 16 h, la fête commence à 16 h 01.",
       "Yllas": "Plus calme que Levi, plus chaleureux que partout ailleurs. Des pubs de montagne feutrés où locaux et visiteurs se mélangent sans chichis.",
-      "Saariselka": "Loin de tout, sombre, et étonnamment bien achalandé. Le gastropub Giitu propose l'une des meilleures sélections de bières artisanales au-dessus du cercle polaire."
+      "Saariselka": "Isolé, sombre et étonnamment bien fourni. Le Gastropub Giitu tient une carte de bières artisanales qui justifie le trajet aussi loin au nord."
     },
     "venues": {
-      "Lapland Brewery Pub": {
-        "type": "Pub de bière artisanale",
-        "description": "Le pub-brasserie le plus septentrional de Rovaniemi, qui sert des bières fraîches brassées sur place. Lapland Brewery utilise une eau arctique pure et des recettes inspirées du terroir, ales aux pousses d'épicéa, blanches à l'airelle rouge, porter fumé. Asseyez-vous près des cuves et buvez ce qui a été brassé dans la semaine.",
-        "highlights": [
-          "Bières maison artisanales",
-          "Ingrédients arctiques",
-          "Visites de la brasserie"
-        ],
-        "tour": {
-          "label": "Visite de la brasserie & dégustation",
-          "schedule": "Vendredi 17h00 + 18h30 (déc.–mars chaque semaine)",
-          "hint": "Inscription avant mer. 14h00, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
-          "directLabel": "Réserver sur lapinpanimo.fi"
-        }
-      },
       "Café & Bar 21": {
         "type": "Bar à cocktails",
         "description": "Rovakatu 21, en plein cœur de Rovaniemi. Le bar le plus régulièrement cité de la ville, café hybride en journée, bar à cocktails le soir. Créations originales, carte des vins choisie, clientèle élégante. Une adresse de cœur pour les locaux et les visiteurs qui cherchent autre chose qu'un pub classique.",
@@ -200,12 +185,12 @@
       },
       "Hullu Poro Areena": {
         "type": "Salle de musique live & après-ski",
-        "description": "Le roi incontesté de l'après-ski lapon. Une arène de 1 700 places au pied de la piste principale de Levi, la plus grande salle d'après-ski de Finlande. Têtes d'affiche finlandaises, stars de la pop, rappeurs et DJ internationaux s'y produisent tous les soirs en saison. Le dancefloor se remplit à 16h et ne se vide qu'à 2h du matin.",
+        "description": "La grande salle de Levi, au pied de la piste principale. Jusqu'à 1 700 personnes sur deux niveaux, dix bars et une vaste piste de danse. Têtes d'affiche finlandaises et DJ toute la saison de ski. En activité depuis 2001.",
         "highlights": [
           "1 700 places",
-          "Têtes d'affiche finlandaises",
+          "Dix bars, deux niveaux",
           "Au pied des pistes",
-          "Concerts tous les soirs"
+          "Ouvert depuis 2001"
         ]
       },
       "Bar Ihku": {
@@ -225,15 +210,6 @@
           "Bières artisanales",
           "Carte cuisine de bar",
           "Sans pose"
-        ]
-      },
-      "Pub Sohva": {
-        "type": "Bar à bières",
-        "description": "Un bar à bières chaleureux et serviable sur la rue principale de Levi. Sohva est le genre d'endroit où l'on entre pour un verre et où l'on ressort trois heures plus tard. Belle sélection de bières, cuisine correcte, service amical. La clientèle de l'après-midi glisse naturellement vers celle du soir.",
-        "highlights": [
-          "Rue principale",
-          "Sélection de bières",
-          "Carte cuisine"
         ]
       },
       "Bar Alakerta": {
@@ -266,11 +242,11 @@
       },
       "Pirtukellari Night Club": {
         "type": "Boîte de nuit",
-        "description": "La seule vraie boîte de nuit de la zone d'Ylläs, installée à l'intérieur du Lapland Hotels Äkäshotelli. Quand les pubs se calment, la fête descend en sous-sol au Pirtukellari. DJ, danse et un dancefloor étonnamment bondé pour un village de 400 habitants. Les vendredis de haute saison sont franchement déchaînés.",
+        "description": "La boîte du Lapland Hotels Äkäshotelli, dans le même bâtiment que le restaurant Pirtukirkko. Quand les pubs ferment, la fête descend : DJ, danse et une piste qui se remplit vite en pleine saison.",
         "highlights": [
-          "Seule boîte d'Ylläs",
-          "DJ & danse",
-          "Dans le Lapland Hotels"
+          "Au Lapland Hotels Äkäshotelli",
+          "DJ et danse",
+          "Week-ends tardifs"
         ]
       },
       "Gastropub Giitu": {
@@ -282,13 +258,28 @@
           "Gastropub moderne"
         ]
       },
-      "Pirtti Pub & Restaurant": {
-        "type": "Pub & restaurant",
-        "description": "Un pub-restaurant finlandais traditionnel à Saariselkä qui sert une cuisine finlandaise fiable et une belle sélection de boissons. Situé dans le complexe Santa's Hotel Tunturi. Le genre d'endroit où tout le groupe peut se mettre d'accord, burger, bière ou simplement un endroit chaud pour s'asseoir après une longue journée arctique.",
+      "Lapland Brewery": {
+        "type": "Taproom de brasserie",
+        "description": "La brasserie de Rovaniemi, sur Teollisuustie, à quelques minutes en voiture du centre plutôt qu'en ville. Les bières sont brassées sur place et servies au taproom, à côté des cuves. La brasserie se présente comme la plus septentrionale de Finlande. La visite-dégustation du vendredi se réserve à l'avance.",
         "highlights": [
-          "Carte restaurant complète",
-          "Cuisine finlandaise traditionnelle",
-          "Complexe hôtelier"
+          "Bières maison",
+          "Taproom près des cuves",
+          "Visites de la brasserie"
+        ],
+        "tour": {
+          "label": "Visite de la brasserie & dégustation",
+          "schedule": "Vendredi 17h00 + 18h30 (déc.–mars chaque semaine)",
+          "hint": "Inscription avant mer. 14h00, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
+          "directLabel": "Réserver sur lapinpanimo.fi"
+        }
+      },
+      "Public House Sohva": {
+        "type": "Bar à bières",
+        "description": "Un bar à bières chaleureux et serviable sur la rue principale de Levi. Sohva est le genre d'endroit où l'on entre pour un verre et où l'on ressort trois heures plus tard. Belle sélection de bières, cuisine correcte, service amical. La clientèle de l'après-midi glisse naturellement vers celle du soir.",
+        "highlights": [
+          "Rue principale",
+          "Sélection de bières",
+          "Carte cuisine"
         ]
       }
     },
@@ -413,7 +404,7 @@
       },
       "Pirtukellari Night Club": {
         "type": "Boîte de nuit",
-        "desc": "La seule boîte d'Ylläs, nichée dans le Lapland Hotels Äkäshotelli. Quand les pubs se calment, la fête descend en sous-sol. Vendredi-samedi seulement, mais les nuits de haute saison sont franchement déchaînées."
+        "desc": "La boîte du Lapland Hotels Äkäshotelli, dans le même bâtiment que le restaurant Pirtukirkko. Quand les pubs ferment, la fête descend au sous-sol. Uniquement ven.–sam., et en pleine saison la salle se remplit vite."
       }
     },
     "north": {
@@ -510,26 +501,20 @@
     "stay": {
       "kicker": "Dormir près de la brasserie",
       "title": "Évitez le taxi, réservez un hôtel à pied",
-      "body": "Le pub de Lapon Panimo ferme à 23h. Tornion Panimo est de l'autre côté du fleuve. Lapland Brewery est en plein centre de Rovaniemi. Choisissez la brasserie, réservez un hôtel à pied.",
-      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "body": "Tornion Panimo se trouve de l’autre côté de la rivière. Lapland Brewery est dans la zone de Teollisuustie, à quelques minutes en voiture du centre de Rovaniemi. Choisissez la brasserie, puis réservez un hôtel d’où le retour sera simple.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
     "breweries": [
       {
-        "name": "Lapon Panimo",
-        "location": "Saariselkä",
-        "description": "La brasserie artisanale la plus septentrionale de Finlande. Fondée à Saariselkä, l'un des sites les plus reculés où une brasserie ait opéré. Leurs bières s'appuient sur une eau arctique pure et des ingrédients d'inspiration locale : pousses d'épicéa, airelles rouges, seigle. La brasserie dispose d'un petit pub où l'on boit la bière fraîche à quelques mètres de la cuve."
-      },
-      {
         "name": "Tornion Panimo",
         "location": "Tornio (frontière suédoise)",
-        "description": "Brasserie artisanale primée à Tornio, ville à la frontière finno-suédoise. Connue pour son Arctic Circle Ale et son style brassicole nordique innovant. Exporte dans toute la Scandinavie et a remporté plusieurs prix lors de concours nordiques."
+        "description": "On brasse ici sur la rive du Tornionjoki depuis 1873. Hartwall a fermé le site en 2010 et déplacé la production vers le sud ; en 2016, plus de 1 900 petits investisseurs ont fait renaître la brasserie par financement participatif. Elle produit bières et spiritueux, dont l'Original Lapland Lager et l'Arctic Pale Ale, et propose des visites avec dégustation."
       },
       {
         "name": "Lapland Brewery",
         "location": "Rovaniemi",
-        "description": "Le pub-brasserie en plein centre de Rovaniemi. Bières brassées sur place, servies au bar à côté des cuves. On regarde le brassage en buvant le résultat. Leurs sorties saisonnières intègrent souvent des ingrédients cueillis dans la forêt lapone autour de la ville."
+        "description": "La brasserie de Rovaniemi, installée dans la zone industrielle de Teollisuustie et non au centre-ville. Les bières sont brassées sur place et servies au taproom, juste à côté des cuves. La brasserie se présente comme la plus septentrionale de Finlande. Les visites du vendredi ont lieu tout l’hiver et se réservent à l’avance."
       }
     ],
     "styles": [
@@ -593,7 +578,7 @@
     "lapinKulta": {
       "title": "Lapin Kulta, l'or de l'Arctique",
       "body": [
-        "Si une bière a sa place dans un guide des bars de Laponie, c'est bien Lapin Kulta, littéralement « l'or de la Laponie ». Brassée à Tornio, à la frontière finno-suédoise, à l'embouchure du fleuve Tornionjoki, depuis 1873. Depuis plus de 150 ans, cette bière est faite avec l'eau de l'une des sources brassicoles les plus septentrionales au monde.",
+        "Si une bière a sa place dans un guide des bars de Laponie, c’est Lapin Kulta, littéralement « l’or de Laponie ». La brasserie a été fondée en 1873 à Tornio, à la frontière finno-suédoise, à l’embouchure du Tornionjoki, et la bière a porté cette adresse arctique pendant bien plus d’un siècle. Hartwall a fermé la brasserie de Tornio en 2010 et transféré la production à Lahti : le nom pointe donc toujours vers le nord, même si l’on n’y brasse plus.",
         "Lapin Kulta est la lager pâle classique de Finlande, nette, légère, maltée, sans complication. Elle ne gagnera pas de prix de bière artisanale, et elle ne cherche pas à le faire. C'est la bière qui a été sur les tables des chalets finlandais, les bancs des saunas et les terrains de festival pendant cinq générations. Quand un Finlandais dit « prendre une bière », c'est souvent celle-ci. En Laponie en particulier, commander une Lapin Kulta dans un pub local va de soi d'une manière qu'aucune lager importée ne pourra jamais reproduire.",
         "La marque a changé de mains, d'Hartwall à Heineken International, mais la bière reste un classique finlandais. Vous la trouverez dans chaque bar de Laponie, chaque supermarché, chaque Alko. Elle est, au meilleur sens du terme, parfaitement ordinaire."
       ],
@@ -710,7 +695,7 @@
       },
       {
         "title": "Nouveaux bars qui valent le détour",
-        "body": "Les tirages saisonniers de Lapon Panimo. Un bar à cocktails éphémère à Rovaniemi. Une nouvelle brasserie côté Tornio. Nous signalons les ouvertures tant qu'elles ont encore l'air neuves."
+        "body": "Une nouvelle carte de fûts de saison à Rovaniemi. Un bar à cocktails éphémère. Une nouvelle brasserie du côté de Tornio. Nous vous parlons des ouvertures tant qu’elles sont encore neuves."
       }
     ],
     "doneMessage": "Reçu. On se voit sous l'aurore.",

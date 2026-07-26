@@ -14,7 +14,7 @@ import { iceBars } from '../data/bars';
 
 const barImages: Record<string, string> = {
   // Rovaniemi — each unique
-  'Lapland Brewery Pub': BARS.breweryInterior,
+  'Lapland Brewery': BARS.breweryInterior,
   'Café & Bar 21': BARS.cocktailTrio,
   'Uitto Pub': BARS.friendsFireplace2,
   'Nook Lounge': BARS.lingonberryCocktails,
@@ -24,7 +24,7 @@ const barImages: Record<string, string> = {
   'Hullu Poro Areena': BARS.apresSkiTwilight,
   'Bar Ihku': BARS.liveMusic,
   'Pub Hölmölä': BARS.craftBeerGlasses,
-  'Pub Sohva': BARS.beerFlight,
+  'Public House Sohva': BARS.beerFlight,
   'Bar Alakerta': BARS.skiersApres,
   'Pub Old Mates': BARS.cabinBarInterior,
   // Ylläs — each unique
@@ -32,7 +32,6 @@ const barImages: Record<string, string> = {
   'Pirtukellari Night Club': BARS.apresSkiAerial,
   // Saariselkä — each unique
   'Gastropub Giitu': BARS.breweryTaps,
-  'Pirtti Pub & Restaurant': BARS.auroraLounge,
   // Gems (added 2026-06-11) — each unique; without these the nine cards all
   // fell back to the same shared hero image.
   'Kauppayhtiö': BARS.pubLaughter,

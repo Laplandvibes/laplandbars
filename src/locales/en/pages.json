@@ -64,11 +64,11 @@
         },
         {
           "q": "Where are the best après-ski bars in Levi and Ylläs?",
-          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and is Finland's largest après-ski venue, with live Finnish acts and a 1,700-person capacity; Bar Ihku and Pub Hölmölä carry the late hours. On the Ylläs side, Selvä Pyy in Äkäslompolo village is the gathering point after the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
+          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and holds up to 1,700 people across two floors, with ten bars and live Finnish acts; Bar Ihku and Pub Hölmölä carry the late hours. On the Ylläs side, Selvä Pyy in Äkäslompolo village is the gathering point after the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
         },
         {
           "q": "Can you drink alcohol outdoors in Finland?",
-          "a": "Generally yes. Since the 2018 alcohol-law reform, drinking in public places such as parks and beaches is allowed for adults, as long as you are not disturbing others or causing a public nuisance. Individual municipalities can still restrict it in specific areas (for example town squares or playgrounds), and being drunk and disorderly in public is an offence. The legal drinking age is 18 for beer, wine and cider, and 20 for spirits."
+          "a": "Broadly yes, with a caveat. Finland’s Public Order Act bans drinking in public places, but it explicitly exempts parks and comparable public areas as long as you are not obstructing others or causing a nuisance. Municipalities can still restrict specific spots such as town squares or playgrounds, and being drunk and disorderly in public is an offence. The legal drinking age is 18 for beer, wine and cider, and 20 for spirits."
         },
         {
           "q": "What are typical bar opening hours in Lapland?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "What local drinks should I try in Lapland?",
-          "a": "Look for lakka, a cloudberry liqueur made from the amber Arctic berry that ripens for only a few weeks each summer, often served chilled or stirred into a cocktail. Local craft beer is worth seeking out too: breweries such as Lapland Brewery in Rovaniemi and Lapon Panimo in Saariselkä brew with Arctic water and forest ingredients like spruce tip and lingonberry. For something classic, Lapin Kulta lager has been brewed in Tornio for over 150 years, and Koskenkorva is the everyday Finnish grain spirit."
+          "a": "Look for lakka, a cloudberry liqueur made from the amber Arctic berry that ripens for only a few weeks each summer, often served chilled or stirred into a cocktail. Local craft beer is worth seeking out too: Lapland Brewery in Rovaniemi and Tornion Panimo in Tornio both brew with Arctic water. For something classic, Lapin Kulta was founded in Tornio in 1873, though its production moved to Lahti in 2010, and Koskenkorva is the everyday Finnish grain spirit."
         },
         {
           "q": "Where can you buy alcohol in Finland outside bars?",
@@ -128,24 +128,9 @@
       "Rovaniemi": "The Arctic capital after dark, craft brewery pubs, cocktail bars, and an actual bar made of ice.",
       "Levi": "Finland's après-ski capital. Hullu Poro Areena holds 1,700 people. The mountain closes at 4pm and the party starts at 4:01.",
       "Yllas": "Quieter than Levi, warmer than anywhere. Cosy fell pubs where locals and visitors mix without pretension.",
-      "Saariselka": "Remote, dark, and surprisingly well-stocked. Gastropub Giitu has one of the best craft beer selections above the Arctic Circle."
+      "Saariselka": "Remote, dark, and surprisingly well-stocked. Gastropub Giitu keeps a craft beer list worth the trip this far north."
     },
     "venues": {
-      "Lapland Brewery Pub": {
-        "type": "Craft Beer Pub",
-        "description": "The northernmost craft brewery pub in Rovaniemi, serving fresh beers brewed on-site. Lapland Brewery uses pure Arctic water and locally inspired recipes, spruce tip ales, lingonberry wheat, smoked porter. Sit by the tanks and drink what was brewed that week.",
-        "highlights": [
-          "House-brewed craft beer",
-          "Arctic ingredients",
-          "Brewery tours"
-        ],
-        "tour": {
-          "label": "Brewery tour & tasting",
-          "schedule": "Friday 17:00 + 18:30 (Dec–Mar weekly)",
-          "hint": "Register by Wed 14:00, minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.",
-          "directLabel": "Reserve at lapinpanimo.fi"
-        }
-      },
       "Café & Bar 21": {
         "type": "Cocktail Bar",
         "description": "Rovakatu 21, right in the heart of Rovaniemi. The most consistently mentioned bar in the city, a hybrid café by day, cocktail bar by night. Creative drinks, curated wine list, a refined crowd. A favourite of locals and visitors who want something beyond a standard pub.",
@@ -200,12 +185,12 @@
       },
       "Hullu Poro Areena": {
         "type": "Live Music Venue & Après-Ski",
-        "description": "The undisputed king of Lapland après-ski. 1,700-capacity arena right at the base of Levi's main slope, Finland's biggest après-ski venue. Top Finnish artists, pop stars, rap acts and international DJs perform nightly during ski season. The dance floor fills at 4pm and doesn't empty until 2am.",
+        "description": "Levi's big room, at the foot of the main slope. Up to 1,700 people across two floors, ten bars and a large dance floor. Finnish headliners and DJs through the ski season. It has been running since 2001.",
         "highlights": [
           "1,700 capacity",
-          "Top Finnish artists",
+          "Ten bars, two floors",
           "Slope-side location",
-          "Nightly shows"
+          "Open since 2001"
         ]
       },
       "Bar Ihku": {
@@ -225,15 +210,6 @@
           "Craft beers",
           "Bar food",
           "No attitude"
-        ]
-      },
-      "Pub Sohva": {
-        "type": "Beer Restaurant",
-        "description": "A warm and helpful beer restaurant along Levi's main street. Sohva is the kind of place you walk into planning one drink and leave three hours later. Good beer selection, decent food, friendly service. The daytime crowd flows straight into the evening one.",
-        "highlights": [
-          "Main street location",
-          "Beer selection",
-          "Food menu"
         ]
       },
       "Bar Alakerta": {
@@ -266,11 +242,11 @@
       },
       "Pirtukellari Night Club": {
         "type": "Nightclub",
-        "description": "The only proper nightclub in the Ylläs area, located inside Lapland Hotels Äkäshotelli. When the pubs wind down, the party moves underground to Pirtukellari. DJs, dancing, and a surprisingly packed floor for a village of 400 people. Peak season Fridays are genuinely wild.",
+        "description": "The nightclub at Lapland Hotels Äkäshotelli, in the same building as the Pirtukirkko restaurant. When the pubs wind down, the party moves downstairs: DJs, dancing, and a floor that fills fast in peak season.",
         "highlights": [
-          "Ylläs only nightclub",
+          "Inside Lapland Hotels Äkäshotelli",
           "DJs & dancing",
-          "Inside Lapland Hotels"
+          "Late weekend hours"
         ]
       },
       "Gastropub Giitu": {
@@ -282,13 +258,28 @@
           "Modern gastropub"
         ]
       },
-      "Pirtti Pub & Restaurant": {
-        "type": "Pub & Restaurant",
-        "description": "A traditional Finnish pub-restaurant in Saariselkä serving reliable Finnish food alongside a good selection of drinks. Located in the Santa's Hotel Tunturi complex. The kind of place the whole group can agree on, whether you want a burger, a beer, or just somewhere warm to sit after a long Arctic day.",
+      "Lapland Brewery": {
+        "type": "Brewery Taproom",
+        "description": "Rovaniemi's own brewery, out on Teollisuustie a short drive from the centre rather than in town. Beers are brewed on site and poured in the taproom beside the tanks. The brewery describes itself as Finland's northernmost. The Friday tour and tasting needs booking in advance.",
         "highlights": [
-          "Full restaurant menu",
-          "Traditional Finnish food",
-          "Hotel complex"
+          "House-brewed beer",
+          "Taproom beside the tanks",
+          "Brewery tours"
+        ],
+        "tour": {
+          "label": "Brewery tour & tasting",
+          "schedule": "Friday 17:00 + 18:30 (Dec–Mar weekly)",
+          "hint": "Register by Wed 14:00, minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.",
+          "directLabel": "Reserve at lapinpanimo.fi"
+        }
+      },
+      "Public House Sohva": {
+        "type": "Beer Restaurant",
+        "description": "A warm and helpful beer restaurant along Levi's main street. Sohva is the kind of place you walk into planning one drink and leave three hours later. Good beer selection, decent food, friendly service. The daytime crowd flows straight into the evening one.",
+        "highlights": [
+          "Main street location",
+          "Beer selection",
+          "Food menu"
         ]
       }
     },
@@ -413,7 +404,7 @@
       },
       "Pirtukellari Night Club": {
         "type": "Nightclub",
-        "desc": "The only nightclub in Ylläs, tucked inside Lapland Hotels Äkäshotelli. When the pubs wind down, the party moves underground. Fri–Sat only, but peak season nights are genuinely wild."
+        "desc": "The nightclub at Lapland Hotels Äkäshotelli, in the same building as the Pirtukirkko restaurant. When the pubs wind down, the party moves downstairs. Fri–Sat only, and peak season nights fill fast."
       }
     },
     "north": {
@@ -510,26 +501,20 @@
     "stay": {
       "kicker": "Stay near the brewery",
       "title": "Skip the taxi, book a hotel within walking distance",
-      "body": "Lapon Panimo's pub closes at 11pm. Tornion Panimo is across the river from town. Lapland Brewery sits in central Rovaniemi. Pick the brewery, book a hotel within walking distance.",
-      "ctaSaariselka": "Saariselkä (Lapon Panimo)",
+      "body": "Tornion Panimo is across the river from town. Lapland Brewery sits on the Teollisuustie estate, a short drive out of central Rovaniemi. Pick the brewery, then book a hotel you can get back from easily.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
     "breweries": [
       {
-        "name": "Lapon Panimo",
-        "location": "Saariselkä",
-        "description": "The northernmost craft brewery in Finland. Founded in Saariselkä, one of the most remote locations any brewery operates from. Their beers use pure Arctic water and locally inspired ingredients: spruce tips, lingonberries, rye. The brewery has a small pub where you can drink fresh beer metres from where it was made."
-      },
-      {
         "name": "Tornion Panimo",
         "location": "Tornio (Swedish border)",
-        "description": "Award-winning craft brewery at the Swedish-Finnish border town of Tornio. Known for their Arctic Circle Ale and innovative Nordic-style brewing. They export throughout the Nordics and have won multiple awards at Scandinavian beer competitions."
+        "description": "Brewing on the bank of the Tornionjoki began here in 1873. Hartwall closed the plant in 2010 and moved production south; in 2016 more than 1,900 small investors brought the brewery back through a crowdfunding campaign. It makes both beer and spirits, including Original Lapland Lager and Arctic Pale Ale, and runs tasting tours."
       },
       {
         "name": "Lapland Brewery",
         "location": "Rovaniemi",
-        "description": "The brewery pub in Rovaniemi city centre. Beers brewed on-site, served at the bar alongside the tanks. Watch the brewing process while drinking the results. Their seasonal releases often incorporate ingredients foraged from the Lappish forest around the city."
+        "description": "Rovaniemi's own brewery, out on the Teollisuustie industrial estate rather than in the town centre. Beers are brewed on site and served in the taproom beside the tanks. The brewery describes itself as Finland's northernmost. Friday tours run through the winter and need booking ahead."
       }
     ],
     "styles": [
@@ -593,7 +578,7 @@
     "lapinKulta": {
       "title": "Lapin Kulta, Gold from the Arctic",
       "body": [
-        "If any beer truly belongs in a guide to Lapland bars, it is Lapin Kulta, literally \"Lapland's Gold.\" Brewed in Tornio, on the Finnish-Swedish border at the mouth of the Tornionjoki river, since 1873. For over 150 years, this beer has been made with water from one of the northernmost brewing sources in the world.",
+        "If any beer truly belongs in a guide to Lapland bars, it is Lapin Kulta, literally \"Lapland’s Gold.\" The brewery was founded in 1873 in Tornio, on the Finnish-Swedish border at the mouth of the Tornionjoki river, and the beer carried that Arctic address for well over a century. Hartwall closed the Tornio brewery in 2010 and moved production to Lahti, so the name still points north even though the brewing no longer happens here.",
         "Lapin Kulta is Finland's classic pale lager, clean, light, malty, and uncomplicated. It will not win craft beer awards, and it does not try to. It is the beer that has been on Finnish cabin tables, sauna benches, and festival grounds for five generations. When Finns say \"grab a beer,\" this is often the beer they mean. In Lapland specifically, ordering Lapin Kulta in a local pub feels right in a way no imported lager ever could.",
         "The brand has changed hands, from Hartwall to Heineken International, but the beer itself remains a Finnish staple. You will find it in every Lapland bar, every supermarket, every Alko. It is, in the best possible sense, completely ordinary."
       ],
@@ -710,7 +695,7 @@
       },
       {
         "title": "New bars worth a detour",
-        "body": "Lapon Panimo's seasonal taps. A pop-up cocktail bar in Rovaniemi. A new brewery on the Tornio side. We tell you about openings while they still feel new."
+        "body": "A new seasonal tap list in Rovaniemi. A pop-up cocktail bar. A new brewery on the Tornio side. We tell you about openings while they still feel new."
       }
     ],
     "doneMessage": "Got you. We'll see you under the aurora.",

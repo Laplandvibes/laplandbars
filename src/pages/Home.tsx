@@ -13,7 +13,7 @@ import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
 
 const barImages: Record<string, string> = {
-  'Lapland Brewery Pub': BARS.breweryInterior,
+  'Lapland Brewery': BARS.breweryInterior,
   'Café & Bar 21': BARS.cocktailTrio,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
   'Hullu Poro Areena': BARS.apresSkiTwilight,

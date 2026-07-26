@@ -16,12 +16,12 @@ type Style = { style: string; desc: string };
 // 2026-07-24). The old list ("Arctic Lager", "Spruce Tip Pale Ale", …) was
 // invented, and "Lapon Panimo" was a garbled duplicate of Lapin Panimo.
 const breweryBeers: Record<string, string[]> = {
-  'Lapin Panimo': ['Hippu Lapland Golden Pilsner', 'Saana Lapland Pale Ale', 'Aihki Lapland Dark Lager', 'Saariselkä Pilsner'],
+  'Lapland Brewery': ['Hippu Lapland Golden Pilsner', 'Saana Lapland Pale Ale', 'Aihki Lapland Dark Lager', 'Saariselkä Pilsner'],
   'Tornion Panimo': ['Original Lapland Lager', 'Arctic Pale Ale', 'Routa Imperial Stout', 'Laavu Smoky ESB'],
 };
 
 const featuredFlags: Record<string, boolean> = {
-  'Lapin Panimo': true,
+  'Lapland Brewery': true,
   'Tornion Panimo': true,
 };
 
