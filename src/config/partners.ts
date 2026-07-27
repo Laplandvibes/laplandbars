@@ -18,7 +18,7 @@ const TP_TRS = '524131';
 /** Build a Travelpayouts deep link for a program + destination + placement. */
 // [LV-ADUNIT-WORKER-2 2026-07-27] Worker-routed so the click reaches D1; the
 // Worker rebuilds the identical tp.media URL and appends sub_id=<domain>_<sid>.
-const TP_ROUTE: Record<number, string> = { 8310: 'airalo', 8919: 'welcomepickups', 5869: 'ekta' };
+const TP_ROUTE: Record<number, string> = { 8310: 'airalo', 8919: 'welcomepickups' };
 
 function tpLink(programId: number, dest: string, sid: string): string {
   const u = encodeURIComponent(dest);
