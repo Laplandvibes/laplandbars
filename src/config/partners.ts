@@ -16,11 +16,20 @@ const TP_MARKER = '723794';
 const TP_TRS = '524131';
 
 /** Build a Travelpayouts deep link for a program + destination + placement. */
+// [LV-ADUNIT-WORKER-2 2026-07-27] Worker-routed so the click reaches D1; the
+// Worker rebuilds the identical tp.media URL and appends sub_id=<domain>_<sid>.
+const TP_ROUTE: Record<number, string> = { 8310: 'airalo', 8919: 'welcomepickups', 5869: 'ekta' };
+
 function tpLink(programId: number, dest: string, sid: string): string {
   const u = encodeURIComponent(dest);
-  return `https://tp.media/r?marker=${TP_MARKER}&trs=${TP_TRS}&p=${programId}&u=${u}&campaign_id=1&sub_id=${encodeURIComponent(
-    sid,
-  )}`;
+  const route = TP_ROUTE[programId];
+  // Unmapped program → keep the direct link rather than 400 on an unknown route.
+  if (!route) {
+    return `https://tp.media/r?marker=${TP_MARKER}&trs=${TP_TRS}&p=${programId}&u=${u}&campaign_id=1&sub_id=${encodeURIComponent(
+      sid,
+    )}`;
+  }
+  return `https://go.laplandvibes.com/go/${route}?sid=${encodeURIComponent(sid)}&dest=${u}`;
 }
 
 // ── Welcome Pickups — private airport transfers ──────────────────────────────
