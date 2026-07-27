@@ -6,8 +6,8 @@
     "hero": {
       "headlineLine1": "Lapin parhaat",
       "headlineLine2": "baarit ja pubit",
-      "sub": "Jäästä veistetyt lasibaarit. Legendaariset après-ski-paikat. Lämpimät pubit, joiden ikkunoista näkyy revontulet. Käsin valitut suosikit, kaikki oikeasti olemassa.",
-      "subSummer": "Järvenrantaterassit ja kattobaarit keskiyön auringossa. Terassit, joilla on valoisaa puolenyön jälkeenkin, live-musiikkia ja kesäfestareita. Käsin valitut suosikit, kaikki oikeasti olemassa.",
+      "sub": "Jäästä veistetyt lasibaarit. Legendaariset après-ski-paikat. Lämpimät pubit, joiden ikkunoista näkyy revontulet. Käsin valitut suosikit: kaikki ovat oikeasti olemassa.",
+      "subSummer": "Järvenrantaterassit ja kattobaarit keskiyön auringossa. Terassit, joilla on valoisaa puolenyön jälkeenkin, live-musiikkia ja kesäfestareita. Käsin valitut suosikit: kaikki ovat oikeasti olemassa.",
       "ctaStay": "Etsi majoitus läheltä",
       "ctaBrowse": "Selaa baareja"
     },
@@ -169,7 +169,7 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Lasibaarielämys",
-        "description": "Rakennetaan alusta joka talvi, lasibaarin veistävät taiteilijat ja jokainen kausi saa uuden teeman. Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla, 30 minuuttia Rovaniemen keskustasta. Juomat tarjoillaan jäästä tehdyissä laseissa. Lämpötila: -5 °C sisällä. Lämpöhaalarit kuuluvat lippuun.",
+        "description": "Rakennetaan alusta joka talvi: taiteilijat veistävät lasibaarin, ja jokainen kausi saa uuden teeman. Sijaitsee Arctic SnowHotelissa Lehtojärven rannalla, 30 minuuttia Rovaniemen keskustasta. Juomat tarjoillaan jäästä tehdyissä laseissa. Lämpötila: -5 °C sisällä. Lämpöhaalarit kuuluvat lippuun.",
         "highlights": [
           "Uusi teema vuosittain",
           "Jäälasit",
@@ -295,7 +295,7 @@
       "sub": "Rakennetaan lumesta ja jäästä joka talvi. Sulaa joka kevät. Poissa seuraavaan jouluun asti. Tämä ei ole teemabaari, vaan kausittainen arktinen ilmiö."
     },
     "intro": [
-      "Joka syksy joukko jäätaiteilijoita ja rakentajia saapuu Suomen Lapin lumikyliin. He sahaavat jäälohkareita jäätyneistä järvistä, pakkaavat tonneittain lunta muotteihin ja veistävät käsin baareja, tuoleja, kaaria ja hahmoja. Joulukuuksi tulos on valmis: täydessä toiminnassa olevia baareja, jotka pyörivät -5 °C:ssa, ja joiden jokainen pinta, seinät, baaritiski, lasit, on jäätä.",
+      "Joka syksy joukko jäätaiteilijoita ja rakentajia saapuu Suomen Lapin lumikyliin. He sahaavat jäälohkareita jäätyneistä järvistä, pakkaavat tonneittain lunta muotteihin ja veistävät käsin baareja, tuoleja, kaaria ja hahmoja. Joulukuuksi tulos on valmis: täydessä toiminnassa olevia baareja, jotka pyörivät -5 °C:ssa, ja joissa jokainen pinta on jäätä: seinät, baaritiski ja lasit.",
       "Jokainen vuosi tuo uuden teeman. Veistokset eivät ole koskaan samat. Sitä mitä koet yhtenä talvena, ei ole olemassa seuraavana. Tilapäisyys on pointti. Lasibaari on määritelmänsä mukaan ohimenevä, juuri siksi se kannattaa kokea ennen kuin se on poissa."
     ],
     "iceBarKicker": "Lasibaari",
@@ -307,7 +307,7 @@
     "band": {
       "kicker": "Nuku lumessa",
       "title": "Älä vain vieraile. Nuku lumihuoneessa.",
-      "body": "Arctic SnowHotelin, Lainio Snow Villagen ja Kakslauttasen lumisviitit rakennetaan uudelleen joka joulukuussa. -5 °C sisällä, lämpöluokiteltu makuupussi, aamiainen lämpimässä ravintolassa. Yksi yö riittää, muistat sen vuosia.",
+      "body": "Arctic SnowHotelin, Lainio Snow Villagen ja Kakslauttasen lumisviitit rakennetaan uudelleen joka joulukuussa. -5 °C sisällä, lämpöluokiteltu makuupussi, aamiainen lämpimässä ravintolassa. Yksi yö riittää: muistat sen vuosia.",
       "ctaArctic": "Arctic SnowHotelin huoneet",
       "ctaLainio": "Lainio Snow Village"
     },
@@ -344,7 +344,7 @@
         "stayHint": "Lumihuoneet, lasi-iglut, hirsimökit"
       },
       "Snowman World Ice Bar": {
-        "description": "Legendaarisen Snowman Worldin sisällä Joulupukin Pajakylässä, erilainen lasibaarikokemus, perheystävällisempi ja helpommin lähestyttävä. Lämpimiä juomia ja kylmiä cocktaileja lumiveistosten keskellä. Hyvä vaihtoehto, jos yhdistät lasibaarin Joulupukin tapaamiseen.",
+        "description": "Legendaarisen Snowman Worldin sisällä Joulupukin Pajakylässä: erilainen lasibaarikokemus, perheystävällisempi ja helpommin lähestyttävä. Lämpimiä juomia ja kylmiä cocktaileja lumiveistosten keskellä. Hyvä vaihtoehto, jos yhdistät lasibaarin Joulupukin tapaamiseen.",
         "highlight": "Pajakylän sijainti",
         "stayHint": "Santa Holiday Village + Nova Skyland lähellä"
       }
@@ -388,7 +388,7 @@
       },
       "Bar Levi Ihku": {
         "type": "Yökerho",
-        "desc": "Levin legenda. Täynnä jo klo 21 ja menee lujaa kello 2. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä, kaikki päätyvät tänne lopulta."
+        "desc": "Levin legenda. Täynnä jo klo 21 ja menee lujaa kello 2. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä: kaikki päätyvät tänne lopulta."
       },
       "Bar Alakerta": {
         "type": "Live-musiikkibaari",
@@ -400,7 +400,7 @@
       },
       "Selvä Pyy": {
         "type": "Pubi ja ravintola",
-        "desc": "Mennäänkin-pubi Äkäslompolon kylässä. Pienpanimo-oluet, cocktailit, suomalainen pubiruoka hirsimökkitunnelmassa. Paikalliset ja keskuksen vierailijat samassa tilassa, lämmin, helppo, mutkaton."
+        "desc": "Mennäänkin-pubi Äkäslompolon kylässä. Pienpanimo-oluet, cocktailit, suomalainen pubiruoka hirsimökkitunnelmassa. Paikalliset ja keskuksen vierailijat samassa tilassa: lämmin, helppo, mutkaton."
       },
       "Pirtukellari Night Club": {
         "type": "Yökerho",
