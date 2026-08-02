@@ -20,6 +20,7 @@ const CookiePolicy = lazy(() => import('./pages/CookiePolicy'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 import { useLocale } from './i18n/useLocale';
 import LocaleAutoRedirect from './i18n/LocaleAutoRedirect';
+import { AppPromoNudge } from './components/AppPromo';
 
 function useFooterPillarLinks() {
   const { t, i18n } = useTranslation('common');
@@ -171,6 +172,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <AppLayout />
-    </BrowserRouter>
+    {/* App promo: engagement-triggered, never on arrival. */}
+      <AppPromoNudge />
+      </BrowserRouter>
   );
 }

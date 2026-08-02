@@ -11,6 +11,7 @@ import Newsletter from '../components/Newsletter';
 import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots';
 import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
+import { AppPromoHero } from '../components/AppPromo';
 
 const barImages: Record<string, string> = {
   'Lapland Brewery': BARS.breweryInterior,
@@ -460,6 +461,9 @@ export default function Home() {
           <AffiliateDisclosure variant="full" className="mt-12 text-white/45 max-w-2xl mx-auto" />
         </div>
       </section>
+    {/* App launch block. Bottom of the page on purpose: the site's own hero is
+        what the search result promised, and this does not get to interrupt it. */}
+    <AppPromoHero />
     </>
   );
 }
