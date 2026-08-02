@@ -267,6 +267,10 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* App launch block, directly under the site's own opening. At the foot
+          of the page it measured 81 % down a 33 000 px front page, and an
+          announcement nobody scrolls to is not an announcement. */}
+      <AppPromoHero />
 
       {/* By city */}
       <section className="relative py-24 px-4 sm:px-6 lg:px-8 bg-night overflow-hidden">
@@ -461,9 +465,6 @@ export default function Home() {
           <AffiliateDisclosure variant="full" className="mt-12 text-white/45 max-w-2xl mx-auto" />
         </div>
       </section>
-    {/* App launch block. Bottom of the page on purpose: the site's own hero is
-        what the search result promised, and this does not get to interrupt it. */}
-    <AppPromoHero />
     </>
   );
 }
