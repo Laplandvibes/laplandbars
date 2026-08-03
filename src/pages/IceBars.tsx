@@ -143,7 +143,7 @@ export default function IceBars() {
                         {t('iceBars.bookKicker')}
                       </div>
                       <a
-                        href={gygDeepLink(bar.visitGygProductPath, bar.visitSid)}
+                        href={gygDeepLink(bar.visitGygProductPath, bar.visitSid, locale)}
                         target="_blank"
                         rel="sponsored nofollow noopener"
                         className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"

@@ -255,7 +255,7 @@ export default function Bars() {
                               </div>
                               {bar.tour.gygProductPath ? (
                                 <a
-                                  href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid)}
+                                  href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid, locale)}
                                   target="_blank"
                                   rel="sponsored nofollow noopener"
                                   className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
