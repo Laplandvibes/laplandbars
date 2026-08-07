@@ -6,8 +6,11 @@ import { useLocale } from '../i18n/useLocale';
 export default function About() {
   const { t } = useTranslation('pages');
   const { to } = useLocale();
+  // `min-h-screen` venytti lyhyen About-sivun täydeksi ruuduksi ja jätti
+  // tabletilla ~500 px tyhjää viimeisen rivin ja footerin väliin.
+  // Sisältö määrää korkeuden (auditti 4.8.).
   return (
-    <div className="min-h-screen bg-night pt-24 pb-20">
+    <div className="bg-night pt-24 pb-20">
       <PageSeo
         titleKey="about.title"
         descriptionKey="about.description"

@@ -190,11 +190,15 @@ export default function Home() {
                     <h3 className="font-heading text-xl tracking-wide text-white group-hover:text-amber transition-colors mb-1">
                       {bar.name}
                     </h3>
-                    <div className="flex items-center gap-2 text-sm text-white/65 mb-3">
+                    {/* `truncate` katkaisi tyyppilabelin kesken sanan jo 375 px:ssä
+                        ("Gastropubi ja pienpanimo-ol…"), koska kaupunki + erotin
+                        veivät rivin. Rivitys sallittu: kortin korkeus joustaa,
+                        katkaistu sana ei kerro mitään (auditti 4.8.). */}
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-sm text-white/65 mb-3">
                       <MapPin size={12} className="text-amber shrink-0" />
                       {bar.city}
                       <span className="text-white/75">·</span>
-                      <span className="truncate">{type}</span>
+                      <span>{type}</span>
                     </div>
                     <p className="text-sm text-white/75 leading-relaxed mb-4 flex-1">
                       {description}

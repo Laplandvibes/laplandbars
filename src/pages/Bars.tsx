@@ -89,7 +89,11 @@ export default function Bars() {
           decoding="async"
           className="absolute inset-0 w-full h-full object-cover"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        {/* Keskikohdan 0.42 päästi valaistut mökin ikkunat läpi juuri ingressin
+            kohdalla, jolloin valkoinen teksti menetti kontrastin kirkkaimpien
+            kohtien päällä (auditti 4.8.). Nostettu 0.62:een; ylä- ja alapää
+            ennallaan, joten kuva ei tummene kauttaaltaan. */}
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.30) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('bars.hero.title')}

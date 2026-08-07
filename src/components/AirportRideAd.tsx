@@ -291,7 +291,10 @@ export default function AirportRideAd({
                 {eyebrow}
               </p>
             </div>
-            <span className="flex shrink-0 items-center gap-2">
+            {/* `shrink-0` esti kutistumisen 375 px:ssä, jolloin sanamerkki vuoti
+                kortin ja viewportin yli ja leikkautui muotoon "Welcome P"
+                (auditti 4.8.). Nyt se saa kutistua ja rivittyä. */}
+            <span className="flex min-w-0 items-center gap-2">
               <img
                 src={WELCOME_PICKUPS.logo}
                 alt=""

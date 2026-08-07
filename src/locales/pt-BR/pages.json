@@ -281,6 +281,87 @@
           "Carta de cervejas",
           "Cardápio de gastropub"
         ]
+      },
+      "Kauppayhtiö": {
+        "type": "Bar e shows",
+        "description": "Valtakatu 24: parte bar, parte mercado, parte galeria de arte. Pizza de forno a lenha e hambúrgueres saindo da cozinha, DJs tocando noite adentro, móveis de segunda mão à venda e a Edge Gallery de arte urbana e pop art nas paredes. Nada em Rovaniemi se parece com isso.",
+        "highlights": [
+          "DJs e música ao vivo",
+          "Pizza de forno a lenha",
+          "Galeria de arte urbana"
+        ]
+      },
+      "Rovaniemen Oluthuone": {
+        "type": "Cervejaria",
+        "description": "A “Sala da Cerveja” na rua de pedestres de Rovaniemi, um restaurante-cervejaria aconchegante com ampla seleção de rótulos nacionais e importados, além de coquetéis e petiscos. No verão abrem o terraço e o jardim da cerveja sob o sol da meia-noite. Um lugar simples e bem tocado, ao qual os moradores sempre voltam.",
+        "highlights": [
+          "Ampla carta de cervejas",
+          "Jardim da cerveja no verão",
+          "Na rua de pedestres"
+        ]
+      },
+      "MustaKissa Kuppila": {
+        "type": "Bar de coquetéis",
+        "description": "Um refúgio pequeno e aconchegante de coquetéis autorais e cerveja local, com bebidas de pegada ártica e sazonal. O MustaKissa funciona também como galeria e casa de shows: exposições temporárias nas paredes e música ao vivo em algumas noites. Daqueles lugares discretos que os frequentadores guardam com certo ciúme.",
+        "highlights": [
+          "Coquetéis árticos",
+          "Cerveja artesanal local",
+          "Galeria e música ao vivo"
+        ]
+      },
+      "Pub Sarvi": {
+        "type": "Pub tradicional",
+        "description": "Um pub de bairro aconchegante e revestido de madeira, longe da agitação do centro. Chope artesanal, doses honestas e música ao vivo com frequência, que atrai moradores que se conhecem pelo nome. Sem frescura e fácil, do tipo em que se passa a noite inteira em vez de só dar uma passada.",
+        "highlights": [
+          "Chope artesanal",
+          "Música ao vivo",
+          "Pub de bairro"
+        ]
+      },
+      "Roy Club": {
+        "type": "Karaokê e balada",
+        "description": "O lendário bar de karaokê e balada de Rovaniemi, em funcionamento desde 1985. Dois andares: em um se pega o microfone, no outro fica a pista de dança. Abre tarde e fecha mais tarde ainda; é onde a noite em Rovaniemi costuma terminar, tendo sido planejado assim ou não.",
+        "highlights": [
+          "Karaokê desde 1985",
+          "Dois andares",
+          "Balada até tarde"
+        ]
+      },
+      "V'inkkari": {
+        "type": "Bar après-ski",
+        "description": "Uma instituição do après-ski em Levi, ao pé das pistas e conhecida bem além da Lapônia. Bandas tocam ao vivo quase todos os dias durante a temporada de esqui e o público acaba dançando em cima das mesas de botas de esqui. Tranquilo à tarde, barulhento e lotado à noite: après de Levi puro.",
+        "highlights": [
+          "Bandas ao vivo diárias",
+          "Après ao pé da pista",
+          "Dança de botas de esqui"
+        ]
+      },
+      "Restaurant Tuikku": {
+        "type": "Restaurante e après-ski",
+        "description": "O restaurante de topo mais antigo de Levi, no cume, com vista panorâmica sobre os montes da Lapônia Ocidental. Chega-se de esqui, de moto de neve, a pé ou de helicóptero pela estrada do cume. Almoço durante o dia e o “Master of After Ski” à tarde, quando a temporada de inverno está em andamento.",
+        "highlights": [
+          "Vista panorâmica do cume",
+          "De esqui ou helicóptero",
+          "Après lendário"
+        ]
+      },
+      "Bar Kaappi": {
+        "type": "Bar après-ski",
+        "description": "Um bar de après-ski em estilo lounge no coração de Ylläsjärvi, com carta ampla de bebidas, cervejas e coquetéis especiais e o famoso mocktail “Hattivatti” que as famílias vêm tomar antes das 22h. No inverno há noites de música ao vivo e quiz. Na frente está o Ford Sierra dos filmes Lapland Odyssey.",
+        "highlights": [
+          "Mocktail Hattivatti",
+          "Cervejas e coquetéis",
+          "Música ao vivo e quiz"
+        ]
+      },
+      "Teerenpesä": {
+        "type": "Restaurante, pub e balada",
+        "description": "Três casas sob um mesmo teto de troncos no centro de Saariselkä: um restaurante lapão com pratos sazonais do norte, um pub esportivo com telões, dardos e sinuca, e uma balada que alterna bailes de casal tradicionais e pista de disco. O que quer que o grupo queira da noite, está aqui.",
+        "highlights": [
+          "Três casas em uma",
+          "Cozinha lapônica",
+          "Bailes e disco"
+        ]
       }
     },
     "cityNav": {

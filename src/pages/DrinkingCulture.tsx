@@ -143,8 +143,11 @@ export default function DrinkingCulture() {
                 <div className="space-y-3 text-sm text-white/80">
                   {priceRows.map((row, i) => (
                     <div key={i} className={`flex justify-between items-center ${i < priceRows.length - 1 ? 'border-b border-white/5 pb-2' : ''}`}>
-                      <span>{row.label}</span>
-                      <span className="text-amber font-medium">{row.value}</span>
+                      {/* Hinta ei saa rivittyä irti nimikkeestään: 375 px:ssä
+                          "Koff Porter / erikoisuus (0,33 l, Alko)" työnsi "Alko)"
+                          ja yksinäisen "€"-merkin omille riveilleen (auditti 4.8.). */}
+                      <span className="min-w-0 pr-3">{row.label}</span>
+                      <span className="text-amber font-medium whitespace-nowrap shrink-0">{row.value}</span>
                     </div>
                   ))}
                 </div>

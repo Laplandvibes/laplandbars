@@ -281,6 +281,87 @@
           "Ölutbud",
           "Matmeny"
         ]
+      },
+      "Kauppayhtiö": {
+        "type": "Bar & livemusik",
+        "description": "Valtakatu 24: dels bar, dels marknadsplats, dels konstgalleri. Från köket kommer vedugnsbakad pizza och burgare, dj:s spelar långt in på natten, begagnade möbler säljs och på väggarna hänger Edge Gallery med gatukonst och popkonst. Något liknande finns inte i Rovaniemi.",
+        "highlights": [
+          "Dj:s & livemusik",
+          "Vedugnsbakad pizza",
+          "Gatukonstgalleri"
+        ]
+      },
+      "Rovaniemen Oluthuone": {
+        "type": "Ölbar",
+        "description": "”Ölrummet” vid Rovaniemis gågata, en varm ölrestaurang med ett brett urval av inhemska och importerade öl, plus cocktails och tilltugg. På sommaren öppnar terrassen och ölträdgården under midnattssolen. Ett okomplicerat, välskött ställe dit lokalborna återkommer.",
+        "highlights": [
+          "Brett ölurval",
+          "Ölträdgård på sommaren",
+          "Vid gågatan"
+        ]
+      },
+      "MustaKissa Kuppila": {
+        "type": "Cocktailbar",
+        "description": "Ett litet, mysigt ställe för hantverkscocktails och lokal öl, där drinkarna lutar åt arktiskt och säsongsbetonat. MustaKissa fungerar också som galleri och konsertlokal: tillfälliga utställningar på väggarna, livemusik vissa kvällar. Ett lågmält ställe som stamgästerna håller lite för sig själva.",
+        "highlights": [
+          "Arktiska säsongsdrinkar",
+          "Lokal hantverksöl",
+          "Galleri & livemusik"
+        ]
+      },
+      "Pub Sarvi": {
+        "type": "Traditionell pub",
+        "description": "En varm, träklädd kvarterspub bort från trängseln i centrum. Hantverksöl på fat, ärliga shots och regelbunden livemusik som drar lokalbor som känner varandra vid namn. Opretentiös och enkel: en pub där man stannar kvar hela kvällen i stället för att bara titta in.",
+        "highlights": [
+          "Hantverksöl på fat",
+          "Livemusik",
+          "Kvarterspub"
+        ]
+      },
+      "Roy Club": {
+        "type": "Karaokebar & nattklubb",
+        "description": "Rovaniemis legendariska karaokebar och nattklubb, i drift sedan 1985. Två våningar: på den ena tar du mikrofonen, på den andra dansgolvet. Det öppnar sent och stänger ännu senare - här slutar en kväll ute i Rovaniemi oftast, oavsett om du planerat det eller inte.",
+        "highlights": [
+          "Karaoke sedan 1985",
+          "Två våningar",
+          "Klubb till sent"
+        ]
+      },
+      "V'inkkari": {
+        "type": "Afterskibar",
+        "description": "En afterski-institution i Levi vid foten av backarna, känd långt utanför Lappland. Under skidsäsongen spelar liveband nästan dagligen och till slut dansar publiken på borden i pjäxor. Avslappnat på eftermiddagen, högljutt och fullsatt på kvällen: ren Levi-afterski.",
+        "highlights": [
+          "Liveband dagligen",
+          "Afterski vid backen",
+          "Dans i pjäxor"
+        ]
+      },
+      "Restaurant Tuikku": {
+        "type": "Fjälltoppsrestaurang & afterski",
+        "description": "Levis äldsta fjälltoppsrestaurang, belägen uppe på toppen med panoramautsikt över Västra Lapplands fjäll. Nås på skidor, med snöskoter, till fots eller med helikopter via toppvägen. Lunch på dagen, ”Master of After Ski” på eftermiddagen när vintersäsongen är igång.",
+        "highlights": [
+          "Panorama från toppen",
+          "Skidor eller helikopter",
+          "Legendarisk afterski"
+        ]
+      },
+      "Bar Kaappi": {
+        "type": "Afterskibar",
+        "description": "En afterskibar i loungestil i hjärtat av Ylläsjärvi, med en bred dryckeslista, specialöl och cocktails samt den kända mocktailen ”Hattivatti” som familjer kommer in för före kl. 22. Under vintern ordnas kvällar med livemusik och pubquiz. Utanför står Ford Sierra från filmerna Lapland Odyssey.",
+        "highlights": [
+          "Hattivatti-mocktail",
+          "Specialöl & cocktails",
+          "Livemusik & quiz"
+        ]
+      },
+      "Teerenpesä": {
+        "type": "Restaurang, pub & nattklubb",
+        "description": "Tre ställen under samma timmertak i centrala Saariselkä: en lappländsk restaurang med säsongens nordliga rätter, en sportpub med skärmar, dart och biljard, och en nattklubb med både traditionell pardans och ett discogolv. Vad än sällskapet vill ha av en kväll finns det här.",
+        "highlights": [
+          "Tre ställen i ett",
+          "Lappländskt kök",
+          "Dans & disco"
+        ]
       }
     },
     "cityNav": {
