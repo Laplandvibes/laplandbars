@@ -105,7 +105,7 @@ export default function Newsletter() {
               <p className="text-base font-medium">{t('newsletter.doneMessage')}</p>
             </div>
           ) : (
-            <FounderByline tone="pink" />
+            <><FounderByline tone="pink" />
             <form onSubmit={onSubmit} className="flex flex-col sm:flex-row gap-3">
               <label className="sr-only" htmlFor="newsletter-email">{t('newsletter.emailLabel')}</label>
               <input
@@ -126,7 +126,7 @@ export default function Newsletter() {
                 {status === 'loading' ? t('newsletter.submitLoading') : t('newsletter.submitIdle')}
                 <ArrowRight className="w-4 h-4" />
               </button>
-            </form>
+            </form></>
           )}
 
           {error && (
