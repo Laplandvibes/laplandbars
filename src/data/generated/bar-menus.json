@@ -1,0 +1,154 @@
+{
+  "arctic-snowhotel-icebar": {
+    "status": "none",
+    "reason": "sivuston ainoat ehdokkaat ovat varauspaketteja, ei juomalistaa",
+    "checkedAt": "2026-08-10"
+  },
+  "bar-alakerta": {
+    "status": "none",
+    "reason": "verkkosivu ei vastaa",
+    "checkedAt": "2026-08-10"
+  },
+  "bar-ihku": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "bar-kaappi": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "bull-bar-grill": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "cafe-bar-21": {
+    "url": "https://www.cafebar21.fi/fi/menu",
+    "kind": "page",
+    "title": "Menu &mdash; Cafe &amp; Bar 21",
+    "evidence": 63,
+    "checkedAt": "2026-08-10"
+  },
+  "gastropub-giitu": {
+    "url": "https://gastropubgiitu.fi/en/menu",
+    "kind": "page",
+    "title": "Menu",
+    "evidence": 36,
+    "checkedAt": "2026-08-10"
+  },
+  "hullu-poro-areena": {
+    "url": "https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/grill/",
+    "kind": "page",
+    "title": "Street Food Grill - Levi Center Hullu Poro",
+    "evidence": 16,
+    "checkedAt": "2026-08-10"
+  },
+  "ice-bar-arctic-snowhotel": {
+    "status": "none",
+    "reason": "sivuston ainoat ehdokkaat ovat varauspaketteja, ei juomalistaa",
+    "checkedAt": "2026-08-10"
+  },
+  "kauppayhtio": {
+    "url": "https://www.kauppayhtio.fi/fi/menut",
+    "kind": "page",
+    "title": "Menut - Kauppayhtiö",
+    "evidence": 0,
+    "note": "Menuhakemisto; automaatti tarjosi yhta alamenua.",
+    "checkedAt": "2026-08-10"
+  },
+  "lapland-brewery": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "mustakissa-kuppila": {
+    "status": "none",
+    "reason": "vain some-sivu",
+    "checkedAt": "2026-08-10"
+  },
+  "nook-lounge": {
+    "url": "https://santashotels.fi/wp-content/uploads/2026/06/NOOK-drinkkilista-kesa26-web.pdf",
+    "kind": "pdf",
+    "title": "Nook Lounge (PDF)",
+    "evidence": 0,
+    "checkedAt": "2026-08-10",
+    "note": "kausileimattu PDF — kuukausivahti seuraa"
+  },
+  "pirtukellari-night-club": {
+    "status": "none",
+    "reason": "ei verkkosivua",
+    "checkedAt": "2026-08-10"
+  },
+  "pub-holmola": {
+    "url": "https://www.hulluporo.fi/en/restaurants/pub-holmola/",
+    "kind": "page",
+    "title": "Pub Hölmölä - Levi Center Hullu Poro",
+    "evidence": 62,
+    "checkedAt": "2026-08-10"
+  },
+  "pub-old-mates": {
+    "url": "https://oldmates.fi/levi-menu",
+    "kind": "page",
+    "title": "OLD MATES &mdash; MENU - LEVI",
+    "evidence": 5,
+    "checkedAt": "2026-08-10"
+  },
+  "pub-sarvi": {
+    "status": "none",
+    "reason": "vain some-sivu",
+    "checkedAt": "2026-08-10"
+  },
+  "public-house-sohva": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "restaurant-tuikku": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "rovaniemen-oluthuone": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "roy-club": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "selva-pyy": {
+    "url": "https://selvapyy.fi/ruokalista/",
+    "kind": "page",
+    "title": "Ruokalista – Public House Selvä Pyy",
+    "evidence": 0,
+    "checkedAt": "2026-08-10"
+  },
+  "snowman-world-ice-bar": {
+    "url": "https://snowmanworld.fi/food-and-drink/",
+    "kind": "page",
+    "title": "Restaurants and bars - Snowman World Rovaniemi Santa Claus Village",
+    "evidence": 11,
+    "checkedAt": "2026-08-10"
+  },
+  "snowvillage-icebar": {
+    "status": "none",
+    "reason": "sivustolta ei loytynyt menua etusivulta eika navista",
+    "checkedAt": "2026-08-10"
+  },
+  "teerenpesa": {
+    "status": "none",
+    "reason": "ehdokas 404",
+    "checkedAt": "2026-08-10"
+  },
+  "uitto-pub": {
+    "url": "https://www.raflaamo.fi/en/restaurant/rovaniemi/uitto-pub/menu/2166/uittos-menu",
+    "kind": "page",
+    "title": "Uitto&#x27;s menu | Uitto Pub | Raflaamo.fi",
+    "evidence": 6,
+    "checkedAt": "2026-08-10"
+  }
+}

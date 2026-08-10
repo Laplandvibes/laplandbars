@@ -18,6 +18,7 @@ export type Localised = {
 };
 
 import type { Locale } from '../i18n/config';
+import barMenus from './generated/bar-menus.json';
 
 /**
  * Pick the string for the current locale. Falls back to EN if a translation
@@ -240,8 +241,16 @@ export const bars: Bar[] = [
       schedule: 'Daily 11:00–22:00 (Dec 15 – Mar 31)',
       hint: 'Guided Snowhotel visit incl. Ice Bar access.',
       sid: 'bar_ice_bar_arctic_snowhotel',
-      // Verified GYG product 2026-05-02 via search.
-      gygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
+      // 🔴 gygProductPath removed 2026-07-30: the product
+      // `rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814` has been
+      // delisted. It does not 404 — GetYourGuide redirects it to the generic
+      // Rovaniemi listing, so the card named this exact ice bar while the link
+      // dropped the visitor into a city-wide list.
+      //
+      // No replacement exists: `nightlife-bars-tc109` has TWO products in the
+      // whole of Lapland, so pointing at another bar product would be inventing
+      // relevance. The card falls back to `directBookingUrl` (Bars.tsx already
+      // branches on that), which is the honest outcome.
     },
   },
 
@@ -567,7 +576,13 @@ export interface IceBar {
   stayQuery: string;
   staySid: string;
   stayHint: string;
-  visitGygProductPath: string;
+  /**
+   * Optional since 2026-07-30. Two of the three ice-bar products were delisted
+   * and GetYourGuide redirects a delisted product to a city listing instead of
+   * 404ing, so a required field forced us to keep a link that silently lied.
+   * Absent means "no bookable product" — IceBars.tsx hides the CTA entirely.
+   */
+  visitGygProductPath?: string;
   visitSid: string;
 }
 
@@ -604,8 +619,9 @@ export const iceBars: IceBar[] = [
     stayQuery: 'Kittilä, Finland',
     staySid: 'icebar_snowvillage_lainio',
     stayHint: 'Snow suites + log cabins on-site',
-    // GYG product (verified 2026-05-02): SnowVillage Ice Hotel Guided Tour with Transfer
-    visitGygProductPath: 'yllasjarvi-l248346/yllas-snowvillage-ice-hotel-guided-tour-with-transfer-t1108702',
+    // 🔴 Delisted, removed 2026-07-30. `yllas-snowvillage-ice-hotel-guided-tour-
+    // with-transfer-t1108702` now redirects to the Yllasjarvi listing (HTTP 200,
+    // valid-looking page) instead of the tour it names. No replacement exists.
     visitSid: 'icebar_visit_snowvillage',
   },
   {
@@ -639,8 +655,8 @@ export const iceBars: IceBar[] = [
     stayQuery: 'Arctic SnowHotel & Glass Igloos',
     staySid: 'icebar_arctic_snowhotel',
     stayHint: 'Snow rooms, glass igloos, log cabins',
-    // GYG product (verified 2026-05-02): Arctic SnowHotel Visit with Ice Bar
-    visitGygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
+    // 🔴 Delisted, removed 2026-07-30. Same product as the Arctic SnowHotel bar
+    // row above: it redirects to the Rovaniemi listing rather than 404ing.
     visitSid: 'icebar_visit_arctic_snowhotel',
   },
   {
@@ -675,6 +691,32 @@ export const iceBars: IceBar[] = [
     visitSid: 'icebar_visit_snowman_world',
   },
 ];
+
+/**
+ * Menulinkki baarille (juoma- tai ruokalista) rekisteristä
+ * `generated/bar-menus.json`. Jokainen rivi on kuitattu käsin: löytöskripti
+ * ehdottaa, ihminen katsoo. 10/26 baarilla on linkki; lopuilla rekisterissä on
+ * kirjattu syy.
+ *
+ * Avain on baarin nimestä johdettu slug, jossa skandit on TRANSLITEROITU
+ * (ä→a, ö→o) eikä pudotettu — muuten "Pub Hölmölä" olisi `pub-h-lm-l`.
+ */
+const menuRegistry = barMenus as Record<string, {
+  url?: string; kind?: string; title?: string; status?: string; reason?: string;
+}>;
+
+export function barSlug(name: string): string {
+  return name.toLowerCase()
+    .replace(/[äå]/g, 'a').replace(/ö/g, 'o').replace(/[éè]/g, 'e').replace(/ü/g, 'u')
+    .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+
+/** Riittaa etta paikalla on nimi, jotta sama haku palvelee myos IceBar-tyyppia. */
+export function menuFor(bar: { name: string }): { url: string; kind: 'page' | 'pdf' } | null {
+  const m = menuRegistry[barSlug(bar.name)];
+  if (!m?.url || (m.kind !== 'page' && m.kind !== 'pdf')) return null;
+  return { url: m.url, kind: m.kind };
+}
 
 export function getFeaturedBars(): Bar[] {
   return bars.filter((b) => b.featured);

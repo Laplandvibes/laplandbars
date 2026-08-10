@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Escolha seu destino"
-    }
+    },
+    "venueMenu": "Cardápio",
+    "venueMenuPdf": "Cardápio (PDF)"
   },
   "iceBars": {
     "title": "Bares de gelo na Lapônia | Snow Village e salões de gelo | LaplandBars",

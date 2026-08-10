@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Scegli la località"
-    }
+    },
+    "venueMenu": "Menù",
+    "venueMenuPdf": "Menù (PDF)"
   },
   "iceBars": {
     "title": "Ice bar in Lapponia | snow hotel e lounge di ghiaccio | LaplandBars",

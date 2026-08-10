@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Choisissez votre destination"
-    }
+    },
+    "venueMenu": "Carte",
+    "venueMenuPdf": "Carte (PDF)"
   },
   "iceBars": {
     "title": "Bars de glace en Laponie | hôtels de neige et salons de glace | LaplandBars",

@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "지역을 선택하세요"
-    }
+    },
+    "venueMenu": "메뉴",
+    "venueMenuPdf": "메뉴 (PDF)"
   },
   "iceBars": {
     "title": "라플란드의 아이스 바 | 스노 호텔과 얼음 라운지 | LaplandBars",

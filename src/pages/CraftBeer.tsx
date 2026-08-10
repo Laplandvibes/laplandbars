@@ -228,7 +228,8 @@ export default function CraftBeer() {
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
             <div className="relative rounded-2xl overflow-hidden h-72">
-              <img src={BARS.craftBeerGlasses} alt="Craft beer glasses" loading="lazy" decoding="async" className="w-full h-full object-cover" />
+              {/* Oma kuva: BARS.craftBeerGlasses on tämän sivun hero. */}
+              <img src={BARS.craftBeerTaps} alt="Freshly poured amber beer on a bar counter" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
             </div>
           </div>

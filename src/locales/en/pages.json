@@ -285,7 +285,9 @@
     },
     "cityNav": {
       "label": "Pick your town"
-    }
+    },
+    "venueMenu": "Menu",
+    "venueMenuPdf": "Menu (PDF)"
   },
   "iceBars": {
     "title": "Ice Bars in Lapland | Snow Hotel Lounges | LaplandBars",

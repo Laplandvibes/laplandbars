@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "エリアを選ぶ"
-    }
+    },
+    "venueMenu": "メニュー",
+    "venueMenuPdf": "メニュー（PDF）"
   },
   "iceBars": {
     "title": "ラップランドのアイスバー | スノーホテルと氷のラウンジ | LaplandBars",

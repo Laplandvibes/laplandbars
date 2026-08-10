@@ -5,6 +5,7 @@ import { bars, cities, pickLocalised } from '../data/bars';
 import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import MenuLink from '../components/MenuLink';
 import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
@@ -281,6 +282,16 @@ export default function Bars() {
                             </div>
                           )}
 
+                          {/* Menu ennen verkkosivua: ihminen etsii listaa, ei etusivua */}
+                          <div className="mt-3 flex items-center justify-end gap-4">
+                            <MenuLink
+                              bar={bar}
+                              label={t('bars.venueMenu')}
+                              labelPdf={t('bars.venueMenuPdf')}
+                              campaign="bars_menu_directory"
+                              className="text-white/80 hover:text-white"
+                            />
+                          </div>
                           {/* Secondary venue website link */}
                           {bar.website && (
                             <div className="mt-3 text-right">

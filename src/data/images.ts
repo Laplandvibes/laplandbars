@@ -48,7 +48,14 @@ export const BARS = {
   pubExterior: '/images/drive/pubExterior.webp',   // 1e2DMRKbiQrxMgUP7Vjx0sMsPUKxcSvo- — Arctic Lodge Pub exterior night
 
   // Live music
-  liveMusic: '/images/drive/liveMusic.webp', // 1fEWhqhv9uAavR_OpxyQ3ZjD8gwEB6agY — Live band in packed wooden bar
+  liveMusic: '/images/drive/liveMusic.webp',
+  // Omat kuvat niille kohdille joissa sama kuva esiintyi kahdesti samalla
+  // sivulla (Vesa 2026-08-10, verkoston kuva-auditti). Mitattu renderöidystä
+  // sivusta, ei grepistä: /bars ja /cocktails eivät todellisuudessa
+  // toistaneet mitään, koska niiden fallbackit eivät laukea.
+  liveMusicVenue: '/images/drive/liveMusicVenue.webp',
+  apresSkiTerrace: '/images/drive/apresSkiTerrace.webp',
+  craftBeerTaps: '/images/drive/craftBeerTaps.webp', // 1fEWhqhv9uAavR_OpxyQ3ZjD8gwEB6agY — Live band in packed wooden bar
 
   // New batch — bar atmosphere & venues
   cocktailTrio: '/images/drive/cocktailTrio.webp',                 // 1CXCw3caLeOTwU6Is4T_u6xG9TFF-uPGF — Three craft cocktails on dark bar counter

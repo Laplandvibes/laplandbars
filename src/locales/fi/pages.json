@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Valitse paikkakunta"
-    }
+    },
+    "venueMenu": "Menu",
+    "venueMenuPdf": "Menu (PDF)"
   },
   "iceBars": {
     "title": "Jääbaarit Lapissa | Lumihotellit ja jää-loungit | LaplandBars",

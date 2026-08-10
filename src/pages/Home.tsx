@@ -31,7 +31,9 @@ const barImages: Record<string, string> = {
 const categoryCardsMeta = [
   { image: BARS.heroIceBars, to: '/ice-bars', icon: Snowflake },
   { image: BARS.heroApres, to: '/apres-ski', icon: Beer },
-  { image: BARS.liveMusic, to: '/bars', icon: Music },
+  // Kategoriakortti saa oman kuvansa; BARS.liveMusic on Bar Ihkun oma kuva
+  // alempana samalla sivulla.
+  { image: BARS.liveMusicVenue, to: '/bars', icon: Music },
 ];
 
 const stayCardsMeta = [

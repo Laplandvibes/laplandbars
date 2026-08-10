@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Ort wählen"
-    }
+    },
+    "venueMenu": "Karte",
+    "venueMenuPdf": "Karte (PDF)"
   },
   "iceBars": {
     "title": "Eisbars in Lappland | Schneehotels und Eislounges | LaplandBars",

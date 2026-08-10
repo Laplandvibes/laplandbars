@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Kies je bestemming"
-    }
+    },
+    "venueMenu": "Menukaart",
+    "venueMenuPdf": "Menukaart (PDF)"
   },
   "iceBars": {
     "title": "IJsbars in Lapland | sneeuw­hotels en ijslounges | LaplandBars",

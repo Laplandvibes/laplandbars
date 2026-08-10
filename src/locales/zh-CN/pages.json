@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "选择目的地"
-    }
+    },
+    "venueMenu": "菜单",
+    "venueMenuPdf": "菜单（PDF）"
   },
   "iceBars": {
     "title": "拉普兰冰吧 | Snow Village 与冰雪大堂 | LaplandBars",

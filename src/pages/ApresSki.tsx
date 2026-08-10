@@ -33,7 +33,9 @@ const spotsMeta = [
   },
   {
     resort: 'Ylläs',
-    image: BARS.heroApres,
+    // Oma kuva: BARS.heroApres on tämän sivun hero, eli sama kuva olisi
+    // näkynyt kahdesti.
+    image: BARS.apresSkiTerrace,
     venues: [
       { name: 'Selvä Pyy', highlight: true },
       { name: 'Pirtukellari Night Club', highlight: false },

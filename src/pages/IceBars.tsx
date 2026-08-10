@@ -5,6 +5,7 @@ import { iceBars, pickLocalised } from '../data/bars';
 import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
+import MenuLink from '../components/MenuLink';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import { gygDeepLink } from '../lib/gyg';
@@ -172,6 +173,16 @@ export default function IceBars() {
                     </AffiliateCTA>
                   </div>
 
+                  {/* Menu ennen verkkosivua: ihminen etsii listaa, ei etusivua */}
+                  <div className="mt-3 flex items-center justify-end gap-4">
+                    <MenuLink
+                      bar={bar}
+                      label={t('bars.venueMenu')}
+                      labelPdf={t('bars.venueMenuPdf')}
+                      campaign="bars_menu_ice_bars"
+                      className="text-white/65 hover:text-white/80"
+                    />
+                  </div>
                   {/* Secondary venue website */}
                   {bar.website && (
                     <div className="mt-3 text-right">

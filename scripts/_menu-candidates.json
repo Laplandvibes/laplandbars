@@ -1,0 +1,268 @@
+[
+ {
+  "slug": "cafe-bar-21",
+  "name": "Café & Bar 21",
+  "city": "Rovaniemi",
+  "site": "https://www.cafebar21.fi/en/home",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Menu &mdash; Cafe &amp; Bar 21",
+  "evidence": 63,
+  "url": "https://www.cafebar21.fi/fi/menu",
+  "score": 7
+ },
+ {
+  "slug": "pub-holmola",
+  "name": "Pub Hölmölä",
+  "city": "Levi",
+  "site": "https://www.hulluporo.fi/en/restaurants/pub-holmola/",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Pub Hölmölä - Levi Center Hullu Poro",
+  "evidence": 62,
+  "url": "https://www.hulluporo.fi/en/restaurants/pub-holmola/",
+  "score": 9,
+  "sharedDomain": "hulluporo.fi"
+ },
+ {
+  "slug": "gastropub-giitu",
+  "name": "Gastropub Giitu",
+  "city": "Saariselkä",
+  "site": "https://gastropubgiitu.fi/en/home",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Menu",
+  "evidence": 36,
+  "url": "https://gastropubgiitu.fi/en/menu",
+  "score": 7
+ },
+ {
+  "slug": "hullu-poro-areena",
+  "name": "Hullu Poro Areena",
+  "city": "Levi",
+  "site": "https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Street Food Grill - Levi Center Hullu Poro",
+  "evidence": 16,
+  "url": "https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/grill/",
+  "score": 3,
+  "sharedDomain": "hulluporo.fi"
+ },
+ {
+  "slug": "snowman-world-ice-bar",
+  "name": "Snowman World Ice Bar",
+  "city": "",
+  "site": "https://snowmanworld.fi",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Restaurants and bars - Snowman World Rovaniemi Santa Claus Village",
+  "evidence": 11,
+  "url": "https://snowmanworld.fi/food-and-drink/",
+  "score": 4
+ },
+ {
+  "slug": "uitto-pub",
+  "name": "Uitto Pub",
+  "city": "Rovaniemi",
+  "site": "https://www.raflaamo.fi/en/restaurant/rovaniemi/uitto-pub",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Uitto&#x27;s menu | Uitto Pub | Raflaamo.fi",
+  "evidence": 6,
+  "url": "https://www.raflaamo.fi/en/restaurant/rovaniemi/uitto-pub/menu/2166/uittos-menu",
+  "score": 7
+ },
+ {
+  "slug": "pub-old-mates",
+  "name": "Pub Old Mates",
+  "city": "Levi",
+  "site": "https://oldmates.fi/levi",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "OLD MATES &mdash; MENU - LEVI",
+  "evidence": 5,
+  "url": "https://oldmates.fi/levi-menu",
+  "score": 11
+ },
+ {
+  "slug": "ice-bar-arctic-snowhotel",
+  "name": "Ice Bar @ Arctic SnowHotel",
+  "city": "Rovaniemi",
+  "site": "https://arcticsnowhotel.fi/en/eat-drink/ice-bar/",
+  "verdict": "strong",
+  "kind": "page",
+  "title": "Dinner at Kota Restaurant | Rovaniemi | Visiting Package",
+  "evidence": 3,
+  "url": "https://arcticsnowhotel.fi/en/visit/visiting-packages/winter/food-by-the-fire-at-kota-restaurant/",
+  "score": 3,
+  "sharedDomain": "arcticsnowhotel.fi"
+ },
+ {
+  "slug": "arctic-snowhotel-icebar",
+  "name": "Arctic SnowHotel IceBar",
+  "city": "",
+  "site": "https://arcticsnowhotel.fi",
+  "verdict": "titled",
+  "kind": "page",
+  "title": "Arctic Snowhotelin esittely ja lounas Jääravintolassa | Vierailupaketti",
+  "evidence": 2,
+  "url": "https://arcticsnowhotel.fi/vieraile/vierailupaketit/talvi/arctic-snowhotel-vierailu-ja-lounas-jaaravintolassa/",
+  "score": 5,
+  "sharedDomain": "arcticsnowhotel.fi"
+ },
+ {
+  "slug": "nook-lounge",
+  "name": "Nook Lounge",
+  "city": "Rovaniemi",
+  "site": "https://santashotels.fi/en/nook-lounge/",
+  "verdict": "titled",
+  "kind": "pdf",
+  "title": "",
+  "evidence": null,
+  "url": "https://santashotels.fi/wp-content/uploads/2026/06/NOOK-drinkkilista-kesa26-web.pdf",
+  "score": 8
+ },
+ {
+  "slug": "selva-pyy",
+  "name": "Selvä Pyy",
+  "city": "Ylläs",
+  "site": "https://selvapyy.fi",
+  "verdict": "titled",
+  "kind": "page",
+  "title": "Ruokalista – Public House Selvä Pyy",
+  "evidence": 0,
+  "url": "https://selvapyy.fi/ruokalista/",
+  "score": 10
+ },
+ {
+  "slug": "kauppayhtio",
+  "name": "Kauppayhtiö",
+  "city": "Rovaniemi",
+  "site": "https://www.kauppayhtio.fi/",
+  "verdict": "titled",
+  "kind": "page",
+  "title": "Pure Burger - Menu",
+  "evidence": 0,
+  "url": "https://www.kauppayhtio.fi/fi/menut/pure-burger",
+  "score": 6
+ },
+ {
+  "slug": "lapland-brewery",
+  "name": "Lapland Brewery",
+  "city": "Rovaniemi",
+  "site": "https://lapinpanimo.fi/en/",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "public-house-sohva",
+  "name": "Public House Sohva",
+  "city": "Levi",
+  "site": "https://pubsohva.fi/",
+  "verdict": "weak",
+  "kind": "page",
+  "title": "Public House Sohva | Olutta, urheilua ja seurapelejä Levillä",
+  "evidence": 0,
+  "url": "https://pubsohva.fi/",
+  "score": 9
+ },
+ {
+  "slug": "bull-bar-grill",
+  "name": "Bull Bar & Grill",
+  "city": "Rovaniemi",
+  "site": "https://www.arcticcityhotel.fi/eat-drink/bull-bar-grill",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "bar-ihku",
+  "name": "Bar Ihku",
+  "city": "Levi",
+  "site": "https://barihku.fi/levi",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "roy-club",
+  "name": "Roy Club",
+  "city": "Rovaniemi",
+  "site": "https://www.royclub.fi/",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "rovaniemen-oluthuone",
+  "name": "Rovaniemen Oluthuone",
+  "city": "Rovaniemi",
+  "site": "https://www.rovaniemenoluthuone.fi/",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "restaurant-tuikku",
+  "name": "Restaurant Tuikku",
+  "city": "Levi",
+  "site": "https://www.levi.fi/en/services/panoramic-restaurant-tuikku/",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "snowvillage-icebar",
+  "name": "SnowVillage IceBar",
+  "city": "",
+  "site": "https://snowvillage.fi",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "bar-kaappi",
+  "name": "Bar Kaappi",
+  "city": "Ylläs",
+  "site": "https://yllas.fi/en/restaurant/bar-kaappi/",
+  "verdict": "weak",
+  "reason": "ei ehdokasta etusivulta eika navista"
+ },
+ {
+  "slug": "teerenpesa",
+  "name": "Teerenpesä",
+  "city": "Saariselkä",
+  "site": "https://teerenpesa.fi/en/",
+  "verdict": "rejected",
+  "reason": "ehdokas 404",
+  "score": 6,
+  "url": "http://teerenpesa.fi/en/ravintola-2/?menu=pub-menu#menut"
+ },
+ {
+  "slug": "bar-alakerta",
+  "name": "Bar Alakerta",
+  "city": "Levi",
+  "site": "https://alakerta.bar",
+  "verdict": "unreachable",
+  "reason": "verkkosivu 500"
+ },
+ {
+  "slug": "pirtukellari-night-club",
+  "name": "Pirtukellari Night Club",
+  "city": "Ylläs",
+  "site": null,
+  "verdict": "nosite",
+  "reason": "ei verkkosivua"
+ },
+ {
+  "slug": "mustakissa-kuppila",
+  "name": "MustaKissa Kuppila",
+  "city": "Rovaniemi",
+  "site": "https://www.facebook.com/MustaKissaKuppila/",
+  "verdict": "nosite",
+  "reason": "vain some-sivu"
+ },
+ {
+  "slug": "pub-sarvi",
+  "name": "Pub Sarvi",
+  "city": "Rovaniemi",
+  "site": "https://www.facebook.com/pubsarvi/",
+  "verdict": "nosite",
+  "reason": "vain some-sivu"
+ }
+]

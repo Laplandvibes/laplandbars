@@ -366,7 +366,9 @@
     },
     "cityNav": {
       "label": "Välj din ort"
-    }
+    },
+    "venueMenu": "Meny",
+    "venueMenuPdf": "Meny (PDF)"
   },
   "iceBars": {
     "title": "Isbarer i Lappland | snöhotellsbarer | LaplandBars",
