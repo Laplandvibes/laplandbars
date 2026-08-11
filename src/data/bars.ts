@@ -354,7 +354,10 @@ export const bars: Bar[] = [
       de: 'Bier ~6–7 €',
     },
     address: 'Myllyjoentie 2, 99130 Levi',
-    website: 'https://alakerta.bar',
+    // Verkkosivulinkki poistettu 2026-08-10: alakerta.bar palauttaa HTTP 500
+    // kaikilla varianteilla (www, http, apex) — palvelinvirhe, ei vaara polku.
+    // Vaihtoehtoista osoitetta ei ole. Löytyi uudella kuukausivahdilla
+    // ensimmäisellä ajolla. Jos sivusto palaa, lisää website-kenttä takaisin.
     hours: {
       en: 'Tue–Sun 18–02 (04)',
       fi: 'Ti–Su 18–02 (04)',

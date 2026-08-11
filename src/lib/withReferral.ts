@@ -7,8 +7,18 @@
  *
  * Applied at RENDER SITES only — data files (src/data/bars.ts) keep clean
  * URLs. Do NOT use for: Google Maps links, affiliate links (go.laplandvibes.com,
- * GetYourGuide), internal ecosystem links, or social links. These are unpaid
- * editorial referrals — rel stays "noopener noreferrer", NOT "sponsored".
+ * GetYourGuide), internal ecosystem links, or social links.
+ *
+ * These are unpaid editorial referrals, so the rel is "nofollow noopener" —
+ * NOT "sponsored" (no money changes hands) and NOT "noreferrer".
+ *
+ * 🔴 `noreferrer` was dropped 2026-08-10 (Vesa). It strips the Referer header,
+ * so the venue could not see in its own analytics that the visit came from
+ * laplandbars.com — we were sending free traffic anonymously. The UTM query
+ * params survive, but only if the partner looks at UTM; the Referer is what
+ * shows up by default. This matters most on `bars_tour_direct`, where the
+ * operator attributes an actual booking. Network standard, same as
+ * laplanddining.
  */
 export function withReferral(url: string, campaign: string): string {
   try {

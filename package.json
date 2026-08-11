@@ -8,6 +8,7 @@
     "build:nossg": "tsc -b && vite build",
     "build": "tsc -b && vite build && node scripts/generate-prerender-meta.mjs && node ../_prerender_routes.mjs --site=https://laplandbars.com --siteName=LaplandBars --twitter=@laplandvibes --defaultOg=/og-default.jpg --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv",
     "lint": "eslint .",
+    "test": "node --test \"scripts/lib/*.test.mjs\"",
     "preview": "vite preview"
   },
   "dependencies": {

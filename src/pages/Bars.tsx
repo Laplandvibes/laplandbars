@@ -272,7 +272,7 @@ export default function Bars() {
                                 <a
                                   href={withReferral(bar.tour.directBookingUrl, 'bars_tour_direct')}
                                   target="_blank"
-                                  rel="noopener noreferrer"
+                                  rel="nofollow noopener"
                                   className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
                                 >
                                   <Ticket size={12} />
@@ -298,7 +298,7 @@ export default function Bars() {
                               <a
                                 href={withReferral(bar.website, 'bars_directory')}
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                rel="nofollow noopener"
                                 className="inline-flex items-center gap-1 text-[11px] text-white/80 hover:text-white/80 no-underline transition-colors"
                               >
                                 {t('bars.venueWebsite')} <ExternalLink size={10} />
