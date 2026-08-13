@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import { useEffect, lazy, Suspense } from 'react';
+import { useEffect, lazy, Suspense, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
 import SharedFooter from '../../shared/Footer';
@@ -21,6 +21,23 @@ const NotFound = lazy(() => import('./pages/NotFound'))
 import { useLocale } from './i18n/useLocale';
 import LocaleAutoRedirect from './i18n/LocaleAutoRedirect';
 import { AppPromoNudge } from './components/AppPromo';
+
+/**
+ * 🔴 The app layout's landmark, EXCEPT on /terms.
+ *
+ * shared/Legal/TermsContent opens its own <main>; nesting it inside this one is
+ * invalid HTML and gives a screen reader two "main" regions. Its siblings
+ * PrivacyContent/CookieContent open a <div>, so only /terms is affected.
+ * Measured from the rendered DOM 2026-08-13 (12 network sites) -- the raw HTML
+ * has zero <main> elements, so this is invisible to grep.
+ *
+ * Do NOT "simplify" this back to a plain <main>.
+ */
+function MainOrDiv({ children }: { children?: ReactNode }) {
+  const { pathname } = useLocation();
+  const Tag = /(^|\/)terms\/?$/.test(pathname) ? 'div' : 'main';
+  return <Tag>{children}</Tag>;
+}
 
 function useFooterPillarLinks() {
   const { t, i18n } = useTranslation('common');
@@ -152,7 +169,7 @@ function AppLayout() {
       <LocaleAutoRedirect />
       <LocaleSync />
       <Navbar />
-      <main>
+      <MainOrDiv>
         <Suspense fallback={<div className="min-h-screen" />}>
           <Routes>
           {ROUTES.map(({ path, element }) => (
@@ -160,7 +177,7 @@ function AppLayout() {
           ))}
         </Routes>
         </Suspense>
-      </main>
+      </MainOrDiv>
       <SharedFooter pillarLinks={pillarLinks} dict={dict} />
       <SharedCookieBanner consentKey="laplandbars_cookie_consent" lang={i18n.language} />
       <NewsletterPopup />
