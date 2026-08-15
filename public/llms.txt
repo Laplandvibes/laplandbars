@@ -1,0 +1,24 @@
+# LaplandBars
+
+> The best bars, pubs, ice bars and après-ski venues in Finnish Lapland: Rovaniemi, Levi, Ylläs, Saariselkä. Picked by people who live here.
+
+## Main pages
+
+- [Home](https://laplandbars.com/): Bars, pubs and ice bars in Finnish Lapland
+- [Bars](https://laplandbars.com/bars): Bar guide by location
+- [Ice Bars](https://laplandbars.com/ice-bars): Ice bars in Lapland
+- [Après-Ski](https://laplandbars.com/apres-ski): Après-ski venues at Lapland ski resorts
+- [Cocktails](https://laplandbars.com/cocktails): Cocktail bars in Lapland
+- [Craft Beer](https://laplandbars.com/craft-beer): Craft beer in Lapland
+- [Drinking Culture](https://laplandbars.com/drinking-culture): Finnish drinking culture
+- [About](https://laplandbars.com/about): About the site
+
+## Languages
+
+English (default, no prefix), Finnish (/fi/), Swedish (/sv/), German (/de/), French (/fr/), Spanish (/es/), Italian (/it/), Dutch (/nl/), Brazilian Portuguese (/br/), Japanese (/ja/), Korean (/kr/), Simplified Chinese (/cn/)
+
+## Network
+
+- [LaplandVibes hub](https://laplandvibes.com/): This site is part of the LaplandVibes network
+- [Sitemap](https://laplandbars.com/sitemap.xml)
+- Contact: info@laplandbars.com
