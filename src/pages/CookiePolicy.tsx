@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import CookieContent from '../../../shared/Legal/CookieContent';
+import CookieContent from '../shared/Legal/CookieContent';
 import PageSeo from '../components/PageSeo';
 import { useLocale } from '../i18n/useLocale';
 

@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, Bell, Snowflake, Music, Beer, AlertCircle } f
 import { useTranslation, Trans } from 'react-i18next';
 import { useLocale } from '../i18n/useLocale';
 import { trackNewsletterSignup } from '../lib/analytics';
-import FounderByline from '../../../shared/FounderByline';
+import FounderByline from '../shared/FounderByline';
 
 /**
  * [LV-FUNNEL 2026-08-21] Lomakesuppilon eventit Umamiin — paikallinen apuri,

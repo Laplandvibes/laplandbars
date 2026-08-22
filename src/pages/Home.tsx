@@ -8,7 +8,7 @@ import AffiliateCTA from '../components/AffiliateCTA';
 import AirportRideAd from '../components/AirportRideAd';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import Newsletter from '../components/Newsletter';
-import HomeAdSlots, { MainPartnerBanner } from '../../../shared/HomeAdSlots';
+import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots';
 import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
 import { AppPromoHero } from '../components/AppPromo';

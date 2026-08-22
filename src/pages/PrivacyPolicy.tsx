@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import PrivacyContent from '../../../shared/Legal/PrivacyContent';
+import PrivacyContent from '../shared/Legal/PrivacyContent';
 import PageSeo from '../components/PageSeo';
 import { useLocale } from '../i18n/useLocale';
 

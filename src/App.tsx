@@ -2,9 +2,9 @@ import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect, lazy, Suspense, type ReactNode } from 'react';
 import { useTranslation } from 'react-i18next';
 import Navbar from './components/Navbar';
-import SharedFooter from '../../shared/Footer';
-import type { FooterDict } from '../../shared/Footer';
-import SharedCookieBanner from '../../shared/CookieBanner';
+import SharedFooter from './shared/Footer';
+import type { FooterDict } from './shared/Footer';
+import SharedCookieBanner from './shared/CookieBanner';
 import NewsletterPopup from './components/NewsletterPopup';
 const Home = lazy(() => import('./pages/Home'))
 const Bars = lazy(() => import('./pages/Bars'))

@@ -7,8 +7,8 @@
  *
  * Myyntiprosessi: kauppa → täytä sponsor/spot → build → deploy --branch=main.
  */
-import type { HomeAdSlotsConfig } from '../../../shared/HomeAdSlots';
-import { DEFAULT_PREMIUM_SPOTS } from '../../../shared/PremiumSpotGrid';
+import type { HomeAdSlotsConfig } from '../shared/HomeAdSlots';
+import { DEFAULT_PREMIUM_SPOTS } from '../shared/PremiumSpotGrid';
 
 export const AD_SLOTS: HomeAdSlotsConfig = {
   siteSlug: 'laplandbars',
