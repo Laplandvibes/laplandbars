@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Barer i Lappland 2026: cocktails, isbarer, lokala tips",
-    "description": "Där Lappland faktiskt dricker 2026. Lokalt utvalda barer, hantverkscocktails, isbarer och afterski med riktiga priser. Levi, Rovaniemi, Ylläs.",
+    "title": "Barer i Lappland: pubar, isbarer och afterski",
+    "description": "Utvalda barer, pubar, isbarer och afterski i Rovaniemi, Levi, Ylläs och Saariselkä. Arktiska cocktails, hantverksöl och finsk dryckeskultur.",
     "eyebrow": "Finska Lappland",
     "hero": {
       "headlineLine1": "Höj ett glas",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Barer i finska Lappland | LaplandBars",
-    "description": "Barerna i Lappland där lokalborna faktiskt dricker: Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Öppettider, vad de serverar och när du kan kliva in.",
+    "description": "Barerna i Lappland där lokalborna faktiskt dricker: Rovaniemi, Levi, Ylläs och Saariselkä. Öppettider, priser och vad de serverar.",
     "hero": {
       "title": "Barer och pubar",
       "sub": "Varje bar här är på riktigt, öppen och värd din kväll. Inga sponsrade placeringar, inget fyllnadsprat, bara Lapplands verkliga dryckeskultur."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Meny (PDF)"
   },
   "iceBars": {
-    "title": "Isbarer i Lappland | snöhotellsbarer | LaplandBars",
-    "description": "Lapplands isbarer: SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Vad de serverar, när de byggs om och vad du bör ha på dig inne.",
+    "title": "Isbarer i Lappland | LaplandBars",
+    "description": "Lapplands tre isbarer: SnowVillage i Lainio, Arctic SnowHotel nära Rovaniemi och Snowman World i Santa Claus Village. Säsonger, priser och klädsel.",
     "hero": {
       "title": "Isbarer",
       "sub": "Byggda av snö och is varje vinter. Bortsmälta varje vår. Borta till nästa december. Det här är ingen temabar. Det är ett arktiskt säsongsfenomen."
@@ -435,8 +435,8 @@
     "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026. Priser och tider kan ändras med säsongen."
   },
   "apresSki": {
-    "title": "Afterski i Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Äkta afterski i Lappland: barer vid backen, dj:er i hotellobbyn, efterfest i isbaren. Var du dricker efter att liftarna stängt i Levi, Ylläs, Pyhä och Saariselkä.",
+    "title": "Afterski i Lappland: Levi och Ylläs | LaplandBars",
+    "description": "Festen börjar när liftarna stänger: Hullu Poro Areena och Levis barer, Selvä Pyy och Pirtukellari på Ylläs, plus lugnare Saariselkä och Pyhä.",
     "hero": {
       "title": "Afterski",
       "sub": "I Lappland stänger backarna klockan 16 och festen börjar 16.01. Finsk afterski är högljuddare, varmare och ärligare än någon annanstans."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Cocktails i Lappland: hjortron, lakka, tall | LaplandBars",
-    "description": "Cocktails byggda kring arktiska råvaror: hjortron, lingon, tallsirap, en, lakkalikör. Var du dricker dem och hur du gör dem hemma.",
+    "title": "Cocktails i Lappland: hjortron och lingon | LaplandBars",
+    "description": "Tre arktiska cocktails: Hjortron-sour, Norrsken och Lingonspritz. De vilda råvarorna bakom dem och provningar som går att boka.",
     "hero": {
       "title": "Arktiska cocktails",
       "sub": "Samma arktiska förhållanden som gör Lapplands vilda bär utöver det vanliga gör dem exceptionella i ett glas. Det här är cocktailkultur byggd på plockade råvaror du inte får tag på någon annanstans."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Lapplands hantverksbryggerier och ölbarer | LaplandBars",
-    "description": "Lapplands växande hantverksölsscen: Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Vad de brygger och var du provar det.",
+    "title": "Hantverksbryggerier i Lappland | LaplandBars",
+    "description": "Två bryggerier i Lappland: Tornion Panimo vid svenska gränsen och Lapland Brewery i Rovaniemi. Arktiska ölstilar och provsmakningar.",
     "hero": {
       "title": "Hantverksöl",
       "sub": "Finsk hantverksöl bygger på samma principer som finsk mat: rent vatten, vilda lokala råvaror och inga genvägar. Arktis ger varje glas sin egen smak."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Finsk dryckeskultur i Lappland | LaplandBars",
-    "description": "Varför finländare dricker som de gör: bastuöl, Alko-monopolet, vit januari, polarnattens drink. Den kulturella bakgrunden till ett barbesök i Lappland.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, bastuöl och kalsarikännit: hur finländare faktiskt dricker och vad en öl kostar på bar i Lappland.",
     "hero": {
       "title": "Finsk dryckeskultur",
       "sub": "Från Koskenkorva en fredagskväll till kalsarikännit i underkläderna, det här är en guide till hur finländare faktiskt dricker."

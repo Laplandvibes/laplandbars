@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "LaplandBars, Dónde bebe realmente Laponia",
-    "description": "Bares, cervecerías, bares de hielo, après-ski en pueblos de esquí, cócteles y los pubs locales donde de verdad bebe la gente de la Laponia finlandesa. Una guía editorial independiente, no un folleto.",
+    "description": "Bares, cervecerías, bares de hielo, après-ski, cócteles y los pubs donde de verdad bebe la Laponia finlandesa. Guía editorial independiente, no un folleto.",
     "eyebrow": "Laponia finlandesa",
     "hero": {
       "headlineLine1": "Levante la copa,",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Bares en la Laponia finlandesa | LaplandBars",
-    "description": "Los bares donde de verdad beben los locales en Laponia, Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Horarios, lo que sirven y cuándo merece la pena pasarse.",
+    "description": "Los bares donde de verdad beben los locales en Laponia: Rovaniemi, Levi, Ylläs y Saariselkä. Horarios, precios y lo que sirven.",
     "hero": {
       "title": "Bares y pubs",
       "sub": "Todos los locales aquí son reales, están abiertos hoy y merecen su noche. Sin lugares pagados ni relleno, solo la auténtica cultura del beber en Laponia."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Carta (PDF)"
   },
   "iceBars": {
-    "title": "Bares de hielo en Laponia | Snow Village y salones de hielo | LaplandBars",
-    "description": "Los bares de hielo de Laponia, SnowVillage Kittilä, Arctic Snow Hotel, Lainio Snow Village. Lo que sirven, cuándo se reconstruyen y cómo vestirse.",
+    "title": "Bares de hielo en Laponia | LaplandBars",
+    "description": "Tres bares de hielo de Laponia: SnowVillage en Lainio, Arctic SnowHotel junto a Rovaniemi y Snowman World en Santa Claus Village. Temporadas y precios.",
     "hero": {
       "title": "Bares de hielo",
       "sub": "Se levantan de nieve y hielo cada invierno, se derriten en primavera y desaparecen hasta el siguiente diciembre. Esto no son bares temáticos, son un fenómeno ártico de temporada."
@@ -435,8 +435,8 @@
     "verifiedNote": "Datos verificados en las webs de los locales el 10/07/2026; precios y horarios pueden variar según temporada."
   },
   "apresSki": {
-    "title": "Après-ski en Laponia | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "El après-ski auténtico de Laponia, bares a pie de pista, DJ en el lobby del hotel, fiestas en bares de hielo. Dónde se bebe en Levi, Ylläs, Pyhä y Saariselkä después del último telesilla.",
+    "title": "Après-ski en Laponia: Levi e Ylläs | LaplandBars",
+    "description": "La fiesta empieza al cerrar los remontes: Hullu Poro Areena y los bares de Levi, Selvä Pyy y Pirtukellari en Ylläs, más las tranquilas Saariselkä y Pyhä.",
     "hero": {
       "title": "Après-ski",
       "sub": "En Laponia, las pistas cierran a las 16:00 y la fiesta empieza a las 16:01. El après-ski finlandés es más ruidoso, más cálido y más sincero que en cualquier otro lugar."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Cócteles de Laponia, mora del pantano, lakka, pino | LaplandBars",
-    "description": "Cócteles construidos con ingredientes árticos, mora del pantano (cloudberry), arándano rojo, sirope de pino, enebro, licor de lakka. Dónde probarlos y cómo prepararlos en casa.",
+    "title": "Cócteles de Laponia con bayas árticas | LaplandBars",
+    "description": "Tres cócteles árticos: Mora ártica Sour, Aurora Boreal y Arándano rojo Spritz. Los ingredientes silvestres detrás de ellos y catas reservables.",
     "hero": {
       "title": "Cócteles árticos",
       "sub": "Las mismas condiciones árticas que hacen extraordinarias a las bayas silvestres de Laponia también las hacen extraordinarias en la copa. Es una cultura de coctelería construida sobre ingredientes recolectados que no encontrará en ningún otro sitio."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Cervecerías artesanales y beer bars de Laponia | LaplandBars",
-    "description": "La creciente escena de cerveza artesanal de Laponia, Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Qué elaboran y dónde catarlo.",
+    "title": "Cervecerías artesanales de Laponia | LaplandBars",
+    "description": "Dos cervecerías de Laponia: Tornion Panimo en la frontera sueca y Lapland Brewery con taproom en Rovaniemi. Estilos árticos, visitas y catas.",
     "hero": {
       "title": "Cerveza artesanal",
       "sub": "La cerveza artesanal finlandesa se construye sobre los mismos principios que la cocina finlandesa: agua pura, ingredientes silvestres locales y sin atajos. El Ártico aporta su propio sabor a cada pinta."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Cultura del beber finlandesa en Laponia | LaplandBars",
-    "description": "Por qué los finlandeses beben como beben, sauna lager, monopolio Alko, enero seco, la copa de la noche polar. Contexto cultural antes de pisar un bar de Laponia.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, cerveza de sauna y kalsarikännit: cómo beben de verdad los finlandeses y qué cuesta una cerveza en un bar de Laponia.",
     "hero": {
       "title": "Cultura del beber finlandesa",
       "sub": "Desde el Koskenkorva del viernes noche hasta el kalsarikännit en ropa interior, una guía sobre cómo bebe de verdad la gente de Finlandia."

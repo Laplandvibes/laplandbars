@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "LaplandBars, Wo Lappland wirklich trinkt",
-    "description": "Bars, Mikrobrauereien, Eisbars, Après-Ski in den Skigebieten, Cocktails und einheimische Pubs, in denen Finnen tatsächlich verkehren. Unabhängige Redaktion, keine Werbebroschüre.",
+    "description": "Bars, Brauereien, Eisbars, Après-Ski, Cocktails und Pubs, in denen Finnen in Lappland tatsächlich verkehren. Unabhängige Redaktion, keine Werbebroschüre.",
     "eyebrow": "Finnisch-Lappland",
     "hero": {
       "headlineLine1": "Heben Sie das Glas",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Bars in Finnisch-Lappland | LaplandBars",
-    "description": "Die Bars Lapplands, in denen Einheimische tatsächlich trinken, Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Öffnungszeiten, was ausgeschenkt wird, wann man kommen sollte.",
+    "description": "Die Bars Lapplands, in denen Einheimische tatsächlich trinken: Rovaniemi, Levi, Ylläs und Saariselkä. Öffnungszeiten, Preise und was ausgeschenkt wird.",
     "hero": {
       "title": "Bars und Pubs",
       "sub": "Jede hier aufgeführte Bar existiert wirklich, ist geöffnet und Ihren Abend wert. Keine bezahlten Platzierungen, keine Füllinhalte, nur die echte Barkultur Lapplands."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Karte (PDF)"
   },
   "iceBars": {
-    "title": "Eisbars in Lappland | Schneehotels und Eislounges | LaplandBars",
-    "description": "Lapplands Eisbars, SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Was serviert wird, wann sie neu gebaut werden, was man drinnen anziehen sollte.",
+    "title": "Eisbars in Lappland | LaplandBars",
+    "description": "Lapplands drei Eisbars: SnowVillage in Lainio, Arctic SnowHotel bei Rovaniemi und Snowman World im Santa Claus Village. Saison, Preise und Kleidung.",
     "hero": {
       "title": "Eisbars",
       "sub": "Jeden Winter aus Schnee und Eis gebaut. Jeden Frühling geschmolzen. Bis zum nächsten Weihnachten verschwunden. Das ist keine Themenbar, das ist ein saisonales arktisches Phänomen."
@@ -435,8 +435,8 @@
     "verifiedNote": "Angaben am 10.7.2026 auf den Websites der Anbieter geprüft. Preise und Zeiten können sich saisonal ändern."
   },
   "apresSki": {
-    "title": "Après-Ski in Lappland | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Echter Après-Ski in Lappland, Pistenbars, DJs in Hotellobbys, Nachspiele in Eisbars. Wohin gehen, wenn die Lifte in Levi, Ylläs, Pyhä, Saariselkä schließen.",
+    "title": "Après-Ski in Lappland: Levi & Ylläs | LaplandBars",
+    "description": "Wenn die Lifte schließen, geht es los: Hullu Poro Areena und die Bars von Levi, Selvä Pyy und Pirtukellari am Ylläs, dazu das ruhigere Saariselkä und Pyhä.",
     "hero": {
       "title": "Après-Ski",
       "sub": "In Lappland schließen die Pisten um 16 Uhr und die Party beginnt um 16:01 Uhr. Der finnische Après-Ski ist lauter, wärmer und ehrlicher als irgendwo sonst."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Lappland-Cocktails, Moltebeere, Lakka, Kiefer | LaplandBars",
-    "description": "Cocktails rund um arktische Zutaten, Moltebeere, Preiselbeere, Kiefernsirup, Wacholder, Moltebeerlikör (lakka). Wo trinken, wie zu Hause machen.",
+    "title": "Lappland-Cocktails: Moltebeere & Preiselbeere | LaplandBars",
+    "description": "Drei arktische Cocktails: Cloudberry Sour, Northern Lights und Lingonberry Spritz. Dazu die wilden Zutaten dahinter und buchbare Verkostungen.",
     "hero": {
       "title": "Arktische Cocktails",
       "sub": "Dieselben arktischen Bedingungen, die die Wildbeeren Lapplands außergewöhnlich machen, machen sie auch hervorragend im Glas. Das ist eine Cocktailkultur, die auf gesammelten Zutaten aufbaut, solchen, die man nirgendwo sonst bekommt."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Mikrobrauereien und Bierbars in Lappland | LaplandBars",
-    "description": "Lapplands wachsende Mikrobrauerei-Szene, Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Was sie brauen, wo Sie es probieren können.",
+    "title": "Mikrobrauereien in Lappland | LaplandBars",
+    "description": "Zwei Brauereien in Lappland: Tornion Panimo an der schwedischen Grenze und Lapland Brewery mit Taproom in Rovaniemi. Arktische Bierstile und Verkostungen.",
     "hero": {
       "title": "Mikrobrauerei-Bier",
       "sub": "Finnisches Mikrobrauerei-Bier baut auf denselben Prinzipien wie die finnische Küche auf: reines Wasser, wilde lokale Zutaten und keine Abkürzungen. Die Arktis bringt ihren eigenen Geschmack in jedes Pint."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Finnische Trinkkultur in Lappland | LaplandBars",
-    "description": "Warum die Finnen so trinken, wie sie trinken, Saunabier, das Alko-Monopol, der trockene Januar, die Kaamos-Schlucke. Kultureller Kontext für Ihren Lappland-Barbesuch.",
+    "description": "Koskenkorva, Lonkero, Lapin Kulta, Saunabier und Kalsarikännit: wie Finnen wirklich trinken und was ein Bier in einer Lappland-Bar kostet.",
     "hero": {
       "title": "Finnische Trinkkultur",
       "sub": "Vom Koskenkorva am Freitagabend bis zu kalsarikännit (\"Unterhosen-Suff\", zu Hause in Unterwäsche trinken), ein Leitfaden, wie Finnen tatsächlich trinken."

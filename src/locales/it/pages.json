@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Bar Lapponia 2026, scelte locali, cocktail, ice bar, prezzi reali",
-    "description": "Dove si beve davvero in Lapponia 2026, bar scelti dai locali, cocktail artigianali, ice bar, après-ski, prezzi reali. Levi, Rovaniemi, Saariselkä, Ylläs.",
+    "title": "Bar in Lapponia: pub, ice bar e après-ski",
+    "description": "Bar, pub, ice bar e après-ski scelti a Rovaniemi, Levi, Ylläs e Saariselkä. Cocktail artici, birra artigianale e come bevono davvero i finlandesi.",
     "eyebrow": "Lapponia finlandese",
     "hero": {
       "headlineLine1": "Alzi il bicchiere,",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Bar nella Lapponia finlandese | LaplandBars",
-    "description": "I bar dove la gente del posto beve davvero in Lapponia, Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Orari, cosa si beve, quando passare.",
+    "description": "I bar dove la gente del posto beve davvero in Lapponia: Rovaniemi, Levi, Ylläs e Saariselkä. Orari, prezzi e cosa si versa.",
     "hero": {
       "title": "Bar & pub",
       "sub": "Tutti i bar elencati qui esistono davvero, sono aperti adesso e meritano una serata. Niente posti sponsorizzati, niente riempitivi, solo la vera cultura del bere lappone."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Menù (PDF)"
   },
   "iceBars": {
-    "title": "Ice bar in Lapponia | snow hotel e lounge di ghiaccio | LaplandBars",
-    "description": "Gli ice bar della Lapponia, SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Cosa si serve, quando vengono rifatti, come vestirsi dentro.",
+    "title": "Ice bar in Lapponia | LaplandBars",
+    "description": "I tre ice bar della Lapponia: SnowVillage a Lainio, Arctic SnowHotel vicino a Rovaniemi e Snowman World al Santa Claus Village. Stagioni e prezzi.",
     "hero": {
       "title": "Ice bar",
       "sub": "Ricostruiti ogni inverno con neve e ghiaccio, si sciolgono in primavera e spariscono fino al dicembre successivo. Non un bar a tema: un fenomeno artico stagionale."
@@ -435,8 +435,8 @@
     "verifiedNote": "Dati verificati sui siti delle strutture il 10/07/2026. Prezzi e orari possono variare stagionalmente."
   },
   "apresSki": {
-    "title": "Après-ski in Lapponia | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Il vero après-ski lappone, bar ai piedi delle piste, DJ nelle lobby degli hotel, after-party negli ice bar. Dove bere a Levi, Ylläs, Pyhä e Saariselkä quando chiudono gli impianti.",
+    "title": "Après-ski in Lapponia: Levi e Ylläs | LaplandBars",
+    "description": "La festa parte quando chiudono gli impianti: Hullu Poro Areena e i bar di Levi, Selvä Pyy e Pirtukellari sull'Ylläs, più le tranquille Saariselkä e Pyhä.",
     "hero": {
       "title": "Après-ski",
       "sub": "In Lapponia le piste chiudono alle 16 e la festa post-sci parte alle 16:01. Il doposci finlandese è più rumoroso, più caldo e più diretto che in qualsiasi altro posto al mondo."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Cocktail della Lapponia, lampone artico, lakka, pino | LaplandBars",
-    "description": "Cocktail costruiti su ingredienti artici, lampone artico, mirtillo rosso, sciroppo di pino, ginepro, liquore di lakka. Dove berli, come farli a casa.",
+    "title": "Cocktail artici della Lapponia | LaplandBars",
+    "description": "Tre cocktail artici: Cloudberry Sour, Aurora boreale e Lingonberry Spritz. Gli ingredienti selvatici dietro ciascuno e degustazioni prenotabili.",
     "hero": {
       "title": "Cocktail artici",
       "sub": "Le stesse condizioni artiche che rendono speciali le bacche selvatiche danno cocktail come non si trovano altrove. Una cultura del cocktail costruita su ingredienti raccolti in natura."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Birrifici artigianali e beer bar in Lapponia | LaplandBars",
-    "description": "La scena craft beer in crescita in Lapponia, Pyhä Brewery, Lapin Panimo, Mac Brewing Levi. Cosa producono, dove assaggiarli.",
+    "title": "Birrifici artigianali in Lapponia | LaplandBars",
+    "description": "Due birrifici in Lapponia: Tornion Panimo al confine svedese e Lapland Brewery a Rovaniemi. Stili di birra artici e degustazioni.",
     "hero": {
       "title": "Birra artigianale",
       "sub": "La birra artigianale finlandese si basa sugli stessi principi della cucina finlandese: acqua pura, ingredienti selvatici locali, niente scorciatoie. L'Artico aggiunge la sua firma a ogni bicchiere."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Cultura finlandese del bere in Lapponia | LaplandBars",
-    "description": "Perché i finlandesi bevono come bevono, sauna-lager, monopolio Alko, dry january, il bicchiere della notte polare. Il contesto culturale da conoscere prima di entrare in un bar della Lapponia.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, birra da sauna e kalsarikännit: come bevono davvero i finlandesi e quanto costa una pinta in un bar della Lapponia.",
     "hero": {
       "title": "Cultura finlandese del bere",
       "sub": "Dal Koskenkorva del venerdì sera al kalsarikännit (bere a casa in mutande), una guida a come bevono davvero i finlandesi."

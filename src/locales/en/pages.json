@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Lapland Bars 2026: Cocktails, Ice Bars, Local Picks",
-    "description": "Where Lapland actually drinks in 2026. Local-picked bars, craft cocktails, ice bars and après-ski with real prices. Levi, Rovaniemi, Ylläs.",
+    "title": "Lapland Bars: Where Finland's North Drinks",
+    "description": "Hand-picked bars, pubs, ice bars and après-ski in Rovaniemi, Levi, Ylläs and Saariselkä. Plus Arctic cocktails, craft beer and how Finns actually drink.",
     "eyebrow": "Finnish Lapland",
     "hero": {
       "headlineLine1": "Raise a Glass",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Bars in Finnish Lapland | LaplandBars",
-    "description": "The bars in Lapland that locals actually drink at: Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Hours, what they pour, when to walk in.",
+    "description": "The bars in Lapland that locals actually drink at: Rovaniemi, Levi, Ylläs and Saariselkä. Hours, prices, what they pour and when to walk in.",
     "hero": {
       "title": "Bars & Pubs",
       "sub": "Every bar listed here is real, open, and worth your evening. No sponsored placements, no filler, just Lapland's actual drinking culture."
@@ -290,8 +290,8 @@
     "venueMenuPdf": "Menu (PDF)"
   },
   "iceBars": {
-    "title": "Ice Bars in Lapland | Snow Hotel Lounges | LaplandBars",
-    "description": "Lapland's ice bars: SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. What they serve, when they're rebuilt, what to wear inside.",
+    "title": "Ice Bars in Finnish Lapland | LaplandBars",
+    "description": "Lapland's three ice bars: SnowVillage in Lainio, Arctic SnowHotel near Rovaniemi and Snowman World at Santa Claus Village. Seasons, prices, what to wear.",
     "hero": {
       "title": "Ice Bars",
       "sub": "Built from snow and ice every winter. Melted every spring. Gone until next December. This is not a theme bar. It is a seasonal Arctic phenomenon."
@@ -354,8 +354,8 @@
     "verifiedNote": "Details checked against the venues' own sites on Jul 10, 2026. Prices and hours may change seasonally."
   },
   "apresSki": {
-    "title": "Après-Ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Real après-ski in Lapland: slope-side bars, hotel lobby DJs, ice-bar afters. Where to drink after the lifts close at Levi, Ylläs, Pyhä, Saariselkä.",
+    "title": "Après-Ski in Lapland: Levi & Ylläs | LaplandBars",
+    "description": "Where the party starts when the lifts close: Hullu Poro Areena and the Levi bars, Selvä Pyy and Pirtukellari on Ylläs, plus quieter Saariselkä and Pyhä.",
     "hero": {
       "title": "Après-Ski",
       "sub": "In Lapland, the slopes close at 4pm and the party starts at 4:01. Finnish après-ski is louder, warmer, and more honest than anywhere else."
@@ -422,8 +422,8 @@
     }
   },
   "cocktails": {
-    "title": "Lapland Cocktails: Cloudberry, Lakka, Pine | LaplandBars",
-    "description": "Cocktails built around Arctic ingredients: cloudberry, lingonberry, pine syrup, juniper, lakka liqueur. Where to drink them, how to make them at home.",
+    "title": "Lapland Cocktails: Cloudberry, Lingonberry | LaplandBars",
+    "description": "Three Arctic cocktails: Cloudberry Sour, Northern Lights and Lingonberry Spritz. The wild ingredients behind them and bookable tasting experiences.",
     "hero": {
       "title": "Arctic Cocktails",
       "sub": "The same Arctic conditions that make Lapland's wild berries extraordinary make them exceptional in a glass. This is cocktail culture built on foraged ingredients you can't get anywhere else."
@@ -484,8 +484,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Lapland Craft Breweries & Beer Bars | LaplandBars",
-    "description": "Lapland's growing craft-beer scene: Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. What they brew, where to taste it.",
+    "title": "Craft Beer in Lapland: Tornio & Rovaniemi | LaplandBars",
+    "description": "Two Lapland breweries and their beers: Tornion Panimo on the Swedish border and Lapland Brewery's Rovaniemi taproom. Arctic beer styles and tastings.",
     "hero": {
       "title": "Craft Beer",
       "sub": "Finnish craft beer is built on the same principles as Finnish food: pure water, wild local ingredients, and no shortcuts. The Arctic brings its own flavour to every pint."
@@ -548,7 +548,7 @@
   },
   "drinkingCulture": {
     "title": "Finnish Drinking Culture in Lapland | LaplandBars",
-    "description": "Why Finns drink the way they drink: sauna lager, the Alko monopoly, dry January, the polar-night pour. The cultural context for a Lapland bar visit.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, sauna beer and kalsarikännit: how Finns actually drink and what a pint costs in a Lapland bar.",
     "hero": {
       "title": "Finnish Drinking Culture",
       "sub": "From Koskenkorva on a Friday night to kalsarikännit in your underwear, this is a guide to how Finns actually drink."

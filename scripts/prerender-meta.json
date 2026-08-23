@@ -1,8 +1,8 @@
 {
   "/": {
     "en": {
-      "title": "Lapland Bars 2026: Cocktails, Ice Bars, Local Picks",
-      "description": "Where Lapland actually drinks in 2026. Local-picked bars, craft cocktails, ice bars and après-ski with real prices. Levi, Rovaniemi, Ylläs.",
+      "title": "Lapland Bars: Where Finland's North Drinks",
+      "description": "Hand-picked bars, pubs, ice bars and après-ski in Rovaniemi, Levi, Ylläs and Saariselkä. Plus Arctic cocktails, craft beer and how Finns actually drink.",
       "faq": [
         {
           "q": "What is an ice bar in Lapland?",
@@ -32,7 +32,7 @@
     },
     "fi": {
       "title": "LaplandBars: missä Lappi oikeasti juo",
-      "description": "Baarit, panimot, jääbaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
+      "description": "Baarit, panimot, jääbaarit, après-ski, cocktailit ja pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
       "faq": [
         {
           "q": "Mikä on jääbaari Lapissa?",
@@ -62,7 +62,7 @@
     },
     "de": {
       "title": "LaplandBars, Wo Lappland wirklich trinkt",
-      "description": "Bars, Mikrobrauereien, Eisbars, Après-Ski in den Skigebieten, Cocktails und einheimische Pubs, in denen Finnen tatsächlich verkehren. Unabhängige Redaktion, keine Werbebroschüre.",
+      "description": "Bars, Brauereien, Eisbars, Après-Ski, Cocktails und Pubs, in denen Finnen in Lappland tatsächlich verkehren. Unabhängige Redaktion, keine Werbebroschüre.",
       "faq": [
         {
           "q": "Was ist eine Eisbar in Lappland?",
@@ -92,7 +92,7 @@
     },
     "ja": {
       "title": "LaplandBars、ラップランドが実際に飲む場所",
-      "description": "フィンランド・ラップランドのバー、醸造所、アイスバー、スキー村のゲレンデの夜、カクテル、そして地元のフィンランド人が実際に飲みに行くパブ。独立系の編集ガイド、パンフレットではありません。",
+      "description": "フィンランド・ラップランドのバー、醸造所、アイスバー、アプレスキー、カクテル、地元の人が実際に通うパブ。独立系の編集ガイド。",
       "faq": [
         {
           "q": "ラップランドのアイスバーとは?",
@@ -122,7 +122,7 @@
     },
     "es": {
       "title": "LaplandBars, Dónde bebe realmente Laponia",
-      "description": "Bares, cervecerías, bares de hielo, après-ski en pueblos de esquí, cócteles y los pubs locales donde de verdad bebe la gente de la Laponia finlandesa. Una guía editorial independiente, no un folleto.",
+      "description": "Bares, cervecerías, bares de hielo, après-ski, cócteles y los pubs donde de verdad bebe la Laponia finlandesa. Guía editorial independiente, no un folleto.",
       "faq": [
         {
           "q": "¿Qué es un bar de hielo en Laponia?",
@@ -152,7 +152,7 @@
     },
     "pt-BR": {
       "title": "LaplandBars, Onde a Lapônia realmente bebe",
-      "description": "Bares, cervejarias, bares de gelo, festa pós-esqui em vilarejos de montanha, coquetéis e os pubs locais onde os finlandeses realmente bebem na Lapônia. Um guia editorial independente, não um folheto.",
+      "description": "Bares, cervejarias, bares de gelo, après-ski, coquetéis e pubs onde os finlandeses realmente bebem na Lapônia. Guia editorial independente, não um folheto.",
       "faq": [
         {
           "q": "O que é um bar de gelo na Lapônia?",
@@ -211,8 +211,8 @@
       ]
     },
     "ko": {
-      "title": "라플란드 바 2026, 현지 추천, 칵테일, 아이스 바, 실제 가격",
-      "description": "2026 라플란드 음주 문화, 현지인이 직접 고른 바, 수제 칵테일, 아이스 바, 애프터 스키, 실제 가격. Levi, Rovaniemi, Saariselkä, Ylläs. 독립 편집.",
+      "title": "라플란드의 바: 펍, 아이스 바, 애프터 스키",
+      "description": "로바니에미, 레비, 윌래스, 사리셀카의 엄선한 바, 펍, 아이스 바, 애프터 스키. 북극 칵테일, 크래프트 맥주, 핀란드 음주 문화까지.",
       "faq": [
         {
           "q": "라플란드의 아이스 바란 무엇인가요?",
@@ -241,8 +241,8 @@
       ]
     },
     "fr": {
-      "title": "Bars en Laponie 2026 : cocktails, bars de glace, vrais prix",
-      "description": "Où la Laponie boit vraiment en 2026, bars choisis par les locaux, cocktails artisanaux, bars de glace, après-ski, vrais prix. Levi, Rovaniemi, Saariselkä, Ylläs.",
+      "title": "Bars en Laponie : pubs, bars de glace et après-ski",
+      "description": "Bars, pubs, bars de glace et après-ski à Rovaniemi, Levi, Ylläs et Saariselkä. Cocktails arctiques, bière artisanale, culture finlandaise de la boisson.",
       "faq": [
         {
           "q": "Qu'est-ce qu'un bar de glace en Laponie ?",
@@ -271,8 +271,8 @@
       ]
     },
     "it": {
-      "title": "Bar Lapponia 2026, scelte locali, cocktail, ice bar, prezzi reali",
-      "description": "Dove si beve davvero in Lapponia 2026, bar scelti dai locali, cocktail artigianali, ice bar, après-ski, prezzi reali. Levi, Rovaniemi, Saariselkä, Ylläs.",
+      "title": "Bar in Lapponia: pub, ice bar e après-ski",
+      "description": "Bar, pub, ice bar e après-ski scelti a Rovaniemi, Levi, Ylläs e Saariselkä. Cocktail artici, birra artigianale e come bevono davvero i finlandesi.",
       "faq": [
         {
           "q": "Che cos'è un ice bar in Lapponia?",
@@ -301,8 +301,8 @@
       ]
     },
     "nl": {
-      "title": "Bars Lapland 2026, lokale keuzes, cocktails, ijsbars, echte prijzen",
-      "description": "Waar Lapland echt drinkt in 2026, door locals gekozen bars, ambachtelijke cocktails, ijsbars, après-ski, echte prijzen. Levi, Rovaniemi, Saariselkä, Ylläs.",
+      "title": "Bars in Lapland: pubs, ijsbars en après-ski",
+      "description": "Handgekozen bars, pubs, ijsbars en après-ski in Rovaniemi, Levi, Ylläs en Saariselkä. Plus Arctische cocktails, craft beer en hoe Finnen echt drinken.",
       "faq": [
         {
           "q": "Wat is een ijsbar in Lapland?",
@@ -331,8 +331,8 @@
       ]
     },
     "sv": {
-      "title": "Barer i Lappland 2026: cocktails, isbarer, lokala tips",
-      "description": "Där Lappland faktiskt dricker 2026. Lokalt utvalda barer, hantverkscocktails, isbarer och afterski med riktiga priser. Levi, Rovaniemi, Ylläs.",
+      "title": "Barer i Lappland: pubar, isbarer och afterski",
+      "description": "Utvalda barer, pubar, isbarer och afterski i Rovaniemi, Levi, Ylläs och Saariselkä. Arktiska cocktails, hantverksöl och finsk dryckeskultur.",
       "faq": [
         {
           "q": "Vad är en isbar i Lappland?",

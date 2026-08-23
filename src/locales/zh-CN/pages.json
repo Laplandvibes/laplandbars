@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "芬兰拉普兰酒吧 | LaplandBars",
-    "description": "拉普兰当地人真正会去喝酒的酒吧，罗瓦涅米、莱维、于莱斯、萨利色尔卡、伊纳里。营业时间、供应内容,以及何时值得一逛。",
+    "description": "拉普兰当地人真正会去喝酒的酒吧：罗瓦涅米、莱维、于莱斯、萨利色尔卡。营业时间、价格与供应内容。",
     "hero": {
       "title": "酒吧与酒馆",
       "sub": "本页列出的每一家都真实存在、今天营业,值得您留出一晚。没有付费坑位、没有凑数，只有拉普兰真正的饮酒文化。"
@@ -371,8 +371,8 @@
     "venueMenuPdf": "菜单（PDF）"
   },
   "iceBars": {
-    "title": "拉普兰冰吧 | Snow Village 与冰雪大堂 | LaplandBars",
-    "description": "拉普兰的冰吧，基蒂莱 SnowVillage、Arctic Snow Hotel、Lainio Snow Village。提供什么、何时重建、入内如何穿着。",
+    "title": "拉普兰冰吧 | LaplandBars",
+    "description": "拉普兰的三家冰吧：SnowVillage（Lainio）、罗瓦涅米附近的 Arctic SnowHotel、圣诞老人村的 Snowman World。季节、价格与穿着。",
     "hero": {
       "title": "冰吧",
       "sub": "每年冬天用雪和冰重新建造,春天融化,直到下一个十二月才会再次出现。它们不是主题酒吧,而是真正的季节性北极现象。"
@@ -435,8 +435,8 @@
     "verifiedNote": "信息已于2026年7月10日在场馆官网核实，价格与时间可能随季节调整。"
   },
   "apresSki": {
-    "title": "拉普兰的滑雪后派对 | 莱维、于莱斯、萨利色尔卡 | LaplandBars",
-    "description": "拉普兰真正的滑雪后派对，雪道旁的酒吧、酒店大堂的 DJ、冰吧的余兴派对。莱维、于莱斯、皮哈与萨利色尔卡，缆车关闭后人们去哪喝。",
+    "title": "拉普兰滑雪后派对：莱维与于莱斯 | LaplandBars",
+    "description": "缆车一关，派对开场：莱维的 Hullu Poro Areena 与雪场酒吧，于莱斯的 Selvä Pyy 与 Pirtukellari，还有更安静的萨利色尔卡与皮哈。",
     "hero": {
       "title": "滑雪后派对",
       "sub": "在拉普兰,雪道下午 4 点关闭,4 点 01 分派对开场。芬兰的滑雪后派对比世界任何地方都更喧闹、更温暖、也更真诚。"
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "拉普兰鸡尾酒，云莓、lakka、松木 | LaplandBars",
-    "description": "用北极食材调制的鸡尾酒，云莓、红越橘、松针糖浆、杜松、lakka 利口酒。在哪能喝到,在家如何复刻。",
+    "title": "拉普兰鸡尾酒：云莓与越橘 | LaplandBars",
+    "description": "三款北极鸡尾酒：云莓酸酒、极光、越橘气泡。背后的野生食材，以及可预订的品鉴体验。",
     "hero": {
       "title": "北极鸡尾酒",
       "sub": "让拉普兰野莓格外出众的北极环境,在杯中同样制造非凡风味。这是一种构建在野外采集食材上的鸡尾酒文化,别处难觅。"
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "拉普兰精酿酒厂与啤酒吧 | LaplandBars",
-    "description": "蓬勃发展中的拉普兰精酿啤酒版图，Pyhä Brewery、Lapin Panimo、Maku Brewing Levi。他们酿什么,你可以去哪儿尝。",
+    "title": "拉普兰精酿啤酒厂 | LaplandBars",
+    "description": "拉普兰的两家酿酒厂：瑞典边境的 Tornion Panimo 与罗瓦涅米的 Lapland Brewery。他们酿什么、去哪里品尝。",
     "hero": {
       "title": "精酿啤酒",
       "sub": "芬兰精酿啤酒与芬兰料理立足于同样的原则:纯净的水、本地的野生原料,以及不走捷径。北极在每一品脱里留下属于自己的风味。"
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "芬兰人在拉普兰的饮酒文化 | LaplandBars",
-    "description": "为什么芬兰人这样喝酒，sauna lager、Alko 专卖制度、戒酒一月、极夜里的一杯。走进拉普兰酒吧之前的文化背景。",
+    "description": "Koskenkorva、lonkero、Lapin Kulta、桑拿啤酒与 kalsarikännit：芬兰人到底怎么喝，以及酒吧一杯啤酒的价格。",
     "hero": {
       "title": "芬兰饮酒文化",
       "sub": "从周五晚上的 Koskenkorva 烈酒,到只穿内衣的 kalsarikännit，一份关于芬兰人到底怎么喝酒的指南。"

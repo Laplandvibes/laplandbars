@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "LaplandBars: missä Lappi oikeasti juo",
-    "description": "Baarit, panimot, jääbaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
+    "description": "Baarit, panimot, jääbaarit, après-ski, cocktailit ja pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
     "eyebrow": "Suomen Lappi",
     "hero": {
       "headlineLine1": "Lapin parhaat",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Baarit Suomen Lapissa | LaplandBars",
-    "description": "Lapin baarit, joissa paikalliset oikeasti käyvät: Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Aukioloajat, mitä kaadetaan, milloin käydä.",
+    "description": "Lapin baarit, joissa paikalliset oikeasti käyvät: Rovaniemi, Levi, Ylläs ja Saariselkä. Aukioloajat, hintataso, mitä kaadetaan ja milloin kannattaa mennä.",
     "hero": {
       "title": "Baarit ja pubit",
       "sub": "Jokainen tässä listattu baari on oikeasti olemassa, auki ja iltasi arvoinen. Ei maksettuja sijoituksia, ei täytettä, vain Lapin todellinen baarikulttuuri."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Menu (PDF)"
   },
   "iceBars": {
-    "title": "Jääbaarit Lapissa | Lumihotellit ja jää-loungit | LaplandBars",
-    "description": "Lapin jääbaarit: SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Mitä tarjoillaan, milloin rakennetaan uudelleen, mihin pukeutua sisällä.",
+    "title": "Jääbaarit Lapissa | LaplandBars",
+    "description": "Lapin kolme jääbaaria: SnowVillage Lainiossa, Arctic SnowHotel Rovaniemen kupeessa ja Snowman World Joulupukin Pajakylässä. Kaudet, hinnat, pukeutuminen.",
     "hero": {
       "title": "Jääbaarit",
       "sub": "Rakennetaan lumesta ja jäästä joka talvi. Sulaa joka kevät. Poissa seuraavaan jouluun asti. Tämä ei ole teemabaari, vaan kausittainen arktinen ilmiö."
@@ -435,8 +435,8 @@
     "verifiedNote": "Tiedot tarkistettu kohteiden omilta sivuilta 10.7.2026. Hinnat ja ajat voivat muuttua kausittain."
   },
   "apresSki": {
-    "title": "Après-ski Lapissa | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Aitoa après-skitä Lapissa: rinnebaarit, hotellien aulan DJ:t, jääbaareihin jatkot. Mihin lähteä kun hissit sulkevat Levillä, Ylläksellä, Pyhällä, Saariselällä.",
+    "title": "Après-ski Lapissa: Levi ja Ylläs | LaplandBars",
+    "description": "Kun hissit sulkeutuvat, bileet alkavat: Hullu Poro Areena ja Levin baarit, Selvä Pyy ja Pirtukellari Ylläksellä sekä rauhallisemmat Saariselkä ja Pyhä.",
     "hero": {
       "title": "Après-ski",
       "sub": "Lapissa rinteet sulkevat kello 16 ja bileet alkavat 16:01. Suomalainen rinneilta on äänekkäämpi, lämpimämpi ja rehellisempi kuin missään muualla."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Lapin cocktailit, hilla, lakka, mänty | LaplandBars",
-    "description": "Cocktailit arktisten raaka-aineiden ympärillä: hilla, puolukka, mäntysiirappi, kataja, lakkalikööri. Missä juoda, miten tehdä kotona.",
+    "title": "Lapin cocktailit: hilla ja puolukka | LaplandBars",
+    "description": "Kolme arktista cocktailia: Cloudberry Sour, Northern Lights ja Lingonberry Spritz. Villit raaka-aineet hillasta tyrniin ja varattavat maistelut.",
     "hero": {
       "title": "Arktiset cocktailit",
       "sub": "Samat arktiset olosuhteet, jotka tekevät Lapin villimarjoista poikkeuksellisia, tekevät niistä myös erinomaisia lasissa. Tämä on cocktailkulttuuri, joka rakentuu kerätyille raaka-aineille, niille joita ei saa muualta."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Lapin pienpanimot ja olutbaarit | LaplandBars",
-    "description": "Lapin kasvava pienpanimo­skene: Pyhä Brewery, Lapin Panimo, Maku Brewing Levi. Mitä panevat, missä maistat.",
+    "title": "Lapin pienpanimot: Tornio ja Rovaniemi | LaplandBars",
+    "description": "Kaksi lappilaista panimoa oluineen: Tornion Panimo Ruotsin rajalla ja Lapland Brewery Rovaniemellä. Arktiset oluttyylit sekä kierrokset ja maistelut.",
     "hero": {
       "title": "Pienpanimo-olut",
       "sub": "Suomalainen pienpanimo-olut rakentuu samoille periaatteille kuin suomalainen ruoka: puhdas vesi, villit paikalliset raaka-aineet ja ei oikoteitä. Arktinen tuo oman makunsa jokaiseen pintiin."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Suomalainen juomakulttuuri Lapissa | LaplandBars",
-    "description": "Miksi suomalaiset juovat niin kuin juovat: sauna­olut, Alkon monopoli, tipaton tammikuu, kaamoksen kaato. Kulttuuri­konteksti Lapin baarivierailulle.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, saunakalja ja kalsarikännit: miten suomalaiset oikeasti juovat ja mitä tuoppi maksaa lappilaisessa baarissa.",
     "hero": {
       "title": "Suomalainen juomakulttuuri",
       "sub": "Perjantai-illan Koskenkorvasta kalsarikänneihin alusvaatteissa. Opas siitä, miten suomalaiset oikeasti juovat."

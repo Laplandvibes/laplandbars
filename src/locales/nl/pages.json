@@ -1,7 +1,7 @@
 {
   "home": {
-    "title": "Bars Lapland 2026, lokale keuzes, cocktails, ijsbars, echte prijzen",
-    "description": "Waar Lapland echt drinkt in 2026, door locals gekozen bars, ambachtelijke cocktails, ijsbars, après-ski, echte prijzen. Levi, Rovaniemi, Saariselkä, Ylläs.",
+    "title": "Bars in Lapland: pubs, ijsbars en après-ski",
+    "description": "Handgekozen bars, pubs, ijsbars en après-ski in Rovaniemi, Levi, Ylläs en Saariselkä. Plus Arctische cocktails, craft beer en hoe Finnen echt drinken.",
     "eyebrow": "Fins Lapland",
     "hero": {
       "headlineLine1": "Hef het glas,",
@@ -109,7 +109,7 @@
   },
   "bars": {
     "title": "Bars in Fins Lapland | LaplandBars",
-    "description": "De bars waar locals echt drinken in Lapland, Rovaniemi, Levi, Ylläs, Saariselkä, Inari. Openingstijden, wat ze schenken, wanneer langs te gaan.",
+    "description": "De bars waar locals echt drinken in Lapland: Rovaniemi, Levi, Ylläs en Saariselkä. Openingstijden, prijzen en wat ze schenken.",
     "hero": {
       "title": "Bars & pubs",
       "sub": "Elke bar op deze lijst bestaat echt, is op dit moment open en is een avond waard. Geen gesponsorde plekken, geen opvulling, alleen de echte Laplandse drinkcultuur."
@@ -371,8 +371,8 @@
     "venueMenuPdf": "Menukaart (PDF)"
   },
   "iceBars": {
-    "title": "IJsbars in Lapland | sneeuw­hotels en ijslounges | LaplandBars",
-    "description": "De ijsbars van Lapland, SnowVillage Kittilä, Arctic SnowHotel, Lainio Snow Village. Wat ze schenken, wanneer ze opnieuw worden gebouwd, hoe u zich binnen kleedt.",
+    "title": "IJsbars in Lapland | LaplandBars",
+    "description": "De drie ijsbars van Lapland: SnowVillage in Lainio, Arctic SnowHotel bij Rovaniemi en Snowman World in Santa Claus Village. Seizoenen, prijzen en kleding.",
     "hero": {
       "title": "IJsbars",
       "sub": "Elke winter opnieuw gebouwd in sneeuw en ijs, smelten ze in de lente en verdwijnen ze tot december daarop. Geen themabar: een seizoensgebonden Arctisch fenomeen."
@@ -435,8 +435,8 @@
     "verifiedNote": "Gegevens gecontroleerd op de sites van de locaties op 10-07-2026. Prijzen en tijden kunnen per seizoen wijzigen."
   },
   "apresSki": {
-    "title": "Après-ski in Lapland | Levi, Ylläs, Saariselkä | LaplandBars",
-    "description": "Het echte Laplandse hut-avond-circuit, bars aan de piste, dj's in hotellobby's, afterparty's in ijsbars. Waar u drinkt in Levi, Ylläs, Pyhä en Saariselkä nadat de liften sluiten.",
+    "title": "Après-ski in Lapland: Levi en Ylläs | LaplandBars",
+    "description": "Het feest begint zodra de liften sluiten: Hullu Poro Areena en de bars van Levi, Selvä Pyy en Pirtukellari op Ylläs, plus het rustigere Saariselkä en Pyhä.",
     "hero": {
       "title": "Après-ski",
       "sub": "In Lapland sluiten de pistes om 16:00 en begint het feest om 16:01. Het Finse wintersport-avond is luider, warmer en directer dan ergens anders ter wereld."
@@ -503,8 +503,8 @@
     }
   },
   "cocktails": {
-    "title": "Cocktails in Lapland, kruipbraam, lakka, dennen | LaplandBars",
-    "description": "Cocktails op basis van Arctische ingrediënten, kruipbraam, vossenbes, dennensiroop, jeneverbes, lakka-likeur. Waar u ze drinkt, hoe u ze thuis maakt.",
+    "title": "Arctische cocktails in Lapland | LaplandBars",
+    "description": "Drie Arctische cocktails: Cloudberry Sour, Noorderlicht en Lingonberry Spritz. De wilde ingrediënten erachter en boekbare proeverijen.",
     "hero": {
       "title": "Arctische cocktails",
       "sub": "Dezelfde Arctische omstandigheden die wilde bessen bijzonder maken, leveren cocktails op die u nergens anders vindt. Een cocktailcultuur op basis van zelf geplukte ingrediënten."
@@ -565,8 +565,8 @@
     ]
   },
   "craftBeer": {
-    "title": "Ambachtelijke brouwerijen en bierbars in Lapland | LaplandBars",
-    "description": "De groeiende craft-beerscène in Lapland, Pyhä Brewery, Lapin Panimo, Mac Brewing Levi. Wat ze brouwen, waar u het kunt proeven.",
+    "title": "Ambachtelijke brouwerijen in Lapland | LaplandBars",
+    "description": "Twee brouwerijen in Lapland: Tornion Panimo aan de Zweedse grens en Lapland Brewery in Rovaniemi. Arctische bierstijlen en proeverijen.",
     "hero": {
       "title": "Ambachtelijk bier",
       "sub": "Finse craft beer steunt op dezelfde principes als de Finse keuken: zuiver water, lokale wilde ingrediënten, geen sluiproutes. Het Noordpoolgebied tekent elk glas."
@@ -629,7 +629,7 @@
   },
   "drinkingCulture": {
     "title": "Finse drinkcultuur in Lapland | LaplandBars",
-    "description": "Waarom Finnen drinken zoals ze drinken, saunalagers, Alko-monopolie, dry january, het glas van de poolnacht. Culturele context om te kennen voordat u een Laplandse bar binnenstapt.",
+    "description": "Koskenkorva, lonkero, Lapin Kulta, saunabier en kalsarikännit: hoe Finnen echt drinken en wat een pint kost in een bar in Lapland.",
     "hero": {
       "title": "Finse drinkcultuur",
       "sub": "Van Koskenkorva op vrijdagavond tot kalsarikännit (thuis drinken in ondergoed), een gids hoe Finnen echt drinken."
