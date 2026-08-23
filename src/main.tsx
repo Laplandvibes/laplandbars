@@ -23,7 +23,10 @@ if (initialLocale === 'en') {
 } else {
   ensureLocaleLoaded(initialLocale)
     .then(() => {
-      if (i18n.language !== initialLocale) i18n.changeLanguage(initialLocale);
+      // Always call changeLanguage: addResourceBundle alone never recomputes
+      // i18n.resolvedLanguage, so skipping this left it at 'en' for the whole
+      // session on every direct non-EN load.
+      return i18n.changeLanguage(initialLocale);
     })
     .finally(mount);
 }

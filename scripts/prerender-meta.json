@@ -10,11 +10,11 @@
         },
         {
           "q": "Where are the best après-ski bars in Levi and Ylläs?",
-          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and is Finland's largest après-ski venue, with live Finnish acts and a 1,700-person capacity; Bar Ihku and Pub Hölmölä carry the late hours. On the Ylläs side, Selvä Pyy in Äkäslompolo village is the gathering point after the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
+          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and holds up to 1,700 people across two floors, with ten bars and live Finnish acts; Bar Ihku and Pub Hölmölä carry the late hours. On the Ylläs side, Selvä Pyy in Äkäslompolo village is the gathering point after the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
         },
         {
           "q": "Can you drink alcohol outdoors in Finland?",
-          "a": "Generally yes. Since the 2018 alcohol-law reform, drinking in public places such as parks and beaches is allowed for adults, as long as you are not disturbing others or causing a public nuisance. Individual municipalities can still restrict it in specific areas (for example town squares or playgrounds), and being drunk and disorderly in public is an offence. The legal drinking age is 18 for beer, wine and cider, and 20 for spirits."
+          "a": "Broadly yes, with a caveat. Finland’s Public Order Act bans drinking in public places, but it explicitly exempts parks and comparable public areas as long as you are not obstructing others or causing a nuisance. Municipalities can still restrict specific spots such as town squares or playgrounds, and being drunk and disorderly in public is an offence. The legal drinking age is 18 for beer, wine and cider, and 20 for spirits."
         },
         {
           "q": "What are typical bar opening hours in Lapland?",
@@ -22,7 +22,7 @@
         },
         {
           "q": "What local drinks should I try in Lapland?",
-          "a": "Look for lakka, a cloudberry liqueur made from the amber Arctic berry that ripens for only a few weeks each summer, often served chilled or stirred into a cocktail. Local craft beer is worth seeking out too: breweries such as Lapland Brewery in Rovaniemi and Lapon Panimo in Saariselkä brew with Arctic water and forest ingredients like spruce tip and lingonberry. For something classic, Lapin Kulta lager has been brewed in Tornio for over 150 years, and Koskenkorva is the everyday Finnish grain spirit."
+          "a": "Look for lakka, a cloudberry liqueur made from the amber Arctic berry that ripens for only a few weeks each summer, often served chilled or stirred into a cocktail. Local craft beer is worth seeking out too: Lapland Brewery in Rovaniemi and Tornion Panimo in Tornio both brew with Arctic water. For something classic, Lapin Kulta was founded in Tornio in 1873, though its production moved to Lahti in 2010, and Koskenkorva is the everyday Finnish grain spirit."
         },
         {
           "q": "Where can you buy alcohol in Finland outside bars?",
@@ -32,19 +32,19 @@
     },
     "fi": {
       "title": "LaplandBars: missä Lappi oikeasti juo",
-      "description": "Baarit, panimot, lasibaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
+      "description": "Baarit, panimot, jääbaarit, hiihtokeskusten après, cocktailit ja paikalliset pubit, joissa suomalaiset oikeasti käyvät Lapissa. Riippumatonta toimitusta, ei esitettä.",
       "faq": [
         {
-          "q": "Mikä on lasibaari Lapissa?",
-          "a": "Lasibaari on lumesta ja järvenjäästä rakennettu baari, jonka tiski, seinät ja jopa lasit on veistetty jäästä. Sisällä on noin −5 °C, joten paikoissa kuten Arctic SnowHotelin lasibaari lähellä Rovaniemeä saat ovella lainaksi lämpöviitan tai -haalarin. Jokainen rakennetaan uudelleen uudella teemalla joka talvi ja sulaa keväällä, joten se on olemassa vain suunnilleen joulukuusta huhtikuuhun."
+          "q": "Mikä on jääbaari Lapissa?",
+          "a": "Jääbaari on lumesta ja järvenjäästä rakennettu baari, jonka tiski, seinät ja jopa lasit on veistetty jäästä. Sisällä on noin −5 °C, joten paikoissa kuten Arctic SnowHotelin jääbaari lähellä Rovaniemeä saat ovella lainaksi lämpöviitan tai -haalarin. Jokainen rakennetaan uudelleen uudella teemalla joka talvi ja sulaa keväällä, joten se on olemassa vain suunnilleen joulukuusta huhtikuuhun."
         },
         {
           "q": "Mitkä ovat parhaat après-ski-baarit Levillä ja Ylläksellä?",
-          "a": "Levillä Hullu Poro Areena sijaitsee pääsrinteen juurella ja on Suomen suurin après-ski-paikka, jossa on live-esiintyjiä ja 1 700 hengen kapasiteetti; Bar Ihku ja Pub Hölmölä kantavat myöhäiset tunnit. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on kokoontumispaikka tuntureilta tultaessa, ja Lapland Hotels Äkäshotellin yökerho ottaa vallan, kun pubit hiljenevät. Hissit sulkevat noin klo 16, ja baarit täyttyvät heti perään."
+          "a": "Levillä Hullu Poro Areena sijaitsee päärinteen juurella ja vetää kahteen kerrokseen jopa 1 700 ihmistä. Areenalla on kymmenen baaria ja kotimaisia esiintyjiä, ja myöhäiset tunnit jatkuvat Bar Ihkussa ja Pub Hölmölässä. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on tunturipäivän jälkeinen kokoontumispaikka, ja kun pubit hiljenevät, vuoro siirtyy Lapland Hotels Äkäshotellin yökerhoon. Hissit sulkeutuvat noin kello 16 ja baarit täyttyvät heti perään."
         },
         {
           "q": "Saako Suomessa juoda alkoholia ulkona?",
-          "a": "Pääsääntöisesti kyllä. Vuoden 2018 alkoholilain uudistuksen jälkeen juominen yleisillä paikoilla kuten puistoissa ja rannoilla on sallittua täysi-ikäisille, kunhan et häiritse muita tai aiheuta yleistä häiriötä. Yksittäiset kunnat voivat silti rajoittaa sitä tietyillä alueilla (esimerkiksi toreilla tai leikkipaikoilla), ja julkinen juopumus ja häiriköinti on rangaistavaa. Ikäraja on 18 vuotta oluelle, viinille ja siiderille ja 20 vuotta väkeville."
+          "a": "Pääosin kyllä, mutta yhdellä varauksella. Järjestyslaki kieltää päihtyneenä juomisen yleisillä paikoilla, mutta se ei koske puistoja ja niihin verrattavia yleisiä alueita, kunhan et haittaa muita tai aiheuta häiriötä. Kunnat voivat silti rajoittaa yksittäisiä paikkoja, kuten toreja tai leikkipuistoja, ja julkinen juopumus ja häiriökäyttäytyminen ovat rangaistavia. Ikäraja on 18 vuotta oluelle, viinille ja siiderille sekä 20 vuotta väkeville."
         },
         {
           "q": "Mitkä ovat baarien tyypilliset aukioloajat Lapissa?",
@@ -52,7 +52,7 @@
         },
         {
           "q": "Mitä paikallisia juomia kannattaa maistaa Lapissa?",
-          "a": "Etsi lakkaa eli lakkalikööriä, joka tehdään meripihkanvärisestä arktisesta marjasta. Marja kypsyy vain muutaman viikon joka kesä, ja likööri tarjotaan usein kylmänä tai cocktailiin sekoitettuna. Myös paikallista pienpanimo-olutta kannattaa etsiä: panimot kuten Lapland Brewery Rovaniemellä ja Lapon Panimo Saariselällä panevat arktisella vedellä ja metsän raaka-aineilla kuten kuusenkerkällä ja puolukalla. Klassikkoa kaipaavalle Lapin Kulta -lageria on pantu Torniossa yli 150 vuotta, ja Koskenkorva on suomalaisten arkinen viljaviina."
+          "a": "Etsi lakkalikööriä, joka tehdään lakasta eli hillasta. Marja kypsyy vain muutaman viikon ajan kesässä, ja likööri tarjoillaan usein kylmänä tai drinkkiin sekoitettuna. Myös paikallinen pienpanimo-olut kannattaa etsiä käsiin: Lapland Brewery Rovaniemellä ja Tornion Panimo Torniossa panevat molemmat arktisella vedellä. Klassikoksi käy Lapin Kulta, joka perustettiin Tornioon vuonna 1873, joskin tuotanto siirtyi Lahteen vuonna 2010. Koskenkorva puolestaan on suomalaisten arkinen viljaviina."
         },
         {
           "q": "Mistä Suomessa voi ostaa alkoholia baarien ulkopuolelta?",
@@ -70,11 +70,11 @@
         },
         {
           "q": "Wo sind die besten Après-Ski-Bars in Levi und Ylläs?",
-          "a": "In Levi liegt die Hullu Poro Areena am Fuß der Hauptpiste und ist Finnlands größter Après-Ski-Ort, mit finnischen Live-Acts und einer Kapazität von 1.700 Personen; Bar Ihku und Pub Hölmölä übernehmen die späten Stunden. Auf der Ylläs-Seite ist Selvä Pyy im Dorf Äkäslompolo der Treffpunkt nach den Fjells, und der Nachtclub im Lapland Hotels Äkäshotelli übernimmt, sobald die Pubs schließen. Die Lifte schließen gegen 16 Uhr und die Bars füllen sich direkt danach."
+          "a": "In Levi liegt die Hullu Poro Areena am Fuß der Hauptpiste und fasst auf zwei Etagen bis zu 1.700 Personen, mit zehn Bars und finnischen Live-Acts; Bar Ihku und Pub Hölmölä übernehmen die späten Stunden. Auf der Ylläs-Seite ist Selvä Pyy im Dorf Äkäslompolo der Treffpunkt nach den Fjells, und der Nachtclub im Lapland Hotels Äkäshotelli übernimmt, sobald die Pubs schließen. Die Lifte schließen gegen 16 Uhr, danach füllen sich die Bars."
         },
         {
           "q": "Darf man in Finnland im Freien Alkohol trinken?",
-          "a": "Im Allgemeinen ja seit der Reform des Alkoholgesetzes 2018 ist das Trinken an öffentlichen Orten wie Parks und Stränden für Erwachsene erlaubt, solange Sie andere nicht stören oder eine öffentliche Belästigung verursachen. Einzelne Gemeinden können es weiterhin in bestimmten Bereichen einschränken (zum Beispiel auf Marktplätzen oder Spielplätzen), und in der Öffentlichkeit betrunken und ungebührlich zu sein, ist eine Ordnungswidrigkeit. Das gesetzliche Mindestalter beträgt 18 Jahre für Bier, Wein und Cider und 20 Jahre für Spirituosen."
+          "a": "Im Großen und Ganzen ja, mit einer Einschränkung. Finnlands Ordnungsgesetz verbietet Alkoholkonsum an öffentlichen Orten, nimmt Parks und vergleichbare öffentliche Flächen aber ausdrücklich aus, solange Sie niemanden behindern oder stören. Gemeinden können einzelne Orte wie Marktplätze oder Spielplätze weiterhin sperren, und Trunkenheit mit Störung der Ordnung ist strafbar. Das Mindestalter liegt bei 18 Jahren für Bier, Wein und Cider und bei 20 Jahren für Spirituosen."
         },
         {
           "q": "Was sind typische Öffnungszeiten von Bars in Lappland?",
@@ -82,7 +82,7 @@
         },
         {
           "q": "Welche lokalen Getränke sollte ich in Lappland probieren?",
-          "a": "Halten Sie nach lakka Ausschau, dem Moltebeerlikör aus der bernsteinfarbenen arktischen Beere, die jeden Sommer nur wenige Wochen reift, oft gekühlt serviert oder in einen Cocktail gerührt. Auch lokales Mikrobrauerei-Bier lohnt die Suche: Brauereien wie Lapland Brewery in Rovaniemi und Lapon Panimo in Saariselkä brauen mit arktischem Wasser und Waldzutaten wie Fichtensprossen und Preiselbeere. Für etwas Klassisches wird das Lapin Kulta Lager seit über 150 Jahren in Tornio gebraut, und Koskenkorva ist der alltägliche finnische Kornschnaps."
+          "a": "Halten Sie nach Lakka Ausschau, einem Moltebeerlikör aus der bernsteinfarbenen arktischen Beere, die jeden Sommer nur wenige Wochen reift und oft gekühlt oder im Cocktail serviert wird. Auch lokales Craft Beer lohnt sich: Lapland Brewery in Rovaniemi und Tornion Panimo in Tornio brauen beide mit arktischem Wasser. Als Klassiker gilt Lapin Kulta, 1873 in Tornio gegründet, dessen Produktion 2010 allerdings nach Lahti verlegt wurde; Koskenkorva ist der finnische Getreidebrand für jeden Tag."
         },
         {
           "q": "Wo kann man in Finnland außerhalb von Bars Alkohol kaufen?",
@@ -100,11 +100,11 @@
         },
         {
           "q": "レヴィとウッラスで最高のアプレスキーのバーはどこ?",
-          "a": "レヴィでは、フッル・ポロ・アレーナがメインゲレンデの真下にあり、フィンランド最大のアプレスキー会場です。フィンランドのアーティストによるライブがあり、収容人数は1,700人。夜遅い時間帯はBar IhkuやPub Hölmöläが受け持ちます。ウッラス側では、アカスロンポロ村のSelvä Pyyが山から下りたあとの集合場所で、パブが落ち着く頃にはLapland Hotels Äkäshotelliのナイトクラブに場が移ります。リフトは16時頃に閉まり、その直後からバーが埋まり始めます。"
+          "a": "レヴィではフッル・ポロ・アレーナがメインゲレンデのふもとにあり、2フロアで最大1,700人を収容します。バーは10か所あり、フィンランド勢のライブも行われます。遅い時間はバル・イフクとパブ・ホルモラが引き受けます。ユッラス側ではアカスロンポロ村のセルヴァ・ピュが山のあとの集合場所になり、パブが閉まるとラップランド・ホテルズ・アカスホテッリのナイトクラブに移ります。リフトは16時ごろ止まり、その直後からバーが埋まります。"
         },
         {
           "q": "フィンランドでは屋外で飲酒できますか?",
-          "a": "基本的にはできます、2018年の酒類法改正以降、公園やビーチなどの公共の場での飲酒は、他人の迷惑にならず公共の秩序を乱さない限り、成人に認められています。各自治体は今でも特定の区域(たとえば町の広場や遊び場)で制限を設けることができ、公共の場で酔って騒ぐのは違法です。飲酒可能な年齢は、ビール・ワイン・サイダーが18歳、蒸留酒が20歳です。"
+          "a": "おおむね可能ですが、条件があります。フィンランドの公共秩序法は公共の場での飲酒を禁じていますが、他人の通行や利用を妨げず迷惑をかけないかぎり、公園やそれに準じる公共の場所は明示的に対象外とされています。自治体は広場や遊び場など個別の場所を制限でき、泥酔して秩序を乱す行為は処罰の対象です。年齢制限はビール、ワイン、シードルが18歳、蒸留酒は20歳です。"
         },
         {
           "q": "ラップランドのバーの一般的な営業時間は?",
@@ -112,7 +112,7 @@
         },
         {
           "q": "ラップランドで試すべき地元のお酒は?",
-          "a": "lakka(ラッカ)、毎夏わずか数週間だけ実る琥珀色の北極のベリーから造られるクラウドベリーのリキュール、を探してみてください。よく冷やして、あるいはカクテルに混ぜて供されます。地元のクラフトビールもぜひ。ロヴァニエミのLapland BreweryやサーリセルカのLapon Panimoといった醸造所が、北極の水とトウヒの新芽やコケモモなどの森の素材で醸しています。定番が欲しければ、トルニオで150年以上造られてきたLapin Kultaのラガーがあり、Koskenkorvaは日常的に飲まれるフィンランドのグレーンスピリッツです。"
+          "a": "まず探したいのはラッカ、つまり琥珀色の北極のベリーからつくるクラウドベリーのリキュールです。実が熟すのは夏のわずか数週間だけで、よく冷やして、あるいはカクテルに混ぜて供されます。地元のクラフトビールも一見の価値があります。ロヴァニエミのラップランド・ブルワリーとトルニオのトルニオ・パニモは、どちらも北極の水で仕込んでいます。定番を選ぶならラピン・クルタで、1873年にトルニオで創業しましたが、生産は2010年にラハティへ移りました。コスケンコルヴァは日常づかいの穀物蒸留酒です。"
         },
         {
           "q": "フィンランドでバー以外にお酒を買える場所は?",
@@ -130,11 +130,11 @@
         },
         {
           "q": "¿Dónde están los mejores bares de après-ski en Levi y Ylläs?",
-          "a": "En Levi, la Hullu Poro Areena se levanta al pie de la pista principal y es el mayor local de après-ski de Finlandia, con artistas finlandeses en directo y aforo para 1.700 personas; Bar Ihku y Pub Hölmölä se encargan de la madrugada. Del lado de Ylläs, Selvä Pyy, en el pueblo de Äkäslompolo, es el punto de encuentro al bajar de las laderas, y la discoteca del Lapland Hotels Äkäshotelli toma el relevo cuando los pubs cierran. Los remontes paran hacia las 16:00 y los bares se llenan justo después."
+          "a": "En Levi, el Hullu Poro Areena está al pie de la pista principal y admite hasta 1.700 personas en dos plantas, con diez barras y actuaciones finlandesas en directo; Bar Ihku y Pub Hölmölä se quedan con las horas tardías. En la zona de Ylläs, Selvä Pyy, en el pueblo de Äkäslompolo, es el punto de encuentro al bajar de las colinas, y la discoteca del Lapland Hotels Äkäshotelli toma el relevo cuando los pubs cierran. Los remontes paran hacia las 16:00 y los bares se llenan justo después."
         },
         {
           "q": "¿Se puede beber alcohol al aire libre en Finlandia?",
-          "a": "En general sí: desde la reforma de la ley del alcohol de 2018, beber en lugares públicos como parques y playas está permitido a los adultos, siempre que no molestes a los demás ni causes alboroto. Cada municipio puede restringirlo en zonas concretas (por ejemplo plazas o parques infantiles), y la embriaguez con escándalo en público es un delito. La edad legal para beber es de 18 años para cerveza, vino y sidra, y de 20 para los destilados."
+          "a": "En general sí, con un matiz. La Ley de Orden Público finlandesa prohíbe beber en lugares públicos, pero exceptúa expresamente los parques y zonas públicas equivalentes siempre que no estorbes a nadie ni causes molestias. Los municipios pueden restringir puntos concretos, como plazas o parques infantiles, y la embriaguez con alteración del orden es delito. La edad legal es de 18 años para cerveza, vino y sidra, y de 20 para destilados."
         },
         {
           "q": "¿Cuál es el horario habitual de los bares en Laponia?",
@@ -142,7 +142,7 @@
         },
         {
           "q": "¿Qué bebidas locales debería probar en Laponia?",
-          "a": "Busca el lakka, el licor de mora ártica que se elabora con esa baya ambarina que solo madura unas pocas semanas cada verano, servido a menudo frío o mezclado en un cóctel. También merece la pena buscar cerveza artesanal local: cervecerías como Lapland Brewery en Rovaniemi y Lapon Panimo en Saariselkä elaboran con agua ártica e ingredientes del bosque como la punta de pícea y el arándano rojo. Para algo clásico, la lager Lapin Kulta se elabora en Tornio desde hace más de 150 años, y el Koskenkorva es el destilado de cereal finlandés de toda la vida."
+          "a": "Busca el lakka, un licor de mora ártica hecho con la baya ámbar que madura solo unas semanas cada verano, servido frío o mezclado en cóctel. También merece la pena buscar cerveza artesanal local: Lapland Brewery en Rovaniemi y Tornion Panimo en Tornio elaboran ambas con agua ártica. Como clásico, Lapin Kulta se fundó en Tornio en 1873, aunque su producción se trasladó a Lahti en 2010, y Koskenkorva es el aguardiente de grano finlandés de diario."
         },
         {
           "q": "¿Dónde se puede comprar alcohol en Finlandia fuera de los bares?",
@@ -160,11 +160,11 @@
         },
         {
           "q": "Onde ficam os melhores bares de après-ski em Levi e Ylläs?",
-          "a": "Em Levi, a Hullu Poro Areena fica na base da pista principal e é o maior espaço de après-ski da Finlândia, com shows de artistas finlandeses ao vivo e capacidade para 1.700 pessoas; o Bar Ihku e o Pub Hölmölä seguram a madrugada. Do lado de Ylläs, o Selvä Pyy, no vilarejo de Äkäslompolo, é o ponto de encontro depois das montanhas, e a balada do Lapland Hotels Äkäshotelli assume quando os pubs vão fechando. Os teleféricos param por volta das 16h e os bares enchem logo em seguida."
+          "a": "Em Levi, a Hullu Poro Areena fica na base da pista principal e comporta até 1.700 pessoas em dois andares, com dez bares e shows finlandeses; Bar Ihku e Pub Hölmölä seguram as horas tardias. No lado de Ylläs, o Selvä Pyy, na vila de Äkäslompolo, é o ponto de encontro depois das colinas, e a boate do Lapland Hotels Äkäshotelli assume quando os pubs fecham. Os teleféricos param por volta das 16h e os bares enchem logo em seguida."
         },
         {
           "q": "Pode-se beber álcool ao ar livre na Finlândia?",
-          "a": "Em geral, sim: desde a reforma da lei do álcool de 2018, beber em locais públicos como parques e praias é permitido para adultos, desde que você não perturbe os outros nem cause confusão. Cada município ainda pode restringir o consumo em áreas específicas (praças ou parquinhos, por exemplo), e embriaguez com desordem em público é crime. A idade legal para beber é 18 anos para cerveja, vinho e sidra, e 20 anos para destilados."
+          "a": "Em geral sim, com uma ressalva. A Lei de Ordem Pública da Finlândia proíbe beber em locais públicos, mas abre exceção explícita para parques e áreas públicas equivalentes, desde que você não atrapalhe ninguém nem cause perturbação. Os municípios ainda podem restringir pontos específicos, como praças ou parquinhos, e embriaguez com desordem é infração. A idade legal é 18 anos para cerveja, vinho e sidra e 20 anos para destilados."
         },
         {
           "q": "Qual é o horário típico dos bares na Lapônia?",
@@ -172,7 +172,7 @@
         },
         {
           "q": "Que bebidas locais vale a pena experimentar na Lapônia?",
-          "a": "Procure o lakka, licor de amora-ártica feito com a baga âmbar que amadurece só por algumas semanas a cada verão, servido gelado ou em um coquetel. A cerveja artesanal local também merece atenção: cervejarias como a Lapland Brewery, em Rovaniemi, e a Lapon Panimo, em Saariselkä, usam água ártica e ingredientes da floresta, como brotos de abeto e airela. Para algo clássico, a lager Lapin Kulta é produzida em Tornio há mais de 150 anos, e o Koskenkorva é o destilado de grãos do dia a dia dos finlandeses."
+          "a": "Procure o lakka, um licor de amora-ártica feito com a baga âmbar que amadurece por apenas algumas semanas a cada verão, servido gelado ou batido em coquetel. A cerveja artesanal local também vale a busca: a Lapland Brewery, em Rovaniemi, e a Tornion Panimo, em Tornio, produzem com água ártica. Como clássico, a Lapin Kulta foi fundada em Tornio em 1873, embora a produção tenha ido para Lahti em 2010, e o Koskenkorva é a aguardente de cereais do dia a dia."
         },
         {
           "q": "Onde dá para comprar álcool na Finlândia fora dos bares?",
@@ -190,11 +190,11 @@
         },
         {
           "q": "Levi 和 Ylläs 最好的滑雪后派对酒吧在哪里?",
-          "a": "在 Levi,Hullu Poro Areena 坐落于主雪道脚下,是芬兰最大的滑雪后派对场地,有芬兰本土艺人现场演出,可容纳 1,700 人;深夜时段则交给 Bar Ihku 和 Pub Hölmölä。在 Ylläs 一侧,Äkäslompolo 村的 Selvä Pyy 是人们下山后聚集的地方,等酒馆陆续打烊,场子便转到 Lapland Hotels Äkäshotelli 的夜店。缆车大约在下午 4 点停运,酒吧随即坐满。"
+          "a": "在莱维,Hullu Poro Areena位于主雪道脚下,两层最多可容纳1700人,设有十个吧台并有芬兰乐队现场演出;Bar Ihku和Pub Hölmölä承接深夜时段。在于莱斯一侧,阿卡斯隆波洛村的Selvä Pyy是下山后的聚集地,酒吧打烊后场子就转到Lapland Hotels Äkäshotelli的夜店。缆车约16点停运,之后酒吧很快就坐满。"
         },
         {
           "q": "在芬兰可以在户外喝酒吗?",
-          "a": "总体上可以，自 2018 年酒精法改革以来,成年人在公园、海滩等公共场所饮酒是被允许的,只要不打扰他人、不妨害公共秩序即可。各市镇仍可在特定区域(例如城镇广场或游乐场)加以限制,而在公共场合醉酒滋事属于违法行为。法定饮酒年龄为:啤酒、葡萄酒和苹果酒 18 岁,烈酒 20 岁。"
+          "a": "大体上可以,但有前提。芬兰的公共秩序法禁止在公共场所饮酒,不过只要不妨碍他人、不制造滋扰,公园及类似公共区域被明确排除在外。市镇仍可对广场、儿童游乐场等具体地点作出限制,醉酒滋事属于违法行为。啤酒、葡萄酒和苹果酒的法定年龄为18岁,烈酒为20岁。"
         },
         {
           "q": "拉普兰酒吧通常的营业时间是怎样的?",
@@ -202,7 +202,7 @@
         },
         {
           "q": "在拉普兰应该尝尝哪些本地酒?",
-          "a": "留意 lakka，一种用琥珀色北极浆果酿制的云莓利口酒,这种浆果每年夏天只成熟短短几周，通常冰镇饮用,或调入鸡尾酒。本地精酿啤酒也值得一找:Rovaniemi 的 Lapland Brewery 与 Saariselkä 的 Lapon Panimo 等酒厂,用北极的水和云杉嫩芽、越橘等森林原料酿造。想来点经典的,Lapin Kulta 拉格在 Tornio 已酿造了 150 多年,而 Koskenkorva 则是芬兰人日常饮用的粮食烈酒。"
+          "a": "可以找找lakka,一种用琥珀色北极浆果酿的云莓利口酒。这种浆果每年夏天只熟几周,通常冰镇饮用或调进鸡尾酒。本地精酿啤酒也值得一试:罗瓦涅米的Lapland Brewery和托尔尼奥的Tornion Panimo都用北极的水酿造。想喝经典款可以选Lapin Kulta,它1873年创立于托尔尼奥,不过生产已在2010年迁至拉赫蒂;Koskenkorva则是芬兰日常的谷物烈酒。"
         },
         {
           "q": "在芬兰,酒吧之外哪里能买到酒?",
@@ -220,11 +220,11 @@
         },
         {
           "q": "Levi와 Ylläs에서 가장 좋은 애프터 스키 바는 어디인가요?",
-          "a": "Levi에서는 Hullu Poro Areena가 메인 슬로프 발치에 자리한 핀란드 최대의 애프터 스키 공연장으로, 핀란드 아티스트들의 라이브 공연이 열리고 1,700명을 수용합니다. 늦은 시간은 Bar Ihku와 Pub Hölmölä가 이어받습니다. Ylläs 쪽에서는 Äkäslompolo 마을의 Selvä Pyy가 산에서 내려온 뒤 모이는 곳이며, 펍들이 한가해지면 Lapland Hotels Äkäshotelli의 나이트클럽이 그 뒤를 잇습니다. 리프트는 오후 4시쯤 멈추고, 바는 그 직후부터 채워집니다."
+          "a": "레비에서는 훌루 포로 아레나가 메인 슬로프 아래에 있으며 두 개 층에 최대 1,700명을 수용합니다. 바가 열 곳 있고 핀란드 아티스트의 라이브도 열리며, 늦은 시간은 바르 이흐쿠와 펍 홀뫼라가 이어받습니다. 윌라스 쪽에서는 아캬슬롬폴로 마을의 셀바 퓌가 산에서 내려온 뒤의 집결지이고, 펍이 문을 닫으면 라플란드 호텔스 아캬스호텔리의 나이트클럽으로 옮겨 갑니다. 리프트는 16시쯤 멈추고 바는 곧바로 들어찹니다."
         },
         {
           "q": "핀란드에서는 야외에서 술을 마실 수 있나요?",
-          "a": "대체로 가능합니다, 2018년 주류법 개정 이후, 공원이나 해변 같은 공공장소에서의 음주는 다른 사람에게 폐를 끼치거나 공공질서를 어지럽히지 않는 한 성인에게 허용됩니다. 개별 지자체는 여전히 특정 구역(예: 도심 광장이나 놀이터)에서 이를 제한할 수 있으며, 공공장소에서 취해 소란을 피우는 것은 위법입니다. 음주 가능 연령은 맥주·와인·사이더가 18세, 증류주가 20세입니다."
+          "a": "대체로 가능하지만 단서가 있습니다. 핀란드 공공질서법은 공공장소에서의 음주를 금지하지만, 다른 사람을 방해하거나 소란을 일으키지 않는 한 공원과 이에 준하는 공공 구역은 명시적으로 예외로 둡니다. 지자체는 광장이나 놀이터 같은 특정 장소를 여전히 제한할 수 있고, 만취해 소란을 피우는 행위는 처벌 대상입니다. 음주 가능 연령은 맥주, 와인, 사이다가 18세, 증류주는 20세입니다."
         },
         {
           "q": "라플란드 바의 일반적인 영업시간은 어떻게 되나요?",
@@ -232,7 +232,7 @@
         },
         {
           "q": "라플란드에서 꼭 마셔봐야 할 현지 술은 무엇인가요?",
-          "a": "lakka(라카), 매년 여름 단 몇 주만 익는 호박색 북극 베리로 만든 클라우드베리 리큐어, 를 찾아보세요. 차게 내거나 칵테일에 섞어 즐깁니다. 현지 크래프트 비어도 찾아볼 만합니다. Rovaniemi의 Lapland Brewery와 Saariselkä의 Lapon Panimo 같은 양조장은 북극의 물과 가문비나무 새순, 링곤베리 같은 숲의 재료로 맥주를 빚습니다. 고전적인 맛을 원한다면 Tornio에서 150년 넘게 양조해 온 Lapin Kulta 라거가 있고, Koskenkorva는 핀란드인이 일상적으로 마시는 곡물 증류주입니다."
+          "a": "먼저 라카를 찾아보세요. 여름마다 몇 주만 익는 호박빛 북극 열매로 만든 클라우드베리 리큐어로, 차갑게 마시거나 칵테일에 섞어 냅니다. 지역 크래프트 맥주도 찾아볼 만합니다. 로바니에미의 라플란드 브루어리와 토르니오의 토르니온 파니모는 모두 북극의 물로 빚습니다. 고전을 원한다면 라핀 쿨타가 있는데, 1873년 토르니오에서 시작했지만 생산은 2010년 라흐티로 옮겨 갔습니다. 코스켄코르바는 핀란드의 일상적인 곡물 증류주입니다."
         },
         {
           "q": "핀란드에서 바 외에 술을 살 수 있는 곳은 어디인가요?",
@@ -250,11 +250,11 @@
         },
         {
           "q": "Où trouver les meilleurs bars d'après-ski à Levi et Ylläs ?",
-          "a": "À Levi, la Hullu Poro Areena se dresse au pied de la piste principale : c'est la plus grande salle d'après-ski de Finlande, avec des artistes finlandais en concert et une capacité de 1 700 personnes ; le Bar Ihku et le Pub Hölmölä prennent le relais tard dans la nuit. Côté Ylläs, le Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement au retour des fjells, et la boîte du Lapland Hotels Äkäshotelli prend la suite une fois les pubs fermés. Les remontées s'arrêtent vers 16 h et les bars se remplissent juste après."
+          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après les fjells, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
         },
         {
           "q": "Peut-on boire de l'alcool en plein air en Finlande ?",
-          "a": "En général oui : depuis la réforme de la loi sur l'alcool de 2018, boire dans les lieux publics comme les parcs et les plages est autorisé aux adultes, à condition de ne pas gêner les autres ni de troubler l'ordre public. Chaque commune peut toutefois le restreindre dans certaines zones (places ou aires de jeux, par exemple), et l'ivresse accompagnée de tapage en public est un délit. L'âge légal pour boire est de 18 ans pour la bière, le vin et le cidre, et de 20 ans pour les spiritueux."
+          "a": "Globalement oui, avec une nuance. La loi finlandaise sur l’ordre public interdit de boire dans les lieux publics, mais elle exempte explicitement les parcs et espaces publics comparables, tant que vous ne gênez personne. Les communes peuvent encore interdire certains endroits, comme les places ou les aires de jeux, et l’ivresse accompagnée de troubles est une infraction. L’âge légal est de 18 ans pour la bière, le vin et le cidre, et de 20 ans pour les spiritueux."
         },
         {
           "q": "Quels sont les horaires habituels des bars en Laponie ?",
@@ -262,7 +262,7 @@
         },
         {
           "q": "Quelles boissons locales goûter en Laponie ?",
-          "a": "Cherchez le lakka (liqueur de plaquebière), élaboré à partir de cette baie arctique ambrée qui ne mûrit que quelques semaines chaque été, souvent servi bien frais ou mêlé à un cocktail. La bière artisanale locale vaut aussi le détour : des brasseries comme Lapland Brewery à Rovaniemi et Lapon Panimo à Saariselkä brassent avec de l'eau arctique et des ingrédients de la forêt, comme la pousse d'épicéa et l'airelle rouge. Pour un grand classique, la lager Lapin Kulta est brassée à Tornio depuis plus de 150 ans, et le Koskenkorva est l'eau-de-vie de grain du quotidien en Finlande."
+          "a": "Cherchez le lakka, une liqueur de mûre arctique tirée de la baie ambrée qui ne mûrit que quelques semaines par été, servie fraîche ou en cocktail. La bière artisanale locale vaut aussi le détour : Lapland Brewery à Rovaniemi et Tornion Panimo à Tornio brassent toutes deux avec de l’eau arctique. Côté classique, Lapin Kulta a été fondée à Tornio en 1873, même si sa production a déménagé à Lahti en 2010, et le Koskenkorva est l’eau-de-vie de grain du quotidien."
         },
         {
           "q": "Où acheter de l'alcool en Finlande en dehors des bars ?",
@@ -280,11 +280,11 @@
         },
         {
           "q": "Dove sono i migliori bar di après-ski a Levi e Ylläs?",
-          "a": "A Levi la Hullu Poro Areena si trova ai piedi della pista principale ed è il più grande locale di après-ski della Finlandia, con artisti finlandesi dal vivo e una capienza di 1.700 persone; il Bar Ihku e il Pub Hölmölä tengono banco a notte fonda. Sul versante di Ylläs, il Selvä Pyy, nel villaggio di Äkäslompolo, è il punto di ritrovo dopo i fjell, e la discoteca del Lapland Hotels Äkäshotelli prende il testimone quando i pub chiudono. Gli impianti chiudono verso le 16 e i bar si riempiono subito dopo."
+          "a": "A Levi, la Hullu Poro Areena si trova ai piedi della pista principale e ospita fino a 1.700 persone su due piani, con dieci bar e concerti finlandesi; Bar Ihku e Pub Hölmölä coprono le ore piccole. Sul versante di Ylläs, Selvä Pyy nel villaggio di Äkäslompolo è il punto di ritrovo dopo le fjell, e il locale notturno del Lapland Hotels Äkäshotelli prende il testimone quando i pub chiudono. Gli impianti chiudono verso le 16 e i bar si riempiono subito dopo."
         },
         {
           "q": "Si può bere alcol all'aperto in Finlandia?",
-          "a": "In genere sì: dalla riforma della legge sull'alcol del 2018, bere in luoghi pubblici come parchi e spiagge è consentito agli adulti, purché non si disturbino gli altri né si crei schiamazzo. I singoli comuni possono comunque limitarlo in aree specifiche (per esempio piazze o parchi giochi), e l'ubriachezza molesta in pubblico è un reato. L'età legale per bere è 18 anni per birra, vino e sidro, e 20 anni per i superalcolici."
+          "a": "In generale sì, con una precisazione. La legge finlandese sull’ordine pubblico vieta di bere nei luoghi pubblici, ma esclude esplicitamente parchi e aree pubbliche assimilabili, purché non si intralcino gli altri né si arrechi disturbo. I comuni possono comunque vietare punti specifici come piazze o parchi gioco, e l’ubriachezza molesta è un reato. L’età legale è 18 anni per birra, vino e sidro e 20 per i superalcolici."
         },
         {
           "q": "Quali sono gli orari tipici dei bar in Lapponia?",
@@ -292,7 +292,7 @@
         },
         {
           "q": "Quali bevande locali provare in Lapponia?",
-          "a": "Cerchi il lakka, liquore di mora artica, ottenuto dalla bacca ambrata che matura solo per poche settimane ogni estate, spesso servito freddo o mescolato in un cocktail. Vale la pena cercare anche la birra artigianale locale: birrifici come Lapland Brewery a Rovaniemi e Lapon Panimo a Saariselkä producono con acqua artica e ingredienti del bosco come germogli di abete rosso e mirtillo rosso. Per qualcosa di classico, la lager Lapin Kulta è prodotta a Tornio da oltre 150 anni, e il Koskenkorva è l'acquavite di cereali di tutti i giorni in Finlandia."
+          "a": "Cerca il lakka, un liquore di camemoro ricavato dalla bacca ambrata che matura solo per poche settimane ogni estate, servito freddo o nei cocktail. Vale la pena cercare anche la birra artigianale locale: Lapland Brewery a Rovaniemi e Tornion Panimo a Tornio producono entrambe con acqua artica. Per un classico, Lapin Kulta nacque a Tornio nel 1873, anche se la produzione si è spostata a Lahti nel 2010, e il Koskenkorva è l’acquavite di cereali di tutti i giorni."
         },
         {
           "q": "Dove si può comprare alcol in Finlandia fuori dai bar?",
@@ -310,11 +310,11 @@
         },
         {
           "q": "Waar vind je de beste après-ski-bars in Levi en Ylläs?",
-          "a": "In Levi staat de Hullu Poro Areena onderaan de hoofdpiste; het is de grootste après-ski-locatie van Finland, met live Finse artiesten en plaats voor 1.700 mensen. Bar Ihku en Pub Hölmölä nemen de late uurtjes voor hun rekening. Aan de kant van Ylläs is Selvä Pyy in het dorp Äkäslompolo het verzamelpunt na de fjells, en de club van Lapland Hotels Äkäshotelli neemt het over zodra de pubs sluiten. De liften stoppen rond 16.00 uur en de bars lopen daarna meteen vol."
+          "a": "In Levi ligt Hullu Poro Areena aan de voet van de hoofdpiste en er passen tot 1.700 mensen op twee verdiepingen, met tien bars en Finse liveacts; Bar Ihku en Pub Hölmölä nemen de late uren over. Aan de Ylläs-kant is Selvä Pyy in het dorp Äkäslompolo het verzamelpunt na de fjells, en de nachtclub van Lapland Hotels Äkäshotelli neemt het over zodra de pubs sluiten. De liften sluiten rond 16.00 uur en daarna lopen de bars vol."
         },
         {
           "q": "Mag je in Finland buiten alcohol drinken?",
-          "a": "Over het algemeen wel: sinds de hervorming van de alcoholwet in 2018 mogen volwassenen drinken op openbare plekken zoals parken en stranden, zolang ze anderen niet storen of overlast veroorzaken. Afzonderlijke gemeenten kunnen het nog beperken op bepaalde plekken (bijvoorbeeld pleinen of speeltuinen), en dronken zijn en overlast geven in het openbaar is strafbaar. De wettelijke leeftijd om te drinken is 18 jaar voor bier, wijn en cider, en 20 jaar voor sterke drank."
+          "a": "Grotendeels wel, met een kanttekening. De Finse Wet op de openbare orde verbiedt drinken op openbare plaatsen, maar zondert parken en vergelijkbare openbare ruimtes uitdrukkelijk uit, zolang je anderen niet hindert of overlast veroorzaakt. Gemeenten mogen specifieke plekken zoals pleinen of speeltuinen nog steeds verbieden, en dronken zijn en overlast geven is strafbaar. De leeftijdsgrens is 18 jaar voor bier, wijn en cider en 20 jaar voor sterkedrank."
         },
         {
           "q": "Wat zijn de gebruikelijke openingstijden van bars in Lapland?",
@@ -322,7 +322,7 @@
         },
         {
           "q": "Welke lokale drankjes moet ik in Lapland proberen?",
-          "a": "Zoek naar lakka, kruipbraamlikeur, gemaakt van de amberkleurige Arctische bes die elke zomer maar een paar weken rijpt, vaak gekoeld geschonken of door een cocktail geroerd. Ook lokaal speciaalbier is de moeite waard: brouwerijen als Lapland Brewery in Rovaniemi en Lapon Panimo in Saariselkä brouwen met Arctisch water en bosingrediënten zoals sparrenscheuten en rode bosbes. Voor iets klassieks: de lager Lapin Kulta wordt al meer dan 150 jaar in Tornio gebrouwen, en Koskenkorva is de alledaagse Finse graanjenever."
+          "a": "Zoek naar lakka, een likeur van de amberkleurige arctische kruipbraam die elke zomer maar een paar weken rijpt, vaak koud geschonken of door een cocktail geroerd. Lokaal speciaalbier is ook de moeite waard: Lapland Brewery in Rovaniemi en Tornion Panimo in Tornio brouwen allebei met arctisch water. Als klassieker geldt Lapin Kulta, in 1873 in Tornio opgericht, al verhuisde de productie in 2010 naar Lahti, en Koskenkorva is de alledaagse Finse graanjenever."
         },
         {
           "q": "Waar kun je in Finland buiten de bars alcohol kopen?",
@@ -340,11 +340,11 @@
         },
         {
           "q": "Var finns de bästa afterski-barerna i Levi och Ylläs?",
-          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och är Finlands största afterski-ställe, med finska liveartister och plats för 1 700 personer; Bar Ihku och Pub Hölmölä tar hand om de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar över när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
+          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och rymmer upp till 1 700 personer på två våningar, med tio barer och finska liveakter. Bar Ihku och Pub Hölmölä tar de sena timmarna. På Ylläs-sidan är Selvä Pyy i Äkäslompolo by samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar vid när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
         },
         {
           "q": "Får man dricka alkohol utomhus i Finland?",
-          "a": "I regel ja. Sedan alkohollagsreformen 2018 är det tillåtet för vuxna att dricka på allmänna platser som parker och stränder, så länge du inte stör andra eller orsakar ordningsstörning. Enskilda kommuner kan fortfarande begränsa det på vissa platser (till exempel torg eller lekplatser), och att vara berusad och stökig offentligt är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
+          "a": "I stort sett ja, med ett förbehåll. Finlands ordningslag förbjuder att dricka på allmän plats, men undantar uttryckligen parker och jämförbara allmänna områden så länge du inte hindrar andra eller stör. Kommuner kan fortfarande begränsa enskilda platser som torg eller lekparker, och att vara berusad och störa ordningen är straffbart. Åldersgränsen är 18 år för öl, vin och cider och 20 år för sprit."
         },
         {
           "q": "Vilka är de typiska öppettiderna för barer i Lappland?",
@@ -352,7 +352,7 @@
         },
         {
           "q": "Vilka lokala drycker bör jag prova i Lappland?",
-          "a": "Håll utkik efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar, ofta serverad kyld eller rörd i en cocktail. Lokal hantverksöl är också värd att leta upp: bryggerier som Lapland Brewery i Rovaniemi och Lapon Panimo i Saariselkä brygger med arktiskt vatten och råvaror från skogen som granskott och lingon. För något klassiskt har lagern Lapin Kulta bryggts i Tornio i över 150 år, och Koskenkorva är finländarnas vardagliga sädesbrännvin."
+          "a": "Leta efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar och ofta serveras kylt eller i en drink. Lokal hantverksöl är också värd att leta upp: Lapland Brewery i Rovaniemi och Tornion Panimo i Tornio brygger båda med arktiskt vatten. Som klassiker finns Lapin Kulta, grundat i Tornio 1873, även om produktionen flyttade till Lahtis 2010, och Koskenkorva är den finska vardagsbrännvinet av säd."
         },
         {
           "q": "Var kan man köpa alkohol i Finland utanför barerna?",

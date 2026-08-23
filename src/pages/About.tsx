@@ -25,20 +25,32 @@ export default function About() {
             <Trans
               i18nKey="about.body.2"
               ns="pages"
-              components={[
-                <a key="0" href="https://laplandvibes.com" className="text-amber hover:text-amber/80">LaplandVibes</a>,
-              ]}
+              // The copy uses the <1> placeholder, and an ARRAY maps index 0
+              // to <0> — so <1> matched nothing and the link rendered as plain
+              // text in all twelve locales. Object form keys the placeholder
+              // explicitly. (Pre-existing; noticed while extending this page.)
+              components={{
+                1: <a href="https://laplandvibes.com" className="text-amber hover:text-amber/80">LaplandVibes</a>,
+              }}
             />
           </p>
           <p>
             <Trans
               i18nKey="about.body.3"
               ns="pages"
-              components={[
-                <a key="0" href="mailto:info@laplandvibes.com" className="text-amber hover:text-amber/80">info@laplandvibes.com</a>,
-              ]}
+              components={{
+                1: <a href="mailto:info@laplandvibes.com" className="text-amber hover:text-amber/80">info@laplandvibes.com</a>,
+              }}
             />
           </p>
+          {/* body.4 and body.5 are plain paragraphs with no link placeholders,
+              so they render directly rather than through <Trans>. They sit last
+              because 0-3 end on the operator and contact line, which reads as
+              the sign-off. Whatever is in the array must be rendered here: the
+              prerender harvests the whole block, so a paragraph the component
+              skips would be text only the crawler sees. */}
+          <p>{t('about.body.4')}</p>
+          <p>{t('about.body.5')}</p>
         </div>
         <div className="mt-10">
           <Link to={to('/')} className="text-amber hover:text-amber/80 no-underline font-medium">{t('about.back')}</Link>
