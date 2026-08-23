@@ -9,7 +9,7 @@ import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import { useLocale } from '../i18n/useLocale';
 
-// Hotel search query + sid per resort (for Hotels.com via go.laplandvibes.com)
+// Hotel search query + sid per resort (for the lodging partner via go.laplandvibes.com)
 // Single-part place names only ("X, Finland") — "X, Lapland, Finland" can hit
 // a HOTEL in Sembo's autosuggest. Ylläs searches use the main village
 // Äkäslompolo (13 Sembo properties vs 3 on the bare "Ylläs" polygon).

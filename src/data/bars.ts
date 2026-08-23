@@ -39,7 +39,7 @@ export function pickLocalised(value: Localised | string, locale: Locale): string
  * For the LV ecosystem, GYG is the only affiliate path that maps cleanly
  * onto the experience side of bar/brewery venues — Finnish independent
  * pubs and breweries are not in CJ/Awin/Impact, so the choice is
- * (a) GYG tour search if the venue runs tours/tastings, or (b) Hotels.com
+ * (a) GYG tour search if the venue runs tours/tastings, or (b) the lodging partner
  * city-level CTA (covered by the city band below the bar grid).
  */
 export interface BarTour {
@@ -614,8 +614,8 @@ export const iceBars: IceBar[] = [
       de: 'Öffnet 25.12.2026 (jeden Herbst neu gebaut)',
     },
     website: 'https://snowvillage.fi',
-    // Hotels.com — the property ("Lapland Hotels Snow Village") does NOT
-    // resolve in the Hotels.com destination search (verified via Expedia
+    // the lodging partner — the property ("Lapland Hotels Snow Village") does NOT
+    // resolve in the lodging partner destination search (verified via Expedia
     // typeahead 2026-07-10, empty for every name variant) → use the
     // municipality so the search always returns results. Card label says
     // "book a room nearby", which this honestly is.
@@ -651,7 +651,7 @@ export const iceBars: IceBar[] = [
       de: 'Täglich 11–22 (15. Dez. – 31. März)',
     },
     website: 'https://arcticsnowhotel.fi',
-    // Hotels.com listing name, verified EXACT_MATCH (hotelId 12689601,
+    // lodging partner listing name, verified EXACT_MATCH (hotelId 12689601,
     // Lehtoahontie 27) via Expedia typeahead 2026-07-10. The old
     // "Arctic SnowHotel, Rovaniemi, Finland" string geocoded to nothing
     // → the search page showed zero properties.

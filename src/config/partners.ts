@@ -4,7 +4,7 @@
 // These are TRAVELPAYOUTS deep links. The marker/trs are PUBLIC (they ship in
 // client code by design); NO API secret keys live here. Attribution is handled
 // by Travelpayouts itself — these do NOT route through go.laplandvibes.com
-// (that Worker is CJ-only, for Hotels.com / EconomyBookings).
+// (that Worker is CJ-only, for lodging / EconomyBookings).
 //
 // Per-placement tracking uses the Travelpayouts `sub_id` parameter, set to a
 // snake_case SID so every placement is measurable in the TP dashboard.
