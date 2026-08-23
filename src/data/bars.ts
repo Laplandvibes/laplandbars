@@ -90,6 +90,17 @@ export interface Bar {
   website?: string;
   /** Opening hours localised across EN / FI / DE. Read via `pickLocalised`. */
   hours: Localised;
+  /**
+   * Editorial pick — an opinion, not an ad. Nothing is paid for it: this site
+   * has no sold inventory (adSlots.ts `sponsors: [null, null]`) and no venue
+   * appears in any partner record.
+   *
+   * 🔴 If a paid placement is ever sold, it must NOT reuse this flag. Give it
+   * its own field and mark it as advertising, the way laplanddining marks its
+   * per-city partner slot ("KKV: merkitty mainokseksi"). /about states in all
+   * twelve languages that nothing here is paid placement — that sentence stops
+   * being true the moment this flag is sold.
+   */
   featured?: boolean;
   tour?: BarTour;
 }
