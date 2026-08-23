@@ -4,7 +4,6 @@ import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
-import AirportRideAd from '../components/AirportRideAd';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import { useLocale } from '../i18n/useLocale';
@@ -225,7 +224,6 @@ export default function ApresSki() {
       {/* Getting home after the resort night — Welcome Pickups (advertiser-brand-skinned) */}
       <section className="py-14 bg-night">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AirportRideAd sid="apres_safe_ride_home" />
         </div>
       </section>
 

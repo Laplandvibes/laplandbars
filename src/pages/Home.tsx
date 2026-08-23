@@ -5,7 +5,6 @@ import { BARS, isSummerSeason } from '../data/images';
 import { bars, iceBars, getFeaturedBars, cities, pickLocalised } from '../data/bars';
 import PageSeo from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
-import AirportRideAd from '../components/AirportRideAd';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import Newsletter from '../components/Newsletter';
 import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots';
@@ -391,7 +390,6 @@ export default function Home() {
               {t('rideBand.sub')}
             </p>
           </div>
-          <AirportRideAd sid="home_safe_ride_home" />
         </div>
       </section>
 

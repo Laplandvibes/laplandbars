@@ -45,3 +45,22 @@ export const WELCOME_PICKUPS = {
 } as const;
 export const welcomePickupsLink = (sid = 'transfer') =>
   tpLink(WELCOME_PICKUPS.programId, 'https://www.welcomepickups.com/', sid);
+
+// 🔴🔴 WELCOME PICKUPS POISTETTU TÄLTÄ SIVUSTOLTA 2026-08-23 (Vesan linjaus).
+//
+// Mainos lupasi *"the smart ride home after the night out"*, *"no taxi rank
+// waiting outside at 2am"* ja *"nobody in the group has to stay sober to
+// drive"*. Welcome Pickups ei myy sellaista palvelua. Mitattu heidän omalta
+// Rovaniemen-sivultaan 2026-08-23: he myyvät LENTOKENTTÄKULJETUSTA (ja
+// puolen päivän kaupunkikierroksia) — sana "night" ei esiinny sivulla
+// kertaakaan, eikä pisteestä-pisteeseen- tai tuntikyytiä ole lainkaan.
+// Lisäksi he palvelevat Suomessa vain Helsinkiä ja Rovaniemeä; kittila,
+// ivalo, levi, saariselka, kuusamo, oulu, kemi, tampere ja turku ovat kaikki
+// 404. Tämän sivuston lukija on useimmiten menossa Leville tai Ylläkselle.
+//
+// Vesa 2026-08-23: *"ei tietenkään kannata, me luodataan ja autetaan
+// asiakasta aidosti, ei rahat pois -ajattelua."*
+//
+// ⇒ Älä palauta Welcome Pickupsia tälle sivustolle. Jos joskus palautetaan,
+//   se vaatii (a) palvelun joka oikeasti vastaa lupausta ja (b) kaupungin
+//   jota he oikeasti palvelevat.
