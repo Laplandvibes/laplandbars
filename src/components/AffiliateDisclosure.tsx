@@ -17,7 +17,7 @@ import type { Locale } from '../i18n/config';
 const DISCLOSURE: Record<Locale, string> = {
   en: 'This page contains affiliate links. If you book or buy through them, LaplandVibes may earn a commission at no extra cost to you.',
   fi: 'Tällä sivulla on kumppanilinkkejä. Jos varaat tai ostat niiden kautta, LaplandVibes voi saada provision. Sinulle se ei maksa yhtään enempää.',
-  de: 'Diese Seite enthält Partner-Links. Wenn Sie darüber buchen oder kaufen, kann LaplandVibes eine Provision ohne Mehrkosten für Sie erhalten.',
+  de: 'Diese Seite enthält Partnerlinks. Wenn Sie darüber buchen oder kaufen, kann LaplandVibes eine Provision ohne Mehrkosten für Sie erhalten.',
   ja: 'このページにはアフィリエイトリンクが含まれます。リンク経由で予約・購入された場合、追加費用なしでLaplandVibesに手数料が支払われることがあります。',
   es: 'Esta página contiene enlaces de afiliación. Si reservas o compras a través de ellos, LaplandVibes puede recibir una comisión sin coste adicional para ti.',
   'pt-BR':

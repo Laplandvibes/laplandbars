@@ -93,7 +93,7 @@ const GYG_FALLBACK_CARDS: Array<{
     sid: 'craftbeer_card_tasting',
     title: {
       en: 'Food & tasting tours', fi: 'Ruoka- ja maistelukierrokset',
-      de: 'Food- & Tasting-Touren', ja: 'フード＆テイスティングツアー',
+      de: 'Ess- und Verkostungstouren', ja: 'フード＆テイスティングツアー',
       es: 'Tours gastronómicos y catas', 'pt-BR': 'Tours gastronômicos e degustações',
       'zh-CN': '美食品鉴之旅', ko: '푸드 & 시음 투어',
       fr: 'Visites gourmandes et dégustations', it: 'Tour gastronomici e degustazioni',
