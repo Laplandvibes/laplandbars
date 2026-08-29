@@ -300,7 +300,7 @@
         "Ice Bar @ Lehtoahontie 27, 97220 Rovaniemi",
         "Ice Restaurant of Arctic Snowhotel @ Lehtoahontie 27, 97220 Sinettä"
       ],
-      "reason": "\"Arctic SnowHotel & Glass Igloos\" name mismatch (dice 0.67) | \"Skybar\" name mismatch (dice 0.17) | \"Ice Bar\" is missing the identifying word \"snowhotel\" — likely a sibling property of the same chain | \"Ice Restaurant of Arctic Snowhotel\" name mismatch (dice 0.70)"
+      "reason": "\"Arctic SnowHotel & Glass Igloos\" name mismatch (dice 0.67) | \"Skybar\" name mismatch (dice 0.17) | \"Ice Bar\" is missing the identifying word \"snowhotel\": likely a sibling property of the same chain | \"Ice Restaurant of Arctic Snowhotel\" name mismatch (dice 0.70)"
     },
     {
       "key": "Bar Ihku",
@@ -334,7 +334,7 @@
         "Ice Bar Snow Village @ Lainiotie 566, 99120 Kittilä",
         "Glass and Ice Restaurants LH SnowVillage @ Lainiotie 566, 99120 Kittilä"
       ],
-      "reason": "\"Ice Bar Snow Village\" name mismatch (dice 0.94 but chain sibling — adds \"village\") | \"Glass and Ice Restaurants LH SnowVillage\" name mismatch (dice 0.50)"
+      "reason": "\"Ice Bar Snow Village\" name mismatch (dice 0.94 but chain sibling, adds \"village\") | \"Glass and Ice Restaurants LH SnowVillage\" name mismatch (dice 0.50)"
     },
     {
       "key": "Arctic SnowHotel IceBar",
@@ -357,7 +357,7 @@
       "candidates": [
         "Snowman World @ Joulumaantie 15, 96930 Rovaniemi [CLOSED_TEMPORARILY]"
       ],
-      "reason": "\"Snowman World\" is missing the identifying word \"bar\" — likely a sibling property of the same chain"
+      "reason": "\"Snowman World\" is missing the identifying word \"bar\": likely a sibling property of the same chain"
     }
   ]
 }
