@@ -784,7 +784,7 @@
       }
     ],
     "doneMessage": "Recibido. Nos vemos bajo las auroras.",
-    "emailPlaceholder": "tu@email.com",
+    "emailPlaceholder": "sua@email.com",
     "submitIdle": "Recíbalo desde Laponia",
     "submitLoading": "Enviando…",
     "errorPrefix": "No se pudo suscribir",
