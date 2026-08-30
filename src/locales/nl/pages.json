@@ -63,12 +63,12 @@
           "a": "Een ijsbar is een bar gebouwd van sneeuw en blokken meerijs, waarbij de toog, de muren en zelfs de glazen uit ijs zijn gehakt. Binnen is het ongeveer −5 °C, dus adressen als de Ice Bar bij het Arctic SnowHotel nabij Rovaniemi lenen u bij de deur een thermocape of -pak. Elke ijsbar wordt elke winter met een nieuw ontwerp opnieuw opgebouwd en smelt in het voorjaar weg, dus hij bestaat alleen ongeveer van december tot april."
         },
         {
-          "q": "Waar vind je de beste après-ski-bars in Levi en Ylläs?",
+          "q": "Waar vindt u de beste après-ski-bars in Levi en Ylläs?",
           "a": "In Levi ligt Hullu Poro Areena aan de voet van de hoofdpiste en er passen tot 1.700 mensen op twee verdiepingen, met tien bars en Finse liveacts; Bar Ihku en Pub Hölmölä nemen de late uren over. Aan de Ylläs-kant is Selvä Pyy in het dorp Äkäslompolo het verzamelpunt na de fjells, en de nachtclub van Lapland Hotels Äkäshotelli neemt het over zodra de pubs sluiten. De liften sluiten rond 16.00 uur en daarna lopen de bars vol."
         },
         {
-          "q": "Mag je in Finland buiten alcohol drinken?",
-          "a": "Grotendeels wel, met een kanttekening. De Finse Wet op de openbare orde verbiedt drinken op openbare plaatsen, maar zondert parken en vergelijkbare openbare ruimtes uitdrukkelijk uit, zolang je anderen niet hindert of overlast veroorzaakt. Gemeenten mogen specifieke plekken zoals pleinen of speeltuinen nog steeds verbieden, en dronken zijn en overlast geven is strafbaar. De leeftijdsgrens is 18 jaar voor bier, wijn en cider en 20 jaar voor sterkedrank."
+          "q": "Mag u in Finland buiten alcohol drinken?",
+          "a": "Grotendeels wel, met een kanttekening. De Finse Wet op de openbare orde verbiedt drinken op openbare plaatsen, maar zondert parken en vergelijkbare openbare ruimtes uitdrukkelijk uit, zolang u anderen niet hindert of overlast veroorzaakt. Gemeenten mogen specifieke plekken zoals pleinen of speeltuinen nog steeds verbieden, en dronken zijn en overlast geven is strafbaar. De leeftijdsgrens is 18 jaar voor bier, wijn en cider en 20 jaar voor sterkedrank."
         },
         {
           "q": "Wat zijn de gebruikelijke openingstijden van bars in Lapland?",
@@ -79,7 +79,7 @@
           "a": "Zoek naar lakka, een likeur van de amberkleurige arctische kruipbraam die elke zomer maar een paar weken rijpt, vaak koud geschonken of door een cocktail geroerd. Lokaal speciaalbier is ook de moeite waard: Lapland Brewery in Rovaniemi en Tornion Panimo in Tornio brouwen allebei met arctisch water. Als klassieker geldt Lapin Kulta, in 1873 in Tornio opgericht, al verhuisde de productie in 2010 naar Lahti, en Koskenkorva is de alledaagse Finse graanjenever."
         },
         {
-          "q": "Waar kun je in Finland buiten de bars alcohol kopen?",
+          "q": "Waar kunt u in Finland buiten de bars alcohol kopen?",
           "a": "Supermarkten en buurtwinkels verkopen bier, cider en andere dranken tot 5,5% alcohol, meestal tot 21.00 uur. Alles wat sterker is, wijn, sterke drank en sterk bier, wordt alleen verkocht bij Alko, de staatsketen, die overdag open is en op zaterdag vroeg en op zondag de hele dag dicht is. In kleinere Laplandse dorpen kan de dichtstbijzijnde Alko een eind weg zijn, dus sla op tijd in voordat u naar een afgelegen hut vertrekt."
         }
       ]
@@ -311,7 +311,7 @@
       },
       "Pub Sarvi": {
         "type": "Traditionele pub",
-        "description": "Een warme, met hout beklede buurtpub weg van de drukte in het centrum. Craftbier van de tap, eerlijke shots en regelmatig livemuziek die locals trekt die elkaar bij naam kennen. Ongedwongen en eenvoudig: een pub waar je de avond doorbrengt in plaats van even langs te lopen.",
+        "description": "Een warme, met hout beklede buurtpub weg van de drukte in het centrum. Craftbier van de tap, eerlijke shots en regelmatig livemuziek die locals trekt die elkaar bij naam kennen. Ongedwongen en eenvoudig: een pub waar u de avond doorbrengt in plaats van even langs te lopen.",
         "highlights": [
           "Craftbier van de tap",
           "Livemuziek",
@@ -320,7 +320,7 @@
       },
       "Roy Club": {
         "type": "Karaokebar & nachtclub",
-        "description": "De legendarische karaokebar en nachtclub van Rovaniemi, in bedrijf sinds 1985. Twee verdiepingen: op de ene pak je de microfoon, op de andere de dansvloer. Het gaat laat open en nog later dicht - hier eindigt een avond uit in Rovaniemi meestal, of je dat nu van plan was of niet.",
+        "description": "De legendarische karaokebar en nachtclub van Rovaniemi, in bedrijf sinds 1985. Twee verdiepingen: op de ene pakt u de microfoon, op de andere de dansvloer. Het gaat laat open en nog later dicht - hier eindigt een avond uit in Rovaniemi meestal, of u dat nu van plan was of niet.",
         "highlights": [
           "Karaoke sinds 1985",
           "Twee verdiepingen",
@@ -365,7 +365,7 @@
       }
     },
     "cityNav": {
-      "label": "Kies je bestemming"
+      "label": "Kies uw bestemming"
     },
     "venueMenu": "Menukaart",
     "venueMenuPdf": "Menukaart (PDF)"
@@ -584,7 +584,7 @@
     "stay": {
       "kicker": "Verblijf bij de brouwerij",
       "title": "Sla de taxi over, boek een hotel op loopafstand",
-      "body": "Tornion Panimo ligt aan de overkant van de rivier. Lapland Brewery ligt op het terrein aan de Teollisuustie, een klein stukje rijden buiten het centrum van Rovaniemi. Kies de brouwerij en boek een hotel van waaruit je makkelijk terugkomt.",
+      "body": "Tornion Panimo ligt aan de overkant van de rivier. Lapland Brewery ligt op het terrein aan de Teollisuustie, een klein stukje rijden buiten het centrum van Rovaniemi. Kies de brouwerij en boek een hotel van waaruit u makkelijk terugkomt.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
@@ -813,19 +813,19 @@
   "rideBand": {
     "kicker": "Naar huis",
     "title": "Regel de rit vóór het eerste rondje",
-    "sub": "De drankjes zijn het makkelijke deel. Bedenk eerst hoe je terugkomt bij de hut, dan ga je er rustig voor zitten."
+    "sub": "De drankjes zijn het makkelijke deel. Bedenk eerst hoe u terugkomt bij de hut, dan gaat u er rustig voor zitten."
   },
   "experiences": {
     "barCrawl": {
       "kicker": "Boeken",
       "rovaniemi": {
         "title": "Bar- en brouwerijtours in Rovaniemi",
-        "body": "Liever alles geregeld voordat je aankomt? Begeleide brouwerijbezoeken, proeverijen en bar-wandelingen rond Rovaniemi zijn nu te boeken, met actuele beschikbaarheid en echte reviews.",
+        "body": "Liever alles geregeld voordat u aankomt? Begeleide brouwerijbezoeken, proeverijen en bar-wandelingen rond Rovaniemi zijn nu te boeken, met actuele beschikbaarheid en echte reviews.",
         "cta": "Bekijk tours in Rovaniemi"
       },
       "levi": {
         "title": "Begeleide avonden in Levi",
-        "body": "Levi is ervoor gemaakt. Blader door de après-ski- en barervaringen die een gids voor je regelt, dan hoef je niets te plannen en kom je gewoon opdagen.",
+        "body": "Levi is ervoor gemaakt. Blader door de après-ski- en barervaringen die een gids voor u regelt, dan hoeft u niets te plannen en komt u gewoon opdagen.",
         "cta": "Bekijk ervaringen in Levi"
       },
       "sectionTitle": "Liever een begeleide avond? Boek vooraf"
@@ -833,7 +833,7 @@
     "cocktail": {
       "kicker": "Maak ze zelf",
       "title": "Cocktail- en proeverij-ervaringen",
-      "body": "Een paar van de leukste sessies met Arctische cocktails en sterke-drankproeverijen in Lapland boek je met een gids. Leer de cloudberry sour bij de bron en bestel 'm daarna met overtuiging.",
+      "body": "Een paar van de leukste sessies met Arctische cocktails en sterke-drankproeverijen in Lapland boekt u met een gids. Leer de cloudberry sour bij de bron en bestel 'm daarna met overtuiging.",
       "cta": "Bekijk cocktailervaringen"
     }
   }
