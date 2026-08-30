@@ -485,7 +485,7 @@ const COPY: Record<Lang, CookieCopy> = {
     lsNote: 'Stocké dans votre navigateur, jamais envoyé à un serveur',
     lsIntro: 'Deux petites entrées sont stockées dans le localStorage de votre navigateur pour rendre le site moins intrusif :',
     lsConsentDesc: 'votre choix accepter/refuser (miroir du cookie de consentement ci-dessus)',
-    lsPopupDesc: 'un horodatage du moment où vous avez fermé pour la dernière fois ou souscrit avec succès au popup de l\'infolettre, afin de ne pas le réafficher pendant 7 jours (ou jamais si vous vous êtes inscrit)',
+    lsPopupDesc: 'un horodatage du moment où vous avez fermé pour la dernière fois ou souscrit avec succès au popup de l\'newsletter, afin de ne pas le réafficher pendant 7 jours (ou jamais si vous vous êtes inscrit)',
     lsTail: 'Le localStorage n\'est techniquement pas un cookie. Nous le listons ici pour la transparence. Vous pouvez l\'effacer via les paramètres de données de site de votre navigateur.',
     tableTitle: 'Tableau de référence des cookies',
     tableCookie: 'Cookie',
@@ -732,7 +732,7 @@ export default function CookieContent({
     },
     fr: {
       consent: 'Stocke votre préférence de consentement aux cookies (accepté/refusé)',
-      popup: 'Mémorise si vous avez fermé ou souscrit au popup de l\'infolettre, afin de ne pas le réafficher',
+      popup: 'Mémorise si vous avez fermé ou souscrit au popup de l\'newsletter, afin de ne pas le réafficher',
       gaUser: 'Google Analytics, distingue les utilisateurs uniques',
       gaSession: 'Google Analytics, maintient l\'état de session',
       cj: 'Adtraction, Travelpayouts et Trip.com, attribuent les commissions d\'affiliation lorsque vous cliquez sur des liens de réservation. Déposés via do.sembo.fi / on.lomarengas.fi / tp.media ou en paramètres de lien trip.com',

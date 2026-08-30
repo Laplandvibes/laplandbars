@@ -668,7 +668,7 @@ const COPY: Record<Lang, TermsCopy> = {
         lien sponsorisé vous amènera sur des sites externes régis par leurs propres conditions et politiques de confidentialité.
       </>
     ),
-    s5Title: '5. Services tiers, Nous ne sommes pas un commerçant',
+    s5Title: '5. Services tiers : nous ne sommes pas un commerçant',
     s5P1: (siteName) => (
       <>
         Les outils de recherche d\'hôtels, de vols, de location de voitures et de réservation d\'activités sur ce
@@ -690,7 +690,7 @@ const COPY: Record<Lang, TermsCopy> = {
     s6Title: '6. Infolettre',
     s6Body: (unsub, privacy) => (
       <>
-        Si vous vous inscrivez à notre infolettre, vous acceptez de recevoir périodiquement des e-mails sur le
+        Si vous vous inscrivez à notre newsletter, vous acceptez de recevoir périodiquement des e-mails sur le
         voyage en Laponie finlandaise. Vous pouvez vous désinscrire à tout moment via le lien dans tout e-mail
         ou en visitant {unsub}. Nous ne partageons pas votre adresse e-mail avec des tiers. Voir notre {privacy} pour plus de détails.
       </>

@@ -42,7 +42,7 @@
     },
     "stayBand": {
       "kicker": "Dormir près des bars",
-      "title": "Dormez à pied du bar",
+      "title": "Dormez à deux pas du bar",
       "sub": "Choisissez l'adresse où boire et réservez une chambre à côté. Disponibilités en temps réel sur Trip.com.",
       "cardCtaLabel": "Dormir à {{city}}",
       "browseCta": "Voir les hôtels",
@@ -64,7 +64,7 @@
         },
         {
           "q": "Où trouver les meilleurs bars d'après-ski à Levi et Ylläs ?",
-          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après les fjells, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
+          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après les fjälls, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
         },
         {
           "q": "Peut-on boire de l'alcool en plein air en Finlande ?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "Quelles boissons locales goûter en Laponie ?",
-          "a": "Cherchez le lakka, une liqueur de mûre arctique tirée de la baie ambrée qui ne mûrit que quelques semaines par été, servie fraîche ou en cocktail. La bière artisanale locale vaut aussi le détour : Lapland Brewery à Rovaniemi et Tornion Panimo à Tornio brassent toutes deux avec de l’eau arctique. Côté classique, Lapin Kulta a été fondée à Tornio en 1873, même si sa production a déménagé à Lahti en 2010, et le Koskenkorva est l’eau-de-vie de grain du quotidien."
+          "a": "Cherchez le lakka, une liqueur de plaquebière tirée de la baie ambrée qui ne mûrit que quelques semaines par été, servie fraîche ou en cocktail. La bière artisanale locale vaut aussi le détour : Lapland Brewery à Rovaniemi et Tornion Panimo à Tornio brassent toutes deux avec de l’eau arctique. Côté classique, Lapin Kulta a été fondée à Tornio en 1873, même si sa production a déménagé à Lahti en 2010, et le Koskenkorva est l’eau-de-vie de grain du quotidien."
         },
         {
           "q": "Où acheter de l'alcool en Finlande en dehors des bars ?",
@@ -119,7 +119,7 @@
     "checkBook": "Voir disponibilités et réserver",
     "bookDirect": "Réserver directement",
     "stayBand": {
-      "headline": "Dormez à pied de ces bars de {{city}}",
+      "headline": "Dormez à deux pas de ces bars de {{city}}",
       "sub": "Disponibilités en temps réel sur Trip.com, réservation directe, sans frais supplémentaires.",
       "cta": "Hôtels à {{city}}"
     },
@@ -160,7 +160,7 @@
       },
       "Bull Bar & Grill": {
         "type": "Bar & grill",
-        "description": "Situé dans l'immeuble du Arctic City Hotel, un grill bar à l'américaine avec une ambiance animée en soirée. Bons burgers, vrais cocktails, sport sur écran. Le genre d'endroit qui se remplit après 21h et reste bruyant tard dans la nuit.",
+        "description": "Situé dans l'immeuble du Arctic City Hotel, un grill bar à l'américaine avec une ambiance animée en soirée. Bons burgers, vrais cocktails, sport sur écran. Le genre d'endroit qui se remplit après 21 h et reste bruyant tard dans la nuit.",
         "highlights": [
           "Carte grill",
           "Bar à sport",
@@ -178,7 +178,7 @@
         ],
         "tour": {
           "label": "Visite du bar de glace + combinaison thermique",
-          "schedule": "Tous les jours 11h00–22h00 (15 déc – 31 mars)",
+          "schedule": "Tous les jours 11 h – 22 h (15 déc – 31 mars)",
           "hint": "Visite guidée du Snowhotel, accès à l'Ice Bar inclus.",
           "priceFrom": "Prix en direct sur GetYourGuide"
         }
@@ -195,7 +195,7 @@
       },
       "Bar Ihku": {
         "type": "Boîte de nuit & bar",
-        "description": "Déjà une légende parmi les fêtards de Levi. Ihku accumule les anecdotes au fil des nuits de chaos lapon. Karaoké, danse, locaux finlandais et skieurs internationaux sur le même dancefloor. L'un de ces endroits qui paraissent banals jusqu'à 23h, après on comprend pourquoi tout le monde en parle.",
+        "description": "Déjà une légende parmi les fêtards de Levi. Ihku accumule les anecdotes au fil des nuits de chaos lapon. Karaoké, danse, locaux finlandais et skieurs internationaux sur le même dancefloor. L'un de ces endroits qui paraissent banals jusqu'à 23 h, après on comprend pourquoi tout le monde en parle.",
         "highlights": [
           "Institution nocturne",
           "Soirées karaoké",
@@ -232,7 +232,7 @@
       },
       "Selvä Pyy": {
         "type": "Pub & restaurant",
-        "description": "Le pub de référence du village d'Äkäslompolo côté Ylläs. Selvä Pyy sert des bières artisanales, des cocktails et une vraie cuisine de pub finlandaise dans une ambiance chalet en rondins. Après une journée sur les fjelds, c'est là que locaux et skieurs se retrouvent, sans chichis, juste de bons verres et une compagnie facile.",
+        "description": "Le pub de référence du village d'Äkäslompolo côté Ylläs. Selvä Pyy sert des bières artisanales, des cocktails et une vraie cuisine de pub finlandaise dans une ambiance chalet en rondins. Après une journée sur les fjälls, c'est là que locaux et skieurs se retrouvent, sans chichis, juste de bons verres et une compagnie facile.",
         "highlights": [
           "Village d'Äkäslompolo",
           "Bières artisanales",
@@ -268,8 +268,8 @@
         ],
         "tour": {
           "label": "Visite de la brasserie & dégustation",
-          "schedule": "Vendredi 17h00 + 18h30 (déc.–mars chaque semaine)",
-          "hint": "Inscription avant mer. 14h00, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
+          "schedule": "Vendredi 17 h + 18 h 30 (déc.–mars chaque semaine)",
+          "hint": "Inscription avant mer. 14 h, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
           "directLabel": "Réserver sur lapinpanimo.fi"
         }
       },
@@ -471,7 +471,7 @@
       },
       "Bar Ihku": {
         "type": "Boîte de nuit",
-        "desc": "Une légende à Levi. Déjà plein à 21h et encore en pleine forme à 2h du matin. Karaoké, danse, locaux finlandais et skieurs internationaux, tout le monde finit par y atterrir."
+        "desc": "Une légende à Levi. Déjà plein à 21 h et encore en pleine forme à 2 h du matin. Karaoké, danse, locaux finlandais et skieurs internationaux, tout le monde finit par y atterrir."
       },
       "Bar Alakerta": {
         "type": "Bar à musique live",
@@ -504,7 +504,7 @@
   },
   "cocktails": {
     "title": "Cocktails arctiques de Laponie | LaplandBars",
-    "description": "Trois cocktails arctiques : Sour à la mûre des marais, Aurores boréales, Spritz à l'airelle rouge. Ingrédients sauvages et dégustations à réserver.",
+    "description": "Trois cocktails arctiques : Sour à la plaquebière (lakka), Aurores boréales, Spritz à l'airelle rouge. Ingrédients sauvages et dégustations à réserver.",
     "hero": {
       "title": "Cocktails arctiques",
       "sub": "Les mêmes conditions arctiques qui rendent les baies sauvages exceptionnelles donnent aussi des cocktails à nul autre pareils. Une culture du cocktail bâtie sur des ingrédients cueillis introuvables ailleurs."
@@ -519,10 +519,10 @@
     },
     "cocktails": [
       {
-        "name": "Sour à la mûre des marais",
-        "ingredients": "Gin finlandais · liqueur de mûre des marais · jus de citron · blanc d'œuf · sirop de sucre",
-        "description": "Le cocktail arctique signature. La mûre des marais, l'or de l'Arctique, mûrit seulement 2–3 semaines en juillet dans les tourbières subarctiques. Sa douceur miellée et son acidité font merveille en sour. La mousse de blanc d'œuf porte le parfum du fjeld droit aux narines.",
-        "season": "Mûre des marais : juillet–août"
+        "name": "Sour à la plaquebière",
+        "ingredients": "Gin finlandais · liqueur de plaquebière · jus de citron · blanc d'œuf · sirop de sucre",
+        "description": "Le cocktail arctique signature. La plaquebière, l'or de l'Arctique, mûrit seulement 2–3 semaines en juillet dans les tourbières subarctiques. Sa douceur miellée et son acidité font merveille en sour. La mousse de blanc d'œuf porte le parfum du fjäll droit aux narines.",
+        "season": "Plaquebière : juillet–août"
       },
       {
         "name": "Aurores boréales",
@@ -539,7 +539,7 @@
     ],
     "ingredients": [
       {
-        "name": "Mûre des marais (Lakka)",
+        "name": "Plaquebière (lakka)",
         "note": "La baie arctique la plus rare, pousse seulement dans les tourbières subarctiques, 2–3 semaines par an. Utilisée en liqueur, sorbet, sours."
       },
       {
@@ -552,7 +552,7 @@
       },
       {
         "name": "Thym arctique",
-        "note": "Cueilli dans les prairies de fjeld. Plus intense que le thym cultivé, à cause des conditions extrêmes."
+        "note": "Cueilli dans les prairies de fjäll. Plus intense que le thym cultivé, à cause des conditions extrêmes."
       },
       {
         "name": "Argousier",
@@ -560,7 +560,7 @@
       },
       {
         "name": "Gin finlandais",
-        "note": "Plusieurs distilleries finlandaises produisent du gin infusé aux botaniques arctiques, bouleau, genièvre, mûre des marais, pousses d'épicéa."
+        "note": "Plusieurs distilleries finlandaises produisent du gin infusé aux botaniques arctiques, bouleau, genièvre, plaquebière, pousses d'épicéa."
       }
     ]
   },
@@ -611,7 +611,7 @@
       },
       {
         "style": "Blanche aux baies",
-        "desc": "Airelle rouge ou mûre des marais sauvage ajoutées sur une base blanche. Acidulée, fruitée, saisonnière, on goûte le lieu d'origine."
+        "desc": "Airelle rouge ou plaquebière sauvage ajoutées sur une base blanche. Acidulée, fruitée, saisonnière, on goûte le lieu d'origine."
       },
       {
         "style": "Porter fumé",
@@ -628,7 +628,7 @@
     ]
   },
   "drinkingCulture": {
-    "title": "Culture finlandaise de la boisson en Laponie | LaplandBars",
+    "title": "Alcool en Laponie : la culture finlandaise de la boisson | LaplandBars",
     "description": "Koskenkorva, lonkero, Lapin Kulta, bière de sauna et kalsarikännit : comment boivent vraiment les Finlandais et le prix d'une pinte en Laponie.",
     "hero": {
       "title": "Culture finlandaise de la boisson",
@@ -643,16 +643,16 @@
       "body": [
         "Si la Finlande a un spiritueux national, spirituellement et littéralement, c'est le Koskenkorva. « Kossu » pour qui le connaît. Un alcool de grain à 38 % distillé à partir d'orge finlandaise dans le village de Koskenkorva, en Ostrobotnie, depuis 1953. La distillerie tourne 24 heures sur 24, tous les jours de l'année.",
         "Le Koskenkorva n'est pas une vodka, c'est précisément un alcool de grain, au profil légèrement plus rugueux et plus caractérisé qu'une vodka filtrée. Il est néanmoins extrêmement propre : distillé à un niveau de pureté très élevé, avec un minimum de congénères. La gueule de bois, vous diront les Finlandais, est presque inexistante par rapport aux spiritueux bon marché. C'est soit vrai, soit un excellent mythe finlandais.",
-        "Comment les Finlandais le boivent ? Froid, sec, dans un petit verre. Parfois avec une bière en accompagnement (la combinaison s'appelle viina + kalja, le duo classique de la classe ouvrière finlandaise). En Laponie, vous le trouverez dans chaque pub, généralement sur la rampe à pression. Il a été sur les tables finlandaises lors des mariages, des enterrements, des saunas du samedi et des petits-déjeuners du dimanche. Il n'est pas glamour. C'est précisément le point."
+        "Comment les Finlandais le boivent ? Froid, sec, dans un petit verre. Parfois avec une bière en accompagnement (la combinaison s'appelle viina + kalja, le duo classique de la classe ouvrière finlandaise). En Laponie, vous le trouverez dans chaque pub, généralement à portée de main derrière le comptoir. Il a été sur les tables finlandaises lors des mariages, des enterrements, des saunas du samedi et des petits-déjeuners du dimanche. Il n'est pas glamour. C'est précisément le point."
       ],
       "factsLabel": "En bref :",
-      "facts": "Produit par Altia (aujourd'hui Anora Group). Plus de 10 millions de litres vendus chaque année en Finlande. Le village de Koskenkorva compte environ 1 500 habitants. La distillerie est l'une des plus efficientes au monde, sans déchet, les résidus de grain nourrissent le bétail."
+      "facts": "Produit par Altia (aujourd'hui Anora Group). Plus de 10 millions de litres vendus chaque année en Finlande. Le village de Koskenkorva compte environ 1 500 habitants. La distillerie est l'une des plus efficaces au monde, sans déchet, les résidus de grain nourrissent le bétail."
     },
     "finlandia": {
       "title": "Vodka Finlandia, la Finlande au monde",
       "body": [
         "Si le Koskenkorva est pour les Finlandais, Finlandia est le cadeau de la Finlande au reste du monde. Lancée en 1970, la même année que le premier Jour de la Terre, ce qui est soit une coïncidence, soit un positionnement de marque très réfléchi, Finlandia fut l'une des premières vodkas premium à faire de la « pureté » son argument central.",
-        "La recette est simple par dessein : orge à six rangs cultivée en Finlande, eau de source glaciaire de Rajamäki, à environ 50 km au nord d'Helsinki. L'eau est la star. L'eau de source glaciaire finlandaise est l'une des plus douces au monde, faible en minéraux, faible en dureté, ce qui produit une vodka particulièrement nette, légère, sans presque aucune arrière-bouche.",
+        "La recette est simple par dessein : orge à six rangs cultivée en Finlande, eau de source glaciaire de Rajamäki, à environ 50 km au nord d'Helsinki. L'eau est la star. L'eau de source glaciaire finlandaise est l'une des plus douces au monde, très peu minéralisée, ce qui produit une vodka particulièrement nette, légère, sans presque aucune arrière-bouche.",
         "Finlandia est distillée plus de 200 fois en distillation continue et non par lots comme la plupart des spiritueux premium. Le résultat est extrêmement constant. Elle a remporté des dégustations à l'aveugle face à des concurrents bien plus chers. En Finlande, elle reste à un prix raisonnable. À l'étranger, elle affiche ses lettres de noblesse finlandaises comme un gage de qualité."
       ],
       "factsLabel": "En bref :",
@@ -734,7 +734,7 @@
     "sauna": {
       "title": "Sauna & sisu, l'image complète",
       "body": [
-        "La culture finlandaise de la boisson est indissociable du sauna. Le samedi finlandais standard suit un ordre précis : travail, sauna, bière. La bière se boit dans le sauna ou juste après, quand la température du corps est encore élevée et que la bière froide produit un effet presque physiologique. Cette combinaison est si ancrée que la plupart des chalets d'été finlandais ont un rituel sauna-bière dédié, qui commence aux alentours de 16h et se poursuit jusqu'à ce que quelqu'un s'endorme dans la barque.",
+        "La culture finlandaise de la boisson est indissociable du sauna. Le samedi finlandais standard suit un ordre précis : travail, sauna, bière. La bière se boit dans le sauna ou juste après, quand la température du corps est encore élevée et que la bière froide produit un effet presque physiologique. Cette combinaison est si ancrée que la plupart des chalets d'été finlandais ont un rituel sauna-bière dédié, qui commence aux alentours de 16 h et se poursuit jusqu'à ce que quelqu'un s'endorme dans la barque.",
         "En Laponie, le sauna est encore plus central. Après une journée à -30 °C, ce n'est pas un luxe, c'est de la réhydratation, de la récupération et de la sociabilité combinées. De nombreux hôtels et chalets lapons disposent d'un sauna privatif. La combinaison sauna, plongeon dans le lac ou la neige et bière froide vaut, selon les Finlandais, n'importe quel soin de spa au monde. Ils ont sans doute raison.",
         "Sisu, concept finlandais unique de détermination stoïque, de résilience face à l'adversité, s'applique aussi à la boisson. Un Finlandais qui boit depuis sept heures et arrive quand même au travail le lundi n'est pas considéré comme irresponsable. Il est considéré comme ayant du sisu."
       ]
@@ -768,7 +768,7 @@
     "benefits": [
       {
         "title": "Quand l'aurore apparaît vraiment",
-        "body": "Nous surveillons les prévisions du FMI à chaque nuit claire. Quand le KP s'aligne, nous vous prévenons, pour que vous soyez au bar avec la bonne fenêtre quand les lumières arrivent."
+        "body": "Nous surveillons les prévisions de l'institut météorologique finlandais à chaque nuit claire. Quand le KP s'aligne, nous vous prévenons, pour que vous soyez au bar avec la bonne fenêtre quand les lumières arrivent."
       },
       {
         "title": "Quand les bars de glace ouvrent",
@@ -833,7 +833,7 @@
     "cocktail": {
       "kicker": "Faites-les vous-même",
       "title": "Expériences cocktails et dégustations",
-      "body": "Certaines des meilleures sessions de cocktails arctiques et de dégustation de spiritueux en Laponie se réservent avec un guide. Apprenez le cloudberry sour à la source, puis commandez-le en connaisseur.",
+      "body": "Certaines des meilleures sessions de cocktails arctiques et de dégustation de spiritueux en Laponie se réservent avec un guide. Apprenez le sour à la plaquebière à la source, puis commandez-le en connaisseur.",
       "cta": "Voir les expériences"
     }
   }
