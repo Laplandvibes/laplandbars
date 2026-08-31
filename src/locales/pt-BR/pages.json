@@ -76,7 +76,7 @@
         },
         {
           "q": "Que bebidas locais vale a pena experimentar na Lapônia?",
-          "a": "Procure o lakka, um licor de amora-ártica feito com a baga âmbar que amadurece por apenas algumas semanas a cada verão, servido gelado ou batido em coquetel. A cerveja artesanal local também vale a busca: a Lapland Brewery, em Rovaniemi, e a Tornion Panimo, em Tornio, produzem com água ártica. Como clássico, a Lapin Kulta foi fundada em Tornio em 1873, embora a produção tenha ido para Lahti em 2010, e o Koskenkorva é a aguardente de cereais do dia a dia."
+          "a": "Procure o lakka, um licor de amora ártica feito com a baga âmbar que amadurece por apenas algumas semanas a cada verão, servido gelado ou batido em coquetel. A cerveja artesanal local também vale a busca: a Lapland Brewery, em Rovaniemi, e a Tornion Panimo, em Tornio, produzem com água ártica. Como clássico, a Lapin Kulta foi fundada em Tornio em 1873, embora a produção tenha ido para Lahti em 2010, e o Koskenkorva é a aguardente de cereais do dia a dia."
         },
         {
           "q": "Onde dá para comprar álcool na Finlândia fora dos bares?",
@@ -504,7 +504,7 @@
   },
   "cocktails": {
     "title": "Coquetéis da Lapônia com frutas árticas | LaplandBars",
-    "description": "Três coquetéis árticos: Sour de amora-do-norte, Aurora Boreal e Spritz de mirtilo-vermelho. Os ingredientes silvestres por trás deles e degustações.",
+    "description": "Três coquetéis árticos: Sour de amora ártica, Aurora Boreal e Spritz de airela-vermelha. Os ingredientes silvestres por trás deles e degustações.",
     "hero": {
       "title": "Coquetéis árticos",
       "sub": "As mesmas condições árticas que tornam as frutas silvestres da Lapônia extraordinárias também as tornam extraordinárias no copo. É uma cultura de coquetelaria construída sobre ingredientes silvestres que você não acha em outro lugar."
@@ -519,9 +519,9 @@
     },
     "cocktails": [
       {
-        "name": "Sour de amora-do-norte",
-        "ingredients": "Gin finlandês · licor de amora-do-norte · suco de limão · clara de ovo · xarope de açúcar",
-        "description": "O coquetel ártico ícone. A amora-do-norte o ouro do Ártico, amadurece por apenas 2 a 3 semanas em julho, em pântanos subárticos. Sua acidez adocicada como mel funciona perfeitamente em um sour. A espuma de clara leva o aroma do fell direto ao nariz.",
+        "name": "Sour de amora ártica",
+        "ingredients": "Gin finlandês · licor de amora ártica · suco de limão · clara de ovo · xarope de açúcar",
+        "description": "O coquetel ártico ícone. A amora ártica o ouro do Ártico, amadurece por apenas 2 a 3 semanas em julho, em pântanos subárticos. Sua acidez adocicada como mel funciona perfeitamente em um sour. A espuma de clara leva o aroma do fell direto ao nariz.",
         "season": "Amora-do-norte: julho–agosto"
       },
       {
@@ -531,9 +531,9 @@
         "season": "Aurora boreal: setembro–março"
       },
       {
-        "name": "Spritz de mirtilo-vermelho",
-        "ingredients": "Prosecco · suco de mirtilo-vermelho · licor de flor de sabugueiro · água com gás · mirtilos-vermelhos frescos",
-        "description": "Vermelho-rubi profundo, ácido, refrescante. Os mirtilos-vermelhos silvestres da Lapônia, a fruta mais colhida da Finlândia, equilibram a flor de sabugueiro contra a borbulha. Simples, mas precisamente certo. Daqueles drinques que ficam lindos em bar à luz de velas.",
+        "name": "Spritz de airela-vermelha",
+        "ingredients": "Prosecco · suco de airela-vermelha · licor de flor de sabugueiro · água com gás · airelas-vermelhas frescos",
+        "description": "Vermelho-rubi profundo, ácido, refrescante. Os airelas-vermelhas silvestres da Lapônia, a fruta mais colhida da Finlândia, equilibram a flor de sabugueiro contra a borbulha. Simples, mas precisamente certo. Daqueles drinques que ficam lindos em bar à luz de velas.",
         "season": "Mirtilo-vermelho: agosto–outubro"
       }
     ],
@@ -560,7 +560,7 @@
       },
       {
         "name": "Gin finlandês",
-        "note": "Várias destilarias finlandesas produzem gin infundido com botânicos árticos, bétula, zimbro, amora-do-norte, ponta de abeto."
+        "note": "Várias destilarias finlandesas produzem gin infundido com botânicos árticos, bétula, zimbro, amora ártica, ponta de abeto."
       }
     ]
   },
@@ -611,7 +611,7 @@
       },
       {
         "style": "Witbier de frutinha",
-        "desc": "Mirtilo-vermelho ou amora-do-norte silvestres adicionados a uma base de witbier. Ácida, frutada e sazonal, dá para sentir de onde veio."
+        "desc": "Mirtilo-vermelho ou amora ártica silvestres adicionados a uma base de witbier. Ácida, frutada e sazonal, dá para sentir de onde veio."
       },
       {
         "style": "Porter defumado",
@@ -641,8 +641,8 @@
     "kossu": {
       "title": "Koskenkorva o destilado nacional",
       "body": [
-        "Se a Finlândia tem um destilado nacional, espiritual e literalmente, , é o Koskenkorva. \"Kossu\" para quem é íntimo. Um destilado de grão a 38% feito de cevada finlandesa no vilarejo de Koskenkorva, em Österbotten, desde 1953. A destilaria opera 24 horas por dia, todos os dias do ano.",
-        "Koskenkorva não é vodca, é especificamente um destilado de grão, com perfil ligeiramente mais áspero e marcante do que uma vodca filtrada. Mesmo assim, é extremamente limpo: destilado a um nível altíssimo de pureza, com poucos congêneres. A ressaca, dizem os finlandeses, é quase inexistente em comparação com destilados mais baratos. Isso é verdade ou um mito finlandês muito bem-sucedido.",
+        "Se a Finlândia tem um destilado nacional, espiritual e literalmente, é o Koskenkorva. \"Kossu\" para quem é íntimo. Um destilado de grão a 38% feito de cevada finlandesa no vilarejo de Koskenkorva, na Ostrobótnia, desde 1953. A destilaria opera 24 horas por dia, todos os dias do ano.",
+        "Koskenkorva não é vodca, é especificamente um destilado de grão, com perfil ligeiramente mais áspero e marcante do que uma vodca filtrada. Mesmo assim, é extremamente limpo: destilado a um nível altíssimo de pureza, com poucos congêneres. A ressaca, dizem os finlandeses, é quase inexistente em comparação com destilados mais baratos. Ou é verdade, ou é um mito finlandês muito bem-sucedido.",
         "Como os finlandeses bebem? Gelado, puro, num copinho. Às vezes acompanhado de uma cerveja (a combinação chama-se viina + kalja, a dupla clássica da classe trabalhadora finlandesa). Na Lapônia, você encontra em todo pub, em geral no speed rail. Esteve nas mesas finlandesas em casamentos, funerais, saunas de sábado e cafés da manhã de domingo. Não é glamouroso. E esse é o ponto."
       ],
       "factsLabel": "Fatos rápidos:",
@@ -651,8 +651,8 @@
     "finlandia": {
       "title": "Finlandia Vodka, a Finlândia para o mundo",
       "body": [
-        "Enquanto o Koskenkorva é para os finlandeses, a Finlandia é o presente da Finlândia para o resto do mundo. Lançada em 1970 o mesmo ano do primeiro Dia da Terra, o que é coincidência ou um posicionamento de marca muito bem pensado, , a Finlandia foi uma das primeiras vodcas premium a vender \"pureza\" como argumento central.",
-        "A receita é simples por design: cevada de seis fileiras cultivada na Finlândia, água de fonte glacial de Rajamäki, a cerca de 50 km ao norte de Helsinque. A água é a estrela. A água finlandesa de fonte glacial é uma das mais macias do mundo, baixa em minerais, baixa em dureza, , o que produz uma vodca claramente limpa, leve e quase sem retrogosto.",
+        "Enquanto o Koskenkorva é para os finlandeses, a Finlandia é o presente da Finlândia para o resto do mundo. Lançada em 1970 o mesmo ano do primeiro Dia da Terra, o que é coincidência ou um posicionamento de marca muito bem pensado, a Finlandia foi uma das primeiras vodcas premium a vender \"pureza\" como argumento central.",
+        "A receita é simples por design: cevada de seis fileiras cultivada na Finlândia, água de fonte glacial de Rajamäki, a cerca de 50 km ao norte de Helsinque. A água é a estrela. A água finlandesa de fonte glacial é uma das mais macias do mundo, baixa em minerais, baixa em dureza, o que produz uma vodca claramente limpa, leve e quase sem retrogosto.",
         "A Finlandia é destilada mais de 200 vezes em um processo de destilação contínua, não em batelada, como a maioria dos destilados premium. O resultado é extremamente consistente. Já ganhou degustações internacionais às cegas contra concorrentes bem mais caros. Na Finlândia, segue com preço razoável. No exterior, ostenta as credenciais finlandesas como selo de qualidade premium."
       ],
       "factsLabel": "Fatos rápidos:",
