@@ -80,7 +80,7 @@
         },
         {
           "q": "Où acheter de l'alcool en Finlande en dehors des bars ?",
-          "a": "Les supermarchés et les épiceries vendent de la bière, du cidre et d'autres boissons jusqu'à 5,5 % d'alcool, en général jusqu'à 21 h. Tout ce qui est plus fort, vin, spiritueux et bière forte, ne se vend qu'à l'Alko, la chaîne d'État, ouverte en journée et qui ferme tôt le samedi et toute la journée du dimanche. Dans les petits villages de Laponie, l'Alko le plus proche peut être assez loin : mieux vaut faire ses réserves avant de filer vers un chalet isolé."
+          "a": "Les supermarchés et les épiceries vendent les boissons fermentées, bière, cidre et vin léger, jusqu'à 8,0 % d'alcool, et celles obtenues autrement, comme les cocktails à base de spiritueux, jusqu'à 5,5 %, en général jusqu'à 21 h. Tout ce qui dépasse ces limites, spiritueux, vins plus forts et bières de plus de 8 %, ne se vend qu'à l'Alko, la chaîne d'État, ouverte en journée et qui ferme tôt le samedi. La plupart des Alko restent fermés le dimanche, même si certains magasins ouvrent ce jour-là depuis l'été 2026 : pensez à vérifier les horaires du magasin le plus proche. Dans les petits villages de Laponie, l'Alko le plus proche peut être assez loin : mieux vaut faire ses réserves avant de filer vers un chalet isolé."
         }
       ]
     },
@@ -656,7 +656,7 @@
         "Finlandia est distillée plus de 200 fois en distillation continue et non par lots comme la plupart des spiritueux premium. Le résultat est extrêmement constant. Elle a remporté des dégustations à l'aveugle face à des concurrents bien plus chers. En Finlande, elle reste à un prix raisonnable. À l'étranger, elle affiche ses lettres de noblesse finlandaises comme un gage de qualité."
       ],
       "factsLabel": "En bref :",
-      "facts": "Détenue par Brown-Forman (maison-mère de Jack Daniel's) depuis 2004. Disponible dans plus de 80 pays. La bouteille givrée iconique n'a presque pas changé depuis 1970. Produite à la distillerie de Rajamäki, qui fabrique des spiritueux depuis 1888."
+      "facts": "Détenue par Coca-Cola HBC depuis 2023 ; auparavant, elle appartenait à Brown-Forman (maison-mère de Jack Daniel's). Disponible dans plus de 80 pays. La bouteille givrée iconique n'a presque pas changé depuis 1970. Produite à la distillerie de Rajamäki, qui fabrique des spiritueux depuis 1888."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, l'or de l'Arctique",
@@ -692,7 +692,7 @@
           "value": "~7–10 €"
         }
       ],
-      "priceFootnote": "Prix approximatifs en 2025. Les bières fortes (plus de 5,5 % vol.) ne s'achètent qu'en Alko, magasins d'État. Les supermarchés vendent jusqu'à 5,5 %.",
+      "priceFootnote": "Prix approximatifs en 2025. Les supermarchés vendent de la bière jusqu'à 8,0 % vol. ; au-delà, il faut passer par l'Alko, magasins d'État. Pour les boissons non fermentées, comme les cocktails à base de spiritueux, la limite reste de 5,5 % vol.",
       "otherLabel": "Autres lagers finlandaises à connaître :",
       "other": "Karhu (« Ours »), la bière la plus vendue de Finlande, plus maltée que Lapin Kulta. Sandels, du nom d'un héros de guerre finlandais, lager populaire bon marché. Olvi, brassée à Iisalmi depuis 1878, seule grande brasserie finlandaise encore détenue par des Finlandais. Koff, la plus ancienne marque brassicole d'Helsinki (1819), aujourd'hui détenue par Sinebrychoff/Carlsberg."
     },

@@ -80,7 +80,7 @@
         },
         {
           "q": "Where can you buy alcohol in Finland outside bars?",
-          "a": "Supermarkets and convenience shops sell beer, cider and other drinks up to 5.5% ABV, usually until 9pm. Anything stronger, meaning wine, spirits and strong beer, is sold only at Alko, the state-run chain, which keeps daytime hours and closes early on Saturdays and all day Sunday. In smaller Lapland villages the nearest Alko can be some distance away, so it is worth stocking up before heading out to a remote cabin."
+          "a": "Supermarkets and convenience shops sell fermented drinks such as beer, cider and low-alcohol wine up to 8.0% ABV, and drinks made any other way, such as spirit-based mixers, up to 5.5% ABV, usually until 9pm. Anything stronger, meaning spirits, stronger wines and beers above 8%, is sold only at Alko, the state-run chain, which keeps daytime hours and closes early on Saturdays. Most Alko stores are closed on Sundays, though some branches have opened on Sundays since the summer of 2026, so check the hours of your nearest one. In smaller Lapland villages the nearest Alko can be some distance away, so it is worth stocking up before heading out to a remote cabin."
         }
       ]
     },
@@ -575,7 +575,7 @@
         "Finlandia is distilled over 200 times through a continuous distillation process, not batch-distilled like most premium spirits. The result is extremely consistent. It has won international blind tastings against much more expensive competitors. In Finland, it is still reasonably priced. Abroad, it wears its Finnish credentials as a badge of premium quality."
       ],
       "factsLabel": "Quick facts:",
-      "facts": "Owned by Brown-Forman (Jack Daniel's parent company) since 2004. Available in over 80 countries. The iconic frosted bottle design has barely changed since 1970. Produced at the Rajamäki distillery, which has been making spirits since 1888."
+      "facts": "Owned by Coca-Cola HBC since 2023; before that it belonged to Brown-Forman (Jack Daniel's parent company). Available in over 80 countries. The iconic frosted bottle design has barely changed since 1970. Produced at the Rajamäki distillery, which has been making spirits since 1888."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, Gold from the Arctic",
@@ -611,7 +611,7 @@
           "value": "~€7–10"
         }
       ],
-      "priceFootnote": "Prices approximate as of 2025. Strong beers (above 5.5% ABV) can only be bought at Alko state liquor stores. Supermarkets sell beers up to 5.5% ABV.",
+      "priceFootnote": "Prices approximate as of 2025. Supermarkets sell beer up to 8.0% ABV; anything stronger is sold only at Alko state liquor stores. The 5.5% ABV limit still applies to drinks not made by fermentation, such as spirit-based mixers.",
       "otherLabel": "Other Finnish lagers worth knowing:",
       "other": "Karhu (\"Bear\"), Finland's best-selling beer, slightly maltier than Lapin Kulta. Sandels, named after a Finnish war hero, popular budget lager. Olvi, brewed in Iisalmi since 1878, the only major Finnish brewery still Finnish-owned. Koff, Helsinki's oldest brewery brand (1819), now owned by Sinebrychoff/Carlsberg."
     },

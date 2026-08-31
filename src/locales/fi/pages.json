@@ -80,7 +80,7 @@
         },
         {
           "q": "Mistä Suomessa voi ostaa alkoholia baarien ulkopuolelta?",
-          "a": "Ruokakaupat ja lähikaupat myyvät olutta, siideriä ja muita enintään 5,5 til-% juomia, yleensä klo 21 asti. Kaikki vahvempi, eli viini, väkevät ja vahva olut, myydään vain Alkossa, valtion ketjussa, joka on auki päiväsaikaan, menee lauantaisin kiinni aikaisin ja on sunnuntaisin kokonaan kiinni. Pienemmissä Lapin kylissä lähin Alko voi olla matkan päässä, joten kannattaa täydentää varastot ennen syrjäiselle mökille lähtöä."
+          "a": "Ruokakaupat ja lähikaupat myyvät käymisteitse valmistettuja juomia, kuten olutta, siideriä ja mietoa viiniä, enintään 8,0 til-%:iin asti ja muulla tavalla valmistettuja juomia, kuten väkeviin pohjautuvia sekoitejuomia, enintään 5,5 til-%:iin asti, yleensä klo 21 asti. Kaikki tätä vahvempi, eli väkevät, vahvemmat viinit ja yli 8 prosentin oluet, myydään vain Alkossa, valtion ketjussa, joka on auki päiväsaikaan ja menee lauantaisin kiinni aikaisin. Useimmat Alkot ovat sunnuntaisin kiinni, mutta osa myymälöistä on avannut sunnuntaisin kesästä 2026 alkaen, joten tarkista oman myymäläsi aukiolo. Pienemmissä Lapin kylissä lähin Alko voi olla matkan päässä, joten kannattaa täydentää varastot ennen syrjäiselle mökille lähtöä."
         }
       ]
     },
@@ -656,7 +656,7 @@
         "Finlandia tislataan yli 200 kertaa jatkuvassa tislausprosessissa, ei eräkohtaisesti kuten useimmat premium-väkevät. Tulos on äärimmäisen tasalaatuinen. Se on voittanut kansainvälisiä sokkomaisteluja paljon kalliimpia kilpailijoita vastaan. Suomessa se on edelleen kohtuuhintainen. Ulkomailla se kantaa suomalaista alkuperäänsä premium-laatumerkkinä."
       ],
       "factsLabel": "Pikatiedot:",
-      "facts": "Omistaja Brown-Forman (Jack Daniel'sin emoyhtiö) vuodesta 2004. Saatavilla yli 80 maassa. Ikoninen huurrettu pullomuotoilu on tuskin muuttunut vuodesta 1970. Valmistetaan Rajamäen tislaamolla, joka on tehnyt väkeviä vuodesta 1888."
+      "facts": "Coca-Cola HBC:n omistuksessa vuodesta 2023; sitä ennen omistaja oli Brown-Forman (Jack Daniel'sin emoyhtiö). Saatavilla yli 80 maassa. Ikoninen huurrettu pullomuotoilu on tuskin muuttunut vuodesta 1970. Valmistetaan Rajamäen tislaamolla, joka on tehnyt väkeviä vuodesta 1888."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, kultaa arktiselta",
@@ -692,7 +692,7 @@
           "value": "~7–10 €"
         }
       ],
-      "priceFootnote": "Hinnat arvioita vuodelta 2025. Vahvoja oluita (yli 5,5 til-%) saa vain Alkosta. Ruokakaupat myyvät oluita 5,5 til-%:iin asti.",
+      "priceFootnote": "Hinnat arvioita vuodelta 2025. Ruokakaupat myyvät olutta enintään 8,0 til-%:iin asti, sitä vahvemmat oluet saa vain Alkosta. Muulla tavalla kuin käymisteitse valmistettuja juomia, kuten väkeviin pohjautuvia sekoitejuomia, kaupat myyvät enintään 5,5 til-%:iin asti.",
       "otherLabel": "Muita tutustumisen arvoisia suomalaisia lagereita:",
       "other": "Karhu, Suomen myydyin olut, hieman maltaisempi kuin Lapin Kulta. Sandels, nimetty suomalaisen sotasankarin mukaan, suosittu budjettilager. Olvi, pantu Iisalmessa vuodesta 1878, ainoa suuri suomalainen panimo, joka on yhä suomalaisomistuksessa. Koff, Helsingin vanhin panimobrändi (1819), nykyään Sinebrychoffin/Carlsbergin omistuksessa."
     },

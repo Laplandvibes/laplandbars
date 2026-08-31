@@ -80,7 +80,7 @@
         },
         {
           "q": "Var kan man köpa alkohol i Finland utanför barerna?",
-          "a": "Livsmedelsbutiker och närbutiker säljer öl, cider och andra drycker upp till 5,5 %, oftast till klockan 21. Allt starkare, alltså vin, sprit och starköl, säljs bara på Alko, den statliga kedjan, som har dagtidsöppet och stänger tidigt på lördagar och håller stängt hela söndagen. I mindre byar i Lappland kan närmaste Alko ligga en bit bort, så det lönar sig att fylla på innan du åker ut till en avsides stuga."
+          "a": "Livsmedelsbutiker och närbutiker säljer jästa drycker som öl, cider och lätt vin upp till 8,0 procent, och drycker som framställts på annat sätt, till exempel spritbaserade blanddrycker, upp till 5,5 procent, oftast till klockan 21. Allt starkare än så, alltså sprit, starkare viner och öl över 8 procent, säljs bara på Alko, den statliga kedjan, som har dagtidsöppet och stänger tidigt på lördagar. De flesta Alko-butiker håller stängt på söndagar, men vissa butiker har öppet på söndagar sedan sommaren 2026, så kolla öppettiderna i butiken närmast dig. I mindre byar i Lappland kan närmaste Alko ligga en bit bort, så det lönar sig att fylla på innan du åker ut till en avsides stuga."
         }
       ]
     },
@@ -656,7 +656,7 @@
         "Finlandia destilleras över 200 gånger genom en kontinuerlig destillationsprocess, inte satsvis som de flesta premiumspritar. Resultatet är extremt jämnt. Den har vunnit internationella blindprovningar mot betydligt dyrare konkurrenter. I Finland är den fortfarande rimligt prissatt. Utomlands bär den sina finska meriter som ett bevis på premiumkvalitet."
       ],
       "factsLabel": "Snabbfakta:",
-      "facts": "Ägs av Brown-Forman (moderbolag till Jack Daniel's) sedan 2004. Finns i över 80 länder. Den ikoniska frostade flaskdesignen har knappt ändrats sedan 1970. Tillverkas vid destilleriet i Rajamäki, som gjort sprit sedan 1888."
+      "facts": "Ägs av Coca-Cola HBC sedan 2023; dessförinnan ägdes märket av Brown-Forman (moderbolag till Jack Daniel's). Finns i över 80 länder. Den ikoniska frostade flaskdesignen har knappt ändrats sedan 1970. Tillverkas vid destilleriet i Rajamäki, som gjort sprit sedan 1888."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, guld från Arktis",
@@ -692,7 +692,7 @@
           "value": "~7–10 €"
         }
       ],
-      "priceFootnote": "Priserna är ungefärliga och gäller 2025. Starköl (över 5,5 %) kan bara köpas i Alkos statliga butiker. Livsmedelsbutiker säljer öl upp till 5,5 %.",
+      "priceFootnote": "Priserna är ungefärliga och gäller 2025. Livsmedelsbutiker säljer öl upp till 8,0 procent; allt starkare finns bara i Alkos statliga butiker. För drycker som inte är jästa, till exempel spritbaserade blanddrycker, gäller fortfarande gränsen 5,5 procent.",
       "otherLabel": "Andra finska lagrar värda att känna till:",
       "other": "Karhu (\"Björn\"), Finlands mest sålda öl, något maltigare än Lapin Kulta. Sandels, uppkallad efter en finsk krigshjälte, en populär budgetlager. Olvi, bryggd i Iisalmi sedan 1878, det enda större finska bryggeriet som fortfarande är finskägt. Koff, Helsingfors äldsta bryggerivarumärke (1819), numera ägt av Sinebrychoff/Carlsberg."
     },

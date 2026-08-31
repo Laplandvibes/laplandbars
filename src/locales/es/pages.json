@@ -80,7 +80,7 @@
         },
         {
           "q": "¿Dónde se puede comprar alcohol en Finlandia fuera de los bares?",
-          "a": "Los supermercados y las tiendas de conveniencia venden cerveza, sidra y otras bebidas de hasta el 5,5 % de alcohol, normalmente hasta las 21:00. Cualquier cosa más fuerte, vino, destilados y cerveza fuerte, solo se vende en Alko, la cadena estatal, que abre en horario diurno y cierra pronto los sábados y todo el domingo. En los pueblos más pequeños de Laponia, el Alko más cercano puede quedar bastante lejos, así que conviene abastecerse antes de irse a una cabaña remota."
+          "a": "Los supermercados y las tiendas de conveniencia venden bebidas fermentadas, como la cerveza, la sidra y el vino suave, de hasta el 8,0 % de alcohol, y las elaboradas de otro modo, como los combinados a base de destilados, de hasta el 5,5 %, normalmente hasta las 21:00. Todo lo que supere esos límites, es decir, los destilados, los vinos más fuertes y las cervezas de más del 8 %, solo se vende en Alko, la cadena estatal, que abre en horario diurno y cierra pronto los sábados. La mayoría de las tiendas Alko cierran los domingos, aunque algunas abren ese día desde el verano de 2026, así que merece la pena consultar el horario de la más cercana. En los pueblos más pequeños de Laponia, el Alko más cercano puede quedar bastante lejos, así que conviene abastecerse antes de irse a una cabaña remota."
         }
       ]
     },
@@ -656,7 +656,7 @@
         "Finlandia se destila más de 200 veces mediante un proceso continuo, no por lotes como la mayoría de premium. El resultado es extremadamente constante. Ha ganado catas a ciegas internacionales frente a competidores mucho más caros. En Finlandia sigue teniendo un precio razonable. Fuera, presume de credenciales finlandesas como sello de calidad premium."
       ],
       "factsLabel": "Datos rápidos:",
-      "facts": "Propiedad de Brown-Forman (matriz de Jack Daniel's) desde 2004. Disponible en más de 80 países. El icónico diseño de botella esmerilada apenas ha cambiado desde 1970. Se produce en la destilería de Rajamäki, que elabora destilados desde 1888."
+      "facts": "Propiedad de Coca-Cola HBC desde 2023; antes pertenecía a Brown-Forman (matriz de Jack Daniel's). Disponible en más de 80 países. El icónico diseño de botella esmerilada apenas ha cambiado desde 1970. Se produce en la destilería de Rajamäki, que elabora destilados desde 1888."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, oro del Ártico",
@@ -692,7 +692,7 @@
           "value": "~7–10 €"
         }
       ],
-      "priceFootnote": "Precios aproximados a 2025. Las cervezas fuertes (por encima del 5,5 % ABV) solo se compran en las tiendas estatales Alko. Los supermercados venden cervezas hasta 5,5 % ABV.",
+      "priceFootnote": "Precios aproximados a 2025. Los supermercados venden cerveza hasta un 8,0 % de alcohol; todo lo más fuerte solo se compra en las tiendas estatales Alko. Para las bebidas no fermentadas, como los combinados a base de destilados, sigue vigente el límite del 5,5 %.",
       "otherLabel": "Otras lageres finlandesas que merece la pena conocer:",
       "other": "Karhu (\"Oso\"), la cerveza más vendida de Finlandia, algo más maltosa que la Lapin Kulta. Sandels, bautizada en honor a un héroe de guerra finlandés, popular lager económica. Olvi, elaborada en Iisalmi desde 1878, la única gran cervecera finlandesa que sigue siendo de capital finlandés. Koff, la marca cervecera más antigua de Helsinki (1819), hoy propiedad de Sinebrychoff/Carlsberg."
     },
