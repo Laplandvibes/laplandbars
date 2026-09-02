@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "¿Qué es un bar de hielo en Laponia?",
-          "a": "Un bar de hielo es un bar levantado con nieve y bloques de hielo de lago, donde la barra, las paredes e incluso los vasos están tallados en hielo. Dentro hay unos −5 °C, así que locales como el Ice Bar del Arctic SnowHotel, cerca de Rovaniemi, te prestan una capa o un traje térmico en la puerta. Cada uno se reconstruye con un diseño nuevo cada invierno y se derrite en primavera, de modo que solo existe entre diciembre y abril aproximadamente."
+          "a": "Un bar de hielo es un bar levantado con nieve y bloques de hielo de lago, donde la barra, las paredes e incluso los vasos están tallados en hielo. Dentro hay unos −5 °C, así que locales como el Ice Bar del Arctic SnowHotel, cerca de Rovaniemi, le prestan una capa o un traje térmico en la puerta. Cada uno se reconstruye con un diseño nuevo cada invierno y se derrite en primavera, de modo que solo existe entre diciembre y abril aproximadamente."
         },
         {
           "q": "¿Dónde están los mejores bares de après-ski en Levi y Ylläs?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "¿Qué bebidas locales debería probar en Laponia?",
-          "a": "Busca el lakka, un licor de mora ártica hecho con la baya ámbar que madura solo unas semanas cada verano, servido frío o mezclado en cóctel. También merece la pena buscar cerveza artesanal local: Lapland Brewery en Rovaniemi y Tornion Panimo en Tornio elaboran ambas con agua ártica. Como clásico, Lapin Kulta se fundó en Tornio en 1873, aunque su producción se trasladó a Lahti en 2010, y Koskenkorva es el aguardiente de grano finlandés de diario."
+          "a": "Busque el lakka, un licor de mora ártica hecho con la baya ámbar que madura solo unas semanas cada verano, servido frío o mezclado en cóctel. También merece la pena buscar cerveza artesanal local: Lapland Brewery en Rovaniemi y Tornion Panimo en Tornio elaboran ambas con agua ártica. Como clásico, Lapin Kulta se fundó en Tornio en 1873, aunque su producción se trasladó a Lahti en 2010, y Koskenkorva es el aguardiente de grano finlandés de diario."
         },
         {
           "q": "¿Dónde se puede comprar alcohol en Finlandia fuera de los bares?",
@@ -86,7 +86,7 @@
     },
     "related": {
       "eyebrow": "Adónde ir después",
-      "title": "Planifica el resto de tu viaje por Laponia",
+      "title": "Planifique el resto de su viaje por Laponia",
       "sub": "LaplandBars forma parte de la red LaplandVibes. Para todo lo que rodea a las copas, estas guías hermanas van más a fondo.",
       "links": [
         {
@@ -100,7 +100,7 @@
           "href": "https://laplanddining.com"
         },
         {
-          "anchor": "Planifica tu viaje a Laponia",
+          "anchor": "Planifique su viaje a Laponia",
           "desc": "Estaciones del año, destinos y cómo encajar todo el viaje.",
           "href": "https://laplandvisit.com"
         }
@@ -269,13 +269,13 @@
         "tour": {
           "label": "Visita a la cervecería con degustación",
           "schedule": "Viernes 17:00 y 18:30 (dic–mar, semanal)",
-          "hint": "Apúntate antes del miércoles a las 14:00. Mínimo 3 personas. Reserva en info@lapinpanimo.fi o +358 45 133 4410.",
-          "directLabel": "Reserva en lapinpanimo.fi"
+          "hint": "Apúntese antes del miércoles a las 14:00. Mínimo 3 personas. Reserve en info@lapinpanimo.fi o +358 45 133 4410.",
+          "directLabel": "Reserve en lapinpanimo.fi"
         }
       },
       "Public House Sohva": {
         "type": "Cervecería",
-        "description": "Una cervecería cálida y servicial en la calle principal de Levi. Sohva es de esos sitios donde entras pensando tomar una y sales tres horas después. Buena selección de cervezas, comida decente, servicio amable. La gente del día se funde directamente con la de la noche.",
+        "description": "Una cervecería cálida y servicial en la calle principal de Levi. Sohva es de esos sitios donde entra pensando tomar una y sale tres horas después. Buena selección de cervezas, comida decente, servicio amable. La gente del día se funde directamente con la de la noche.",
         "highlights": [
           "Ubicación en la calle principal",
           "Selección de cervezas",
@@ -365,7 +365,7 @@
       }
     },
     "cityNav": {
-      "label": "Elige tu destino"
+      "label": "Elija su destino"
     },
     "venueMenu": "Carta",
     "venueMenuPdf": "Carta (PDF)"
@@ -382,10 +382,10 @@
       "Cada año trae un tema nuevo. Las esculturas no se repiten. Lo que ves un invierno no existirá al siguiente. Esa impermanencia es el punto. Un bar de hielo es, por definición, temporal y por eso merece la pena vivirlo antes de que desaparezca."
     ],
     "iceBarKicker": "bar de hielo",
-    "bookKicker": "Reserva la visita",
+    "bookKicker": "Reserve la visita",
     "bookCta": "Consulta y reserva",
     "stayKicker": "Alójate en el lugar",
-    "stayCta": "Reserva una habitación cerca",
+    "stayCta": "Reserve una habitación cerca",
     "venueWebsite": "Sitio web del lugar",
     "band": {
       "kicker": "Duerme en la nieve",
@@ -403,11 +403,11 @@
         },
         {
           "title": "Duración",
-          "body": "La mayoría de visitantes pasa entre 20 y 45 minutos dentro. Suficiente para una o dos bebidas y fotos. Los dedos te avisarán cuando sea hora de salir."
+          "body": "La mayoría de visitantes pasa entre 20 y 45 minutos dentro. Suficiente para una o dos bebidas y fotos. Los dedos le avisarán cuando sea hora de salir."
         },
         {
           "title": "Bebidas",
-          "body": "Cócteles clásicos, vino caliente especiado y especialidades de inspiración ártica. Servidos en vasos o copas de hielo: sí, bebes desde el hielo."
+          "body": "Cócteles clásicos, vino caliente especiado y especialidades de inspiración ártica. Servidos en vasos o copas de hielo: sí, bebe desde el hielo."
         },
         {
           "title": "Temporada",
@@ -444,7 +444,7 @@
     "pillars": [
       {
         "title": "A pie de pista",
-        "body": "Los mejores bares de après-ski están literalmente al pie de las pistas. Esquías hasta la puerta, dejas los esquís en el rack y entras con la cerveza en la mano."
+        "body": "Los mejores bares de après-ski están literalmente al pie de las pistas. Esquía hasta la puerta, deja los esquís en el rack y entra con la cerveza en la mano."
       },
       {
         "title": "Música en vivo",
@@ -457,7 +457,7 @@
     ],
     "topInResort": "Nº 1 en {{resort}}",
     "stayKicker": "Alojamiento en {{resort}}",
-    "findHotel": "Encuentra un hotel",
+    "findHotel": "Encuentre un hotel",
     "stayHints": {
       "Levi": "A pie de pista junto a Hullu Poro, Levi Hotel Spa, K5 Levi.",
       "Yllas": "Lapland Hotels Äkäshotelli, cabañas de troncos, ski-in/ski-out.",
@@ -515,7 +515,7 @@
       "kicker": "Alojamiento cerca del bar de cócteles",
       "title": "No conduzcas a casa: reserva una habitación al lado",
       "sub": "Casi todos los mejores bares de cócteles están en Rovaniemi, Levi o Saariselkä. Hoteles a una caminata:",
-      "cta": "Encuentra hoteles en Laponia"
+      "cta": "Encuentre hoteles en Laponia"
     },
     "cocktails": [
       {
@@ -583,7 +583,7 @@
     },
     "stay": {
       "kicker": "Alojamiento cerca de la cervecería",
-      "title": "Olvida el taxi: reserva un hotel a una caminata",
+      "title": "Olvide el taxi: reserve un hotel a una caminata",
       "body": "Tornion Panimo está al otro lado del río. Lapland Brewery se encuentra en el polígono de Teollisuustie, a poca distancia en coche del centro de Rovaniemi. Elige la cervecería y reserva un hotel desde el que sea fácil volver.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
@@ -642,8 +642,8 @@
       "title": "Koskenkorva, la bebida nacional",
       "body": [
         "Si Finlandia tiene un destilado nacional, espiritual y literalmente, es Koskenkorva. \"Kossu\" para quien lo conoce. Un destilado de cereal de 38° elaborado con cebada finlandesa en el pueblo de Koskenkorva, en Ostrobotnia, desde 1953. La destilería funciona 24 horas al día, todos los días del año.",
-        "Koskenkorva no es vodka: es específicamente un destilado de cereal, con un perfil algo más áspero y con más carácter que un vodka filtrado. Eso sí, es extraordinariamente limpio: destilado a muy alta pureza, con mínimos congéneres. La resaca, te dirá cualquier finlandés, es casi inexistente comparada con destilados más baratos. O esto es cierto o es un mito finlandés muy bien construido.",
-        "¿Cómo lo beben los finlandeses? Frío, solo, en un vaso pequeño. A veces con cerveza de acompañamiento (la combinación se llama viina + kalja, el clásico maridaje obrero finlandés). En Laponia lo encuentras en cada pub, normalmente en el speed rail. Ha estado en las mesas finlandesas en bodas, funerales, saunas del sábado y desayunos del domingo. No es glamuroso. Esa es la gracia."
+        "Koskenkorva no es vodka: es específicamente un destilado de cereal, con un perfil algo más áspero y con más carácter que un vodka filtrado. Eso sí, es extraordinariamente limpio: destilado a muy alta pureza, con mínimos congéneres. La resaca, le dirá cualquier finlandés, es casi inexistente comparada con destilados más baratos. O esto es cierto o es un mito finlandés muy bien construido.",
+        "¿Cómo lo beben los finlandeses? Frío, solo, en un vaso pequeño. A veces con cerveza de acompañamiento (la combinación se llama viina + kalja, el clásico maridaje obrero finlandés). En Laponia lo encuentra en cada pub, normalmente en el speed rail. Ha estado en las mesas finlandesas en bodas, funerales, saunas del sábado y desayunos del domingo. No es glamuroso. Esa es la gracia."
       ],
       "factsLabel": "Datos rápidos:",
       "facts": "Lo produce Altia (hoy Anora Group). Se venden más de 10 millones de litros al año en Finlandia. El pueblo de Koskenkorva tiene unos 1.500 habitantes. La destilería es una de las más eficientes del mundo en cereales: cero residuos, el remanente del grano alimenta al ganado."
@@ -717,18 +717,18 @@
       "title": "Kalsarikännit, el arte de beber en calzoncillos",
       "body": [
         "Hay un concepto finlandés que no tiene equivalente directo en ningún otro idioma: kalsarikännit. De kalsarit (calzoncillos) y känni (estar borracho). Literalmente: \"borrachera en calzoncillos\". La práctica de emborracharse en casa, en soledad o con gente cercana, en ropa interior, sin la menor intención de salir a ningún sitio.",
-        "Esto no es algo vergonzoso en Finlandia. No se considera antisocial. Para muchos finlandeses es la cima de la relajación, un rechazo deliberado a la performance social que exige ir a un bar. Nada de vestirse. Nada de esperar taxis. Nada de charla con desconocidos. Solo tu sofá, la bebida que elijas y la libertad de ver lo que quieras en la tele.",
+        "Esto no es algo vergonzoso en Finlandia. No se considera antisocial. Para muchos finlandeses es la cima de la relajación, un rechazo deliberado a la performance social que exige ir a un bar. Nada de vestirse. Nada de esperar taxis. Nada de charla con desconocidos. Solo su sofá, la bebida que elija y la libertad de ver lo que quiera en la tele.",
         "En 2018, el Ministerio de Asuntos Exteriores finlandés respaldó oficialmente el concepto como parte de una campaña nacional para explicar la cultura finlandesa al mundo. Publicaron una serie de emoji que mostraba el kalsarikännit, una persona en ropa interior con una copa. La campaña se hizo viral en todo el mundo. Finlandia fue durante unos días el país más comentado en la prensa internacional por un motivo que no tenía nada que ver con la política.",
         "El kalsarikännit no es solo una broma. Refleja algo genuino de la cultura finlandesa: el valor de la soledad, la comodidad del propio hogar y una profunda desconfianza nacional hacia la socialización performativa. En Laponia, donde los inviernos son largos, oscuros y fríos, el kalsarikännit es prácticamente un mecanismo de supervivencia."
       ],
       "rulesTitle": "Cómo practicar el kalsarikännit correctamente",
       "rules": [
-        "1. Ponte la ropa interior más cómoda que tengas.",
-        "2. Llena la nevera antes de que anochezca (esto no es negociable).",
-        "3. Silencia las notificaciones del teléfono.",
-        "4. Siéntate. No te levantes durante al menos dos horas.",
-        "5. Bebe despacio. Esto no es una carrera.",
-        "6. Bajo ninguna circunstancia hagas planes para salir más tarde."
+        "1. Póngase la ropa interior más cómoda que tenga.",
+        "2. Llene la nevera antes de que anochezca (esto no es negociable).",
+        "3. Silencie las notificaciones del teléfono.",
+        "4. Siéntese. No se levante durante al menos dos horas.",
+        "5. Beba despacio. Esto no es una carrera.",
+        "6. Bajo ninguna circunstancia haga planes para salir más tarde."
       ]
     },
     "sauna": {
@@ -740,9 +740,9 @@
       ]
     },
     "cta": {
-      "title": "Vívelo tú mismo",
+      "title": "Vívalo usted mismo",
       "sub": "La teoría es interesante. La práctica es mejor. Encuentra los bares donde la cultura finlandesa del beber sigue viva.",
-      "btnStay": "Encuentra un alojamiento en Laponia",
+      "btnStay": "Encuentre un alojamiento en Laponia",
       "btnExplore": "Explorar todos los bares"
     }
   },
@@ -755,7 +755,7 @@
       "Todos los locales que aparecen aquí son lugares reales; los datos proceden de las webs de los propios locales y de Google. La cobertura se centra en los cuatro destinos principales de la Laponia finlandesa, Rovaniemi, Levi, Ylläs y Saariselkä y se actualiza a medida que abren, cierran o cambian sitios. Citamos nuestras fuentes y agradecemos las correcciones.",
       "LaplandBars forma parte del ecosistema <1>LaplandVibes</1>, una red de sitios de viaje de nicho centrados en la Laponia finlandesa.",
       "El sitio está gestionado por LaPeso Oy (Finlandia). Consultas y correcciones: <1>info@laplandvibes.com</1>",
-      "Parte de los enlaces de este sitio pasa por go.laplandvibes.com y genera una pequeña comisión cuando reservas, sin coste adicional para ti. Ese ingreso cubre el alojamiento web y el tiempo que lleva mantener las fichas al día. No decide qué locales aparecen aquí: la comisión viene de socios hoteleros y de excursiones, no de los bares. Nada en estas páginas es colocación pagada: ningún bar paga por aparecer, y ninguno paga por la elección de la redacción.",
+      "Parte de los enlaces de este sitio pasa por go.laplandvibes.com y genera una pequeña comisión cuando reserva, sin coste adicional para usted. Ese ingreso cubre el alojamiento web y el tiempo que lleva mantener las fichas al día. No decide qué locales aparecen aquí: la comisión viene de socios hoteleros y de excursiones, no de los bares. Nada en estas páginas es colocación pagada: ningún bar paga por aparecer, y ninguno paga por la elección de la redacción.",
       "Lo que esto no es: una plataforma de reservas. Aquí no hay disponibilidad en tiempo real ni sistema de reserva. Cada local enlaza a su propia web, y es a propósito, porque el local es la única fuente que sabe a qué hora abre esta noche y si la terraza está en marcha. Toma los precios y horarios de estas páginas como punto de partida y confirma el resto en la puerta."
     ],
     "back": "← Volver al inicio"
@@ -768,7 +768,7 @@
     "benefits": [
       {
         "title": "Cuando la aurora aparece de verdad",
-        "body": "Seguimos el pronóstico del Instituto Meteorológico Finlandés en cada noche despejada. Cuando el índice Kp se alinea, te avisamos, para que estés en el bar con la ventana correcta cuando se enciendan las luces."
+        "body": "Seguimos el pronóstico del Instituto Meteorológico Finlandés en cada noche despejada. Cuando el índice Kp se alinea, le avisamos, para que esté en el bar con la ventana correcta cuando se enciendan las luces."
       },
       {
         "title": "Cuando abren los bares de hielo",
@@ -776,11 +776,11 @@
       },
       {
         "title": "Quién toca en el après-ski",
-        "body": "Hullu Poro Areena publica su cartel de temporada en noviembre. Te pasamos los nombres por los que merece la pena coger un vuelo, las pequeñas noches del Bar Levi Ihku y los conciertos de Saariselkä que nadie más señala."
+        "body": "Hullu Poro Areena publica su cartel de temporada en noviembre. Le pasamos los nombres por los que merece la pena coger un vuelo, las pequeñas noches del Bar Levi Ihku y los conciertos de Saariselkä que nadie más señala."
       },
       {
         "title": "Bares nuevos que merecen un desvío",
-        "body": "Una nueva carta de grifos de temporada en Rovaniemi. Un bar de cócteles efímero. Una nueva cervecería en la zona de Tornio. Te contamos las aperturas cuando todavía se sienten nuevas."
+        "body": "Una nueva carta de grifos de temporada en Rovaniemi. Un bar de cócteles efímero. Una nueva cervecería en la zona de Tornio. Le contamos las aperturas cuando todavía se sienten nuevas."
       }
     ],
     "doneMessage": "Recibido. Nos vemos bajo las auroras.",
@@ -820,18 +820,18 @@
       "kicker": "Reservar",
       "rovaniemi": {
         "title": "Tours de bares y cervecerías en Rovaniemi",
-        "body": "¿Prefieres dejarlo todo listo antes de llegar? Las visitas guiadas a cervecerías, las catas y los recorridos por bares en Rovaniemi se pueden reservar ya, con disponibilidad real y reseñas auténticas.",
+        "body": "¿Prefiere dejarlo todo listo antes de llegar? Las visitas guiadas a cervecerías, las catas y los recorridos por bares en Rovaniemi se pueden reservar ya, con disponibilidad real y reseñas auténticas.",
         "cta": "Ver tours en Rovaniemi"
       },
       "levi": {
         "title": "Noches guiadas en Levi",
-        "body": "Levi está hecho para esto. Explora las experiencias de après-ski y bares que un guía puede organizar por ti, para que no tengas que planificar nada y solo aparezcas.",
+        "body": "Levi está hecho para esto. Explore las experiencias de après-ski y bares que un guía puede organizar por usted, para que no tenga que planificar nada y solo aparezca.",
         "cta": "Ver experiencias en Levi"
       },
-      "sectionTitle": "¿Prefieres una noche guiada? Reserva con antelación"
+      "sectionTitle": "¿Prefiere una noche guiada? Reserve con antelación"
     },
     "cocktail": {
-      "kicker": "Hazlos tú",
+      "kicker": "Hágalos usted mismo",
       "title": "Experiencias de cócteles y catas",
       "body": "Algunas de las mejores sesiones de cócteles árticos y catas de destilados de Laponia se pueden reservar con guía. Aprende a preparar el cloudberry sour en su origen y luego pídelo como quien sabe.",
       "cta": "Ver experiencias de cóctel"
