@@ -48,7 +48,7 @@ const GYG_FALLBACK_LEAD: Record<string, string> = {
   fr: 'Cuisine laponne, dégustations et expériences autour des brasseries. Prix en temps réel et confirmation immédiate.',
   it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici. Prezzi in tempo reale e conferma immediata.',
   nl: 'Laplandse gerechten, proeverijen en brouwerij-ervaringen. Actuele prijzen en directe bevestiging.',
-  sv: 'Lapplandsk mat, provsmakningar och bryggerinära upplevelser. Aktuella priser och direkt bekräftelse.',
+  sv: 'Lappländsk mat, provsmakningar och bryggerinära upplevelser. Aktuella priser och direkt bekräftelse.',
 };
 
 // Bookable-experience cards shown when the GYG embed is blocked (ad-block /
@@ -70,7 +70,7 @@ const GYG_FALLBACK_CARDS: Array<{
       de: 'Lappländische Dinner-Erlebnisse', ja: 'ラップランドのディナー体験',
       es: 'Cenas laponas', 'pt-BR': 'Jantares lapões', 'zh-CN': '拉普兰晚餐体验',
       ko: '라플란드 디너 체험', fr: 'Dîners lapons', it: 'Cene lapponi', nl: 'Laplandse diners',
-      sv: 'Lapplandska middagsupplevelser',
+      sv: 'Lappländska middagsupplevelser',
     },
     desc: {
       en: 'Reindeer, arctic char and open-fire salmon at a log table.',
