@@ -83,7 +83,7 @@ const GYG_FALLBACK_CARDS: Array<{
       ko: '순록, 북극 곤들매기, 장작불 연어.',
       fr: 'Renne, omble chevalier et saumon au feu de bois.',
       it: 'Renna, salmerino artico e salmone alla fiamma.',
-      nl: 'Rendier, ridderforel en vuurzalm aan een blokhuttafel.',
+      nl: 'Rendier, riddervis en zalm van het open vuur aan een blokhuttafel.',
       sv: 'Ren, röding och flamlax vid ett timmerbord.',
     },
   },
@@ -97,7 +97,7 @@ const GYG_FALLBACK_CARDS: Array<{
       es: 'Tours gastronómicos y catas', 'pt-BR': 'Tours gastronômicos e degustações',
       'zh-CN': '美食品鉴之旅', ko: '푸드 & 시음 투어',
       fr: 'Visites gourmandes et dégustations', it: 'Tour gastronomici e degustazioni',
-      nl: 'Food- & proeverijtours', sv: 'Mat- och provsmakningsturer',
+      nl: 'Culinaire tours & proeverijen', sv: 'Mat- och provsmakningsturer',
     },
     desc: {
       en: 'A local guide, small groups, glass in hand.',
