@@ -1,12 +1,12 @@
 {
   "home": {
     "title": "LaplandBars, wo Lappland wirklich trinkt",
-    "description": "Bars, Brauereien, Eisbars, Après-Ski, Cocktails und Pubs, in denen Finnen in Lappland tatsächlich verkehren. Unabhängige Redaktion, keine Werbebroschüre.",
+    "description": "Bars, Brauereien, Eisbars, Après-Ski, Cocktails und Pubs – hier trinken die Finnen Lapplands wirklich. Unabhängige Redaktion, keine Werbebroschüre.",
     "eyebrow": "Finnisch-Lappland",
     "hero": {
       "headlineLine1": "Heben Sie das Glas",
       "headlineLine2": "auf die Arktis",
-      "sub": "Aus Eis geschnitzte Eisbars. Legendäre Après-Ski-Arenen. Warme Pubs mit Polarlichter-Blick durchs Fenster. Die besten Bars Lapplands, alle handverlesen, und es gibt sie wirklich.",
+      "sub": "Aus Eis geschnitzte Eisbars. Legendäre Après-Ski-Arenen. Warme Pubs mit Blick auf die Polarlichter durchs Fenster. Die besten Bars Lapplands, alle handverlesen, und es gibt sie wirklich.",
       "subSummer": "Seeterrassen und Dachbars unter der Mitternachtssonne. Terrassen, auf denen es noch nach Mitternacht hell ist, Livemusik und Sommerfestivals. Die besten Bars Lapplands, alle handverlesen, und es gibt sie wirklich.",
       "ctaStay": "Unterkunft in der Nähe suchen",
       "ctaBrowse": "Bars durchstöbern"
@@ -29,7 +29,7 @@
         },
         {
           "title": "Live-Musik",
-          "desc": "Open-Stage-Jam-Sessions, Bands, Karaoke in Blockhütten. Lapplands beste Musiknächte beginnen, sobald die Polarlichter aufgehen."
+          "desc": "Open-Stage-Jam-Sessions, Bands, Karaoke in Blockhütten. Lapplands beste Musiknächte beginnen, sobald die Polarlichter erscheinen."
         }
       ]
     },
@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "In der Nähe übernachten",
       "title": "Schlafen Sie in Gehweite zur Bar",
-      "sub": "Wählen Sie, wo Sie trinken möchten, und buchen Sie das Zimmer um die Ecke. Live-Verfügbarkeit über Trip.com.",
+      "sub": "Wählen Sie, wo Sie trinken möchten, und buchen Sie ein Zimmer gleich um die Ecke. Live-Verfügbarkeit über Trip.com.",
       "cardCtaLabel": "Übernachten: {{city}}",
       "browseCta": "Hotels durchstöbern",
       "subs": {
@@ -60,11 +60,11 @@
       "items": [
         {
           "q": "Was ist eine Eisbar in Lappland?",
-          "a": "Eine Eisbar ist eine Bar aus Schnee und Eisblöcken aus zugefrorenen Seen, deren Tresen, Wände und sogar Gläser aus Eis geschnitzt sind. Drinnen herrschen etwa −5 °C, daher leihen Locations wie die Eisbar im Arctic SnowHotel nahe Rovaniemi Ihnen an der Tür einen Thermoumhang oder -overall. Jede wird jeden Winter mit einem neuen Design neu gebaut und schmilzt im Frühling weg, sodass es sie nur etwa von Dezember bis April gibt."
+          "a": "Eine Eisbar ist eine Bar aus Schnee und Eisblöcken aus zugefrorenen Seen, deren Tresen, Wände und sogar Gläser aus Eis geschnitzt sind. Drinnen herrschen etwa −5 °C, daher leihen Adressen wie die Eisbar im Arctic SnowHotel nahe Rovaniemi Ihnen an der Tür einen Thermoumhang oder -overall. Jede wird jeden Winter mit einem neuen Design neu gebaut und schmilzt im Frühling weg, sodass es sie nur etwa von Dezember bis April gibt."
         },
         {
           "q": "Wo sind die besten Après-Ski-Bars in Levi und Ylläs?",
-          "a": "In Levi liegt die Hullu Poro Areena am Fuß der Hauptpiste und fasst auf zwei Etagen bis zu 1.700 Personen, mit zehn Bars und finnischen Live-Acts; Bar Ihku und Pub Hölmölä übernehmen die späten Stunden. Auf der Ylläs-Seite ist Selvä Pyy im Dorf Äkäslompolo der Treffpunkt nach den Fjells, und der Nachtclub im Lapland Hotels Äkäshotelli übernimmt, sobald die Pubs schließen. Die Lifte schließen gegen 16 Uhr, danach füllen sich die Bars."
+          "a": "In Levi liegt die Hullu Poro Areena am Fuß der Hauptpiste und fasst auf zwei Etagen bis zu 1.700 Personen, mit zehn Bars und finnischen Live-Acts; Bar Ihku und Pub Hölmölä übernehmen die späten Stunden. Auf der Ylläs-Seite ist Selvä Pyy im Dorf Äkäslompolo der Treffpunkt nach einem Tag auf dem Fjäll, und der Nachtclub im Lapland Hotels Äkäshotelli übernimmt, sobald die Pubs schließen. Die Lifte schließen gegen 16 Uhr, danach füllen sich die Bars."
         },
         {
           "q": "Darf man in Finnland im Freien Alkohol trinken?",
@@ -72,11 +72,11 @@
         },
         {
           "q": "Was sind typische Öffnungszeiten von Bars in Lappland?",
-          "a": "Die meisten Pubs öffnen am Nachmittag und schenken werktags bis etwa Mitternacht aus, mit späterem Schließen, oft 2 oder 4 Uhr, freitags und samstags in den Skigebieten. Das Lizenzrecht erlaubt den Alkoholverkauf bis 1.30 Uhr, für späteren Ausschank ist eine Verlängerungsgenehmigung nötig. Die Zeiten verschieben sich mit der Saison: Bars in den Skigebieten haben in den Wintermonaten lange geöffnet und halten in den ruhigen Nebensaisons kürzere Zeiten, daher lohnt es sich, direkt bei der Location nachzufragen, bevor Sie losgehen."
+          "a": "Die meisten Pubs öffnen am Nachmittag und schenken werktags bis etwa Mitternacht aus, mit späterem Schließen, oft 2 oder 4 Uhr, freitags und samstags in den Skigebieten. Das Alkoholgesetz erlaubt den Alkoholverkauf bis 1.30 Uhr, für späteren Ausschank ist eine Genehmigung für verlängerte Ausschankzeiten nötig. Die Zeiten verschieben sich mit der Saison: Bars in den Skigebieten haben in den Wintermonaten lange geöffnet und haben in der ruhigen Nebensaison kürzer geöffnet, daher lohnt es sich, direkt bei der Location nachzufragen, bevor Sie losgehen."
         },
         {
           "q": "Welche lokalen Getränke sollte ich in Lappland probieren?",
-          "a": "Halten Sie nach Lakka Ausschau, einem Moltebeerlikör aus der bernsteinfarbenen arktischen Beere, die jeden Sommer nur wenige Wochen reift und oft gekühlt oder im Cocktail serviert wird. Auch lokales Craft Beer lohnt sich: Lapland Brewery in Rovaniemi und Tornion Panimo in Tornio brauen beide mit arktischem Wasser. Als Klassiker gilt Lapin Kulta, 1873 in Tornio gegründet, dessen Produktion 2010 allerdings nach Lahti verlegt wurde; Koskenkorva ist der finnische Getreidebrand für jeden Tag."
+          "a": "Halten Sie nach Lakka Ausschau, einem Moltebeerlikör aus der bernsteinfarbenen arktischen Beere, die jeden Sommer nur wenige Wochen reift und oft gekühlt oder im Cocktail serviert wird. Auch lokales Craft Beer lohnt sich: Lapland Brewery in Rovaniemi und Tornion Panimo in Tornio brauen beide mit arktischem Wasser. Als Klassiker gilt Lapin Kulta, 1873 in Tornio gegründet, dessen Produktion 2010 allerdings nach Lahti verlegt wurde; Koskenkorva ist der finnische Getreidebrand für den Alltag."
         },
         {
           "q": "Wo kann man in Finnland außerhalb von Bars Alkohol kaufen?",
@@ -112,7 +112,7 @@
     "description": "Die Bars Lapplands, in denen Einheimische tatsächlich trinken: Rovaniemi, Levi, Ylläs und Saariselkä. Öffnungszeiten, Preise und was ausgeschenkt wird.",
     "hero": {
       "title": "Bars und Pubs",
-      "sub": "Jede hier aufgeführte Bar existiert wirklich, ist geöffnet und Ihren Abend wert. Keine bezahlten Platzierungen, keine Füllinhalte, nur die echte Barkultur Lapplands."
+      "sub": "Jede hier aufgeführte Bar existiert wirklich, ist geöffnet und Ihren Abend wert. Keine bezahlten Platzierungen, keine Fülltexte, nur die echte Barkultur Lapplands."
     },
     "featuredBadge": "Redaktionsempfehlung",
     "venueWebsite": "Website der Location",
@@ -123,17 +123,17 @@
       "sub": "Live-Verfügbarkeit über Trip.com, direkt buchen, ohne versteckte Gebühren.",
       "cta": "Hotels: {{city}}"
     },
-    "disclaimer": "Preise und Öffnungszeiten variieren saisonal. Bestätigen Sie immer direkt bei der Location, bevor Sie hingehen. Dieser Reiseführer wird so aktuell wie möglich gehalten, ist aber keine Echtzeit-Buchungsplattform.",
+    "disclaimer": "Preise und Öffnungszeiten variieren saisonal. Fragen Sie immer direkt beim Betrieb nach, bevor Sie hingehen. Dieser Reiseführer wird so aktuell wie möglich gehalten, ist aber keine Echtzeit-Buchungsplattform.",
     "cityVibes": {
       "Rovaniemi": "Die Hauptstadt der Arktis nach Einbruch der Dunkelheit, Mikrobrauerei-Pubs, Cocktailbars und eine echte, aus Eis gebaute Bar.",
-      "Levi": "Finnlands Après-Ski-Hauptstadt. In die Hullu Poro Areena passen 1.700 Personen. Der Berg schließt um 16 Uhr, die Party beginnt um 16:01 Uhr.",
-      "Yllas": "Ruhiger als Levi, wärmer als anderswo. Gemütliche Fjell-Pubs, in denen sich Einheimische und Gäste ohne Vorstellung mischen.",
-      "Saariselka": "Abgelegen, dunkel und überraschend gut sortiert. Das Gastropub Giitu führt eine Craft-Beer-Karte, für die sich der Weg so weit nach Norden lohnt."
+      "Levi": "Finnlands Après-Ski-Hauptstadt. In die Hullu Poro Areena passen 1.700 Personen. Der Berg schließt um 16:00 Uhr, die Party beginnt um 16:01 Uhr.",
+      "Yllas": "Ruhiger als Levi, wärmer als anderswo. Gemütliche Fjäll-Pubs, in denen sich Einheimische und Gäste ganz ungezwungen mischen.",
+      "Saariselka": "Abgelegen, dunkel und überraschend gut sortiert. Der Gastropub Giitu führt eine Craft-Beer-Karte, für die sich der Weg so weit nach Norden lohnt."
     },
     "venues": {
       "Café & Bar 21": {
         "type": "Cocktailbar",
-        "description": "Rovakatu 21, im Herzen von Rovaniemi. Die am häufigsten erwähnte Bar der Stadt, tagsüber Hybrid-Café, abends Cocktailbar. Kreative Drinks, sorgfältige Weinkarte, kultiviertes Publikum. Ein Favorit von Einheimischen und Reisenden, wenn man etwas mehr als nur einen Standardpub will.",
+        "description": "Rovakatu 21, im Herzen von Rovaniemi. Die am häufigsten erwähnte Bar der Stadt, tagsüber Café, abends Cocktailbar. Kreative Drinks, sorgfältige Weinkarte, kultiviertes Publikum. Ein Favorit von Einheimischen und Reisenden, wenn man etwas mehr als nur einen Standardpub will.",
         "highlights": [
           "Kreative Cocktails",
           "Weinauswahl",
@@ -169,7 +169,7 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Eisbar-Erlebnis",
-        "description": "Jeden Winter von Grund auf neu gebaut, die Eisbar wird von Künstlern geschnitzt und jede Saison erhält ein neues Thema. Im Arctic SnowHotel am Ufer des Lehtojärvi gelegen, 30 Minuten vom Zentrum Rovaniemis entfernt. Die Drinks werden in Gläsern aus Eis serviert. Innentemperatur: -5 °C. Thermooveralls sind im Eintritt enthalten.",
+        "description": "Jeden Winter von Grund auf neu gebaut, die Eisbar wird von Künstlern geschnitzt und erhält jede Saison ein neues Thema. Im Arctic SnowHotel am Ufer des Lehtojärvi gelegen, 30 Minuten vom Zentrum Rovaniemis entfernt. Die Drinks werden in Gläsern aus Eis serviert. Innentemperatur: -5 °C. Thermooveralls sind im Eintritt enthalten.",
         "highlights": [
           "Jedes Jahr neues Thema",
           "Eisgläser",
@@ -185,7 +185,7 @@
       },
       "Hullu Poro Areena": {
         "type": "Live-Musikbühne und Après-Ski",
-        "description": "Levis großer Saal am Fuß der Hauptpiste. Bis zu 1.700 Personen auf zwei Etagen, zehn Bars und eine große Tanzfläche. Finnische Headliner und DJs durch die ganze Skisaison. In Betrieb seit 2001.",
+        "description": "Levis großer Saal am Fuß der Hauptpiste. Bis zu 1.700 Personen auf zwei Etagen, zehn Bars und eine große Tanzfläche. Finnische Headliner und DJs die ganze Skisaison über. In Betrieb seit 2001.",
         "highlights": [
           "1.700 Plätze",
           "Zehn Bars, zwei Etagen",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pub",
-        "description": "„Der lustigste Pub in Levi.“ Hölmölä serviert die besten Mikrobrauerei-Produkte und Cocktails sowie unkompliziertes Bar-Essen. Brettspiele, Tischfußball und Billard kostenlos verfügbar. Ein Pub, der sich nicht zu ernst nimmt, gerade deshalb funktioniert er.",
+        "description": "„Der lustigste Pub in Levi.“ Hölmölä serviert die besten Craft-Biere und Cocktails sowie unkompliziertes Bar-Essen. Brettspiele, Tischfußball und Billard kostenlos verfügbar. Ein Pub, der sich nicht zu ernst nimmt, gerade deshalb funktioniert er.",
         "highlights": [
           "Brettspiele und Billard",
           "Mikrobrauerei-Biere",
@@ -251,7 +251,7 @@
       },
       "Gastropub Giitu": {
         "type": "Gastropub und Mikrobrauerei-Bier",
-        "description": "Saariselkäs beste Bar, ein ordentlicher Gastropub mit beeindruckendem Mikrobrauerei-Sortiment und einer Speisekarte, die deutlich über das übliche Pub-Niveau hinausgeht. Giitu serviert lappländische Gerichte und wechselnde Zapfauswahl. Die Atmosphäre ist warm, modern und genau das, was Sie nach der Polarlichter-Jagd wollen.",
+        "description": "Saariselkäs beste Bar, ein ordentlicher Gastropub mit beeindruckendem Mikrobrauerei-Sortiment und einer Speisekarte, die deutlich über das übliche Pub-Niveau hinausgeht. Giitu serviert lappländische Gerichte und eine wechselnde Zapfauswahl. Die Atmosphäre ist warm, modern und genau das, was Sie nach der Polarlichter-Jagd wollen.",
         "highlights": [
           "Mikrobrauerei-Auswahl",
           "Lappländische Küche",
@@ -260,7 +260,7 @@
       },
       "Lapland Brewery": {
         "type": "Brauerei-Taproom",
-        "description": "Rovaniemis eigene Brauerei, an der Teollisuustie und damit eine kurze Fahrt vom Zentrum entfernt. Die Biere werden vor Ort gebraut und im Taproom neben den Tanks ausgeschenkt. Die Brauerei bezeichnet sich als Finnlands nördlichste. Die Freitagstour mit Verkostung muss vorab gebucht werden.",
+        "description": "Rovaniemis eigene Brauerei, an der Teollisuustie und damit eine kurze Fahrt vom Zentrum entfernt. Die Biere werden vor Ort gebraut und im Schankraum neben den Tanks ausgeschenkt. Die Brauerei bezeichnet sich als Finnlands nördlichste. Die Freitagstour mit Verkostung muss vorab gebucht werden.",
         "highlights": [
           "Hausgebraute Biere",
           "Taproom neben den Tanks",

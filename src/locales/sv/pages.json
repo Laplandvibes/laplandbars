@@ -29,7 +29,7 @@
         },
         {
           "title": "Livemusik",
-          "desc": "Öppna jamsessioner, liveband, karaoke i timmerlador. De bästa musikkvällarna i Lappland händer efter att norrskenet kommit fram."
+          "desc": "Öppna jamsessioner, liveband, karaoke i timmerstugor. De bästa musikkvällarna i Lappland börjar efter att norrskenet kommit fram."
         }
       ]
     },
@@ -43,14 +43,14 @@
     "stayBand": {
       "kicker": "Bo i närheten",
       "title": "Sov på gångavstånd från baren",
-      "sub": "Välj var du vill dricka och boka ett rum runt hörnet. Aktuell tillgänglighet via Trip.com.",
+      "sub": "Välj var du vill dricka och boka ett rum i närheten. Aktuell tillgänglighet via Trip.com.",
       "cardCtaLabel": "Bo i {{city}}",
       "browseCta": "Bläddra bland hotell",
       "subs": {
         "rovaniemi": "Barer + isbarer · nära flygplatsen",
         "levi": "Hullu Poro afterski · vid backen",
         "yllas": "Lainio Snow Village · skogspubar",
-        "saariselka": "Norrskenspubar · nära Inari/Kakslauttanen"
+        "saariselka": "Norrskenspubar · nära Enare/Kakslauttanen"
       },
       "disclaimer": "Hotellbokningar går via go.laplandvibes.com till vår partner Trip.com; affiliateprovisionen stödjer sajten utan extra kostnad för dig."
     },
@@ -72,11 +72,11 @@
         },
         {
           "q": "Vilka är de typiska öppettiderna för barer i Lappland?",
-          "a": "De flesta pubar öppnar på eftermiddagen och serverar till runt midnatt på vardagar, med senare stängning (ofta klockan 02 eller 04) på fredagar och lördagar i skidorterna. Enligt serveringslagen får alkohol säljas till klockan 01.30, och det krävs ett förlängt tillstånd för att servera senare. Tiderna växlar med säsongen: barerna på orterna har långa kvällar under vintersäsongen och kortare tider under de lugna mellansäsongerna, så det lönar sig att kolla med stället direkt innan du ger dig ut."
+          "a": "De flesta pubar öppnar på eftermiddagen och serverar till runt midnatt på vardagar, med senare stängning (ofta klockan 02 eller 04) på fredagar och lördagar i skidorterna. Enligt alkohollagen får alkohol säljas till klockan 01.30, och det krävs ett förlängt tillstånd för att servera senare. Tiderna växlar med säsongen: barerna på orterna har långa kvällar under vintersäsongen och kortare tider under de lugna mellansäsongerna, så det lönar sig att kolla med stället direkt innan du ger dig ut."
         },
         {
           "q": "Vilka lokala drycker bör jag prova i Lappland?",
-          "a": "Leta efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar och ofta serveras kylt eller i en drink. Lokal hantverksöl är också värd att leta upp: Lapland Brewery i Rovaniemi och Tornion Panimo i Torneå brygger båda med arktiskt vatten. Som klassiker finns Lapin Kulta, grundat i Torneå 1873, även om produktionen flyttade till Lahtis 2010, och Koskenkorva är det finska vardagsbrännvinet av säd."
+          "a": "Leta efter lakka, en hjortronlikör gjord på det bärnstensfärgade arktiska bäret som mognar bara några veckor varje sommar och ofta serveras kylt eller i en drink. Lokal hantverksöl är också värd att leta upp: Lapland Brewery i Rovaniemi och Tornion Panimo i Torneå brygger båda med arktiskt vatten. Som klassiker finns Lapin Kulta, grundat i Torneå 1873, även om produktionen flyttade till Lahtis 2010, och Koskenkorva är det finska vardagsbrännvinet på säd."
         },
         {
           "q": "Var kan man köpa alkohol i Finland utanför barerna?",
@@ -133,7 +133,7 @@
     "venues": {
       "Café & Bar 21": {
         "type": "Cocktailbar",
-        "description": "Rovakatu 21, mitt i hjärtat av Rovaniemi. Den bar som nämns mest konsekvent i staden: café på dagen, cocktailbar på kvällen. Kreativa drinkar, en genomtänkt vinlista, en stilfull publik. En favorit bland lokalbor och besökare som vill ha något utöver en vanlig pub.",
+        "description": "Rovakatu 21, mitt i hjärtat av Rovaniemi. Den bar som oftast nämns i staden: café på dagen, cocktailbar på kvällen. Kreativa drinkar, en genomtänkt vinlista, en stilfull publik. En favorit bland lokalbor och besökare som vill ha något utöver en vanlig pub.",
         "highlights": [
           "Kreativa cocktails",
           "Vinutbud",
@@ -160,7 +160,7 @@
       },
       "Bull Bar & Grill": {
         "type": "Bar och grill",
-        "description": "Ligger i Arctic City Hotels byggnad, en grillbar i amerikansk stil med livlig kvällsstämning. Bra burgare, ordentliga drinkar, sport på skärmen. Den sortens ställe som fylls efter klockan 21 och håller ljudnivån uppe till sent.",
+        "description": "Ligger i Arctic City Hotels byggnad, en grillbar i amerikansk stil med livlig kvällsstämning. Bra burgare, ordentliga drinkar, sport på tv-skärmarna. Den sortens ställe som fylls efter klockan 21 och håller ljudnivån uppe till sent.",
         "highlights": [
           "Grillmeny",
           "Sportbar",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pub",
-        "description": "\"Levis roligaste pub.\" Hölmölä bjuder på de bästa bryggeriprodukterna och cocktails, följt av enkel barmat. Sällskapsspel, bordsfotboll och biljard finns utan kostnad. Den sortens pub som inte tar sig själv på för stort allvar, vilket är precis det som gör den bra.",
+        "description": "\"Levis roligaste pub.\" Hölmölä bjuder på de bästa hantverksölen och cocktails, följt av enkel barmat. Sällskapsspel, bordsfotboll och biljard finns utan kostnad. Den sortens pub som inte tar sig själv på för stort allvar, vilket är precis det som gör den bra.",
         "highlights": [
           "Sällskapsspel och biljard",
           "Hantverksöl",
@@ -223,7 +223,7 @@
       },
       "Pub Old Mates": {
         "type": "Brittisk pub",
-        "description": "En riktig pub i brittisk stil mitt i finska Lappland. Old Mates sköter sina pints ordentligt, visar fotboll och erbjuder ett hörn av bekant trygghet för den som behöver det efter en lång dag i backen. Bättre än de flesta pubar i Storbritannien, eftersom finsk öl faktiskt är god.",
+        "description": "En riktig pub i brittisk stil mitt i finska Lappland. Old Mates tappar sina pints ordentligt, visar fotboll och erbjuder ett hörn av bekant trygghet för den som behöver det efter en lång dag i backen. Bättre än de flesta pubar i Storbritannien, eftersom finskt öl faktiskt är gott.",
         "highlights": [
           "Brittisk pubstil",
           "Sport på skärmen",
@@ -232,7 +232,7 @@
       },
       "Selvä Pyy": {
         "type": "Pub och restaurang",
-        "description": "Given pub i byn Äkäslompolo på Ylläs-sidan. Selvä Pyy serverar hantverksöl, cocktails och riktig finsk pubmat i en varm timmerstugemiljö. Efter en dag på fjället är det här lokalbor och skidåkare samlas, ingen tillgjordhet, bara goda drinkar och avslappnat sällskap.",
+        "description": "Det givna valet i byn Äkäslompolo på Ylläs-sidan. Selvä Pyy serverar hantverksöl, cocktails och riktig finsk pubmat i en varm timmerstugemiljö. Efter en dag på fjället är det här lokalbor och skidåkare samlas, ingen tillgjordhet, bara goda drinkar och avslappnat sällskap.",
         "highlights": [
           "Byn Äkäslompolo",
           "Hantverksöl",
@@ -251,7 +251,7 @@
       },
       "Gastropub Giitu": {
         "type": "Gastropub och hantverksöl",
-        "description": "Den bästa baren i Saariselkä, en riktig gastropub med ett imponerande hantverksölsutbud och en meny som går långt bortom vanlig pubmat. Giitu serverar lapplandsinspirerade rätter tillsammans med en roterande fatölslista. Stämningen är varm, modern och precis vad du vill ha efter en norrskensjakt.",
+        "description": "Den bästa baren i Saariselkä, en riktig gastropub med ett imponerande utbud av hantverksöl och en meny som går långt bortom vanlig pubmat. Giitu serverar lapplandsinspirerade rätter tillsammans med en roterande fatölslista. Stämningen är varm, modern och precis vad du vill ha efter en norrskensjakt.",
         "highlights": [
           "Hantverksölsutbud",
           "Lapplandskt kök",
@@ -260,7 +260,7 @@
       },
       "Lapland Brewery": {
         "type": "Bryggeriets taproom",
-        "description": "Rovaniemis eget bryggeri, vid Teollisuustie och alltså en kort bilfärd från centrum snarare än inne i stan. Ölen bryggs på plats och serveras i taproomet intill tankarna. Bryggeriet beskriver sig som Finlands nordligaste. Fredagens rundtur med provning måste bokas i förväg.",
+        "description": "Rovaniemis eget bryggeri, vid Teollisuustie och alltså en kort bilfärd från centrum snarare än inne i stan. Ölen bryggs på plats och serveras i bryggeripuben intill tankarna. Bryggeriet beskriver sig som Finlands nordligaste. Fredagens rundtur med provning måste bokas i förväg.",
         "highlights": [
           "Egenbryggd öl",
           "Taproom intill tankarna",

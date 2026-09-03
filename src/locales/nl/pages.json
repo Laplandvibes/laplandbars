@@ -1,7 +1,7 @@
 {
   "home": {
     "title": "Bars in Lapland: pubs, ijsbars en après-ski",
-    "description": "Handgekozen bars, pubs, ijsbars en après-ski in Rovaniemi, Levi, Ylläs en Saariselkä. Plus Arctische cocktails, craft beer en hoe Finnen echt drinken.",
+    "description": "Zorgvuldig gekozen bars, pubs, ijsbars en après-ski in Rovaniemi, Levi, Ylläs en Saariselkä. Plus Arctische cocktails, speciaalbier en hoe Finnen echt drinken.",
     "eyebrow": "Fins Lapland",
     "hero": {
       "headlineLine1": "Hef het glas,",
@@ -29,13 +29,13 @@
         },
         {
           "title": "Livemuziek",
-          "desc": "Open-mic-sessies, livebands, karaoke in houten schuren. De beste muziekavonden in Lapland beginnen pas nadat het noorderlicht is verschenen."
+          "desc": "Open-mic-sessies, livebands, karaoke in blokhutten. De beste muziekavonden in Lapland beginnen pas nadat het noorderlicht is verschenen."
         }
       ]
     },
     "destinations": {
       "title": "Bekijk per bestemming",
-      "sub": "Kies een skigebied en zie wat er vanavond open is.",
+      "sub": "Kies een skigebied en bekijk wat er vanavond open is.",
       "statVenues": "geselecteerde adressen",
       "statDestinations": "bestemmingen",
       "statIceBars": "ijsbars"
@@ -60,7 +60,7 @@
       "items": [
         {
           "q": "Wat is een ijsbar in Lapland?",
-          "a": "Een ijsbar is een bar gebouwd van sneeuw en blokken meerijs, waarbij de toog, de muren en zelfs de glazen uit ijs zijn gehakt. Binnen is het ongeveer −5 °C, dus adressen als de Ice Bar bij het Arctic SnowHotel nabij Rovaniemi lenen u bij de deur een thermocape of -pak. Elke ijsbar wordt elke winter met een nieuw ontwerp opnieuw opgebouwd en smelt in het voorjaar weg, dus hij bestaat alleen ongeveer van december tot april."
+          "a": "Een ijsbar is een bar gebouwd van sneeuw en blokken meerijs, waarbij de bar, de muren en zelfs de glazen uit ijs zijn gehakt. Binnen is het ongeveer −5 °C, dus adressen als de Ice Bar bij het Arctic SnowHotel nabij Rovaniemi geven u bij de deur een thermocape of thermopak te leen. Elke ijsbar wordt elke winter met een nieuw ontwerp opnieuw opgebouwd en smelt in het voorjaar weg, dus hij bestaat alleen ongeveer van december tot april."
         },
         {
           "q": "Waar vindt u de beste après-ski-bars in Levi en Ylläs?",
@@ -72,11 +72,11 @@
         },
         {
           "q": "Wat zijn de gebruikelijke openingstijden van bars in Lapland?",
-          "a": "De meeste pubs gaan in de middag open en schenken doordeweeks tot rond middernacht, met een latere sluiting, vaak 2.00 of 4.00 uur, op vrijdag en zaterdag in de skigebieden. De vergunningswet staat alcoholverkoop toe tot 1.30 uur; om later te schenken is een verlengingsvergunning nodig. De tijden verschuiven met het seizoen: bars in skigebieden blijven tijdens de wintermaanden lang open en hanteren kortere tijden in de rustige tussenseizoenen, dus check het vóór vertrek even rechtstreeks bij de zaak."
+          "a": "De meeste pubs gaan in de middag open en schenken doordeweeks tot rond middernacht, met een latere sluiting, vaak 2.00 of 4.00 uur, op vrijdag en zaterdag in de skigebieden. De Finse alcoholwet staat alcoholverkoop toe tot 1.30 uur; om later te schenken is een vergunning voor verlengde schenktijden nodig. De tijden verschuiven met het seizoen: bars in skigebieden blijven tijdens de wintermaanden lang open en hanteren kortere tijden in de rustige tussenseizoenen, informeer daarom vóór vertrek even rechtstreeks bij de zaak."
         },
         {
           "q": "Welke lokale drankjes moet ik in Lapland proberen?",
-          "a": "Zoek naar lakka, een likeur van de amberkleurige arctische kruipbraam die elke zomer maar een paar weken rijpt, vaak koud geschonken of door een cocktail geroerd. Lokaal speciaalbier is ook de moeite waard: Lapland Brewery in Rovaniemi en Tornion Panimo in Tornio brouwen allebei met arctisch water. Als klassieker geldt Lapin Kulta, in 1873 in Tornio opgericht, al verhuisde de productie in 2010 naar Lahti, en Koskenkorva is het alledaagse Finse graandistillaat."
+          "a": "Zoek naar lakka, een likeur van de amberkleurige arctische kruipbraam die elke zomer maar een paar weken rijpt, vaak koud geschonken of verwerkt in een cocktail. Lokaal speciaalbier is ook de moeite waard: Lapland Brewery in Rovaniemi en Tornion Panimo in Tornio brouwen allebei met arctisch water. Als klassieker geldt Lapin Kulta, in 1873 in Tornio opgericht, al verhuisde de productie in 2010 naar Lahti, en Koskenkorva is het alledaagse Finse graandistillaat."
         },
         {
           "q": "Waar kunt u in Finland buiten de bars alcohol kopen?",
@@ -112,7 +112,7 @@
     "description": "De bars waar locals echt drinken in Lapland: Rovaniemi, Levi, Ylläs en Saariselkä. Openingstijden, prijzen en wat ze schenken.",
     "hero": {
       "title": "Bars & pubs",
-      "sub": "Elke bar op deze lijst bestaat echt, is op dit moment open en is een avond waard. Geen gesponsorde plekken, geen opvulling, alleen de echte Laplandse drinkcultuur."
+      "sub": "Elke bar op deze lijst bestaat echt, is op dit moment open en is een avond waard. Geen betaalde vermeldingen, geen opvulmateriaal, alleen de echte Laplandse drinkcultuur."
     },
     "featuredBadge": "Redactiekeuze",
     "venueWebsite": "Website",
@@ -123,17 +123,17 @@
       "sub": "Realtime beschikbaarheid via Trip.com, boek rechtstreeks, zonder extra kosten.",
       "cta": "Hotels in {{city}}"
     },
-    "disclaimer": "Prijzen en openingstijden wisselen per seizoen. Controleer voor uw bezoek altijd direct bij de zaak. Deze gids houden wij zo actueel mogelijk, maar hij is geen realtime boekingsplatform.",
+    "disclaimer": "Prijzen en openingstijden wisselen per seizoen. Neem voor uw bezoek altijd contact op met de zaak. Deze gids houden wij zo actueel mogelijk, maar hij is geen realtime boekingsplatform.",
     "cityVibes": {
       "Rovaniemi": "De arctische hoofdstad na zonsondergang, ambachtelijke brouwerij-pubs, cocktailbars en een echte bar volledig opgetrokken uit ijs.",
-      "Levi": "De après-ski-hoofdstad van Finland. Hullu Poro Areena heeft plek voor 1.700 mensen. De berg sluit om 16:00 en het feest begint om 16:01.",
+      "Levi": "De après-ski-hoofdstad van Finland. Hullu Poro Areena heeft plek voor 1.700 mensen. De piste sluit om 16:00 en het feest begint om 16:01.",
       "Yllas": "Stiller dan Levi, warmer dan waar dan ook. Gezellige bergpubs waar locals en bezoekers ongedwongen samenkomen.",
       "Saariselka": "Afgelegen, donker en verrassend goed voorzien. Gastropub Giitu heeft een speciaalbierkaart die de reis zo ver noordwaarts waard is."
     },
     "venues": {
       "Café & Bar 21": {
         "type": "Cocktailbar",
-        "description": "Rovakatu 21, midden in het hart van Rovaniemi. De meest genoemde bar van de stad, overdag een hybride café, 's avonds een cocktailbar. Creatieve drankjes, een zorgvuldig samengestelde wijnkaart en een verfijnd publiek. Een favoriet van locals en bezoekers die meer willen dan een gewone pub.",
+        "description": "Rovakatu 21, midden in het hart van Rovaniemi. De meest genoemde bar van de stad, overdag koffiebar, 's avonds een cocktailbar. Creatieve drankjes, een zorgvuldig samengestelde wijnkaart en een verfijnd publiek. Een favoriet van locals en bezoekers die meer willen dan een gewone pub.",
         "highlights": [
           "Creatieve cocktails",
           "Wijnselectie",
@@ -169,7 +169,7 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "IJsbar-belevenis",
-        "description": "Elke winter helemaal opnieuw gebouwd: deze ijsbar wordt door kunstenaars uitgehakt en krijgt elk seizoen een nieuw thema. Gelegen bij het Arctic SnowHotel aan het Lehtojärvi-meer, 30 minuten van het centrum van Rovaniemi. Drankjes worden geserveerd in glazen van ijs. Temperatuur binnen: -5°C. Thermische pakken zijn inbegrepen.",
+        "description": "Elke winter helemaal opnieuw gebouwd: deze ijsbar wordt door kunstenaars uitgehakt en krijgt elk seizoen een nieuw thema. Gelegen bij het Arctic SnowHotel aan het Lehtojärvi-meer, 30 minuten van het centrum van Rovaniemi. Drankjes worden geserveerd in glazen van ijs. Temperatuur binnen: −5 °C. Thermische pakken zijn inbegrepen.",
         "highlights": [
           "Elk jaar een nieuw thema",
           "IJsglazen",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pub",
-        "description": "\"De grappigste pub van Levi.\" Hölmölä biedt de beste brouwerijproducten en cocktails, gevolgd door eerlijke pubkost. Bordspellen, tafelvoetbal en biljart zijn gratis te gebruiken. Een pub die zichzelf niet te serieus neemt en juist daarom zo goed is.",
+        "description": "\"De grappigste pub van Levi.\" Hölmölä schenkt de beste speciaalbieren en cocktails, gevolgd door eerlijke pubkost. Bordspellen, tafelvoetbal en biljart zijn gratis te gebruiken. Een pub die zichzelf niet te serieus neemt en juist daarom zo goed is.",
         "highlights": [
           "Bordspellen & biljart",
           "Ambachtelijke bieren",
@@ -223,7 +223,7 @@
       },
       "Pub Old Mates": {
         "type": "Britse pub",
-        "description": "Een echte pub in Britse stijl, neergezet midden in Fins Lapland. Old Mates schenkt zijn pints op de juiste manier, zendt voetbal uit en biedt een hoekje vertrouwde gezelligheid voor wie dat na een lange dag op de piste nodig heeft. Beter dan de meeste pubs in Groot-Brittannië, want Fins bier is gewoon goed.",
+        "description": "Een echte pub in Britse stijl, neergezet midden in Fins Lapland. Old Mates schenkt zijn pints zoals het hoort, laat voetbal zien en biedt een hoekje vertrouwde gezelligheid voor wie dat na een lange dag op de piste nodig heeft. Beter dan de meeste pubs in Groot-Brittannië, want Fins bier is gewoon goed.",
         "highlights": [
           "Britse pubstijl",
           "Sport op het scherm",
@@ -260,7 +260,7 @@
       },
       "Lapland Brewery": {
         "type": "Brouwerij-taproom",
-        "description": "De eigen brouwerij van Rovaniemi, aan de Teollisuustie en dus een klein stukje rijden buiten het centrum. De bieren worden ter plekke gebrouwen en geschonken in de taproom naast de tanks. De brouwerij noemt zichzelf de noordelijkste van Finland. De rondleiding met proeverij op vrijdag moet vooraf worden geboekt.",
+        "description": "De eigen brouwerij van Rovaniemi, aan de Teollisuustie en dus een klein stukje rijden buiten het centrum. De bieren worden ter plekke gebrouwen en geschonken in het proeflokaal naast de tanks. De brouwerij noemt zichzelf de noordelijkste van Finland. De rondleiding met proeverij op vrijdag moet vooraf worden geboekt.",
         "highlights": [
           "Eigen gebrouwen bier",
           "Taproom naast de tanks",

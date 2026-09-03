@@ -6,14 +6,14 @@
     "hero": {
       "headlineLine1": "Lapin parhaat",
       "headlineLine2": "baarit ja pubit",
-      "sub": "Jäästä veistetyt jääbaarit. Legendaariset après-ski-paikat. Lämpimät pubit, joiden ikkunoista näkyvät revontulet. Käsin valitut suosikit: kaikki ovat oikeasti olemassa.",
+      "sub": "Lumesta veistetyt jääbaarit. Legendaariset après-ski-paikat. Lämpimät pubit, joiden ikkunoista näkyvät revontulet. Käsin valitut suosikit: kaikki ovat oikeasti olemassa.",
       "subSummer": "Järvenrantaterassit ja kattobaarit keskiyön auringossa. Terassit, joilla on valoisaa puolenyön jälkeenkin, live-musiikkia ja kesäfestareita. Käsin valitut suosikit: kaikki ovat oikeasti olemassa.",
       "ctaStay": "Etsi majoitus läheltä",
       "ctaBrowse": "Selaa baareja"
     },
     "featured": {
       "title": "Toimituksen poiminta",
-      "sub": "Käsin valitut baarit ja kokemukset, jotka määrittävät Lapin iltaelämän.",
+      "sub": "Käsin valitut baarit ja kokemukset, jotka määrittävät Lapin yöelämän.",
       "viewAll": "Kaikki baarit"
     },
     "categories": {
@@ -29,13 +29,13 @@
         },
         {
           "title": "Live-musiikki",
-          "desc": "Open stage -jamit, bändit, karaokea hirsiladoissa. Lapin parhaat musailtat alkavat, kun revontulet syttyvät."
+          "desc": "Open stage -jamit, bändit, karaokea hirsiladoissa. Lapin parhaat musiikki-illat alkavat, kun revontulet syttyvät."
         }
       ]
     },
     "destinations": {
       "title": "Selaa kohteittain",
-      "sub": "Valitse hiihtokeskus ja katso mikä on auki tänä iltana.",
+      "sub": "Valitse hiihtokeskus ja katso, mikä on auki tänä iltana.",
       "statVenues": "Valittua kohdetta",
       "statDestinations": "Kohdetta",
       "statIceBars": "Jääbaaria"
@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Yövy lähellä",
       "title": "Nuku kävelymatkan päässä baarista",
-      "sub": "Valitse missä haluat juoda, varaa huone kulman takaa. Reaaliaikainen saatavuus Sembon kautta.",
+      "sub": "Valitse, missä haluat juoda, ja varaa huone kulman takaa. Reaaliaikainen saatavuus Sembon kautta.",
       "cardCtaLabel": "Yövy: {{city}}",
       "browseCta": "Selaa hotelleja",
       "subs": {
@@ -52,11 +52,11 @@
         "yllas": "Lainio Snow Village · metsäpubit",
         "saariselka": "Revontulipubit · Inari ja Kakslauttanen lähellä"
       },
-      "disclaimer": "Hotellivaraukset ohjautuvat go.laplandvibes.comin kautta kumppanillemme Sembolle. Kumppanikomissio tukee sivustoa ilman lisäkustannuksia sinulle."
+      "disclaimer": "Hotellivaraukset ohjautuvat go.laplandvibes.comin kautta kumppanillemme Sembolle. Kumppanilinkeistä saatava palkkio tukee sivustoa ilman lisäkustannuksia sinulle."
     },
     "faq": {
       "title": "Lapin baarit: kysymykset ja vastaukset",
-      "sub": "Mitä vierailijat kysyvät ennen iltaa ulkona Suomen Lapissa.",
+      "sub": "Mitä vierailijat kysyvät ennen baari-iltaa Suomen Lapissa.",
       "items": [
         {
           "q": "Mikä on jääbaari Lapissa?",
@@ -68,7 +68,7 @@
         },
         {
           "q": "Saako Suomessa juoda alkoholia ulkona?",
-          "a": "Pääosin kyllä, mutta yhdellä varauksella. Järjestyslaki kieltää päihtyneenä juomisen yleisillä paikoilla, mutta se ei koske puistoja ja niihin verrattavia yleisiä alueita, kunhan et haittaa muita tai aiheuta häiriötä. Kunnat voivat silti rajoittaa yksittäisiä paikkoja, kuten toreja tai leikkipuistoja, ja julkinen juopumus ja häiriökäyttäytyminen ovat rangaistavia. Ikäraja on 18 vuotta oluelle, viinille ja siiderille sekä 20 vuotta väkeville."
+          "a": "Pääosin kyllä, mutta yhdellä varauksella. Järjestyslaki kieltää päihdyttävän aineen nauttimisen yleisillä paikoilla, mutta se ei koske puistoja ja niihin verrattavia yleisiä alueita, kunhan et haittaa muita tai aiheuta häiriötä. Kunnat voivat silti rajoittaa yksittäisiä paikkoja, kuten toreja tai leikkipuistoja, ja julkinen juopumus ja häiriökäyttäytyminen ovat rangaistavia. Ikäraja on 18 vuotta oluelle, viinille ja siiderille sekä 20 vuotta väkeville."
         },
         {
           "q": "Mitkä ovat baarien tyypilliset aukioloajat Lapissa?",
@@ -80,7 +80,7 @@
         },
         {
           "q": "Mistä Suomessa voi ostaa alkoholia baarien ulkopuolelta?",
-          "a": "Ruokakaupat ja lähikaupat myyvät käymisteitse valmistettuja juomia, kuten olutta, siideriä ja mietoa viiniä, enintään 8,0 til-%:iin asti ja muulla tavalla valmistettuja juomia, kuten väkeviin pohjautuvia sekoitejuomia, enintään 5,5 til-%:iin asti, yleensä klo 21 asti. Kaikki tätä vahvempi, eli väkevät, vahvemmat viinit ja yli 8 prosentin oluet, myydään vain Alkossa, valtion ketjussa, joka on auki päiväsaikaan ja menee lauantaisin kiinni aikaisin. Useimmat Alkot ovat sunnuntaisin kiinni, mutta osa myymälöistä on avannut sunnuntaisin kesästä 2026 alkaen, joten tarkista oman myymäläsi aukiolo. Pienemmissä Lapin kylissä lähin Alko voi olla matkan päässä, joten kannattaa täydentää varastot ennen syrjäiselle mökille lähtöä."
+          "a": "Ruokakaupat ja lähikaupat myyvät käymisteitse valmistettuja juomia, kuten olutta, siideriä ja mietoa viiniä, enintään 8,0 til-%:iin asti ja muulla tavalla valmistettuja juomia, kuten väkeviin pohjautuvia sekoitejuomia, enintään 5,5 til-%:iin asti, yleensä klo 21 asti. Kaikki tätä vahvempi, eli väkevät, vahvemmat viinit ja yli 8 prosentin oluet, myydään vain Alkossa, valtion ketjussa, joka on auki päiväsaikaan ja menee lauantaisin kiinni aikaisin. Useimmat Alkot ovat sunnuntaisin kiinni, mutta osa myymälöistä on ollut auki sunnuntaisin kesästä 2026 alkaen, joten tarkista lähimmän myymälän aukioloajat. Pienemmissä Lapin kylissä lähin Alko voi olla matkan päässä, joten kannattaa täydentää varastot ennen syrjäiselle mökille lähtöä."
         }
       ]
     },
@@ -112,7 +112,7 @@
     "description": "Lapin baarit, joissa paikalliset oikeasti käyvät: Rovaniemi, Levi, Ylläs ja Saariselkä. Aukioloajat, hintataso, mitä kaadetaan ja milloin kannattaa mennä.",
     "hero": {
       "title": "Baarit ja pubit",
-      "sub": "Jokainen tässä listattu baari on oikeasti olemassa, auki ja iltasi arvoinen. Ei maksettuja sijoituksia, ei täytettä, vain Lapin todellinen baarikulttuuri."
+      "sub": "Jokainen tässä listattu baari on oikeasti olemassa, auki ja iltasi arvoinen. Ei maksettuja nostoja, ei täytesisältöä, vain Lapin todellinen baarikulttuuri."
     },
     "featuredBadge": "Toimituksen poiminta",
     "venueWebsite": "Kohteen verkkosivu",
@@ -126,14 +126,14 @@
     "disclaimer": "Hinnat ja aukioloajat vaihtelevat kausittain. Varmista aina suoraan kohteesta ennen vierailua. Tämä opas pidetään niin ajantasaisena kuin mahdollista, mutta se ei ole reaaliaikainen varausalusta.",
     "cityVibes": {
       "Rovaniemi": "Arktinen pääkaupunki pimeän tultua, pienpanimopubit, cocktailbaarit ja oikea jäästä rakennettu baari.",
-      "Levi": "Suomen rinnejuhlien pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkeutuu klo 16 ja bileet alkavat 16:01.",
-      "Yllas": "Leviä rauhallisempi, lämpimämpi kuin missään muualla. Lämpimät tunturipubit, joissa paikalliset ja vierailijat sekoittuvat ilman esittelyä.",
+      "Levi": "Suomen après-ski-pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkeutuu klo 16 ja bileet alkavat 16:01.",
+      "Yllas": "Leviä rauhallisempi, lämpimämpi kuin missään muualla. Lämpimät tunturipubit, joissa paikalliset ja vierailijat sekoittuvat ilman poseerausta.",
       "Saariselka": "Syrjäinen, pimeä ja yllättävän hyvin varustettu. Gastropub Giitussa on olutlista, jonka vuoksi kannattaa tulla näin pohjoiseen."
     },
     "venues": {
       "Café & Bar 21": {
         "type": "Cocktailbaari",
-        "description": "Rovakatu 21, keskellä Rovaniemen sydäntä. Kaupungin useimmin mainittu baari, hybridikahvila päivisin, cocktailbaari iltaisin. Luovia juomia, harkittu viinilista, sivistynyt yleisö. Paikallisten ja vierailijoiden suosikki, kun haluaa jotain peruspubia enemmän.",
+        "description": "Rovakatu 21, keskellä Rovaniemen sydäntä. Kaupungin useimmin mainittu baari, päivällä kahvila, illalla cocktailbaari. Luovia juomia, harkittu viinilista, hienostunutta väkeä. Paikallisten ja vierailijoiden suosikki, kun haluaa jotain peruspubia enemmän.",
         "highlights": [
           "Luovat cocktailit",
           "Viinivalikoima",
@@ -151,7 +151,7 @@
       },
       "Nook Lounge": {
         "type": "Baari ja lounge",
-        "description": "Lämmin kahvilan ja baarin yhdistelmä, jossa hyvät juomat tehdään rauhassa ja keskustelut venyvät. Baarimikot tietävät mitä tekevät. Suosittu matkailijoiden parissa, jotka ovat olleet jaloillaan koko päivän ja kaipaavat lämpimää, kiireetöntä ja hyvin valaistua paikkaa.",
+        "description": "Lämmin kahvilan ja baarin yhdistelmä, jossa hyvät juomat tehdään rauhassa ja keskustelut venyvät. Baarimikot tietävät mitä tekevät. Suosittu matkailijoiden keskuudessa: he ovat olleet jaloillaan koko päivän ja kaipaavat lämpimää, kiireetöntä ja hyvin valaistua paikkaa.",
         "highlights": [
           "Lounge-tunnelma",
           "Käsintehdyt juomat",
@@ -195,7 +195,7 @@
       },
       "Bar Ihku": {
         "type": "Yökerho ja baari",
-        "description": "Jo legenda Levin bilettäjille. Ihku on kerännyt tarinoita vuosien aikana myöhäisen Lapin sekoiluista. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä samalla lattialla. Yksi niistä paikoista, joka näyttää tavalliselta kello 23 asti, sitten ymmärrät miksi siitä puhutaan.",
+        "description": "Jo legenda Levin bilettäjille. Ihku on kerännyt vuosien varrella tarinoita myöhäisen yön sekoiluista Lapissa. Karaokea, tanssia, suomalaisia paikallisia ja kansainvälisiä hiihtäjiä samalla lattialla. Yksi niistä paikoista, joka näyttää tavalliselta kello 23 asti, sitten ymmärrät miksi siitä puhutaan.",
         "highlights": [
           "Myöhäisillan instituutio",
           "Karaokeillat",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pubi",
-        "description": "\"Levin hauskin pubi.\" Hölmölä tarjoaa parhaita panimotuotteita ja cocktaileja sekä mutkatonta baariruokaa. Lautapelit, pöytäjalkapallo ja biljardi ilmaiseksi käytössä. Pubi, joka ei ota itseään liian vakavasti, juuri siksi se toimii.",
+        "description": "\"Levin hauskin pubi.\" Hölmölä tarjoaa parhaita panimo-oluita ja cocktaileja sekä mutkatonta baariruokaa. Lautapelit, pöytäjalkapallo ja biljardi ilmaiseksi käytössä. Pubi, joka ei ota itseään liian vakavasti — juuri siksi se toimii.",
         "highlights": [
           "Lautapelit ja biljardi",
           "Pienpanimo-oluet",
@@ -214,7 +214,7 @@
       },
       "Bar Alakerta": {
         "type": "Live-musiikkibaari",
-        "description": "Aurinkoinen terassi, live-musiikkia ja legendaariset Open Stage Jamit sunnuntaisin. Alakerta vetää muusikkoja ja musiikin ystäviä, sekä paikallisia että vierailevia artisteja, jotka ovat kuulleet sunnuntaisessioista. Mutkaton, lämmin, sitä tunnelmaa joka syntyy kun ihmiset oikeasti rakastavat sitä mitä tekevät.",
+        "description": "Aurinkoinen terassi, live-musiikkia ja legendaariset Open Stage Jamit sunnuntaisin. Alakerta vetää muusikkoja ja musiikin ystäviä, sekä paikallisia että vierailevia artisteja, jotka ovat kuulleet sunnuntaisessioista. Mutkaton ja lämmin — sitä tunnelmaa, joka syntyy, kun ihmiset oikeasti rakastavat sitä mitä tekevät.",
         "highlights": [
           "Sunnuntain Open Stage Jamit",
           "Live-musiikkia",
@@ -223,7 +223,7 @@
       },
       "Pub Old Mates": {
         "type": "Brittipubi",
-        "description": "Aito brittityylinen pubi keskellä Suomen Lappia. Old Mates osaa pintit kunnolla, näyttää jalkapalloa ja tarjoaa tutun ja mukavan nurkan niille, jotka sitä pitkän rinnepäivän jälkeen tarvitsevat. Parempi kuin useimmat Britannian pubit, koska suomalainen olut on oikeasti hyvää.",
+        "description": "Aito brittityylinen pubi keskellä Suomen Lappia. Old Mates kaataa pintit kunnolla, näyttää jalkapalloa ja tarjoaa tutun ja mukavan nurkan niille, jotka sitä pitkän rinnepäivän jälkeen tarvitsevat. Parempi kuin useimmat Britannian pubit, koska suomalainen olut on oikeasti hyvää.",
         "highlights": [
           "Brittipubityyli",
           "Urheilua ruuduilla",
@@ -251,7 +251,7 @@
       },
       "Gastropub Giitu": {
         "type": "Gastropubi ja pienpanimo-olut",
-        "description": "Saariselän paras baari, kunnon gastropubi, jossa on vaikuttava pienpanimovalikoima ja menu, joka kulkee selvästi pubin perusasioiden ohi. Giitu tarjoaa lappilaisia annoksia ja vaihtuvaa hanavalikoimaa. Tunnelma on lämmin, moderni ja juuri sitä mitä haluat revontulijahdin jälkeen.",
+        "description": "Saariselän paras baari, kunnon gastropubi, jossa on vaikuttava pienpanimovalikoima ja ruokalista, joka ylittää selvästi tavallisen pubiruoan. Giitu tarjoaa lappilaisia annoksia ja vaihtuvaa hanavalikoimaa. Tunnelma on lämmin, moderni ja juuri sitä mitä haluat revontulijahdin jälkeen.",
         "highlights": [
           "Pienpanimovalikoima",
           "Lappilainen keittiö",
@@ -260,7 +260,7 @@
       },
       "Lapland Brewery": {
         "type": "Panimon taproom",
-        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella lyhyen ajomatkan päässä keskustasta. Oluet pannaan paikan päällä ja tarjoillaan taproomissa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain kierros ja maistelu vaativat ennakkovarauksen.",
+        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella lyhyen ajomatkan päässä keskustasta. Oluet pannaan paikan päällä ja tarjoillaan panimoravintolassa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain kierros ja maistelu vaativat ennakkovarauksen.",
         "highlights": [
           "Talon omat oluet",
           "Taproom tankkien vieressä",
@@ -268,8 +268,8 @@
         ],
         "tour": {
           "label": "Panimokierros ja maistelu",
-          "schedule": "Perjantaisin 17:00 + 18:30 (viikoittain joulu–maaliskuussa)",
-          "hint": "Ilmoittaudu keskiviikkona klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
+          "schedule": "Perjantaisin 17:00 ja 18:30 (viikoittain joulu–maaliskuussa)",
+          "hint": "Ilmoittaudu keskiviikkoon klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
           "directLabel": "Varaa lapinpanimo.fi:sta"
         }
       },
@@ -284,7 +284,7 @@
       },
       "Kauppayhtiö": {
         "type": "Baari ja livemusiikki",
-        "description": "Valtakatu 24: osaksi baari, osaksi kauppahalli, osaksi taidegalleria. Keittiöstä tulee puu-uunipizzaa ja burgereita, DJ:t soittavat yömyöhään, käytettyjä huonekaluja on myynnissä ja seinillä on katu- ja pop-taiteen Edge Gallery. Mikään muu Rovaniemellä ei tunnu ihan tältä.",
+        "description": "Valtakatu 24 on yhtä aikaa baari, kauppahalli ja taidegalleria. Keittiöstä tulee puu-uunipizzaa ja burgereita, DJ:t soittavat yömyöhään, käytettyjä huonekaluja on myynnissä ja seinillä on katu- ja pop-taiteen Edge Gallery. Mikään muu Rovaniemellä ei tunnu ihan tältä.",
         "highlights": [
           "DJ:t ja livemusiikki",
           "Puu-uunipizza",
@@ -293,7 +293,7 @@
       },
       "Rovaniemen Oluthuone": {
         "type": "Olutbaari",
-        "description": "Oluthuone Rovaniemen kävelykadulla: lämmin olutravintola, jonka valikoimassa on syvästi sekä kotimaisia että tuontioluita, lisäksi cocktaileja ja pientä purtavaa. Kesällä avautuvat terassi ja olutpuutarha keskiyön auringon alla. Suoraviivainen ja hyvin hoidettu paikka, jonne paikalliset palaavat.",
+        "description": "Oluthuone Rovaniemen kävelykadulla: lämmin olutravintola, jonka valikoimassa on runsaasti sekä kotimaisia että tuontioluita, lisäksi cocktaileja ja pientä purtavaa. Kesällä avautuvat terassi ja olutpuutarha yöttömän yön aikaan. Suoraviivainen ja hyvin hoidettu paikka, jonne paikalliset palaavat.",
         "highlights": [
           "Laaja olutvalikoima",
           "Kesän olutpuutarha",
@@ -302,7 +302,7 @@
       },
       "MustaKissa Kuppila": {
         "type": "Cocktailbaari",
-        "description": "Pieni ja kodikas kolo käsityöcocktaileille ja paikalliselle oluelle, ja juomat kallistuvat arktisiin ja sesongin makuihin. MustaKissa toimii myös galleriana ja keikkapaikkana: seinillä vaihtuvia näyttelyitä, joinakin iltoina livemusiikkia. Sellainen rauhallinen paikka, jota vakioasiakkaat vähän varjelevat.",
+        "description": "Pieni ja kodikas kolo käsityöcocktaileille ja paikalliselle oluelle, ja juomissa painottuvat arktiset ja sesongin maut. MustaKissa toimii myös galleriana ja keikkapaikkana: seinillä vaihtuvia näyttelyitä, joinakin iltoina livemusiikkia. Sellainen rauhallinen paikka, jota vakioasiakkaat vähän varjelevat.",
         "highlights": [
           "Arktiset kausicocktailit",
           "Paikallista pienpanimoa",
@@ -597,7 +597,7 @@
       {
         "name": "Lapland Brewery",
         "location": "Rovaniemi",
-        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella keskustan ulkopuolella. Oluet pannaan paikan päällä ja tarjoillaan taproomissa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain panimokierrokset pyörivät läpi talvikauden ja vaativat ennakkovarauksen."
+        "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella keskustan ulkopuolella. Oluet pannaan paikan päällä ja tarjoillaan panimoravintolassa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain panimokierrokset pyörivät läpi talvikauden ja vaativat ennakkovarauksen."
       }
     ],
     "styles": [

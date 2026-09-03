@@ -6,8 +6,8 @@
     "hero": {
       "headlineLine1": "Erga a taça,",
       "headlineLine2": "brinde ao Ártico.",
-      "sub": "Bares esculpidos em neve, arenas de noite na encosta lendárias e pubs aconchegantes com aurora boreal do outro lado da janela. Os bares da Lapônia finlandesa que valem mesmo a recomendação, escolhidos a dedo.",
-      "subSummer": "Terraços à beira do lago e bares em coberturas sob o sol da meia-noite. Terraços que continuam claros depois da meia-noite, música ao vivo e festivais de verão. Os bares da Lapônia finlandesa que valem mesmo a recomendação, escolhidos a dedo.",
+      "sub": "Bares esculpidos em neve, arenas de après-ski lendárias e pubs aconchegantes com aurora boreal do outro lado da janela. Os bares da Lapônia finlandesa que valem mesmo a recomendação, escolhidos a dedo.",
+      "subSummer": "Terraços à beira do lago e bares em coberturas sob o sol da meia-noite. Terraços ainda iluminados depois da meia-noite, música ao vivo e festivais de verão. Os bares da Lapônia finlandesa que valem mesmo a recomendação, escolhidos a dedo.",
       "ctaStay": "Achar hospedagem por perto",
       "ctaBrowse": "Ver os bares"
     },
@@ -21,7 +21,7 @@
       "cards": [
         {
           "title": "Bares de gelo",
-          "desc": "Um drinque num bar esculpido em neve e gelo, bebido num copo feito de gelo. Uma experiência única do Ártico, reconstruída a cada inverno."
+          "desc": "Um drinque num bar esculpido em neve e gelo, bebido num copo feito de gelo. Uma experiência única do Ártico, num bar reconstruído a cada inverno."
         },
         {
           "title": "Après-ski",
@@ -60,11 +60,11 @@
       "items": [
         {
           "q": "O que é um bar de gelo na Lapônia?",
-          "a": "Um bar de gelo é construído com neve e blocos de gelo de lago, com o balcão, as paredes e até os copos esculpidos no gelo. Lá dentro faz cerca de −5 °C, então lugares como o Ice Bar do Arctic SnowHotel, perto de Rovaniemi, emprestam uma capa ou um macacão térmico na entrada. Cada um é reconstruído com um novo desenho a cada inverno e derrete na primavera, ou seja, só existe de dezembro a abril, mais ou menos."
+          "a": "Um bar de gelo é construído com neve e blocos de gelo de lago, com o balcão, as paredes e até os copos esculpidos no gelo. Lá dentro faz cerca de −5 °C, então lugares como o Ice Bar do Arctic SnowHotel, perto de Rovaniemi, emprestam uma capa ou um macacão térmico na entrada. Cada um é reconstruído com um novo tema a cada inverno e derrete na primavera, ou seja, só existe de dezembro a abril, mais ou menos."
         },
         {
           "q": "Onde ficam os melhores bares de après-ski em Levi e Ylläs?",
-          "a": "Em Levi, a Hullu Poro Areena fica na base da pista principal e comporta até 1.700 pessoas em dois andares, com dez bares e shows finlandeses; Bar Ihku e Pub Hölmölä seguram as horas tardias. No lado de Ylläs, o Selvä Pyy, na vila de Äkäslompolo, é o ponto de encontro depois das colinas, e a boate do Lapland Hotels Äkäshotelli assume quando os pubs fecham. Os teleféricos param por volta das 16h e os bares enchem logo em seguida."
+          "a": "Em Levi, a Hullu Poro Areena fica na base da pista principal e comporta até 1.700 pessoas em dois andares, com dez bares e shows finlandeses; Bar Ihku e Pub Hölmölä assumem a madrugada. No lado de Ylläs, o Selvä Pyy, no vilarejo de Äkäslompolo, é o ponto de encontro depois de um dia nos fjälls, e a boate do Lapland Hotels Äkäshotelli assume quando os pubs fecham. Os teleféricos param por volta das 16h e os bares enchem logo em seguida."
         },
         {
           "q": "Pode-se beber álcool ao ar livre na Finlândia?",
@@ -112,7 +112,7 @@
     "description": "Os bares onde os locais da Lapônia realmente bebem: Rovaniemi, Levi, Ylläs e Saariselkä. Horários, preços e o que servem.",
     "hero": {
       "title": "Bares e pubs",
-      "sub": "Todo bar listado aqui é real, está aberto hoje e merece sua noite. Sem vagas pagas, sem enchimento, apenas a cultura genuína da bebida na Lapônia."
+      "sub": "Todo bar listado aqui é real, está aberto hoje e vale a sua noite. Sem espaços pagos, sem enrolação, só a cultura genuína da bebida na Lapônia."
     },
     "featuredBadge": "Escolha da redação",
     "venueWebsite": "Site do local",
@@ -128,12 +128,12 @@
       "Rovaniemi": "A capital do Ártico depois que escurece, pubs de cervejarias artesanais, bares de coquetéis e um bar de verdade feito de gelo.",
       "Levi": "A capital do après-ski da Finlândia. A Hullu Poro Areena comporta 1.700 pessoas. A montanha fecha às 16h e a festa começa às 16h01.",
       "Yllas": "Mais tranquilo que Levi, mais acolhedor que qualquer outro lugar. Pubs aconchegantes de montanha onde moradores e visitantes se misturam sem frescura.",
-      "Saariselka": "Remoto, escuro e surpreendentemente bem abastecido. O Gastropub Giitu mantém uma carta de cervejas artesanais que compensa a viagem até tão ao norte."
+      "Saariselka": "Remoto, escuro e surpreendentemente bem abastecido. O Gastropub Giitu mantém uma carta de cervejas artesanais que compensa a viagem até esse extremo norte."
     },
     "venues": {
       "Café & Bar 21": {
         "type": "bar de coquetéis",
-        "description": "Rovakatu 21, bem no coração de Rovaniemi. O bar mais citado da cidade, café híbrido durante o dia, bar de coquetéis à noite. Drinques criativos, carta de vinhos selecionada, público refinado. Favorito de locais e visitantes que querem algo além do pub padrão.",
+        "description": "Rovakatu 21, bem no coração de Rovaniemi. O bar mais citado da cidade, café durante o dia e bar de coquetéis à noite. Drinques criativos, carta de vinhos selecionada, público refinado. Favorito de moradores e visitantes que querem algo além do pub padrão.",
         "highlights": [
           "Coquetéis criativos",
           "Carta de vinhos",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "pub",
-        "description": "\"O pub mais engraçado de Levi.\" O Hölmölä oferece os melhores produtos de cervejaria e coquetéis, com comida de bar sem frescura. Jogos de tabuleiro, totó e bilhar disponíveis sem custo. Daqueles pubs que não se levam a sério e é exatamente isso que os torna ótimos.",
+        "description": "\"O pub mais engraçado de Levi.\" O Hölmölä oferece as melhores cervejas artesanais e coquetéis, com comida de bar sem frescura. Jogos de tabuleiro, totó e bilhar disponíveis sem custo. Daqueles pubs que não se levam a sério e é exatamente isso que os torna ótimos.",
         "highlights": [
           "Jogos de tabuleiro e bilhar",
           "Cervejas artesanais",
@@ -214,7 +214,7 @@
       },
       "Bar Alakerta": {
         "type": "bar de música ao vivo",
-        "description": "Terraço ensolarado, música ao vivo e as lendárias Open Stage Jams aos domingos. O Alakerta atrai músicos e amantes de música, tanto locais quanto artistas de passagem que ouviram falar das sessões de domingo. Sem pose, acolhedor, com o clima que aparece quando as pessoas realmente amam o que fazem.",
+        "description": "Terraço ensolarado, música ao vivo e as lendárias Open Stage Jams aos domingos. O Alakerta atrai músicos e amantes de música, tanto locais quanto artistas de passagem que ouviram falar das sessões de domingo. Sem firulas, acolhedor, com o clima que aparece quando as pessoas realmente amam o que fazem.",
         "highlights": [
           "Sessões de microfone aberto aos domingos",
           "Música ao vivo",
@@ -223,7 +223,7 @@
       },
       "Pub Old Mates": {
         "type": "pub britânico",
-        "description": "Um autêntico pub estilo britânico no meio da Lapônia finlandesa. O Old Mates tira a pinta como deve ser, mostra futebol e oferece um cantinho de conforto familiar para quem precisa depois de um longo dia nas pistas. Melhor que a maioria dos pubs da Grã-Bretanha, porque a cerveja finlandesa é boa de verdade.",
+        "description": "Um autêntico pub estilo britânico no meio da Lapônia finlandesa. O Old Mates tira a cerveja como deve ser, transmite futebol e oferece um cantinho de conforto familiar para quem precisa depois de um longo dia nas pistas. Melhor que a maioria dos pubs da Grã-Bretanha, porque a cerveja finlandesa é boa de verdade.",
         "highlights": [
           "Estilo pub britânico",
           "Esportes nas TVs",
@@ -232,7 +232,7 @@
       },
       "Selvä Pyy": {
         "type": "pub e restaurante",
-        "description": "O pub favorito do vilarejo de Äkäslompolo, no lado de Ylläs. O Selvä Pyy serve cervejas artesanais, coquetéis e comida finlandesa de pub num clima acolhedor de cabana de toras. Depois de um dia nos fells, é aqui que locais e esquiadores se reencontram, sem pose, só bons drinques e companhia fácil.",
+        "description": "O pub favorito do vilarejo de Äkäslompolo, no lado de Ylläs. O Selvä Pyy serve cervejas artesanais, coquetéis e comida finlandesa de pub num clima acolhedor de cabana de toras. Depois de um dia nos fjälls, é aqui que locais e esquiadores se reencontram, sem pose, só bons drinques e companhia fácil.",
         "highlights": [
           "Vilarejo de Äkäslompolo",
           "Cervejas artesanais",
@@ -628,7 +628,7 @@
     ]
   },
   "drinkingCulture": {
-    "title": "Cultura da bebida finlandesa na Lapônia | LaplandBars",
+    "title": "A cultura finlandesa da bebida na Lapônia | LaplandBars",
     "description": "Koskenkorva, lonkero, Lapin Kulta, cerveja de sauna e kalsarikännit: como os finlandeses realmente bebem e quanto custa uma cerveja num bar da Lapônia.",
     "hero": {
       "title": "Cultura da bebida finlandesa",

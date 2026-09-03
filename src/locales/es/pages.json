@@ -6,7 +6,7 @@
     "hero": {
       "headlineLine1": "Levante la copa,",
       "headlineLine2": "brinde al Ártico.",
-      "sub": "Bares esculpidos en nieve, arenas après-ski legendarias y pubs acogedores con aurora boreal al otro lado de la ventana. Los bares de la Laponia finlandesa que de verdad recomendaríamos, escogidos a mano.",
+      "sub": "Bares esculpidos en nieve, recintos de après-ski legendarios y pubs acogedores con aurora boreal al otro lado de la ventana. Los bares de la Laponia finlandesa que de verdad recomendaríamos, escogidos a mano.",
       "subSummer": "Terrazas junto al lago y bares en azotea bajo el sol de medianoche. Terrazas que siguen iluminadas pasada la medianoche, música en directo y festivales de verano. Los bares de la Laponia finlandesa que de verdad recomendaríamos, escogidos a mano.",
       "ctaStay": "Buscar alojamiento cerca",
       "ctaBrowse": "Ver los bares"
@@ -64,11 +64,11 @@
         },
         {
           "q": "¿Dónde están los mejores bares de après-ski en Levi y Ylläs?",
-          "a": "En Levi, el Hullu Poro Areena está al pie de la pista principal y admite hasta 1.700 personas en dos plantas, con diez barras y actuaciones finlandesas en directo; Bar Ihku y Pub Hölmölä se quedan con las horas tardías. En la zona de Ylläs, Selvä Pyy, en el pueblo de Äkäslompolo, es el punto de encuentro al bajar de las colinas, y la discoteca del Lapland Hotels Äkäshotelli toma el relevo cuando los pubs cierran. Los remontes paran hacia las 16:00 y los bares se llenan justo después."
+          "a": "En Levi, la Hullu Poro Areena está al pie de la pista principal y admite hasta 1.700 personas en dos niveles, con diez barras y actuaciones finlandesas en directo; Bar Ihku y Pub Hölmölä se quedan con las horas tardías. En la zona de Ylläs, Selvä Pyy, en el pueblo de Äkäslompolo, es el punto de encuentro al bajar de los fjälls, y la discoteca del Lapland Hotels Äkäshotelli toma el relevo cuando los pubs cierran. Los remontes paran hacia las 16:00 y los bares se llenan justo después."
         },
         {
           "q": "¿Se puede beber alcohol al aire libre en Finlandia?",
-          "a": "En general sí, con un matiz. La Ley de Orden Público finlandesa prohíbe beber en lugares públicos, pero exceptúa expresamente los parques y zonas públicas equivalentes siempre que no estorbes a nadie ni causes molestias. Los municipios pueden restringir puntos concretos, como plazas o parques infantiles, y la embriaguez con alteración del orden es delito. La edad legal es de 18 años para cerveza, vino y sidra, y de 20 para destilados."
+          "a": "En general sí, con un matiz. La Ley de Orden Público finlandesa prohíbe beber en lugares públicos, pero exceptúa expresamente los parques y zonas públicas equivalentes siempre que no estorbe a nadie ni cause molestias. Los municipios pueden restringir puntos concretos, como plazas o parques infantiles, y la embriaguez con alteración del orden es delito. La edad legal es de 18 años para cerveza, vino y sidra, y de 20 para destilados."
         },
         {
           "q": "¿Cuál es el horario habitual de los bares en Laponia?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "¿Qué bebidas locales debería probar en Laponia?",
-          "a": "Busque el lakka, un licor de mora ártica hecho con la baya ámbar que madura solo unas semanas cada verano, servido frío o mezclado en cóctel. También merece la pena buscar cerveza artesanal local: Lapland Brewery en Rovaniemi y Tornion Panimo en Tornio elaboran ambas con agua ártica. Como clásico, Lapin Kulta se fundó en Tornio en 1873, aunque su producción se trasladó a Lahti en 2010, y Koskenkorva es el aguardiente de grano finlandés de diario."
+          "a": "Busque el lakka, un licor de mora ártica hecho con la baya ámbar que madura solo unas semanas cada verano, servido frío o mezclado en cóctel. También vale la pena buscar cerveza artesanal local: Lapland Brewery en Rovaniemi y Tornion Panimo en Tornio elaboran ambas con agua ártica. Como clásico, Lapin Kulta se fundó en Tornio en 1873, aunque su producción se trasladó a Lahti en 2010, y Koskenkorva es el aguardiente de grano finlandés de todos los días."
         },
         {
           "q": "¿Dónde se puede comprar alcohol en Finlandia fuera de los bares?",
@@ -112,7 +112,7 @@
     "description": "Los bares donde de verdad beben los locales en Laponia: Rovaniemi, Levi, Ylläs y Saariselkä. Horarios, precios y lo que sirven.",
     "hero": {
       "title": "Bares y pubs",
-      "sub": "Todos los locales aquí son reales, están abiertos hoy y merecen su noche. Sin lugares pagados ni relleno, solo la auténtica cultura del beber en Laponia."
+      "sub": "Todos los locales aquí son reales, están abiertos hoy y merecen que les dedique una noche. Sin lugares pagados ni relleno, solo la auténtica cultura del beber en Laponia."
     },
     "featuredBadge": "Elección de la redacción",
     "venueWebsite": "Web del local",
@@ -123,11 +123,11 @@
       "sub": "Disponibilidad en tiempo real vía Trip.com, reserva directa, sin cargos adicionales.",
       "cta": "Hoteles en {{city}}"
     },
-    "disclaimer": "Los precios y horarios cambian con la temporada. Confírmalos siempre directamente con el local antes de ir. Esta guía se mantiene lo más actualizada posible, pero no es una plataforma de reservas en tiempo real.",
+    "disclaimer": "Los precios y horarios cambian con la temporada. Confírmelos siempre directamente con el local antes de ir. Esta guía se mantiene lo más actualizada posible, pero no es una plataforma de reservas en tiempo real.",
     "cityVibes": {
       "Rovaniemi": "La capital ártica al caer la noche: pubs de cervecería artesanal, bares de cócteles y un bar de verdad hecho de hielo.",
       "Levi": "La capital finlandesa del après-ski. La Hullu Poro Areena tiene aforo para 1.700 personas. La montaña cierra a las 16:00 y la fiesta empieza a las 16:01.",
-      "Yllas": "Más tranquilo que Levi, más cálido que ningún sitio. Pubs acogedores de tundra donde locales y visitantes se mezclan sin postureo.",
+      "Yllas": "Más tranquilo que Levi, más cálido que ningún sitio. Pubs acogedores en los fjälls donde locales y visitantes se mezclan sin poses.",
       "Saariselka": "Remoto, oscuro y sorprendentemente bien surtido. El Gastropub Giitu mantiene una carta de cerveza artesanal que justifica el viaje hasta tan al norte."
     },
     "venues": {
@@ -142,7 +142,7 @@
       },
       "Uitto Pub": {
         "type": "Pub tradicional",
-        "description": "Una institución legendaria de Rovaniemi. \"Cómodo, relajado y legendario\": Uitto lleva décadas sirviendo a los locales cervezas, drinks, picoteo y comida de calidad. Sin postureo, solo un buen pub finlandés haciendo lo que un buen pub finlandés tiene que hacer.",
+        "description": "Una institución legendaria de Rovaniemi. \"Cómodo, relajado y legendario\": Uitto lleva décadas sirviendo a los clientes cervezas, tragos, botanas y comida de calidad. Sin postureo, solo un buen pub finlandés haciendo lo que un buen pub finlandés tiene que hacer.",
         "highlights": [
           "Institución local",
           "Carta completa",
@@ -160,7 +160,7 @@
       },
       "Bull Bar & Grill": {
         "type": "Bar y grill",
-        "description": "Situado en el edificio del Arctic City Hotel: un bar-grill de estilo americano con un ambiente nocturno animado. Buenas hamburguesas, drinks como toca, deportes en pantalla. De esos sitios que se llenan después de las 21:00 y siguen ruidosos hasta tarde.",
+        "description": "Situado en el edificio del Arctic City Hotel: un bar-grill de estilo americano con un ambiente nocturno animado. Buenas hamburguesas, tragos bien hechos, deportes en pantalla. De esos sitios que se llenan después de las 21:00 y siguen ruidosos hasta tarde.",
         "highlights": [
           "Carta de grill",
           "Bar deportivo",
@@ -195,7 +195,7 @@
       },
       "Bar Ihku": {
         "type": "Discoteca y bar",
-        "description": "Ya es una leyenda entre los noctámbulos de Levi. Ihku ha ido acumulando historias a lo largo de años de noches caóticas en Laponia. Karaoke, baile, finlandeses locales y esquiadores internacionales compartiendo pista. De esos sitios que parecen normales hasta las 23:00; a partir de ahí entiendes por qué todo el mundo habla de él.",
+        "description": "Ya es una leyenda entre los noctámbulos de Levi. Ihku ha ido acumulando historias a lo largo de años de noches caóticas en Laponia. Karaoke, baile, finlandeses locales y esquiadores internacionales compartiendo pista. De esos sitios que parecen normales hasta las 23:00; a partir de ahí entiende por qué todo el mundo habla de él.",
         "highlights": [
           "Institución de la noche",
           "Noches de karaoke",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pub",
-        "description": "\"El pub más divertido de Levi.\" Hölmölä ofrece los mejores productos de cervecería y cócteles, con comida de bar sin pretensiones. Juegos de mesa, futbolín y billar de uso gratuito. De esos pubs que no se toman a sí mismos en serio, que es precisamente lo que los hace grandes.",
+        "description": "\"El pub más divertido de Levi.\" Hölmölä ofrece las mejores cervezas artesanales y cócteles, con comida de bar sin pretensiones. Juegos de mesa, futbolito y billar de uso gratuito. De esos pubs que no se toman a sí mismos en serio, que es precisamente lo que los hace grandes.",
         "highlights": [
           "Juegos de mesa y billar",
           "Cervezas artesanales",
@@ -223,7 +223,7 @@
       },
       "Pub Old Mates": {
         "type": "Pub británico",
-        "description": "Un pub auténticamente británico plantado en mitad de la Laponia finlandesa. Old Mates tira pintas como toca, pone el fútbol y ofrece un rincón de confort familiar para quien lo necesite tras un largo día en pistas. Mejor que la mayoría de los pubs británicos, porque la cerveza finlandesa es realmente buena.",
+        "description": "Un pub auténticamente británico plantado en mitad de la Laponia finlandesa. Old Mates sirve pintas como se debe y pone el fútbol y ofrece un rincón de confort familiar para quien lo necesite tras un largo día en pistas. Mejor que la mayoría de los pubs británicos, porque la cerveza finlandesa es realmente buena.",
         "highlights": [
           "Estilo de pub británico",
           "Deportes en pantalla",
@@ -232,7 +232,7 @@
       },
       "Selvä Pyy": {
         "type": "Pub y restaurante",
-        "description": "El pub de referencia en el pueblo de Äkäslompolo, del lado de Ylläs. Selvä Pyy sirve cervezas artesanales, cócteles y buena comida de pub finlandesa en una atmósfera cálida de cabaña de troncos. Tras un día en las laderas, aquí confluyen locales y esquiadores: sin postureo, solo buenas bebidas y compañía fácil.",
+        "description": "El pub de referencia en el pueblo de Äkäslompolo, del lado de Ylläs. Selvä Pyy sirve cervezas artesanales, cócteles y buena comida de pub finlandesa en una atmósfera cálida de cabaña de troncos. Tras un día en los fjälls, aquí confluyen locales y esquiadores: sin postureo, solo buenas bebidas y compañía fácil.",
         "highlights": [
           "Pueblo de Äkäslompolo",
           "Cervezas artesanales",
@@ -628,7 +628,7 @@
     ]
   },
   "drinkingCulture": {
-    "title": "Cultura del beber finlandesa en Laponia | LaplandBars",
+    "title": "La cultura finlandesa de la bebida en Laponia | LaplandBars",
     "description": "Koskenkorva, lonkero, Lapin Kulta, cerveza de sauna y kalsarikännit: cómo beben de verdad los finlandeses y qué cuesta una cerveza en un bar de Laponia.",
     "hero": {
       "title": "Cultura del beber finlandesa",
@@ -797,7 +797,7 @@
     "description": "Sobre cómo LaplandBars trata sus datos."
   },
   "terms": {
-    "title": "Condiciones de uso | LaplandBars",
+    "title": "Términos de servicio | LaplandBars",
     "description": "Condiciones para usar LaplandBars."
   },
   "cookie": {

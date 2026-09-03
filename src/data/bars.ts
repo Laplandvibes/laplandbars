@@ -209,7 +209,7 @@ export const bars: Bar[] = [
     name: 'Bull Bar & Grill',
     city: 'Rovaniemi',
     type: 'Bar & Grill',
-    description: 'Located in the Arctic City Hotel building, an American-style grill bar with a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.',
+    description: 'In the Arctic City Hotel building, this American-style grill bar has a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.',
     highlights: ['Grill menu', 'Sports bar', 'Hotel location'],
     price: {
       en: 'Mains €14–22',
@@ -228,7 +228,7 @@ export const bars: Bar[] = [
     name: 'Ice Bar @ Arctic SnowHotel',
     city: 'Rovaniemi',
     type: 'Ice Bar Experience',
-    description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi, 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.',
+    description: 'Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi, 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: −5 °C inside. Thermal suits provided.',
     highlights: ['New theme yearly', 'Ice glasses', 'Thermal suits included', '-5°C inside'],
     // Verified from arcticsnowhotel.fi/en/eat-drink/ice-bar/ 2026-07-10:
     // hours 11–22; access requires a Snowhotel entrance ticket (overnight
@@ -250,7 +250,7 @@ export const bars: Bar[] = [
       label: 'Ice bar visit + thermal suit',
       priceFrom: 'Live price on GetYourGuide',
       schedule: 'Daily 11:00–22:00 (Dec 15 – Mar 31)',
-      hint: 'Guided Snowhotel visit incl. Ice Bar access.',
+      hint: 'Guided SnowHotel visit, including Ice Bar access.',
       sid: 'bar_ice_bar_arctic_snowhotel',
       // 🔴 gygProductPath removed 2026-07-30: the product
       // `rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814` has been
@@ -295,7 +295,7 @@ export const bars: Bar[] = [
     name: 'Bar Ihku',
     city: 'Levi',
     type: 'Nightclub & Bar',
-    description: 'Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm, then you understand why everyone talks about it.',
+    description: 'Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm — then you understand why everyone talks about it.',
     highlights: ['Late-night institution', 'Karaoke nights', 'Local favourite'],
     price: {
       en: 'Beer ~€6–7',
@@ -444,7 +444,7 @@ export const bars: Bar[] = [
     name: 'Gastropub Giitu',
     city: 'Saariselkä',
     type: 'Gastropub & Craft Beer',
-    description: 'The best bar in Saariselkä, a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lappish-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.',
+    description: 'The best bar in Saariselkä, a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lapland-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.',
     highlights: ['Craft beer selection', 'Lappish cuisine', 'Modern gastropub'],
     price: {
       en: 'Beer ~€7–8, mains €16–25',

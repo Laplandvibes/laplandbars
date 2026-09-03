@@ -7,7 +7,7 @@
       "headlineLine1": "Raise a Glass",
       "headlineLine2": "to the Arctic",
       "sub": "Ice bars carved from snow. Legendary après-ski arenas. Cosy pubs with the Northern Lights through the window. The best bars in Finnish Lapland, all real and all hand-picked.",
-      "subSummer": "Lakeside terraces and rooftop bars under the midnight sun. Patios that stay bright past midnight, live music and summer festivals. The best bars in Finnish Lapland, all real and all hand-picked.",
+      "subSummer": "Lakeside terraces and rooftop bars under the midnight sun. Terraces that stay bright past midnight, live music and summer festivals. The best bars in Finnish Lapland, all real and all hand-picked.",
       "ctaStay": "Find a Stay Nearby",
       "ctaBrowse": "Browse Bars"
     },
@@ -43,7 +43,7 @@
     "stayBand": {
       "kicker": "Stay nearby",
       "title": "Sleep Walking Distance from the Bar",
-      "sub": "Pick where you want to drink, book a room around the corner. Live availability via Trip.com.",
+      "sub": "Pick where you want to drink, then book a room around the corner. Live availability via Trip.com.",
       "cardCtaLabel": "Stay in {{city}}",
       "browseCta": "Browse hotels",
       "subs": {
@@ -52,7 +52,7 @@
         "yllas": "Lainio Snow Village · forest pubs",
         "saariselka": "Aurora pubs · Inari/Kakslauttanen close"
       },
-      "disclaimer": "Hotel bookings route through go.laplandvibes.com to our partner Trip.com, affiliate commission supports the site at no extra cost to you."
+      "disclaimer": "Hotel bookings route through go.laplandvibes.com to our partner Trip.com; the affiliate commission supports the site at no extra cost to you."
     },
     "faq": {
       "title": "Lapland Bars, Questions & Answers",
@@ -64,7 +64,7 @@
         },
         {
           "q": "Where are the best après-ski bars in Levi and Ylläs?",
-          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and holds up to 1,700 people across two floors, with ten bars and live Finnish acts; Bar Ihku and Pub Hölmölä carry the late hours. On the Ylläs side, Selvä Pyy in Äkäslompolo village is the gathering point after the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
+          "a": "In Levi, Hullu Poro Areena sits at the base of the main slope and holds up to 1,700 people across two floors, with ten bars and live Finnish acts; Bar Ihku and Pub Hölmölä take over later on. On the Ylläs side, Selvä Pyy in Äkäslompolo village is where everyone gathers after a day on the fells, and the nightclub at Lapland Hotels Äkäshotelli takes over once the pubs wind down. The lifts close around 4pm and the bars fill straight after."
         },
         {
           "q": "Can you drink alcohol outdoors in Finland?",
@@ -72,7 +72,7 @@
         },
         {
           "q": "What are typical bar opening hours in Lapland?",
-          "a": "Most pubs open in the afternoon and serve until around midnight on weekdays, with later closing (often 2am or 4am) on Fridays and Saturdays in the ski resorts. Licensing law allows alcohol sales until 1:30am, with an extension permit needed to serve later. Hours shift with the season: resort bars run long during the winter ski months and keep shorter hours in the quiet shoulder seasons, so it is worth checking the venue directly before you set out."
+          "a": "Most pubs open in the afternoon and serve until around midnight on weekdays, with later closing (often 2am or 4am) on Fridays and Saturdays in the ski resorts. Licensing law allows alcohol sales until 1.30am, with an extension permit needed to serve later. Hours shift with the season: resort bars run long during the winter ski months and keep shorter hours in the quiet shoulder seasons, so it is worth checking the venue directly before you set out."
         },
         {
           "q": "What local drinks should I try in Lapland?",
@@ -112,7 +112,7 @@
     "description": "The bars in Lapland that locals actually drink at: Rovaniemi, Levi, Ylläs and Saariselkä. Hours, prices, what they pour and when to walk in.",
     "hero": {
       "title": "Bars & Pubs",
-      "sub": "Every bar listed here is real, open, and worth your evening. No sponsored placements, no filler, just Lapland's actual drinking culture."
+      "sub": "Every bar listed here is real, open and worth your evening. No sponsored placements, no filler, just Lapland’s actual drinking culture."
     },
     "featuredBadge": "Editor's pick",
     "venueWebsite": "Venue website",
@@ -120,13 +120,13 @@
     "bookDirect": "Book direct",
     "stayBand": {
       "headline": "Stay walking distance from these {{city}} bars",
-      "sub": "Live availability via Trip.com, book directly, no extra fees.",
+      "sub": "Live availability via Trip.com — book directly, no extra fees.",
       "cta": "Hotels in {{city}}"
     },
     "disclaimer": "Prices and opening hours change seasonally. Always verify directly with the venue before visiting. This guide is maintained as accurately as possible but is not a real-time booking platform.",
     "cityVibes": {
       "Rovaniemi": "The Arctic capital after dark, craft brewery pubs, cocktail bars, and an actual bar made of ice.",
-      "Levi": "Finland's après-ski capital. Hullu Poro Areena holds 1,700 people. The mountain closes at 4pm and the party starts at 4:01.",
+      "Levi": "Finland's après-ski capital. Hullu Poro Areena holds 1,700 people. The slopes close at 4pm and the party starts at 4.01pm.",
       "Yllas": "Quieter than Levi, warmer than anywhere. Cosy fell pubs where locals and visitors mix without pretension.",
       "Saariselka": "Remote, dark, and surprisingly well-stocked. Gastropub Giitu keeps a craft beer list worth the trip this far north."
     },
@@ -160,7 +160,7 @@
       },
       "Bull Bar & Grill": {
         "type": "Bar & Grill",
-        "description": "Located in the Arctic City Hotel building, an American-style grill bar with a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.",
+        "description": "In the Arctic City Hotel building, this American-style grill bar has a lively evening atmosphere. Good burgers, proper drinks, sports on screen. The kind of place that fills up after 9 and stays loud until late.",
         "highlights": [
           "Grill menu",
           "Sports bar",
@@ -169,7 +169,7 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Ice Bar Experience",
-        "description": "Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi, 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: -5°C inside. Thermal suits provided.",
+        "description": "Built from scratch every winter, this ice bar is carved by artists and rebuilt with a new theme each season. Located at the Arctic SnowHotel on Lake Lehtojärvi, 30 minutes from Rovaniemi city centre. Drinks served in glasses made of ice. Temperature: −5 °C inside. Thermal suits provided.",
         "highlights": [
           "New theme yearly",
           "Ice glasses",
@@ -179,7 +179,7 @@
         "tour": {
           "label": "Ice bar visit + thermal suit",
           "schedule": "Daily 11:00–22:00 (Dec 15 – Mar 31)",
-          "hint": "Guided Snowhotel visit incl. Ice Bar access.",
+          "hint": "Guided SnowHotel visit, including Ice Bar access.",
           "priceFrom": "Live price on GetYourGuide"
         }
       },
@@ -195,7 +195,7 @@
       },
       "Bar Ihku": {
         "type": "Nightclub & Bar",
-        "description": "Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm, then you understand why everyone talks about it.",
+        "description": "Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm — then you understand why everyone talks about it.",
         "highlights": [
           "Late-night institution",
           "Karaoke nights",
@@ -232,7 +232,7 @@
       },
       "Selvä Pyy": {
         "type": "Pub & Restaurant",
-        "description": "The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge, no pretension, just good drinks and easy company.",
+        "description": "The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge — no pretension, just good drinks and easy company.",
         "highlights": [
           "Äkäslompolo village",
           "Craft beers",
@@ -251,7 +251,7 @@
       },
       "Gastropub Giitu": {
         "type": "Gastropub & Craft Beer",
-        "description": "The best bar in Saariselkä, a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lappish-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.",
+        "description": "The best bar in Saariselkä, a proper gastropub with an impressive craft beer selection and a menu that goes well beyond pub basics. Giitu serves Lapland-inspired dishes alongside a rotating tap list. The atmosphere is warm, modern, and exactly what you want after a Northern Lights hunt.",
         "highlights": [
           "Craft beer selection",
           "Lappish cuisine",

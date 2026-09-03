@@ -25,7 +25,7 @@
         },
         {
           "title": "Après-ski",
-          "desc": "Dall'arena Hullu Poro da 1.700 posti ai piccoli pub di montagna, l'après-ski lappone è leggendario per un motivo."
+          "desc": "Dall'arena Hullu Poro da 1.700 posti ai piccoli pub di montagna, c'è un motivo se l'après-ski lappone è leggendario."
         },
         {
           "title": "Musica dal vivo",
@@ -64,11 +64,11 @@
         },
         {
           "q": "Dove sono i migliori bar di après-ski a Levi e Ylläs?",
-          "a": "A Levi, la Hullu Poro Areena si trova ai piedi della pista principale e ospita fino a 1.700 persone su due piani, con dieci bar e concerti finlandesi; Bar Ihku e Pub Hölmölä coprono le ore piccole. Sul versante di Ylläs, Selvä Pyy nel villaggio di Äkäslompolo è il punto di ritrovo dopo le fjell, e il locale notturno del Lapland Hotels Äkäshotelli prende il testimone quando i pub chiudono. Gli impianti chiudono verso le 16 e i bar si riempiono subito dopo."
+          "a": "A Levi, la Hullu Poro Areena si trova ai piedi della pista principale e ospita fino a 1.700 persone su due piani, con dieci bar e concerti finlandesi; Bar Ihku e Pub Hölmölä coprono le ore piccole. Sul versante di Ylläs, Selvä Pyy nel villaggio di Äkäslompolo è il punto di ritrovo dopo una giornata sui fjäll, e il locale notturno del Lapland Hotels Äkäshotelli prende il testimone quando i pub chiudono. Gli impianti chiudono verso le 16 e i bar si riempiono subito dopo."
         },
         {
           "q": "Si può bere alcol all'aperto in Finlandia?",
-          "a": "In generale sì, con una precisazione. La legge finlandese sull’ordine pubblico vieta di bere nei luoghi pubblici, ma esclude esplicitamente parchi e aree pubbliche assimilabili, purché non si intralcino gli altri né si arrechi disturbo. I comuni possono comunque vietare punti specifici come piazze o parchi gioco, e l’ubriachezza molesta è un reato. L’età legale è 18 anni per birra, vino e sidro e 20 per i superalcolici."
+          "a": "In generale sì, con una precisazione. La legge finlandese sull'ordine pubblico vieta di bere nei luoghi pubblici, ma esclude esplicitamente parchi e aree pubbliche assimilabili, purché non si intralcino gli altri né si arrechi disturbo. I comuni possono comunque vietare punti specifici come piazze o parchi gioco, e l’ubriachezza molesta è un reato. L’età legale è 18 anni per birra, vino e sidro e 20 per i superalcolici."
         },
         {
           "q": "Quali sono gli orari tipici dei bar in Lapponia?",
@@ -76,7 +76,7 @@
         },
         {
           "q": "Quali bevande locali provare in Lapponia?",
-          "a": "Cerca il lakka, un liquore di camemoro ricavato dalla bacca ambrata che matura solo per poche settimane ogni estate, servito freddo o nei cocktail. Vale la pena cercare anche la birra artigianale locale: Lapland Brewery a Rovaniemi e Tornion Panimo a Tornio producono entrambe con acqua artica. Per un classico, Lapin Kulta nacque a Tornio nel 1873, anche se la produzione si è spostata a Lahti nel 2010, e il Koskenkorva è l’acquavite di cereali di tutti i giorni."
+          "a": "Cerchi il lakka, un liquore di mora artica ricavato dalla bacca ambrata che matura solo per poche settimane ogni estate, servito freddo o nei cocktail. Vale la pena cercare anche la birra artigianale locale: Lapland Brewery a Rovaniemi e Tornion Panimo a Tornio producono entrambe con acqua artica. Per un classico, Lapin Kulta nacque a Tornio nel 1873, anche se la produzione si è spostata a Lahti nel 2010, e il Koskenkorva è l’acquavite di cereali di tutti i giorni."
         },
         {
           "q": "Dove si può comprare alcol in Finlandia fuori dai bar?",
@@ -120,20 +120,20 @@
     "bookDirect": "Prenota direttamente",
     "stayBand": {
       "headline": "Dorma a piedi da questi bar di {{city}}",
-      "sub": "Disponibilità in tempo reale via Trip.com, prenoti direttamente, senza costi aggiuntivi.",
+      "sub": "Disponibilità in tempo reale tramite Trip.com: prenoti direttamente, senza costi aggiuntivi.",
       "cta": "Hotel a {{city}}"
     },
     "disclaimer": "Prezzi e orari variano con la stagione. Verifichi sempre direttamente con il locale prima di andare. Questa guida è curata con cura ma non è una piattaforma di prenotazione in tempo reale.",
     "cityVibes": {
       "Rovaniemi": "La capitale artica dopo il tramonto, pub di birrifici artigianali, cocktail bar e un vero bar fatto di ghiaccio.",
-      "Levi": "La capitale finlandese dell'après-ski. La Hullu Poro Areena ospita 1.700 persone. La montagna chiude alle 16 e la festa parte alle 16:01.",
+      "Levi": "La capitale finlandese dell'après-ski. La Hullu Poro Areena ospita 1.700 persone. La montagna chiude alle 16:00 e la festa parte alle 16:01.",
       "Yllas": "Più tranquilla di Levi, più calda di qualsiasi altro posto. Accoglienti pub di montagna dove gli abitanti del posto e i visitatori si mescolano senza fronzoli.",
-      "Saariselka": "Remoto, buio e sorprendentemente ben fornito. Il Gastropub Giitu tiene una carta di birre artigianali che vale il viaggio così a nord."
+      "Saariselka": "Remoto, buio e sorprendentemente ben fornito. Il Gastropub Giitu propone una carta di birre artigianali che vale il viaggio così a nord."
     },
     "venues": {
       "Café & Bar 21": {
         "type": "Cocktail bar",
-        "description": "Rovakatu 21, proprio nel cuore di Rovaniemi. Il bar più costantemente menzionato della città, un ibrido di caffetteria di giorno e cocktail bar di sera. Drink creativi, carta dei vini curata, un pubblico raffinato. Un preferito degli abitanti del posto e dei visitatori che cercano qualcosa oltre il pub standard.",
+        "description": "Rovakatu 21, proprio nel cuore di Rovaniemi. Il bar più costantemente menzionato della città, un ibrido di caffetteria di giorno e cocktail bar di sera. Drink creativi, carta dei vini curata, un pubblico raffinato. Molto amato dagli abitanti del posto e dai visitatori che cercano qualcosa oltre il pub standard.",
         "highlights": [
           "Cocktail creativi",
           "Selezione di vini",
@@ -169,7 +169,7 @@
       },
       "Ice Bar @ Arctic SnowHotel": {
         "type": "Esperienza ice bar",
-        "description": "Costruito da zero ogni inverno, questo ice bar è scolpito da artisti e ricostruito con un nuovo tema ogni stagione. Si trova all'Arctic SnowHotel sul lago Lehtojärvi, 30 minuti dal centro di Rovaniemi. Drink serviti in bicchieri di ghiaccio. Temperatura: -5°C all'interno. Tuta termica fornita.",
+        "description": "Costruito da zero ogni inverno, questo ice bar è scolpito da artisti e ricostruito con un nuovo tema ogni stagione. Si trova all'Arctic SnowHotel sul lago Lehtojärvi, 30 minuti dal centro di Rovaniemi. Drink serviti in bicchieri di ghiaccio. Temperatura: −5 °C all'interno. Tuta termica fornita.",
         "highlights": [
           "Nuovo tema ogni anno",
           "Bicchieri di ghiaccio",
@@ -178,7 +178,7 @@
         ],
         "tour": {
           "label": "Visita all'ice bar + tuta termica",
-          "schedule": "Tutti i giorni 11:00–22:00 (15 dic – 31 mar)",
+          "schedule": "Tutti i giorni 11:00–22:00 (15 dic. – 31 mar.)",
           "hint": "Visita guidata allo Snowhotel, ingresso all'Ice Bar incluso.",
           "priceFrom": "Prezzo aggiornato su GetYourGuide"
         }
@@ -195,7 +195,7 @@
       },
       "Bar Ihku": {
         "type": "Discoteca & bar",
-        "description": "Già una leggenda tra i festaioli di Levi. Ihku ha accumulato storie negli anni di caos notturno lappone. Karaoke, balli, abitanti del posto finlandesi e sciatori internazionali a condividere la stessa pista. Uno di quei posti che sembra ordinario fino alle 23, poi si capisce perché tutti ne parlano.",
+        "description": "Già una leggenda tra i festaioli di Levi. Ihku ha collezionato storie in anni di notti caotiche lapponi. Karaoke, balli, abitanti del posto finlandesi e sciatori internazionali a condividere la stessa pista. Uno di quei posti che sembra ordinario fino alle 23, poi si capisce perché tutti ne parlano.",
         "highlights": [
           "Istituzione della notte fonda",
           "Serate karaoke",
@@ -204,7 +204,7 @@
       },
       "Pub Hölmölä": {
         "type": "Pub",
-        "description": "\"Il pub più divertente di Levi.\" Hölmölä offre i migliori prodotti di birrificio e cocktail, accompagnati da un cibo da bar senza pretese. Giochi da tavolo, calcio balilla e biliardo gratuiti. Quel genere di pub che non si prende troppo sul serio, ed è proprio per questo che funziona.",
+        "description": "\"Il pub più divertente di Levi.\" Hölmölä offre le migliori birre artigianali e cocktail, accompagnati da cibo da bar senza pretese. Giochi da tavolo, calcio balilla e biliardo gratuiti. Quel genere di pub che non si prende troppo sul serio, ed è proprio per questo che funziona.",
         "highlights": [
           "Giochi da tavolo & biliardo",
           "Birre artigianali",
@@ -747,9 +747,9 @@
     }
   },
   "about": {
-    "title": "Su LaplandBars",
-    "description": "Su LaplandBars, guida editoriale indipendente su dove e come si beve in Lapponia.",
-    "h1": "Su LaplandBars",
+    "title": "Chi siamo",
+    "description": "Chi siamo, guida editoriale indipendente su dove e come si beve in Lapponia.",
+    "h1": "Chi siamo",
     "body": [
       "LaplandBars è una guida editoriale indipendente ai bar, ai pub, agli ice bar e alla vita notturna in Lapponia finlandese, scritta dalla Finlandia, non generata automaticamente da un database.",
       "Ogni locale elencato è un posto reale; le informazioni provengono dalle pagine dei locali stessi e dai dati di Google. La copertura si concentra sulle quattro destinazioni principali della Lapponia finlandese, Rovaniemi, Levi, Ylläs e Saariselkä e viene aggiornata quando i bar aprono, chiudono o cambiano. Fonti citate; correzioni benvenute.",
