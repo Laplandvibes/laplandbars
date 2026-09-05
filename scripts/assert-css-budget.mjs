@@ -28,7 +28,11 @@ import { join } from 'node:path';
 const DIR = 'dist/assets';
 // Nykyinen koko ~110 kt. Raja on 15 % alle sen, mutta selvasti yli
 // alaskannatun buildin (~73 kt), jotta normaali vaihtelu ei laukaise tata.
-const MIN_BYTES = 93_000;
+// 5.9.2026: EcosystemMenu v2 siirsi valikon tyylit Tailwind-luokista omaan
+// scoped <style>-lohkoon, jolloin index-*.css pieneni 93 520 → 92 604 t ja alitti
+// vanhan 93 000 t:n lattian (CI kaatui). Lattia on 'skannasiko Tailwind src/:n'
+// -vahti, ei tavoite: 90 000 t erottaa yhä skannaamattoman (~40 kt) buildin.
+const MIN_BYTES = 90_000;
 // Luokat jotka tulevat VAIN taman sivuston src/:sta -- ei shared/:sta.
 const REQUIRED = ['text-night', 'text-ice', 'backdrop-blur-md'];
 
