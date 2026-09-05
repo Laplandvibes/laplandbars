@@ -1,0 +1,86 @@
+{
+  "version": "20260905",
+  "domain": "laplandbars.com",
+  "brand": "BARS",
+  "tagline": "Bars, pubs, ice bars and après-ski",
+  "generated": "2026-09-05T21:51:04.012Z",
+  "staticFallbackSeason": "summer",
+  "seasons": {
+    "summer": {
+      "heroUrl": "https://laplandbars.com/images/drive/heroMain-summer.webp",
+      "heroAlt": "Bar in Finnish Lapland",
+      "heroSha": "d4a66d2f9e2a80b7",
+      "bytes": 245484,
+      "sha256": "fb4f735065e07f525780dc88178aa18580e7a6dfb40e58413dca25ac0287546e",
+      "bandH": 168,
+      "photoPct": 73.3,
+      "ink": 15248,
+      "inkBox": [
+        366,
+        493,
+        834,
+        603
+      ],
+      "safe": true,
+      "accentP10": 5.06,
+      "accentMed": 5.06,
+      "whiteP10": 17.08,
+      "whiteMed": 17.08,
+      "mean": 68.7,
+      "centerSq": 70.3,
+      "photoRegion": 80.3,
+      "photoRegionRef": 80.3,
+      "overlayPixels": 0,
+      "maxDiff": 0,
+      "fit": {
+        "size": 74,
+        "lines": 1,
+        "ts": 30,
+        "tagW": 471,
+        "fits": true,
+        "bandH": 168
+      },
+      "contrastOk": true,
+      "zeroOverlay": true,
+      "errors": []
+    },
+    "winter": {
+      "heroUrl": "https://laplandbars.com/images/drive/heroMain.webp",
+      "heroAlt": "Bar in Finnish Lapland",
+      "heroSha": "8bf85cc1037403a9",
+      "bytes": 162209,
+      "sha256": "8c0c0946dfc5a4924e265308e8ccd35703f105c2cfc7b9e2d0896f6c9857f9cd",
+      "bandH": 168,
+      "photoPct": 73.3,
+      "ink": 15248,
+      "inkBox": [
+        366,
+        493,
+        834,
+        603
+      ],
+      "safe": true,
+      "accentP10": 5.06,
+      "accentMed": 5.06,
+      "whiteP10": 17.08,
+      "whiteMed": 17.08,
+      "mean": 43.9,
+      "centerSq": 56.8,
+      "photoRegion": 46.4,
+      "photoRegionRef": 46.4,
+      "overlayPixels": 0,
+      "maxDiff": 0,
+      "fit": {
+        "size": 74,
+        "lines": 1,
+        "ts": 30,
+        "tagW": 471,
+        "fits": true,
+        "bandH": 168
+      },
+      "contrastOk": true,
+      "zeroOverlay": true,
+      "errors": []
+    }
+  }
+}
