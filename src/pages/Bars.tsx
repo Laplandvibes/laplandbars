@@ -9,6 +9,7 @@ import MenuLink from '../components/MenuLink';
 import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
+import VenueRating from '../components/VenueRating';
 import { gygDeepLink } from '../lib/gyg';
 import { withReferral } from '../lib/withReferral';
 import { iceBars } from '../data/bars';
@@ -214,7 +215,12 @@ export default function Bars() {
                         </div>
 
                         <div className="p-5 flex flex-col flex-1">
-                          <h3 className="font-heading text-lg text-white tracking-wide mb-1 group-hover:text-amber transition-colors">{bar.name}</h3>
+                          <div className="flex items-start justify-between gap-3 mb-1">
+                            <h3 className="font-heading text-lg text-white tracking-wide group-hover:text-amber transition-colors">{bar.name}</h3>
+                            <span className="shrink-0 mt-0.5">
+                              <VenueRating name={bar.name} lang={locale} />
+                            </span>
+                          </div>
                           <p className="text-xs text-white/80 uppercase tracking-wider mb-3">{type}</p>
                           <p className="text-sm text-white/80 leading-relaxed mb-4">{description}</p>
 
