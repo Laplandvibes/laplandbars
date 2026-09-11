@@ -8,7 +8,6 @@ import GygSearchCta, { gygSearchLink } from '../components/GygSearchCta';
 import type { Locale } from '../i18n/config';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
-import Reveal from '../components/Reveal';
 
 type Brewery = { name: string; location: string; description: string };
 type RealBeer = { name: string; brewery: string; abv: string; desc: string };
@@ -279,18 +278,17 @@ export default function CraftBeer() {
           (lapinpanimo.fi maistelupakkaus + Untappd-lista, tornionpanimo.fi/tuotteet). */}
       <section className="py-16 bg-night/95 aurora-glow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <Reveal className="text-center mb-12">
+          <div className="text-center mb-12">
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
               {t('craftBeer.realBeers.title')}
             </h2>
             <p className="text-white/75 max-w-2xl mx-auto">
               {t('craftBeer.realBeers.sub')}
             </p>
-          </Reveal>
+          </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-            {realBeers.map((b, i) => (
-              <Reveal key={b.name} delay={(i % 3) * 90} className="h-full">
-                <div className="bar-card bar-card-hover p-6 sm:p-7 h-full flex flex-col">
+            {realBeers.map((b) => (
+              <div key={b.name} className="bar-card bar-card-hover p-6 sm:p-7 h-full flex flex-col">
                   <div className="flex items-start justify-between gap-3 mb-1">
                     <h3 className="font-heading text-2xl text-white tracking-wide leading-[1.15]">{b.name}</h3>
                     {b.abv && (
@@ -299,8 +297,7 @@ export default function CraftBeer() {
                   </div>
                   <p className="text-[11px] text-amber/85 font-semibold uppercase tracking-[0.18em] mb-3">{b.brewery}</p>
                   <p className="text-sm text-white/80 leading-relaxed">{b.desc}</p>
-                </div>
-              </Reveal>
+              </div>
             ))}
           </div>
         </div>

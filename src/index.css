@@ -197,11 +197,3 @@
     .bar-card, .bar-card-hover:hover { transition: none; transform: none; }
   }
 }
-
-/* ── Vierityspaljastus (Reveal.tsx). Vain opacity + transform, lepotila NÄKYVÄ:
-   luokka lisätään JS:llä vasta kun observer on olemassa. ──────────────── */
-@layer components {
-  .lv-reveal { opacity: 0; transform: translateY(28px); transition: opacity 700ms cubic-bezier(0.22, 1, 0.36, 1), transform 700ms cubic-bezier(0.22, 1, 0.36, 1); will-change: opacity, transform; }
-  .lv-reveal.is-in { opacity: 1; transform: none; }
-  @media (prefers-reduced-motion: reduce) { .lv-reveal { opacity: 1; transform: none; transition: none; } }
-}
