@@ -2,7 +2,7 @@ import { ChevronDown, MapPin, ExternalLink, Snowflake, Music, Beer, Hotel, Arrow
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BARS, isSummerSeason } from '../data/images';
-import { bars, iceBars, getFeaturedBars, cities, pickLocalised } from '../data/bars';
+import { bars, iceBars, getFeaturedBars, cities } from '../data/bars';
 import { slugForCity } from '../data/barCities';
 import PageSeo from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
@@ -12,6 +12,7 @@ import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots';
 import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
 import { AppPromoHero } from '../components/AppPromo';
+import BarCard from '../components/BarCard';
 
 const barImages: Record<string, string> = {
   'Lapland Brewery': BARS.breweryInterior,
@@ -162,60 +163,20 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-            {featured.map((bar) => {
-              const type = t(`bars.venues.${bar.name}.type`, { defaultValue: bar.type });
-              const description = t(`bars.venues.${bar.name}.description`, { defaultValue: bar.description });
-              const highlights = (t(`bars.venues.${bar.name}.highlights`, { returnObjects: true, defaultValue: bar.highlights }) as string[]) || bar.highlights;
-              return (
-                <Link
-                  key={bar.name}
-                  to={to('/bars')}
-                  className="bar-card bar-card-hover group overflow-hidden flex flex-col no-underline"
-                >
-                  {/* Image */}
-                  <div className="relative h-52 overflow-hidden shrink-0">
-                    <img
-                      src={barImages[bar.name] || BARS.heroMain}
-                      alt={bar.name}
-                      loading="lazy"
-                      decoding="async"
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent to-night/30" />
-                    <div className="absolute top-3 left-3 bg-amber/90 backdrop-blur-sm px-3 py-1 rounded-full">
-                      <span className="text-xs font-bold text-night">{pickLocalised(bar.price, locale).split(' ')[0]}</span>
-                    </div>
-                  </div>
-
-                  <div className="p-5 flex flex-col flex-1">
-                    <h3 className="font-heading text-xl tracking-wide text-white group-hover:text-amber transition-colors mb-1">
-                      {bar.name}
-                    </h3>
-                    {/* `truncate` katkaisi tyyppilabelin kesken sanan jo 375 px:ssä
-                        ("Gastropubi ja pienpanimo-ol…"), koska kaupunki + erotin
-                        veivät rivin. Rivitys sallittu: kortin korkeus joustaa,
-                        katkaistu sana ei kerro mitään (auditti 4.8.). */}
-                    <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 text-sm text-white/65 mb-3">
-                      <MapPin size={12} className="text-amber shrink-0" />
-                      {bar.city}
-                      <span className="text-white/75">·</span>
-                      <span>{type}</span>
-                    </div>
-                    <p className="text-sm text-white/75 leading-relaxed mb-4 flex-1">
-                      {description}
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      {highlights.slice(0, 3).map((h) => (
-                        <span key={h} className="text-xs bg-amber/10 text-amber/70 px-2 py-1 rounded-full">
-                          {h}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </Link>
-              );
-            })}
+          {/* Sama BarCard kuin /bars- ja /city-sivuilla. Vesa 11.9.: kulman
+              "Vaatii"/"Olut"-lätkä oli hintatekstin ENSIMMÄINEN SANA eikä arvio,
+              ja 10 korttia jätti yhden orvoksi omalle rivilleen ⇒ 9 = 3 × 3. */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+            {featured.slice(0, 9).map((bar) => (
+              <BarCard
+                key={bar.name}
+                bar={bar}
+                image={barImages[bar.name] || BARS.heroMain}
+                locale={locale}
+                campaign="home_featured"
+                showCity
+              />
+            ))}
           </div>
 
           <div className="text-center mt-10">

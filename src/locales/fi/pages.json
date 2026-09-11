@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Toimituksen poiminta",
     "knownBeers": "Tunnetut oluet",
-    "stylesTitle": "Arktiset olutyypit",
-    "stylesSub": "Suomalaiset pienpanimot käyttävät raaka-aineita samasta maisemasta kuin kokit. Metsänpohja on yhtä tärkeä kuin panimo.",
     "tours": {
       "kicker": "Kierrokset ja maistelut",
       "title": "Panimo- ja ruokakierroksia varattavissa nyt",
@@ -601,32 +599,48 @@
         "description": "Rovaniemen oma panimo, joka toimii Teollisuustien varrella keskustan ulkopuolella. Oluet pannaan paikan päällä ja tarjoillaan panimoravintolassa tankkien vieressä. Panimo kertoo olevansa Suomen pohjoisin. Perjantain panimokierrokset pyörivät läpi talvikauden ja vaativat ennakkovarauksen."
       }
     ],
-    "styles": [
-      {
-        "style": "Arktinen lager",
-        "desc": "Puhdas, raikas, pantu jääkylmällä arktisella vedellä. Suomalaisen pienpanimo-oluen perusta, petollisen yksinkertainen, yllättävän hyvä."
-      },
-      {
-        "style": "Kuusenkerkkä-ale",
-        "desc": "Keväällä kerättyjä kuusenkerkkiä. Hartsisesti yrtteinen, ei mikään etelän panimon tuotos. Aidosti arktinen maku."
-      },
-      {
-        "style": "Marjavehnä",
-        "desc": "Villi puolukka tai hilla vehnäoluen pohjalle. Kirpeä, hedelmäinen, kausittainen, maistat mistä se tulee."
-      },
-      {
-        "style": "Savustettu porter",
-        "desc": "Täyteläinen, tumma, savunmaku suomalaisesta koivusta. Talvinen olut kylmiin iltoihin takkatulen ääreen. Sopii poron kanssa."
-      },
-      {
-        "style": "Ruis-saison",
-        "desc": "Suomalainen ruis, pohjoisen ruokakulttuurin perusvilja, belgialaistyylisessä saisonissa. Maanläheinen, mausteinen, epätavallinen."
-      },
-      {
-        "style": "Keskiyön aurinko -IPA",
-        "desc": "Pannaan yöttömän yön aikaan kesällä. Sitrusvoittoinen, karvas, nimetty ilmiön mukaan, joka tekee arktisen humalan kasvatuksen mahdolliseksi."
-      }
-    ]
+    "realBeers": {
+      "title": "Oluet, joita täällä oikeasti pannaan",
+      "sub": "Jokainen alla oleva olut on panimon omalla tuotelistalla. Kaksi panimoa, molemmat oikeita: Lapland Brewery Rovaniemellä ja Tornion Panimo Ruotsin rajalla.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Böömiläistyylinen pilsner, 4,3 %. Teollisuustien taproomin arkituoppi."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale, jossa on ripaus katajaa, 5,5 %, pantu napapiirillä."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "Panimon IPA, 5,4 %: humalainen pää valikoimassa, joka on enimmäkseen lagereita."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Savulager. Loimu on se avotuli, jonka vieressä lohi loimutetaan."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "Lippulaiva panimolta, jonka 1 900 piensijoittajaa toi takaisin vuonna 2016. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Bourbon-tammessa kypsytetty imperial stout, 8,0 %. Routa on listan talvinen pää."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Suomalainen juomakulttuuri Lapissa | LaplandBars",
@@ -647,7 +661,8 @@
         "Miten suomalaiset sitä juovat? Kylmänä, suorana, pienestä lasista. Joskus olutchaserin kanssa (yhdistelmää kutsutaan viinaksi + kaljaksi, klassinen suomalainen työväenluokan pari). Lapissa sitä on tarjolla joka pubissa, useimmiten speed-railissa. Sitä on ollut suomalaisilla pöydillä häissä, hautajaisissa, lauantain saunailloissa ja sunnuntaiaamuissa. Se ei ole glamouria. Se on pointti."
       ],
       "factsLabel": "Pikatiedot:",
-      "facts": "Valmistaja Altia (nykyään Anora Group). Yli 10 miljoonaa litraa myydään Suomessa vuosittain. Koskenkorvan kylässä asuu noin 1 500 ihmistä. Tislaamo on yksi maailman tehokkaimmista viljatislaamoista: nollajäte, ja mäski syötetään karjalle."
+      "facts": "Valmistaja Altia (nykyään Anora Group). Yli 10 miljoonaa litraa myydään Suomessa vuosittain. Koskenkorvan kylässä asuu noin 1 500 ihmistä. Tislaamo on yksi maailman tehokkaimmista viljatislaamoista: nollajäte, ja mäski syötetään karjalle.",
+      "quote": "Se ei ole glamouria. Se on koko pointti."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Suomesta maailmalle",
@@ -657,7 +672,8 @@
         "Finlandia tislataan yli 200 kertaa jatkuvassa tislausprosessissa, ei eräkohtaisesti kuten useimmat premium-väkevät. Tulos on äärimmäisen tasalaatuinen. Se on voittanut kansainvälisiä sokkomaisteluja paljon kalliimpia kilpailijoita vastaan. Suomessa se on edelleen kohtuuhintainen. Ulkomailla se kantaa suomalaista alkuperäänsä premium-laatumerkkinä."
       ],
       "factsLabel": "Pikatiedot:",
-      "facts": "Coca-Cola HBC:n omistuksessa vuodesta 2023; sitä ennen omistaja oli Brown-Forman (Jack Daniel'sin emoyhtiö). Saatavilla yli 80 maassa. Ikoninen huurrettu pullomuotoilu on tuskin muuttunut vuodesta 1970. Valmistetaan Rajamäen tislaamolla, joka on tehnyt väkeviä vuodesta 1888."
+      "facts": "Coca-Cola HBC:n omistuksessa vuodesta 2023; sitä ennen omistaja oli Brown-Forman (Jack Daniel'sin emoyhtiö). Saatavilla yli 80 maassa. Ikoninen huurrettu pullomuotoilu on tuskin muuttunut vuodesta 1970. Valmistetaan Rajamäen tislaamolla, joka on tehnyt väkeviä vuodesta 1888.",
+      "quote": "Vesi on tähti."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, kultaa arktiselta",
@@ -730,7 +746,8 @@
         "4. Istu alas. Älä nouse seisomaan vähintään kahteen tuntiin.",
         "5. Juo hitaasti. Tämä ei ole kilpailu.",
         "6. Älä missään olosuhteissa tee suunnitelmia lähteä myöhemmin ulos."
-      ]
+      ],
+      "book": "Käsitteestä on kirjoitettu kirjakin: Miska Rantasen Kalsarikänni (S&S, 2018), joka julkaistiin samana vuonna englanniksi nimellä Pantsdrunk (HarperCollins)."
     },
     "sauna": {
       "title": "Sauna ja sisu, koko kuva",

@@ -8,16 +8,18 @@ import GygSearchCta, { gygSearchLink } from '../components/GygSearchCta';
 import type { Locale } from '../i18n/config';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
+import Reveal from '../components/Reveal';
 
 type Brewery = { name: string; location: string; description: string };
-type Style = { style: string; desc: string };
+type RealBeer = { name: string; brewery: string; abv: string; desc: string };
 
 // Real, verified beers per brewery (Untappd + brewery sites, checked
 // 2026-07-24). The old list ("Arctic Lager", "Spruce Tip Pale Ale", …) was
 // invented, and "Lapon Panimo" was a garbled duplicate of Lapin Panimo.
 const breweryBeers: Record<string, string[]> = {
   'Lapland Brewery': ['Hippu Lapland Golden Pilsner', 'Saana Lapland Pale Ale', 'Aihki Lapland Dark Lager', 'Saariselkä Pilsner'],
-  'Tornion Panimo': ['Original Lapland Lager', 'Arctic Pale Ale', 'Routa Imperial Stout', 'Laavu Smoky ESB'],
+  // tornionpanimo.fi/tuotteet 11.9.2026 — 'Laavu Smoky ESB' ei ole listalla, poistettu
+  'Tornion Panimo': ['Lapland Original Lager', 'Arctic Pale Ale', 'Arctic Hoppy Porter', 'Routa Imperial Stout Bourbon Oaked'],
 };
 
 const featuredFlags: Record<string, boolean> = {
@@ -147,7 +149,7 @@ export default function CraftBeer() {
   const { t, i18n } = useTranslation('pages');
   const lang = i18n.language;
   const breweries = (t('craftBeer.breweries', { returnObjects: true }) as Brewery[]) || [];
-  const styles = (t('craftBeer.styles', { returnObjects: true }) as Style[]) || [];
+  const realBeers = (t('craftBeer.realBeers.items', { returnObjects: true }) as RealBeer[]) || [];
   const gygRef = useRef<HTMLDivElement>(null);
   const [gygBlocked, setGygBlocked] = useState(false);
 
@@ -269,23 +271,36 @@ export default function CraftBeer() {
         </div>
       </section>
 
-      {/* Beer styles */}
+      {/* Oluet, joita täällä oikeasti pannaan.
+          Vesa 11.9.2026: "onko nämä faktatarkistettu?" — eivät olleet. Vanha
+          "Arctic Beer Styles" -ruudukko (kuusenkerkkä-ale, marjavehnä, ruis-saison,
+          keskiyön aurinko -IPA) oli keksitty tyyppilista, jota kumpikaan panimo ei
+          pane. Nyt kuusi olutta, jotka ovat panimoiden omilla tuotelistoilla
+          (lapinpanimo.fi maistelupakkaus + Untappd-lista, tornionpanimo.fi/tuotteet). */}
       <section className="py-16 bg-night/95 aurora-glow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <Reveal className="text-center mb-12">
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
-              {t('craftBeer.stylesTitle')}
+              {t('craftBeer.realBeers.title')}
             </h2>
             <p className="text-white/75 max-w-2xl mx-auto">
-              {t('craftBeer.stylesSub')}
+              {t('craftBeer.realBeers.sub')}
             </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {styles.map((s) => (
-              <div key={s.style} className="bar-card bar-card-hover p-6">
-                <h3 className="font-heading text-lg text-amber tracking-wide mb-2">{s.style}</h3>
-                <p className="text-sm text-white/75 leading-relaxed">{s.desc}</p>
-              </div>
+          </Reveal>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+            {realBeers.map((b, i) => (
+              <Reveal key={b.name} delay={(i % 3) * 90} className="h-full">
+                <div className="bar-card bar-card-hover p-6 sm:p-7 h-full flex flex-col">
+                  <div className="flex items-start justify-between gap-3 mb-1">
+                    <h3 className="font-heading text-2xl text-white tracking-wide leading-[1.15]">{b.name}</h3>
+                    {b.abv && (
+                      <span className="shrink-0 inline-flex items-center rounded-full bg-amber/15 border border-amber/30 text-amber text-xs font-bold px-2.5 py-1">{b.abv}</span>
+                    )}
+                  </div>
+                  <p className="text-[11px] text-amber/85 font-semibold uppercase tracking-[0.18em] mb-3">{b.brewery}</p>
+                  <p className="text-sm text-white/80 leading-relaxed">{b.desc}</p>
+                </div>
+              </Reveal>
             ))}
           </div>
         </div>

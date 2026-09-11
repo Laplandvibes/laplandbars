@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Birrificio in evidenza",
     "knownBeers": "Birre conosciute",
-    "stylesTitle": "Stili di birra artici",
-    "stylesSub": "I birrai artigianali finlandesi usano ingredienti dello stesso paesaggio dello chef. Il sottobosco conta quanto il birrificio.",
     "tours": {
       "kicker": "Tour e degustazioni",
       "title": "Tour di birrifici e gastronomici prenotabili ora",
@@ -601,32 +599,48 @@
         "description": "Il birrificio di Rovaniemi, nella zona industriale di Teollisuustie e non in centro. Le birre sono prodotte in loco e servite nella taproom accanto ai serbatoi. Il birrificio si definisce il più settentrionale della Finlandia. Le visite del venerdì si tengono per tutto l’inverno e vanno prenotate in anticipo."
       }
     ],
-    "styles": [
-      {
-        "style": "Arctic Lager",
-        "desc": "Pulita, fresca, prodotta con acqua artica di origine glaciale. La base della birra artigianale finlandese, apparentemente semplice, sorprendentemente buona."
-      },
-      {
-        "style": "Spruce Tip Ale",
-        "desc": "Cime di abete raccolte in primavera. Resinose, erbacee, nulla di paragonabile a un birrificio del sud. Un sapore autenticamente artico."
-      },
-      {
-        "style": "Berry Wheat",
-        "desc": "Mirtilli rossi o camemori selvatici aggiunti a una base di birra di frumento. Acida, fruttata e stagionale, si sente da dove viene."
-      },
-      {
-        "style": "Smoked Porter",
-        "desc": "Ricca, scura, con il fumo della betulla finlandese. Una birra invernale per le sere fredde davanti al fuoco. Si sposa con la renna."
-      },
-      {
-        "style": "Rye Saison",
-        "desc": "La segale finlandese, cereale base della cucina del nord, in una saison di stile belga. Terrosa, speziata, insolita."
-      },
-      {
-        "style": "Sole di mezzanotte IPA",
-        "desc": "Prodotta durante il giorno polare in estate. Agrumata in apertura, amara, intitolata al fenomeno che rende possibile la coltivazione del luppolo artico."
-      }
-    ]
+    "realBeers": {
+      "title": "Le birre che quassù si producono davvero",
+      "sub": "Ogni birra qui sotto è nel listino ufficiale del suo birrificio. Due birrifici, entrambi reali: Lapland Brewery a Rovaniemi e Tornion Panimo al confine svedese.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner in stile boemo, 4,3 %. La pinta di tutti i giorni nella taproom di Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale con un tocco di ginepro, 5,5 %, prodotta sul Circolo Polare Artico."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "L’IPA del birrificio, 5,4 %: il lato luppolato di una gamma fatta soprattutto di lager."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Lager affumicata. Loimu è la parola finlandese per il fuoco vivo accanto a cui si cuoce il salmone."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "L’ammiraglia del birrificio che 1.900 piccoli investitori hanno riportato in vita nel 2016. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout maturata in rovere da bourbon, 8,0 %. Routa significa gelo del suolo: è il lato invernale della lista."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Cultura finlandese del bere in Lapponia | LaplandBars",
@@ -647,7 +661,8 @@
         "Come lo bevono i finlandesi? Freddo, liscio, in un bicchierino. A volte con una birra come chaser (la combinazione si chiama viina + kalja, il classico abbinamento operaio finlandese). In Lapponia lo trova in ogni pub, di solito sullo speed rail. È stato sui tavoli finlandesi a matrimoni, funerali, sere di sauna del sabato e colazioni della domenica. Non è glamour. È proprio questo il punto."
       ],
       "factsLabel": "In breve:",
-      "facts": "Prodotto da Altia (oggi Anora Group). Oltre 10 milioni di litri venduti ogni anno in Finlandia. Il villaggio di Koskenkorva ha circa 1.500 abitanti. La distilleria è una delle più efficienti al mondo, a zero rifiuti, i residui dei cereali nutrono il bestiame."
+      "facts": "Prodotto da Altia (oggi Anora Group). Oltre 10 milioni di litri venduti ogni anno in Finlandia. Il villaggio di Koskenkorva ha circa 1.500 abitanti. La distilleria è una delle più efficienti al mondo, a zero rifiuti, i residui dei cereali nutrono il bestiame.",
+      "quote": "Non è glamour. È proprio questo il punto."
     },
     "finlandia": {
       "title": "Finlandia Vodka, la Finlandia al mondo",
@@ -657,7 +672,8 @@
         "Finlandia è distillata oltre 200 volte in un processo di distillazione continua, non in lotti come la maggior parte dei distillati premium. Il risultato è di una coerenza estrema. Ha vinto degustazioni alla cieca internazionali contro concorrenti molto più costosi. In Finlandia ha ancora un prezzo ragionevole. All'estero indossa le sue credenziali finlandesi come distintivo di qualità premium."
       ],
       "factsLabel": "In breve:",
-      "facts": "Di proprietà di Coca-Cola HBC dal 2023; in precedenza apparteneva a Brown-Forman (la casa madre di Jack Daniel's). Disponibile in oltre 80 paesi. L'iconica bottiglia satinata è sostanzialmente invariata dal 1970. Prodotta nella distilleria di Rajamäki, che produce distillati dal 1888."
+      "facts": "Di proprietà di Coca-Cola HBC dal 2023; in precedenza apparteneva a Brown-Forman (la casa madre di Jack Daniel's). Disponibile in oltre 80 paesi. L'iconica bottiglia satinata è sostanzialmente invariata dal 1970. Prodotta nella distilleria di Rajamäki, che produce distillati dal 1888.",
+      "quote": "La star è l’acqua."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, oro dall'Artico",
@@ -730,7 +746,8 @@
         "4. Si sieda. Non si alzi per almeno due ore.",
         "5. Beva lentamente. Non è una gara.",
         "6. In nessun caso, faccia piani per uscire più tardi."
-      ]
+      ],
+      "book": "Il concetto ha perfino un libro: Kalsarikänni di Miska Rantanen (S&S, 2018), uscito lo stesso anno in inglese come Pantsdrunk per HarperCollins."
     },
     "sauna": {
       "title": "Sauna & sisu, il quadro completo",

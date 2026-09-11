@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Redaktionsempfehlung",
     "knownBeers": "Bekannte Biere",
-    "stylesTitle": "Arktische Bierstile",
-    "stylesSub": "Finnische Mikrobrauer verwenden Zutaten aus derselben Landschaft wie die Köche. Der Waldboden ist genauso wichtig wie die Brauerei.",
     "tours": {
       "kicker": "Touren und Verkostungen",
       "title": "Brauerei- und Esstouren jetzt buchbar",
@@ -601,32 +599,48 @@
         "description": "Rovaniemis eigene Brauerei, im Gewerbegebiet an der Teollisuustie und nicht im Stadtzentrum. Die Biere werden vor Ort gebraut und im Taproom direkt neben den Tanks ausgeschenkt. Die Brauerei bezeichnet sich als Finnlands nördlichste. Die Freitagstouren laufen den ganzen Winter und müssen vorab gebucht werden."
       }
     ],
-    "styles": [
-      {
-        "style": "Arktisches Lager",
-        "desc": "Klar, frisch, mit Gletscherwasser gebraut. Die Basis des finnischen Mikrobrauerei-Biers, täuschend einfach, überraschend gut."
-      },
-      {
-        "style": "Fichtensprossen-Ale",
-        "desc": "Im Frühling gesammelte Fichtensprossen. Harzig-kräuterig, nichts, was aus einer Brauerei im Süden käme. Ein wahrhaftig arktischer Geschmack."
-      },
-      {
-        "style": "Beerenweizen",
-        "desc": "Wilde Preiselbeere oder Moltebeere auf einer Weizenbierbasis. Herb, fruchtig, saisonal, Sie schmecken, woher es kommt."
-      },
-      {
-        "style": "Geräucherter Porter",
-        "desc": "Vollmundig, dunkel, Rauchnote von finnischer Birke. Ein Winterbier für kalte Abende am Kamin. Passt zu Rentier."
-      },
-      {
-        "style": "Roggen-Saison",
-        "desc": "Finnischer Roggen, Grundgetreide der nordischen Esskultur, in einem Saison-Bier belgischer Art. Erdig, würzig, ungewöhnlich."
-      },
-      {
-        "style": "Mitternachtssonne-IPA",
-        "desc": "An den Polartagen im Sommer gebraut. Zitrusbetont, bitter, benannt nach dem Phänomen, das den arktischen Hopfenanbau möglich macht."
-      }
-    ]
+    "realBeers": {
+      "title": "Biere, die hier oben wirklich gebraut werden",
+      "sub": "Jedes Bier unten steht auf der eigenen Produktliste seiner Brauerei. Zwei Brauereien, beide echt: Lapland Brewery in Rovaniemi und Tornion Panimo an der schwedischen Grenze.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner nach böhmischer Art, 4,3 %. Das Alltagsbier im Taproom an der Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale Ale mit einem Hauch Wacholder, 5,5 %, gebraut am Polarkreis."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "Das IPA der Brauerei mit 5,4 %: das hopfige Ende eines Sortiments, das vor allem aus Lagern besteht."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Rauchlager. Loimu ist das finnische Wort für das offene Feuer, neben dem Lachs geflammt wird."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "Das Flaggschiff der Brauerei, die 1.900 Kleinanleger 2016 zurückgeholt haben. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "In Bourbon-Eiche gereifter Imperial Stout, 8,0 %. Routa heißt Bodenfrost; das ist das Winterende der Liste."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Finnische Trinkkultur in Lappland | LaplandBars",
@@ -647,7 +661,8 @@
         "Wie trinken ihn die Finnen? Kalt, pur, aus einem kleinen Glas. Manchmal mit einem Bier-Chaser (die Kombination heißt viina + kalja, das klassische finnische Arbeiterklasse-Paar). In Lappland gibt es ihn in jedem Pub, meist griffbereit direkt an der Theke. Er stand auf finnischen Tischen bei Hochzeiten, Beerdigungen, Saunaabenden am Samstag und Sonntagvormittagen. Er ist nicht glamourös. Das ist der Punkt."
       ],
       "factsLabel": "Schnellfakten:",
-      "facts": "Hersteller Altia (heute Anora Group). Über 10 Millionen Liter werden jährlich in Finnland verkauft. Im Dorf Koskenkorva leben etwa 1.500 Menschen. Die Brennerei ist eine der effizientesten Korn-Brennereien der Welt, ohne Abfall: Die Getreidereste werden ans Vieh verfüttert."
+      "facts": "Hersteller Altia (heute Anora Group). Über 10 Millionen Liter werden jährlich in Finnland verkauft. Im Dorf Koskenkorva leben etwa 1.500 Menschen. Die Brennerei ist eine der effizientesten Korn-Brennereien der Welt, ohne Abfall: Die Getreidereste werden ans Vieh verfüttert.",
+      "quote": "Es ist nicht glamourös. Genau darum geht es."
     },
     "finlandia": {
       "title": "Finlandia Vodka, von Finnland in die Welt",
@@ -657,7 +672,8 @@
         "Finlandia wird über 200-mal in einem kontinuierlichen Destillationsverfahren destilliert, nicht chargenweise wie die meisten Premium-Spirituosen. Das Ergebnis ist extrem gleichbleibend. Er hat internationale Blindverkostungen gegen viel teurere Konkurrenten gewonnen. In Finnland ist er weiterhin erschwinglich. Im Ausland trägt er seine finnische Herkunft als Premium-Qualitätsmerkmal."
       ],
       "factsLabel": "Schnellfakten:",
-      "facts": "Seit 2023 im Besitz von Coca-Cola HBC, davor gehörte die Marke Brown-Forman (Muttergesellschaft von Jack Daniel's). Erhältlich in über 80 Ländern. Das ikonische gefrostete Flaschendesign hat sich seit 1970 kaum verändert. Hergestellt in der Brennerei Rajamäki, die seit 1888 Spirituosen produziert."
+      "facts": "Seit 2023 im Besitz von Coca-Cola HBC, davor gehörte die Marke Brown-Forman (Muttergesellschaft von Jack Daniel's). Erhältlich in über 80 Ländern. Das ikonische gefrostete Flaschendesign hat sich seit 1970 kaum verändert. Hergestellt in der Brennerei Rajamäki, die seit 1888 Spirituosen produziert.",
+      "quote": "Das Wasser ist der Star."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, Gold aus der Arktis",
@@ -730,7 +746,8 @@
         "4. Setzen Sie sich. Stehen Sie mindestens zwei Stunden nicht auf.",
         "5. Trinken Sie langsam. Das ist kein Wettbewerb.",
         "6. Machen Sie unter keinen Umständen Pläne, später noch auszugehen."
-      ]
+      ],
+      "book": "Das Konzept hat sogar ein eigenes Buch: Miska Rantanens Kalsarikänni (S&S, 2018), im selben Jahr auf Englisch als Pantsdrunk bei HarperCollins erschienen."
     },
     "sauna": {
       "title": "Sauna und sisu, das ganze Bild",

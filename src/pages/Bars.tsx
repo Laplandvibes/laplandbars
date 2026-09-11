@@ -28,7 +28,7 @@ export const barImages: Record<string, string> = {
   'Nook Lounge': BARS.lingonberryCocktails,
   'Bull Bar & Grill': BARS.friendsFireplace,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
-  'Kauppayhtiö': BARS.pubLaughter,
+  'Kauppayhtiö': BARS.liveMusicVenue, // pubLaughter on nyt /bars-sivun hero
   'Rovaniemen Oluthuone': BARS.terraceLonkero,
   'MustaKissa Kuppila': BARS.cocktailBerry,
   'Pub Sarvi': BARS.saunaBeer,
@@ -48,7 +48,7 @@ export const barImages: Record<string, string> = {
   'Bar Kaappi': BARS.lonkeroDrink,
   // Saariselkä
   'Gastropub Giitu': BARS.breweryTaps,
-  'Teerenpesä': BARS.snowyVillageStreet,
+  'Teerenpesä': BARS.auroraLogCabins, // snowyVillageStreet sisältää keksityn PUB ÄKÄS -kyltin (muisti 11.7.)
 };
 
 const cityImages: Record<string, string> = {
@@ -90,9 +90,13 @@ export default function Bars() {
       />
       {/* Hero: pb varaa tilan alle limittyvälle lukupalkille */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden pb-24 md:pb-28">
+        {/* Vesa 11.9.2026 heroBarsNight-kuvasta: "ei ole kyllä uskottava tuo
+            mökki, ei sitten yhtään". Tilalla pubLaughter: neljä ihmistä nauramassa
+            takan ääressä hirsipubissa — sama kuva vietiin pois Kauppayhtiön
+            kortista (nyt liveMusicVenue), ettei se toistu samalla sivulla. */}
         <img
-          src={BARS.heroBarsNight}
-          alt="Friends walking through snow toward a warmly lit log pub under a starry Lapland night sky"
+          src={BARS.pubLaughter}
+          alt="Friends laughing over beers by the fireplace in a Lapland log pub"
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -100,7 +104,7 @@ export default function Bars() {
         />
         {/* Keskikohdan 0.42 päästi valaistut mökin ikkunat läpi juuri ingressin
             kohdalla (auditti 4.8.). 0.62 pitää tekstin luettavana. */}
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.82) 0%, rgba(15,23,42,0.70) 50%, rgba(15,23,42,0.40) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('bars.hero.title')}
@@ -213,7 +217,7 @@ export default function Bars() {
                 </div>
 
                 {/* Baarikortit */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 items-start">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
                   {cityBars.map((bar) => (
                     <BarCard
                       key={bar.name}

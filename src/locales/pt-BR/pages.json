@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Cervejaria em destaque",
     "knownBeers": "Cervejas conhecidas",
-    "stylesTitle": "Estilos de cerveja do Ártico",
-    "stylesSub": "Cervejeiros artesanais finlandeses usam ingredientes da mesma paisagem que os chefs. O chão da floresta importa tanto quanto a cervejaria.",
     "tours": {
       "kicker": "Tours e degustações",
       "title": "Tours de cervejaria e gastronomia disponíveis agora",
@@ -601,32 +599,48 @@
         "description": "A cervejaria de Rovaniemi, no distrito industrial da Teollisuustie e não no centro. As cervejas são feitas no local e servidas no taproom, ao lado dos tanques. A cervejaria se descreve como a mais setentrional da Finlândia. As visitas de sexta-feira acontecem durante o inverno e exigem reserva antecipada."
       }
     ],
-    "styles": [
-      {
-        "style": "Lager ártica",
-        "desc": "Limpa, seca, produzida com água glacial do Ártico. A base da cerveja artesanal finlandesa, enganosamente simples, surpreendentemente boa."
-      },
-      {
-        "style": "Spruce Tip Ale",
-        "desc": "Pontas de abeto colhidas na primavera. Resinosa, herbácea, diferente de qualquer coisa que saia de uma cervejaria do sul. Um sabor genuinamente ártico."
-      },
-      {
-        "style": "Witbier de frutinha",
-        "desc": "Mirtilo-vermelho ou amora ártica silvestres adicionados a uma base de witbier. Ácida, frutada e sazonal, dá para sentir de onde veio."
-      },
-      {
-        "style": "Porter defumado",
-        "desc": "Rica, escura, com defumado de madeira de bétula finlandesa. Uma cerveja de inverno para noites frias junto à lareira. Combina bem com rena."
-      },
-      {
-        "style": "Saison de centeio",
-        "desc": "O centeio finlandês, grão básico da cultura gastronômica do norte, usado em uma saison de estilo belga. Terrosa, picante, fora do óbvio."
-      },
-      {
-        "style": "IPA do Sol da Meia-Noite",
-        "desc": "Produzida durante o dia polar, no verão. Cítrica, amarga e batizada em homenagem ao fenômeno que torna o cultivo de lúpulo ártico possível."
-      }
-    ]
+    "realBeers": {
+      "title": "Cervejas que realmente se fazem aqui no norte",
+      "sub": "Cada cerveja abaixo está na lista de produtos da própria cervejaria. Duas cervejarias, ambas reais: Lapland Brewery em Rovaniemi e Tornion Panimo na fronteira com a Suécia.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner de estilo boêmio, 4,3 %. O chope de todo dia na taproom da Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale com um toque de zimbro, 5,5 %, produzida no Círculo Polar Ártico."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "A IPA da cervejaria, 5,4 %: o lado lupulado de uma linha feita sobretudo de lagers."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Lager defumada. Loimu é a palavra finlandesa para o fogo aberto ao lado do qual se assa o salmão."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "O carro-chefe da cervejaria que 1.900 pequenos investidores trouxeram de volta em 2016. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout maturada em carvalho de bourbon, 8,0 %. Routa significa solo congelado: é a ponta invernal da lista."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "A cultura finlandesa da bebida na Lapônia | LaplandBars",
@@ -647,7 +661,8 @@
         "Como os finlandeses bebem? Gelado, puro, num copinho. Às vezes acompanhado de uma cerveja (a combinação chama-se viina + kalja, a dupla clássica da classe trabalhadora finlandesa). Na Lapônia, você encontra em todo pub, em geral no speed rail. Esteve nas mesas finlandesas em casamentos, funerais, saunas de sábado e cafés da manhã de domingo. Não é glamouroso. E esse é o ponto."
       ],
       "factsLabel": "Fatos rápidos:",
-      "facts": "Produzido pela Altia (hoje Anora Group). Mais de 10 milhões de litros vendidos por ano na Finlândia. O vilarejo de Koskenkorva tem cerca de 1.500 habitantes. A destilaria é uma das mais eficientes do mundo em destilação de grãos, com zero resíduo o que sobra do grão alimenta o gado."
+      "facts": "Produzido pela Altia (hoje Anora Group). Mais de 10 milhões de litros vendidos por ano na Finlândia. O vilarejo de Koskenkorva tem cerca de 1.500 habitantes. A destilaria é uma das mais eficientes do mundo em destilação de grãos, com zero resíduo o que sobra do grão alimenta o gado.",
+      "quote": "Não é glamouroso. Esse é o ponto."
     },
     "finlandia": {
       "title": "Finlandia Vodka, a Finlândia para o mundo",
@@ -657,7 +672,8 @@
         "A Finlandia é destilada mais de 200 vezes em um processo de destilação contínua, não em batelada, como a maioria dos destilados premium. O resultado é extremamente consistente. Já ganhou degustações internacionais às cegas contra concorrentes bem mais caros. Na Finlândia, segue com preço razoável. No exterior, ostenta as credenciais finlandesas como selo de qualidade premium."
       ],
       "factsLabel": "Fatos rápidos:",
-      "facts": "Pertence à Coca-Cola HBC desde 2023; antes disso, era da Brown-Forman (dona do Jack Daniel's). Disponível em mais de 80 países. O design icônico da garrafa fosca quase não mudou desde 1970. Produzida na destilaria de Rajamäki, que produz destilados desde 1888."
+      "facts": "Pertence à Coca-Cola HBC desde 2023; antes disso, era da Brown-Forman (dona do Jack Daniel's). Disponível em mais de 80 países. O design icônico da garrafa fosca quase não mudou desde 1970. Produzida na destilaria de Rajamäki, que produz destilados desde 1888.",
+      "quote": "A água é a estrela."
     },
     "lapinKulta": {
       "title": "Lapin Kulta o ouro do Ártico",
@@ -730,7 +746,8 @@
         "4. Sente-se. Não levante por pelo menos duas horas.",
         "5. Beba devagar. Isto não é corrida.",
         "6. Não faça, sob hipótese alguma, planos de sair depois."
-      ]
+      ],
+      "book": "O conceito tem até livro próprio: Kalsarikänni, de Miska Rantanen (S&S, 2018), publicado no mesmo ano em inglês como Pantsdrunk pela HarperCollins."
     },
     "sauna": {
       "title": "Sauna e Sisu o quadro completo",

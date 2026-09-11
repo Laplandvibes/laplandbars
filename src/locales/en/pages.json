@@ -493,8 +493,6 @@
     },
     "featuredKicker": "Featured Brewery",
     "knownBeers": "Known Beers",
-    "stylesTitle": "Arctic Beer Styles",
-    "stylesSub": "Finnish craft brewers use ingredients from the same landscape as the chefs. The forest floor is as important as the brewery.",
     "tours": {
       "kicker": "Tours & tastings",
       "title": "Brewery & food tours bookable now",
@@ -520,32 +518,48 @@
         "description": "Rovaniemi's own brewery, out on the Teollisuustie industrial estate rather than in the town centre. Beers are brewed on site and served in the taproom beside the tanks. The brewery describes itself as Finland's northernmost. Friday tours run through the winter and need booking ahead."
       }
     ],
-    "styles": [
-      {
-        "style": "Arctic Lager",
-        "desc": "Clean, crisp, brewed with glacial Arctic water. The baseline of Finnish craft beer, deceptively simple, surprisingly good."
-      },
-      {
-        "style": "Spruce Tip Ale",
-        "desc": "Foraged spruce tips collected in spring. Resinous, herbal, unlike anything from a southern brewery. A genuinely Arctic flavour."
-      },
-      {
-        "style": "Berry Wheat",
-        "desc": "Wild lingonberry or cloudberry added to a wheat beer base. Tart, fruity, and seasonal, you can taste where it came from."
-      },
-      {
-        "style": "Smoked Porter",
-        "desc": "Rich, dark, with smoke from Finnish birch wood. A winter beer for cold nights by a fire. Pairs well with reindeer."
-      },
-      {
-        "style": "Rye Saison",
-        "desc": "Finnish rye, a staple grain of northern food culture, used in a Belgian-style saison. Earthy, spicy, unusual."
-      },
-      {
-        "style": "Midnight Sun IPA",
-        "desc": "Brewed during the polar day in summer. Citrus-forward, bitter, and named after the phenomenon that makes Arctic hop growing possible."
-      }
-    ]
+    "realBeers": {
+      "title": "Beers actually brewed up here",
+      "sub": "Every beer below is on its brewery’s own product list. Two breweries, both real: Lapland Brewery in Rovaniemi and Tornion Panimo on the Swedish border.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Bohemian-style pilsner, 4.3 %. The everyday pint at the taproom on Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale with a twist of juniper, 5.5 %, brewed at the Arctic Circle."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "The brewery’s IPA at 5.4 %: the hoppy end of a range that is mostly lagers."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Smoked lager. Loimu is the Finnish word for the open flame that salmon is grilled beside."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "The flagship of the brewery that 1,900 small investors brought back in 2016. Lager, 5.2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout aged on bourbon oak, 8.0 %. Routa means ground frost; this is the winter end of the list."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Finnish Drinking Culture in Lapland | LaplandBars",
@@ -566,7 +580,8 @@
         "How do Finns drink it? Cold, straight, from a small glass. Sometimes with a beer chaser (the combination is called a viina + kalja, the classic Finnish working-class pairing). In Lapland, you will find it at every pub, usually on a speed rail. It has been on Finnish tables at weddings, funerals, Saturday saunas and Sunday breakfasts. It is not glamorous. That is the point."
       ],
       "factsLabel": "Quick facts:",
-      "facts": "Produced by Altia (now Anora Group). Over 10 million litres sold annually in Finland. The village of Koskenkorva has a population of ~1,500 people. The distillery is one of the most efficient grain distilleries in the world, producing zero waste, the grain residue feeds livestock."
+      "facts": "Produced by Altia (now Anora Group). Over 10 million litres sold annually in Finland. The village of Koskenkorva has a population of ~1,500 people. The distillery is one of the most efficient grain distilleries in the world, producing zero waste, the grain residue feeds livestock.",
+      "quote": "It is not glamorous. That is the point."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Finland to the World",
@@ -576,7 +591,8 @@
         "Finlandia is distilled over 200 times through a continuous distillation process, not batch-distilled like most premium spirits. The result is extremely consistent. It has won international blind tastings against much more expensive competitors. In Finland, it is still reasonably priced. Abroad, it wears its Finnish credentials as a badge of premium quality."
       ],
       "factsLabel": "Quick facts:",
-      "facts": "Owned by Coca-Cola HBC since 2023; before that it belonged to Brown-Forman (Jack Daniel's parent company). Available in over 80 countries. The iconic frosted bottle design has barely changed since 1970. Produced at the Rajamäki distillery, which has been making spirits since 1888."
+      "facts": "Owned by Coca-Cola HBC since 2023; before that it belonged to Brown-Forman (Jack Daniel's parent company). Available in over 80 countries. The iconic frosted bottle design has barely changed since 1970. Produced at the Rajamäki distillery, which has been making spirits since 1888.",
+      "quote": "The water is the star."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, Gold from the Arctic",
@@ -649,7 +665,8 @@
         "4. Sit down. Do not stand up for at least two hours.",
         "5. Drink slowly. This is not a race.",
         "6. Do not, under any circumstances, make plans to go out later."
-      ]
+      ],
+      "book": "The idea even has its own book: Miska Rantanen’s Kalsarikänni (S&S, 2018), published in English the same year as Pantsdrunk by HarperCollins."
     },
     "sauna": {
       "title": "Sauna & Sisu, The Full Picture",

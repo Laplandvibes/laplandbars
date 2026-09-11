@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Uitgelichte brouwerij",
     "knownBeers": "Bekende bieren",
-    "stylesTitle": "Arctische bierstijlen",
-    "stylesSub": "Finse craft-brouwers gebruiken ingrediënten uit hetzelfde landschap als de kok. De bosbodem is even belangrijk als de brouwerij.",
     "tours": {
       "kicker": "Tours & proeverijen",
       "title": "Brouwerij- en culinaire tours nu te boeken",
@@ -601,32 +599,48 @@
         "description": "De eigen brouwerij van Rovaniemi, op het bedrijventerrein aan de Teollisuustie en niet in het centrum. De bieren worden ter plekke gebrouwen en geschonken in de taproom naast de tanks. De brouwerij noemt zichzelf de noordelijkste van Finland. De rondleidingen op vrijdag lopen de hele winter en moeten vooraf worden geboekt."
       }
     ],
-    "styles": [
-      {
-        "style": "Arctic Lager",
-        "desc": "Helder, fris en gebrouwen met glaciaal arctisch water. De basis van het Finse ambachtelijke bier, ogenschijnlijk eenvoudig, verrassend goed."
-      },
-      {
-        "style": "Spruce Tip Ale",
-        "desc": "Gemaakt met in het voorjaar geplukte sparrentoppen. Harsachtig, kruidig en onvergelijkbaar met wat zuidelijker brouwerijen maken. Een echt arctische smaak."
-      },
-      {
-        "style": "Berry Wheat",
-        "desc": "Wilde vossenbessen of kruipbramen toegevoegd aan een witbier-basis. Frisbitter, fruitig en seizoensgebonden, u proeft waar het vandaan komt."
-      },
-      {
-        "style": "Smoked Porter",
-        "desc": "Vol, donker en met rook van Fins berkenhout. Een winterbier voor koude avonden bij het haardvuur. Past goed bij rendier."
-      },
-      {
-        "style": "Rye Saison",
-        "desc": "Finse rogge, een hoofdgraan in de Noord-Europese keuken, verwerkt in een Belgische saison. Aards, kruidig, ongewoon."
-      },
-      {
-        "style": "Middernachtzon IPA",
-        "desc": "Gebrouwen tijdens de pooldag in de zomer. Citrusachtig, bitter, en vernoemd naar het verschijnsel dat het kweken van arctische hop mogelijk maakt."
-      }
-    ]
+    "realBeers": {
+      "title": "Bieren die hier in het noorden echt worden gebrouwen",
+      "sub": "Elk bier hieronder staat op de eigen productlijst van de brouwerij. Twee brouwerijen, allebei echt: Lapland Brewery in Rovaniemi en Tornion Panimo aan de Zweedse grens.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner in Boheemse stijl, 4,3 %. Het dagelijkse pintje in de taproom aan de Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale met een vleugje jeneverbes, 5,5 %, gebrouwen op de poolcirkel."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "De IPA van de brouwerij, 5,4 %: de hoppige kant van een assortiment dat vooral uit lagers bestaat."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Rooklager. Loimu is het Finse woord voor het open vuur waarnaast zalm wordt geflambeerd."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "Het vlaggenschip van de brouwerij die 1.900 kleine investeerders in 2016 terugbrachten. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout gerijpt op bourboneiken, 8,0 %. Routa betekent bodemvorst; dit is het winterse einde van de lijst."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Finse drinkcultuur in Lapland | LaplandBars",
@@ -647,7 +661,8 @@
         "Hoe drinken Finnen hem? Koud, puur, uit een klein glaasje. Soms met een biertje als chaser (de combinatie heet viina + kalja, het klassieke duo van de Finse arbeidersklasse). In Lapland vindt u hem in elke pub, meestal gewoon in het basisassortiment achter de bar. Koskenkorva heeft op Finse tafels gestaan bij bruiloften, begrafenissen, zaterdagse sauna's en zondagontbijten. Hij is niet glamoureus. Dat is juist het punt."
       ],
       "factsLabel": "Snelle feiten:",
-      "facts": "Geproduceerd door Altia (nu Anora Group). Jaarlijks worden in Finland meer dan 10 miljoen liter verkocht. Het dorp Koskenkorva telt ongeveer 1.500 inwoners. De distilleerderij is een van de efficiëntste graan-distilleerderijen ter wereld en produceert geen afval, het graanresidu dient als veevoer."
+      "facts": "Geproduceerd door Altia (nu Anora Group). Jaarlijks worden in Finland meer dan 10 miljoen liter verkocht. Het dorp Koskenkorva telt ongeveer 1.500 inwoners. De distilleerderij is een van de efficiëntste graan-distilleerderijen ter wereld en produceert geen afval, het graanresidu dient als veevoer.",
+      "quote": "Het is niet glamoureus. Dat is precies het punt."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Finland aan de wereld",
@@ -657,7 +672,8 @@
         "Finlandia wordt meer dan 200 keer gedistilleerd in een continu distillatieproces, niet in batches, zoals de meeste premium-spirits. Het resultaat is uiterst consistent. De wodka heeft internationale blinde proeverijen gewonnen van veel duurdere concurrenten. In Finland is hij nog steeds redelijk geprijsd. In het buitenland draagt hij zijn Finse identiteit als premium-kenmerk."
       ],
       "factsLabel": "Snelle feiten:",
-      "facts": "Sinds 2023 in handen van Coca-Cola HBC; daarvoor was het merk eigendom van Brown-Forman (het moederbedrijf van Jack Daniel's). Verkrijgbaar in meer dan 80 landen. Het iconische matglas-flesontwerp is sinds 1970 nauwelijks veranderd. Geproduceerd in de distilleerderij in Rajamäki, die sinds 1888 sterke drank maakt."
+      "facts": "Sinds 2023 in handen van Coca-Cola HBC; daarvoor was het merk eigendom van Brown-Forman (het moederbedrijf van Jack Daniel's). Verkrijgbaar in meer dan 80 landen. Het iconische matglas-flesontwerp is sinds 1970 nauwelijks veranderd. Geproduceerd in de distilleerderij in Rajamäki, die sinds 1888 sterke drank maakt.",
+      "quote": "Het water is de ster."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, goud uit de poolstreek",
@@ -730,7 +746,8 @@
         "4. Ga zitten. Sta minstens twee uur niet op.",
         "5. Drink rustig. Dit is geen race.",
         "6. Maak in geen geval plannen om later toch nog uit te gaan."
-      ]
+      ],
+      "book": "Het begrip heeft zelfs een eigen boek: Kalsarikänni van Miska Rantanen (S&S, 2018), datzelfde jaar in het Engels verschenen als Pantsdrunk bij HarperCollins."
     },
     "sauna": {
       "title": "Sauna & sisu, het volledige plaatje",

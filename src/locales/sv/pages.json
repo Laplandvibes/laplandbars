@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Utvalt bryggeri",
     "knownBeers": "Kända ölsorter",
-    "stylesTitle": "Arktiska ölstilar",
-    "stylesSub": "Finska hantverksbryggare använder råvaror från samma landskap som kockarna. Skogsbotten är lika viktig som bryggeriet.",
     "tours": {
       "kicker": "Turer och provsmakningar",
       "title": "Bryggeri- och matturer bokningsbara nu",
@@ -601,32 +599,48 @@
         "description": "Rovaniemis eget bryggeri, ute på industriområdet vid Teollisuustie och inte i centrum. Ölen bryggs på plats och serveras i taproomet intill tankarna. Bryggeriet beskriver sig som Finlands nordligaste. Fredagsturerna går hela vintern och måste bokas i förväg."
       }
     ],
-    "styles": [
-      {
-        "style": "Arktisk lager",
-        "desc": "Ren, frisk, bryggd med arktiskt glaciärvatten. Grunden i finsk hantverksöl, till synes enkel, förvånansvärt god."
-      },
-      {
-        "style": "Granskottsale",
-        "desc": "Plockade granskott, insamlade på våren. Kådig, örtig, olik allt från ett sydligt bryggeri. En genuint arktisk smak."
-      },
-      {
-        "style": "Bärveteöl",
-        "desc": "Vilda lingon eller hjortron tillsatta i en veteölsbas. Syrlig, fruktig och säsongsbetonad, du kan smaka var den kommer ifrån."
-      },
-      {
-        "style": "Rökt porter",
-        "desc": "Fyllig, mörk, med rök från finsk björkved. En vinteröl för kalla kvällar vid en brasa. Passar bra till ren."
-      },
-      {
-        "style": "Rågsaison",
-        "desc": "Finsk råg, en basvara i den nordliga matkulturen, använd i en saison i belgisk stil. Jordig, kryddig, ovanlig."
-      },
-      {
-        "style": "Midnattssol-IPA",
-        "desc": "Bryggd under polardagen på sommaren. Citrusframträdande, bitter, uppkallad efter fenomenet som gör arktisk humleodling möjlig."
-      }
-    ]
+    "realBeers": {
+      "title": "Öl som faktiskt bryggs här uppe",
+      "sub": "Varje öl nedan finns på bryggeriets egen produktlista. Två bryggerier, båda verkliga: Lapland Brewery i Rovaniemi och Tornion Panimo vid svenska gränsen.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner i böhmisk stil, 4,3 %. Vardagsölen på taproomen vid Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale med en touch av enbär, 5,5 %, bryggd vid polcirkeln."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "Bryggeriets IPA, 5,4 %: den humlerika änden av ett sortiment som mest är lager."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Röklager. Loimu är finska för den öppna eld som laxen flamgrillas vid."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "Flaggskeppet från bryggeriet som 1 900 småinvesterare tog tillbaka 2016. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout lagrad på bourbonek, 8,0 %. Routa betyder tjäle; det här är listans vinterände."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "Finsk dryckeskultur i Lappland | LaplandBars",
@@ -647,7 +661,8 @@
         "Hur dricker finländare den? Kall, ren, ur ett litet glas. Ibland med en öl att skölja ner med (kombinationen kallas viina + kalja, den klassiska finska arbetarklassduon). I Lappland hittar du den på varje pub, oftast längst fram i baren. Den har funnits på finska bord vid bröllop, begravningar, lördagsbastur och söndagsfrukostar. Den är inte glamorös. Det är hela poängen."
       ],
       "factsLabel": "Snabbfakta:",
-      "facts": "Produceras av Altia (numera Anora Group). Över 10 miljoner liter säljs årligen i Finland. Byn Koskenkorva har omkring 1 500 invånare. Destilleriet är ett av de mest effektiva sädesdestillerierna i världen och ger noll avfall, sädesresterna blir djurfoder."
+      "facts": "Produceras av Altia (numera Anora Group). Över 10 miljoner liter säljs årligen i Finland. Byn Koskenkorva har omkring 1 500 invånare. Destilleriet är ett av de mest effektiva sädesdestillerierna i världen och ger noll avfall, sädesresterna blir djurfoder.",
+      "quote": "Det är inte glamouröst. Det är hela poängen."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Finland till världen",
@@ -657,7 +672,8 @@
         "Finlandia destilleras över 200 gånger genom en kontinuerlig destillationsprocess, inte satsvis som de flesta premiumspritar. Resultatet är extremt jämnt. Den har vunnit internationella blindprovningar mot betydligt dyrare konkurrenter. I Finland är den fortfarande rimligt prissatt. Utomlands bär den sina finska meriter som ett bevis på premiumkvalitet."
       ],
       "factsLabel": "Snabbfakta:",
-      "facts": "Ägs av Coca-Cola HBC sedan 2023; dessförinnan ägdes märket av Brown-Forman (moderbolag till Jack Daniel's). Finns i över 80 länder. Den ikoniska frostade flaskdesignen har knappt ändrats sedan 1970. Tillverkas vid destilleriet i Rajamäki, som gjort sprit sedan 1888."
+      "facts": "Ägs av Coca-Cola HBC sedan 2023; dessförinnan ägdes märket av Brown-Forman (moderbolag till Jack Daniel's). Finns i över 80 länder. Den ikoniska frostade flaskdesignen har knappt ändrats sedan 1970. Tillverkas vid destilleriet i Rajamäki, som gjort sprit sedan 1888.",
+      "quote": "Vattnet är stjärnan."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, guld från Arktis",
@@ -730,7 +746,8 @@
         "4. Sätt dig. Res dig inte på minst två timmar.",
         "5. Drick långsamt. Det här är ingen tävling.",
         "6. Gör absolut inga planer på att gå ut senare."
-      ]
+      ],
+      "book": "Begreppet har till och med en egen bok: Miska Rantanens Kalsarikänni (S&S, 2018), som samma år gavs ut på engelska som Pantsdrunk av HarperCollins."
     },
     "sauna": {
       "title": "Bastu och sisu, hela bilden",

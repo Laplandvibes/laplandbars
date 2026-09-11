@@ -574,8 +574,6 @@
     },
     "featuredKicker": "精选酒厂",
     "knownBeers": "知名啤酒",
-    "stylesTitle": "北极啤酒风格",
-    "stylesSub": "芬兰精酿啤酒师与厨师取材自同一片土地。森林地表与酒厂同等重要。",
     "tours": {
       "kicker": "参观与品鉴",
       "title": "酒厂与美食之旅，现在即可预订",
@@ -601,32 +599,48 @@
         "description": "罗瓦涅米本地的酒厂，位于Teollisuustie工业区而不是市中心。啤酒在厂内酿造，就在酒罐旁的品酒室里供应。酒厂称自己是芬兰最北的酒厂。周五的参观全冬开放，需要提前预约。"
       }
     ],
-    "styles": [
-      {
-        "style": "北极拉格",
-        "desc": "纯净、清爽，以冰川般的北极水酿造。芬兰精酿啤酒的基准，看似简单，实则惊艳。"
-      },
-      {
-        "style": "云杉嫩芽艾尔",
-        "desc": "采用春天采集的云杉嫩芽。带松脂与药草的气息，与南方酒厂任何出品都不一样。一种真正的北极风味。"
-      },
-      {
-        "style": "浆果小麦",
-        "desc": "在小麦啤酒基底中加入野生越橘或云莓。酸甜、果香、应季，能尝出它来自哪里。"
-      },
-      {
-        "style": "烟熏波特",
-        "desc": "醇厚、深色，带着芬兰桦木的烟熏气息。是为火堆旁寒冷夜晚而生的冬日啤酒。与驯鹿肉相得益彰。"
-      },
-      {
-        "style": "黑麦 Saison",
-        "desc": "把芬兰黑麦，北方饮食文化的主粮之一，用在比利时风格的 Saison 里。带土壤气息、香料感，与众不同。"
-      },
-      {
-        "style": "午夜阳光 IPA",
-        "desc": "在夏季极昼期间酿造。柑橘前调、苦感明显，名字取自让北极啤酒花种植成为可能的现象。"
-      }
-    ]
+    "realBeers": {
+      "title": "北方这里真正酿造的啤酒",
+      "sub": "下面每一款啤酒都在其酒厂自己的产品列表上。两家酒厂，都是真实存在的：罗瓦涅米的 Lapland Brewery 和瑞典边境的 Tornion Panimo。",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "波希米亚风格皮尔森，4.3%。Teollisuustie 酒厂直营酒馆的日常一杯。"
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "带一丝杜松子味的淡色艾尔，5.5%，在北极圈酿造。"
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "酒厂的 IPA，5.4%：以拉格为主的产品线中偏酒花的一端。"
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "烟熏拉格。Loimu 是芬兰语，指烤三文鱼时旁边的明火。"
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "这家酒厂在 2016 年由 1,900 名小投资者重新救活，这是它的旗舰款。拉格，5.2%。"
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "波本橡木桶陈酿的帝国世涛，8.0%。Routa 意为冻土，是这份清单的冬季一端。"
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "芬兰人在拉普兰的饮酒文化 | LaplandBars",
@@ -647,7 +661,8 @@
         "芬兰人怎么喝？冰镇、纯饮、用小杯。有时配一支啤酒（这个组合叫 viina + kalja，经典的芬兰工人阶级配对）。在拉普兰，每家酒馆都有它，通常就放在常用酒架上。芬兰人在婚礼、葬礼、周六的桑拿和周日的早餐桌上都喝过它。它并不光鲜。这正是重点。"
       ],
       "factsLabel": "速览要点：",
-      "facts": "由 Altia（现为 Anora Group）生产。在芬兰每年销售超过 1000 万升。Koskenkorva 村人口约 1,500 人。其蒸馏厂是世界上最高效的粮食蒸馏厂之一，实现零废弃，谷物残渣用于饲料。"
+      "facts": "由 Altia（现为 Anora Group）生产。在芬兰每年销售超过 1000 万升。Koskenkorva 村人口约 1,500 人。其蒸馏厂是世界上最高效的粮食蒸馏厂之一，实现零废弃，谷物残渣用于饲料。",
+      "quote": "它并不光鲜。这正是重点。"
     },
     "finlandia": {
       "title": "Finlandia 伏特加，芬兰献给世界",
@@ -657,7 +672,8 @@
         "Finlandia 通过连续蒸馏工艺被蒸馏 200 次以上，而不是大多数高端烈酒采用的分批蒸馏。结果稳定得惊人。在国际盲品中，它击败过比自己昂贵许多的对手。在芬兰，它价格仍然合理。在国外，它带着芬兰身份的徽章，成为高端品质的标志。"
       ],
       "factsLabel": "速览要点：",
-      "facts": "2023 年起归可口可乐 HBC(Coca-Cola HBC)所有，此前归 Brown-Forman（Jack Daniel's 的母公司）所有。在 80 多个国家发售。标志性的磨砂酒瓶设计自 1970 年起几乎未变。生产于自 1888 年起就酿造烈酒的 Rajamäki 蒸馏厂。"
+      "facts": "2023 年起归可口可乐 HBC(Coca-Cola HBC)所有，此前归 Brown-Forman（Jack Daniel's 的母公司）所有。在 80 多个国家发售。标志性的磨砂酒瓶设计自 1970 年起几乎未变。生产于自 1888 年起就酿造烈酒的 Rajamäki 蒸馏厂。",
+      "quote": "主角是水。"
     },
     "lapinKulta": {
       "title": "Lapin Kulta，来自北极的黄金",
@@ -730,7 +746,8 @@
         "4. 坐下。至少两小时不要起身。",
         "5. 慢慢喝。这不是比赛。",
         "6. 在任何情况下，都不要再安排今晚出门。"
-      ]
+      ],
+      "book": "这个概念甚至有一本专门的书：米斯卡·兰塔宁的《Kalsarikänni》（S&S，2018），同年由哈珀柯林斯出版英文版《Pantsdrunk》。"
     },
     "sauna": {
       "title": "桑拿与 Sisu，完整图景",

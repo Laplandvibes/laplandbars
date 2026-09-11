@@ -574,8 +574,6 @@
     },
     "featuredKicker": "Cervecería destacada",
     "knownBeers": "Cervezas conocidas",
-    "stylesTitle": "Estilos de cerveza ártica",
-    "stylesSub": "Los cerveceros artesanales finlandeses usan ingredientes del mismo paisaje que los cocineros. El suelo del bosque es tan importante como la cervecería.",
     "tours": {
       "kicker": "Tours y degustaciones",
       "title": "Visitas a cervecerías y tours gastronómicos reservables ya",
@@ -601,32 +599,48 @@
         "description": "La cervecería propia de Rovaniemi, en el polígono industrial de Teollisuustie y no en el centro. Las cervezas se elaboran allí mismo y se sirven en el taproom, junto a los tanques. La cervecería se describe como la más septentrional de Finlandia. Las visitas de los viernes funcionan durante el invierno y hay que reservarlas con antelación."
       }
     ],
-    "styles": [
-      {
-        "style": "Lager ártica",
-        "desc": "Limpia, fresca, elaborada con agua glaciar ártica. La base de la cerveza artesanal finlandesa: aparentemente sencilla, sorprendentemente buena."
-      },
-      {
-        "style": "Ale de punta de pícea",
-        "desc": "Puntas de pícea recolectadas en primavera. Resinosa, herbácea, nada que ver con una cervecería del sur. Un sabor genuinamente ártico."
-      },
-      {
-        "style": "Cerveza de trigo con baya",
-        "desc": "Arándano rojo silvestre o mora ártica añadidos sobre una base de trigo. Ácida, afrutada y de temporada: notas de dónde viene."
-      },
-      {
-        "style": "Porter ahumado",
-        "desc": "Densa, oscura, con un ahumado a abedul finlandés. Una cerveza de invierno para noches frías junto al fuego. Marida bien con reno."
-      },
-      {
-        "style": "Saison de centeno",
-        "desc": "Centeno finlandés, grano básico de la cultura gastronómica del norte, usado en una saison de estilo belga. Terroso, especiado, inusual."
-      },
-      {
-        "style": "IPA Sol de Medianoche",
-        "desc": "Elaborada durante el día polar, en verano. Cítrica, amarga, bautizada con el nombre del fenómeno que hace posible cultivar lúpulo en el Ártico."
-      }
-    ]
+    "realBeers": {
+      "title": "Cervezas que de verdad se elaboran aquí arriba",
+      "sub": "Cada cerveza de abajo figura en la lista de productos de su propia cervecería. Dos cervecerías, ambas reales: Lapland Brewery en Rovaniemi y Tornion Panimo en la frontera sueca.",
+      "items": [
+        {
+          "name": "Hippu Lapland Golden Pilsner",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "4,3 %",
+          "desc": "Pilsner de estilo bohemio, 4,3 %. La pinta de diario en la taproom de Teollisuustie."
+        },
+        {
+          "name": "Saana Lapland Pale Ale",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,5 %",
+          "desc": "Pale ale con un toque de enebro, 5,5 %, elaborada en el Círculo Polar Ártico."
+        },
+        {
+          "name": "Hölmö IPA",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "5,4 %",
+          "desc": "La IPA de la cervecería, 5,4 %: el lado lupulado de una gama compuesta sobre todo por lagers."
+        },
+        {
+          "name": "Loimu Savulager",
+          "brewery": "Lapland Brewery · Rovaniemi",
+          "abv": "",
+          "desc": "Lager ahumada. Loimu es la palabra finlandesa para el fuego abierto junto al que se flamea el salmón."
+        },
+        {
+          "name": "Lapland Original Lager",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "5,2 %",
+          "desc": "La insignia de la cervecería que 1.900 pequeños inversores recuperaron en 2016. Lager, 5,2 %."
+        },
+        {
+          "name": "Routa Imperial Stout Bourbon Oaked",
+          "brewery": "Tornion Panimo · Tornio",
+          "abv": "8,0 %",
+          "desc": "Imperial stout madurada en roble de bourbon, 8,0 %. Routa significa suelo helado: es el extremo invernal de la lista."
+        }
+      ]
+    }
   },
   "drinkingCulture": {
     "title": "La cultura finlandesa de la bebida en Laponia | LaplandBars",
@@ -647,7 +661,8 @@
         "¿Cómo lo beben los finlandeses? Frío, solo, en un vaso pequeño. A veces con cerveza de acompañamiento (la combinación se llama viina + kalja, el clásico maridaje obrero finlandés). En Laponia lo encuentra en cada pub, normalmente en el speed rail. Ha estado en las mesas finlandesas en bodas, funerales, saunas del sábado y desayunos del domingo. No es glamuroso. Esa es la gracia."
       ],
       "factsLabel": "Datos rápidos:",
-      "facts": "Lo produce Altia (hoy Anora Group). Se venden más de 10 millones de litros al año en Finlandia. El pueblo de Koskenkorva tiene unos 1.500 habitantes. La destilería es una de las más eficientes del mundo en cereales: cero residuos, el remanente del grano alimenta al ganado."
+      "facts": "Lo produce Altia (hoy Anora Group). Se venden más de 10 millones de litros al año en Finlandia. El pueblo de Koskenkorva tiene unos 1.500 habitantes. La destilería es una de las más eficientes del mundo en cereales: cero residuos, el remanente del grano alimenta al ganado.",
+      "quote": "No es glamuroso. De eso se trata."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Finlandia al mundo",
@@ -657,7 +672,8 @@
         "Finlandia se destila más de 200 veces mediante un proceso continuo, no por lotes como la mayoría de premium. El resultado es extremadamente constante. Ha ganado catas a ciegas internacionales frente a competidores mucho más caros. En Finlandia sigue teniendo un precio razonable. Fuera, presume de credenciales finlandesas como sello de calidad premium."
       ],
       "factsLabel": "Datos rápidos:",
-      "facts": "Propiedad de Coca-Cola HBC desde 2023; antes pertenecía a Brown-Forman (matriz de Jack Daniel's). Disponible en más de 80 países. El icónico diseño de botella esmerilada apenas ha cambiado desde 1970. Se produce en la destilería de Rajamäki, que elabora destilados desde 1888."
+      "facts": "Propiedad de Coca-Cola HBC desde 2023; antes pertenecía a Brown-Forman (matriz de Jack Daniel's). Disponible en más de 80 países. El icónico diseño de botella esmerilada apenas ha cambiado desde 1970. Se produce en la destilería de Rajamäki, que elabora destilados desde 1888.",
+      "quote": "El agua es la estrella."
     },
     "lapinKulta": {
       "title": "Lapin Kulta, oro del Ártico",
@@ -730,7 +746,8 @@
         "4. Siéntese. No se levante durante al menos dos horas.",
         "5. Beba despacio. Esto no es una carrera.",
         "6. Bajo ninguna circunstancia haga planes para salir más tarde."
-      ]
+      ],
+      "book": "El concepto tiene hasta su propio libro: Kalsarikänni, de Miska Rantanen (S&S, 2018), publicado ese mismo año en inglés como Pantsdrunk por HarperCollins."
     },
     "sauna": {
       "title": "Sauna y sisu, el cuadro completo",

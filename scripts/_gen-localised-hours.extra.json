@@ -1,13 +1,29 @@
 {
   "-5°C inside": {
-    "fi": "-5 °C sisällä", "de": "-5 °C innen", "sv": "-5 °C inomhus", "fr": "-5 °C à l’intérieur",
-    "it": "-5 °C all’interno", "nl": "-5 °C binnen", "es": "-5 °C en el interior", "pt-BR": "-5 °C no interior",
-    "ja": "室内 -5°C", "ko": "실내 -5°C", "zh-CN": "室内 -5°C"
+    "fi": "-5 °C sisällä",
+    "de": "-5 °C innen",
+    "sv": "-5 °C inomhus",
+    "fr": "-5 °C à l’intérieur",
+    "it": "-5 °C all’interno",
+    "nl": "-5 °C binnen",
+    "es": "-5 °C en el interior",
+    "pt-BR": "-5 °C no interior",
+    "ja": "室内 -5°C",
+    "ko": "실내 -5°C",
+    "zh-CN": "室内 -5°C"
   },
   "Outdoors / covered": {
-    "fi": "Ulkona / katettu", "de": "Im Freien / überdacht", "sv": "Utomhus / under tak", "fr": "En extérieur / couvert",
-    "it": "All’aperto / al coperto", "nl": "Buiten / overdekt", "es": "Al aire libre / cubierto", "pt-BR": "Ao ar livre / coberto",
-    "ja": "屋外／屋根付き", "ko": "야외 / 지붕 있음", "zh-CN": "户外/有顶棚"
+    "fi": "Ulkona / katettu",
+    "de": "Im Freien / überdacht",
+    "sv": "Utomhus / under tak",
+    "fr": "En extérieur / couvert",
+    "it": "All’aperto / al coperto",
+    "nl": "Buiten / overdekt",
+    "es": "Al aire libre / cubierto",
+    "pt-BR": "Ao ar livre / coberto",
+    "ja": "屋外／屋根付き",
+    "ko": "야외 / 지붕 있음",
+    "zh-CN": "户外/有顶棚"
   },
   "Exhibition ticket incl. a drink in an ice glass. Prices on venue site": {
     "fi": "Näyttelylippu sis. juoman jäälasissa. Hinnat kohteen sivulla",
@@ -23,23 +39,55 @@
     "zh-CN": "展览门票含一杯冰杯饮品。价格见官网"
   },
   "Opens Dec 25, 2026 (rebuilt every autumn)": {
-    "fi": "Avautuu 25.12.2026 (rakennetaan uudelleen joka syksy)", "de": "Öffnet am 25.12.2026 (jeden Herbst neu gebaut)",
-    "sv": "Öppnar 25 dec 2026 (byggs om varje höst)", "fr": "Ouverture le 25 déc. 2026 (reconstruit chaque automne)",
-    "it": "Apre il 25 dic 2026 (ricostruito ogni autunno)", "nl": "Opent 25 dec 2026 (elke herfst opnieuw gebouwd)",
-    "es": "Abre el 25 dic 2026 (se reconstruye cada otoño)", "pt-BR": "Abre em 25 dez 2026 (reconstruído todo outono)",
-    "ja": "2026年12月25日オープン（毎年秋に再建）", "ko": "2026년 12월 25일 개장 (매년 가을 재건축)", "zh-CN": "2026 年 12 月 25 日开放（每年秋季重建）"
+    "fi": "Avautuu 25.12.2026 (rakennetaan uudelleen joka syksy)",
+    "de": "Öffnet am 25.12.2026 (jeden Herbst neu gebaut)",
+    "sv": "Öppnar 25 dec 2026 (byggs om varje höst)",
+    "fr": "Ouverture le 25 déc. 2026 (reconstruit chaque automne)",
+    "it": "Apre il 25 dic 2026 (ricostruito ogni autunno)",
+    "nl": "Opent 25 dec 2026 (elke herfst opnieuw gebouwd)",
+    "es": "Abre el 25 dic 2026 (se reconstruye cada otoño)",
+    "pt-BR": "Abre em 25 dez 2026 (reconstruído todo outono)",
+    "ja": "2026年12月25日オープン（毎年秋に再建）",
+    "ko": "2026년 12월 25일 개장 (매년 가을 재건축)",
+    "zh-CN": "2026 年 12 月 25 日开放（每年秋季重建）"
   },
   "Snowman World entry €35. Ice Bar drinks separately": {
-    "fi": "Snowman World -sisäänpääsy 35 €. Jääbaarin juomat erikseen", "de": "Snowman World Eintritt 35 €. Drinks an der Eisbar extra",
-    "sv": "Snowman World entré 35 €. Drinkar i isbaren tillkommer", "fr": "Entrée Snowman World 35 €. Boissons du bar de glace en sus",
-    "it": "Ingresso Snowman World 35 €. Drink dell’ice bar a parte", "nl": "Snowman World entree €35. Drankjes in de ijsbar apart",
-    "es": "Entrada a Snowman World 35 €. Bebidas del bar de hielo aparte", "pt-BR": "Entrada no Snowman World 35 €. Bebidas do bar de gelo à parte",
-    "ja": "Snowman World 入場 35€。アイスバーのドリンクは別料金", "ko": "Snowman World 입장 35€. 아이스 바 음료 별도", "zh-CN": "Snowman World 门票 35 €。冰吧饮品另计"
+    "fi": "Snowman World -sisäänpääsy 35 €. Jääbaarin juomat erikseen",
+    "de": "Snowman World Eintritt 35 €. Drinks an der Eisbar extra",
+    "sv": "Snowman World entré 35 €. Drinkar i isbaren tillkommer",
+    "fr": "Entrée Snowman World 35 €. Boissons du bar de glace en sus",
+    "it": "Ingresso Snowman World 35 €. Drink dell’ice bar a parte",
+    "nl": "Snowman World entree €35. Drankjes in de ijsbar apart",
+    "es": "Entrada a Snowman World 35 €. Bebidas del bar de hielo aparte",
+    "pt-BR": "Entrada no Snowman World 35 €. Bebidas do bar de gelo à parte",
+    "ja": "Snowman World 入場 35€。アイスバーのドリンクは別料金",
+    "ko": "Snowman World 입장 35€. 아이스 바 음료 별도",
+    "zh-CN": "Snowman World 门票 35 €。冰吧饮品另计"
   },
   "Dec 6, 2026 – Mar 17, 2027": {
-    "fi": "6.12.2026–17.3.2027", "de": "6. Dez. 2026 – 17. März 2027", "sv": "6 dec 2026 – 17 mars 2027",
-    "fr": "6 déc. 2026 – 17 mars 2027", "it": "6 dic 2026 – 17 mar 2027", "nl": "6 dec 2026 – 17 mrt 2027",
-    "es": "6 dic 2026 – 17 mar 2027", "pt-BR": "6 dez 2026 – 17 mar 2027",
-    "ja": "2026年12月6日〜2027年3月17日", "ko": "2026년 12월 6일 – 2027년 3월 17일", "zh-CN": "2026 年 12 月 6 日–2027 年 3 月 17 日"
+    "fi": "6.12.2026–17.3.2027",
+    "de": "6. Dez. 2026 – 17. März 2027",
+    "sv": "6 dec 2026 – 17 mars 2027",
+    "fr": "6 déc. 2026 – 17 mars 2027",
+    "it": "6 dic 2026 – 17 mar 2027",
+    "nl": "6 dec 2026 – 17 mrt 2027",
+    "es": "6 dic 2026 – 17 mar 2027",
+    "pt-BR": "6 dez 2026 – 17 mar 2027",
+    "ja": "2026年12月6日〜2027年3月17日",
+    "ko": "2026년 12월 6일 – 2027년 3월 17일",
+    "zh-CN": "2026 年 12 月 6 日–2027 年 3 月 17 日"
+  },
+  "SnowHotel ticket needed; guests free": {
+    "fi": "Snowhotel-lippu; yöpyjille ilmainen",
+    "de": "Snowhotel-Ticket nötig; Gäste frei",
+    "sv": "Snowhotel-biljett krävs; gäster gratis",
+    "fr": "Billet Snowhotel requis, hôtes gratuits",
+    "it": "Biglietto Snowhotel; ospiti gratis",
+    "nl": "Snowhotel-ticket nodig; gasten gratis",
+    "es": "Entrada Snowhotel; huéspedes gratis",
+    "pt-BR": "Ingresso Snowhotel; hóspedes grátis",
+    "ja": "Snowhotel入場券が必要、宿泊客は無料",
+    "ko": "Snowhotel 입장권 필요, 투숙객 무료",
+    "zh-CN": "需 Snowhotel 门票，住店客人免费"
   }
 }
