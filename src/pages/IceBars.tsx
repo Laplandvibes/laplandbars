@@ -70,11 +70,11 @@ export default function IceBars() {
       </section>
 
       {/* Ice bar listings */}
-      <section className="lv-depth py-8 pb-20">
+      <section className="bar-depth py-8 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Featured image left */}
-            <div className="lv-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
+            <div className="bar-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
               <img
                 src={BARS.iceBarTunnel}
                 alt="Ice bar tunnel"
@@ -84,7 +84,7 @@ export default function IceBars() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
-            <div className="lv-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
+            <div className="bar-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
               <img
                 src={BARS.iceBarDrinks}
                 alt="Drinks on ice bar counter"
@@ -104,7 +104,7 @@ export default function IceBars() {
               return (
                 <div
                   key={bar.name}
-                  className="lv-card lv-card-hover p-7"
+                  className="bar-card bar-card-hover p-7"
                 >
                   <div className="flex items-center gap-2 text-ice text-xs uppercase tracking-widest mb-4">
                     <Snowflake size={14} />
@@ -207,7 +207,7 @@ export default function IceBars() {
           </p>
 
           {/* Lodging-first band — snow suites are a Lapland icon */}
-          <div className="lv-card mt-12 bg-gradient-to-br from-ice/[0.06] via-night/0 to-amber/[0.04] p-8 sm:p-10">
+          <div className="bar-card mt-12 bg-gradient-to-br from-ice/[0.06] via-night/0 to-amber/[0.04] p-8 sm:p-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
               <div className="md:col-span-2">
                 <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/15 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-3">
@@ -252,7 +252,7 @@ export default function IceBars() {
           <h2 className="font-heading text-3xl text-white tracking-wide mb-8 text-center">{t('iceBars.expect.title')}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
             {expectItems.map((item) => (
-              <div key={item.title} className="lv-card p-6">
+              <div key={item.title} className="bar-card p-6">
                 <h3 className="font-heading text-lg text-ice tracking-wide mb-2">{item.title}</h3>
                 <p className="text-sm text-white/80 leading-relaxed text-pretty">{item.body}</p>
               </div>

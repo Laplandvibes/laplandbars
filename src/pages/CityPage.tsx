@@ -185,7 +185,7 @@ export default function CityPage() {
       )}
 
       {/* Baarit */}
-      <section className="lv-depth pb-20 pt-4">
+      <section className="bar-depth pb-20 pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl sm:text-4xl tracking-wide text-white mb-8">{countLabel}</h2>
           <div className="grid gap-8 lg:gap-10 sm:grid-cols-2 lg:grid-cols-3 items-start">

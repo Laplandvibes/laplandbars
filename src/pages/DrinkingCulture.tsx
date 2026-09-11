@@ -73,11 +73,11 @@ export default function DrinkingCulture() {
       <section className="pb-16 bg-night">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
-            <div className="lv-card relative overflow-hidden h-64 sm:h-80">
+            <div className="bar-card relative overflow-hidden h-64 sm:h-80">
               <img src={BARS.pubLaughter} alt="Friends laughing over beers in a cozy Lapland log pub" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
             </div>
-            <div className="lv-card relative overflow-hidden h-64 sm:h-80">
+            <div className="bar-card relative overflow-hidden h-64 sm:h-80">
               <img src={BARS.terraceLonkero} alt="Friends toasting with long drinks on a summer terrace under the midnight sun" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
             </div>
@@ -98,7 +98,7 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {kossuBody.map((p, i) => <p key={i}>{p}</p>)}
-              <div className="lv-card p-6">
+              <div className="bar-card p-6">
                 <p className="text-sm text-white/75">
                   <span className="text-amber font-medium">{t('drinkingCulture.kossu.factsLabel')}</span>{' '}
                   {t('drinkingCulture.kossu.facts')}
@@ -117,7 +117,7 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {finlandiaBody.map((p, i) => <p key={i}>{p}</p>)}
-              <div className="lv-card p-6">
+              <div className="bar-card p-6">
                 <p className="text-sm text-white/75">
                   <span className="text-amber font-medium">{t('drinkingCulture.finlandia.factsLabel')}</span>{' '}
                   {t('drinkingCulture.finlandia.facts')}
@@ -136,7 +136,7 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {lapinKultaBody.map((p, i) => <p key={i}>{p}</p>)}
-              <div className="lv-card p-6 sm:p-7">
+              <div className="bar-card p-6 sm:p-7">
                 <p className="font-heading text-xl text-amber tracking-wide mb-4">
                   {t('drinkingCulture.lapinKulta.priceTitle')}
                 </p>
@@ -155,7 +155,7 @@ export default function DrinkingCulture() {
                   {t('drinkingCulture.lapinKulta.priceFootnote')}
                 </p>
               </div>
-              <div className="lv-card p-6">
+              <div className="bar-card p-6">
                 <p className="text-sm text-white/75">
                   <span className="text-amber font-medium">{t('drinkingCulture.lapinKulta.otherLabel')}</span>{' '}
                   {t('drinkingCulture.lapinKulta.other')}
@@ -176,7 +176,7 @@ export default function DrinkingCulture() {
               {lonkeroBody.map((p, i) => <p key={i}>{p}</p>)}
 
               {/* Hartwall Original Long Drink — the drink that started the category */}
-              <div className="lv-card overflow-hidden !mt-6">
+              <div className="bar-card overflow-hidden !mt-6">
                 {/* Lead: the poured long drink */}
                 <div className="relative h-56 sm:h-72">
                   <img
@@ -254,11 +254,11 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {kalsariBody.map((p, i) => <p key={i}>{p}</p>)}
-              <div className="lv-card relative overflow-hidden h-64 sm:h-80 !mt-6">
+              <div className="bar-card relative overflow-hidden h-64 sm:h-80 !mt-6">
                 <img src={BARS.kalsarikannitSofa} alt="Kalsarikännit: relaxing at home on the sofa with a beer, snow falling outside" loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
               </div>
-              <div className="lv-card p-6 sm:p-7">
+              <div className="bar-card p-6 sm:p-7">
                 <p className="font-heading text-xl text-amber tracking-wide mb-3">
                   {t('drinkingCulture.kalsarikannit.rulesTitle')}
                 </p>
@@ -279,7 +279,7 @@ export default function DrinkingCulture() {
             </div>
             <div className="space-y-4 text-white/80 leading-relaxed">
               {saunaBody.map((p, i) => <p key={i}>{p}</p>)}
-              <div className="lv-card relative overflow-hidden h-64 sm:h-80 !mt-6">
+              <div className="bar-card relative overflow-hidden h-64 sm:h-80 !mt-6">
                 <img src={BARS.saunaBeer} alt="Cooling off on the sauna porch with a cold beer at dusk" loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-t from-night/50 to-transparent" />
               </div>

@@ -151,7 +151,7 @@ export default function Home() {
       <MainPartnerBanner config={AD_SLOTS} locale={locale} className="bg-night" />
 
       {/* Featured bars */}
-      <section className="lv-depth py-20 px-4 sm:px-6 lg:px-8">
+      <section className="bar-depth py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-14">
             <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
@@ -171,7 +171,7 @@ export default function Home() {
                 <Link
                   key={bar.name}
                   to={to('/bars')}
-                  className="lv-card lv-card-hover group overflow-hidden flex flex-col no-underline"
+                  className="bar-card bar-card-hover group overflow-hidden flex flex-col no-underline"
                 >
                   {/* Image */}
                   <div className="relative h-52 overflow-hidden shrink-0">
@@ -250,7 +250,7 @@ export default function Home() {
                 <Link
                   key={meta.to}
                   to={to(meta.to)}
-                  className="lv-card lv-card-hover group relative overflow-hidden h-96 no-underline block"
+                  className="bar-card bar-card-hover group relative overflow-hidden h-96 no-underline block"
                 >
                   <img
                     src={meta.image}
@@ -352,7 +352,7 @@ export default function Home() {
                 partner="hotels"
                 sid={d.sid}
                 destination={`${d.cityKey === 'Ylläs' ? 'Äkäslompolo' : d.cityKey}, Finland`}
-                className="lv-card lv-card-hover group p-6 no-underline flex flex-col"
+                className="bar-card bar-card-hover group p-6 no-underline flex flex-col"
               >
                 <div className="flex items-center gap-2 text-amber/80 group-hover:text-amber text-xs uppercase tracking-widest mb-3 transition-colors">
                   <MapPin size={12} />
@@ -409,7 +409,7 @@ export default function Home() {
             {faqItems.map((f, faqIndex) => (
               <details
                 key={f.q}
-                className="lv-card group px-5 sm:px-6 py-4"
+                className="bar-card group px-5 sm:px-6 py-4"
               >
                 <summary className="flex items-center justify-between gap-4 cursor-pointer list-none font-heading text-xl sm:text-2xl text-white tracking-wide group-open:text-amber transition-colors">
                   {f.q}
@@ -456,7 +456,7 @@ export default function Home() {
                 href={link.href}
                 target="_blank"
                 rel="noopener"
-                className="lv-card lv-card-hover group p-6 no-underline flex flex-col"
+                className="bar-card bar-card-hover group p-6 no-underline flex flex-col"
               >
                 <div className="flex items-start justify-between gap-3 mb-2">
                   <h3 className="font-heading text-2xl text-white tracking-wide group-hover:text-amber transition-colors">

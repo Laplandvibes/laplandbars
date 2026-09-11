@@ -145,9 +145,13 @@
    enemmän, luksuksen näköistä" · "lähtisin vähän rikkoon tätä sivun tummuutta".
    Jämäkkyys syntyy TERÄVÄSTÄ lähivarjosta — yksi pehmeä varjo lukee sumeana.
    Pohjaväri ei muutu (brändisääntö): rikotaan litteys, ei tummuutta.
-   Yksi luokka, jotta kortit pysyvät identtisinä joka sivulla. */
+   Yksi luokka, jotta kortit pysyvät identtisinä joka sivulla.
+   🔴 Etuliite on bar-, EI lv-: jaettu CookieBanner omistaa jo .lv-card-luokan
+   (330 px lippukortti, aspect-ratio 18/11) ja se leikkasi baarikortit 202 px
+   korkeiksi livenä 11.9.2026. Paikallinen tarkistus ei nähnyt sitä, koska
+   suostumus oli hyväksytty ennalta eikä banneri (ja sen <style>) mountannut. */
 @layer components {
-  .lv-card {
+  .bar-card {
     border-radius: 1.5rem;
     background-color: color-mix(in srgb, var(--color-night-light) 62%, var(--color-night));
     box-shadow:
@@ -157,7 +161,7 @@
       0 40px 72px -32px rgba(0, 0, 0, 0.70);
     transition: transform 500ms cubic-bezier(0.22, 1, 0.36, 1), box-shadow 500ms cubic-bezier(0.22, 1, 0.36, 1);
   }
-  .lv-card-hover:hover {
+  .bar-card-hover:hover {
     transform: translateY(-4px);
     box-shadow:
       0 0 0 1px rgba(245, 158, 11, 0.35),
@@ -165,7 +169,7 @@
       0 20px 38px -12px rgba(0, 0, 0, 0.68),
       0 56px 96px -36px rgba(0, 0, 0, 0.78);
   }
-  .lv-card-featured {
+  .bar-card-featured {
     box-shadow:
       0 0 0 1px rgba(245, 158, 11, 0.40),
       0 1px 2px rgba(0, 0, 0, 0.45),
@@ -173,14 +177,14 @@
       0 40px 72px -32px rgba(0, 0, 0, 0.70);
   }
   /* Osio: pystygradientti + hillitty amber-hehku yläreunaan. */
-  .lv-depth {
+  .bar-depth {
     position: relative;
     background-image: linear-gradient(to bottom,
       var(--color-night) 0%,
       color-mix(in srgb, var(--color-night-light) 55%, var(--color-night)) 50%,
       var(--color-night) 100%);
   }
-  .lv-depth::before {
+  .bar-depth::before {
     content: '';
     position: absolute;
     inset: 0 0 auto 0;
@@ -188,8 +192,8 @@
     background: radial-gradient(60% 45% at 50% 0%, rgba(245, 158, 11, 0.10), transparent 70%);
     pointer-events: none;
   }
-  .lv-depth > * { position: relative; }
+  .bar-depth > * { position: relative; }
   @media (prefers-reduced-motion: reduce) {
-    .lv-card, .lv-card-hover:hover { transition: none; transform: none; }
+    .bar-card, .bar-card-hover:hover { transition: none; transform: none; }
   }
 }

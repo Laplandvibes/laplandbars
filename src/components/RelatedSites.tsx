@@ -30,7 +30,7 @@ export default function RelatedSites({ links, className = '' }: { links?: Relate
               href={link.href}
               target="_blank"
               rel="noopener"
-              className="lv-card lv-card-hover group p-6 no-underline flex flex-col"
+              className="bar-card bar-card-hover group p-6 no-underline flex flex-col"
             >
               <div className="flex items-start justify-between gap-3 mb-2">
                 <h3 className="font-heading text-2xl text-white tracking-wide group-hover:text-amber transition-colors">

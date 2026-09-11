@@ -10,7 +10,7 @@ import { withReferral } from '../lib/withReferral';
 /**
  * Baarikortti. Yksi lähde kahdelle pinnalle: /bars ja /city/{slug}.
  *
- * Ilme diningin mallisivun mukaan (Vesa hyväksyi 7.9.2026): `.lv-card` =
+ * Ilme diningin mallisivun mukaan (Vesa hyväksyi 7.9.2026): `.bar-card` =
  * iso pyöristys, terävä lähivarjo + kaksi pehmeää, ohut rengas. Kuva 192/224 px
  * (oli 160). Lohkot ovat SAMASSA järjestyksessä joka kortissa: nimi, tyyppi,
  * kuvaus, kohokohdat, osoite/aukiolo/hinta, mahdollinen kierros, linkit.
@@ -44,7 +44,7 @@ export default function BarCard({ bar, image, locale, campaign }: BarCardProps) 
     ? t(`bars.venues.${bar.name}.tour.directLabel`, { defaultValue: bar.tour.directBookingLabel })
     : t('bars.bookDirect');
   const rating = findRating(bar.name);
-  const cardClass = `lv-card lv-card-hover group overflow-hidden flex flex-col${bar.featured ? ' lv-card-featured' : ''}`;
+  const cardClass = `bar-card bar-card-hover group overflow-hidden flex flex-col${bar.featured ? ' bar-card-featured' : ''}`;
 
   return (
     <article className={cardClass}>

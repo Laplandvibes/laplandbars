@@ -174,7 +174,7 @@ export default function Bars() {
       </nav>
 
       {/* Baarit kaupungeittain */}
-      <section className="lv-depth py-16 lg:py-20">
+      <section className="bar-depth py-16 lg:py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20 lg:space-y-24">
           {cities.map((city) => {
             const cityBars = bars.filter((b) => b.city === city);
@@ -185,7 +185,7 @@ export default function Bars() {
             return (
               <div key={city} id={cityAnchor(city)} className="scroll-mt-36">
                 {/* Kaupungin otsikkokortti */}
-                <div className="lv-card relative overflow-hidden h-56 sm:h-60 mb-10">
+                <div className="bar-card relative overflow-hidden h-56 sm:h-60 mb-10">
                   <img
                     src={vibeImage}
                     alt={city}
@@ -226,7 +226,7 @@ export default function Bars() {
                 </div>
 
                 {/* Majoitus kävelymatkan päässä */}
-                <div className="lv-card mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-5">
+                <div className="bar-card mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-5">
                   <div className="flex items-center gap-3">
                     <div className="w-11 h-11 shrink-0 rounded-full bg-amber/15 flex items-center justify-center">
                       <Hotel size={18} className="text-amber" />
@@ -269,14 +269,14 @@ export default function Bars() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="lv-card lv-card-hover p-7 flex flex-col">
+            <div className="bar-card bar-card-hover p-7 flex flex-col">
               <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.rovaniemi.title')}</h3>
               <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.rovaniemi.body')}</p>
               <GygSearchCta query="Rovaniemi brewery bar tour" sid="bars_exp_rovaniemi" className="self-start">
                 {t('experiences.barCrawl.rovaniemi.cta')}
               </GygSearchCta>
             </div>
-            <div className="lv-card lv-card-hover p-7 flex flex-col">
+            <div className="bar-card bar-card-hover p-7 flex flex-col">
               <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.levi.title')}</h3>
               <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.levi.body')}</p>
               <GygSearchCta query="Levi apres ski bar experience" sid="bars_exp_levi" className="self-start">
