@@ -80,6 +80,10 @@ export default function VenueRating({
 
   const pill = (
     <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 border border-white/15 px-2.5 py-1 text-xs font-medium text-white/90">
+      {/* Vesa 11.9.2026: "miksi arvosteluissa ei lue google edessä?" — lähde
+          näkyviin pilleriin, ei vain aria-labeliin. Nämä ovat Googlen arvioita,
+          eivät meidän. */}
+      <span className="text-white/60 font-semibold tracking-wide">Google</span>
       <Star size={12} className="text-amber" fill="currentColor" strokeWidth={0} />
       {rating}
       <span className="text-white/45">·</span>

@@ -7,3 +7,6 @@ Thumbs.db
 .idea/
 .env.local
 .env
+
+# kontaktiarkki kuvien katselmointiin, generoidaan scripts/_venue-images-sheet.mjs:llä
+scripts/_venue-images-sheet.png
