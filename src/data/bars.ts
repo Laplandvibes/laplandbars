@@ -365,7 +365,14 @@ export const bars: Bar[] = [
       schedule: 'Daily 11:00–22:00 (Dec 15 – Mar 31)',
       hint: 'Guided SnowHotel visit, including Ice Bar access.',
       sid: 'bar_ice_bar_arctic_snowhotel',
-      // 🔴 gygProductPath removed 2026-07-30: the product
+      // 🟢 11.9.2026: tuote on taas myynnissä — mitattu selaimella (Playwright,
+      // selain-UA): URL pysyy tuotesivulla, otsikko "Arctic SnowHotel Visit
+      // with Ice Bar - 2026", "From €170", "Check availability", ei
+      // unavailable-tekstiä. Ilman tätä kortti lupasi "Live-hinta
+      // GetYourGuidessa" ilman yhtään linkkiä (Vesa 11.9.). Jos tuote katoaa
+      // uudelleen, poista rivi JA vaihda priceFrom — älä jätä lupausta.
+      gygProductPath: 'rovaniemi-l2653/rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814',
+      // (historia) gygProductPath removed 2026-07-30: the product
       // `rovaniemi-arctic-snowhotel-visit-with-ice-bar-t1130814` has been
       // delisted. It does not 404 — GetYourGuide redirects it to the generic
       // Rovaniemi listing, so the card named this exact ice bar while the link
