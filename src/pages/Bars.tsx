@@ -1,49 +1,53 @@
-import { MapPin, Clock, ExternalLink, Hotel, Ticket, Calendar } from 'lucide-react';
+import { useState } from 'react';
+import { MapPin, ExternalLink, Hotel, Ticket } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
-import { bars, cities, pickLocalised } from '../data/bars';
+import { bars, cities, iceBars } from '../data/bars';
+import { slugForCity } from '../data/barCities';
 import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
-import MenuLink from '../components/MenuLink';
 import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
-import VenueRating from '../components/VenueRating';
-import { gygDeepLink } from '../lib/gyg';
-import { withReferral } from '../lib/withReferral';
-import { iceBars } from '../data/bars';
+import BarCard from '../components/BarCard';
+import RelatedSites from '../components/RelatedSites';
+import { barItemList } from '../lib/barSchema';
 
-const barImages: Record<string, string> = {
-  // Rovaniemi — each unique
+/**
+ * Korttikuvat: jokaisella baarilla oma kuva. Ilman tätä yhdeksän korttia putosi
+ * samaan hero-kuvaan (auditti 11.6.2026). Kuvat ovat AI-kuvituksia baarin
+ * tunnelmasta, eivät kohteen omia kuvia.
+ */
+export const barImages: Record<string, string> = {
+  // Rovaniemi
   'Lapland Brewery': BARS.breweryInterior,
   'Café & Bar 21': BARS.cocktailTrio,
   'Uitto Pub': BARS.friendsFireplace2,
   'Nook Lounge': BARS.lingonberryCocktails,
   'Bull Bar & Grill': BARS.friendsFireplace,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
-  // Levi — each unique
+  'Kauppayhtiö': BARS.pubLaughter,
+  'Rovaniemen Oluthuone': BARS.terraceLonkero,
+  'MustaKissa Kuppila': BARS.cocktailBerry,
+  'Pub Sarvi': BARS.saunaBeer,
+  'Roy Club': BARS.apresDanceDeck,
+  // Levi
   'Hullu Poro Areena': BARS.apresSkiTwilight,
   'Bar Ihku': BARS.liveMusic,
   'Pub Hölmölä': BARS.craftBeerGlasses,
   'Public House Sohva': BARS.beerFlight,
   'Bar Alakerta': BARS.skiersApres,
   'Pub Old Mates': BARS.cabinBarInterior,
-  // Ylläs — each unique
-  'Selvä Pyy': BARS.cabinPubExterior,
-  'Pirtukellari Night Club': BARS.apresSkiAerial,
-  // Saariselkä — each unique
-  'Gastropub Giitu': BARS.breweryTaps,
-  // Gems (added 2026-06-11) — each unique; without these the nine cards all
-  // fell back to the same shared hero image.
-  'Kauppayhtiö': BARS.pubLaughter,
-  'Rovaniemen Oluthuone': BARS.terraceLonkero,
-  'MustaKissa Kuppila': BARS.cocktailBerry,
-  'Pub Sarvi': BARS.saunaBeer,
-  'Roy Club': BARS.apresDanceDeck,
   "V'inkkari": BARS.apresToast,
   'Restaurant Tuikku': BARS.auroraVillage,
+  // Ylläs
+  'Selvä Pyy': BARS.cabinPubExterior,
+  'Pirtukellari Night Club': BARS.apresSkiAerial,
   'Bar Kaappi': BARS.lonkeroDrink,
+  // Saariselkä
+  'Gastropub Giitu': BARS.breweryTaps,
   'Teerenpesä': BARS.snowyVillageStreet,
 };
 
@@ -61,11 +65,13 @@ const cityVibeKey: Record<string, string> = {
   Saariselkä: 'Saariselka',
 };
 
-const cityAnchor = (city: string) => city.toLowerCase().replace(/[^a-z]/g, '');
+export const cityAnchor = (city: string) => city.toLowerCase().replace(/[^a-z]/g, '');
 
 export default function Bars() {
   const { t } = useTranslation('pages');
-  const { locale } = useLocale();
+  const { locale, to } = useLocale();
+  const [active, setActive] = useState<string | null>(null);
+
   return (
     <>
       <PageSeo
@@ -79,9 +85,10 @@ export default function Bars() {
             'City-by-city guide to bars and pubs in Lapland.',
             '/bars'
           ),
+          barItemList('Bars and pubs in Finnish Lapland', bars),
         ]}
       />
-      {/* Hero — pb reserves room for the overlapping stat band below */}
+      {/* Hero: pb varaa tilan alle limittyvälle lukupalkille */}
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden pb-24 md:pb-28">
         <img
           src={BARS.heroBarsNight}
@@ -92,9 +99,7 @@ export default function Bars() {
           className="absolute inset-0 w-full h-full object-cover"
         />
         {/* Keskikohdan 0.42 päästi valaistut mökin ikkunat läpi juuri ingressin
-            kohdalla, jolloin valkoinen teksti menetti kontrastin kirkkaimpien
-            kohtien päällä (auditti 4.8.). Nostettu 0.62:een; ylä- ja alapää
-            ennallaan, joten kuva ei tummene kauttaaltaan. */}
+            kohdalla (auditti 4.8.). 0.62 pitää tekstin luettavana. */}
         <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.62) 50%, rgba(15,23,42,0.30) 100%)' }} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
@@ -106,7 +111,7 @@ export default function Bars() {
         </div>
       </section>
 
-      {/* Stat band — glass tiles overlapping the hero; numbers derived from data */}
+      {/* Lukupalkki: lasilaatat heron päällä, luvut datasta */}
       <div className="relative z-10 -mt-14 md:-mt-16 max-w-3xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-3 gap-3 md:gap-4">
           {[
@@ -116,7 +121,7 @@ export default function Bars() {
           ].map((s) => (
             <div
               key={s.label}
-              className="rounded-2xl border border-white/10 bg-night/85 backdrop-blur-md p-4 md:p-5 text-center shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
+              className="rounded-3xl border border-white/10 bg-night/85 backdrop-blur-md p-4 md:p-5 text-center shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
             >
               <p className="font-heading text-4xl md:text-5xl text-amber tracking-wide">{s.value}</p>
               <p className="text-white/65 text-xs md:text-sm mt-1">{s.label}</p>
@@ -127,216 +132,119 @@ export default function Bars() {
       <div className="h-8 bg-transparent" aria-hidden="true" />
       <PageBreadcrumb />
 
-      {/* City quick pick — jump straight to your town */}
-      <nav aria-label={t('bars.cityNav.label')} className="bg-night border-b border-white/5">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
-          <p className="text-center text-white/60 text-xs font-semibold tracking-widest uppercase mb-3">
-            {t('bars.cityNav.label')}
-          </p>
-          <div className="flex flex-wrap justify-center gap-2 sm:gap-3">
-            {cities.map((city) => (
-              <a
-                key={city}
-                href={`#${cityAnchor(city)}`}
-                className="inline-flex items-center gap-2 whitespace-nowrap bg-white/[0.04] border border-white/10 hover:border-amber/40 hover:bg-amber/10 text-white px-4 py-2.5 rounded-full text-sm font-semibold transition-colors no-underline"
-              >
-                <MapPin size={13} className="text-amber shrink-0" />
-                {city}
-                <span className="shrink-0 text-[11px] text-amber/80 bg-amber/10 rounded-full px-1.5 py-0.5 leading-none">
-                  {bars.filter((b) => b.city === city).length}
-                </span>
-              </a>
-            ))}
+      {/* Paikkakuntavalitsin: kiinnittyy navin alle (top-16), jotta kaupungin
+          voi vaihtaa listan keskeltäkin. Ankkurit säilyvät, koska etusivu
+          linkittää /bars#levi -muotoon. Puhelimessa 44 px kosketusalue, työ-
+          pöydällä 36 px (sama sääntö kuin diningin suodattimessa 7.9.). */}
+      <nav
+        aria-label={t('bars.cityNav.label')}
+        className="sm:sticky sm:top-16 z-30 bg-night/95 backdrop-blur-md border-b border-white/[0.06]"
+      >
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          {/* Puhelimessa 2 saraketta ja kaikki neljä nakyvissa (ei vieritysrivia
+              eika kiinnitysta: kaksi 44 px rivia + navi olisi viidennes ruudusta).
+              sm+ kiinnittyy navin alle yhtena rivina. */}
+          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:justify-center sm:gap-2.5">
+            <span className="hidden sm:inline text-white/55 text-[11px] font-semibold tracking-widest uppercase mr-1">
+              {t('bars.cityNav.label')}
+            </span>
+            {cities.map((city) => {
+              const isActive = active === city;
+              return (
+                <a
+                  key={city}
+                  href={`#${cityAnchor(city)}`}
+                  onClick={() => setActive(city)}
+                  className={`inline-flex items-center justify-center gap-2 whitespace-nowrap px-4 py-2 min-h-[44px] sm:min-h-[36px] rounded-full text-sm font-semibold transition-all duration-200 no-underline ${
+                    isActive
+                      ? 'bg-amber text-night shadow-lg shadow-amber/20'
+                      : 'bg-white/5 text-white/80 hover:text-white hover:bg-white/10 border border-white/[0.08]'
+                  }`}
+                >
+                  <MapPin size={13} className={isActive ? 'text-night' : 'text-amber'} />
+                  {city}
+                  <span className={`text-[11px] rounded-full px-1.5 py-0.5 leading-none ${isActive ? 'bg-night/15 text-night' : 'bg-amber/10 text-amber/80'}`}>
+                    {bars.filter((b) => b.city === city).length}
+                  </span>
+                </a>
+              );
+            })}
           </div>
         </div>
       </nav>
 
-      {/* Bars by city */}
-      <section className="py-16 bg-night">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20">
+      {/* Baarit kaupungeittain */}
+      <section className="lv-depth py-16 lg:py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20 lg:space-y-24">
           {cities.map((city) => {
             const cityBars = bars.filter((b) => b.city === city);
             const vibeImage = cityImages[city] ?? BARS.heroMain;
             const vibeDesc = t(`bars.cityVibes.${cityVibeKey[city]}`);
+            const slug = slugForCity(city);
+            const at = slug ? t(`cities.${slug}.at`, { defaultValue: city }) : city;
             return (
-              <div key={city} id={cityAnchor(city)} className="scroll-mt-24">
-                {/* City header */}
-                <div className="relative rounded-2xl overflow-hidden h-48 mb-8">
+              <div key={city} id={cityAnchor(city)} className="scroll-mt-36">
+                {/* Kaupungin otsikkokortti */}
+                <div className="lv-card relative overflow-hidden h-56 sm:h-60 mb-10">
                   <img
                     src={vibeImage}
                     alt={city}
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-full object-cover"
+                    className="absolute inset-0 w-full h-full object-cover"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-r from-night/90 via-night/70 to-transparent" />
-                  <div className="absolute inset-0 flex flex-col justify-center px-8">
-                    <div className="flex items-center gap-2 text-amber text-sm font-semibold tracking-widest uppercase mb-2">
-                      <MapPin size={14} />
-                      {city}
+                  <div className="absolute inset-0 bg-gradient-to-r from-night/95 via-night/75 to-night/20" />
+                  <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-10">
+                    <div className="flex items-center gap-2 text-amber text-[11px] font-bold tracking-[0.25em] uppercase mb-2">
+                      <MapPin size={13} />
+                      {t('cities.shared.kicker', { defaultValue: 'Where to drink' })}
                     </div>
-                    <h2 className="font-heading text-4xl text-white tracking-wide mb-2">{city}</h2>
-                    <p className="text-white/80 text-sm max-w-md leading-relaxed">{vibeDesc}</p>
+                    <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-2">{city}</h2>
+                    <p className="text-white/85 text-sm sm:text-[15px] max-w-lg leading-relaxed">{vibeDesc}</p>
+                    {slug && (
+                      <Link
+                        to={to(`/city/${slug}`)}
+                        className="mt-4 inline-flex items-center gap-1.5 self-start rounded-full bg-amber/15 border border-amber/40 px-4 py-2 min-h-[44px] sm:min-h-[36px] text-amber text-sm font-bold hover:bg-amber/25 transition-colors no-underline"
+                      >
+                        {t('cities.shared.cityPageCta', { name: city, at, defaultValue: `${city} bar guide →` })}
+                      </Link>
+                    )}
                   </div>
                 </div>
 
-                {/* Bar cards */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-                  {cityBars.map((bar) => {
-                    const type = t(`bars.venues.${bar.name}.type`, { defaultValue: bar.type });
-                    const description = t(`bars.venues.${bar.name}.description`, { defaultValue: bar.description });
-                    const highlights = (t(`bars.venues.${bar.name}.highlights`, { returnObjects: true, defaultValue: bar.highlights }) as string[]) || bar.highlights;
-                    const tourLabel = bar.tour ? t(`bars.venues.${bar.name}.tour.label`, { defaultValue: bar.tour.label }) : '';
-                    const tourSchedule = bar.tour ? t(`bars.venues.${bar.name}.tour.schedule`, { defaultValue: bar.tour.schedule }) : '';
-                    const tourHint = bar.tour && bar.tour.hint ? t(`bars.venues.${bar.name}.tour.hint`, { defaultValue: bar.tour.hint }) : '';
-                    const directLabel = bar.tour && bar.tour.directBookingLabel ? t(`bars.venues.${bar.name}.tour.directLabel`, { defaultValue: bar.tour.directBookingLabel }) : t('bars.bookDirect');
-                    return (
-                      <div
-                        key={bar.name}
-                        className={`group bg-white/[0.03] border rounded-2xl overflow-hidden transition-all duration-300 hover:border-amber/25 flex flex-col ${
-                          bar.featured ? 'border-amber/20 shadow-[0_0_30px_-10px_rgba(245,158,11,0.15)]' : 'border-white/10'
-                        }`}
-                      >
-                        {/* Image */}
-                        <div className="relative h-40 overflow-hidden shrink-0">
-                          <img
-                            src={barImages[bar.name] || BARS.heroMain}
-                            alt={bar.name}
-                            loading="lazy"
-                            decoding="async"
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                          />
-                          <div className="absolute inset-0 bg-gradient-to-b from-transparent to-night/30" />
-                          {bar.featured && (
-                            <span className="absolute top-3 left-3 text-xs bg-amber/90 text-night px-2.5 py-0.5 rounded-full font-bold">
-                              {t('bars.featuredBadge')}
-                            </span>
-                          )}
-                        </div>
-
-                        <div className="p-5 flex flex-col flex-1">
-                          <div className="flex items-start justify-between gap-3 mb-1">
-                            <h3 className="font-heading text-lg text-white tracking-wide group-hover:text-amber transition-colors">{bar.name}</h3>
-                            <span className="shrink-0 mt-0.5">
-                              <VenueRating name={bar.name} lang={locale} />
-                            </span>
-                          </div>
-                          <p className="text-xs text-white/80 uppercase tracking-wider mb-3">{type}</p>
-                          <p className="text-sm text-white/80 leading-relaxed mb-4">{description}</p>
-
-                          <div className="flex flex-wrap gap-2 mb-4">
-                            {highlights.slice(0, 3).map((h) => (
-                              <span key={h} className="text-xs bg-amber/10 text-amber/70 px-2 py-1 rounded-full">
-                                {h}
-                              </span>
-                            ))}
-                          </div>
-
-                          {/* Info block */}
-                          <div className="mt-auto space-y-2 pt-4 border-t border-white/5">
-                            <div className="flex items-start gap-2">
-                              <MapPin size={13} className="text-amber/60 mt-0.5 shrink-0" />
-                              <p className="text-xs text-white/65 leading-relaxed">{bar.address}</p>
-                            </div>
-                            <div className="flex items-start gap-2">
-                              <Clock size={13} className="text-amber/60 mt-0.5 shrink-0" />
-                              <p className="text-xs text-white/65 leading-relaxed">{pickLocalised(bar.hours, locale)}</p>
-                            </div>
-                            <p className="text-xs text-amber/70 font-medium pt-1">{pickLocalised(bar.price, locale)}</p>
-                          </div>
-
-                          {/* Bookable tour / experience — verified data only */}
-                          {bar.tour && (
-                            <div className="mt-4 p-4 bg-amber/[0.07] border border-amber/25 rounded-xl">
-                              <div className="flex items-center gap-1.5 text-amber text-[10px] font-bold uppercase tracking-widest mb-2">
-                                <Ticket size={11} />
-                                {tourLabel}
-                              </div>
-                              <div className="space-y-1 mb-3">
-                                <p className="text-sm text-white font-semibold leading-tight">
-                                  {t(`bars.venues.${bar.name}.tour.priceFrom`, { defaultValue: bar.tour.priceFrom })}
-                                </p>
-                                <div className="flex items-start gap-1.5 text-xs text-white/80 leading-snug">
-                                  <Calendar size={11} className="text-amber/70 mt-0.5 shrink-0" />
-                                  <span>{tourSchedule}</span>
-                                </div>
-                                {tourHint && (
-                                  <p className="text-[11px] text-white/65 leading-snug">{tourHint}</p>
-                                )}
-                              </div>
-                              {bar.tour.gygProductPath ? (
-                                <a
-                                  href={gygDeepLink(bar.tour.gygProductPath, bar.tour.sid, locale)}
-                                  target="_blank"
-                                  rel="sponsored nofollow noopener"
-                                  className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
-                                >
-                                  <Ticket size={12} />
-                                  {t('bars.checkBook')}
-                                </a>
-                              ) : bar.tour.directBookingUrl ? (
-                                <a
-                                  href={withReferral(bar.tour.directBookingUrl, 'bars_tour_direct')}
-                                  target="_blank"
-                                  rel="nofollow noopener"
-                                  className="inline-flex items-center justify-center gap-1.5 w-full bg-amber hover:bg-amber/90 text-night px-3 py-2 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
-                                >
-                                  <Ticket size={12} />
-                                  {directLabel}
-                                </a>
-                              ) : null}
-                            </div>
-                          )}
-
-                          {/* Menu ennen verkkosivua: ihminen etsii listaa, ei etusivua */}
-                          <div className="mt-3 flex items-center justify-end gap-4">
-                            <MenuLink
-                              bar={bar}
-                              label={t('bars.venueMenu')}
-                              labelPdf={t('bars.venueMenuPdf')}
-                              campaign="bars_menu_directory"
-                              className="text-white/80 hover:text-white"
-                            />
-                          </div>
-                          {/* Secondary venue website link */}
-                          {bar.website && (
-                            <div className="mt-3 text-right">
-                              <a
-                                href={withReferral(bar.website, 'bars_directory')}
-                                target="_blank"
-                                rel="nofollow noopener"
-                                className="inline-flex items-center gap-1 text-[11px] text-white/80 hover:text-white/80 no-underline transition-colors"
-                              >
-                                {t('bars.venueWebsite')} <ExternalLink size={10} />
-                              </a>
-                            </div>
-                          )}
-                        </div>
-                      </div>
-                    );
-                  })}
+                {/* Baarikortit */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 items-start">
+                  {cityBars.map((bar) => (
+                    <BarCard
+                      key={bar.name}
+                      bar={bar}
+                      image={barImages[bar.name] || BARS.heroMain}
+                      locale={locale}
+                      campaign="bars_directory"
+                    />
+                  ))}
                 </div>
 
-                {/* Per-city hotel CTA — sleep within walking distance */}
-                <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 bg-amber/[0.04] border border-amber/15 rounded-xl px-5 py-4">
+                {/* Majoitus kävelymatkan päässä */}
+                <div className="lv-card mt-10 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 px-6 py-5">
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 shrink-0 rounded-full bg-amber/15 flex items-center justify-center">
+                    <div className="w-11 h-11 shrink-0 rounded-full bg-amber/15 flex items-center justify-center">
                       <Hotel size={18} className="text-amber" />
                     </div>
                     <div>
-                      <p className="text-white text-sm font-semibold leading-snug">
+                      <p className="text-white text-[15px] font-semibold leading-snug">
                         {t('bars.stayBand.headline', { city })}
                       </p>
-                      <p className="text-white/75 text-xs leading-relaxed mt-0.5">
+                      <p className="text-white/70 text-xs leading-relaxed mt-0.5">
                         {t('bars.stayBand.sub')}
                       </p>
                     </div>
                   </div>
                   <AffiliateCTA
                     partner="hotels"
-                    sid={`bars_city_stay_${city.toLowerCase().replace(/[^a-z]/g, '')}`}
+                    sid={`bars_city_stay_${cityAnchor(city)}`}
                     destination={`${city === 'Ylläs' ? 'Äkäslompolo' : city}, Finland`}
-                    className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
+                    className="inline-flex items-center justify-center gap-2 min-h-[44px] bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
                   >
                     {t('bars.stayBand.cta', { city })}
                     <ExternalLink size={14} />
@@ -348,8 +256,8 @@ export default function Bars() {
         </div>
       </section>
 
-      {/* Bookable guided bar/brewery experiences via GetYourGuide (search → live results) */}
-      <section className="py-16 bg-night-light/40 border-t border-white/5">
+      {/* Opastetut illat GetYourGuiden kautta (haku → elävät tulokset) */}
+      <section className="py-16 bg-night border-t border-white/5">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-10">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/10 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-3">
@@ -360,15 +268,15 @@ export default function Bars() {
               {t('experiences.barCrawl.sectionTitle')}
             </h2>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-            <div className="bg-white/[0.03] border border-white/10 hover:border-amber/30 rounded-2xl p-6 transition-all flex flex-col">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="lv-card lv-card-hover p-7 flex flex-col">
               <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.rovaniemi.title')}</h3>
               <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.rovaniemi.body')}</p>
               <GygSearchCta query="Rovaniemi brewery bar tour" sid="bars_exp_rovaniemi" className="self-start">
                 {t('experiences.barCrawl.rovaniemi.cta')}
               </GygSearchCta>
             </div>
-            <div className="bg-white/[0.03] border border-white/10 hover:border-amber/30 rounded-2xl p-6 transition-all flex flex-col">
+            <div className="lv-card lv-card-hover p-7 flex flex-col">
               <h3 className="font-heading text-2xl text-white tracking-wide mb-2">{t('experiences.barCrawl.levi.title')}</h3>
               <p className="text-sm text-white/75 leading-relaxed mb-5 flex-1 text-pretty">{t('experiences.barCrawl.levi.body')}</p>
               <GygSearchCta query="Levi apres ski bar experience" sid="bars_exp_levi" className="self-start">
@@ -379,7 +287,9 @@ export default function Bars() {
         </div>
       </section>
 
-      {/* Disclaimer */}
+      <RelatedSites />
+
+      {/* Vastuulauseke */}
       <section className="py-10 bg-night">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
           <p className="text-white/75 text-sm leading-relaxed text-pretty">

@@ -1,6 +1,7 @@
 import Breadcrumbs from '../shared/Breadcrumbs';
 import { useLocale } from '../i18n/useLocale';
 import { useTranslation } from 'react-i18next';
+import { BAR_CITIES } from '../data/barCities';
 
 /**
  * Ecosystem breadcrumb, rendered BELOW the hero (mounted once inside each
@@ -12,6 +13,7 @@ import { useTranslation } from 'react-i18next';
 export default function PageBreadcrumb() {
   const { t } = useTranslation('nav');
   const { locale, to } = useLocale();
+  const { t: tp, i18n } = useTranslation('pages');
   const labelMap: Record<string, string> = {
     '/bars': t('links.bars'),
     '/ice-bars': t('links.iceBars'),
@@ -20,6 +22,10 @@ export default function PageBreadcrumb() {
     '/craft-beer': t('links.craftBeer'),
     '/drinking-culture': t('links.drinkingCulture'),
   };
+  // Kaupunkisivut: nimi kaupungin omasta lohkosta, EN-nimi jos käännös puuttuu.
+  for (const c of BAR_CITIES) {
+    labelMap[`/city/${c.slug}`] = i18n.exists(`pages:cities.${c.slug}.name`) ? (tp(`cities.${c.slug}.name`) as string) : c.name;
+  }
   return (
     <Breadcrumbs
       lang={locale}

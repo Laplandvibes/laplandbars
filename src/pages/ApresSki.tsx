@@ -93,7 +93,7 @@ export default function ApresSki() {
             {pillars.map((p, i) => {
               const Icon = pillarIcons[i] ?? Mountain;
               return (
-                <div key={p.title} className="bg-white/[0.03] border border-white/10 rounded-2xl p-6 text-center">
+                <div key={p.title} className="lv-card p-7 text-center">
                   <div className="w-12 h-12 bg-amber/10 rounded-xl flex items-center justify-center mx-auto mb-4">
                     <Icon size={22} className="text-amber" />
                   </div>
@@ -110,11 +110,11 @@ export default function ApresSki() {
       <section className="pb-16 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 sm:grid-cols-5 gap-5">
-            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-96 sm:col-span-3">
+            <div className="lv-card relative overflow-hidden h-64 sm:h-96 sm:col-span-3">
               <img src={BARS.apresDanceDeck} alt="Skiers dancing with drinks raised at an outdoor après-ski deck party at twilight" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
-            <div className="relative rounded-2xl overflow-hidden h-64 sm:h-96 sm:col-span-2">
+            <div className="lv-card relative overflow-hidden h-64 sm:h-96 sm:col-span-2">
               <img src={BARS.apresToast} alt="Beer mugs clinking in a toast in ski gloves against the low winter sun" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
@@ -123,11 +123,11 @@ export default function ApresSki() {
       </section>
 
       {/* Venues by resort */}
-      <section className="pb-20 bg-night">
+      <section className="lv-depth pb-20 pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
           {spotsMeta.map((resort) => (
             <div key={resort.resort}>
-              <div className="relative rounded-2xl overflow-hidden h-44 mb-8">
+              <div className="lv-card relative overflow-hidden h-52 mb-10">
                 <img src={resort.image} alt={resort.resort} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                 <div className="absolute inset-0 bg-gradient-to-r from-night/90 via-night/60 to-transparent" />
                 <div className="absolute inset-0 flex items-center px-8">
@@ -135,16 +135,14 @@ export default function ApresSki() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-start">
                 {resort.venues.map((venue) => {
                   const type = t(`apresSki.venues.${venue.name}.type`);
                   const desc = t(`apresSki.venues.${venue.name}.desc`);
                   return (
                     <div
                       key={venue.name}
-                      className={`bg-white/[0.03] border rounded-2xl p-6 transition-all duration-300 hover:border-amber/20 ${
-                        venue.highlight ? 'border-amber/20' : 'border-white/10'
-                      }`}
+                      className={`lv-card lv-card-hover p-7${venue.highlight ? ' lv-card-featured' : ''}`}
                     >
                       {venue.highlight && (
                         <span className="inline-block text-xs bg-amber/15 text-amber px-2 py-0.5 rounded-full mb-3 font-medium">
@@ -161,7 +159,7 @@ export default function ApresSki() {
 
               {/* Per-resort lodging CTA */}
               {resortStays[resort.resort] && (
-                <div className="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 bg-amber/[0.05] border border-amber/15 rounded-xl p-5">
+                <div className="lv-card mt-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 p-6">
                   <div>
                     <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-1.5 flex items-center gap-1.5">
                       <Hotel size={11} />
@@ -188,7 +186,7 @@ export default function ApresSki() {
       {/* Resort coverage band — Saariselkä + Pyhä get hotel CTAs even though they're not in the venues data yet */}
       <section className="pb-12 bg-night">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-amber/[0.05] via-night/0 to-ice/[0.05] border border-white/10 rounded-2xl p-8">
+          <div className="lv-card bg-gradient-to-br from-amber/[0.05] via-night/0 to-ice/[0.05] p-8">
             <div className="text-center mb-6">
               <h3 className="font-heading text-2xl sm:text-3xl text-white tracking-wide mb-2">
                 {t('apresSki.north.title')}

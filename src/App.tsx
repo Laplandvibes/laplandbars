@@ -14,6 +14,7 @@ const Cocktails = lazy(() => import('./pages/Cocktails'))
 const CraftBeer = lazy(() => import('./pages/CraftBeer'))
 const DrinkingCulture = lazy(() => import('./pages/DrinkingCulture'))
 const About = lazy(() => import('./pages/About'))
+const CityPage = lazy(() => import('./pages/CityPage'))
 const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'))
 const Terms = lazy(() => import('./pages/Terms'))
 const CookiePolicy = lazy(() => import('./pages/CookiePolicy'))
@@ -138,6 +139,8 @@ const PREFIXES = ['', '/fi', '/de', '/ja', '/es', '/br', '/cn', '/kr', '/fr', '/
 const PAGES: { path: string; element: React.ReactNode }[] = [
   { path: '/', element: <Home /> },
   { path: '/bars', element: <Bars /> },
+  // Kaupunkisivut 11.9.2026 (GSC: kaupunkihaut jäivät /bars-listaan sijoille 28–54).
+  { path: '/city/:slug', element: <CityPage /> },
   { path: '/ice-bars', element: <IceBars /> },
   { path: '/apres-ski', element: <ApresSki /> },
   { path: '/cocktails', element: <Cocktails /> },

@@ -217,33 +217,31 @@ export default function CraftBeer() {
       <PageBreadcrumb />
 
       {/* Brewery listings */}
-      <section className="py-16 bg-night">
+      <section className="lv-depth py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Mood images — AI-generated, so no real brewery is named in the
                 caption (the old "Lapon Panimo, Saariselkä" was doubly wrong:
                 misspelled brewery, wrong town). */}
-            <div className="relative rounded-2xl overflow-hidden h-72">
+            <div className="lv-card relative overflow-hidden h-72">
               <img src={BARS.breweryInterior} alt="Copper brewing tanks in a craft brewery taproom" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
             </div>
-            <div className="relative rounded-2xl overflow-hidden h-72">
+            <div className="lv-card relative overflow-hidden h-72">
               {/* Oma kuva: BARS.craftBeerGlasses on tämän sivun hero. */}
               <img src={BARS.craftBeerTaps} alt="Freshly poured amber beer on a bar counter" loading="lazy" decoding="async" className="w-full h-full object-cover" />
               <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start">
             {breweries.map((brewery) => {
               const featured = featuredFlags[brewery.name] ?? false;
               const beers = breweryBeers[brewery.name] ?? [];
               return (
                 <div
                   key={brewery.name}
-                  className={`bg-white/[0.03] border rounded-2xl p-6 transition-all duration-300 hover:border-amber/20 ${
-                    featured ? 'border-amber/20' : 'border-white/10'
-                  }`}
+                  className={`lv-card lv-card-hover p-7${featured ? ' lv-card-featured' : ''}`}
                 >
                   {featured && (
                     <div className="flex items-center gap-2 text-amber text-xs uppercase tracking-widest mb-4">
@@ -284,7 +282,7 @@ export default function CraftBeer() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {styles.map((s) => (
-              <div key={s.style} className="bg-white/[0.03] border border-white/10 rounded-2xl p-5 hover:border-amber/20 transition-all">
+              <div key={s.style} className="lv-card lv-card-hover p-6">
                 <h3 className="font-heading text-lg text-amber tracking-wide mb-2">{s.style}</h3>
                 <p className="text-sm text-white/75 leading-relaxed">{s.desc}</p>
               </div>
@@ -342,7 +340,7 @@ export default function CraftBeer() {
                       href={gygSearchLink(card.q, card.sid, lang as Locale)}
                       target="_blank"
                       rel="sponsored nofollow noopener"
-                      className="group flex flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-5 hover:border-amber/30 hover:bg-white/[0.05] transition-all no-underline"
+                      className="lv-card lv-card-hover group flex flex-col p-6 no-underline"
                     >
                       <span className="grid place-items-center w-10 h-10 rounded-full bg-amber/15 border border-amber/40 text-amber mb-3">
                         <Icon className="w-5 h-5" strokeWidth={2} />
@@ -378,7 +376,7 @@ export default function CraftBeer() {
       {/* Stay near the brewery */}
       <section className="py-16 bg-night/95">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-amber/[0.06] via-night/0 to-ice/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10">
+          <div className="lv-card bg-gradient-to-br from-amber/[0.06] via-night/0 to-ice/[0.04] p-8 sm:p-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
               <div className="md:col-span-2">
                 <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-3 flex items-center gap-1.5">

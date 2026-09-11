@@ -268,7 +268,7 @@
         ],
         "tour": {
           "label": "Bryggerirundtur och provsmakning",
-          "schedule": "Fredag 17.00 + 18.30 (dec–mars varje vecka)",
+          "schedule": "Fredagar 17.00 (dec–mars, varje vecka)",
           "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
           "directLabel": "Boka på lapinpanimo.fi"
         }
@@ -368,7 +368,8 @@
       "label": "Välj din ort"
     },
     "venueMenu": "Meny",
-    "venueMenuPdf": "Meny (PDF)"
+    "venueMenuPdf": "Meny (PDF)",
+    "venueMap": "Karta"
   },
   "iceBars": {
     "title": "Isbarer i Lappland | LaplandBars",
@@ -835,6 +836,51 @@
       "title": "Cocktail- och provsmakningsupplevelser",
       "body": "Några av de bästa sessionerna med arktiska cocktails och spritprovning i Lappland går att boka med guide. Lär dig hjortron-souren vid källan, beställ den sedan som du menar det.",
       "cta": "Se cocktailupplevelser"
+    }
+  },
+  "cities": {
+    "shared": {
+      "kicker": "Var man dricker",
+      "countLabel": "{{count}} barer i {{at}}",
+      "countLabel_one": "1 bar i {{at}}",
+      "bestRated": "Högst betyg {{rating}}",
+      "hoursNote": "Öppettiderna följer skidsäsongen här. Kolla barens egen sida innan du ger dig ut.",
+      "stayHeadline": "Bor du i {{at}}?",
+      "stayLead": "Boka ett rum på gångavstånd från barerna ovan.",
+      "stayCta": "Hitta boende i {{at}}",
+      "otherCities": "Drick någon annanstans i Lappland",
+      "allBars": "Alla barer →",
+      "cityPageCta": "Barguide {{name}} →",
+      "eatHere": "Var man äter i {{at}}",
+      "nightlifeHere": "Nattliv i {{at}}"
+    },
+    "rovaniemi": {
+      "name": "Rovaniemi",
+      "at": "Rovaniemi",
+      "title": "Barer i Rovaniemi: pubar, cocktails och isbaren | LaplandBars",
+      "description": "Var man dricker i Rovaniemi: pubar och cocktailbarer i centrum, ett bryggeri med taproom och en isbar 30 minuter bort. Betyg, öppettider och priser.",
+      "h1": "Barer i Rovaniemi",
+      "tagline": "Den enda staden i Lappland där du kan välja bar till fots.",
+      "intro": "Rovaniemis barer ligger i ett tätt rutnät mellan Rovakatu, Koskikatu, Korkalonkatu och Maakuntakatu, så en kväll här är en promenad, inte en taxiresa. Café & Bar 21 på Rovakatu är cocktailstället som hela staden nämner, Uitto Pub på Korkalonkatu är den gamla institutionen, Kauppayhtiö på Valtakatu blandar öl med livemusik, och Roy Club på Maakuntakatu tar över när allt annat stänger. Två är värda att lämna centrum för: Lapland Brewery serverar sin egen öl bredvid tankarna på Teollisuustie, och isbaren på Arctic SnowHotel i Sinettä, ungefär 30 minuter bort, byggs upp på nytt av is varje december.",
+      "know": [
+        "De flesta barerna ligger i centrum några hundra meter från varandra; Lapland Brewery, Pub Sarvi och isbaren ligger utanför och kräver bil eller taxi.",
+        "Isbaren på Arctic SnowHotel är öppen dagligen 11–22 från mitten av december till slutet av mars och kräver entrébiljett till SnowHotel om du inte övernattar.",
+        "Lapland Brewery har bryggerirundtur med provning på fredagar kl. 17:00 på vintern; anmäl dig senast onsdag, minst tre personer."
+      ]
+    },
+    "levi": {
+      "name": "Levi",
+      "at": "Levi",
+      "title": "Barer i Levi: afterski, pubar och sena kvällar | LaplandBars",
+      "description": "Var man dricker i Levi: Hullu Poro Areena, Bar Ihku och bypubarna vid backens fot, plus en fjälltoppsrestaurang. Betyg, öppettider och priser.",
+      "h1": "Barer i Levi",
+      "tagline": "Finlands afterski-huvudstad. Liftarna stannar kl. 16:00 och barerna fylls direkt efter.",
+      "intro": "Levis barer ligger tätt i byn vid frontbackens fot, som officiellt heter Sirkka, vilket är varför postadresserna säger Sirkka eller Kittilä. Hullu Poro Areena på Hissitie är den stora salen: två våningar, tio barer och upp till 1 700 personer på konsertkvällar. Bar Ihku på Keskuskuja och Pub Hölmölä på Hiihtäjänkuja tar sena skiftet, Public House Sohva och Pub Old Mates står för öl och fotboll, och Bar Alakerta på Myllyjoentie kör öppna scenjam på söndagar. Restaurant Tuikku är undantaget: den ligger på toppen och står för eftermiddagens afterski när skidsäsongen är igång.",
+      "know": [
+        "Allt utom Tuikku ligger på gångavstånd i byn; toppen nås med gondol, på skidor eller via toppvägen.",
+        "Konsertkvällar på Hullu Poro Areena har biljett, vanligtvis runt 25–30 euro; vanliga pubkvällar är gratis.",
+        "V’inkkari och afterski-ställena har fulla öppettider bara under skidsäsongen, så utanför vintern bör du kolla stället innan du planerar kvällen kring det."
+      ]
     }
   }
 }

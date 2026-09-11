@@ -8,6 +8,14 @@
     "jsonKey": "bars"
   },
   {
+    "path": "/city/rovaniemi",
+    "jsonKey": "cities.rovaniemi"
+  },
+  {
+    "path": "/city/levi",
+    "jsonKey": "cities.levi"
+  },
+  {
     "path": "/ice-bars",
     "jsonKey": "iceBars"
   },

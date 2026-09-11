@@ -65,7 +65,7 @@ export default function Cocktails() {
                 key={c.name}
                 className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'md:grid-flow-col-dense' : ''}`}
               >
-                <div className={`relative rounded-2xl overflow-hidden h-72 md:h-80 ${i % 2 === 1 ? 'md:col-start-2' : ''}`}>
+                <div className={`lv-card relative overflow-hidden h-72 md:h-80 ${i % 2 === 1 ? 'md:col-start-2' : ''}`}>
                   <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                 </div>
@@ -94,7 +94,7 @@ export default function Cocktails() {
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {ingredients.map((ing) => (
-              <div key={ing.name} className="bg-white/[0.03] border border-white/10 rounded-2xl p-5 hover:border-amber/20 transition-all">
+              <div key={ing.name} className="lv-card lv-card-hover p-6">
                 <h3 className="font-heading text-lg text-amber tracking-wide mb-2">{ing.name}</h3>
                 <p className="text-sm text-white/75 leading-relaxed">{ing.note}</p>
               </div>
@@ -106,7 +106,7 @@ export default function Cocktails() {
       {/* Bookable cocktail & tasting experiences via GetYourGuide (search → live results) */}
       <section className="py-16 bg-night/95">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gradient-to-br from-amber/[0.07] via-night/0 to-ice/[0.04] border border-white/10 rounded-2xl p-8 sm:p-10 text-center">
+          <div className="lv-card bg-gradient-to-br from-amber/[0.07] via-night/0 to-ice/[0.04] p-8 sm:p-10 text-center">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/10 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-4">
               <Martini size={11} />
               {t('experiences.cocktail.kicker')}
@@ -127,7 +127,7 @@ export default function Cocktails() {
       {/* Stay near the cocktail bar */}
       <section className="py-14 bg-night">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-amber/[0.05] border border-amber/15 rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+          <div className="lv-card p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
             <div>
               <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-2 flex items-center gap-1.5">
                 <Hotel size={11} />

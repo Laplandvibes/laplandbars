@@ -268,7 +268,7 @@
         ],
         "tour": {
           "label": "醸造所ツアーとテイスティング",
-          "schedule": "金曜17:00 + 18:30(12月〜3月、毎週)",
+          "schedule": "金曜17:00（12月〜3月、毎週）",
           "hint": "水曜14:00までに申込、最少3名。info@lapinpanimo.fi または +358 45 133 4410 でご予約を。",
           "directLabel": "lapinpanimo.fi で予約"
         }
@@ -368,7 +368,8 @@
       "label": "エリアを選ぶ"
     },
     "venueMenu": "メニュー",
-    "venueMenuPdf": "メニュー（PDF）"
+    "venueMenuPdf": "メニュー（PDF）",
+    "venueMap": "地図"
   },
   "iceBars": {
     "title": "ラップランドのアイスバー | LaplandBars",
@@ -835,6 +836,51 @@
       "title": "カクテル＆テイスティング体験",
       "body": "ラップランドで楽しめる北欧カクテルや蒸留酒テイスティングの中には、ガイド付きで予約できるものもあります。本場でクラウドベリーサワーの作り方を覚えて、そのあとは堂々と注文しましょう。",
       "cta": "カクテル体験を見る"
+    }
+  },
+  "cities": {
+    "shared": {
+      "kicker": "どこで飲むか",
+      "countLabel": "{{at}}のバー {{count}}軒",
+      "countLabel_one": "{{at}}のバー 1軒",
+      "bestRated": "最高評価 {{rating}}",
+      "hoursNote": "ここの営業時間はスキーシーズンに合わせて変わります。出かける前に各店のページで確認してください。",
+      "stayHeadline": "{{at}}に泊まりますか？",
+      "stayLead": "上のバーから徒歩圏内の部屋を予約できます。",
+      "stayCta": "{{at}}の宿を探す",
+      "otherCities": "ラップランドの他の町で飲む",
+      "allBars": "すべてのバー →",
+      "cityPageCta": "{{name}}のバーガイド →",
+      "eatHere": "{{at}}で食べるなら",
+      "nightlifeHere": "{{at}}のナイトライフ"
+    },
+    "rovaniemi": {
+      "name": "ロヴァニエミ",
+      "at": "ロヴァニエミ",
+      "title": "ロヴァニエミのバー：パブ、カクテル、アイスバー | LaplandBars",
+      "description": "ロヴァニエミで飲むなら：数本の通りに集まる中心部のパブとカクテルバー、町外れのブルワリー直営タップルーム、そして30分先のアイスバー。Google評価、営業時間、料金。",
+      "h1": "ロヴァニエミのバー",
+      "tagline": "ラップランドで唯一、バーを歩いて選べる町。",
+      "intro": "ロヴァニエミのバーはRovakatu、Koskikatu、Korkalonkatu、Maakuntakatuに囲まれた小さな区画に集まっているので、ここでの夜は散歩であってタクシー移動ではありません。Rovakatuの Café & Bar 21 は町中が名前を挙げるカクテルバー、Korkalonkatuの Uitto Pub は昔からの定番、Valtakatuの Kauppayhtiö はビールとライブ音楽、そしてMaakuntakatuの Roy Club はほかの店が閉まったあとを引き受けます。中心部を離れる価値があるのは2軒。Lapland Brewery はTeollisuustieでタンクの横に自家製ビールを注ぎ、Sinettäの Arctic SnowHotel のアイスバーは約30分先で、毎年12月に氷から作り直されます。",
+      "know": [
+        "バーの大半は中心部にあり、互いに数百メートルの距離。Lapland Brewery、Pub Sarvi、アイスバーはその外にあり、車かタクシーが必要です。",
+        "Arctic SnowHotel のアイスバーは12月中旬から3月末まで毎日11〜22時に営業し、宿泊客以外はSnowHotelの入場券が必要です。",
+        "Lapland Brewery は冬の金曜17:00にブルワリー見学と試飲を行います。水曜までに申込、最少3名。"
+      ]
+    },
+    "levi": {
+      "name": "レヴィ",
+      "at": "レヴィ",
+      "title": "レヴィのバー：アプレスキー、パブ、深夜まで | LaplandBars",
+      "description": "レヴィで飲むなら：Hullu Poro Areena、Bar Ihku、ゲレンデ麓の村のパブ、そしてゴンドラで上る山頂レストラン。Google評価、営業時間、料金。",
+      "h1": "レヴィのバー",
+      "tagline": "フィンランドのアプレスキーの首都。リフトは16:00に止まり、バーはその直後から埋まります。",
+      "intro": "レヴィのバーは正面ゲレンデの麓の村に密集しています。村の正式名はSirkkaで、そのため住所にはSirkkaやKittiläと書かれています。Hissitieの Hullu Poro Areena は大箱で、2フロア、10のバー、コンサートの夜は最大1,700人。Keskuskujaの Bar Ihku とHiihtäjänkujaの Pub Hölmölä が深夜を担い、Public House Sohva と Pub Old Mates はビールとサッカー、Myllyjoentieの Bar Alakerta は日曜にオープンステージのジャムを開きます。Restaurant Tuikku は例外で、山頂にあり、スキーシーズン中は午後のアプレスキーの舞台になります。",
+      "know": [
+        "Tuikku以外はすべて村の中で徒歩圏内。山頂へはゴンドラ、スキー、または山頂道路で。",
+        "Hullu Poro Areena のコンサートの夜はチケット制で、通常25〜30ユーロ前後。普通のパブの夜は入場無料です。",
+        "V’inkkari とアプレスキーの店がフルに営業するのはスキーシーズンだけ。冬以外は、その店を軸に夜を組む前に営業を確認してください。"
+      ]
     }
   }
 }

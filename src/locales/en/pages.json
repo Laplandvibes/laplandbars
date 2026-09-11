@@ -268,7 +268,7 @@
         ],
         "tour": {
           "label": "Brewery tour & tasting",
-          "schedule": "Friday 17:00 + 18:30 (Dec–Mar weekly)",
+          "schedule": "Fridays 17:00 (Dec–Mar, weekly)",
           "hint": "Register by Wed 14:00, minimum 3 people. Reserve via info@lapinpanimo.fi or +358 45 133 4410.",
           "directLabel": "Reserve at lapinpanimo.fi"
         }
@@ -287,7 +287,8 @@
       "label": "Pick your town"
     },
     "venueMenu": "Menu",
-    "venueMenuPdf": "Menu (PDF)"
+    "venueMenuPdf": "Menu (PDF)",
+    "venueMap": "Map"
   },
   "iceBars": {
     "title": "Ice Bars in Finnish Lapland | LaplandBars",
@@ -754,6 +755,51 @@
       "title": "Cocktail & tasting experiences",
       "body": "Some of the best Arctic-cocktail and spirit-tasting sessions in Lapland are bookable with a guide. Learn the cloudberry sour at the source, then order it like you mean it.",
       "cta": "See cocktail experiences"
+    }
+  },
+  "cities": {
+    "shared": {
+      "kicker": "Where to drink",
+      "countLabel": "{{count}} bars in {{at}}",
+      "countLabel_one": "1 bar in {{at}}",
+      "bestRated": "Top rated {{rating}}",
+      "hoursNote": "Opening hours move with the ski season here. Check the bar’s own page before you head out.",
+      "stayHeadline": "Staying in {{at}}?",
+      "stayLead": "Book a room within walking distance of the bars above.",
+      "stayCta": "Find stays in {{at}}",
+      "otherCities": "Drink somewhere else in Lapland",
+      "allBars": "All bars →",
+      "cityPageCta": "{{name}} bar guide →",
+      "eatHere": "Where to eat in {{at}}",
+      "nightlifeHere": "Nightlife in {{at}}"
+    },
+    "rovaniemi": {
+      "name": "Rovaniemi",
+      "at": "Rovaniemi",
+      "title": "Bars in Rovaniemi: Pubs, Cocktails & the Ice Bar | LaplandBars",
+      "description": "Where to drink in Rovaniemi: centre pubs and cocktail bars a few streets apart, a brewery taproom and an ice bar 30 minutes out. Ratings, hours, prices.",
+      "h1": "Bars in Rovaniemi",
+      "tagline": "The only town in Lapland where you can choose a bar on foot.",
+      "intro": "Rovaniemi’s bars sit in a tight grid between Rovakatu, Koskikatu, Korkalonkatu and Maakuntakatu, so a night here is a walk, not a taxi ride. Café & Bar 21 on Rovakatu is the cocktail room the whole town mentions, Uitto Pub on Korkalonkatu is the old institution, Kauppayhtiö on Valtakatu mixes beer with live music, and Roy Club on Maakuntakatu takes over after everything else closes. Two are worth leaving the centre for: Lapland Brewery pours its own beer beside the tanks on Teollisuustie, and the Ice Bar at Arctic SnowHotel in Sinettä, about 30 minutes away, is rebuilt from ice every December.",
+      "know": [
+        "Most of the bars are in the city centre within a few hundred metres of each other; Lapland Brewery, Pub Sarvi and the ice bar are outside it and need a car or a taxi.",
+        "The Ice Bar at Arctic SnowHotel is open daily 11–22 from mid-December to the end of March and needs a SnowHotel entrance ticket unless you stay overnight.",
+        "Lapland Brewery runs a brewery tour and tasting on Fridays at 17:00 in winter; register by Wednesday, minimum three people."
+      ]
+    },
+    "levi": {
+      "name": "Levi",
+      "at": "Levi",
+      "title": "Bars in Levi: Après-Ski, Pubs & Late Nights | LaplandBars",
+      "description": "Where to drink in Levi: Hullu Poro Areena, Bar Ihku and the village pubs at the foot of the slopes, plus a fell-top restaurant. Ratings, hours, prices.",
+      "h1": "Bars in Levi",
+      "tagline": "Finland’s après-ski capital. The lifts stop at 16:00 and the bars fill straight after.",
+      "intro": "Levi’s bars are packed into the village at the foot of the front slope, officially called Sirkka, which is why the postal addresses say Sirkka or Kittilä. Hullu Poro Areena on Hissitie is the big room: two floors, ten bars and up to 1,700 people on concert nights. Bar Ihku on Keskuskuja and Pub Hölmölä on Hiihtäjänkuja carry the late shift, Public House Sohva and Pub Old Mates do beer and football, and Bar Alakerta on Myllyjoentie runs open-stage jams on Sundays. Restaurant Tuikku is the exception: it sits on the summit and hosts the afternoon après-ski when the ski season is on.",
+      "know": [
+        "Everything except Tuikku is within walking distance in the village; the summit is reached by gondola, on skis or by the summit road.",
+        "Concert nights at Hullu Poro Areena are ticketed, usually around 25–30 euros; ordinary pub nights are free to enter.",
+        "V’inkkari and the après-ski venues run full hours only in the ski season, so outside winter check the venue before you plan the evening around it."
+      ]
     }
   }
 }

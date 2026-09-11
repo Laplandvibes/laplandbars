@@ -268,7 +268,7 @@
         ],
         "tour": {
           "label": "酒厂参观与品鉴",
-          "schedule": "周五 17:00 与 18:30（12 月–3 月，每周）",
+          "schedule": "周五 17:00（12 月–3 月，每周）",
           "hint": "请于周三 14:00 前报名，最少 3 人成团。可通过 info@lapinpanimo.fi 或 +358 45 133 4410 预订。",
           "directLabel": "在 lapinpanimo.fi 预订"
         }
@@ -368,7 +368,8 @@
       "label": "选择目的地"
     },
     "venueMenu": "菜单",
-    "venueMenuPdf": "菜单（PDF）"
+    "venueMenuPdf": "菜单（PDF）",
+    "venueMap": "地图"
   },
   "iceBars": {
     "title": "拉普兰冰吧 | LaplandBars",
@@ -835,6 +836,51 @@
       "title": "鸡尾酒与品鉴体验",
       "body": "拉普兰一些很受欢迎的北极鸡尾酒和烈酒品鉴课程可以跟着向导预订。在源头学会调一杯云莓酸酒，之后点单就更有底气了。",
       "cta": "查看鸡尾酒体验"
+    }
+  },
+  "cities": {
+    "shared": {
+      "kicker": "去哪儿喝一杯",
+      "countLabel": "{{at}}的 {{count}} 家酒吧",
+      "countLabel_one": "{{at}}的 1 家酒吧",
+      "bestRated": "最高评分 {{rating}}",
+      "hoursNote": "这里的营业时间随滑雪季变化。出发前请查看酒吧自己的页面。",
+      "stayHeadline": "住在{{at}}？",
+      "stayLead": "预订一间步行即可到达上述酒吧的房间。",
+      "stayCta": "查找{{at}}的住宿",
+      "otherCities": "去拉普兰的其他地方喝一杯",
+      "allBars": "全部酒吧 →",
+      "cityPageCta": "{{name}}酒吧指南 →",
+      "eatHere": "在{{at}}吃什么",
+      "nightlifeHere": "{{at}}的夜生活"
+    },
+    "rovaniemi": {
+      "name": "罗瓦涅米",
+      "at": "罗瓦涅米",
+      "title": "罗瓦涅米的酒吧：酒馆、鸡尾酒与冰吧 | LaplandBars",
+      "description": "在罗瓦涅米喝一杯：相隔几条街的市中心酒馆和鸡尾酒吧、城边的精酿酒厂直营酒馆，以及 30 分钟车程外的冰吧。Google 评分、营业时间和价格。",
+      "h1": "罗瓦涅米的酒吧",
+      "tagline": "拉普兰唯一可以步行挑选酒吧的城市。",
+      "intro": "罗瓦涅米的酒吧集中在 Rovakatu、Koskikatu、Korkalonkatu 和 Maakuntakatu 之间的一小片街区，所以在这里过夜生活靠走路，不用打车。Rovakatu 的 Café & Bar 21 是全城都会提到的鸡尾酒吧，Korkalonkatu 的 Uitto Pub 是老字号，Valtakatu 的 Kauppayhtiö 把啤酒和现场音乐放在一起，Maakuntakatu 的 Roy Club 则在其他店打烊后接着营业。值得离开市中心的有两家：Lapland Brewery 在 Teollisuustie 的酒罐旁打自酿啤酒，Sinettä 的 Arctic SnowHotel 冰吧距市区约 30 分钟，每年 12 月用冰重新建造。",
+      "know": [
+        "大多数酒吧都在市中心，彼此相距几百米；Lapland Brewery、Pub Sarvi 和冰吧在市中心之外，需要开车或打车。",
+        "Arctic SnowHotel 的冰吧从 12 月中旬到 3 月底每天 11–22 点营业，非住店客人需要购买 SnowHotel 门票。",
+        "Lapland Brewery 冬季每周五 17:00 举办酒厂参观与品鉴；周三前报名，最少三人。"
+      ]
+    },
+    "levi": {
+      "name": "莱维",
+      "at": "莱维",
+      "title": "莱维的酒吧：滑雪后派对、酒馆与深夜 | LaplandBars",
+      "description": "在莱维喝一杯：Hullu Poro Areena、Bar Ihku、雪道脚下的村中酒馆，以及乘缆车前往的山顶餐厅。Google 评分、营业时间和价格。",
+      "h1": "莱维的酒吧",
+      "tagline": "芬兰的滑雪后派对之都。缆车 16:00 停运，酒吧随即坐满。",
+      "intro": "莱维的酒吧挤在正面雪道脚下的村子里，村子的正式名称是 Sirkka，所以邮政地址写的是 Sirkka 或 Kittilä。Hissitie 的 Hullu Poro Areena 是大场子：两层楼、十个吧台，演出之夜最多容纳 1,700 人。Keskuskuja 的 Bar Ihku 和 Hiihtäjänkuja 的 Pub Hölmölä 负责深夜时段，Public House Sohva 和 Pub Old Mates 是啤酒配足球，Myllyjoentie 的 Bar Alakerta 每周日有开放舞台即兴演出。Restaurant Tuikku 是例外：它位于山顶，滑雪季里承办下午的滑雪后派对。",
+      "know": [
+        "除 Tuikku 外，其余都在村内步行可达；上山顶可乘缆车、滑雪或走山顶公路。",
+        "Hullu Poro Areena 的演出之夜需要门票，通常在 25–30 欧元左右；普通酒馆之夜免费入场。",
+        "V’inkkari 和滑雪后派对场所只在滑雪季全时段营业，冬季以外请先确认营业情况，再围绕它安排夜晚。"
+      ]
     }
   }
 }

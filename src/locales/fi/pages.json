@@ -268,7 +268,7 @@
         ],
         "tour": {
           "label": "Panimokierros ja maistelu",
-          "schedule": "Perjantaisin 17:00 ja 18:30 (viikoittain joulu–maaliskuussa)",
+          "schedule": "Perjantaisin klo 17 (viikoittain joulu–maaliskuussa)",
           "hint": "Ilmoittaudu keskiviikkoon klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
           "directLabel": "Varaa lapinpanimo.fi:sta"
         }
@@ -368,7 +368,8 @@
       "label": "Valitse paikkakunta"
     },
     "venueMenu": "Menu",
-    "venueMenuPdf": "Menu (PDF)"
+    "venueMenuPdf": "Menu (PDF)",
+    "venueMap": "Kartta"
   },
   "iceBars": {
     "title": "Jääbaarit Lapissa | LaplandBars",
@@ -835,6 +836,51 @@
       "title": "Drinkki- ja maisteluelämykset",
       "body": "Osa Lapin parhaista arktisen drinkin ja viinan maistelutuokioista on varattavissa oppaan kanssa. Opi tekemään lakkasour itse lähteellä, ja tilaa se sitten kuin konkari.",
       "cta": "Katso drinkkielämykset"
+    }
+  },
+  "cities": {
+    "shared": {
+      "kicker": "Missä juoda",
+      "countLabel": "{{count}} baaria {{at}}",
+      "countLabel_one": "1 baari {{at}}",
+      "bestRated": "Paras arvio {{rating}}",
+      "hoursNote": "Aukioloajat elävät täällä hiihtokauden mukaan. Tarkista baarin oma sivu ennen lähtöä.",
+      "stayHeadline": "Yövytkö {{at}}?",
+      "stayLead": "Varaa huone kävelymatkan päästä yllä olevista baareista.",
+      "stayCta": "Etsi majoitus: {{name}}",
+      "otherCities": "Baarit muualla Lapissa",
+      "allBars": "Kaikki baarit →",
+      "cityPageCta": "{{name}}: baariopas →",
+      "eatHere": "Ravintolat {{at}}",
+      "nightlifeHere": "Yöelämä {{at}}"
+    },
+    "rovaniemi": {
+      "name": "Rovaniemi",
+      "at": "Rovaniemellä",
+      "title": "Baarit Rovaniemellä: pubit, cocktailit ja jääbaari | LaplandBars",
+      "description": "Missä juoda Rovaniemellä: keskustan pubit ja cocktailbaarit, panimon taproom ja jääbaari 30 minuutin päässä. Google-arviot, aukioloajat ja hinnat.",
+      "h1": "Baarit Rovaniemellä",
+      "tagline": "Lapin ainoa kaupunki, jossa baarin voi valita kävellen.",
+      "intro": "Rovaniemen baarit ovat tiiviissä ruudukossa Rovakadun, Koskikadun, Korkalonkadun ja Maakuntakadun välissä, joten ilta täällä on kävely, ei taksimatka. Rovakadun Café & Bar 21 on se cocktailpaikka, jonka koko kaupunki mainitsee, Korkalonkadun Uitto Pub on vanha instituutio, Valtakadun Kauppayhtiö yhdistää oluen ja livemusiikin, ja Maakuntakadun Roy Club jatkaa, kun muut sulkevat. Kahden takia kannattaa lähteä keskustasta: Lapland Brewery kaataa omaa oluttaan tankkien vieressä Teollisuustiellä, ja Arctic SnowHotelin jääbaari Sinetässä, noin 30 minuutin päässä, rakennetaan jäästä uudelleen joka joulukuu.",
+      "know": [
+        "Suurin osa baareista on keskustassa muutaman sadan metrin säteellä toisistaan; Lapland Brewery, Pub Sarvi ja jääbaari ovat sen ulkopuolella, ja niihin tarvitaan auto tai taksi.",
+        "Arctic SnowHotelin jääbaari on auki päivittäin 11–22 joulukuun puolivälistä maaliskuun loppuun, ja sinne tarvitaan Snowhotelin sisäänpääsylippu, ellei yövy paikan päällä.",
+        "Lapland Brewery järjestää panimokierroksen ja maistelun talvella perjantaisin klo 17.00; ilmoittaudu keskiviikkoon mennessä, vähintään kolme henkeä."
+      ]
+    },
+    "levi": {
+      "name": "Levi",
+      "at": "Levillä",
+      "title": "Baarit Levillä: après-ski, pubit ja pitkät illat | LaplandBars",
+      "description": "Missä juoda Levillä: Hullu Poro Areena, Bar Ihku ja kylän pubit rinteen juurella sekä tunturin huipun ravintola. Arviot, aukioloajat ja hinnat.",
+      "h1": "Baarit Levillä",
+      "tagline": "Suomen après-ski-pääkaupunki. Hissit pysähtyvät klo 16.00 ja baarit täyttyvät heti perään.",
+      "intro": "Levin baarit ovat tiiviisti eturinteen juurella kylässä, jonka virallinen nimi on Sirkka. Siksi postiosoitteissa lukee Sirkka tai Kittilä. Hissitien Hullu Poro Areena on se iso sali: kaksi kerrosta, kymmenen baaria ja konsertti-iltoina jopa 1 700 ihmistä. Keskuskujan Bar Ihku ja Hiihtäjänkujan Pub Hölmölä hoitavat myöhäisvuoron, Public House Sohva ja Pub Old Mates oluen ja jalkapallon, ja Myllyjoentien Bar Alakerta pitää open stage -jamit sunnuntaisin. Restaurant Tuikku on poikkeus: se on tunturin huipulla ja vetää iltapäivän après-skin, kun hiihtokausi on käynnissä.",
+      "know": [
+        "Kaikki paitsi Tuikku ovat kävelymatkan päässä kylässä; huipulle pääsee gondolilla, suksilla tai huipputietä.",
+        "Hullu Poro Areenan konsertti-illat ovat lipullisia, yleensä noin 25–30 euroa; tavallisina pubi-iltoina sisään pääsee ilmaiseksi.",
+        "V’inkkari ja après-ski-paikat ovat täysillä aukioloajoilla vain hiihtokaudella, joten talven ulkopuolella tarkista paikka ennen kuin suunnittelet illan sen varaan."
+      ]
     }
   }
 }
