@@ -117,7 +117,7 @@ export default function Home() {
 
         <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
           <p className="text-amber text-sm font-semibold tracking-[0.3em] uppercase mb-4 drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">{t('home.eyebrow')}</p>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-tight mb-6 text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]">
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-tight mb-6 text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)]">
             {t('home.hero.headlineLine1')}<br />{t('home.hero.headlineLine2')}
           </h1>
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl xl:max-w-4xl mx-auto mb-10 leading-relaxed text-pretty drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)] xl:text-2xl">
