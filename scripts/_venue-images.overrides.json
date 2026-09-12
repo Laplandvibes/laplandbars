@@ -1,19 +1,111 @@
 {
   "_readme": "Käsin valitut kohdekuvat, kun og:image on logo tai puuttuu. Kaikki URL:t ovat kohteen OMALTA sivustolta (tai sivustolta, jolla kohde itse julkaisee). Valinta tehty kontaktiarkilta 11.9.2026. approved = katsottu ja todettu esittävän juuri tätä paikkaa (tai sen omaa tuotetta). Hyväksymätön rivi ei renderöidy koskaan.",
   "overrides": {
-    "lapland-brewery": { "imageUrl": "https://lapinpanimo.fi/wp-content/uploads/2023/03/27263245029568811212909916218133529885261231n.jpg", "sourceUrl": "https://lapinpanimo.fi/en/", "note": "og:image on logo; panimopubin pöytä ja oma Hippu-olut" },
-    "selva-pyy": { "imageUrl": "https://selvapyy.fi/files/uploads/2026/01/selvapyy-2026-01-29-195131.jpg", "sourceUrl": "https://selvapyy.fi/", "note": "og:image on logo; baaritiski ja baarimikko" },
-    "bull-bar-grill": { "imageUrl": "https://images.squarespace-cdn.com/content/v1/680a379c6fb81b5a188e4e9a/5d72dbd8-4332-4ac6-8df5-7dd5e678f027/Foosball_Bull.jpg", "sourceUrl": "https://bullbar.fi/", "note": "og:image on härkä-brändikuva; pöytäfutis ja juoma sisätilassa" },
-    "snowman-world-ice-bar": { "imageUrl": "https://snowmanworld.fi/wp-content/uploads/2025/10/Ice-drink-Ice-Bar-Snowman-World.jpg", "sourceUrl": "https://snowmanworld.fi/activities/", "note": "og:image on maskotti; jääbaarin jäälasit" },
-    "pub-holmola": { "imageUrl": "https://www.hulluporo.fi/wp-content/uploads/2014/10/pub-holmola1500x1000.jpg", "sourceUrl": "https://www.hulluporo.fi/en/restaurants/pub-holmola/", "note": "og:image 300 px; sama kuva täysikokoisena (baaritiski)" },
-    "public-house-sohva": { "imageUrl": "https://pubsohva.fi/wp-content/uploads/Aloituskuva.jpg", "sourceUrl": "https://pubsohva.fi/", "note": "og:image on favicon; julkisivu ja kyltti talvi-iltana" },
-    "gastropub-giitu": { "imageUrl": "https://files.builder.misssite.com/18/5d/185dfc00-9e5d-4e8b-a990-351f1d1a3c5b.jpeg", "sourceUrl": "https://gastropubgiitu.fi/en/home", "note": "ei og:imagea; etusivun taustakuva (oma burgeri)" },
-    "rovaniemen-oluthuone": { "imageUrl": "https://static.wixstatic.com/media/c48cc7_3b35f860b2504fcab4f1e52339d4e0ff~mv2.jpg", "sourceUrl": "https://www.rovaniemenoluthuone.fi/", "note": "ei og:imagea; biljardipöytä (pystykuva, rajataan)" },
-    "roy-club": { "imageUrl": "https://static.wixstatic.com/media/c48cc7_fb805c34c6fe4f718529dcbbbdbbf19d~mv2.jpg", "sourceUrl": "https://www.royclub.fi/", "note": "ei og:imagea; tiski ja ROY CLUB -kyltti" },
-    "v-inkkari": { "imageUrl": "https://images.ctfassets.net/sqofpczsslzu/6QK2H3QSUhuEDSlExPjvjA/250fc6f870f428383058924ad664549c/Levi_Vappu_2048x1348.jpg?w=1600&q=75&fm=jpg", "sourceUrl": "https://www.levi.fi/en/services/restaurant-vinkkari/", "note": "og:image-URL:ssa &amp; purkamatta (HTTP 400); vappu Vinkkarin terassilla" },
-    "restaurant-tuikku": { "imageUrl": "https://images.ctfassets.net/sqofpczsslzu/50kq3MYfNIGFDZ40o7EYOL/93588482a0f96b1de8d34a1ec2533b66/Tuikku2022.jpg?w=1600&q=75&fm=jpg", "sourceUrl": "https://www.levi.fi/en/services/panoramic-restaurant-tuikku/", "note": "sama entiteettivika; Levin oma Tuikku-kuva (tunturimaisema ravintolalta)" },
-    "teerenpesa": { "imageUrl": "https://teerenpesa.fi/wp-content/uploads/2018/03/teerenpesaetusivuyokerho-11920x864acfcropped-2.jpg", "sourceUrl": "https://teerenpesa.fi/en/", "note": "og:image on logo; etusivun yökerho-slide" },
-    "bar-kaappi": { "imageUrl": "https://cdn-datahub.visitfinland.com/images/04dc6040-ae67-11ee-895e-65eccdb2f013.jpeg", "sourceUrl": "https://yllas.fi/en/restaurant/bar-kaappi/", "note": "og:image on Ylläksen logo; yllas.fi:n Bar Kaappi -sivun kuva (julkisivu ja kyltti), kohteen itse DataHubiin viemä" }
+    "lapland-brewery": {
+      "imageUrl": "https://lapinpanimo.fi/wp-content/uploads/2023/03/27263245029568811212909916218133529885261231n.jpg",
+      "sourceUrl": "https://lapinpanimo.fi/en/",
+      "note": "og:image on logo; panimopubin pöytä ja oma Hippu-olut"
+    },
+    "selva-pyy": {
+      "imageUrl": "https://selvapyy.fi/files/uploads/2026/01/selvapyy-2026-01-29-195131.jpg",
+      "sourceUrl": "https://selvapyy.fi/",
+      "note": "og:image on logo; baaritiski ja baarimikko"
+    },
+    "bull-bar-grill": {
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/680a379c6fb81b5a188e4e9a/5d72dbd8-4332-4ac6-8df5-7dd5e678f027/Foosball_Bull.jpg",
+      "sourceUrl": "https://bullbar.fi/",
+      "note": "og:image on härkä-brändikuva; pöytäfutis ja juoma sisätilassa"
+    },
+    "snowman-world-ice-bar": {
+      "imageUrl": "https://snowmanworld.fi/wp-content/uploads/2025/10/Ice-drink-Ice-Bar-Snowman-World.jpg",
+      "sourceUrl": "https://snowmanworld.fi/activities/",
+      "note": "og:image on maskotti; jääbaarin jäälasit"
+    },
+    "pub-holmola": {
+      "imageUrl": "https://www.hulluporo.fi/wp-content/uploads/2014/10/pub-holmola1500x1000.jpg",
+      "sourceUrl": "https://www.hulluporo.fi/en/restaurants/pub-holmola/",
+      "note": "og:image 300 px; sama kuva täysikokoisena (baaritiski)"
+    },
+    "public-house-sohva": {
+      "imageUrl": "https://pubsohva.fi/wp-content/uploads/Aloituskuva.jpg",
+      "sourceUrl": "https://pubsohva.fi/",
+      "note": "og:image on favicon; julkisivu ja kyltti talvi-iltana"
+    },
+    "gastropub-giitu": {
+      "imageUrl": "https://files.builder.misssite.com/18/5d/185dfc00-9e5d-4e8b-a990-351f1d1a3c5b.jpeg",
+      "sourceUrl": "https://gastropubgiitu.fi/en/home",
+      "note": "ei og:imagea; etusivun taustakuva (oma burgeri)"
+    },
+    "rovaniemen-oluthuone": {
+      "imageUrl": "https://static.wixstatic.com/media/c48cc7_3b35f860b2504fcab4f1e52339d4e0ff~mv2.jpg",
+      "sourceUrl": "https://www.rovaniemenoluthuone.fi/",
+      "note": "ei og:imagea; biljardipöytä (pystykuva, rajataan)"
+    },
+    "roy-club": {
+      "imageUrl": "https://static.wixstatic.com/media/c48cc7_fb805c34c6fe4f718529dcbbbdbbf19d~mv2.jpg",
+      "sourceUrl": "https://www.royclub.fi/",
+      "note": "ei og:imagea; tiski ja ROY CLUB -kyltti"
+    },
+    "v-inkkari": {
+      "imageUrl": "https://images.ctfassets.net/sqofpczsslzu/6QK2H3QSUhuEDSlExPjvjA/250fc6f870f428383058924ad664549c/Levi_Vappu_2048x1348.jpg?w=1600&q=75&fm=jpg",
+      "sourceUrl": "https://www.levi.fi/en/services/restaurant-vinkkari/",
+      "note": "og:image-URL:ssa &amp; purkamatta (HTTP 400); vappu Vinkkarin terassilla"
+    },
+    "restaurant-tuikku": {
+      "imageUrl": "https://images.ctfassets.net/sqofpczsslzu/50kq3MYfNIGFDZ40o7EYOL/93588482a0f96b1de8d34a1ec2533b66/Tuikku2022.jpg?w=1600&q=75&fm=jpg",
+      "sourceUrl": "https://www.levi.fi/en/services/panoramic-restaurant-tuikku/",
+      "note": "sama entiteettivika; Levin oma Tuikku-kuva (tunturimaisema ravintolalta)"
+    },
+    "teerenpesa": {
+      "imageUrl": "https://teerenpesa.fi/wp-content/uploads/2018/03/teerenpesaetusivuyokerho-11920x864acfcropped-2.jpg",
+      "sourceUrl": "https://teerenpesa.fi/en/",
+      "note": "og:image on logo; etusivun yökerho-slide"
+    },
+    "bar-kaappi": {
+      "imageUrl": "https://cdn-datahub.visitfinland.com/images/04dc6040-ae67-11ee-895e-65eccdb2f013.jpeg",
+      "sourceUrl": "https://yllas.fi/en/restaurant/bar-kaappi/",
+      "note": "og:image on Ylläksen logo; yllas.fi:n Bar Kaappi -sivun kuva (julkisivu ja kyltti), kohteen itse DataHubiin viemä"
+    },
+    "hanki-baari-pyha": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2023-01/Hankibaari.JPG.webp?h=d9d3c991&itok=0ZqO3DhO",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "oma og:image on brandijuliste (sama molemmissa toimipisteissa); pyha.fi julkaisee paikan valokuvan"
+    },
+    "pyha-dreams": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-02/DSC06791.jpg.webp?h=44392e80&itok=kXJCLD0c",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "oma sivu 404; pyha.fi:n oma kuva"
+    },
+    "sportbar-pyha": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2022-10/SportBar_Pyha.jpg.webp?h=050dc016&itok=wQ7teeNk",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "sportbarpyha.fi ei resolvoidu; pyha.fi:n oma kuva"
+    },
+    "bistro-rumpu-baari": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2022-10/Lapland_Hotels_Luostotunturi_ravintolat.jpg.webp?h=e5589425&itok=0rnGrEja",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "laplandhotels.com on bottisuojan takana (HTTP 429); Visit Pyha-Luoston oma kuva"
+    },
+    "yokerho-karhu": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-12/Lapland%20Hotels%20Luostotunturi%20Night%20Club%20Karhu%20dancefloor.png.webp?h=a9367d31&itok=fJw86McD",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "sama bottisuoja; kuva on Karhun tanssilattia"
+    },
+    "hanki-baari-ruka": {
+      "imageUrl": "https://www.ruka.fi/sites/ruka/files/styles/width_1080_height_515/public/hanki_baari_tiski.jpg.webp?h=4521fff0&itok=lagFwcPE",
+      "sourceUrl": "https://www.ruka.fi/baarit",
+      "note": "oma og:image on brandijuliste; ruka.fi julkaisee baaritiskin kuvan"
+    },
+    "keloravintola": {
+      "imageUrl": "https://ski.salla.fi/wp-content/uploads/2017/11/keloravintola-salla.jpg",
+      "sourceUrl": "https://ski.salla.fi/en/restaurants/",
+      "note": "Oma og:image on logo. Tama on Salla Ski Resortin OMA kuva Sallan Keloravintolasta — ei sekoiteta Luoston samannimiseen."
+    },
+    "papana-pupi": {
+      "imageUrl": "https://www.sallatunturi.fi/wp-content/uploads/2025/10/Papana-Pub-1536x600.webp",
+      "sourceUrl": "https://www.sallatunturi.fi/en/restaurants/papana-pupi/",
+      "note": "og:image oli kesakuva; tama on paikan oman sivun ylakuva"
+    }
   },
   "extras": {
     "tornion-panimo": {
@@ -27,9 +119,43 @@
   },
   "approved": [
     "tornion-panimo",
-    "lapland-brewery", "uitto-pub", "nook-lounge", "bull-bar-grill", "ice-bar-arctic-snowhotel", "hullu-poro-areena", "bar-ihku",
-    "pub-holmola", "public-house-sohva", "pub-old-mates", "selva-pyy", "gastropub-giitu", "kauppayhtio", "rovaniemen-oluthuone",
-    "roy-club", "v-inkkari", "restaurant-tuikku", "bar-kaappi", "teerenpesa", "arctic-snowhotel-icebar", "snowman-world-ice-bar"
+    "lapland-brewery",
+    "uitto-pub",
+    "nook-lounge",
+    "bull-bar-grill",
+    "ice-bar-arctic-snowhotel",
+    "hullu-poro-areena",
+    "bar-ihku",
+    "pub-holmola",
+    "public-house-sohva",
+    "pub-old-mates",
+    "selva-pyy",
+    "gastropub-giitu",
+    "kauppayhtio",
+    "rovaniemen-oluthuone",
+    "roy-club",
+    "v-inkkari",
+    "restaurant-tuikku",
+    "bar-kaappi",
+    "teerenpesa",
+    "arctic-snowhotel-icebar",
+    "snowman-world-ice-bar",
+    "hanki-baari-pyha",
+    "pyha-dreams",
+    "sportbar-pyha",
+    "camp-kitchen-bar-pyha",
+    "bistro-rumpu-baari",
+    "yokerho-karhu",
+    "bar-ihku-ruka",
+    "ravintola-zone",
+    "restaurant-colorado-ruka",
+    "hanki-baari-ruka",
+    "rinneravintola-piste",
+    "lobby-bar-scandic-rukahovi",
+    "parja-ski-bistro",
+    "ravintola-pirtti",
+    "keloravintola",
+    "papana-pupi"
   ],
   "noPhoto": {
     "cafe-bar-21": "Sivustolla vain brändikuvitusta, ei valokuvia",
@@ -37,6 +163,9 @@
     "pirtukellari-night-club": "Vain Facebook",
     "mustakissa-kuppila": "Vain Facebook",
     "pub-sarvi": "Vain Facebook",
-    "snowvillage-icebar": "snowvillage.fi on Vercelin bottisuojan takana (429 / tyhjä DOM)"
+    "snowvillage-icebar": "snowvillage.fi on Vercelin bottisuojan takana (429 / tyhjä DOM)",
+    "ravintola-huttuhippu": "pyha.fi:n kuvatiedosto on Huttuhippu_kesa.jpg eli kesakuva.",
+    "tunturipub": "Oma og:image on logo.",
+    "mesta": "pyha.fi:n kuva on Mestan logo vihrealla, ei valokuva paikasta."
   }
 }

@@ -73,6 +73,20 @@ for (const block of src.split(/\n  \{\n/).slice(1)) {
   venues.push({ name, slug: barSlug(name), website });
 }
 
+// Apres-ski-sivun kohteet eivat ole bars.ts:ssa (ne ovat oma listansa, ja osa
+// on Lapin ulkopuolella). Sama og:image-logiikka koskee niita.
+const APRES = path.join(ROOT, 'scripts/_apres-venues.source.json');
+if (fs.existsSync(APRES)) {
+  for (const r of JSON.parse(fs.readFileSync(APRES, 'utf8')).resorts) {
+    for (const v of r.venues) {
+      if (!v.website) continue;
+      const slug = barSlug(v.name);
+      if (venues.some((x) => x.slug === slug)) continue; // Bar Ihku on jo bars.ts:ssa (Levi) — Rukan toimipiste on eri paikka
+      venues.push({ name: v.name, slug, website: v.website });
+    }
+  }
+}
+
 const ov = JSON.parse(fs.readFileSync(OVERRIDES, 'utf8'));
 const approved = new Set(ov.approved);
 fs.mkdirSync(OUT_DIR, { recursive: true });

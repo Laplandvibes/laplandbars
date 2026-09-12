@@ -436,8 +436,8 @@
     "verifiedNote": "Dados verificados nos sites dos locais em 10/07/2026. Preços e horários podem mudar conforme a temporada."
   },
   "apresSki": {
-    "title": "Après-ski na Lapônia: Levi e Ylläs | LaplandBars",
-    "description": "A festa começa quando os teleféricos fecham: Hullu Poro Areena e os bares de Levi, Selvä Pyy e Pirtukellari em Ylläs, e as calmas Saariselkä e Pyhä.",
+    "title": "Après-ski na Lapônia: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "description": "A festa começa quando os teleféricos fecham: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Après-ski",
       "sub": "Na Lapônia, as pistas fecham às 16h e a festa começa às 16h01. O après-ski finlandês é mais barulhento, mais quente e mais sincero do que em qualquer outro lugar."
@@ -463,7 +463,11 @@
       "Levi": "Pé na pista no Hullu Poro, Levi Hotel Spa, K5 Levi.",
       "Yllas": "Lapland Hotels Äkäshotelli, cabanas de toras, ski-in/ski-out.",
       "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, iglus de vidro nas redondezas.",
-      "Pyha": "Iglus de Pyhä, Hotel Pyhätunturi, chalés de cabana de toras."
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, chalés de toras.",
+      "Ruka": "Scandic Rukahovi no pé da pista, Rukan Salonki, cabanas ski-in.",
+      "Salla": "Sallatunturin Tuvat, Holiday Club Salla, cabanas junto às pistas.",
+      "Luosto": "Lapland Hotels Luostotunturi, cabanas de toras em Luosto.",
+      "IsoSyote": "Hotel Iso-Syöte no alto, hotel KIDE e cabanas no pé da pista."
     },
     "venues": {
       "Hullu Poro Areena": {
@@ -489,6 +493,82 @@
       "Pirtukellari Night Club": {
         "type": "balada",
         "desc": "A boate do Lapland Hotels Äkäshotelli, no mesmo prédio do restaurante Pirtukirkko. Quando os pubs fecham, a festa desce um andar. Só sexta e sábado, e nas noites de alta temporada enche rápido."
+      },
+      "Hanki Baari Pyhä": {
+        "type": "Bar no pé da pista",
+        "desc": "No pé das encostas norte. Artistas e DJs na maioria dos fins de semana de inverno. A casa de Pyhä reabre para a temporada em dezembro de 2026."
+      },
+      "Mesta": {
+        "type": "Bar e restaurante de pista",
+        "desc": "No meio das pistas, ao lado do Hotel Kultakero, com terraço voltado para a pista."
+      },
+      "Pyhä Dreams": {
+        "type": "Bar de vinhos",
+        "desc": "No alto do fjäll de Pyhä. Uma carta de vinhos, não uma pista de dança."
+      },
+      "CAMP Kitchen & Bar Pyhä": {
+        "type": "Restaurante e bar",
+        "desc": "Na vila, ao lado do Hotel Pyhätunturi. Restaurante das 16 às 21, a cozinha fecha às 20:30."
+      },
+      "Ravintola Huttuhippu": {
+        "type": "Restaurante de pista e pub",
+        "desc": "Ao lado da pista para famílias: restaurante de pista de dia, à la carte e o Huttu-Pub à noite. Aberto todos os dias das 13 às 22, cozinha até as 21."
+      },
+      "SportBar Pyhä": {
+        "type": "Bar esportivo",
+        "desc": "No centro comercial de Pyhä. Karaokê, sinuca e dardos, aberto das 17 às 00 e até as 02 nos fins de semana."
+      },
+      "Bar Ihku Ruka": {
+        "type": "Bar de pista, karaokê e balada",
+        "desc": "Ski-in no Scandic Rukahovi. O bar de pista e o terraço abrem às 14 todos os dias, karaokê a partir das 21, e a balada vai até as 04 na sexta e no sábado."
+      },
+      "Ravintola Zone": {
+        "type": "Restaurante e bar",
+        "desc": "Aberto todos os dias das 08 às 04, karaokê a partir das 21 e mais de cem noites de música ao vivo por ano. Há um terraço na cobertura."
+      },
+      "Restaurant Colorado Ruka": {
+        "type": "Bar e grill",
+        "desc": "Noites de música ao vivo quase toda semana durante a temporada de esqui, terraço ensolarado e sinuca. Aberto das 14 às 22, até as 24 na sexta e no sábado."
+      },
+      "Hanki Baari Ruka": {
+        "type": "Bar",
+        "desc": "Bar da vila com comida e, no inverno, artistas e DJs. Aberto das 11 às 18 nos dias de semana e até mais tarde no fim de semana."
+      },
+      "Rinneravintola Piste": {
+        "type": "Restaurante de pista",
+        "desc": "Bem no pé das pistas da frente. Aberto todos os dias das 11 às 18."
+      },
+      "Lobby Bar Scandic Rukahovi": {
+        "type": "Bar do lobby",
+        "desc": "No hotel ski-in ski-out no pé da pista, com esporte na tela."
+      },
+      "Keloravintola": {
+        "type": "Restaurante de pista",
+        "desc": "No pé das pistas para famílias, com terraço ensolarado. O site da própria estação chama o que acontece aqui de festas de après-ski. Aberto todos os dias das 13 às 20."
+      },
+      "Papana Pupi": {
+        "type": "Pub",
+        "desc": "No Sallatunturin Tuvat, e a casa se apresenta como o coração do après-ski. Músicos de rock finlandeses tocam aqui, cães são bem-vindos no terraço, aberto das 08 às 22 o ano todo."
+      },
+      "Bistro & Rumpu Baari": {
+        "type": "Bistrô e bar de hotel",
+        "desc": "No Lapland Hotels Luostotunturi, um lugar sem pressa para uma bebida ou um café depois das pistas."
+      },
+      "Yökerho Karhu": {
+        "type": "Casa noturna",
+        "desc": "A opção da madrugada em Luosto, no Lapland Hotels Luostotunturi, com artistas convidados e karaokê. Aberta sexta e sábado das 20 às 01."
+      },
+      "Pärjä Ski Bistro": {
+        "type": "Bistrô de pista",
+        "desc": "Junto aos teleféricos das pistas de trás. A própria página do bistrô apresenta Iso-Syöte como um paraíso do après-ski, e na primavera o terraço pega o sol da tarde."
+      },
+      "TunturiPUB": {
+        "type": "Pub",
+        "desc": "Bem ao lado das pistas da frente, vizinho do hotel KIDE. Aberto das 12 às 00, até as 03 na sexta e no sábado, cozinha até as 21:30."
+      },
+      "Ravintola Pirtti": {
+        "type": "Restaurante e bar",
+        "desc": "No Santa's Hotel Tunturi, a cerca de um quilômetro das pistas. Nas palavras do próprio restaurante: boas bebidas, comida sem frescura e um clima alegre de après-ski."
       }
     },
     "north": {
@@ -501,7 +581,8 @@
       "title": "Ver todos os bares",
       "sub": "Veja a lista completa de bares e pubs nos quatro destinos.",
       "btn": "Todos os bares e pubs"
-    }
+    },
+    "notFound": "Olos, Pallas e Suomu listam restaurantes de pista nos próprios sites, mas não citam nenhum bar, casa noturna ou noite de après-ski. Kilpisjärvi não tem nenhuma pista de esqui alpino."
   },
   "cocktails": {
     "title": "Coquetéis da Lapônia com frutas árticas | LaplandBars",

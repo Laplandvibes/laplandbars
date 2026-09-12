@@ -436,8 +436,8 @@
     "verifiedNote": "信息已于2026年7月10日在场馆官网核实，价格与时间可能随季节调整。"
   },
   "apresSki": {
-    "title": "拉普兰滑雪后派对：莱维与于拉斯 | LaplandBars",
-    "description": "缆车一关，派对开场：莱维的 Hullu Poro Areena 与雪场酒吧，于拉斯的 Selvä Pyy 与 Pirtukellari，还有更安静的萨利色尔卡与皮哈。",
+    "title": "拉普兰滑雪后派对：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托 | LaplandBars",
+    "description": "缆车一关，派对开场：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托、伊索叙厄泰、萨利色尔卡。",
     "hero": {
       "title": "滑雪后派对",
       "sub": "在拉普兰，雪道下午 4 点关闭，4 点 01 分派对开场。芬兰的滑雪后派对比世界任何地方都更喧闹、更温暖、也更真诚。"
@@ -463,7 +463,11 @@
       "Levi": "Hullu Poro 雪道旁、Levi Hotel Spa、K5 Levi。",
       "Yllas": "Lapland Hotels Äkäshotelli、木屋、滑进滑出。",
       "Saariselka": "Holiday Club Saariselkä、Santa's Hotel、附近的玻璃冰屋。",
-      "Pyha": "Pyhä Igloos、Hotel Pyhätunturi、木屋别墅。"
+      "Pyha": "Pyhä Igloos、Hotel Pyhätunturi、原木小屋。",
+      "Ruka": "雪道脚下的 Scandic Rukahovi、Rukan Salonki、ski-in 小木屋。",
+      "Salla": "Sallatunturin Tuvat、Holiday Club Salla、雪道旁的小木屋。",
+      "Luosto": "Lapland Hotels Luostotunturi、卢奥斯托的原木小屋。",
+      "IsoSyote": "山顶的 Hotel Iso-Syöte、雪道脚下的 KIDE 酒店和小木屋。"
     },
     "venues": {
       "Hullu Poro Areena": {
@@ -489,6 +493,82 @@
       "Pirtukellari Night Club": {
         "type": "夜店",
         "desc": "Lapland Hotels Äkäshotelli的夜店，与Pirtukirkko餐厅同处一栋楼。酒吧打烊后，场子就转到楼下。只在周五和周六营业，旺季的晚上很快就满。"
+      },
+      "Hanki Baari Pyhä": {
+        "type": "雪道脚下的酒吧",
+        "desc": "位于北坡脚下。冬季周末大多有艺人和 DJ 演出。皮哈的这家店将于 2026 年 12 月重新开门迎接雪季。"
+      },
+      "Mesta": {
+        "type": "雪道酒吧与餐厅",
+        "desc": "位于雪道中段，紧邻 Hotel Kultakero，露台朝向雪道。"
+      },
+      "Pyhä Dreams": {
+        "type": "葡萄酒吧",
+        "desc": "位于皮哈山顶。这里有酒单，没有舞池。"
+      },
+      "CAMP Kitchen & Bar Pyhä": {
+        "type": "餐厅与酒吧",
+        "desc": "在村里，紧邻 Hotel Pyhätunturi。餐厅 16–21 营业，厨房 20:30 打烊。"
+      },
+      "Ravintola Huttuhippu": {
+        "type": "雪道餐厅与酒馆",
+        "desc": "紧邻家庭雪道：白天是雪道餐厅，晚上是单点菜单和 Huttu-Pub。每天 13–22 营业，厨房到 21。"
+      },
+      "SportBar Pyhä": {
+        "type": "体育酒吧",
+        "desc": "在皮哈购物中心内。有卡拉 OK、台球和飞镖，营业 17–00，周末到 02。"
+      },
+      "Bar Ihku Ruka": {
+        "type": "雪道酒吧、卡拉 OK 与夜店",
+        "desc": "就在 Scandic Rukahovi，可以滑雪直达门口。雪道酒吧和露台每天 14 开始营业，卡拉 OK 从 21 开始，夜店在周五和周六营业到 04。"
+      },
+      "Ravintola Zone": {
+        "type": "餐厅与酒吧",
+        "desc": "每天 08–04 营业，卡拉 OK 从 21 开始，一年有上百场现场演出。设有屋顶露台。"
+      },
+      "Restaurant Colorado Ruka": {
+        "type": "酒吧与烤肉餐厅",
+        "desc": "滑雪季里几乎每周都有现场演出之夜，还有阳光露台和台球。营业 14–22，周五和周六到 24。"
+      },
+      "Hanki Baari Ruka": {
+        "type": "酒吧",
+        "desc": "村里的酒吧，也供应餐食，冬季有艺人和 DJ。工作日 11–18 营业，周末营业更晚。"
+      },
+      "Rinneravintola Piste": {
+        "type": "雪道餐厅",
+        "desc": "就在前坡脚下。每天 11–18 营业。"
+      },
+      "Lobby Bar Scandic Rukahovi": {
+        "type": "大堂酒吧",
+        "desc": "位于雪道脚下的 ski-in ski-out 酒店内，屏幕上放着体育比赛。"
+      },
+      "Keloravintola": {
+        "type": "雪道餐厅",
+        "desc": "位于家庭雪道脚下，有阳光露台。滑雪场自己的网站把这里的活动称为滑雪后派对。每天 13–20 营业。"
+      },
+      "Papana Pupi": {
+        "type": "酒馆",
+        "desc": "位于 Sallatunturin Tuvat，这家店自称滑雪后派对的中心。芬兰摇滚乐手会在这里演出，露台欢迎带狗，全年 08–22 营业。"
+      },
+      "Bistro & Rumpu Baari": {
+        "type": "酒店小酒馆与酒吧",
+        "desc": "位于 Lapland Hotels Luostotunturi，是雪道之后喝一杯或喝杯咖啡的悠闲去处。"
+      },
+      "Yökerho Karhu": {
+        "type": "夜店",
+        "desc": "卢奥斯托的深夜去处，位于 Lapland Hotels Luostotunturi，有客座艺人和卡拉 OK。周五和周六 20–01 营业。"
+      },
+      "Pärjä Ski Bistro": {
+        "type": "雪道小酒馆",
+        "desc": "在后坡缆车旁。小酒馆自己的页面把伊索叙厄泰称作滑雪后派对的天堂，春天露台上有下午的阳光。"
+      },
+      "TunturiPUB": {
+        "type": "酒馆",
+        "desc": "就在前坡旁边，紧邻 KIDE 酒店。营业 12–00，周五和周六到 03，厨房到 21:30。"
+      },
+      "Ravintola Pirtti": {
+        "type": "餐厅与酒吧",
+        "desc": "位于 Santa's Hotel Tunturi，距离雪道约一公里。用餐厅自己的话说：好酒、实在的食物，加上欢快的滑雪后派对气氛。"
       }
     },
     "north": {
@@ -501,7 +581,8 @@
       "title": "查看全部酒吧",
       "sub": "浏览四大目的地的完整酒吧与酒馆名单。",
       "btn": "全部酒吧与酒馆"
-    }
+    },
+    "notFound": "Olos、Pallas 和 Suomu 在自己的网站上列出了雪道餐厅，但没有提到任何酒吧、夜店或滑雪后派对之夜。Kilpisjärvi 根本没有高山雪道。"
   },
   "cocktails": {
     "title": "拉普兰鸡尾酒：云莓与越橘 | LaplandBars",

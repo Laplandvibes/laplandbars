@@ -355,8 +355,8 @@
     "verifiedNote": "Details checked against the venues' own sites on Jul 10, 2026. Prices and hours may change seasonally."
   },
   "apresSki": {
-    "title": "Après-Ski in Lapland: Levi & Ylläs | LaplandBars",
-    "description": "Where the party starts when the lifts close: Hullu Poro Areena and the Levi bars, Selvä Pyy and Pirtukellari on Ylläs, plus quieter Saariselkä and Pyhä.",
+    "title": "Après-Ski in Lapland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "description": "Where the party starts when the lifts close: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Après-Ski",
       "sub": "In Lapland, the slopes close at 4pm and the party starts at 4:01. Finnish après-ski is louder, warmer, and more honest than anywhere else."
@@ -382,7 +382,11 @@
       "Levi": "Slope-side at Hullu Poro, Levi Hotel Spa, K5 Levi.",
       "Yllas": "Lapland Hotels Äkäshotelli, log cabins, ski-in/ski-out.",
       "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, glass igloos nearby.",
-      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, log cabin chalets."
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, log chalets.",
+      "Ruka": "Scandic Rukahovi at the slope base, Rukan Salonki, ski-in cabins.",
+      "Salla": "Sallatunturin Tuvat, Holiday Club Salla, cabins by the slopes.",
+      "Luosto": "Lapland Hotels Luostotunturi, Luosto log cabins.",
+      "IsoSyote": "Hotel Iso-Syöte on the summit, KIDE hotel and cabins at the slope base."
     },
     "venues": {
       "Hullu Poro Areena": {
@@ -408,6 +412,82 @@
       "Pirtukellari Night Club": {
         "type": "Nightclub",
         "desc": "The nightclub at Lapland Hotels Äkäshotelli, in the same building as the Pirtukirkko restaurant. When the pubs wind down, the party moves downstairs. Fri–Sat only, and peak season nights fill fast."
+      },
+      "Hanki Baari Pyhä": {
+        "type": "Bar at the slope base",
+        "desc": "At the foot of the Northern slopes. Artists and DJs on most winter weekends. The Pyhä bar reopens for the season in December 2026."
+      },
+      "Mesta": {
+        "type": "Slope bar and restaurant",
+        "desc": "In the middle of the slopes next to Hotel Kultakero, with a terrace over the piste."
+      },
+      "Pyhä Dreams": {
+        "type": "Wine bar",
+        "desc": "At the top of the Pyhä fell. A wine list rather than a dance floor."
+      },
+      "CAMP Kitchen & Bar Pyhä": {
+        "type": "Restaurant and bar",
+        "desc": "In the village next to Hotel Pyhätunturi. Restaurant 16–21, kitchen closes at 20:30."
+      },
+      "Ravintola Huttuhippu": {
+        "type": "Slope restaurant and pub",
+        "desc": "Next to the family slope: a slope restaurant by day, à la carte and the Huttu-Pub in the evening. Open daily 13–22, kitchen until 21."
+      },
+      "SportBar Pyhä": {
+        "type": "Sports bar",
+        "desc": "In the Pyhä shopping centre. Karaoke, pool and darts, open 17–00 and until 02 at weekends."
+      },
+      "Bar Ihku Ruka": {
+        "type": "Slope bar, karaoke and club",
+        "desc": "Ski-in at Scandic Rukahovi. Slope bar and terrace open at 14 every day, karaoke from 21, and the club runs until 04 on Friday and Saturday."
+      },
+      "Ravintola Zone": {
+        "type": "Restaurant and bar",
+        "desc": "Open 08–04 every day, karaoke from 21 and more than a hundred live nights a year. There is a roof terrace."
+      },
+      "Restaurant Colorado Ruka": {
+        "type": "Bar and grill",
+        "desc": "Live evenings almost every week through the ski season, a sun terrace and pool. Open 14–22, until 24 on Friday and Saturday."
+      },
+      "Hanki Baari Ruka": {
+        "type": "Bar",
+        "desc": "Village bar with food, artists and DJs through the winter. Open 11–18 on weekdays and later at the weekend."
+      },
+      "Rinneravintola Piste": {
+        "type": "Slope restaurant",
+        "desc": "Right at the foot of the front slopes. Open daily 11–18."
+      },
+      "Lobby Bar Scandic Rukahovi": {
+        "type": "Lobby bar",
+        "desc": "In the ski-in ski-out hotel at the slope base, with sport on the screen."
+      },
+      "Keloravintola": {
+        "type": "Slope restaurant",
+        "desc": "At the foot of the family slopes with a sunny terrace. The ski resort's own site calls what happens here after-ski parties. Open daily 13–20."
+      },
+      "Papana Pupi": {
+        "type": "Pub",
+        "desc": "At Sallatunturin Tuvat, and the venue calls itself the heart of after-ski. Finnish rock musicians play here, dogs are welcome on the terrace, open 08–22 all year."
+      },
+      "Bistro & Rumpu Baari": {
+        "type": "Hotel bistro and bar",
+        "desc": "At Lapland Hotels Luostotunturi, an unhurried place for a drink or a coffee after the slopes."
+      },
+      "Yökerho Karhu": {
+        "type": "Night club",
+        "desc": "Luosto's late option at Lapland Hotels Luostotunturi, with guest artists and karaoke. Open Friday and Saturday 20–01."
+      },
+      "Pärjä Ski Bistro": {
+        "type": "Slope bistro",
+        "desc": "By the back-slope lifts. The bistro's own page bills Iso-Syöte as an after-ski paradise, and in spring the terrace holds the afternoon sun."
+      },
+      "TunturiPUB": {
+        "type": "Pub",
+        "desc": "Right beside the front slopes next to the KIDE hotel. Open 12–00, until 03 on Friday and Saturday, kitchen to 21:30."
+      },
+      "Ravintola Pirtti": {
+        "type": "Restaurant and bar",
+        "desc": "At Santa's Hotel Tunturi, about a kilometre from the slopes. In the restaurant's own words: good drinks, straightforward food and a cheerful after-ski mood."
       }
     },
     "north": {
@@ -420,7 +500,8 @@
       "title": "See All Bars",
       "sub": "Browse the full list of bars and pubs across all four destinations.",
       "btn": "All Bars & Pubs"
-    }
+    },
+    "notFound": "Olos, Pallas and Suomu list slope restaurants on their own sites but name no bar, club or after-ski night. Kilpisjärvi has no downhill slopes at all."
   },
   "cocktails": {
     "title": "Lapland Cocktails: Cloudberry, Lingonberry | LaplandBars",

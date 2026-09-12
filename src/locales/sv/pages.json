@@ -436,8 +436,8 @@
     "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026. Priser och tider kan ändras med säsongen."
   },
   "apresSki": {
-    "title": "Afterski i Lappland: Levi och Ylläs | LaplandBars",
-    "description": "Festen börjar när liftarna stänger: Hullu Poro Areena och Levis barer, Selvä Pyy och Pirtukellari på Ylläs, plus lugnare Saariselkä och Pyhä.",
+    "title": "Afterski i Lappland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "description": "Festen börjar när liftarna stänger: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Afterski",
       "sub": "I Lappland stänger backarna klockan 16 och festen börjar 16.01. Finsk afterski är högljuddare, varmare och ärligare än någon annanstans."
@@ -463,7 +463,11 @@
       "Levi": "Vid backen: Hullu Poro, Levi Hotel Spa, K5 Levi.",
       "Yllas": "Lapland Hotels Äkäshotelli, timmerstugor, ski-in/ski-out.",
       "Saariselka": "Holiday Club Saariselkä, Santa's Hotel, glasigloor i närheten.",
-      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, timmerstugor."
+      "Pyha": "Pyhä Igloos, Hotel Pyhätunturi, timmerstugor.",
+      "Ruka": "Scandic Rukahovi vid backens fot, Rukan Salonki, ski-in-stugor.",
+      "Salla": "Sallatunturin Tuvat, Holiday Club Salla, stugor vid backarna.",
+      "Luosto": "Lapland Hotels Luostotunturi, timmerstugor i Luosto.",
+      "IsoSyote": "Hotel Iso-Syöte på toppen, hotell KIDE och stugor vid backens fot."
     },
     "venues": {
       "Hullu Poro Areena": {
@@ -489,6 +493,82 @@
       "Pirtukellari Night Club": {
         "type": "Nattklubb",
         "desc": "Nattklubben på Lapland Hotels Äkäshotelli, i samma byggnad som restaurang Pirtukirkko. När pubarna stänger flyttar festen ner en våning. Bara fre–lör, och under högsäsong fylls den snabbt."
+      },
+      "Hanki Baari Pyhä": {
+        "type": "Bar vid backens fot",
+        "desc": "Vid foten av nordsluttningarna. Artister och dj:ar de flesta vinterhelger. Baren i Pyhä öppnar igen för säsongen i december 2026."
+      },
+      "Mesta": {
+        "type": "Backbar och restaurang",
+        "desc": "Mitt i backarna intill Hotel Kultakero, med terrass ut mot pisten."
+      },
+      "Pyhä Dreams": {
+        "type": "Vinbar",
+        "desc": "På toppen av fjället Pyhä. En vinlista snarare än ett dansgolv."
+      },
+      "CAMP Kitchen & Bar Pyhä": {
+        "type": "Restaurang och bar",
+        "desc": "I byn intill Hotel Pyhätunturi. Restaurangen 16–21, köket stänger 20:30."
+      },
+      "Ravintola Huttuhippu": {
+        "type": "Backrestaurang och pub",
+        "desc": "Intill familjebacken: backrestaurang på dagen, à la carte och Huttu-Pub på kvällen. Öppet varje dag 13–22, köket till 21."
+      },
+      "SportBar Pyhä": {
+        "type": "Sportbar",
+        "desc": "I Pyhäs köpcentrum. Karaoke, biljard och dart, öppet 17–00 och till 02 på helgerna."
+      },
+      "Bar Ihku Ruka": {
+        "type": "Backbar, karaoke och nattklubb",
+        "desc": "Ski-in på Scandic Rukahovi. Backbaren och terrassen öppnar 14 varje dag, karaoke från 21, och nattklubben håller på till 04 på fredag och lördag."
+      },
+      "Ravintola Zone": {
+        "type": "Restaurang och bar",
+        "desc": "Öppet varje dag 08–04, karaoke från 21 och mer än hundra livekvällar om året. Det finns en takterrass."
+      },
+      "Restaurant Colorado Ruka": {
+        "type": "Bar och grill",
+        "desc": "Livekvällar nästan varje vecka under skidsäsongen, solterrass och biljard. Öppet 14–22, till 24 på fredag och lördag."
+      },
+      "Hanki Baari Ruka": {
+        "type": "Bar",
+        "desc": "Bybar med mat, och på vintern artister och dj:ar. Öppet 11–18 på vardagar och längre på helgen."
+      },
+      "Rinneravintola Piste": {
+        "type": "Backrestaurang",
+        "desc": "Precis vid foten av framsidans backar. Öppet varje dag 11–18."
+      },
+      "Lobby Bar Scandic Rukahovi": {
+        "type": "Lobbybar",
+        "desc": "I ski-in ski-out-hotellet vid backens fot, med sport på skärmen."
+      },
+      "Keloravintola": {
+        "type": "Backrestaurang",
+        "desc": "Vid foten av familjebackarna, med solterrass. Skidanläggningens egen webbplats kallar det som händer här för afterskifester. Öppet varje dag 13–20."
+      },
+      "Papana Pupi": {
+        "type": "Pub",
+        "desc": "På Sallatunturin Tuvat, och stället kallar sig själv för afterskins hjärta. Här spelar finska rockmusiker, hundar är välkomna på terrassen, öppet 08–22 året om."
+      },
+      "Bistro & Rumpu Baari": {
+        "type": "Hotellbistro och bar",
+        "desc": "På Lapland Hotels Luostotunturi, ett lugnt ställe för en drink eller en kaffe efter backen."
+      },
+      "Yökerho Karhu": {
+        "type": "Nattklubb",
+        "desc": "Luostos sena alternativ på Lapland Hotels Luostotunturi, med gästartister och karaoke. Öppet fredag och lördag 20–01."
+      },
+      "Pärjä Ski Bistro": {
+        "type": "Backbistro",
+        "desc": "Vid liftarna i baksidans backar. Bistrons egen sida marknadsför Iso-Syöte som ett afterskiparadis, och på våren ligger terrassen i eftermiddagssolen."
+      },
+      "TunturiPUB": {
+        "type": "Pub",
+        "desc": "Precis intill framsidans backar, granne med hotellet KIDE. Öppet 12–00, till 03 på fredag och lördag, köket till 21:30."
+      },
+      "Ravintola Pirtti": {
+        "type": "Restaurang och bar",
+        "desc": "På Santa's Hotel Tunturi, ungefär en kilometer från backarna. Med restaurangens egna ord: bra drycker, okomplicerad mat och en glad afterskistämning."
       }
     },
     "north": {
@@ -501,7 +581,8 @@
       "title": "Se alla barer",
       "sub": "Bläddra genom hela listan med barer och pubar i alla fyra destinationerna.",
       "btn": "Alla barer och pubar"
-    }
+    },
+    "notFound": "Olos, Pallas och Suomu listar backrestauranger på sina egna webbplatser, men nämner ingen bar, nattklubb eller afterskikväll. Kilpisjärvi har inga utförsåkningsbackar alls."
   },
   "cocktails": {
     "title": "Cocktails i Lappland: hjortron och lingon | LaplandBars",

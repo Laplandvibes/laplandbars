@@ -1,0 +1,139 @@
+{
+  "_readme": "Après-ski-kohteiden LÄHDETEKSTI (en + fi). Jokainen paikka on luettu kohteen tai hiihtokeskuksen OMALTA sivulta 12.9.2026; `src` kertoo mistä. 🔴 Älä lisää tänne mitään, mitä lähde ei sano — etenkään aukioloaikoja tai hintoja. Muut 10 kieltä käännetään tästä (job 08-natiivikaannos): numerot ja kellonajat EIVÄT saa muuttua.",
+  "regions": {
+    "Lappi": { "en": "Lapland", "fi": "Lappi" },
+    "Koillismaa": { "en": "Koillismaa", "fi": "Koillismaa" },
+    "Syöte": { "en": "Syöte", "fi": "Syöte" }
+  },
+  "resorts": [
+    {
+      "resort": "Pyhä",
+      "region": "Lappi",
+      "stay": { "query": "Pyhä, Finland", "sid": "apres_stay_pyha" },
+      "venues": [
+        { "name": "Hanki Baari Pyhä", "highlight": true, "website": "https://hankibaari.fi/", "skiIn": true,
+          "en": { "type": "Bar at the slope base", "desc": "At the foot of the Northern slopes. Artists and DJs on most winter weekends. The Pyhä bar reopens for the season in December 2026." },
+          "fi": { "type": "Baari rinteen juurella", "desc": "Pohjoisrinteiden ala-asemalla. Artisteja ja DJ:itä lähes joka talviviikonloppu. Pyhän toimipiste avautuu kaudelle joulukuussa 2026." },
+          "src": "pyha.fi ravintolalistaus (tunniste Baari/After ski) + hankibaari.fi" },
+        { "name": "Mesta", "highlight": false, "website": "https://www.instagram.com/mestapyha/", "skiIn": true,
+          "en": { "type": "Slope bar and restaurant", "desc": "In the middle of the slopes next to Hotel Kultakero, with a terrace over the piste." },
+          "fi": { "type": "Rinnebaari ja ravintola", "desc": "Rinteiden keskellä Hotelli Kultakeron vieressä, terassi rinteeseen päin." },
+          "src": "pyha.fi: Baari/After ski, Rinneravintola; EN-kuvaus 'in the heart of the slopes next Hotel Kultakero'" },
+        { "name": "Pyhä Dreams", "highlight": false, "website": "https://pyhadreams.fi/food-and-wine", "skiIn": false,
+          "en": { "type": "Wine bar", "desc": "At the top of the Pyhä fell. A wine list rather than a dance floor." },
+          "fi": { "type": "Viinibaari", "desc": "Pyhätunturin huipulla. Viinilista, ei tanssilattiaa." },
+          "src": "pyha.fi: Baari/After ski, Tilausravintola; 'at the top of the Pyhä fell'" },
+        { "name": "CAMP Kitchen & Bar Pyhä", "highlight": false, "website": "https://www.camppyha.fi/", "skiIn": false,
+          "en": { "type": "Restaurant and bar", "desc": "In the village next to Hotel Pyhätunturi. Restaurant 16–21, kitchen closes at 20:30." },
+          "fi": { "type": "Ravintola ja baari", "desc": "Kylässä Hotelli Pyhätunturin vieressä. Ravintola 16–21, keittiö sulkeutuu 20.30." },
+          "src": "pyha.fi: Baari/After ski; aukiolot camppyha.fi" },
+        { "name": "Ravintola Huttuhippu", "highlight": false, "website": "https://eatlappi.fi/fi/huttuhippu", "skiIn": false,
+          "en": { "type": "Slope restaurant and pub", "desc": "Next to the family slope: a slope restaurant by day, à la carte and the Huttu-Pub in the evening. Open daily 13–22, kitchen until 21." },
+          "fi": { "type": "Rinneravintola ja pubi", "desc": "Perherinteen vieressä: päivällä rinneravintola, illalla à la carte ja Huttu-Pub. Auki joka päivä 13–22, keittiö 21 asti." },
+          "src": "pyha.fi + eatlappi.fi. HUOM: eatlappi.fi sanoo suoraan ettei ole ski-in/ski-out ⇒ 'perherinteen vieressä'" },
+        { "name": "SportBar Pyhä", "highlight": false, "website": "https://www.tulikuuma.fi/restaurant/sport-bar-pyha/", "skiIn": false,
+          "en": { "type": "Sports bar", "desc": "In the Pyhä shopping centre. Karaoke, pool and darts, open 17–00 and until 02 at weekends." },
+          "fi": { "type": "Urheilubaari", "desc": "Pyhän kauppakeskuksessa. Karaokea, biljardia ja tikkaa, auki 17–00 ja viikonloppuisin 02 asti." },
+          "src": "pyha.fi: Baari/After ski; aukiolot sportbarpyha.fi" }
+      ]
+    },
+    {
+      "resort": "Ruka",
+      "region": "Koillismaa",
+      "stay": { "query": "Ruka, Finland", "sid": "apres_stay_ruka" },
+      "venues": [
+        { "name": "Bar Ihku Ruka", "highlight": true, "website": "https://barihku.fi/ruka", "skiIn": true,
+          "en": { "type": "Slope bar, karaoke and club", "desc": "Ski-in at Scandic Rukahovi. Slope bar and terrace open at 14 every day, karaoke from 21, and the club runs until 04 on Friday and Saturday." },
+          "fi": { "type": "Rinnebaari, karaoke ja yökerho", "desc": "Ski-in Scandic Rukahovissa. Rinnebaari ja terassi auki joka päivä klo 14 alkaen, karaoke klo 21 alkaen, ja yökerho vetää perjantaina ja lauantaina neljään asti." },
+          "src": "ruka.fi Baarit & yökerhot; barihku.fi/ruka: 'KARAOKEBAARI • YÖKERHO • RINNEBAARI • AFTER SKI'" },
+        { "name": "Ravintola Zone", "highlight": false, "website": "https://rukapalvelu.fi/ravintolazone/", "skiIn": false,
+          "en": { "type": "Restaurant and bar", "desc": "Open 08–04 every day, karaoke from 21 and more than a hundred live nights a year. There is a roof terrace." },
+          "fi": { "type": "Ravintola ja baari", "desc": "Auki joka päivä 08–04, karaoke klo 21 alkaen ja yli sata live-iltaa vuodessa. Kattoterassi." },
+          "src": "ruka.fi baari/yökerho; aukiolot ja live-illat rukapalvelu.fi" },
+        { "name": "Restaurant Colorado Ruka", "highlight": false, "website": "https://www.ravintolacolorado.fi/ruka/", "skiIn": false,
+          "en": { "type": "Bar and grill", "desc": "Live evenings almost every week through the ski season, a sun terrace and pool. Open 14–22, until 24 on Friday and Saturday." },
+          "fi": { "type": "Bar and grill", "desc": "Live-iltoja lähes joka viikko hiihtokaudella, aurinkoterassi ja biljardia. Auki 14–22, perjantaina ja lauantaina 24 asti." },
+          "src": "ruka.fi; ravintolacolorado.fi 'live evenings almost every week', 'spacious sun terrace'" },
+        { "name": "Hanki Baari Ruka", "highlight": false, "website": "https://hankibaari.fi/", "skiIn": false,
+          "en": { "type": "Bar", "desc": "Village bar with food, artists and DJs through the winter. Open 11–18 on weekdays and later at the weekend." },
+          "fi": { "type": "Baari", "desc": "Kyläbaari, jossa on myös ruokaa, ja talvisin artisteja ja DJ:itä. Auki arkisin 11–18 ja viikonloppuisin pidempään." },
+          "src": "ruka.fi baari/yökerho; hankibaari.fi aukiolot" },
+        { "name": "Rinneravintola Piste", "highlight": false, "website": "https://ravintolapiste.fi/", "skiIn": true,
+          "en": { "type": "Slope restaurant", "desc": "Right at the foot of the front slopes. Open daily 11–18." },
+          "fi": { "type": "Rinneravintola", "desc": "Aivan Eturinteiden juurella. Auki joka päivä 11–18." },
+          "src": "ruka.fi; ravintolapiste.fi 'Aivan siinä Eturinteiden juurella', aukiolot 30.9. alkaen" },
+        { "name": "Lobby Bar Scandic Rukahovi", "highlight": false, "website": "https://www.scandichotels.fi/hotellit/suomi/ruka-kuusamo/scandic-rukahovi/ravintola-ja-baari", "skiIn": true,
+          "en": { "type": "Lobby bar", "desc": "In the ski-in ski-out hotel at the slope base, with sport on the screen." },
+          "fi": { "type": "Aulabaari", "desc": "Rinteen juurella ski-in ski-out -hotellissa, urheilua ruudulta." },
+          "src": "ruka.fi baari/yökerho; Scandicin oma sivu: 'Aito ski-in ski-out'" }
+      ]
+    },
+    {
+      "resort": "Salla",
+      "region": "Lappi",
+      "stay": { "query": "Salla, Finland", "sid": "apres_stay_salla" },
+      "venues": [
+        { "name": "Keloravintola", "highlight": true, "website": "http://www.keloravintola.fi/en", "skiIn": true,
+          "en": { "type": "Slope restaurant", "desc": "At the foot of the family slopes with a sunny terrace. The ski resort's own site calls what happens here after-ski parties. Open daily 13–20." },
+          "fi": { "type": "Rinneravintola", "desc": "Perherinteiden juurella, aurinkoterassi. Hiihtokeskuksen oma sivu kutsuu täkäläistä menoa after ski -bileiksi. Auki joka päivä 13–20." },
+          "src": "ski.salla.fi: 'sunny terrace and after-ski parties'; aukiolot keloravintola.fi" },
+        { "name": "Papana Pupi", "highlight": false, "website": "https://www.sallatunturi.fi/en/restaurants/papana-pupi/", "skiIn": false,
+          "en": { "type": "Pub", "desc": "At Sallatunturin Tuvat, and the venue calls itself the heart of after-ski. Finnish rock musicians play here, dogs are welcome on the terrace, open 08–22 all year." },
+          "fi": { "type": "Pubi", "desc": "Sallatunturin Tuvilla, ja paikka kutsuu itseään after skin sydämeksi. Täällä soittavat suomalaiset rockmuusikot, koirat saavat tulla terassille, auki 08–22 ympäri vuoden." },
+          "src": "sallatunturi.fi: 'the heart of After-Ski', 'a favourite after-ski spot'" }
+      ]
+    },
+    {
+      "resort": "Luosto",
+      "region": "Lappi",
+      "stay": { "query": "Luosto, Finland", "sid": "apres_stay_luosto" },
+      "venues": [
+        { "name": "Bistro & Rumpu Baari", "highlight": true, "website": "https://www.laplandhotels.com/FI/lapin-hotellit/luosto/lapland-hotels-luostotunturi/ravintolat.html", "skiIn": false,
+          "en": { "type": "Hotel bistro and bar", "desc": "At Lapland Hotels Luostotunturi, an unhurried place for a drink or a coffee after the slopes." },
+          "fi": { "type": "Hotellibistro ja baari", "desc": "Lapland Hotels Luostotunturissa, kiireetön paikka juomalle tai kahville rinnepäivän jälkeen." },
+          "src": "luosto.fi: Baari/After ski; 'Rumpu bar is a laid-back place to have drinks or coffee'" },
+        { "name": "Yökerho Karhu", "highlight": false, "website": "https://www.laplandhotels.com/fi/hotellit-ja-kohteet/luosto/lapland-hotels-luostotunturi/tapahtumat", "skiIn": false,
+          "en": { "type": "Night club", "desc": "Luosto's late option at Lapland Hotels Luostotunturi, with guest artists and karaoke. Open Friday and Saturday 20–01." },
+          "fi": { "type": "Yökerho", "desc": "Luoston jatkopaikka Lapland Hotels Luostotunturissa, vierailevia artisteja ja karaokea. Auki perjantaisin ja lauantaisin 20–01." },
+          "src": "luosto.fi: Baari/After ski, 'Luoston ehdoton jatkopaikka'; aukiolot luosto.fi" }
+      ]
+    },
+    {
+      "resort": "Iso-Syöte",
+      "region": "Syöte",
+      "stay": { "query": "Syöte, Finland", "sid": "apres_stay_isosyote" },
+      "venues": [
+        { "name": "Pärjä Ski Bistro", "highlight": true, "website": "https://skiparja.fi/parja-ski-bistro/", "skiIn": true,
+          "en": { "type": "Slope bistro", "desc": "By the back-slope lifts. The bistro's own page bills Iso-Syöte as an after-ski paradise, and in spring the terrace holds the afternoon sun." },
+          "fi": { "type": "Rinnebistro", "desc": "Takarinteiden hissien tuntumassa. Bistron oma sivu myy Iso-Syötettä after ski -paratiisina, ja keväällä terassille paistaa iltapäiväaurinko." },
+          "src": "skiparja.fi otsikko 'WELCOME TO THE ISO-SYÖTE AFTER-SKI PARADISE'; isosyote.fi iltapäiväaurinko" },
+        { "name": "TunturiPUB", "highlight": false, "website": "https://www.tunturimarket.fi/tunturipub", "skiIn": true,
+          "en": { "type": "Pub", "desc": "Right beside the front slopes next to the KIDE hotel. Open 12–00, until 03 on Friday and Saturday, kitchen to 21:30." },
+          "fi": { "type": "Pubi", "desc": "Aivan eturinteiden vieressä KIDE-hotellin naapurissa. Auki 12–00, perjantaina ja lauantaina 03 asti, keittiö 21.30 asti." },
+          "src": "isosyote.fi ravintolalistaus; aukiolot tunturimarket.fi" }
+      ]
+    },
+    {
+      "resort": "Saariselkä",
+      "region": "Lappi",
+      "stay": { "query": "Saariselkä, Finland", "sid": "apres_stay_saariselka" },
+      "venues": [
+        { "name": "Ravintola Pirtti", "highlight": true, "website": "https://santashotels.fi/ravintola/pirtti-saariselka/", "skiIn": false,
+          "en": { "type": "Restaurant and bar", "desc": "At Santa's Hotel Tunturi, about a kilometre from the slopes. In the restaurant's own words: good drinks, straightforward food and a cheerful after-ski mood." },
+          "fi": { "type": "Ravintola ja baari", "desc": "Santa's Hotel Tunturissa, noin kilometrin päässä rinteiltä. Ravintolan omin sanoin: hyviä juomia, mutkatonta syötävää ja iloinen after ski -tunnelma." },
+          "src": "santashotels.fi: 'Hyviä juomia, mutkatonta syötävää ja iloinen after ski -tunnelma'" }
+      ]
+    }
+  ],
+  "stayHints": {
+    "Pyha": { "en": "Pyhä Igloos, Hotel Pyhätunturi, log chalets.", "fi": "Pyhä Igloos, Hotelli Pyhätunturi, hirsimökkichaletit." },
+    "Ruka": { "en": "Scandic Rukahovi at the slope base, Rukan Salonki, ski-in cabins.", "fi": "Scandic Rukahovi rinteen juurella, Rukan Salonki, ski-in-mökit." },
+    "Salla": { "en": "Sallatunturin Tuvat, Holiday Club Salla, cabins by the slopes.", "fi": "Sallatunturin Tuvat, Holiday Club Salla, mökit rinteiden tuntumassa." },
+    "Luosto": { "en": "Lapland Hotels Luostotunturi, Luosto log cabins.", "fi": "Lapland Hotels Luostotunturi, Luoston hirsimökit." },
+    "IsoSyote": { "en": "Hotel Iso-Syöte on the summit, KIDE hotel and cabins at the slope base.", "fi": "Hotelli Iso-Syöte huipulla, KIDE-hotelli ja mökit rinteen juurella." }
+  },
+  "notFound": {
+    "en": "Olos, Pallas and Suomu list slope restaurants on their own sites but name no bar, club or after-ski night. Kilpisjärvi has no downhill slopes at all.",
+    "fi": "Olos, Pallas ja Suomu listaavat omilla sivuillaan rinneravintoloita, mutta eivät yhtään baaria, yökerhoa tai after ski -iltaa. Kilpisjärvellä ei ole laskettelurinteitä lainkaan."
+  }
+}

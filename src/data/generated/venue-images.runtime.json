@@ -152,5 +152,117 @@
     "sourceUrl": "https://tornionpanimo.fi/",
     "width": 800,
     "height": 500
+  },
+  "hanki-baari-pyha": {
+    "src": "/images/venues/hanki-baari-pyha.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "pyha-dreams": {
+    "src": "/images/venues/pyha-dreams.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "camp-kitchen-bar-pyha": {
+    "src": "/images/venues/camp-kitchen-bar-pyha.webp",
+    "credit": "camppyha.fi",
+    "sourceUrl": "https://www.camppyha.fi/",
+    "width": 800,
+    "height": 500
+  },
+  "sportbar-pyha": {
+    "src": "/images/venues/sportbar-pyha.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "bar-ihku-ruka": {
+    "src": "/images/venues/bar-ihku-ruka.webp",
+    "credit": "barihku.fi",
+    "sourceUrl": "https://barihku.fi/ruka",
+    "width": 800,
+    "height": 500
+  },
+  "ravintola-zone": {
+    "src": "/images/venues/ravintola-zone.webp",
+    "credit": "rukapalvelu.fi",
+    "sourceUrl": "https://rukapalvelu.fi/ravintolazone/",
+    "width": 800,
+    "height": 500
+  },
+  "restaurant-colorado-ruka": {
+    "src": "/images/venues/restaurant-colorado-ruka.webp",
+    "credit": "ravintolacolorado.fi",
+    "sourceUrl": "https://www.ravintolacolorado.fi/ruka/",
+    "width": 800,
+    "height": 500
+  },
+  "hanki-baari-ruka": {
+    "src": "/images/venues/hanki-baari-ruka.webp",
+    "credit": "ruka.fi",
+    "sourceUrl": "https://www.ruka.fi/baarit",
+    "width": 800,
+    "height": 500
+  },
+  "rinneravintola-piste": {
+    "src": "/images/venues/rinneravintola-piste.webp",
+    "credit": "ravintolapiste.fi",
+    "sourceUrl": "https://www.ravintolapiste.fi/",
+    "width": 800,
+    "height": 500
+  },
+  "lobby-bar-scandic-rukahovi": {
+    "src": "/images/venues/lobby-bar-scandic-rukahovi.webp",
+    "credit": "scandichotels.com",
+    "sourceUrl": "https://www.scandichotels.com/fi/hotellit/scandic-rukahovi",
+    "width": 800,
+    "height": 500
+  },
+  "keloravintola": {
+    "src": "/images/venues/keloravintola.webp",
+    "credit": "ski.salla.fi",
+    "sourceUrl": "https://ski.salla.fi/en/restaurants/",
+    "width": 800,
+    "height": 500
+  },
+  "papana-pupi": {
+    "src": "/images/venues/papana-pupi.webp",
+    "credit": "sallatunturi.fi",
+    "sourceUrl": "https://www.sallatunturi.fi/en/restaurants/papana-pupi/",
+    "width": 800,
+    "height": 500
+  },
+  "bistro-rumpu-baari": {
+    "src": "/images/venues/bistro-rumpu-baari.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "yokerho-karhu": {
+    "src": "/images/venues/yokerho-karhu.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "parja-ski-bistro": {
+    "src": "/images/venues/parja-ski-bistro.webp",
+    "credit": "skiparja.fi",
+    "sourceUrl": "https://skiparja.fi/parja-ski-bistro/",
+    "width": 800,
+    "height": 500
+  },
+  "ravintola-pirtti": {
+    "src": "/images/venues/ravintola-pirtti.webp",
+    "credit": "santashotels.fi",
+    "sourceUrl": "https://santashotels.fi/ravintola/pirtti-saariselka/",
+    "width": 800,
+    "height": 500
   }
 }
