@@ -15,7 +15,9 @@ import { AppPromoHero } from '../components/AppPromo';
 import BarCard from '../components/BarCard';
 
 const barImages: Record<string, string> = {
-  'Lapland Brewery': BARS.breweryInterior,
+  // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
+  // jonka tynnyreissä lukee keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.2026).
+  'Lapland Brewery': BARS.craftBeerGlasses,
   'Café & Bar 21': BARS.cocktailTrio,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
   'Hullu Poro Areena': BARS.apresSkiTwilight,
