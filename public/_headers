@@ -1,3 +1,17 @@
+# >>> LV-PAGESDEV-NOINDEX (managed)
+# Google on indeksoinut Cloudflaren tyoosoitteen oikean domainin RINNALLE:
+# haku "site:pages.dev lapland" palautti mm. laplandwellness.pages.dev ja
+# laplandcarrental.pages.dev omilla oikeilla otsikoillaan (mitattu 9.9.2026).
+# Kanoninen osoittaa jo oikeaan domainiin, mutta canonical on VIHJE eika kasky
+# -- Google indeksoi silti. Tama on kova esto.
+#
+# 🔴🔴 Saanto koskee VAIN pages.dev-isantaa. Absoluuttinen URL rajaa sen
+# hostiin; oikea domain ei saa tata otsaketta. Jos taman kirjoittaa muotoon
+# "/*", koko sivusto katoaa hakutuloksista. Mittaa AINA molemmat isannat.
+https://laplandbars.pages.dev/*
+  X-Robots-Tag: noindex, nofollow
+# <<< LV-PAGESDEV-NOINDEX
+
 # (hero preload handled in index.html — was a stale /images/hero.webp that 404'd to the SPA shell)
 
 # >>> LV-SECURITY (managed)
