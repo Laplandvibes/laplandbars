@@ -1,6 +1,6 @@
 import { Snowflake, Thermometer, MapPin, Hotel, ExternalLink, Ticket, Calendar } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
-import { BARS } from '../data/images';
+import { BARS, CARDS } from '../data/images';
 import { iceBars, pickLocalised } from '../data/bars';
 import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
@@ -88,10 +88,10 @@ export default function IceBars() {
                       kuvituksen ja "Kuvituskuva"-merkinnan. */}
                   <VenuePhoto
                     name={bar.name}
-                    fallback={BARS.iceBarTunnel}
+                    fallback={CARDS.iceBarTunnel}
                     alt={bar.name}
                     locale={locale}
-                    className="-mx-7 -mt-7 mb-6 h-44 shrink-0"
+                    className="-mx-7 -mt-7 mb-6 aspect-[16/10] shrink-0"
                     hoverZoom
                   />
                   <div className="flex items-center gap-2 text-ice text-xs uppercase tracking-widest mb-4">

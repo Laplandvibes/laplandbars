@@ -46,8 +46,11 @@ const OUT_DIR = path.join(ROOT, 'public/images/venues');
 const REGISTRY = path.join(ROOT, 'src/data/generated/venue-images.json');
 const RUNTIME = path.join(ROOT, 'src/data/generated/venue-images.runtime.json');
 const OVERRIDES = path.join(ROOT, 'scripts/_venue-images.overrides.json');
+// 🔴 Kortin kuvakehys on 16:10 JOKA pinnalla (VenuePhoto). Kuva tehdaan TASAN
+// siihen suhteeseen, jotta selain ei raajaa sita uudelleen: kaksi perakkaista
+// rajausta hukkasi 25-32 % kuvasta (mitattu 12.9.2026, Vesa: "kuvat ei istu").
 const WIDTH = 800;
-const CARD_H = 500; // 16:10 pystykuville
+const CARD_H = 500; // 800x500 = 16:10
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36';
 const only = process.argv.includes('--only') ? process.argv[process.argv.indexOf('--only') + 1] : null;
 
@@ -124,13 +127,20 @@ async function fetchImage(imageUrl, allowAlpha = false) {
   return { buf, meta };
 }
 
-/** Kirjoittaa yhden rivin: rajaa kortin muotoon ja tallentaa webpin. */
-async function writeImage(slug, buf, meta) {
-  const ratio = meta.width / meta.height;
+/**
+ * Kirjoittaa yhden rivin kortin kuvasuhteeseen 800x500.
+ *
+ * `fit: 'contain'` on tuotekuville (tolkkipakkaus): niita ei saa rajata, koska
+ * rajaus katkaisee tuotteen. Tausta on yon sininen, joten reunat eivat nay.
+ * Muut rajataan `cover` + `attention`, ja tulos KATSOTAAN kontaktiarkilta.
+ */
+async function writeImage(slug, buf, meta, fit = 'cover') {
   const outPath = path.join(OUT_DIR, `${slug}.webp`);
   const pipeline = sharp(buf).rotate().flatten({ background: '#0F172A' });
-  if (ratio < 1.2) await pipeline.resize({ width: WIDTH, height: CARD_H, fit: 'cover', position: 'attention' }).webp({ quality: 82 }).toFile(outPath);
-  else await pipeline.resize({ width: WIDTH, withoutEnlargement: true }).webp({ quality: 82 }).toFile(outPath);
+  const opts = fit === 'contain'
+    ? { width: WIDTH, height: CARD_H, fit: 'contain', background: '#0F172A' }
+    : { width: WIDTH, height: CARD_H, fit: 'cover', position: 'attention' };
+  await pipeline.resize(opts).webp({ quality: 82 }).toFile(outPath);
   return sharp(outPath).metadata();
 }
 
@@ -154,7 +164,7 @@ for (const v of venues) {
       if (/logo|icon|favicon|placeholder/i.test(imageUrl)) throw new Error(`og:image on logo/ikoni: ${imageUrl.slice(0, 80)}`);
     }
     const { buf, meta } = await fetchImage(imageUrl);
-    const out = await writeImage(v.slug, buf, meta);
+    const out = await writeImage(v.slug, buf, meta, o?.fit);
     Object.assign(row, {
       src: `/images/venues/${v.slug}.webp`, kind: 'partner', status: 'fetched', via,
       credit: new URL(sourceUrl).hostname.replace(/^www\./, ''), sourceUrl, imageUrl,
@@ -176,7 +186,7 @@ for (const [slug, e] of Object.entries(ov.extras ?? {})) {
   const row = { name: e.name, website: e.sourceUrl, fetchedAt: new Date().toISOString().slice(0, 10) };
   try {
     const { buf, meta } = await fetchImage(e.imageUrl, !!e.allowAlpha);
-    const out = await writeImage(slug, buf, meta);
+    const out = await writeImage(slug, buf, meta, e.fit);
     Object.assign(row, {
       src: `/images/venues/${slug}.webp`, kind: 'partner', status: 'fetched', via: 'extra',
       credit: new URL(e.sourceUrl).hostname.replace(/^www\./, ''), sourceUrl: e.sourceUrl, imageUrl: e.imageUrl,

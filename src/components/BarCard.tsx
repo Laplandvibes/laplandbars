@@ -67,7 +67,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
     <article className={cardClass}>
       {/* Kuva: kiinteä korkeus, poimintamerkki vasemmassa yläkulmassa ja
           lähdemerkintä oikeassa alakulmassa ("Kuva: selvapyy.fi" / "Kuvituskuva"). */}
-      <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} className="h-48 sm:h-56 shrink-0" hoverZoom>
+      <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} className="aspect-[16/10] shrink-0" hoverZoom>
         {bar.featured && (
           <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-amber text-night text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
             {t('bars.featuredBadge')}

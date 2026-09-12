@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { MapPin, ExternalLink, Hotel, Ticket } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { BARS } from '../data/images';
+import { BARS, CARDS } from '../data/images';
 import { bars, cities, iceBars } from '../data/bars';
 import { slugForCity } from '../data/barCities';
 import { useLocale } from '../i18n/useLocale';
@@ -25,28 +25,32 @@ export const barImages: Record<string, string> = {
   // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
   // jonka tynnyreissä lukee keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.2026).
   'Lapland Brewery': BARS.craftBeerGlasses,
-  'Café & Bar 21': BARS.cocktailTrio,
+  'Café & Bar 21': CARDS.cocktailTrio,
   'Uitto Pub': BARS.friendsFireplace2,
   'Nook Lounge': BARS.lingonberryCocktails,
   'Bull Bar & Grill': BARS.friendsFireplace,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
   'Kauppayhtiö': BARS.liveMusicVenue, // pubLaughter on nyt /bars-sivun hero
   'Rovaniemen Oluthuone': BARS.terraceLonkero,
-  'MustaKissa Kuppila': BARS.cocktailBerry,
-  'Pub Sarvi': BARS.saunaBeer,
+  'MustaKissa Kuppila': CARDS.cocktailBerry,
+  'Pub Sarvi': CARDS.saunaBeer,
   'Roy Club': BARS.apresDanceDeck,
   // Levi
   'Hullu Poro Areena': BARS.apresSkiTwilight,
   'Bar Ihku': BARS.liveMusic,
   'Pub Hölmölä': BARS.craftBeerGlasses,
   'Public House Sohva': BARS.beerFlight,
-  'Bar Alakerta': BARS.skiersApres,
+  // Varakuvan on oltava VAAKA: pystykuvasta (720x1280) nakyi 16:10-kehyksessa
+  // vain 31 % (mitattu 12.9.2026).
+  'Bar Alakerta': CARDS.beerFlight,
   'Pub Old Mates': BARS.cabinBarInterior,
   "V'inkkari": BARS.apresToast,
   'Restaurant Tuikku': BARS.auroraVillage,
   // Ylläs
   'Selvä Pyy': BARS.cabinPubExterior,
-  'Pirtukellari Night Club': BARS.apresSkiAerial,
+  // 🔴 apresSkiAerial oli pysty JA sen rakennuksessa lukee "HULLU PORO" —
+  // eri yritys, eri kylä. Kuva ei saa nimeta vaaraa yritysta.
+  'Pirtukellari Night Club': CARDS.auroraLounge,
   'Bar Kaappi': BARS.lonkeroDrink,
   // Saariselkä
   'Gastropub Giitu': BARS.breweryTaps,

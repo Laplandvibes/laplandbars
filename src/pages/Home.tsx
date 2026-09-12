@@ -1,7 +1,7 @@
 import { ChevronDown, MapPin, ExternalLink, Snowflake, Music, Beer, Hotel, ArrowUpRight, Car } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { BARS, isSummerSeason } from '../data/images';
+import { BARS, CARDS, isSummerSeason } from '../data/images';
 import { bars, iceBars, getFeaturedBars, cities } from '../data/bars';
 import { slugForCity } from '../data/barCities';
 import PageSeo from '../components/PageSeo';
@@ -18,7 +18,7 @@ const barImages: Record<string, string> = {
   // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
   // jonka tynnyreissä lukee keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.2026).
   'Lapland Brewery': BARS.craftBeerGlasses,
-  'Café & Bar 21': BARS.cocktailTrio,
+  'Café & Bar 21': CARDS.cocktailTrio,
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
   'Hullu Poro Areena': BARS.apresSkiTwilight,
   'Bar Ihku': BARS.liveMusic,
@@ -32,11 +32,11 @@ const barImages: Record<string, string> = {
 };
 
 const categoryCardsMeta = [
-  { image: BARS.heroIceBars, to: '/ice-bars', icon: Snowflake },
-  { image: BARS.heroApres, to: '/apres-ski', icon: Beer },
+  { image: CARDS.heroIceBars, to: '/ice-bars', icon: Snowflake },
+  { image: CARDS.heroApres, to: '/apres-ski', icon: Beer },
   // Kategoriakortti saa oman kuvansa; BARS.liveMusic on Bar Ihkun oma kuva
   // alempana samalla sivulla.
-  { image: BARS.liveMusicVenue, to: '/bars', icon: Music },
+  { image: CARDS.liveMusicVenue, to: '/bars', icon: Music },
 ];
 
 const stayCardsMeta = [
@@ -213,7 +213,7 @@ export default function Home() {
                 <Link
                   key={meta.to}
                   to={to(meta.to)}
-                  className="bar-card bar-card-hover group relative overflow-hidden h-96 no-underline block"
+                  className="bar-card bar-card-hover group relative overflow-hidden aspect-[16/10] no-underline block"
                 >
                   <img
                     src={meta.image}

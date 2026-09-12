@@ -240,7 +240,7 @@ export default function CraftBeer() {
                     fallback={BARS.craftBeerTaps}
                     alt={brewery.name}
                     locale={locale}
-                    className="-mx-7 -mt-7 mb-6 h-48 shrink-0"
+                    className="-mx-7 -mt-7 mb-6 aspect-[16/10] shrink-0"
                     hoverZoom
                   />
                   {featured && (

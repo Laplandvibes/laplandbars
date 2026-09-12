@@ -21,6 +21,7 @@
       "imageUrl": "https://tornionpanimo.fi/wp-content/uploads/2025/04/Luottopakki-nettisivulle.png",
       "sourceUrl": "https://tornionpanimo.fi/",
       "allowAlpha": true,
+      "fit": "contain",
       "note": "Ei bars.ts:ssä (panimo, ei baari). Sivustolla ei ole valokuvaa panimosta; tämä on heidän oma tuotekuvansa Lapland Original Lagerista. Läpinäkyvä PNG ⇒ taustaksi yön sininen."
     }
   },

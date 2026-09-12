@@ -10,85 +10,85 @@
     "src": "/images/venues/uitto-pub.webp",
     "credit": "raflaamo.fi",
     "sourceUrl": "https://www.raflaamo.fi/en/restaurant/rovaniemi/uitto-pub",
-    "width": 636,
-    "height": 352
+    "width": 800,
+    "height": 500
   },
   "nook-lounge": {
     "src": "/images/venues/nook-lounge.webp",
     "credit": "santashotels.fi",
     "sourceUrl": "https://santashotels.fi/en/restaurant/nook-lounge-rovaniemi/",
     "width": 800,
-    "height": 533
+    "height": 500
   },
   "bull-bar-grill": {
     "src": "/images/venues/bull-bar-grill.webp",
     "credit": "bullbar.fi",
     "sourceUrl": "https://bullbar.fi/",
     "width": 800,
-    "height": 600
+    "height": 500
   },
   "ice-bar-arctic-snowhotel": {
     "src": "/images/venues/ice-bar-arctic-snowhotel.webp",
     "credit": "arcticsnowhotel.fi",
     "sourceUrl": "https://arcticsnowhotel.fi/en/eat-drink/ice-bar/",
     "width": 800,
-    "height": 480
+    "height": 500
   },
   "hullu-poro-areena": {
     "src": "/images/venues/hullu-poro-areena.webp",
     "credit": "hulluporo.fi",
     "sourceUrl": "https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/",
     "width": 800,
-    "height": 534
+    "height": 500
   },
   "bar-ihku": {
     "src": "/images/venues/bar-ihku.webp",
     "credit": "barihku.fi",
     "sourceUrl": "https://barihku.fi/levi",
     "width": 800,
-    "height": 480
+    "height": 500
   },
   "pub-holmola": {
     "src": "/images/venues/pub-holmola.webp",
     "credit": "hulluporo.fi",
     "sourceUrl": "https://www.hulluporo.fi/en/restaurants/pub-holmola/",
     "width": 800,
-    "height": 533
+    "height": 500
   },
   "public-house-sohva": {
     "src": "/images/venues/public-house-sohva.webp",
     "credit": "pubsohva.fi",
     "sourceUrl": "https://pubsohva.fi/",
     "width": 800,
-    "height": 600
+    "height": 500
   },
   "pub-old-mates": {
     "src": "/images/venues/pub-old-mates.webp",
     "credit": "oldmates.fi",
     "sourceUrl": "https://oldmates.fi/levi",
     "width": 800,
-    "height": 533
+    "height": 500
   },
   "selva-pyy": {
     "src": "/images/venues/selva-pyy.webp",
     "credit": "selvapyy.fi",
     "sourceUrl": "https://selvapyy.fi/",
     "width": 800,
-    "height": 450
+    "height": 500
   },
   "gastropub-giitu": {
     "src": "/images/venues/gastropub-giitu.webp",
     "credit": "gastropubgiitu.fi",
     "sourceUrl": "https://gastropubgiitu.fi/en/home",
     "width": 800,
-    "height": 487
+    "height": 500
   },
   "kauppayhtio": {
     "src": "/images/venues/kauppayhtio.webp",
     "credit": "kauppayhtio.fi",
     "sourceUrl": "https://www.kauppayhtio.fi/fi",
     "width": 800,
-    "height": 533
+    "height": 500
   },
   "rovaniemen-oluthuone": {
     "src": "/images/venues/rovaniemen-oluthuone.webp",
@@ -102,49 +102,49 @@
     "credit": "royclub.fi",
     "sourceUrl": "https://www.royclub.fi/",
     "width": 800,
-    "height": 427
+    "height": 500
   },
   "v-inkkari": {
     "src": "/images/venues/v-inkkari.webp",
     "credit": "levi.fi",
     "sourceUrl": "https://www.levi.fi/en/services/restaurant-vinkkari/",
     "width": 800,
-    "height": 527
+    "height": 500
   },
   "restaurant-tuikku": {
     "src": "/images/venues/restaurant-tuikku.webp",
     "credit": "levi.fi",
     "sourceUrl": "https://www.levi.fi/en/services/panoramic-restaurant-tuikku/",
     "width": 800,
-    "height": 534
+    "height": 500
   },
   "bar-kaappi": {
     "src": "/images/venues/bar-kaappi.webp",
     "credit": "yllas.fi",
     "sourceUrl": "https://yllas.fi/en/restaurant/bar-kaappi/",
     "width": 800,
-    "height": 379
+    "height": 500
   },
   "teerenpesa": {
     "src": "/images/venues/teerenpesa.webp",
     "credit": "teerenpesa.fi",
     "sourceUrl": "https://teerenpesa.fi/en/",
     "width": 800,
-    "height": 360
+    "height": 500
   },
   "arctic-snowhotel-icebar": {
     "src": "/images/venues/arctic-snowhotel-icebar.webp",
     "credit": "arcticsnowhotel.fi",
     "sourceUrl": "https://arcticsnowhotel.fi/",
     "width": 800,
-    "height": 480
+    "height": 500
   },
   "snowman-world-ice-bar": {
     "src": "/images/venues/snowman-world-ice-bar.webp",
     "credit": "snowmanworld.fi",
     "sourceUrl": "https://snowmanworld.fi/activities/",
     "width": 800,
-    "height": 534
+    "height": 500
   },
   "tornion-panimo": {
     "src": "/images/venues/tornion-panimo.webp",

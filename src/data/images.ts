@@ -94,3 +94,23 @@ export const BARS = {
   // downscaled to 2400px. No signage/text anywhere in frame by design.
   heroBarsNight: '/images/drive/heroBarsNight.webp',
 };
+
+/**
+ * Korttikehyksen (16:10) rajaukset omista kuvituksista.
+ *
+ * Vesa 12.9.2026: *"kuvat ei istu, ne ei nay oikein"*. Sama tiedosto on eri
+ * suhteessa herona ja kortissa, joten kortti saa oman rajauksensa
+ * (`scripts/gen-card-crops.mjs`) eika selain raajaa 2,36:1-kuvaa 16:10-kehykseen
+ * (nakyvissa oli 42-68 %). Kayta AINA korttikehyksessa CARDS-versiota.
+ */
+export const CARDS = {
+  cocktailTrio: '/images/cards/cocktailTrio.webp',
+  cocktailBerry: '/images/cards/cocktailBerry.webp',
+  iceBarTunnel: '/images/cards/iceBarTunnel.webp',
+  heroIceBars: '/images/cards/heroIceBars.webp',
+  heroApres: '/images/cards/heroApres.webp',
+  liveMusicVenue: '/images/cards/liveMusicVenue.webp',
+  saunaBeer: '/images/cards/saunaBeer.webp',
+  beerFlight: '/images/cards/beerFlight.webp',
+  auroraLounge: '/images/cards/auroraLounge.webp',
+} as const;
