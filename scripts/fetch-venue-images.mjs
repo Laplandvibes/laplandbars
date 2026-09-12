@@ -110,7 +110,7 @@ function pickImageUrl(html, base) {
   try { return new URL(decodeEntities(u), base).href; } catch { return null; }
 }
 
-async function fetchImage(imageUrl) {
+async function fetchImage(imageUrl, allowAlpha = false) {
   const res = await fetch(imageUrl, { headers: { 'user-agent': UA, accept: 'image/*,*/*' }, redirect: 'follow', signal: AbortSignal.timeout(30000) });
   if (!res.ok) throw new Error(`kuva HTTP ${res.status}`);
   const ct = res.headers.get('content-type') || '';
@@ -118,8 +118,20 @@ async function fetchImage(imageUrl) {
   const buf = Buffer.from(await res.arrayBuffer());
   const meta = await sharp(buf).metadata();
   if (!meta.width || meta.width < 600) throw new Error(`liian kapea ${meta.width}px`);
-  if (meta.hasAlpha) throw new Error('alfakanava (todennäköisesti logo)');
+  // Alfakanava on yleensä logo. Poikkeus vain käsin (`allowAlpha`), kun kuva on
+  // katsottu kontaktiarkilta ja se on aito tuotekuva läpinäkyvällä taustalla.
+  if (meta.hasAlpha && !allowAlpha) throw new Error('alfakanava (todennäköisesti logo)');
   return { buf, meta };
+}
+
+/** Kirjoittaa yhden rivin: rajaa kortin muotoon ja tallentaa webpin. */
+async function writeImage(slug, buf, meta) {
+  const ratio = meta.width / meta.height;
+  const outPath = path.join(OUT_DIR, `${slug}.webp`);
+  const pipeline = sharp(buf).rotate().flatten({ background: '#0F172A' });
+  if (ratio < 1.2) await pipeline.resize({ width: WIDTH, height: CARD_H, fit: 'cover', position: 'attention' }).webp({ quality: 82 }).toFile(outPath);
+  else await pipeline.resize({ width: WIDTH, withoutEnlargement: true }).webp({ quality: 82 }).toFile(outPath);
+  return sharp(outPath).metadata();
 }
 
 let ok = 0;
@@ -142,12 +154,7 @@ for (const v of venues) {
       if (/logo|icon|favicon|placeholder/i.test(imageUrl)) throw new Error(`og:image on logo/ikoni: ${imageUrl.slice(0, 80)}`);
     }
     const { buf, meta } = await fetchImage(imageUrl);
-    const ratio = meta.width / meta.height;
-    const outPath = path.join(OUT_DIR, `${v.slug}.webp`);
-    const pipeline = sharp(buf).rotate().flatten({ background: '#0F172A' });
-    if (ratio < 1.2) await pipeline.resize({ width: WIDTH, height: CARD_H, fit: 'cover', position: 'attention' }).webp({ quality: 82 }).toFile(outPath);
-    else await pipeline.resize({ width: WIDTH, withoutEnlargement: true }).webp({ quality: 82 }).toFile(outPath);
-    const out = await sharp(outPath).metadata();
+    const out = await writeImage(v.slug, buf, meta);
     Object.assign(row, {
       src: `/images/venues/${v.slug}.webp`, kind: 'partner', status: 'fetched', via,
       credit: new URL(sourceUrl).hostname.replace(/^www\./, ''), sourceUrl, imageUrl,
@@ -163,6 +170,27 @@ for (const v of venues) {
   }
   registry[v.slug] = row;
 }
+// Lisäkohteet, joita ei ole bars.ts:ssä (esim. panimo, joka ei ole baari).
+for (const [slug, e] of Object.entries(ov.extras ?? {})) {
+  if (only && slug !== only) continue;
+  const row = { name: e.name, website: e.sourceUrl, fetchedAt: new Date().toISOString().slice(0, 10) };
+  try {
+    const { buf, meta } = await fetchImage(e.imageUrl, !!e.allowAlpha);
+    const out = await writeImage(slug, buf, meta);
+    Object.assign(row, {
+      src: `/images/venues/${slug}.webp`, kind: 'partner', status: 'fetched', via: 'extra',
+      credit: new URL(e.sourceUrl).hostname.replace(/^www\./, ''), sourceUrl: e.sourceUrl, imageUrl: e.imageUrl,
+      width: out.width, height: out.height, approved: approved.has(slug), ...(e.note ? { note: e.note } : {}),
+    });
+    ok++;
+    console.log(`${row.approved ? '✅' : '👀'} ${slug.padEnd(28)} ${out.width}x${out.height}  extra     ${row.credit}`);
+  } catch (err) {
+    Object.assign(row, { status: 'rejected', reason: err.message, approved: false });
+    console.log(`✗  ${slug.padEnd(28)} ${err.message}`);
+  }
+  registry[slug] = row;
+}
+
 // Hyväksytty mutta ei kuvaa = lista on vanhentunut → kaadu, ettei hyväksyntä jää roikkumaan.
 for (const s of approved) if (!registry[s]?.src) { console.error(`🔴 approved-listalla on ${s}, mutta kuvaa ei ole`); process.exitCode = 1; }
 fs.writeFileSync(REGISTRY, JSON.stringify(registry, null, 2) + '\n');

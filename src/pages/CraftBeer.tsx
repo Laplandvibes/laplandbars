@@ -8,6 +8,8 @@ import GygSearchCta, { gygSearchLink } from '../components/GygSearchCta';
 import type { Locale } from '../i18n/config';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
+import VenuePhoto from '../components/VenuePhoto';
+import { useLocale } from '../i18n/useLocale';
 
 type Brewery = { name: string; location: string; description: string };
 type RealBeer = { name: string; brewery: string; abv: string; desc: string };
@@ -146,6 +148,7 @@ const GYG_FALLBACK_CARDS: Array<{
 
 export default function CraftBeer() {
   const { t, i18n } = useTranslation('pages');
+  const { locale } = useLocale();
   const lang = i18n.language;
   const breweries = (t('craftBeer.breweries', { returnObjects: true }) as Brewery[]) || [];
   const realBeers = (t('craftBeer.realBeers.items', { returnObjects: true }) as RealBeer[]) || [];
@@ -220,30 +223,26 @@ export default function CraftBeer() {
       {/* Brewery listings */}
       <section className="bar-depth py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {/* Mood images — AI-generated, so no real brewery is named in the
-                caption (the old "Lapon Panimo, Saariselkä" was doubly wrong:
-                misspelled brewery, wrong town). */}
-            <div className="bar-card relative overflow-hidden h-72">
-              <img src={BARS.breweryInterior} alt="Copper brewing tanks in a craft brewery taproom" loading="lazy" decoding="async" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
-            </div>
-            <div className="bar-card relative overflow-hidden h-72">
-              {/* Oma kuva: BARS.craftBeerGlasses on tämän sivun hero. */}
-              <img src={BARS.craftBeerTaps} alt="Freshly poured amber beer on a bar counter" loading="lazy" decoding="async" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             {breweries.map((brewery) => {
               const featured = featuredFlags[brewery.name] ?? false;
               const beers = breweryBeers[brewery.name] ?? [];
               return (
                 <div
                   key={brewery.name}
-                  className={`bar-card bar-card-hover p-7${featured ? ' bar-card-featured' : ''}`}
+                  className={`bar-card bar-card-hover group overflow-hidden p-7 flex flex-col h-full${featured ? ' bar-card-featured' : ''}`}
                 >
+                  {/* Panimon OMA kuva: Lapin Panimon panimopubi ja Tornion
+                      Panimon oma tuotekuva. Tassa oli AI-kuva, jonka tynnyreissa
+                      luki keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.). */}
+                  <VenuePhoto
+                    name={brewery.name}
+                    fallback={BARS.craftBeerTaps}
+                    alt={brewery.name}
+                    locale={locale}
+                    className="-mx-7 -mt-7 mb-6 h-48 shrink-0"
+                    hoverZoom
+                  />
                   {featured && (
                     <div className="flex items-center gap-2 text-amber text-xs uppercase tracking-widest mb-4">
                       <Beer size={12} />

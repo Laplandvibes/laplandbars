@@ -8,6 +8,7 @@ import AffiliateCTA from '../components/AffiliateCTA';
 import MenuLink from '../components/MenuLink';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
+import VenuePhoto from '../components/VenuePhoto';
 import { gygDeepLink } from '../lib/gyg';
 import { withReferral } from '../lib/withReferral';
 
@@ -72,30 +73,6 @@ export default function IceBars() {
       {/* Ice bar listings */}
       <section className="bar-depth py-8 pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-            {/* Featured image left */}
-            <div className="bar-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
-              <img
-                src={BARS.iceBarTunnel}
-                alt="Ice bar tunnel"
-                loading="lazy"
-                decoding="async"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
-            </div>
-            <div className="bar-card relative overflow-hidden h-80 md:h-auto min-h-[320px]">
-              <img
-                src={BARS.iceBarDrinks}
-                alt="Drinks on ice bar counter"
-                loading="lazy"
-                decoding="async"
-                className="w-full h-full object-cover"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
-            </div>
-          </div>
-
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {iceBars.map((bar) => {
               const description = t(`iceBars.venues.${bar.name}.description`, { defaultValue: bar.description });
@@ -104,8 +81,19 @@ export default function IceBars() {
               return (
                 <div
                   key={bar.name}
-                  className="bar-card bar-card-hover p-7"
+                  className="bar-card bar-card-hover group overflow-hidden p-7 flex flex-col h-full"
                 >
+                  {/* Kohteen oma kuva merkintoineen; SnowVillagella ei ole
+                      omaa kuvaa (sivusto on bottisuojan takana), joten se saa
+                      kuvituksen ja "Kuvituskuva"-merkinnan. */}
+                  <VenuePhoto
+                    name={bar.name}
+                    fallback={BARS.iceBarTunnel}
+                    alt={bar.name}
+                    locale={locale}
+                    className="-mx-7 -mt-7 mb-6 h-44 shrink-0"
+                    hoverZoom
+                  />
                   <div className="flex items-center gap-2 text-ice text-xs uppercase tracking-widest mb-4">
                     <Snowflake size={14} />
                     {t('iceBars.iceBarKicker')}

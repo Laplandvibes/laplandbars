@@ -374,5 +374,21 @@
     "height": 534,
     "approved": true,
     "note": "og:image on maskotti; jääbaarin jäälasit"
+  },
+  "tornion-panimo": {
+    "name": "Tornion Panimo",
+    "website": "https://tornionpanimo.fi/",
+    "fetchedAt": "2026-09-12",
+    "src": "/images/venues/tornion-panimo.webp",
+    "kind": "partner",
+    "status": "fetched",
+    "via": "extra",
+    "credit": "tornionpanimo.fi",
+    "sourceUrl": "https://tornionpanimo.fi/",
+    "imageUrl": "https://tornionpanimo.fi/wp-content/uploads/2025/04/Luottopakki-nettisivulle.png",
+    "width": 800,
+    "height": 500,
+    "approved": true,
+    "note": "Ei bars.ts:ssä (panimo, ei baari). Sivustolla ei ole valokuvaa panimosta; tämä on heidän oma tuotekuvansa Lapland Original Lagerista. Läpinäkyvä PNG ⇒ taustaksi yön sininen."
   }
 }

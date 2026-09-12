@@ -15,7 +15,17 @@
     "teerenpesa": { "imageUrl": "https://teerenpesa.fi/wp-content/uploads/2018/03/teerenpesaetusivuyokerho-11920x864acfcropped-2.jpg", "sourceUrl": "https://teerenpesa.fi/en/", "note": "og:image on logo; etusivun yökerho-slide" },
     "bar-kaappi": { "imageUrl": "https://cdn-datahub.visitfinland.com/images/04dc6040-ae67-11ee-895e-65eccdb2f013.jpeg", "sourceUrl": "https://yllas.fi/en/restaurant/bar-kaappi/", "note": "og:image on Ylläksen logo; yllas.fi:n Bar Kaappi -sivun kuva (julkisivu ja kyltti), kohteen itse DataHubiin viemä" }
   },
+  "extras": {
+    "tornion-panimo": {
+      "name": "Tornion Panimo",
+      "imageUrl": "https://tornionpanimo.fi/wp-content/uploads/2025/04/Luottopakki-nettisivulle.png",
+      "sourceUrl": "https://tornionpanimo.fi/",
+      "allowAlpha": true,
+      "note": "Ei bars.ts:ssä (panimo, ei baari). Sivustolla ei ole valokuvaa panimosta; tämä on heidän oma tuotekuvansa Lapland Original Lagerista. Läpinäkyvä PNG ⇒ taustaksi yön sininen."
+    }
+  },
   "approved": [
+    "tornion-panimo",
     "lapland-brewery", "uitto-pub", "nook-lounge", "bull-bar-grill", "ice-bar-arctic-snowhotel", "hullu-poro-areena", "bar-ihku",
     "pub-holmola", "public-house-sohva", "pub-old-mates", "selva-pyy", "gastropub-giitu", "kauppayhtio", "rovaniemen-oluthuone",
     "roy-club", "v-inkkari", "restaurant-tuikku", "bar-kaappi", "teerenpesa", "arctic-snowhotel-icebar", "snowman-world-ice-bar"

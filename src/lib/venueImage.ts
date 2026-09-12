@@ -45,7 +45,7 @@ export function venuePhoto(name: string): VenuePhoto | null {
   return { src: r.src, credit: r.credit, sourceUrl: r.sourceUrl, width: r.width, height: r.height };
 }
 
-const ILLUSTRATION_LABEL: Record<Locale, string> = {
+export const ILLUSTRATION_LABEL: Record<Locale, string> = {
   en: 'Illustration',
   fi: 'Kuvituskuva',
   de: 'Symbolbild',
@@ -60,7 +60,7 @@ const ILLUSTRATION_LABEL: Record<Locale, string> = {
   sv: 'Illustrationsbild',
 };
 
-const PHOTO_BY: Record<Locale, string> = {
+export const PHOTO_BY: Record<Locale, string> = {
   en: 'Photo', fi: 'Kuva', de: 'Foto', ja: '写真', es: 'Foto', 'pt-BR': 'Foto',
   'zh-CN': '图片', ko: '사진', fr: 'Photo', it: 'Foto', nl: 'Foto', sv: 'Foto',
 };

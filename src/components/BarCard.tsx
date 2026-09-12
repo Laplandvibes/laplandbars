@@ -6,7 +6,7 @@ import MenuLink from './MenuLink';
 import VenueRating, { findRating } from './VenueRating';
 import { gygDeepLink } from '../lib/gyg';
 import { withReferral } from '../lib/withReferral';
-import { venuePhoto, photoCaption } from '../lib/venueImage';
+import VenuePhoto from './VenuePhoto';
 
 /**
  * Baarikortti. Yksi lähde kolmelle pinnalle: /bars, /city/{slug} ja etusivun
@@ -53,10 +53,6 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
     ? t(`bars.venues.${bar.name}.tour.directLabel`, { defaultValue: bar.tour.directBookingLabel })
     : t('bars.bookDirect');
   const rating = findRating(bar.name);
-  // Kohteen oma kuva jos hyväksytty rekisterissä, muuten AI-kuvitus merkittynä
-  // (Vesa 11.9.2026: "nää kuvat valehtelee"). Ks. src/lib/venueImage.ts.
-  const photo = venuePhoto(bar.name);
-  const caption = photoCaption(bar.name, locale);
   const cardClass = `bar-card bar-card-hover group overflow-hidden flex flex-col h-full${bar.featured ? ' bar-card-featured' : ''}`;
 
   const tourHref = bar.tour?.gygProductPath
@@ -71,25 +67,13 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
     <article className={cardClass}>
       {/* Kuva: kiinteä korkeus, poimintamerkki vasemmassa yläkulmassa ja
           lähdemerkintä oikeassa alakulmassa ("Kuva: selvapyy.fi" / "Kuvituskuva"). */}
-      <div className="relative h-48 sm:h-56 overflow-hidden shrink-0">
-        <img
-          src={photo?.src ?? image}
-          alt={bar.name}
-          {...(photo ? { width: photo.width, height: photo.height } : {})}
-          loading="lazy"
-          decoding="async"
-          className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-night/70 via-night/10 to-transparent" />
+      <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} className="h-48 sm:h-56 shrink-0" hoverZoom>
         {bar.featured && (
           <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-amber text-night text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
             {t('bars.featuredBadge')}
           </span>
         )}
-        <span className="absolute bottom-0 right-0 z-10 px-2 py-[3px] rounded-tl-md bg-night/70 backdrop-blur-[2px] text-white/70 text-[9px] leading-none tracking-wide pointer-events-none">
-          {caption}
-        </span>
-      </div>
+      </VenuePhoto>
 
       <div className="p-6 sm:p-7 flex flex-col flex-1">
         {/* Otsikkorivi: nimi vasemmalla, Googlen arvio oikealla. Varaa aina

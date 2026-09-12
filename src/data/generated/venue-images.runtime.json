@@ -145,5 +145,12 @@
     "sourceUrl": "https://snowmanworld.fi/activities/",
     "width": 800,
     "height": 534
+  },
+  "tornion-panimo": {
+    "src": "/images/venues/tornion-panimo.webp",
+    "credit": "tornionpanimo.fi",
+    "sourceUrl": "https://tornionpanimo.fi/",
+    "width": 800,
+    "height": 500
   }
 }
