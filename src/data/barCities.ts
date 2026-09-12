@@ -43,6 +43,27 @@ export const BAR_CITIES: BarCity[] = [
   { slug: 'levi',      city: 'Levi',      name: 'Levi',      img: BARS.apresSkiLevi,   priority: 0.8, stayQuery: 'Levi, Finland' },
 ];
 
+/**
+ * Kohteet, jotka EIVÄT ole Lapissa. Vain nämä saavat alue-merkinnän nimensä
+ * viereen; Lapin kohteilla ei ole merkkiä, koska koko sivusto on Lapin opas.
+ *
+ * Vesa 12.9.2026: *"erotellaan vaan ruka koillismaaksi jälleen."* Ruka on
+ * Kuusamossa (Koillismaa) ja Iso-Syöte Pudasjärvellä (Syöte) — molemmat
+ * Pohjois-Pohjanmaata. Ilman merkintää sivu väittäisi ne Lapiksi.
+ *
+ * 🔴 Nimet ovat erisnimiä eikä niitä käännetä: "Koillismaa" on sama kaikilla
+ * 12 kielellä (verkostossa 494 esiintymää).
+ */
+export const CITY_REGION: Record<string, string> = {
+  Ruka: 'Koillismaa',
+  'Iso-Syöte': 'Syöte',
+};
+
+/** Alue-merkintä tai undefined, jos kohde on Lapissa. */
+export function regionFor(city: string): string | undefined {
+  return CITY_REGION[city];
+}
+
 /** Alaraja omalle kaupunkisivulle. Ks. tiedoston yläkommentti. */
 export const MIN_BARS_FOR_CITY_PAGE = 4;
 

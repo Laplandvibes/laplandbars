@@ -117,6 +117,14 @@ const SPECIAL = {
     ja: '毎日 11–16（夏）；冬はアプレスキー営業。店舗に確認', ko: '매일 11–16 (여름); 겨울에는 아프레 스키 시간. 매장에 확인', 'zh-CN': '每天 11–16（夏季）；冬季为滑雪后派对时段。请向店家确认',
   },
   // ── hinnat ──
+  // Uusille kohteille 12.9.2026: moni hiihtokeskuksen baari ei julkaise hintoja
+  // omalla sivullaan. Keksitty hinta olisi vaarin, joten sanotaan se suoraan.
+  'Prices on the venue site': {
+    fi: 'Hinnat kohteen sivulla', de: 'Preise auf der Website des Lokals', sv: 'Priser på ställets sida',
+    fr: 'Tarifs sur le site du lieu', it: 'Prezzi sul sito del locale', nl: 'Prijzen op de site van de zaak',
+    es: 'Precios en la web del local', 'pt-BR': 'Preços no site do local',
+    ja: '料金は店舗サイトで', ko: '가격은 매장 사이트에서', 'zh-CN': '价格见店家网站',
+  },
   'Pint ~€7': { fi: 'Tuoppi noin 7 €', de: 'Pint ~7 €', sv: 'Stor stark ca 7 €', fr: 'Pinte ~7 €', it: 'Pinta ~7 €', nl: 'Pint ~€7', es: 'Pinta ~7 €', 'pt-BR': 'Pint ~7 €', ja: 'パイント約7€', ko: '파인트 약 7€', 'zh-CN': '一品脱约 7 €' },
   'Pint ~€6–8': { fi: 'Tuoppi noin 6–8 €', de: 'Pint ~6–8 €', sv: 'Stor stark ca 6–8 €', fr: 'Pinte ~6–8 €', it: 'Pinta ~6–8 €', nl: 'Pint ~€6–8', es: 'Pinta ~6–8 €', 'pt-BR': 'Pint ~6–8 €', ja: 'パイント約6–8€', ko: '파인트 약 6–8€', 'zh-CN': '一品脱约 6–8 €' },
   'Beer ~€6–7': { fi: 'Olut noin 6–7 €', de: 'Bier ~6–7 €', sv: 'Öl ca 6–7 €', fr: 'Bière ~6–7 €', it: 'Birra ~6–7 €', nl: 'Bier ~€6–7', es: 'Cerveza ~6–7 €', 'pt-BR': 'Cerveja ~6–7 €', ja: 'ビール約6–7€', ko: '맥주 약 6–7€', 'zh-CN': '啤酒约 6–7 €' },

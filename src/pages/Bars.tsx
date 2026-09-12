@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BARS, CARDS } from '../data/images';
 import { bars, cities, iceBars } from '../data/bars';
-import { slugForCity } from '../data/barCities';
+import { regionFor, slugForCity } from '../data/barCities';
 import { useLocale } from '../i18n/useLocale';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
@@ -209,7 +209,15 @@ export default function Bars() {
                       <MapPin size={13} />
                       {t('cities.shared.kicker', { defaultValue: 'Where to drink' })}
                     </div>
-                    <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-2">{city}</h2>
+                    <div className="flex items-baseline flex-wrap gap-x-3 gap-y-1 mb-2">
+                      <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide">{city}</h2>
+                      {/* Ei-lappilainen kohde merkitaan; ks. barCities.ts CITY_REGION. */}
+                      {regionFor(city) && (
+                        <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-ice/85 border border-ice/30 rounded-full px-2.5 py-1">
+                          {regionFor(city)}
+                        </span>
+                      )}
+                    </div>
                     <p className="text-white/85 text-sm sm:text-[15px] max-w-lg leading-relaxed">{vibeDesc}</p>
                     {slug && (
                       <Link
