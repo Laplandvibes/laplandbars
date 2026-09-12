@@ -1,0 +1,50 @@
+{
+  "koskenkorva": {
+    "src": "/images/products/koskenkorva.webp",
+    "width": 800,
+    "height": 1000,
+    "fit": "contain",
+    "title": "Koskenkorvan Viina",
+    "artist": "Helsingin kaupunginmuseo",
+    "licence": "CC BY 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+    "fileUrl": "https://commons.wikimedia.org/wiki/File:Koskenkorvan_Viina.jpg",
+    "fetchedAt": "2026-09-12"
+  },
+  "finlandia": {
+    "src": "/images/products/finlandia.webp",
+    "width": 800,
+    "height": 1000,
+    "fit": "contain",
+    "title": "Finlandia Vodka Suomi",
+    "artist": "Warinhari",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileUrl": "https://commons.wikimedia.org/wiki/File:Finlandia_Vodka_Suomi.jpg",
+    "fetchedAt": "2026-09-12"
+  },
+  "lapinKulta": {
+    "src": "/images/products/lapinKulta.webp",
+    "width": 800,
+    "height": 1000,
+    "fit": "contain",
+    "title": "Lapin Kulta",
+    "artist": "Xanor",
+    "licence": "CC0",
+    "licenceUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "fileUrl": "https://commons.wikimedia.org/wiki/File:Lapin_Kulta.JPG",
+    "fetchedAt": "2026-09-12"
+  },
+  "lonkero": {
+    "src": "/images/products/lonkero.webp",
+    "width": 800,
+    "height": 1000,
+    "fit": "contain",
+    "title": "Hartwall Original Long Drink",
+    "artist": "ComradeUranium",
+    "licence": "CC BY-SA 4.0",
+    "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "fileUrl": "https://commons.wikimedia.org/wiki/File:Hartwall_Original_Long_Drink.png",
+    "fetchedAt": "2026-09-12"
+  }
+}

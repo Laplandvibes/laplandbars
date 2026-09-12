@@ -197,3 +197,19 @@
     .bar-card, .bar-card-hover:hover { transition: none; transform: none; }
   }
 }
+
+/* ── Juomakulttuurin hero ajelehtii hitaasti (vain transform, 28 s) ──────────
+   Sama liike kuin hubin blogin arkkiversiossa (Vesa hyväksyi 5.9.2026). Ei
+   vierityspaljastusta: se on templaten liike (_claude/feedback_ei_geneerista_ai_ulkoasua.md). */
+.dc-hero .dc-hero-img {
+  transform-origin: 55% 40%;
+  will-change: transform;
+  animation: dcHeroDrift 28s ease-in-out infinite alternate;
+}
+@keyframes dcHeroDrift {
+  from { transform: scale(1); }
+  to { transform: scale(1.06); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .dc-hero .dc-hero-img { animation: none; }
+}
