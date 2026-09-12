@@ -15,22 +15,11 @@ import { AppPromoHero } from '../components/AppPromo';
 import BarCard from '../components/BarCard';
 import RelatedSites from '../components/RelatedSites';
 
-const barImages: Record<string, string> = {
-  // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
-  // jonka tynnyreissä lukee keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.2026).
-  'Lapland Brewery': BARS.craftBeerGlasses,
-  'Café & Bar 21': CARDS.cocktailTrio,
-  'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
-  'Hullu Poro Areena': BARS.apresSkiTwilight,
-  'Bar Ihku': BARS.liveMusic,
-  'Selvä Pyy': BARS.cabinPubExterior,
-  'Gastropub Giitu': BARS.breweryTaps,
-  // Featured gems (added 2026-06-11) — without these three the cards fell
-  // back to the shared hero image and looked like duplicates.
-  'Kauppayhtiö': BARS.pubLaughter,
-  "V'inkkari": BARS.apresToast,
-  'Teerenpesä': BARS.snowyVillageStreet,
-};
+// 🔴 Etusivulla oli 12.9.2026 asti OMA kopio tästä taulusta, ja se oli jäänyt
+// jälkeen: se näytti Teerenpesälle kuvan, jossa lukee keksitty "PUB ÄKÄS"
+// -kyltti (poistettu /bars-sivulta jo 11.7.). Kopio ei anna virhettä, se vain
+// vanhenee — siksi yksi jaettu moduuli.
+import { barImages } from '../data/barCardImages';
 
 const categoryCardsMeta = [
   { image: CARDS.heroIceBars, to: '/ice-bars', icon: Snowflake },
@@ -172,7 +161,7 @@ export default function Home() {
               <BarCard
                 key={bar.name}
                 bar={bar}
-                image={barImages[bar.name] || BARS.heroMain}
+                image={barImages[bar.name]}
                 locale={locale}
                 campaign="home_featured"
                 showCity

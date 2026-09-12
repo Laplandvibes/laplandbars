@@ -8,7 +8,7 @@
     "build:nossg": "tsc -b && vite build",
     "build": "node scripts/gen-sitemap.mjs && tsc -b && vite build && node scripts/assert-css-budget.mjs && node scripts/generate-prerender-meta.mjs && node scripts/_prerender_routes.mjs --site=https://laplandbars.com --siteName=LaplandBars --twitter=@laplandvibes --defaultOg=/og.jpg?v=20260905 --routes=scripts/routes.json --meta=scripts/prerender-meta.json --addLocales=sv --crawlableBody --emit404 && node scripts/version-images.mjs",
     "lint": "eslint .",
-    "test": "node --test \"scripts/lib/*.test.mjs\" && node scripts/gen-sitemap.mjs --check",
+    "test": "node --test \"scripts/lib/*.test.mjs\" && node scripts/gen-sitemap.mjs --check && node scripts/audit-city-coverage.mjs",
     "preview": "vite preview"
   },
   "dependencies": {

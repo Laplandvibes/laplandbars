@@ -16,6 +16,34 @@
     "jsonKey": "cities.levi"
   },
   {
+    "path": "/city/yllas",
+    "jsonKey": "cities.yllas"
+  },
+  {
+    "path": "/city/saariselka",
+    "jsonKey": "cities.saariselka"
+  },
+  {
+    "path": "/city/ruka",
+    "jsonKey": "cities.ruka"
+  },
+  {
+    "path": "/city/luosto",
+    "jsonKey": "cities.luosto"
+  },
+  {
+    "path": "/city/pyha",
+    "jsonKey": "cities.pyha"
+  },
+  {
+    "path": "/city/iso-syote",
+    "jsonKey": "cities.iso-syote"
+  },
+  {
+    "path": "/city/salla",
+    "jsonKey": "cities.salla"
+  },
+  {
     "path": "/ice-bars",
     "jsonKey": "iceBars"
   },

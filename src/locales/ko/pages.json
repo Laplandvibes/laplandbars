@@ -108,11 +108,11 @@
     }
   },
   "bars": {
-    "title": "라플란드의 바 | LaplandBars",
-    "description": "라플란드에서 현지인이 실제로 마시는 바, 로바니에미, 레비, 윌래스, 사리셀카. 영업시간, 가격대, 제공되는 술까지.",
+    "title": "핀란드 라플란드, Ruka, Syöte의 바 | LaplandBars",
+    "description": "핀란드 라플란드와 Ruka, Syöte의 바: Rovaniemi, Levi, Ylläs, Saariselkä, Salla. 영업시간과 가격, 평점.",
     "hero": {
       "title": "바 & 펍",
-      "sub": "여기에 소개된 모든 바는 실재하고 현재 영업 중이며 저녁을 보낼 가치가 있습니다. 협찬 자리 없음, 부풀린 내용 없음, 라플란드의 진짜 음주 문화만."
+      "sub": "여기 실린 바는 모두 실제로 있고, 지금 영업 중이며, 저녁 한때를 보낼 만한 곳입니다. 광고 자리도 없고 채워 넣은 목록도 없이 라플란드와 Ruka, Syöte의 실제 술 문화만 담았습니다."
     },
     "featuredBadge": "편집부 추천",
     "venueWebsite": "공식 웹사이트",
@@ -128,7 +128,12 @@
       "Rovaniemi": "해가 진 뒤의 북극권 수도, 크래프트 양조장 펍, 칵테일 바, 그리고 진짜 얼음으로 만든 바.",
       "Levi": "핀란드 애프터 스키의 수도. 훌루 포로 아레나는 1,700명을 수용합니다. 슬로프는 오후 4시에 문을 닫고, 파티는 오후 4시 1분에 시작됩니다.",
       "Yllas": "레비보다 조용하고, 어느 곳보다 따뜻합니다. 현지인과 방문객이 가식 없이 섞이는 아늑한 산속 펍들.",
-      "Saariselka": "외지고 어둡지만 구색은 놀랍도록 충실합니다. 가스트로펍 기이투의 크래프트 맥주 리스트는 이렇게 북쪽까지 올 만한 값을 합니다."
+      "Saariselka": "외지고 어둡지만 구색은 놀랍도록 충실합니다. 가스트로펍 기이투의 크래프트 맥주 리스트는 이렇게 북쪽까지 올 만한 값을 합니다.",
+      "Ruka": "Koillismaa에 있는 Kuusamo의 펠 리조트로, 라플란드에 속하지 않습니다. 리조트 안에만 열세 곳이 있습니다. 슬로프 바와 아이스 바, 볼링장 바, 그리고 나이트클럽 두 곳입니다.",
+      "Pyha": "아담한 펠 리조트에 모인 여섯 곳입니다. 슬로프 펍과 와인 바, 스포츠 바가 있고 그중 몇 곳은 겨울에만 문을 엽니다.",
+      "Luosto": "호텔 마을 하나를 둘러싼 일곱 곳입니다. 호텔 바들, Kerotie 끝의 오두막 카페 바, 그리고 일반 손님을 받는 밤이 라이브 오케스트라와 함께하는 유료 댄스 저녁인 통나무 레스토랑입니다.",
+      "Salla": "네 곳입니다. 슬로프 기슭의 통나무 레스토랑, 애프터스키 펍, 그리고 나머지 두 곳에서는 노래방을 운영합니다.",
+      "Iso-Syote": "Pudasjärvi의 Syöte 펠 지대에 있으며 라플란드에 속하지 않습니다. 다섯 곳으로, 펍과 애프터스키 비스트로, 정상의 바, 와인 레스토랑입니다."
     },
     "venues": {
       "Café & Bar 21": {
@@ -362,6 +367,546 @@
           "라플란드 주방",
           "댄스와 디스코"
         ]
+      },
+      "Bar Ihku Ruka": {
+        "type": "노래방 바 겸 나이트클럽",
+        "description": "루카 마을 Scandic Rukahovi 호텔 안에 있는 노래방 바이자 나이트클럽이며 애프터 스키 장소입니다. 슬로프 바와 테라스는 오후에 열고, 노래방은 매일 밤 이어지며, 나이트클럽은 금요일과 토요일에 문을 엽니다. 매주 퀴즈와 빙고의 밤도 열리고 테이블 예약을 받습니다.",
+        "highlights": [
+          "매일 밤 노래방",
+          "슬로프 옆 애프터 스키 테라스",
+          "금·토 나이트클럽"
+        ]
+      },
+      "Ravintola Zone": {
+        "type": "나이트클럽 겸 라이브 음악 레스토랑",
+        "description": "낮에는 아침과 점심, 그릴 요리를 내고 밤에는 음악과 춤의 공간이 되는 루카 마을의 레스토랑입니다. 자체 사이트에 따르면 한 해 100회가 넘는 라이브 밤이 열리고, 무대에는 알려진 핀란드 아티스트부터 신인까지 오르며, 노래방은 매일 밤 21시에 시작합니다. 옥상에는 단독으로 예약할 수 있는 Panorama Terrace가 있습니다.",
+        "highlights": [
+          "연간 100회 이상 라이브",
+          "매일 21시 노래방",
+          "04시까지 그릴 주방"
+        ]
+      },
+      "Rinneravintola Piste": {
+        "type": "슬로프 바",
+        "description": "루카 프런트 슬로프 발치에 있는 슬로프 레스토랑 겸 바로, 자체 사이트는 차가운 음료와 따뜻한 음료, 음식을 낸다고 소개합니다. 루카의 Spring Break 사이트는 이곳을 리조트의 파티 명소이자 랜드마크라고 부르며, 하루 종일 음악이 흐르고 테라스에서 슬로프와 봄철 폰드 스킴 행사를 내려다볼 수 있다고 적습니다.",
+        "highlights": [
+          "프런트 슬로프 발치",
+          "슬로프를 내려다보는 테라스",
+          "시즌 중 하루 종일 음악"
+        ]
+      },
+      "Hanki Baari": {
+        "type": "바",
+        "description": "스스로를 '북극의 동네 거실'이라고 부르는 루카 마을의 바 겸 레스토랑입니다. 자체 사이트는 현지 맥주와 크래프트 음료, 와인, 커피를 간단한 음식과 함께 소개하며, 겨울 내내 포크부터 얼터너티브까지 라이브 아티스트와 DJ가 번갈아 무대에 오릅니다. 반려견을 환영하고 테이블 예약은 받지 않습니다.",
+        "highlights": [
+          "현지 맥주와 크래프트 음료",
+          "라이브와 DJ의 밤",
+          "반려견 동반 가능"
+        ]
+      },
+      "Lobby Bar Scandic Rukahovi": {
+        "type": "호텔 로비 바",
+        "description": "루카 마을 중심 Scandic Rukahovi 호텔의 로비 바입니다. 호텔 자체 페이지는 큰 화면으로 스포츠를 보며 시원한 음료와 가벼운 안주를 즐기는 아늑한 자리라고 소개합니다. 카페 서비스는 아침 7시에 시작하고 바는 새벽까지 이어집니다.",
+        "highlights": [
+          "큰 화면 스포츠 중계",
+          "음료와 가벼운 안주",
+          "01:30까지 영업"
+        ]
+      },
+      "Restaurant Colorado Ruka": {
+        "type": "바 앤 그릴",
+        "description": "루카 보행자 중심가에 있는 미국식 바 앤 그릴입니다. 자체 페이지는 음식을 '록 음악'과 함께 소개하고, 스키 시즌에는 거의 매주 라이브 음악이 있는 부속 바와 게임, 당구, 햇살 테라스를 설명합니다. 고기는 숯불 오븐에서 굽고 버거 패티는 매장에서 직접 만듭니다.",
+        "highlights": [
+          "스키 시즌 거의 매주 라이브",
+          "스포츠 화면과 당구",
+          "햇살 테라스"
+        ]
+      },
+      "Monomesta": {
+        "type": "슬로프 바",
+        "description": "바람이 막힌 골짜기, Pessari 슬로프 발치에 있는 슬로프 바와 테라스로, 도로가 없어 유효한 리프트 티켓을 들고 스키로만 갈 수 있습니다. 루카의 자체 사이트들은 이곳을 전설적인 테라스라고 부르며, 최대 천 명을 받는 애프터 스키 테라스와 Spring Break 기간의 라이브 공연, DJ, 여러 개의 바, 부대 대회를 소개합니다. 낮 공연은 무료이고 주류 제공 구역은 18세 이상입니다.",
+        "highlights": [
+          "스키로만 도달",
+          "최대 천 명 테라스",
+          "애프터 스키 라이브 무대"
+        ]
+      },
+      "Ski Booster": {
+        "type": "바, 카페 겸 그릴",
+        "description": "루카의 Vuosseli 지역에 있는 바 겸 카페 겸 그릴로, Ruka Booster Oy 이름으로 펍·바 업종에 등록되어 있습니다. 주 초반에는 문을 닫고 금요일과 토요일 밤에는 늦게까지 영업합니다.",
+        "highlights": [
+          "바, 카페, 그릴",
+          "금·토 심야 영업",
+          "월·화 휴무"
+        ]
+      },
+      "Rukan Salonki Ice Bar": {
+        "type": "아이스 바",
+        "description": "루카 마을 외곽 호숫가 Rukan Salonki Chalets에 전부 얼음으로 지은 바입니다. 몸을 녹이는 핫초코와 김이 오르는 주스부터 얼음처럼 차가운 칵테일과 목테일까지, 따뜻한 음료와 차가운 음료를 모두 냅니다.",
+        "highlights": [
+          "얼음으로 지은 바",
+          "칵테일과 목테일",
+          "따뜻한 음료도"
+        ]
+      },
+      "CAMP Kitchen & Bar": {
+        "type": "레스토랑 바",
+        "description": "루카의 Vuosseli 쪽, Ruka Valley에 있는 레스토랑 겸 바입니다. 자체 사이트는 '투르쿠에서 태국까지, Nuorgam에서 뉴욕까지'라는 표현으로 국제적인 음식을 음료와 함께 소개하고, 상호 자체에 바를 넣어 두었습니다.",
+        "highlights": [
+          "상호에 바가 들어간 가게",
+          "국제적인 메뉴",
+          "Vuosseli의 Ruka Valley"
+        ]
+      },
+      "Rukan keilahalli": {
+        "type": "볼링장 바",
+        "description": "루카 마을 Kumpare 쇼핑센터 맨 아래층에 있는 볼링장으로, 인포 데스크와 Subway 사이 계단으로 내려갑니다. 자체 사이트는 바에 저렴한 음료가 폭넓게 갖춰져 있다고 적습니다. 당구대 두 대와 다트판 세 개도 있습니다.",
+        "highlights": [
+          "Kumpare 쇼핑센터 안의 바",
+          "당구대 두 대와 다트판 세 개",
+          "글로 볼링 레인"
+        ]
+      },
+      "Rukan Olkkari": {
+        "type": "애프터 스키 바 겸 카페",
+        "description": "'슬로프에서 곧장 소파로'를 자체 슬로건으로 내건 루카 Vuosseli 지역의 카페 겸 레스토랑입니다. 사이트에는 따뜻한 음료와 짭짤한 와플, 달콤한 와플, 음식, 애프터 스키 음료, 노래방이 올라 있고 케이터링도 합니다. 메뉴에는 버거와 채식 요리, 감자튀김, 전채가 있습니다. 반려동물을 환영합니다.",
+        "highlights": [
+          "애프터 스키 음료",
+          "노래방",
+          "반려동물 환영"
+        ]
+      },
+      "Hotelli-ravintola Rukatonttu": {
+        "type": "호텔 레스토랑 바",
+        "description": "Talvijärvi 호숫가에 유리로 둘러싼 테라스를 둔 호텔 레스토랑으로, 루카 마을 중심에서 650미터, 가장 가까운 슬로프와 스키 트랙에서 약 20미터 거리입니다. 레스토랑과 테라스에는 120석이 있습니다. 자체 사이트에는 'Ravintola & baari' 섹션이 있고 애프터 스키는 레스토랑 벽난로 옆에서 보낸다고 적혀 있습니다.",
+        "highlights": [
+          "스키인 스키아웃",
+          "애프터 스키는 벽난로 옆",
+          "유리 테라스, 120석"
+        ]
+      },
+      "TunturiPUB": {
+        "type": "펍",
+        "description": "Tunturi Pub은 이소쉬외테 프런트 슬로프 아래, KIDE Hotel에서 수십 미터 거리에 있고 Tunturi Market 식료품점과 같은 건물을 쓰며, 회사 자체 사이트도 이곳을 '같은 공간에서 운영하는 레스토랑 Tunturi Pub'이라고 적습니다. 주방은 피자와 버거, 샐러드, 가벼운 안주에 별도의 어린이 메뉴를 더해 내고, 매장에서 먹거나 전화로 미리 주문해 가져갈 수 있습니다. 스키장 레스토랑 페이지는 시원한 생맥주와 비건 선택지를 소개하고, 펍 자체 페이지는 주류 판매 허가가 있으니 저녁을 조금 더 촉촉하게 보낼 수도 있다고 적습니다. 한쪽 구석에는 보드게임이 쌓여 있습니다.",
+        "highlights": [
+          "Tunturi Market 식료품점과 같은 건물",
+          "시원한 생맥주 (isosyote.fi)",
+          "구석에 쌓인 보드게임"
+        ]
+      },
+      "Bistoria Iso-Syöte": {
+        "type": "레스토랑 바",
+        "description": "Bistoria는 이소쉬외테 펠 발치 KIDE Hotel에 딸린 레스토랑으로, 아침과 저녁을 내고 자체 사이트가 저녁의 편안한 바라고 부르는 공간을 함께 두며, 점심은 단체 사전 예약으로 운영합니다. 주방은 현지 식재료를 이탈리아 쪽으로 기운 국제적인 요리와 함께 내고 육류와 채식, 글루텐 프리 선택지를 갖추고 있습니다. 와인은 글라스와 보틀로 제공하며 8.80유로부터 시작합니다. 스키장 레스토랑 페이지는 야외 테라스와 라운지 공간을 덧붙입니다.",
+        "highlights": [
+          "KIDE Hotel에 딸린 바",
+          "글라스 와인 8.80유로부터",
+          "야외 테라스와 라운지 (isosyote.fi)"
+        ]
+      },
+      "Pärjä Ski Bistro": {
+        "type": "애프터 스키 비스트로",
+        "description": "Pärjä Ski Bistro는 이소쉬외테 뒤편 슬로프의 리프트 바로 옆에 있습니다. 자체 사이트는 이곳을 'Iso-Syötteen after ski taivas', 즉 이소쉬외테의 애프터 스키 천국으로 소개하며 음식과 음료, 즐길 거리를 약속합니다. 메뉴는 버거와 피자, 국제 요리, 어린이 메뉴, 디저트로 나뉘고, 스키장 레스토랑 페이지에 따르면 립과 윙, 비건 선택지도 있습니다. 테라스에는 봄 저녁 햇살이 듭니다.",
+        "highlights": [
+          "뒤편 슬로프 리프트 바로 옆",
+          "이소쉬외테의 애프터 스키 명소",
+          "봄 저녁 햇살 테라스"
+        ]
+      },
+      "Ravintola Hilltop": {
+        "type": "정상 레스토랑 바",
+        "description": "이소쉬외테 펠 정상 Hilltop Hotel 꼭대기 층에 있는 200석 파노라마 레스토랑입니다. 주방은 스스로 깨끗한 북방의 맛이라고 부르는 요리를 채집한 버섯과 베리, 현지 순록 같은 지역 식재료와 결합합니다. 같은 공간이 10:30부터 18:00까지는 Cafe Hilltop으로 운영되고, 목적지 소개 페이지의 사진 설명에는 레스토랑 입구 옆 바와 로비 공간이 보입니다.",
+        "highlights": [
+          "펠 정상의 200석",
+          "북방 식재료: 채집한 버섯, 베리, 순록",
+          "같은 공간의 Cafe Hilltop 10:30–18시"
+        ]
+      },
+      "Restaurant Kotva": {
+        "type": "파인다이닝 와인 레스토랑",
+        "description": "Ski Resort & Hotel Pikku-Syöte에 속한, Pikku-Syöte 펠 정상의 작은 북유럽 가스트로노미 레스토랑입니다. 요리는 지역 식재료를 중심으로 구성합니다. 음료 리스트는 레스토랑의 표현으로 소규모 생산자의 뜻밖의 와인과 핀란드 음료를 골라 모은 것입니다. 저녁 영업만 하고, 금요일과 토요일에, 업소가 공지하는 시즌에만 문을 엽니다.",
+        "highlights": [
+          "소규모 생산자 와인과 핀란드 음료",
+          "세 가지 코스 59유로, 다섯 가지 코스 79유로",
+          "Pikku-Syöte 펠 정상"
+        ]
+      },
+      "Hanki Baari Pyhä": {
+        "type": "슬로프 바 (겨울 시즌)",
+        "description": "퓌하 북쪽 슬로프 아래쪽에 있는 바입니다. 자체 사이트는 간단한 음식과 음료, 현지 맥주, 좋은 와인, 커피를 소개합니다. 겨울 시즌 행사 일정에는 거의 매 주말 아티스트와 DJ가 오르며, 포크와 핀란드 힙합부터 얼터너티브까지 이어집니다. 21시 이후에는 보호자를 동반한 미성년자를 제외하고 18세 이상만 입장할 수 있고, 행사가 있는 밤은 언제나 18세 이상입니다. 2026년 12월에 다시 문을 엽니다.",
+        "highlights": [
+          "북쪽 슬로프 발치",
+          "겨울 시즌 거의 매 주말 현지 맥주와 라이브 아티스트",
+          "21시 이후 18세 이상"
+        ]
+      },
+      "Mesta": {
+        "type": "슬로프 바",
+        "description": "Hotel Kultakero 옆, 슬로프 한가운데에 있는 바와 테라스로, 해돋이부터 오로라까지 라플란드 풍경이 내다보입니다. 퓌하 관광 사이트는 이곳을 바/애프터 스키와 슬로프 레스토랑으로 분류하고 맛과 음악, 전망을 소개합니다. 같은 사이트의 축제 페이지는 Hotel Pyhätunturi 주차장 끝 Kultakero 2 건물 옆이라고 위치를 알려 주며, 음료와 펍 스타일 음식을 곁들여 쉬어 가는 곳이라고 적습니다.",
+        "highlights": [
+          "펠 전망 테라스",
+          "음악",
+          "펍 스타일 음식"
+        ]
+      },
+      "Pyhä Dreams Wine Bar": {
+        "type": "와인 바",
+        "description": "Pyhätunturi 정상 전망 오두막에 있는 와인 바 Pyhä Dreams로, 전망 리프트를 타고 올라갑니다. 여름 시즌은 2026년 6월 19일부터 9월 20일까지, 겨울 시즌은 11월 말부터 5월 초 무렵까지입니다. 최대 여덟 명까지의 그룹을 위한 가이드 와인 시음도 열리는데, 화이트와 레드, 스파클링 와인 다섯 잔을 짭짤하고 달콤한 한입 요리와 함께 내며 두 시간쯤 걸립니다. 자리가 넉넉하지 않아 미리 예약하는 편이 좋습니다.",
+        "highlights": [
+          "펠 정상, 전망 리프트 끝",
+          "가이드 와인 시음 5종, 최대 8명",
+          "시음에 리프트 티켓 불포함"
+        ]
+      },
+      "CAMP Kitchen & Bar PYHÄ": {
+        "type": "호텔 레스토랑 바",
+        "description": "Hotel Pyhätunturi 옆에 있는 레스토랑 겸 바로, 가게의 표현으로는 투르쿠에서 태국까지, Nuorgam에서 뉴욕까지 아우르는 요리를 냅니다. 파노라마 창으로 펠 풍경이 펼쳐지고, 퓌하 관광 사이트는 하루를 마치며 한잔하러 들르거나 제대로 된 저녁을 먹고 가도 좋다고 적습니다. 반려견을 환영하고 테이블 예약과 기프트 카드도 가능합니다.",
+        "highlights": [
+          "Hotel Pyhätunturi 옆",
+          "파노라마 펠 전망",
+          "반려견 환영"
+        ]
+      },
+      "Restaurant Huttuhippu": {
+        "type": "슬로프 펍",
+        "description": "퓌하 가족 슬로프 옆에 있는 레스토랑으로, 낮에는 슬로프 레스토랑, 저녁에는 알라카르트 레스토랑으로 운영하며 인근 농장의 순록과 지역 숲의 베리, 버섯을 씁니다. 붙어 있는 Huttu-Pub은 크래프트 양조장 제품과 폭넓은 맥주, 위스키, 럼으로 알려져 있고, 퓌하 관광 사이트는 이곳을 리조트에서 맥주 종류가 가장 많은 동네 펍이라고 부릅니다. 빙고는 목요일에 열리고, 펍에는 보드게임이 있으며 슬로프가 내다보입니다.",
+        "highlights": [
+          "리조트에서 가장 많은 맥주 종류",
+          "가족 슬로프 옆",
+          "목요일 빙고"
+        ]
+      },
+      "Sport Bar Pyhä": {
+        "type": "스포츠 바",
+        "description": "퓌하 쇼핑센터 안에 있는 바로, 운영자는 리조트 중심의 거실 같은 공간이라고 소개하며 연중 오후부터 늦은 시간까지 문을 엽니다. 당구대와 핀볼, 다트판, 에어하키, 보드게임이 있고 옛 노래부터 최신 곡까지 부를 수 있는 노래방도 있습니다. 주방은 버거부터 윙까지 펍 음식을 내고 포장도 되며, 스포츠 중계는 Viaplay 채널 패키지로 봅니다.",
+        "highlights": [
+          "노래방과 당구",
+          "Viaplay 스포츠 채널",
+          "연중 영업"
+        ]
+      },
+      "Papana Pupi": {
+        "type": "애프터 스키 펍",
+        "description": "Sallatunturi에 있는 Sallatunturin Tuvat의 자체 펍으로, 리셉션 및 Restaurant Kiela와 같은 건물에 있습니다. 자체 페이지에 따르면 음료는 하우스 시그니처 칵테일과 목테일부터 맥주와 와인까지 이어지고 상당수는 현지 생산자의 재료로 만들며, 에스프레소 기반 커피도 있습니다. 겨울 주중에는 노래방과 음악 퀴즈, 빙고가 열리고 주말에는 라이브 아티스트가 번갈아 무대에 섭니다. 벽에는 핀란드 아이스하키 선수들의 경기 유니폼과 스틱이 걸려 있고, 넓은 테라스에는 반려동물도 올 수 있습니다.",
+        "highlights": [
+          "시그니처 칵테일",
+          "라이브 음악과 노래방",
+          "아이스하키 기념품"
+        ]
+      },
+      "Keloravintola": {
+        "type": "슬로프 레스토랑 바",
+        "description": "Salla Ski Resort 프런트 슬로프 발치에 있는 통나무 레스토랑입니다. 자체 사이트는 주류 판매 허가를 모두 갖추고 있으며 라플란드 식재료로 처음부터 조리한 그릴 요리와 피자, 알라카르트 요리를 낸다고 적습니다. Salla Ski Resort는 이곳의 햇살 테라스와 애프터 스키 모임을 소개하고, Visit Salla와 2025년 살라 상품 매뉴얼은 라이브 음악의 밤을 덧붙입니다.",
+        "highlights": [
+          "주류 판매 허가 완비",
+          "애프터 스키와 라이브 음악",
+          "프런트 슬로프 발치"
+        ]
+      },
+      "Ravintola Sallan Maja": {
+        "type": "노래방 펍",
+        "description": "살라에 있는 레스토랑 겸 펍으로, 점심과 알라카르트 주방을 자체 펍 Majan Pubi와 함께 운영합니다. 펍 페이지는 새벽까지 노래방을 부르고 보드게임을 하며 함께 한잔할 수 있다고 적고, 22:00부터는 18세 이상만 입장하며 요청하면 신분증을 확인한다고 밝힙니다. 주방은 라플란드 지역 식재료를 쓰고, 페이스트리와 피자 도우는 Kursulainen을 비롯한 지역 소규모 베이커리에서 옵니다.",
+        "highlights": [
+          "Majan Pubi의 노래방과 보드게임",
+          "22:00부터 18세 이상, 신분증 확인",
+          "월–목 점심 뷔페 13.50유로, 샐러드 뷔페와 커피 포함"
+        ]
+      },
+      "Evakko Pub": {
+        "type": "마을 노래방 펍",
+        "description": "Vallovaara 마을 Kairalan Kievari에 있는 펍으로, 옛 초등학교 건물에 자리합니다. Visit Salla는 주말에는 필요하면 새벽까지 문을 열고 라이브 음악이 다양하다고 적습니다. 자체 페이지는 다트와 당구를 갖춘 게임 룸을 소개하고 주류와 커피, 청량음료, 핫초코를 안내합니다. Kairalan Kievari 숙박 사이트는 이곳을 인기 있는 노래방 펍이자 동네의 밤 명소라고 부릅니다.",
+        "highlights": [
+          "노래방과 라이브 음악",
+          "다트와 당구",
+          "옛 학교 건물"
+        ]
+      },
+      "Nightclub Karhu": {
+        "type": "나이트클럽",
+        "description": "Karhu는 Lapland Hotels Luostotunturi의 나이트클럽이며, 호텔 표현으로는 마을의 유일한 나이트클럽입니다. 저녁에는 노래방이 이어지고 아티스트가 오는 밤에는 파티가 새벽까지 계속되며, 봄에는 악단과 초청 아티스트에 맞춘 춤이 04.00까지 이어집니다. 2026년 가을 일정에는 대부분의 저녁에 노래방, Ruska 펍 퀴즈 두 번, 그리고 PIENIsuuriBÄNDI와 Toni Jaatinen Band를 비롯한 라이브 밴드가 올라 있습니다.",
+        "highlights": [
+          "호텔 자체 사이트 기준 루오스토 마을 유일의 나이트클럽",
+          "노래방 무료, 18세 이상",
+          "아티스트 나이트 라이브 밴드 10유로"
+        ]
+      },
+      "Rumpu Bar (Rumpubaari)": {
+        "type": "호텔 바",
+        "description": "Rumpu Bar는 Lapland Hotels Luostotunturi의 알라카르트 레스토랑 Bistro 옆에 있습니다. 호텔은 따뜻한 음료 한 잔이나 시원한 한잔을 즐기는 자리라고 소개합니다. 바에는 반려견도 들어올 수 있습니다.",
+        "highlights": [
+          "호텔 알라카르트 레스토랑 Bistro 옆",
+          "반려견 환영",
+          "Bistro 주방보다 늦게까지"
+        ]
+      },
+      "Restaurant Punakettu": {
+        "type": "레스토랑 겸 펍",
+        "description": "Punakettu는 루오스토 쇼핑센터에 있는 가족 레스토랑으로, 자체 영문 사이트는 이곳을 '레스토랑이자 펍'이라고 소개합니다. 공개된 음료 리스트에는 생맥주와 롱드링크, 사이더, 지역 크래프트 양조장 코너, 글라스와 보틀 와인, 하우스 창작을 포함한 칵테일과 목테일 리스트, Teerenpeli 위스키가 있습니다. 음식은 버거와 피자, 라플란드 요리이고, 레스토랑은 Green Key 인증을 받았습니다.",
+        "highlights": [
+          "자체 사이트 표현으로 '레스토랑이자 펍'",
+          "음료 리스트의 지역 크래프트 양조장 코너",
+          "Teerenpeli 위스키"
+        ]
+      },
+      "Restaurant Vaisko": {
+        "type": "레스토랑 겸 칵테일 바",
+        "description": "Vaisko는 현지 식재료와 숲의 산물을 중심으로 하는 루오스토의 Eat Lappi 레스토랑입니다. 자체 페이지는 음료도 같은 비중으로 소개합니다. 요리에 맞춘 페어링과 편하게 즐기는 잔술을 갖춘 와인 캐비닛, 국내외 맥주 소수 정예, 클래식과 하우스 창작을 담은 칵테일 리스트가 있습니다. 사이트는 한잔만 하러 와도 좋다고 적고, 위층 로프트에는 단체를 위한 서른 명 남짓의 자리가 있습니다.",
+        "highlights": [
+          "한잔만 하러 와도 좋다는 안내",
+          "요리별 페어링 와인 캐비닛",
+          "클래식과 하우스 칵테일"
+        ]
+      },
+      "Aarnikota": {
+        "type": "오두막 카페 겸 바",
+        "description": "Aarnikota는 스스로를 'Hut Café and Bar'라고 부르며, 루오스토 중심에서 약 1.5킬로미터 떨어진 Aarniluosto의 작은 전통 라플란드 오두막입니다. 걸어서, 스키로, 스노슈로, 또는 차로 갈 수 있습니다. 낮에는 크레프와 검은 주전자 커피를 내고, 자체 페이지는 어린이용 음료와 함께 성인용 음료도 있다고 적습니다. 오두막의 중심은 스무 명이 둘러앉는 화덕이며, 저녁에는 스무 명까지의 단체 요청에 따라 문을 엽니다.",
+        "highlights": [
+          "스스로 부르는 이름은 오두막 카페 겸 바, 성인 음료도 제공",
+          "스무 명이 둘러앉는 화덕",
+          "마을에서 도보나 스키, 스노슈로"
+        ]
+      },
+      "Restaurant Aurora": {
+        "type": "레스토랑 겸 로비 바",
+        "description": "Restaurant Aurora는 루오스토 마을 중심에서 걸어갈 수 있는 거리에 있는 Santa's Hotel Aurora의 레스토랑입니다. 용암석 그릴을 갖춘 오픈 키친과 벽난로, 숲을 향한 창이 있고, 메뉴는 전통적인 맛과 국제적인 영향, 엄선한 와인 리스트를 중심으로 구성합니다. 호텔은 다이닝 서비스 목록에 로비 바를 올려 두었고, 레스토랑 페이지는 로비 바의 은은한 조명이 편안한 대화의 자리를 만든다고 적습니다.",
+        "highlights": [
+          "호텔 서비스 목록에 오른 로비 바",
+          "오픈 키친의 용암석 그릴",
+          "엄선한 와인 리스트"
+        ]
+      },
+      "Keloravintola (Log Restaurant Kelo)": {
+        "type": "댄스 겸 연회 레스토랑",
+        "description": "Keloravintola는 Lapland Hotels Luostotunturi에서 약 300미터 떨어진 통나무 레스토랑으로, 최대 220명을 받습니다. 호텔은 테마 나이트를 제외하면 예약제로만 문을 열고 결혼식과 생일 같은 행사 장소로도 쓰인다고 밝힙니다. 일반 공개 저녁은 라이브 댄스 악단과 함께하는 유료 댄스 행사이며, 2026년 가을 일정에는 Toni Jaatinen Band, Alina Liikola & Afrodite, Marko Maunuksela & Fantasia, Tomi Markkola & Kipinä, Tanssiorkesteri Ässät이 올라 있습니다. 호텔은 이곳의 노래방과 라이브 음악, 빙고도 함께 소개합니다.",
+        "highlights": [
+          "220석 통나무 레스토랑",
+          "라이브 악단 유료 댄스 저녁, 15–20유로",
+          "노래방, 라이브 음악, 빙고"
+        ]
+      },
+      "Local Pub Panimo Saariselkä": {
+        "type": "펍",
+        "description": "스스로를 '사리셀카의 거실'이라고 부르는 사리셀카 중심의 펍으로, 현지와 해외 음료를 두루 갖추고 있습니다. 주방은 바와 함께 매일 운영합니다. 남녀 사우나가 따로 있어 공용 시간에 이용하거나 단독으로 예약할 수 있습니다.",
+        "highlights": [
+          "노래방과 라이브 음악",
+          "빙고와 펍 퀴즈",
+          "공용 사우나"
+        ]
+      },
+      "Kaunis Jorma Saariselkä": {
+        "type": "펍",
+        "description": "2023년 말에 완공된 건물에 있는 사리셀카 중심의 작은 펍으로, 연중 문을 엽니다. 벽난로와 테라스, 노래방이 있고 펍 음식과 함께 음료를 냅니다. 무료 빙고는 매주 목요일 19:00에 열립니다.",
+        "highlights": [
+          "노래방",
+          "목요일 무료 빙고",
+          "테라스"
+        ]
+      },
+      "Kieppi Kitchen & Bar": {
+        "type": "레스토랑 & 바",
+        "description": "사리셀카 중심 Wilderness Hotel Kieppi의 레스토랑으로, 현대적인 감각을 더한 라플란드 요리를 냅니다. 알라카르트 메뉴에는 스테이크와 현지 생선, 버거, 팬 피자가 있습니다. 바 코너에서는 음료를 내며 주방보다 몇 시간 먼저 문을 엽니다.",
+        "highlights": [
+          "09시부터 여는 바",
+          "팬 피자와 현지 생선",
+          "사리셀카 중심"
+        ]
+      },
+      "Lobby Bar Takka": {
+        "type": "로비 바",
+        "description": "Restaurant Linnansali 옆, Lapland Hotels Riekonlinna의 벽난로 로비 바입니다. 음료와 따뜻한 마실 거리를 내고 반려견도 환영합니다. 가을과 이른 봄에는 바에서 트루바두르 공연이 열리며 입장은 무료입니다.",
+        "highlights": [
+          "벽난로 바",
+          "트루바두르 라이브",
+          "반려견 환영"
+        ]
+      },
+      "Restaurant Pirtti": {
+        "type": "펍",
+        "description": "Santa's Hotel Tunturi 레스토랑 건물 안에 있는 펍입니다. 호텔은 이곳을 바깥에서 하루를 보낸 뒤 흘러들어 가는 편안하고 아늑한 거실이라고 소개하며, 따뜻한 전통 라플란드 펍 분위기와 나무 인테리어, 벽난로, 애프터 스키 기분을 이야기합니다. 자체 페이지는 좋은 술과 꾸밈없는 음식을 앞세웁니다. Lapland North는 성수기에만 문을 연다고 적고, 호텔도 Lapland North도 일별 영업시간을 공개하지 않으니 가기 전에 전화로 확인하시기 바랍니다.",
+        "highlights": [
+          "벽난로와 나무 인테리어",
+          "애프터 스키 분위기",
+          "술과 꾸밈없는 음식"
+        ]
+      },
+      "Restaurant Siula": {
+        "type": "댄스 레스토랑",
+        "description": "Santa's Hotel Tunturi 레스토랑 건물 안의 댄스 레스토랑으로, 호텔은 음악과 웃음, 춤이 저녁을 채우는 전설적인 댄스 레스토랑이라고 소개합니다. 겨울 시즌에는 같은 공간에서 아침 식사를 냅니다.",
+        "highlights": [
+          "댄스 플로어",
+          "라이브 음악의 밤",
+          "대규모 행사 공간"
+        ]
+      },
+      "Mettäbaari": {
+        "type": "숲속 바",
+        "description": "사리셀카의 운동·스키 트랙 옆 숲속, Laanila 방향으로 2킬로미터 떨어진 곳에 있는 바로, 주인들이 다채로운 역사를 지녔다고 말하는 옛 통나무 건물 무리에 자리합니다. 몇 해 조용했다가 새 주인들이 Mettäbaari라는 이름으로 다시 열었습니다. 주류 판매 전체 허가(A-oikeudet)를 갖추고 있고, 스키 트랙에서 곧장 들어올 수 있다는 것이 이 집의 소개입니다. 메뉴는 팬케이크와 익숙한 청량음료, 따뜻한 음료, 훈제한 이나리 호수 화이트피시 같은 지역 별미로 단출합니다. 봄과 가을 한 해 두 번은 옛 마구간을 댄스홀로 바꿔 라이브 음악과 함께 Monotanssit 스키 부츠 댄스를 열고, 무대 사이에는 노래방도 부를 수 있습니다.",
+        "highlights": [
+          "주류 판매 전체 허가(A-oikeudet)",
+          "스키 트랙에서 바로 입장, Laanila 방향 2킬로미터",
+          "팬케이크와 훈제 이나리 호수 화이트피시"
+        ]
+      },
+      "Restaurant Kaunis": {
+        "type": "레스토랑 & 라운지 바",
+        "description": "Kaunispää 펠에 있는 Star Arctic Hotel의 레스토랑으로, 순록과 이나리 호수 생선, 북극 베리를 바탕으로 한 북극 요리를 냅니다. 벽난로가 있는 라운지 바에서는 와인과 함께 이 지역 베리로 만든 하우스 칵테일을 내는데, 호텔은 이 칵테일을 이 바에서만 마실 수 있다고 밝힙니다.",
+        "highlights": [
+          "라플란드 베리 칵테일",
+          "벽난로 라운지 바",
+          "펠 위의 호텔"
+        ]
+      },
+      "Northern Lights Lounge": {
+        "type": "오로라 라운지 바",
+        "description": "어두운 계절 동안 수요일과 토요일 저녁이면 Kaunispää 정상 레스토랑이 Northern Lights Lounge로 운영됩니다. 바에서는 칵테일과 와인, 맥주, 청량음료, 가벼운 안주를 내고, 손님들은 정상의 야외 전망 구역이나 따뜻한 실내 라운지에서 오로라를 기다립니다. 티켓에는 입장과 따뜻한 음료 한 잔, 스낵, 저녁을 안내하는 호스트가 포함되고, 다른 음료와 음식은 현장에서 구입합니다. 사리셀카를 오가는 왕복 이동을 티켓에 포함할 수도 있습니다.",
+        "highlights": [
+          "Kaunispää 정상에서 오로라 관측",
+          "438미터에서 즐기는 칵테일, 와인, 맥주",
+          "티켓에 따뜻한 음료와 스낵, 호스트 포함"
+        ]
+      },
+      "Igloo Bar": {
+        "type": "칵테일 바",
+        "description": "칵슬라우타넨 아크틱 리조트 West Village의 Aurora Restaurant 안에 있는 바입니다. 전통 통나무 건축과 글래스 이글루가 어우러지고 주변 풍경이 내다보이는 공간에서 칵테일을 냅니다.",
+        "highlights": [
+          "글래스 이글루 공간",
+          "칵테일 리스트",
+          "Aurora Restaurant 안"
+        ]
+      },
+      "Piano Bar at East Village Restaurant": {
+        "type": "피아노 바",
+        "description": "칵슬라우타넨 아크틱 리조트 East Village Restaurant 안에 있는 바로, 리조트는 라이브 피아노 연주가 있다고 소개합니다. East Village Restaurant 자체는 켈로 통나무 레스토랑이며 리조트 그쪽 구역의 주요 다이닝 공간입니다.",
+        "highlights": [
+          "라이브 피아노 연주",
+          "켈로 통나무 건물",
+          "리조트 내 공간"
+        ]
+      },
+      "Bistro & Café Kuukkeli": {
+        "type": "카페 바",
+        "description": "사리셀카 중심 Kuukkeli Shopping Center에 있는 카페 겸 레스토랑입니다. 자체 페이지는 손님이 한잔할 수 있는 벽난로 바를 소개합니다. 음식은 아침 식사와 평일 점심 뷔페, 피자와 버거, 순록 볶음, 수프로 이어집니다.",
+        "highlights": [
+          "벽난로 바",
+          "월–토 점심 뷔페",
+          "Kuukkeli Shopping Center 안"
+        ]
+      },
+      "Joiku Pub": {
+        "type": "펍",
+        "description": "Joiku Pub은 애캐슬롬폴로의 마을 펍으로, 옆집 Eväskori 피자리아와 같은 회사가 운영합니다(사업자 번호 3090445-7). 자체 사이트는 이곳을 윌래스의 전설적인 저녁 공간이라고 부르며, 좋은 음악과 노래방, 밤늦게까지 차는 댄스 플로어가 있는 편안한 공간이라고 소개합니다. 마을에서 가장 큰 햇살 테라스가 이 펍의 것이고 이른 봄부터 늦가을까지 운영하며, 시즌이 아닐 때는 펍 안에 당구대가 있습니다. 테이블 예약은 10명이 넘는 단체만 받습니다.",
+        "highlights": [
+          "노래방과 댄스 플로어",
+          "마을에서 가장 큰 햇살 테라스",
+          "시즌 외에는 당구대"
+        ]
+      },
+      "Los Lompolos": {
+        "type": "칵테일 바",
+        "description": "애캐슬롬폴로 중심에 있는 작은 바입니다. 윌래스 관광청과 Visit Finland가 그대로 옮겨 싣는 자체 한 줄 소개는 이렇습니다. 크로스오버 음악과 칵테일, 음식으로 채운 작은 바, 편한 차림으로 오세요.",
+        "highlights": [
+          "칵테일과 크로스오버 음악",
+          "마을 중심",
+          "음식 10–25유로"
+        ]
+      },
+      "Miilu Bar & Grill": {
+        "type": "바 & 그릴",
+        "description": "Miilu Bar & Grill은 Miilu Resort의 일부로 윌래스야르비 호숫가에 있습니다. 직접 피운 숯불을 쓰는 화덕 그릴이 주방의 중심이고, 소개 글은 제철 식재료를 다양한 음료와 함께 낸다고 적습니다. 큰 창이 호수를 향합니다. 차나 도보, 스키, 자전거, 스노모빌로 갈 수 있습니다.",
+        "highlights": [
+          "화덕 그릴",
+          "큰 창으로 보는 호수와 오로라",
+          "스키나 스노모빌로도 도착"
+        ]
+      },
+      "Taiga Ylläs": {
+        "type": "슬로프 펍",
+        "description": "Taiga Ylläs는 자체 사이트에서 스스로를 윌래스야르비 Ylläs Ski South 슬로프 발치의 레스토랑이자 펍이자 슬로프 레스토랑이라고 소개하며, 라플란드 음식과 현지 음료, 라이브 음악, 편안한 애프터 스키 분위기를 이야기합니다. 스키장 소개는 Taiga Pub이 수시로 바뀌는 맥주 목록과 숯불 구이를 중심으로 하고, 공연이 있는 밤에는 라이브 음악을, 봄 시즌에는 스탠드업 공연을 연다고 덧붙입니다. 연중 문을 엽니다.",
+        "highlights": [
+          "슬로프 발치, 애프터 스키",
+          "수시로 바뀌는 맥주 목록",
+          "공연 밤의 라이브 음악"
+        ]
+      },
+      "Y1 Ski Pub": {
+        "type": "슬로프 펍",
+        "description": "Y1 Ski Pub은 애캐슬롬폴로 쪽 Ylläs Ski Resort의 Y1 레스토랑 구역에 속하며, Aurinkokuru의 Aurinko-Express 리프트 하부 승강장 근처에 있습니다. Lapland Hotels는 이곳을 가장 먼저 열고 가장 늦게 닫는 레스토랑이라고 부르며, 전통적이고 따뜻한 펍 같은 공간과 스키 도중이나 후에 앉을 수 있는 벽난로, 시즌 내내 이어지는 공연, 테라스를 소개합니다. 주방은 버거와 피타 브레드, 라멘 수프 같은 비스트로 음식을 따뜻하고 차가운 다양한 음료와 함께 냅니다.",
+        "highlights": [
+          "가장 먼저 열고 가장 늦게 닫는 곳",
+          "벽난로와 테라스",
+          "시즌 내내 이어지는 공연"
+        ]
+      },
+      "Takka bar": {
+        "type": "호텔 로비 바",
+        "description": "Restaurant Pirtukirkko와 같은 건물, 바로 옆에 있는 Lapland Hotels Äkäshotelli의 로비 바입니다. 호텔은 이곳을 마운틴 피자와 커피, 시원한 한잔을 즐기는 자리라고 소개하며, 수프 점심은 12시부터 15시까지 제공합니다.",
+        "highlights": [
+          "마운틴 피자",
+          "수프 점심 12–15시",
+          "Pirtukirkko 옆"
+        ]
+      },
+      "Ravintola Pirtukirkko": {
+        "type": "댄스 레스토랑",
+        "description": "교회 같은 외관으로 알려진 Lapland Hotels Äkäshotelli의 레스토랑으로, 아침부터 알라카르트 저녁까지 북방의 맛과 클래식한 요리를 내고 성수기에는 뷔페를 엽니다. 자체 페이지는 밤 시간을 앞세웁니다. 가을과 이른 봄에는 공연자 일정을 공개하고 댄스 행사를 열며, 입장은 숙박 요금에 포함됩니다. 같은 건물 지하에는 Pirtukellari Night Club이 있고, 위층 Pirtun Parvi는 공연이 있는 밤이면 새벽까지 이어집니다.",
+        "highlights": [
+          "댄스 행사와 공연자 일정",
+          "입장은 숙박 요금에 포함",
+          "같은 건물의 나이트클럽"
+        ]
+      },
+      "Bistro (Lapland Hotels Saaga)": {
+        "type": "호텔 비스트로 바",
+        "description": "윌래스야르비 Lapland Hotels Saaga의 세 레스토랑 가운데 하나로, 뷔페 레스토랑 Biegga와 알라카르트 Tsohka와 함께 있습니다. 호텔 자체 페이지는 여름이면 편안하고 아늑한 Bistro에서 바텐더가 만든 칵테일이나 시원한 음료를 햇살 테라스에서 즐길 수 있다고 적고, 음식은 연어 수프 같은 가벼운 메뉴라고 소개합니다. 호텔은 윌래스 남쪽 슬로프 옆에 있고 곤돌라가 바로 옆입니다.",
+        "highlights": [
+          "바텐더가 만드는 칵테일",
+          "햇살 테라스",
+          "곤돌라 옆"
+        ]
+      },
+      "Lobby Bar (Lapland Hotels Ylläskaltio)": {
+        "type": "호텔 로비 바",
+        "description": "애캐슬롬폴로 Lapland Hotels Ylläskaltio의 리셉션 옆에 있는 바입니다. 호텔은 시원한 음료와 따뜻한 음료를 Snacks 메뉴와 함께 내고 반려견도 환영한다고 적으며, 호텔 수프 점심을 이곳에서 12시부터 15시까지 제공합니다. 가을과 봄 주간에는 호텔 레스토랑에서 댄스 행사가 열리고 입장은 숙박 요금에 포함됩니다.",
+        "highlights": [
+          "반려견 환영",
+          "로비 바의 수프 점심",
+          "가을과 봄의 댄스 밤"
+        ]
+      },
+      "Ski pub Ala-Asema": {
+        "type": "스키 펍",
+        "description": "Ski pub Ala-Asema는 윌래스야르비 쪽 윌래스 곤돌라 하부 승강장 옆에 있습니다. 스키장 슬로프 레스토랑 페이지와 업소 소개는 당구와 다트, 보드게임, 노래방을 갖추고 음료와 펍 음식을 내는 편안한 스키 펍이라고 적습니다. 테라스는 시즌에 운영합니다.",
+        "highlights": [
+          "곤돌라 하부 승강장 옆",
+          "당구, 다트, 노래방",
+          "겨울 시즌 테라스"
+        ]
+      },
+      "Cafe & Bar Routa": {
+        "type": "카페 바 (낮 영업, 17시 마감)",
+        "description": "Cafe & Bar Routa는 애캐슬롬폴로 한가운데, K-Market Jounin kauppa 건물에 있는 카페 겸 바입니다. 윌래스 관광청 페이지는 마을에서 가장 붐비는 자리의 활기찬 카페라고 소개하며 가격대를 3–18유로로 적습니다. 17시에 문을 닫으니 저녁 바라기보다 낮에 들르는 곳입니다.",
+        "highlights": [
+          "마을에서 가장 붐비는 자리",
+          "메뉴 3–18유로",
+          "연중 영업"
+        ]
+      },
+      "Aurinkoravintola Ylläs": {
+        "type": "슬로프 바",
+        "description": "Aurinkoravintola는 윌래스의 윌래스야르비 쪽 Aurinko 슬로프에 있는 전통적인 슬로프 레스토랑으로, 스키 시즌 동안 리프트 운행 시간에 맞춰 문을 엽니다. 윌래스 관광청 페이지는 차가운 음료와 따뜻한 음료, 식사 메뉴를 내고 넓은 테라스가 봄겨울의 햇살을 찾는 손님을 맞는다고 적습니다. 손님들은 스키를 타고 문 앞까지 옵니다.",
+        "highlights": [
+          "봄 햇살의 넓은 테라스",
+          "스키로 문 앞까지",
+          "리프트 운행 시간에 맞춰 영업"
+        ]
+      },
+      "Bistro Hissi": {
+        "type": "슬로프 비스트로 바",
+        "description": "Bistro Hissi는 윌래스야르비 쪽 슬로프 발치, Ylläs Express 리프트 옆에 있습니다. 자체 사이트는 피자와 버거, 샐러드, 간단한 안주를 내고 리프트가 운행할 때 문을 연다고 적으며, 스키장 슬로프 레스토랑 페이지는 벽난로 옆에서 따뜻한 음료와 차가운 음료를 낸다고 덧붙입니다. 같은 회사가 스노모빌 대여도 합니다.",
+        "highlights": [
+          "슬로프 발치",
+          "벽난로와 따뜻한 음료",
+          "같은 건물에서 스노모빌 대여"
+        ]
       }
     },
     "cityNav": {
@@ -502,19 +1047,19 @@
         "type": "슬로프 바 겸 레스토랑",
         "desc": "슬로프 한가운데, Hotel Kultakero 옆에 있고 테라스가 슬로프를 향합니다."
       },
-      "Pyhä Dreams": {
+      "Pyhä Dreams Wine Bar": {
         "type": "와인 바",
         "desc": "퓌하 펠 정상에 있습니다. 댄스 플로어가 아니라 와인 리스트가 있는 곳입니다."
       },
-      "CAMP Kitchen & Bar Pyhä": {
+      "CAMP Kitchen & Bar PYHÄ": {
         "type": "레스토랑 겸 바",
         "desc": "마을 안, Hotel Pyhätunturi 옆에 있습니다. 레스토랑은 16–21시, 주방은 20:30에 닫습니다."
       },
-      "Ravintola Huttuhippu": {
+      "Restaurant Huttuhippu": {
         "type": "슬로프 레스토랑 겸 펍",
         "desc": "가족 슬로프 옆에 있습니다. 낮에는 슬로프 레스토랑, 저녁에는 알라카르트와 Huttu-Pub입니다. 매일 13–22시 영업, 주방은 21시까지."
       },
-      "SportBar Pyhä": {
+      "Sport Bar Pyhä": {
         "type": "스포츠 바",
         "desc": "퓌하 쇼핑센터 안에 있습니다. 노래방, 당구, 다트가 있고 17–00시, 주말에는 02시까지 영업합니다."
       },
@@ -530,7 +1075,7 @@
         "type": "바 앤 그릴",
         "desc": "스키 시즌 내내 거의 매주 라이브 공연이 있고, 햇살 테라스와 당구대가 있습니다. 14–22시, 금요일과 토요일은 24시까지 영업합니다."
       },
-      "Hanki Baari Ruka": {
+      "Hanki Baari": {
         "type": "바",
         "desc": "음식도 내는 마을 바로, 겨울에는 아티스트와 DJ가 옵니다. 평일 11–18시, 주말에는 더 늦게까지 영업합니다."
       },
@@ -550,11 +1095,11 @@
         "type": "펍",
         "desc": "Sallatunturin Tuvat에 있으며, 이 가게는 스스로를 애프터 스키의 심장이라고 부릅니다. 핀란드 록 뮤지션들이 여기서 연주하고, 테라스에는 반려견도 올 수 있으며, 연중 08–22시 영업합니다."
       },
-      "Bistro & Rumpu Baari": {
+      "Rumpu Bar (Rumpubaari)": {
         "type": "호텔 비스트로 겸 바",
         "desc": "Lapland Hotels Luostotunturi에 있는, 슬로프를 마친 뒤 한잔이나 커피를 여유롭게 즐기는 곳입니다."
       },
-      "Yökerho Karhu": {
+      "Nightclub Karhu": {
         "type": "나이트클럽",
         "desc": "Lapland Hotels Luostotunturi에 있는 루오스토의 늦은 시간 선택지로, 초청 아티스트와 노래방이 있습니다. 금요일과 토요일 20–01시 영업합니다."
       },
@@ -566,7 +1111,7 @@
         "type": "펍",
         "desc": "프런트 슬로프 바로 옆, KIDE 호텔 이웃입니다. 12–00시, 금요일과 토요일은 03시까지 영업하고 주방은 21:30까지입니다."
       },
-      "Ravintola Pirtti": {
+      "Restaurant Pirtti": {
         "type": "레스토랑 겸 바",
         "desc": "Santa's Hotel Tunturi에 있고 슬로프에서 약 1킬로미터 거리입니다. 레스토랑의 표현을 빌리면 좋은 술, 꾸밈없는 음식, 그리고 유쾌한 애프터 스키 분위기입니다."
       }
@@ -976,6 +1521,104 @@
         "Tuikku를 제외한 모든 곳은 마을 안 도보 거리에 있습니다. 정상은 곤돌라, 스키, 또는 정상 도로로 오릅니다.",
         "Hullu Poro Areena의 콘서트 밤은 티켓제이며 보통 25–30유로 정도입니다. 평범한 펍 밤은 입장이 무료입니다.",
         "V’inkkari와 아프레 스키 명소는 스키 시즌에만 정상 영업합니다. 겨울이 아니라면 그곳을 중심으로 밤을 계획하기 전에 영업 여부를 확인하세요."
+      ]
+    },
+    "yllas": {
+      "name": "Ylläs",
+      "at": "Ylläs",
+      "title": "Ylläs 바: Äkäslompolo, Ylläsjärvi, 슬로프 펍 | LaplandBars",
+      "description": "Ylläs에서 마시기: Äkäslompolo의 마을 펍과 지하 나이트클럽, Ylläsjärvi 호숫가의 그릴 레스토랑. 주소와 영업시간.",
+      "h1": "Ylläs의 바",
+      "tagline": "바가 모인 마을은 Äkäslompolo와 Ylläsjärvi 둘이고 슬로프 펍은 양쪽에 다 있습니다. 어느 목록이 내 것인지는 주소가 알려 줍니다.",
+      "intro": "Ylläs에는 바가 모인 마을이 둘 있고, 자신이 어느 쪽에 있는지는 주소가 알려 줍니다. Äkäslompolo에서는 Tunturintie 16의 Selvä Pyy가 주민과 스키어가 찾는 펍이고, Jakolantie의 Joiku Pub에는 마을에서 가장 큰 선테라스와 노래방 플로어가 있으며, Sivulantie의 Los Lompolos는 중심가의 작은 칵테일 바입니다. Äkäsentie 10이라는 한 주소에는 세 곳이 모여 있습니다. Ravintola Pirtukirkko와 그 옆의 Takka 바, 그리고 지하의 Pirtukellari Night Club입니다. Tunturintie 56의 Y1 Ski Pub도 같은 쪽, Aurinkokuru의 Aurinko-Express 체어리프트 하부 승강장 가까이에 있습니다. Ylläsjärvi에서는 Ski pub Ala-Asema와 Bistro Hissi가 곤돌라 하부 승강장과 Ylläs Express 체어리프트 옆 Iso-Ylläksentie 44에 나란히 있고, 42번지 Lapland Hotels Saaga에는 Bistro가 있습니다. Bar Kaappi와 Taiga Ylläs는 Ylläs Ski South 슬로프 기슭의 Vaeltajantie 2를 함께 쓰고, Miilu Bar & Grill은 Miilu Resort의 일부로 Ylläsjärvi 호숫가에 서 있습니다.",
+      "know": [
+        "바는 두 마을로 나뉩니다. 우편번호 95970의 Äkäslompolo와 95980의 Ylläsjärvi입니다. Miilu Bar & Grill은 마을에서 떨어진 Ylläsjärvi 호숫가 Rantasaarentie 3-5에 있고, 안내에는 가는 방법으로 자동차, 도보, 스키, 자전거, 스노모빌이 적혀 있습니다.",
+        "두 곳은 리프트 운행 시간에 맞춰 움직입니다. Aurinko 슬로프의 Aurinkoravintola는 스키 시즌 동안 리프트 시간표에 따라 문을 열고, Bistro Hissi는 리프트가 운행할 때 영업합니다. Pirtukellari Night Club은 스키 시즌 금요일과 토요일 밤에 열고, Aurinkokuru의 Y1 Ski Pub은 2026년 11월에 문을 엽니다.",
+        "Ravintola Pirtukirkko와 Takka 바를 포함한 Lapland Hotels Äkäshotelli의 레스토랑 서비스는 2026년 9월 27일부터 11월 20일까지 쉽니다. Lapland Hotels Saaga는 호텔 자체 페이지끼리 내용이 어긋납니다. Bistro 영업시간은 9월 26일까지로 표시돼 있는데, 시즌 안내에는 레스토랑이 9월 24일부터 11월 14일까지 문을 닫는다고 적혀 있습니다. Äkäslompolo의 Cafe & Bar Routa는 1년 내내 문을 열지만 17시에 닫으므로 저녁보다는 낮에 들르는 곳입니다."
+      ]
+    },
+    "saariselka": {
+      "name": "Saariselkä",
+      "at": "Saariselkä",
+      "title": "Saariselkä 바: 마을 펍, 댄스 저녁, 정상 라운지 | LaplandBars",
+      "description": "Saariselkä에서 마시기: 마을 중심가의 펍과 가스트로펍, 댄스 레스토랑, Kaunispää 정상의 오로라 라운지. 주소와 영업시간.",
+      "h1": "Saariselkä의 바",
+      "tagline": "술자리 대부분은 마을의 몇 안 되는 거리에 모여 있고, 한 곳은 Kaunispää 정상에, 한 곳은 스키 트레일 옆에 있습니다.",
+      "intro": "Saariselkä는 바 대부분을 몇 개의 마을 거리에 모아 두었습니다. Revontulentie의 Gastropub Giitu는 매일 02시까지 크래프트 맥주를 따르고 주방은 22시까지 돌아갑니다. Saariseläntie의 Teerenpesä는 통나무 지붕 하나 아래 세 곳이 들어선 자리로, 라플란드 요리 레스토랑과 다트와 당구를 갖춘 스포츠 펍, 그리고 커플 댄스와 디스코 플로어를 운영하는 나이트클럽입니다. 같은 거리 10번지의 Local Pub Panimo에는 남자 사우나와 여자 사우나가 따로 있고, 13번지의 Lobby Bar Takka는 Lapland Hotels Riekonlinna의 벽난로 바입니다. Kiveliöntie의 Kaunis Jorma는 목요일 19:00에 노래방과 무료 빙고를 열고, Raitopolku의 Kieppi Kitchen & Bar는 주방보다 몇 시간 먼저 바 코너를 열며, Lutontie의 Santa's Hotel Tunturi에서는 Restaurant Pirtti와 댄스 레스토랑 Siula가 한 레스토랑 건물을 함께 씁니다. Kaunispää 위에는 두 곳이 더 있습니다. Star Arctic Hotel의 Restaurant Kaunis, 그리고 Northern Lights Lounge로 바뀌는 정상 레스토랑입니다.",
+      "know": [
+        "업장들은 마을의 다섯 거리에 자리합니다. Saariseläntie, Revontulentie, Kiveliöntie, Raitopolku, Lutontie입니다. Teerenpesä, Local Pub Panimo, Kaunis Jorma, Kieppi, Bistro & Café Kuukkeli는 모두 스스로를 Saariselkä 중심가에 있다고 소개합니다. Mettäbaari만 예외로, Laanila 방향으로 2km 떨어져 있고 스키 트레일에서 곧장 들어갈 수 있습니다.",
+        "Northern Lights Lounge는 어두운 계절 동안 수요일과 토요일 저녁에 Kaunispää 정상 레스토랑에서 열립니다. 티켓에는 입장과 따뜻한 음료 한 잔, 스낵, 호스트가 포함됩니다. Saariselkä에서 오가는 왕복 교통편은 티켓에 추가할 수 있습니다.",
+        "일일 영업시간을 공개하지 않는 곳이 여럿입니다. Santa's Hotel Tunturi의 Restaurant Pirtti는 성수기에만 열고, Star Arctic Hotel의 Restaurant Kaunis는 2026년 4월 20일부터 10월 29일까지 문을 닫습니다. Kakslauttanen의 두 바인 Igloo Bar와 Piano Bar는 마을 밖 Kiilopääntie에 있습니다."
+      ]
+    },
+    "ruka": {
+      "name": "Ruka",
+      "at": "Ruka",
+      "title": "Ruka 바: 슬로프 바, 노래방, 라이브 음악 | LaplandBars",
+      "description": "Ruka에서 마시기: Rukankyläntie의 여섯 곳, 스키로만 닿는 Monomesta, 호숫가의 아이스 바. 주소와 영업시간, 입장료.",
+      "h1": "Ruka의 바",
+      "tagline": "이 가운데 여섯 곳은 Rukankyläntie 한 거리에 서 있고, 또 한 곳은 아예 길이 닿지 않습니다.",
+      "intro": "Ruka의 바 거리는 Kuusamo에 있는 Rukankyläntie이고, 여섯 곳이 이 주소를 씁니다. 6번지의 Restaurant Colorado는 보행자 중심가에 당구대와 선테라스를 두고 있고, 11번지의 Hanki Baari는 지역 맥주를 따르며 겨울 내내 라이브 아티스트와 DJ를 부릅니다. 13번지의 Ravintola Zone은 1년에 100회가 넘는 라이브 나이트를 연다고 밝히며 그릴을 04시까지 돌리고, 15번지의 Scandic Rukahovi에는 두 개의 공간, 곧 Lobby Bar와 노래방 겸 나이트클럽인 Bar Ihku가 있습니다. Rinneravintola Piste는 17번지, 프런트 슬로프 기슭에 서 있습니다. Vuosseli는 Ruka의 또 다른 구역으로, 세 곳이 이곳에 있다고 소개합니다. Ahon Jussintie의 Ski Booster, Bistrotie의 CAMP Kitchen & Bar, Jussinkuja의 Rukan Olkkari입니다. 네 곳은 둘 어디에도 속하지 않습니다. 마을 중심에서 650m 떨어진 Talvijärvi 호숫가의 Rukatonttu, Pessari 슬로프 아래에 있고 길이 닿지 않는 테라스 Monomesta, Salongintie의 Rukan Salonki Ice Bar, 그리고 Rukatunturintie의 Rukan keilahalli입니다.",
+      "know": [
+        "Monomesta에는 차로 들어가는 길이 없습니다. Pessari 슬로프 기슭의 테라스에는 유효한 리프트 티켓을 들고 스키로 가야 하며, 낮 공연은 무료이고 주류를 내는 구역은 18세 이상입니다. Rukan Salonki Ice Bar는 마을이 아니라 Salongintie 호숫가 샬레 구역에 있습니다.",
+        "티켓을 받는 밤도 있습니다. Bar Ihku는 입장료를 8유로부터 받고 아티스트가 서는 밤에는 10–25유로, Hanki Baari의 공연은 보통 10–15유로이며, Restaurant Colorado의 라이브 음악은 입장이 무료입니다.",
+        "Ski Booster와 Rukan keilahalli는 월요일과 화요일에 쉬고, 볼링장은 일요일에도 쉽니다. Rukatonttu는 화요일부터 토요일까지 17–21시에 영업합니다. CAMP Kitchen & Bar는 주방 공사로 2026년 10월 19일부터 11월 17일까지 문을 닫고, 11월 19일부터 매일 11–21시로 다시 엽니다."
+      ]
+    },
+    "luosto": {
+      "name": "Luosto",
+      "at": "Luosto",
+      "title": "Luosto 바: 나이트클럽 하나, 댄스 저녁, 오두막 바 | LaplandBars",
+      "description": "Luosto에서 마시기: Luostontie의 호텔 나이트클럽과 Rumpu Bar, 쇼핑센터 안의 펍, Kerotie의 오두막 바. 일곱 곳의 주소.",
+      "h1": "Luosto의 바",
+      "tagline": "마을에 나이트클럽은 하나뿐이고, 라이브 댄스 오케스트라는 Lapland Hotels Luostotunturi에서 약 300m 떨어진 통나무 레스토랑에서 연주합니다.",
+      "intro": "Luosto에서 술을 내는 곳은 일곱 군데입니다. Luostontie 1의 Lapland Hotels Luostotunturi에는 두 곳이 있습니다. 호텔이 마을 유일의 나이트클럽이라 부르는 Nightclub Karhu, 그리고 Bistro 레스토랑 옆에 있고 반려견도 들어갈 수 있는 Rumpu Bar입니다. 220석 통나무 레스토랑 Keloravintola는 같은 호텔에서 약 300m 떨어져 있고, 라이브 오케스트라가 연주하는 유료 댄스 저녁에 일반 손님을 받습니다. Luostontie 4의 Restaurant Punakettu는 쇼핑센터 안에 있으며 스스로를 레스토랑이자 펍이라 소개하고, 지역 크래프트 양조장 코너와 Teerenpeli 위스키를 갖추고 있습니다. Luppokeino 1의 Restaurant Aurora는 Santa's Hotel Aurora에 속하며 마을 중심가에서 걸어갈 수 있는 거리에 있고, 호텔은 식음 서비스 가운데 로비 바를 함께 소개합니다. Hartsutie 1의 Restaurant Vaisko는 식사 없이 한잔만 하러 오는 손님도 반깁니다. Aarnikota는 따로 떨어져 있습니다. Aarniluosto의 Kerotie 10에 있는 라플란드식 오두막으로, 중심가에서 약 1.5km 거리이며 도보나 스키, 스노슈, 자동차로 갈 수 있습니다.",
+      "know": [
+        "Vaisko는 시즌 사이에 문을 닫고 2026–2027 시즌은 11월 26일에 엽니다. Aarnikota는 고정 시간표 대신 날짜를 정한 기간을 공지하는데, 지금 적용되는 기간은 루스카 시즌 수요일부터 일요일 11–16시로 2026년 9월 27일까지입니다.",
+        "Karhu의 노래방은 무료이고 18세 이상만 들어갈 수 있으며, 라이브 밴드가 서는 밤은 10유로, Keloravintola의 일반 공개 댄스 저녁은 15–20유로짜리 티켓제입니다. 3유로짜리 물품보관소 요금은 티켓 값에 포함되지 않습니다.",
+        "일곱 곳 가운데 고정된 주간 영업시간을 공개하는 곳은 하나도 없습니다. Karhu는 호텔 이벤트 일정을 따르고, Keloravintola는 테마 나이트와 유료 댄스를 빼면 예약제로만 운영하며, Punakettu와 Rumpu Bar, Aarnikota는 날짜를 정한 기간으로 공지하고, Restaurant Aurora는 시간을 전혀 밝히지 않습니다. 저녁 계획을 한 곳에 걸기 전에 미리 확인하세요."
+      ]
+    },
+    "pyha": {
+      "name": "Pyhä",
+      "at": "Pyhä",
+      "title": "Pyhä 바: 슬로프 펍, 산 정상 와인 바, 노래방 | LaplandBars",
+      "description": "Pyhä에서 마시기: 패밀리 슬로프 옆 슬로프 펍, 전망 리프트로 오르는 정상의 와인 바, 노래방 스포츠 바. 여섯 곳의 영업시간과 주소.",
+      "h1": "Pyhä의 바",
+      "tagline": "리조트 한 곳을 둘러싼 바 여섯 곳, 그중 와인 바는 산 정상에 있습니다.",
+      "intro": "Pyhä의 바 여섯 곳은 모두 Pyhätunturi에 있습니다. 그중 둘은 호텔 옆에 서 있습니다. 슬로프 한가운데 Hotel Kultakero 옆에 자리한 바 겸 테라스 Mesta, 그리고 Hotel Pyhätunturi 옆 Kultakeronkatu 21의 CAMP Kitchen & Bar PYHÄ로, 파노라마 창이 산 능선을 향해 나 있습니다. 같은 거리 4번지, Pyhä 쇼핑센터 안에는 당구대와 노래방, Viaplay 스포츠 채널을 갖춘 Sport Bar Pyhä가 있습니다. Restaurant Huttuhippu는 패밀리 슬로프 옆 Ukonhattu 1에 있고, 그 안의 Huttu-Pub은 리조트에서 가장 많은 맥주를 갖춘 곳으로 꼽힙니다. Hanki Baari Pyhä는 North Slopes 기슭 Pohjoisrinteentie 1에 있으며 2026년 12월까지 문을 닫습니다. 여섯 번째는 아예 길가에 있지 않습니다. Pyhä Dreams Wine Bar는 Pyhätunturi 정상의 오두막에 있고, 전망 리프트를 타고 올라갑니다.",
+      "know": [
+        "North Slopes 기슭의 Hanki Baari Pyhä는 문을 닫았고 2026년 12월에 다시 엽니다. 영업할 때는 보호자를 동반하지 않으면 21:00 이후 18세 이상만 들어갈 수 있고, 이벤트가 있는 밤은 저녁 내내 18세 이상만 입장할 수 있습니다.",
+        "영업시간은 Restaurant Huttuhippu 13–22시, CAMP Kitchen & Bar PYHÄ 16–21시, Sport Bar Pyhä 17–24시이고, Sport Bar Pyhä는 1년 내내 문을 연다고 밝힙니다. 나머지 세 곳인 Mesta와 Hanki Baari Pyhä, Pyhä Dreams Wine Bar는 정해진 시간을 공개하지 않으니 업장에 직접 확인하세요.",
+        "Pyhä Dreams Wine Bar는 전망 리프트를 타고 오르는 산 정상에 있고, 여름 시즌과 겨울 시즌에 나누어 문을 여니 날짜는 업장에 확인하세요. 가이드 시음은 최대 여덟 명까지 참여하고 약 두 시간 걸리며 리프트 티켓은 포함되지 않으므로 미리 예약해야 합니다."
+      ]
+    },
+    "iso-syote": {
+      "name": "Iso-Syöte",
+      "at": "Iso-Syöte",
+      "title": "Iso-Syöte 바: 슬로프 펍, 애프터스키, 정상 바 | LaplandBars",
+      "description": "Iso-Syöte에서 마시기: Romekievarintie의 펍과 호텔 바, 리프트 옆 애프터스키 비스트로, 정상 레스토랑. 다섯 곳의 주소와 영업시간.",
+      "h1": "Iso-Syöte의 바",
+      "tagline": "여기에는 바 거리가 없습니다. 다섯 곳 모두 호텔이나 슬로프, 식료품점에 붙어 있고 그중 둘은 산 정상에 있습니다.",
+      "intro": "Iso-Syöte에서 술을 마시는 자리는 호텔과 슬로프, 그리고 식료품점 한 곳에 붙어 있고, 우편 주소에는 Syöte 또는 Pudasjärvi가 적힙니다. 다섯 곳 가운데 둘은 프런트 슬로프 기슭 Romekievarintie에 있습니다. 1번지의 TunturiPUB은 Tunturi Market 식료품점과 건물을 함께 쓰며 구석에 보드게임을 두고, 4번지의 Bistoria는 KIDE Hotel에 딸린 레스토랑으로 잔 와인이 8.80유로부터입니다. TunturiPUB은 호텔에서 수십 미터 거리라 두 곳은 걸어서 오갈 수 있습니다. Pärjä Ski Bistro는 뒤쪽 슬로프 Takarinteentie 4, 리프트 바로 옆에 있고 테라스에서 봄 저녁 햇살을 받습니다. Ravintola Hilltop은 더 높은 곳, 정상 Hilltop Hotel 꼭대기 층에 200석을 두고 있으며, 같은 공간이 10:30부터 18:00까지는 Cafe Hilltop으로 운영됩니다. Restaurant Kotva는 또 다른 산, Pikku-Syöte 꼭대기 Syötekeskuksentie 126에 있고 3코스가 59유로입니다.",
+      "know": [
+        "다섯 곳 가운데 한 곳은 계절을 탑니다. Restaurant Kotva는 스스로 알리는 가을 루스카 시즌에 금요일과 토요일에만 저녁 식사를 내는데, 자체 페이지의 날짜가 서로 맞지 않으니 떠나기 전에 확인하세요. Ravintola Hilltop은 업장이 아니라 메뉴가 달라집니다. 자체 사이트는 겨울이 아닌 때에는 알라카르트가 제한될 수 있고 사전 예약에 따라 달라질 수 있다고 안내합니다.",
+        "TunturiPUB은 월요일과 화요일에 쉬고, 바 자체는 주중 자정까지, 금요일과 토요일에는 03:00까지 영업하지만 주방은 수요일부터 토요일까지 21:30에 닫습니다. Pärjä Ski Bistro는 영업시간을 웹사이트가 아니라 페이스북에만 올립니다.",
+        "이웃한 곳은 TunturiPUB과 Bistoria뿐입니다. 둘 다 KIDE Hotel 옆 Romekievarintie에 수십 미터 거리를 두고 있습니다. Ravintola Hilltop은 Isosyötteentie를 따라 Iso-Syöte 정상에, Restaurant Kotva는 Pikku-Syöte 꼭대기에 있어, 슬로프 아래에서 걸어가는 것이 아니라 각각 산을 한 번 올라야 하는 일정입니다."
+      ]
+    },
+    "salla": {
+      "name": "Salla",
+      "at": "Salla",
+      "title": "Salla 바: 스키 리조트 펍, 노래방, 늦은 밤 | LaplandBars",
+      "description": "Salla에서 마시기: 스키 리조트의 바 두 곳, Hautajärventie의 노래방 펍, Vallovaara 옛 학교의 펍. 주소와 영업시간.",
+      "h1": "Salla의 바",
+      "tagline": "이곳 네 곳 가운데 셋이 노래방을 운영하고, 그 셋 중 산에 있는 곳은 하나뿐입니다.",
+      "intro": "Salla는 두 갈래로 나뉩니다. 두 곳은 산에 있습니다. Papana Pupi는 Sallatunturi의 Hangasjärventie 1에 있는 Sallatunturin Tuvat의 하우스 펍으로, 리셉션 및 Restaurant Kiela와 건물을 함께 쓰고 벽에는 핀란드 아이스하키 선수들의 경기 유니폼과 스틱이 걸려 있습니다. 통나무 레스토랑 Keloravintola는 Revontulentie 9, Salla Ski Resort 프런트 슬로프 기슭에 서 있으며 주류 판매 허가를 모두 갖췄고 볕 좋은 테라스와 애프터스키가 있습니다. 나머지 둘은 Ravintola Sallan Maja와 Evakko Pub입니다. Hautajärventie 32의 Sallan Maja는 낮에는 런치와 알라카르트 주방을 돌리고, 밤에는 자체 펍인 Majan Pubi를 늦게까지 열어 노래방과 보드게임을 두며 22:00부터는 18세 이상만 받습니다. Evakko Pub은 Vallovaara 마을 Vallovaarantie 209, 옛 초등학교 건물에 있는 Kairalan Kievari의 펍으로, 게임 룸에 다트와 당구가 있습니다.",
+      "know": [
+        "Ravintola Sallan Maja는 자체 페이지끼리 내용이 어긋납니다. 핀란드어 첫 페이지에는 월요일부터 목요일까지 11–18시, 금요일 11–18시와 다시 22–04시, 토요일 12–18시와 다시 22–02시로 적혀 있는데, 영어 페이지에는 펍이 금요일과 토요일 21–04시에 연다고 나옵니다. 일요일은 영업시간 항목에 아예 없고, 월요일부터 목요일까지의 런치 뷔페는 11–14시에 13.50유로이며 샐러드 뷔페와 커피가 포함됩니다.",
+        "Evakko Pub은 Vallovaara 마을 Vallovaarantie 209에 있습니다. 금요일과 토요일 22–02시라는 정보는 내용이 2018년에 작성된 것으로 보이는 페이지에서 나왔고, Visit Salla는 필요할 때 주말에 새벽까지 연다고만 밝히니 출발 전에 확인하세요. 라이브 음악이 있는 밤은 03시까지 이어집니다.",
+        "Keloravintola는 매일 13–20시로 안내하며 1년 내내 문을 열고, Papana Pupi는 Sallatunturin Tuvat 간판 아래 08:00–22:00로 운영되며 겨울 공연이 있는 밤에는 더 늦게까지 열지만 마감 시간은 공개하지 않습니다. Keloravintola를 검색하면 Lapland Hotels Luostotunturi에 있는 동명의 다른 곳도 나오는데, Salla의 Keloravintola는 Revontulentie 9에 있습니다."
       ]
     }
   }

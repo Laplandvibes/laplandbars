@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { MapPin, ExternalLink, Hotel, Ticket } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { BARS, CARDS } from '../data/images';
+import { BARS } from '../data/images';
 import { bars, cities, iceBars } from '../data/bars';
 import { regionFor, slugForCity } from '../data/barCities';
 import { useLocale } from '../i18n/useLocale';
@@ -15,48 +15,14 @@ import BarCard from '../components/BarCard';
 import RelatedSites from '../components/RelatedSites';
 import { barItemList } from '../lib/barSchema';
 
-/**
- * Korttikuvat: jokaisella baarilla oma kuva. Ilman tätä yhdeksän korttia putosi
- * samaan hero-kuvaan (auditti 11.6.2026). Kuvat ovat AI-kuvituksia baarin
- * tunnelmasta, eivät kohteen omia kuvia.
- */
-export const barImages: Record<string, string> = {
-  // Rovaniemi
-  // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
-  // jonka tynnyreissä lukee keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.2026).
-  'Lapland Brewery': BARS.craftBeerGlasses,
-  'Café & Bar 21': CARDS.cocktailTrio,
-  'Uitto Pub': BARS.friendsFireplace2,
-  'Nook Lounge': BARS.lingonberryCocktails,
-  'Bull Bar & Grill': BARS.friendsFireplace,
-  'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
-  'Kauppayhtiö': BARS.liveMusicVenue, // pubLaughter on nyt /bars-sivun hero
-  'Rovaniemen Oluthuone': BARS.terraceLonkero,
-  'MustaKissa Kuppila': CARDS.cocktailBerry,
-  'Pub Sarvi': CARDS.saunaBeer,
-  'Roy Club': BARS.apresDanceDeck,
-  // Levi
-  'Hullu Poro Areena': BARS.apresSkiTwilight,
-  'Bar Ihku': BARS.liveMusic,
-  'Pub Hölmölä': BARS.craftBeerGlasses,
-  'Public House Sohva': BARS.beerFlight,
-  // Varakuvan on oltava VAAKA: pystykuvasta (720x1280) nakyi 16:10-kehyksessa
-  // vain 31 % (mitattu 12.9.2026).
-  'Bar Alakerta': CARDS.beerFlight,
-  'Pub Old Mates': BARS.cabinBarInterior,
-  "V'inkkari": BARS.apresToast,
-  'Restaurant Tuikku': BARS.auroraVillage,
-  // Ylläs
-  'Selvä Pyy': BARS.cabinPubExterior,
-  // 🔴 apresSkiAerial oli pysty JA sen rakennuksessa lukee "HULLU PORO" —
-  // eri yritys, eri kylä. Kuva ei saa nimeta vaaraa yritysta.
-  'Pirtukellari Night Club': CARDS.auroraLounge,
-  'Bar Kaappi': BARS.lonkeroDrink,
-  // Saariselkä
-  'Gastropub Giitu': BARS.breweryTaps,
-  'Teerenpesä': BARS.auroraLogCabins, // snowyVillageStreet sisältää keksityn PUB ÄKÄS -kyltin (muisti 11.7.)
-};
+import { barImages } from '../data/barCardImages';
 
+/**
+ * Kaupungin otsikkokortin kuvitus. 🔴 EI oletusta: kohde, jolle ei ole
+ * erikseen valittua kuvaa, saa kuvattoman otsikon. Viisi uutta kylaa olisi
+ * pudonnut samaan `BARS.heroMain`iin, jolloin Ruka, Pyha, Luosto, Salla ja
+ * Iso-Syote olisivat nayttaneet silmalle samalta paikalta.
+ */
 const cityImages: Record<string, string> = {
   Rovaniemi: BARS.whiskyBar,
   Levi: BARS.apresSkiLevi,
@@ -64,12 +30,13 @@ const cityImages: Record<string, string> = {
   Saariselkä: BARS.heroMain,
 };
 
-const cityVibeKey: Record<string, string> = {
-  Rovaniemi: 'Rovaniemi',
-  Levi: 'Levi',
-  Ylläs: 'Yllas',
-  Saariselkä: 'Saariselka',
-};
+/**
+ * Kaannosavain kaupungin kuvaustekstille. 🔴 Oli kasin kirjoitettu taulu, ja
+ * puuttuva rivi renderoi RAAKA-AVAIMEN ("bars.cityVibes.undefined") sivulle —
+ * ei virhetta, vaan koodia sivukavijalle. Nyt avain johdetaan nimesta samalla
+ * a-tavauksella kuin ennenkin (Yllas, Saariselka, Pyha, Iso-Syote).
+ */
+const cityVibeKey = (city: string) => city.replace(/[äå]/g, 'a').replace(/ö/g, 'o');
 
 export const cityAnchor = (city: string) => city.toLowerCase().replace(/[^a-z]/g, '');
 
@@ -150,11 +117,16 @@ export default function Bars() {
         aria-label={t('bars.cityNav.label')}
         className="sm:sticky sm:top-16 z-30 bg-night/95 backdrop-blur-md border-b border-white/[0.06]"
       >
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
-          {/* Puhelimessa 2 saraketta ja kaikki neljä nakyvissa (ei vieritysrivia
-              eika kiinnitysta: kaksi 44 px rivia + navi olisi viidennes ruudusta).
-              sm+ kiinnittyy navin alle yhtena rivina. */}
-          <div className="grid grid-cols-2 gap-2 sm:flex sm:flex-wrap sm:items-center sm:justify-center sm:gap-2.5">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+          {/* Puhelimessa YKSI vieritettava rivi, sm+ keskitetty rivitys.
+              🔴 Tassa oli `grid-cols-2`, ja kommentti perusteli sen nelja
+              kaupunkia: kaksi 44 px riviä. Kun kaupunkeja tuli yhdeksan
+              (12.9.2026), ruudukosta tuli viisi rivia = 32 % puhelimen
+              ruudusta ennen ensimmaistakaan korttia (mitattu 375 px).
+              Vaakarivi tarvitsee haivytyksen oikeaan reunaan, muuten
+              katkaistu pilleri lukee virheena — verkoston mobiilirivitysportti
+              (6.9.2026). */}
+          <div className="flex gap-2 overflow-x-auto -mx-4 px-4 pb-0.5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:overflow-visible sm:flex-wrap sm:items-center sm:justify-center sm:gap-2.5">
             <span className="hidden sm:inline text-white/55 text-[11px] font-semibold tracking-widest uppercase mr-1">
               {t('bars.cityNav.label')}
             </span>
@@ -180,6 +152,8 @@ export default function Bars() {
               );
             })}
           </div>
+          {/* Häivytys kertoo, että rivi jatkuu. Vain puhelimessa. */}
+          <div aria-hidden="true" className="pointer-events-none absolute right-0 top-0 bottom-0 w-10 bg-gradient-to-l from-night to-transparent sm:hidden" />
         </div>
       </nav>
 
@@ -188,22 +162,28 @@ export default function Bars() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-20 lg:space-y-24">
           {cities.map((city) => {
             const cityBars = bars.filter((b) => b.city === city);
-            const vibeImage = cityImages[city] ?? BARS.heroMain;
-            const vibeDesc = t(`bars.cityVibes.${cityVibeKey[city]}`);
+            const vibeImage = cityImages[city];
+            const vibeDesc = t(`bars.cityVibes.${cityVibeKey(city)}`, { defaultValue: '' });
             const slug = slugForCity(city);
             const at = slug ? t(`cities.${slug}.at`, { defaultValue: city }) : city;
             return (
               <div key={city} id={cityAnchor(city)} className="scroll-mt-36">
                 {/* Kaupungin otsikkokortti */}
                 <div className="bar-card relative overflow-hidden h-56 sm:h-60 mb-10">
-                  <img
-                    src={vibeImage}
-                    alt={city}
-                    loading="lazy"
-                    decoding="async"
-                    className="absolute inset-0 w-full h-full object-cover"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-r from-night/95 via-night/75 to-night/20" />
+                  {vibeImage ? (
+                    <>
+                      <img
+                        src={vibeImage}
+                        alt={city}
+                        loading="lazy"
+                        decoding="async"
+                        className="absolute inset-0 w-full h-full object-cover"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-r from-night/95 via-night/75 to-night/20" />
+                    </>
+                  ) : (
+                    <div aria-hidden="true" className="absolute inset-0 bg-night-light/50" style={{ background: 'radial-gradient(90% 130% at 88% 50%, rgba(245,158,11,0.14) 0%, rgba(15,23,42,0) 62%)' }} />
+                  )}
                   <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-10">
                     <div className="flex items-center gap-2 text-amber text-[11px] font-bold tracking-[0.25em] uppercase mb-2">
                       <MapPin size={13} />
@@ -236,7 +216,7 @@ export default function Bars() {
                     <BarCard
                       key={bar.name}
                       bar={bar}
-                      image={barImages[bar.name] || BARS.heroMain}
+                      image={barImages[bar.name]}
                       locale={locale}
                       campaign="bars_directory"
                     />

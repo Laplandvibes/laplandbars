@@ -1,0 +1,114 @@
+{
+  "cities": {
+    "yllas": {
+      "name": "Ylläs",
+      "at": "Ylläs",
+      "title": "Bar a Ylläs: Äkäslompolo, Ylläsjärvi e pub sulle piste | LaplandBars",
+      "description": "Dove bere a Ylläs: pub di paese e un nightclub nel seminterrato ad Äkäslompolo, ristoranti di pista sui due versanti, una griglia sul lago a Ylläsjärvi.",
+      "h1": "Bar a Ylläs",
+      "tagline": "Due villaggi di bar, Äkäslompolo e Ylläsjärvi, con pub di pista sui due versanti: è l'indirizzo a dirti quale elenco fa per te.",
+      "intro": "Ylläs ha due villaggi di bar, e l'indirizzo dice da quale lato ti trovi. Ad Äkäslompolo, Selvä Pyy in Tunturintie 16 è il pub che usano gli abitanti e gli sciatori, Joiku Pub in Jakolantie ha la terrazza al sole più grande del villaggio e una sala karaoke, e Los Lompolos in Sivulantie è la piccola sala cocktail del centro. Tre locali condividono un unico indirizzo in Äkäsentie 10: Ravintola Pirtukirkko, il bar Takka accanto e il Pirtukellari Night Club al piano di sotto. Y1 Ski Pub in Tunturintie 56 sta sullo stesso lato, vicino alla partenza della seggiovia Aurinko-Express ad Aurinkokuru. A Ylläsjärvi, Ski pub Ala-Asema e Bistro Hissi si trovano entrambi in Iso-Ylläksentie 44, accanto alla stazione a valle della cabinovia e alla seggiovia Ylläs Express, mentre il Bistro del Lapland Hotels Saaga è al numero 42. Bar Kaappi e Taiga Ylläs condividono l'indirizzo Vaeltajantie 2, ai piedi della pista Ylläs Ski South, e il Miilu Bar & Grill sorge sulla riva del lago Ylläsjärvi come parte del Miilu Resort.",
+      "know": [
+        "I bar si dividono tra due villaggi: Äkäslompolo, codice postale 95970, e Ylläsjärvi, codice postale 95980. Il Miilu Bar & Grill è fuori, sulla riva del lago Ylläsjärvi in Rantasaarentie 3-5, e la sua scheda indica auto, piedi, sci, bici e motoslitta come modi per arrivarci.",
+        "Due locali seguono l'orario degli impianti: l'Aurinkoravintola sulla pista Aurinko è aperto durante la stagione sciistica secondo gli orari degli impianti, e il Bistro Hissi apre quando gli impianti sono in funzione. Il Pirtukellari Night Club apre nella stagione sciistica il venerdì e il sabato sera, e lo Y1 Ski Pub ad Aurinkokuru apre a novembre 2026.",
+        "I servizi di ristorazione del Lapland Hotels Äkäshotelli, che comprendono Ravintola Pirtukirkko e il bar Takka, sono chiusi dal 27 settembre al 20 novembre 2026. Al Lapland Hotels Saaga le pagine dell'hotel si contraddicono: gli orari del Bistro sono indicati fino al 26 settembre, mentre l'avviso stagionale dice che i ristoranti restano chiusi dal 24 settembre al 14 novembre. Il Cafe & Bar Routa ad Äkäslompolo è aperto tutto l'anno ma chiude alle 17, quindi è una tappa diurna più che serale."
+      ]
+    },
+    "saariselka": {
+      "name": "Saariselkä",
+      "at": "Saariselkä",
+      "title": "Bar a Saariselkä: pub, serate danzanti e lounge in vetta | LaplandBars",
+      "description": "Dove bere a Saariselkä: pub nel centro del villaggio, un gastropub, un ristorante da ballo e una lounge per l'aurora in cima al Kaunispää.",
+      "h1": "Bar a Saariselkä",
+      "tagline": "Quasi tutti i locali stanno su poche vie del villaggio, con un bar in cima al Kaunispää e uno fuori, sulla pista da sci.",
+      "intro": "Saariselkä concentra quasi tutti i suoi bar in poche vie del villaggio. Il Gastropub Giitu in Revontulentie serve birra artigianale ogni giorno fino alle 02, con la cucina aperta fino alle 22. Teerenpesä in Saariseläntie è tre locali sotto lo stesso tetto di tronchi: un ristorante lappone, uno sports pub con freccette e biliardo e un nightclub con balli di coppia e pista disco. Più avanti sulla stessa via, al numero 10, il Local Pub Panimo ha saune separate per uomini e donne, e il Lobby Bar Takka al numero 13 è il bar con camino del Lapland Hotels Riekonlinna. Kaunis Jorma in Kiveliöntie propone karaoke e bingo gratuito il giovedì alle 19:00, il Kieppi Kitchen & Bar in Raitopolku apre l'angolo bar diverse ore prima della cucina, e il Restaurant Pirtti e il ristorante da ballo Siula condividono l'edificio della ristorazione del Santa's Hotel Tunturi in Lutontie. Altri due stanno in cima al Kaunispää: il Restaurant Kaunis dello Star Arctic Hotel e il ristorante di vetta che diventa la Northern Lights Lounge.",
+      "know": [
+        "I locali si distribuiscono su cinque vie del villaggio: Saariseläntie, Revontulentie, Kiveliöntie, Raitopolku e Lutontie. Teerenpesä, Local Pub Panimo, Kaunis Jorma, Kieppi e Bistro & Café Kuukkeli si descrivono tutti come locali nel centro di Saariselkä. Mettäbaari è l'eccezione: si trova a 2 km verso Laanila e ci si entra direttamente dalla pista da sci.",
+        "La Northern Lights Lounge si tiene nel ristorante di vetta del Kaunispää il mercoledì e il sabato sera per tutta la stagione buia, con un biglietto che comprende ingresso, una bevanda calda, snack e un accompagnatore. Al biglietto si possono aggiungere i transfer di andata e ritorno da Saariselkä.",
+        "Diversi locali non pubblicano orari giornalieri: il Restaurant Pirtti del Santa's Hotel Tunturi apre solo in alta stagione e il Restaurant Kaunis dello Star Arctic Hotel resta chiuso dal 20 aprile al 29 ottobre 2026. I due bar di Kakslauttanen, l'Igloo Bar e il Piano Bar, si trovano fuori dal villaggio, in Kiilopääntie."
+      ]
+    },
+    "ruka": {
+      "name": "Ruka",
+      "at": "Ruka",
+      "title": "Bar a Ruka: bar sulle piste, karaoke e musica dal vivo | LaplandBars",
+      "description": "Dove bere a Ruka: karaoke e musica dal vivo in Rukankyläntie, un bar di pista raggiungibile solo con gli sci e un bar d'albergo sulla riva del lago.",
+      "h1": "Bar a Ruka",
+      "tagline": "Sei di questi locali stanno su una sola via, Rukankyläntie, e a un altro non arriva nessuna strada.",
+      "intro": "La via dei bar di Ruka è Rukankyläntie, a Kuusamo, e sei locali portano quell'indirizzo. Il Restaurant Colorado sta al numero 6, nella zona pedonale, con biliardo e terrazza al sole; l'Hanki Baari all'11 spilla birre locali e per tutto l'inverno porta artisti dal vivo e DJ; la Ravintola Zone al 13 dichiara più di 100 serate live all'anno e tiene la griglia accesa fino alle 04; lo Scandic Rukahovi al 15 ospita due sale, il Lobby Bar e il Bar Ihku, karaoke bar e night club. La Rinneravintola Piste è al numero 17, ai piedi delle piste frontali. Vuosseli è l'altra parte di Ruka che ha un nome, e tre locali si collocano lì: Ski Booster in Ahon Jussintie, CAMP Kitchen & Bar in Bistrotie e Rukan Olkkari in Jussinkuja. Quattro restano fuori da entrambe: Rukatonttu, a 650 metri dal centro del villaggio, sul lago Talvijärvi; Monomesta, una terrazza sotto le piste Pessari a cui non arriva nessuna strada; il Rukan Salonki Ice Bar in Salongintie; e la Rukan keilahalli in Rukatunturintie.",
+      "know": [
+        "Monomesta non ha accesso stradale: alla terrazza ai piedi delle piste Pessari si arriva con gli sci e uno skipass valido, gli spettacoli diurni sono gratuiti e l'area di somministrazione è riservata ai maggiori di 18 anni. Il Rukan Salonki Ice Bar è fuori, tra gli chalet in riva al lago in Salongintie, non nel villaggio.",
+        "Alcune serate sono a pagamento. Il Bar Ihku fa pagare l'ingresso da 8 euro e 10–25 euro nelle serate con artisti, i concerti dell'Hanki Baari stanno di solito sui 10–15 euro e la musica dal vivo al Restaurant Colorado è a ingresso libero.",
+        "Ski Booster e Rukan keilahalli sono chiusi il lunedì e il martedì, e la sala da bowling anche la domenica; Rukatonttu serve dal martedì al sabato 17–21. Il CAMP Kitchen & Bar resta chiuso dal 19 ottobre al 17 novembre 2026 per il rinnovo della cucina e riapre il 19 novembre, tutti i giorni 11–21."
+      ]
+    },
+    "luosto": {
+      "name": "Luosto",
+      "at": "Luosto",
+      "title": "Bar a Luosto: nightclub, serate danzanti e un bar-capanna | LaplandBars",
+      "description": "Dove bere a Luosto: il nightclub dell'hotel e il Rumpu Bar in Luostontie, un pub nel centro commerciale, un bar-capanna e serate danzanti a pagamento.",
+      "h1": "Bar a Luosto",
+      "tagline": "Il villaggio ha un solo nightclub, e le orchestre da ballo dal vivo suonano in un ristorante di tronchi a circa 300 metri dal Lapland Hotels Luostotunturi.",
+      "intro": "A Luosto sono sette i posti che servono da bere. Il Lapland Hotels Luostotunturi in Luostontie 1 ne ospita due: il Nightclub Karhu, che l'hotel presenta come l'unico nightclub del villaggio, e il Rumpu Bar, accanto al ristorante Bistro e aperto ai cani. Il Keloravintola, ristorante di tronchi da 220 posti, sorge a circa 300 metri dallo stesso hotel e apre al pubblico per serate danzanti a pagamento con orchestre dal vivo. Il Restaurant Punakettu in Luostontie 4 sta nel centro commerciale e si definisce ristorante e pub, con una sezione dedicata a un birrificio artigianale locale e i whisky Teerenpeli in carta. Il Restaurant Aurora in Luppokeino 1 appartiene al Santa's Hotel Aurora, a distanza di passeggiata dal centro del villaggio, e tra i servizi di ristorazione l'hotel elenca un lobby bar. Il Restaurant Vaisko in Hartsutie 1 accoglie gli ospiti anche solo per un drink. Aarnikota sta a sé: una capanna lappone in Kerotie 10, ad Aarniluosto, a circa 1,5 km dal centro, raggiungibile a piedi, con gli sci, con le racchette da neve o in auto.",
+      "know": [
+        "Il Vaisko è chiuso tra una stagione e l'altra e apre per il 2026–2027 il 26 novembre. Aarnikota pubblica periodi con date invece di un orario fisso; quello attuale è dal mercoledì alla domenica 11–16 per la stagione del ruska, fino al 27 settembre 2026.",
+        "Il karaoke del Karhu è gratuito e riservato ai maggiori di 18 anni, le serate con band dal vivo costano 10 euro e le serate danzanti aperte al pubblico del Keloravintola hanno un biglietto da 15–20 euro. I 3 euro di guardaroba non sono compresi nel prezzo del biglietto.",
+        "Nessuno dei sette pubblica un orario settimanale fisso: il Karhu segue il calendario eventi dell'hotel, il Keloravintola lavora solo su prenotazione a parte le serate a tema e i balli a pagamento, Punakettu, Rumpu Bar e Aarnikota indicano periodi con date, e il Restaurant Aurora non pubblica alcun orario. Verifica prima di costruirci sopra la serata."
+      ]
+    },
+    "pyha": {
+      "name": "Pyhä",
+      "at": "Pyhä",
+      "title": "Bar a Pyhä: pub di pista, wine bar in vetta e karaoke | LaplandBars",
+      "description": "Dove bere a Pyhä: un pub accanto alla pista per famiglie, un wine bar in vetta e uno sports bar con karaoke aperto tutto l'anno. Orari e indirizzi.",
+      "h1": "Bar a Pyhä",
+      "tagline": "Sei bar attorno a un'unica stazione sciistica, e il wine bar sta in cima alla montagna.",
+      "intro": "I sei bar di Pyhä stanno tutti a Pyhätunturi. Due sono accanto a un hotel: Mesta, bar con terrazza in mezzo alle piste vicino all'Hotel Kultakero, e il CAMP Kitchen & Bar PYHÄ in Kultakeronkatu 21, accanto all'Hotel Pyhätunturi, dove le vetrate panoramiche guardano verso le montagne. Sulla stessa via, al numero 4, lo Sport Bar Pyhä sta nel centro commerciale di Pyhä, con biliardo, karaoke e i canali sportivi Viaplay. Il Restaurant Huttuhippu è in Ukonhattu 1, accanto alla pista per famiglie, e al suo Huttu-Pub viene riconosciuta la scelta di birre più ampia della stazione. L'Hanki Baari Pyhä è in Pohjoisrinteentie 1, ai piedi delle North Slopes, e resta chiuso fino a dicembre 2026. Il sesto non è a livello della strada: il Pyhä Dreams Wine Bar è in una baita sulla cima del Pyhätunturi, che si raggiunge con la seggiovia panoramica.",
+      "know": [
+        "L'Hanki Baari Pyhä, ai piedi delle North Slopes, è chiuso e riapre a dicembre 2026. Quando è in funzione, dopo le 21:00 l'ingresso è riservato ai maggiori di 18 anni, a meno che non si sia accompagnati da un genitore, e nelle serate con eventi il limite dei 18 anni vale per tutta la sera.",
+        "Orari giornalieri: Restaurant Huttuhippu 13–22, CAMP Kitchen & Bar PYHÄ 16–21 e Sport Bar Pyhä 17–24, che si dichiara aperto tutto l'anno. Gli altri tre, Mesta, Hanki Baari Pyhä e Pyhä Dreams Wine Bar, non pubblicano orari fissi: conviene chiedere al locale.",
+        "Il Pyhä Dreams Wine Bar è in cima alla montagna, dove arriva la seggiovia panoramica, e apre per una stagione estiva e di nuovo per una invernale, quindi verifica le date con il locale. La sua degustazione guidata accoglie al massimo otto persone, dura circa due ore e non comprende il biglietto della seggiovia, quindi conviene prenotare."
+      ]
+    },
+    "iso-syote": {
+      "name": "Iso-Syöte",
+      "at": "Iso-Syöte",
+      "title": "Bar a Iso-Syöte: pub di pista, after-ski e bar in vetta | LaplandBars",
+      "description": "Dove bere a Iso-Syöte: un pub e un bar d'albergo in Romekievarintie, un bistrot after-ski alle piste posteriori, un ristorante in vetta.",
+      "h1": "Bar a Iso-Syöte",
+      "tagline": "Qui non c'è una via dei bar: ogni locale è attaccato a un hotel, a una pista o a un alimentari, e due dei cinque stanno su una cima.",
+      "intro": "A Iso-Syöte si beve dove ci sono gli hotel, le piste e un alimentari, e gli indirizzi postali dicono Syöte oppure Pudasjärvi. Due dei cinque locali stanno in Romekievarintie, ai piedi delle piste frontali: il TunturiPUB al numero 1, che condivide i locali con l'alimentari Tunturi Market e tiene i giochi da tavolo in un angolo, e Bistoria al numero 4, il ristorante del KIDE Hotel, con vino al bicchiere da 8,80 EUR. Il TunturiPUB dista poche decine di metri dall'hotel, quindi i due sono a pochi passi l'uno dall'altro. Il Pärjä Ski Bistro sta invece sulle piste posteriori, in Takarinteentie 4, proprio accanto agli impianti, con una terrazza che prende il sole della sera in primavera. La Ravintola Hilltop è più in alto ancora: 200 posti all'ultimo piano dell'Hilltop Hotel, in vetta, nella stessa sala che dalle 10:30 alle 18:00 funziona come Cafe Hilltop. Il Restaurant Kotva è su un'altra cima, quella del Pikku-Syöte, in Syötekeskuksentie 126, con tre portate a 59 EUR.",
+      "know": [
+        "Uno dei cinque dipende dalla stagione. Il Restaurant Kotva annuncia cene solo il venerdì e il sabato, nella stagione autunnale del ruska, e le date sulla sua pagina non tornano, quindi conviene confermarle prima di partire; alla Ravintola Hilltop a cambiare è il menu più che il locale: il suo sito avverte che fuori dall'inverno la carta può essere ridotta e dipendere dalla prenotazione.",
+        "Il TunturiPUB è chiuso il lunedì e il martedì, e da mercoledì a sabato la cucina si ferma alle 21:30 anche se il bar va avanti fino a mezzanotte nei giorni infrasettimanali e fino alle 03:00 il venerdì e il sabato. Il Pärjä Ski Bistro pubblica i suoi orari solo su Facebook, non sul proprio sito.",
+        "Solo TunturiPUB e Bistoria sono vicini: stanno entrambi in Romekievarintie, al KIDE Hotel, a poche decine di metri l'uno dall'altro. La Ravintola Hilltop è in cima all'Iso-Syöte, in Isosyötteentie, e il Restaurant Kotva in cima al Pikku-Syöte, quindi ognuno dei due è una salita a sé più che una passeggiata dalla partenza delle piste."
+      ]
+    },
+    "salla": {
+      "name": "Salla",
+      "at": "Salla",
+      "title": "Bar a Salla: pub sulle piste, karaoke e notti lunghe | LaplandBars",
+      "description": "Dove bere a Salla: due bar alla stazione sciistica, un pub karaoke in Hautajärventie e un pub di paese a Vallovaara. Orari e indirizzi.",
+      "h1": "Bar a Salla",
+      "tagline": "Tre dei quattro bar di Salla fanno karaoke, e solo uno dei tre si trova sulla montagna.",
+      "intro": "Salla si divide in due. Due dei suoi bar stanno sulla montagna: Papana Pupi è il pub interno dei Sallatunturin Tuvat, a Sallatunturi, in Hangasjärventie 1, nello stesso edificio della reception e del Restaurant Kiela, e alle pareti ha maglie da partita e bastoni di giocatori di hockey finlandesi. Il Keloravintola, ristorante di tronchi in Revontulentie 9, sta ai piedi delle piste frontali della Salla Ski Resort, con licenza completa, terrazza soleggiata e after-ski. Gli altri due sono la Ravintola Sallan Maja e l'Evakko Pub. Sallan Maja, in Hautajärventie 32, di giorno lavora con la cucina del pranzo e à la carte e la sera tira tardi con il proprio pub, Majan Pubi, tra karaoke, giochi da tavolo e ingresso riservato ai maggiori di 18 anni dalle 22:00. L'Evakko Pub è il pub del Kairalan Kievari, nel villaggio di Vallovaara, in Vallovaarantie 209, dentro una vecchia scuola elementare, con freccette e biliardo nella sala giochi.",
+      "know": [
+        "Le pagine della Ravintola Sallan Maja si contraddicono: la home page in finlandese indica lun-gio 11–18, ven 11–18 e di nuovo 22–04, sab 12–18 e di nuovo 22–02, mentre la pagina in inglese dice che il pub è aperto ven-sab 21–04. La domenica non compare affatto nel riquadro degli orari, e il buffet del pranzo lun-gio va dalle 11 alle 14 a 13,50 EUR, con buffet di insalate e caffè compresi.",
+        "L'Evakko Pub è nel villaggio di Vallovaara, in Vallovaarantie 209. Il suo ven-sab 22–02 arriva da una pagina i cui contenuti sembrano risalire al 2018 e Visit Salla dice soltanto che il pub apre nei fine settimana fino a notte fonda quando serve, quindi conviene verificare prima di mettersi in strada; le serate con musica dal vivo vanno avanti fino alle 03.",
+        "Il Keloravintola indica tutti i giorni 13–20 ed è aperto tutto l'anno, e Papana Pupi segue l'insegna dei Sallatunturin Tuvat, 08:00–22:00, più tardi nelle serate invernali con concerti ma senza un orario di chiusura pubblicato. Cercando Keloravintola salta fuori anche un altro locale con lo stesso nome al Lapland Hotels Luostotunturi; quello di Salla è in Revontulentie 9."
+      ]
+    }
+  },
+  "cityVibes": {
+    "Ruka": "Il comprensorio sciistico di Kuusamo, in Koillismaa, non in Lapponia. Tredici locali nella stazione stessa: bar sulle piste, un ice bar, il bar di una sala da bowling e due night club.",
+    "Pyha": "Sei locali in un comprensorio sciistico compatto: pub sulle piste, un wine bar e uno sports bar. Diversi di loro aprono solo con orari invernali.",
+    "Luosto": "Sette locali attorno a un unico villaggio-hotel: bar d'albergo, un caffè-bar in una capanna in fondo a Kerotie e un ristorante di tronchi le cui serate aperte al pubblico sono balli a pagamento con orchestre dal vivo.",
+    "Salla": "Quattro locali: un ristorante di tronchi ai piedi delle piste, un pub après-ski e karaoke negli altri due.",
+    "Iso-Syote": "Sulle alture di Syöte, a Pudasjärvi, non in Lapponia. Cinque locali: un pub, un bistrot after-ski, un bar in vetta e un ristorante dedicato al vino."
+  },
+  "bars": {
+    "title": "Bar in Lapponia finlandese, Ruka e Syöte | LaplandBars",
+    "description": "I bar dove bevono davvero i locali, da Rovaniemi e Levi a Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla e Iso-Syöte. Orari, prezzi, valutazioni.",
+    "heroSub": "Ogni bar elencato qui esiste davvero, è aperto e merita la tua serata. Nessuna posizione sponsorizzata, nessun riempitivo, solo la vera cultura del bere di Lapponia, Ruka e Syöte."
+  }
+}

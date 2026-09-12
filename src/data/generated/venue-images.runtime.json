@@ -160,24 +160,10 @@
     "width": 800,
     "height": 500
   },
-  "pyha-dreams": {
-    "src": "/images/venues/pyha-dreams.webp",
-    "credit": "pyha.fi",
-    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-    "width": 800,
-    "height": 500
-  },
   "camp-kitchen-bar-pyha": {
     "src": "/images/venues/camp-kitchen-bar-pyha.webp",
     "credit": "camppyha.fi",
-    "sourceUrl": "https://www.camppyha.fi/",
-    "width": 800,
-    "height": 500
-  },
-  "sportbar-pyha": {
-    "src": "/images/venues/sportbar-pyha.webp",
-    "credit": "pyha.fi",
-    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "sourceUrl": "https://www.camppyha.fi/en",
     "width": 800,
     "height": 500
   },
@@ -191,21 +177,14 @@
   "ravintola-zone": {
     "src": "/images/venues/ravintola-zone.webp",
     "credit": "rukapalvelu.fi",
-    "sourceUrl": "https://rukapalvelu.fi/ravintolazone/",
+    "sourceUrl": "https://rukapalvelu.fi/en/restaurant-zone/",
     "width": 800,
     "height": 500
   },
   "restaurant-colorado-ruka": {
     "src": "/images/venues/restaurant-colorado-ruka.webp",
     "credit": "ravintolacolorado.fi",
-    "sourceUrl": "https://www.ravintolacolorado.fi/ruka/",
-    "width": 800,
-    "height": 500
-  },
-  "hanki-baari-ruka": {
-    "src": "/images/venues/hanki-baari-ruka.webp",
-    "credit": "ruka.fi",
-    "sourceUrl": "https://www.ruka.fi/baarit",
+    "sourceUrl": "https://www.ravintolacolorado.fi/en/colorado-ruka/",
     "width": 800,
     "height": 500
   },
@@ -219,7 +198,7 @@
   "lobby-bar-scandic-rukahovi": {
     "src": "/images/venues/lobby-bar-scandic-rukahovi.webp",
     "credit": "scandichotels.com",
-    "sourceUrl": "https://www.scandichotels.com/fi/hotellit/scandic-rukahovi",
+    "sourceUrl": "https://www.scandichotels.com/en/hotels/scandic-rukahovi",
     "width": 800,
     "height": 500
   },
@@ -237,20 +216,6 @@
     "width": 800,
     "height": 500
   },
-  "bistro-rumpu-baari": {
-    "src": "/images/venues/bistro-rumpu-baari.webp",
-    "credit": "pyha.fi",
-    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-    "width": 800,
-    "height": 500
-  },
-  "yokerho-karhu": {
-    "src": "/images/venues/yokerho-karhu.webp",
-    "credit": "pyha.fi",
-    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-    "width": 800,
-    "height": 500
-  },
   "parja-ski-bistro": {
     "src": "/images/venues/parja-ski-bistro.webp",
     "credit": "skiparja.fi",
@@ -258,10 +223,143 @@
     "width": 800,
     "height": 500
   },
-  "ravintola-pirtti": {
-    "src": "/images/venues/ravintola-pirtti.webp",
+  "hanki-baari": {
+    "src": "/images/venues/hanki-baari.webp",
+    "credit": "ruka.fi",
+    "sourceUrl": "https://www.ruka.fi/baarit",
+    "width": 800,
+    "height": 500
+  },
+  "camp-kitchen-bar": {
+    "src": "/images/venues/camp-kitchen-bar.webp",
+    "credit": "campkitchen.fi",
+    "sourceUrl": "https://www.campkitchen.fi/en",
+    "width": 800,
+    "height": 500
+  },
+  "bistoria-iso-syote": {
+    "src": "/images/venues/bistoria-iso-syote.webp",
+    "credit": "bistoria.fi",
+    "sourceUrl": "https://bistoria.fi/bistoria-iso-syote",
+    "width": 800,
+    "height": 500
+  },
+  "ravintola-hilltop": {
+    "src": "/images/venues/ravintola-hilltop.webp",
+    "credit": "hilltophotelisosyote.fi",
+    "sourceUrl": "https://hilltophotelisosyote.fi/ravintola-hilltop/",
+    "width": 800,
+    "height": 500
+  },
+  "pyha-dreams-wine-bar": {
+    "src": "/images/venues/pyha-dreams-wine-bar.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "sport-bar-pyha": {
+    "src": "/images/venues/sport-bar-pyha.webp",
+    "credit": "tulikuuma.fi",
+    "sourceUrl": "https://www.tulikuuma.fi/ravintolat/sport-bar-pyha/",
+    "width": 800,
+    "height": 500
+  },
+  "ravintola-sallan-maja": {
+    "src": "/images/venues/ravintola-sallan-maja.webp",
+    "credit": "ravintolasallanmaja.fi",
+    "sourceUrl": "https://www.ravintolasallanmaja.fi/",
+    "width": 800,
+    "height": 500
+  },
+  "nightclub-karhu": {
+    "src": "/images/venues/nightclub-karhu.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "rumpu-bar-rumpubaari": {
+    "src": "/images/venues/rumpu-bar-rumpubaari.webp",
+    "credit": "pyha.fi",
+    "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+    "width": 800,
+    "height": 500
+  },
+  "aarnikota": {
+    "src": "/images/venues/aarnikota.webp",
+    "credit": "aarnikota.fi",
+    "sourceUrl": "https://aarnikota.fi/en/",
+    "width": 800,
+    "height": 500
+  },
+  "restaurant-aurora": {
+    "src": "/images/venues/restaurant-aurora.webp",
     "credit": "santashotels.fi",
-    "sourceUrl": "https://santashotels.fi/ravintola/pirtti-saariselka/",
+    "sourceUrl": "https://santashotels.fi/en/restaurant/aurora-luosto/",
+    "width": 800,
+    "height": 500
+  },
+  "kaunis-jorma-saariselka": {
+    "src": "/images/venues/kaunis-jorma-saariselka.webp",
+    "credit": "tulikuuma.fi",
+    "sourceUrl": "https://www.tulikuuma.fi/ravintolat/kaunis-jorma/",
+    "width": 800,
+    "height": 500
+  },
+  "kieppi-kitchen-bar": {
+    "src": "/images/venues/kieppi-kitchen-bar.webp",
+    "credit": "wildernesshotels.fi",
+    "sourceUrl": "https://wildernesshotels.fi/wilderness-hotel-kieppi/restaurant",
+    "width": 800,
+    "height": 500
+  },
+  "restaurant-pirtti": {
+    "src": "/images/venues/restaurant-pirtti.webp",
+    "credit": "santashotels.fi",
+    "sourceUrl": "https://santashotels.fi/en/restaurant/pirtti-saariselka/",
+    "width": 800,
+    "height": 500
+  },
+  "restaurant-siula": {
+    "src": "/images/venues/restaurant-siula.webp",
+    "credit": "santashotels.fi",
+    "sourceUrl": "https://santashotels.fi/en/restaurant/siula-saariselka/",
+    "width": 800,
+    "height": 500
+  },
+  "bistro-cafe-kuukkeli": {
+    "src": "/images/venues/bistro-cafe-kuukkeli.webp",
+    "credit": "majoituskuukkeli.fi",
+    "sourceUrl": "https://majoituskuukkeli.fi/en/kuukkeli-shopping-center/bistro-cafe-kuukkeli/",
+    "width": 800,
+    "height": 500
+  },
+  "joiku-pub": {
+    "src": "/images/venues/joiku-pub.webp",
+    "credit": "evaskori.fi",
+    "sourceUrl": "https://www.evaskori.fi/",
+    "width": 800,
+    "height": 500
+  },
+  "los-lompolos": {
+    "src": "/images/venues/los-lompolos.webp",
+    "credit": "yllas.fi",
+    "sourceUrl": "https://www.yllas.fi/fi/ravintolat",
+    "width": 800,
+    "height": 500
+  },
+  "lobby-bar-lapland-hotels-yllaskaltio": {
+    "src": "/images/venues/lobby-bar-lapland-hotels-yllaskaltio.webp",
+    "credit": "yllas.fi",
+    "sourceUrl": "https://www.yllas.fi/fi/ravintolat",
+    "width": 800,
+    "height": 500
+  },
+  "ski-pub-ala-asema": {
+    "src": "/images/venues/ski-pub-ala-asema.webp",
+    "credit": "hiyllas.fi",
+    "sourceUrl": "https://hiyllas.fi/en/company/ski-pub-ala-asema/",
     "width": 800,
     "height": 500
   }

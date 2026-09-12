@@ -1,0 +1,114 @@
+{
+  "cities": {
+    "yllas": {
+      "name": "Ylläs",
+      "at": "Ylläs",
+      "title": "Ylläs 酒吧：Äkäslompolo、Ylläsjärvi 与雪道酒吧 | LaplandBars",
+      "description": "在 Ylläs 喝一杯：Äkäslompolo 的村庄酒吧、两侧雪道上的餐厅，以及 Ylläsjärvi 湖畔的 Miilu Bar & Grill。",
+      "h1": "Ylläs 的酒吧",
+      "tagline": "两个酒吧村庄 Äkäslompolo 和 Ylläsjärvi，两侧都有雪道酒吧：地址决定哪一份名单属于你。",
+      "intro": "Ylläs 有两个酒吧村庄，地址会告诉你自己在哪一侧。在 Äkäslompolo，Tunturintie 16 的 Selvä Pyy 是本地人和滑雪者常去的酒馆；Jakolantie 上的 Joiku Pub 有村里最大的阳光露台和一块卡拉 OK 场地；Sivulantie 上的 Los Lompolos 则是村中心的小型鸡尾酒吧。Äkäsentie 10 一个地址下有三家：Ravintola Pirtukirkko、紧挨着它的 Takka 酒吧，以及楼下的 Pirtukellari Night Club。Tunturintie 56 的 Y1 Ski Pub 也在这一侧，靠近 Aurinkokuru 的 Aurinko-Express 缆椅起点。在 Ylläsjärvi，Ski pub Ala-Asema 和 Bistro Hissi 同在 Iso-Ylläksentie 44，紧挨着缆车下站和 Ylläs Express 缆椅，Lapland Hotels Saaga 的 Bistro 则在 42 号。Bar Kaappi 和 Taiga Ylläs 共用 Vaeltajantie 2，就在 Ylläs Ski South 雪道脚下；Miilu Bar & Grill 立在 Ylläsjärvi 湖岸，属于 Miilu Resort。",
+      "know": [
+        "酒吧分属两个村庄：邮编 95970 的 Äkäslompolo 和邮编 95980 的 Ylläsjärvi。Miilu Bar & Grill 在 Ylläsjärvi 湖岸的 Rantasaarentie 3-5，它的信息里列出的到达方式有汽车、步行、滑雪、自行车和雪地摩托。",
+        "有两家跟着缆车时刻表走：Aurinko 雪道上的 Aurinkoravintola 在滑雪季按缆车时刻表营业，Bistro Hissi 则在缆车运行时开门。Pirtukellari Night Club 在滑雪季的周五和周六夜里营业，Aurinkokuru 的 Y1 Ski Pub 于 2026 年 11 月开业。",
+        "Lapland Hotels Äkäshotelli 的餐饮服务涵盖 Ravintola Pirtukirkko 和 Takka 酒吧，2026 年 9 月 27 日至 11 月 20 日停业。Lapland Hotels Saaga 自家页面说法不一：Bistro 的营业时间标到 9 月 26 日，季节通知却写着餐厅从 9 月 24 日休到 11 月 14 日。Äkäslompolo 的 Cafe & Bar Routa 全年营业，但 17 点就关门，所以它是白天的一站，而不是晚上的去处。"
+      ]
+    },
+    "saariselka": {
+      "name": "Saariselkä",
+      "at": "Saariselkä",
+      "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊 | LaplandBars",
+      "description": "在 Saariselkä 喝一杯：Revontulentie 上的美食酒吧、村中的舞会餐厅，以及 Kaunispää 山顶的极光酒廊。",
+      "h1": "Saariselkä 的酒吧",
+      "tagline": "喝酒的地方大多集中在几条村中街道上，另有一家在 Kaunispää 山顶，一家在雪道旁。",
+      "intro": "Saariselkä 的酒吧大多集中在几条村中街道上。Revontulentie 上的 Gastropub Giitu 每天供应精酿啤酒到 02 点，厨房开到 22 点。Saariseläntie 上的 Teerenpesä 在同一个原木屋顶下有三家场所：一家拉普兰餐厅、一家有飞镖和台球的运动酒吧，以及一家举办双人舞会和迪斯科的夜店。沿同一条街往前走，10 号的 Local Pub Panimo 有自己的男宾和女宾桑拿，13 号的 Lobby Bar Takka 是 Lapland Hotels Riekonlinna 的壁炉酒吧。Kiveliöntie 上的 Kaunis Jorma 每周四 19:00 有卡拉 OK 和免费宾果，Raitopolku 上的 Kieppi Kitchen & Bar 的吧台角比厨房早开几个小时，Lutontie 上 Santa’s Hotel Tunturi 的餐厅楼里则是 Restaurant Pirtti 和舞会餐厅 Siula。还有两家在 Kaunispää 山上：Star Arctic Hotel 的 Restaurant Kaunis，以及会变身为 Northern Lights Lounge 的山顶餐厅。",
+      "know": [
+        "这些场所分布在五条村中街道上：Saariseläntie、Revontulentie、Kiveliöntie、Raitopolku 和 Lutontie。Teerenpesä、Local Pub Panimo、Kaunis Jorma、Kieppi 以及 Bistro & Café Kuukkeli 都称自己位于 Saariselkä 中心。Mettäbaari 是例外：它在往 Laanila 方向 2 公里处，从雪道上就能直接走进去。",
+        "Northern Lights Lounge 在极夜季的每周三和周六晚上于 Kaunispää 山顶餐厅举办，门票包含入场、一杯热饮、小食和一位主持人。从 Saariselkä 出发的往返接送可以另行加进票里。",
+        "有几家没有公布每日营业时间：Santa’s Hotel Tunturi 的 Restaurant Pirtti 只在旺季开门，Star Arctic Hotel 的 Restaurant Kaunis 从 2026 年 4 月 20 日休到 10 月 29 日。Kakslauttanen 的两家酒吧 Igloo Bar 和 Piano Bar 在村外的 Kiilopääntie 上。"
+      ]
+    },
+    "ruka": {
+      "name": "Ruka",
+      "at": "Ruka",
+      "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐 | LaplandBars",
+      "description": "在 Ruka 喝一杯：Rukankyläntie 上的卡拉 OK 和现场音乐，以及只能滑雪抵达的雪道酒吧 Monomesta。",
+      "h1": "Ruka 的酒吧",
+      "tagline": "其中六家都在同一条街 Rukankyläntie 上，还有一家根本没有路能开到门口。",
+      "intro": "Ruka 的酒吧街是 Kuusamo 的 Rukankyläntie，六家场所用的都是这条街的地址。6 号的 Restaurant Colorado 在步行中心区，有台球和阳光露台；11 号的 Hanki Baari 供应本地啤酒，整个冬天都安排现场艺人和 DJ；13 号的 Ravintola Zone 自称一年办 100 多个现场之夜，烧烤厨房开到 04 点；15 号的 Scandic Rukahovi 里有两个厅：Lobby Bar，以及卡拉 OK 酒吧兼夜店 Bar Ihku。17 号是 Rinneravintola Piste，就在前坡脚下。Vuosseli 是 Ruka 另一个有名字的片区，有三家把自己定位在那里：Ahon Jussintie 上的 Ski Booster、Bistrotie 上的 CAMP Kitchen & Bar 和 Jussinkuja 上的 Rukan Olkkari。还有四家两边都不属：距村中心 650 米、在 Talvijärvi 湖畔的 Rukatonttu；Pessari 雪道下方、没有道路通达的露台 Monomesta；Salongintie 上的 Rukan Salonki Ice Bar；以及 Rukatunturintie 上的 Rukan keilahalli。",
+      "know": [
+        "Monomesta 没有道路可达：要凭有效缆车票滑雪抵达 Pessari 雪道脚下的这处露台，白天的演出免费，供酒区限 18 岁以上。Rukan Salonki Ice Bar 在 Salongintie 湖边的木屋区，不在村里。",
+        "有些夜晚要买票。Bar Ihku 的门票 8 欧元起，艺人之夜 10–25 欧元；Hanki Baari 的演出通常 10–15 欧元；Restaurant Colorado 的现场音乐则免费入场。",
+        "Ski Booster 和 Rukan keilahalli 周一、周二都不营业，保龄球馆周日也休息；Rukatonttu 周二至周六 17–21 点供餐。CAMP Kitchen & Bar 因厨房改造从 2026 年 10 月 19 日休到 11 月 17 日，11 月 19 日起恢复每天 11–21 点营业。"
+      ]
+    },
+    "luosto": {
+      "name": "Luosto",
+      "at": "Luosto",
+      "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧 | LaplandBars",
+      "description": "在 Luosto 喝一杯：Luostontie 上的夜店 Nightclub Karhu、购物中心里的酒馆，以及售票的舞会之夜。",
+      "h1": "Luosto 的酒吧",
+      "tagline": "村里只有一家夜店，现场舞会乐队则在距 Lapland Hotels Luostotunturi 约 300 米的原木餐厅里演奏。",
+      "intro": "Luosto 有七个地方供应酒水。Luostontie 1 的 Lapland Hotels Luostotunturi 里有两家：酒店称为村里唯一夜店的 Nightclub Karhu，以及紧挨 Bistro 餐厅、允许带狗进入的 Rumpu Bar。可坐 220 人的原木餐厅 Keloravintola 距同一家酒店约 300 米，在有现场乐队的售票舞会之夜对公众开放。Luostontie 4 的 Restaurant Punakettu 在购物中心里，自称既是餐厅也是酒馆，设有本地精酿啤酒区，酒单上有 Teerenpeli 威士忌。Luppokeino 1 的 Restaurant Aurora 属于 Santa's Hotel Aurora，步行即可到村中心，酒店把大堂吧列在自己的餐饮服务里。Hartsutie 1 的 Restaurant Vaisko 欢迎只进来喝一杯的客人。Aarnikota 自成一处：它是 Aarniluosto 的 Kerotie 10 上的一座拉普兰式小屋，距中心约 1.5 公里，步行、滑雪、穿雪鞋或开车都能到。",
+      "know": [
+        "Vaisko 在两季之间停业，2026–2027 季于 11 月 26 日开门。Aarnikota 公布的是带日期的时段，而不是固定时刻表；当前这一段是 ruska 秋色季的周三至周日 11–16 点，到 2026 年 9 月 27 日为止。",
+        "Karhu 的卡拉 OK 免费且限 18 岁以上，那里的现场乐队之夜 10 欧元，Keloravintola 面向公众的舞会之夜票价 15–20 欧元。3 欧元的存衣费不含在票价里。",
+        "七家都没有公布固定的每周营业时间：Karhu 跟着酒店的活动日历走，Keloravintola 除主题之夜和售票舞会外只接受预订，Punakettu、Rumpu Bar 和 Aarnikota 以带日期的时段公布，Restaurant Aurora 干脆不写时间。在把一整晚的安排押在其中某一家身上之前，先确认。"
+      ]
+    },
+    "pyha": {
+      "name": "Pyhä",
+      "at": "Pyhä",
+      "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK | LaplandBars",
+      "description": "在 Pyhä 喝一杯：家庭雪道旁的雪道酒馆、带卡拉 OK 的运动酒吧，以及山顶的 Pyhä Dreams Wine Bar。",
+      "h1": "Pyhä 的酒吧",
+      "tagline": "一个雪场周边六家酒吧，其中葡萄酒吧在山顶上。",
+      "intro": "Pyhä 的六家酒吧都在 Pyhätunturi。其中两家挨着酒店：Mesta 是雪道中间、紧邻 Hotel Kultakero 的酒吧和露台；Kultakeronkatu 21 的 CAMP Kitchen & Bar PYHÄ 在 Hotel Pyhätunturi 旁边，全景窗对着群山。同一条街 4 号的 Sport Bar Pyhä 在 Pyhä 购物中心里，有台球桌、卡拉 OK 和 Viaplay 体育频道。Restaurant Huttuhippu 在 Ukonhattu 1，就在家庭雪道旁，它的 Huttu-Pub 被认为拥有雪场里最多的啤酒选择。Hanki Baari Pyhä 在 Pohjoisrinteentie 1，位于北坡脚下，休业到 2026 年 12 月。第六家根本不在街面上：Pyhä Dreams Wine Bar 在 Pyhätunturi 山顶的一间小屋里，坐观景缆车上去。",
+      "know": [
+        "北坡脚下的 Hanki Baari Pyhä 目前休业，2026 年 12 月重新开门。营业时，21:00 之后限 18 岁以上，除非有家长同行；活动之夜则整晚限 18 岁以上。",
+        "每日营业时间：Restaurant Huttuhippu 13–22 点，CAMP Kitchen & Bar PYHÄ 16–21 点，Sport Bar Pyhä 17–24 点，后者称自己全年营业。另外三家 Mesta、Hanki Baari Pyhä 和 Pyhä Dreams Wine Bar 没有公布固定时间，需要直接向店家确认。",
+        "Pyhä Dreams Wine Bar 在山顶，要坐观景缆车上去，夏季开一段、冬季再开一段，具体日期请向店家确认。它的导览品鉴最多八人，约两小时，不含缆车票，需要提前预订。"
+      ]
+    },
+    "iso-syote": {
+      "name": "Iso-Syöte",
+      "at": "Iso-Syöte",
+      "title": "Iso-Syöte 酒吧：雪道酒馆、雪后小酌与山顶酒吧 | LaplandBars",
+      "description": "在 Iso-Syöte 喝一杯：Romekievarintie 上的酒馆和酒店酒吧、后坡缆车旁的 Pärjä Ski Bistro，以及两座山顶餐厅。",
+      "h1": "Iso-Syöte 的酒吧",
+      "tagline": "这里没有酒吧街：每一家都挂在酒店、雪道或杂货店上，五家里有两家在山顶。",
+      "intro": "Iso-Syöte 的喝酒去处都挂在它的酒店、雪道和一家杂货店上，邮寄地址写的是 Syöte 或 Pudasjärvi。五家里有两家在前坡脚下的 Romekievarintie 上：1 号的 TunturiPUB 与 Tunturi Market 杂货店共用店面，角落里备着桌游；4 号的 Bistoria 是附属于 KIDE Hotel 的餐厅，杯卖葡萄酒 8.80 欧元起。TunturiPUB 距酒店只有几十米，所以这两家走几步就到。Pärjä Ski Bistro 在后坡那边的 Takarinteentie 4，紧挨缆车，露台正好晒得到春天的傍晚太阳。Ravintola Hilltop 更高：在山顶 Hilltop Hotel 顶层，200 个座位，同一个厅在 10:30 到 18:00 之间以 Cafe Hilltop 的身份营业。Restaurant Kotva 在另一座山上，在 Pikku-Syöte 山顶的 Syötekeskuksentie 126，三道菜 59 欧元。",
+      "know": [
+        "五家里有一家看季节。Restaurant Kotva 只在周五和周六供应晚餐，据它自己宣布是在秋天的 ruska 季，而它页面上的日期对不上，出发前要先确认；Ravintola Hilltop 变的则是菜单而不是场所本身：它自己的网站提醒，冬季之外单点菜单可能有限，还可能要看是否提前预订。",
+        "TunturiPUB 周一和周二不营业，周三至周六厨房 21:30 就停，尽管吧台本身平日开到午夜，周五和周六开到 03:00。Pärjä Ski Bistro 只在 Facebook 上公布营业时间，网站上没有。",
+        "只有 TunturiPUB 和 Bistoria 算邻居：两家都在 KIDE Hotel 旁的 Romekievarintie 上，相距几十米。Ravintola Hilltop 在 Isosyötteentie 上的 Iso-Syöte 山顶，Restaurant Kotva 在 Pikku-Syöte 山顶，去这两家各自都是一趟上山的行程，而不是从雪道脚下走过去。"
+      ]
+    },
+    "salla": {
+      "name": "Salla",
+      "at": "Salla",
+      "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场 | LaplandBars",
+      "description": "在 Salla 喝一杯：雪场上的两家酒吧、Hautajärventie 上的卡拉 OK 酒馆，以及老校舍里的 Evakko Pub。",
+      "h1": "Salla 的酒吧",
+      "tagline": "这里四家酒吧中有三家做卡拉 OK，而这三家里只有一家在山上。",
+      "intro": "Salla 分成两边。两家在山上：Papana Pupi 是 Sallatunturin Tuvat 的自营酒馆，地址在 Sallatunturi 的 Hangasjärventie 1，与前台和 Restaurant Kiela 同在一栋楼里，墙上挂着芬兰冰球运动员的比赛球衣和球棍。原木餐厅 Keloravintola 在 Revontulentie 9，位于 Salla Ski Resort 前坡脚下，持全酒牌，有向阳露台和雪后小酌。另外两家是 Ravintola Sallan Maja 和 Evakko Pub。Hautajärventie 32 的 Sallan Maja 白天做午餐和单点，深夜则开自家的酒馆 Majan Pubi，有卡拉 OK、桌游，22:00 起限 18 岁以上。Evakko Pub 是 Vallovaara 村 Vallovaarantie 209 上 Kairalan Kievari 的酒馆，设在一栋旧小学校舍中，游戏室里有飞镖和台球。",
+      "know": [
+        "Ravintola Sallan Maja 自己的页面说法不一：芬兰语首页写周一至周四 11–18 点、周五 11–18 点和 22–04 点、周六 12–18 点和 22–02 点，英文页面却说酒馆周五至周六 21–04 点营业。周日根本不在时间表里，而周一至周四的午餐自助 11–14 点供应，13.50 欧元，含沙拉自助和咖啡。",
+        "Evakko Pub 在 Vallovaara 村的 Vallovaarantie 209。它那个周五至周六 22–02 点的时间来自一个内容看上去停留在 2018 年的页面，Visit Salla 只说酒馆在周末视需要开到凌晨，所以出发前先确认；有现场音乐的夜晚开到 03 点。",
+        "Keloravintola 标的是每天 13–20 点，全年营业；Papana Pupi 挂在 Sallatunturin Tuvat 的招牌下，08:00–22:00，冬天有演出的夜晚会更晚，但没有公布打烊时间。搜索 Keloravintola 还会搜到 Lapland Hotels Luostotunturi 的另一家同名餐厅；Salla 这家在 Revontulentie 9。"
+      ]
+    }
+  },
+  "cityVibes": {
+    "Ruka": "Kuusamo 的山地雪场，位于 Koillismaa，不在拉普兰。雪场本身有十三家场所：雪道酒吧、冰酒吧、保龄球馆里的酒吧和两家夜店。",
+    "Pyha": "紧凑山地雪场里的六家场所：雪道酒馆、一家葡萄酒吧和一家运动酒吧。其中几家只在冬季营业。",
+    "Luosto": "围绕一个酒店村的七家场所：酒店酒吧、Kerotie 尽头的小屋咖啡酒吧，以及一家原木餐厅，它对公众开放的夜晚是有现场乐队的售票舞会。",
+    "Salla": "四家场所：雪道脚下的一家原木餐厅、一家雪后小酌酒馆，另外两家做卡拉 OK。",
+    "Iso-Syote": "位于 Pudasjärvi 的 Syöte 山区，不在拉普兰。五家场所：一家酒馆、一家雪后小酒馆、一家山顶酒吧和一家葡萄酒餐厅。"
+  },
+  "bars": {
+    "title": "芬兰拉普兰、Ruka 与 Syöte 的酒吧 | LaplandBars",
+    "description": "本地人真正会去喝一杯的酒吧：Rovaniemi、Levi、Ylläs、Saariselkä、Ruka、Pyhä、Luosto、Salla、Iso-Syöte。营业时间与评分。",
+    "heroSub": "这里列出的每一家酒吧都真实存在、正在营业，值得你花上一晚。没有赞助位，没有凑数内容，只有拉普兰、Ruka 和 Syöte 真实的酒馆文化。"
+  }
+}

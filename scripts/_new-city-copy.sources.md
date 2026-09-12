@@ -1,0 +1,343 @@
+# Kaupunkisivujen faktojen lahteet (12.9.2026)
+
+Jokainen vaite ja se bars.ts-rivi jolta se on luettu. Kirjoitti ja tarkisti
+kaksivaiheinen tyonkulku (kirjoittaja + vastalukija + korjaus).
+
+## yllas
+
+Every claim below is read off a city: 'Ylläs' row in laplandbars-new/src/data/bars.ts (16 rows, lines ~626-3730).
+
+CHANGES IN THIS PASS (seven counter-reader findings, each fixed at the row level)
+1. tagline: the "pubs in Äkäslompolo / slope bars in Ylläsjärvi" split was contradicted by Y1 Ski Pub (line 3362, type 'Slope pub', address 'Tunturintie 56, 95970 Äkäslompolo'). Replaced with "slope pubs on both sides", which the rows do support.
+2. intro: "Ylläsjärvi is the slope side." deleted for the same reason and replaced with Y1's own placement, taken verbatim from its row ("on the Äkäslompolo side, near the base of the Aurinko-Express chairlift at Aurinkokuru"). This also removes the know[1] ambiguity the counter-reader flagged: Y1's village is now stated on the page.
+3. description: "Ratings, hours, prices." removed. No Ylläs row carries a rating field; 14 of 16 rows carry hours.en = 'Check venue for current hours' (only Selvä Pyy, 'Daily 12–22 (24), kitchen 12–21', and Pirtukellari, 'Ski season only, Fri–Sat nights', have real hours); 13 of 16 carry price.en = 'Prices on the venue site'. Nothing replaced it that is not already sourced below.
+4. description: "slope bars by the gondola in Ylläsjärvi" removed. Only Ski pub Ala-Asema is placed at the gondola ("next to the lower station of the Ylläs gondola"); Bistro Hissi is by the Ylläs Express chairlift and Bistro (Lapland Hotels Saaga) is type 'Hotel bistro bar'. The description now says "slope restaurants on both sides" and "a lakeside grill in Ylläsjärvi" (Miilu Bar & Grill, 'on the shore of Lake Ylläsjärvi').
+5. intro: "stands on its own" replaced with the row's own wording, "stands on the shore of Lake Ylläsjärvi as part of Miilu Resort" (line 3278). The old phrase was an inference from Miilu being the only row on Rantasaarentie.
+6. know[1]: topic sentence narrowed from "Several places" to "Two places", so the lift-timetable claim now covers only Aurinkoravintola and Bistro Hissi, the two rows that state it. Pirtukellari (weekend ski-season nightclub hours) and Y1 (November 2026 opening) are kept but stated as their own facts, not as lift dependencies.
+7. know[2]: the Saaga closure is no longer stated as settled. The row (line 3489) records the hotel's own conflict — "bistron aukiolo on merkitty 26.9. asti, mutta kausitiedote sanoo ravintolat kiinni jo 24.9. alkaen" — and the copy now reports both dates as a disagreement, since a traveller could be on the road on either.
+
+TITLE / DESCRIPTION / H1
+- "Äkäslompolo" and "Ylläsjärvi" as the two bar villages: address fields across all 16 rows split into 95970 Äkäslompolo (Selvä Pyy, Pirtukellari Night Club, Joiku Pub, Los Lompolos, Y1 Ski Pub, Takka bar, Ravintola Pirtukirkko, Lobby Bar (Lapland Hotels Ylläskaltio), Cafe & Bar Routa) and 95980 Ylläsjärvi (Bar Kaappi, Miilu Bar & Grill, Taiga Ylläs, Bistro (Lapland Hotels Saaga), Ski pub Ala-Asema, Aurinkoravintola Ylläs, Bistro Hissi).
+- "slope pubs" in the title and "slope restaurants on both sides" in the description: type fields "Slope pub" (Y1 Ski Pub at 95970 Äkäslompolo, Taiga Ylläs at 95980 Ylläsjärvi), "Ski pub" (Ski pub Ala-Asema), "Slope bar" (Aurinkoravintola Ylläs), "Slope bistro bar" (Bistro Hissi) — i.e. one on the Äkäslompolo side and four on the Ylläsjärvi side, which is what "both sides" claims.
+- "a lakeside grill in Ylläsjärvi": Miilu Bar & Grill, type 'Bar & grill', "stands on the shore of Lake Ylläsjärvi", address 'Rantasaarentie 3-5, 95980 Ylläsjärvi'.
+- "basement nightclub": Ravintola Pirtukirkko ("Pirtukellari Night Club is in the basement of the same building"); type "Nightclub" on Pirtukellari Night Club.
+
+TAGLINE
+- The two villages: address fields, see above.
+- "slope pubs on both sides": Y1 Ski Pub (Slope pub, 95970 Äkäslompolo) on one side; Taiga Ylläs, Ski pub Ala-Asema, Aurinkoravintola Ylläs and Bistro Hissi (95980 Ylläsjärvi) on the other.
+- Nothing is claimed about distance or travel between the villages; no row states one.
+
+INTRO
+- "Selvä Pyy at Tunturintie 16 is the pub locals and skiers use": Selvä Pyy (address 'Tunturintie 16, 95970 Äkäslompolo'; description "The go-to pub in Äkäslompolo village… this is where locals and skiers converge").
+- "Joiku Pub on Jakolantie has the village's largest sun terrace and a karaoke floor": Joiku Pub (address 'Jakolantie 2, 95970 Äkäslompolo'; "karaoke and a dance floor"; "The village's largest sun terrace belongs to the pub").
+- "Los Lompolos on Sivulantie is the small cocktail room in the centre": Los Lompolos (address 'Sivulantie 5e, 95970 Äkäslompolo'; type "Cocktail bar"; "A small bar in the centre of Äkäslompolo").
+- "Three venues share one address at Äkäsentie 10: Ravintola Pirtukirkko, the Takka bar beside it and Pirtukellari Night Club downstairs": identical address 'Äkäsentie 10, 95970 Äkäslompolo' on Ravintola Pirtukirkko, Takka bar and Pirtukellari Night Club; Takka bar ("in the same building as and next to Restaurant Pirtukirkko"); Ravintola Pirtukirkko ("Pirtukellari Night Club is in the basement of the same building").
+- "Y1 Ski Pub at Tunturintie 56 is on the same side, near the base of the Aurinko-Express chairlift at Aurinkokuru": Y1 Ski Pub (address 'Tunturintie 56, 95970 Äkäslompolo'; description "at Ylläs Ski Resort on the Äkäslompolo side, near the base of the Aurinko-Express chairlift at Aurinkokuru").
+- "Ski pub Ala-Asema and Bistro Hissi both sit at Iso-Ylläksentie 44, next to the gondola's lower station and the Ylläs Express chairlift": Ski pub Ala-Asema (address 'Iso-Ylläksentie 44, 95980 Ylläsjärvi'; "next to the lower station of the Ylläs gondola on the Ylläsjärvi side") and Bistro Hissi (same address; "at the foot of the slopes on the Ylläsjärvi side, by the Ylläs Express chairlift").
+- "the Bistro at Lapland Hotels Saaga at number 42": Bistro (Lapland Hotels Saaga), address 'Iso-Ylläksentie 42, 95980 Ylläsjärvi'.
+- "Bar Kaappi and Taiga Ylläs share Vaeltajantie 2 at the foot of the Ylläs Ski South slope": Bar Kaappi (address 'Vaeltajantie 2, 95980 Ylläsjärvi') and Taiga Ylläs (same address; "at the foot of the Ylläs Ski South slope in Ylläsjärvi").
+- "Miilu Bar & Grill stands on the shore of Lake Ylläsjärvi as part of Miilu Resort": Miilu Bar & Grill, description verbatim.
+
+KNOW 1
+- Postcodes 95970 / 95980: address fields, see above.
+- "Miilu Bar & Grill is out on the shore of Lake Ylläsjärvi at Rantasaarentie 3-5" and the arrival modes "car, foot, skis, bike and snowmobile": Miilu Bar & Grill ("It can be reached by car, on foot, on skis, by bike or by snowmobile").
+
+KNOW 2
+- "Two places run on the lift timetable" — and only two. Aurinkoravintola Ylläs ("a traditional slope restaurant on the Aurinko slope on the Ylläsjärvi side of Ylläs, open during the ski season according to the lift timetables"; source note "Winter season only, open according to the ski lift timetables. Closed outside the ski season") and Bistro Hissi ("open when the lifts are running"; source note "Open when the lifts are running (winter season). Closed outside the ski season").
+- "Pirtukellari Night Club opens in ski season on Friday and Saturday nights": Pirtukellari Night Club, hours.en = "Ski season only, Fri–Sat nights; closed off-season". No lift is mentioned in that row, so it is not presented as lift-driven.
+- "Y1 Ski Pub at Aurinkokuru opens in November 2026": Y1 Ski Pub ("near the base of the Aurinko-Express chairlift at Aurinkokuru"; source note "Opening in November 2026 (venue's own page). Closed at the time of checking, 12.9.2026"). A one-off opening date, again not a lift dependency.
+
+KNOW 3
+- "Restaurant services at Lapland Hotels Äkäshotelli, which cover Ravintola Pirtukirkko and the Takka bar, are closed from 27 September to 20 November 2026": Takka bar source note ("27.9.–20.11.2026: the fireplace bar is closed"; "Koko hotellin ravintolapalvelut kiinni 27.9.–20.11.2026") and Ravintola Pirtukirkko source note ("27.9.–20.11.2026 the restaurant is closed").
+- "At Lapland Hotels Saaga the hotel's own pages disagree: the Bistro's hours are marked until 26 September, while the seasonal notice says the restaurants are closed from 24 September to 14 November": Bistro (Lapland Hotels Saaga) row comment ("Huomaa hotellin oma ristiriita: bistron aukiolo on merkitty 26.9. asti, mutta kausitiedote sanoo ravintolat kiinni jo 24.9. alkaen") and its source line ("19.6.–26.9.2026: 16–22. From 24.9. to 14.11.2026 the hotel's restaurants are closed (hotel's seasonal notice)").
+- "Cafe & Bar Routa in Äkäslompolo is open all year but closes at 17": Cafe & Bar Routa (address 'Sannanrannantie 3, 95970 Äkäslompolo'; "It closes at 17, so it is a daytime spot rather than an evening bar"; source note "Listed as open all twelve months").
+
+NOT CLAIMED ON PURPOSE
+- No ratings: no Ylläs row has a rating field.
+- No hours in the meta description: 14 of the 16 rows carry hours.en = "Check venue for current hours".
+- No prices: 13 of the 16 rows carry only "Prices on the venue site"; the three beer figures (Selvä Pyy, Pirtukellari, Bar Kaappi) and the Routa 3–18 euro range were left out rather than presented as a Ylläs price level.
+- No distances or travel times between Äkäslompolo and Ylläsjärvi: no row states one.
+- No ticket prices for dance nights: Ravintola Pirtukirkko and Lobby Bar (Lapland Hotels Ylläskaltio) say only that admission is included in the room rate. The dance nights themselves are no longer used as a village-defining trait in the tagline.
+- The "only nightclub in Ylläs" phrasing was avoided: the Pirtukellari row's own comment records that claim as dropped.
+- Ruka and Iso-Syöte are not mentioned; nothing here places any venue outside Finnish Lapland.
+
+## saariselka
+
+CHANGES MADE IN THIS PASS (the six reviewer findings, and nothing else)
+1. intro / Giitu: "pours craft beer and Lappish plates daily until 02" → "pours craft beer daily until 02, with the kitchen on until 22." The row's hours.en is "Daily 12–02, kitchen 12–22", so the food promise now stops where the source says the kitchen stops.
+2. know[0]: "so the evening is walkable" DELETED — no Saariselkä row carries a distance, a walking time or a walkability statement. The street list is kept as a plain restatement of the address fields, and "in the centre" is now attributed only to the five rows that say it.
+3. description: "Ratings, hours, prices." DELETED. Measured: only 2 of the 14 Saariselkä venues appear in src/data/generated/venue-ratings.json (Gastropub Giitu 4.7, Teerenpesä 4.4); 12 of 14 price fields read "Prices on the venue site" and 10 of 14 hours fields read "Check venue for current hours". The meta now lists only venue kinds, which the type fields carry.
+4. know[2]: "so that trip needs a car" DELETED — no row says how Kakslauttanen is reached. The sentence now ends at the sourced location fact, and no kilometre figure is introduced either.
+5. description: "a gastropub in the centre" → "a gastropub" (no centre claim). Giitu's row says only "The best bar in Saariselkä" and gives Revontulentie 1; no row wording places it in the centre. "pubs in the village centre" is kept because it is now carried by the two rows that state it (see below).
+6. intro / Kieppi: "opens its bar corner at 09" → "opens its bar corner several hours before the kitchen." The clock time is dropped, matching the rule that no clock times are promised for a venue whose rendered hours field reads "Check venue for current hours".
+
+TITLE / DESCRIPTION / TAGLINE
+- "Village Pubs" (title) / "pubs in the village centre" (description) = Local Pub Panimo Saariselkä, type "Pub", description "A pub in the centre of Saariselkä"; and Kaunis Jorma Saariselkä, type "Pub", description "A small pub in the centre of Saariselkä". (Restaurant Pirtti is also type "Pub" but its row makes no centre claim, so it is not part of the centre wording.)
+- "a gastropub" = Gastropub Giitu, type "Gastropub & Craft Beer", address Revontulentie 1, 99830 Saariselkä. No location claim beyond the address.
+- "a dance restaurant" / "Dances" = Restaurant Siula, type "Dance restaurant" (also Teerenpesä, "nightclub that runs both traditional couples' dances and a disco floor").
+- "an aurora lounge on the Kaunispää summit" / "a Summit Lounge" / "one bar at the summit of Kaunispää" = Northern Lights Lounge, type "Aurora lounge bar", "the Kaunispää summit restaurant runs as the Northern Lights Lounge", address Kaunispääntie 260.
+- "one out on the ski trail" = Mettäbaari, "a bar in the forest beside Saariselkä's fitness/ski trail, two kilometres towards Laanila".
+
+INTRO
+- "Gastropub Giitu on Revontulentie" = Gastropub Giitu, address Revontulentie 1, 99830 Saariselkä.
+- "pours craft beer daily until 02, with the kitchen on until 22" = Gastropub Giitu, description "impressive craft beer selection"; hours.en "Daily 12–02, kitchen 12–22". The two clock times are the two the rendered hours field itself shows, so nothing is promised that the card does not display.
+- "Teerenpesä on Saariseläntie is three venues under one log roof: a Lappish restaurant, a sports pub with darts and pool, and a nightclub running couples' dances and a disco floor" = Teerenpesä, address Saariseläntie 5, description "Three venues under one log roof in the centre of Saariselkä: a Lappish restaurant doing seasonal northern dishes, a sports pub with screens, darts and pool, and a nightclub that runs both traditional couples' dances and a disco floor".
+- "Local Pub Panimo at number 10 has its own men's and women's saunas" = Local Pub Panimo Saariselkä, address Saariseläntie 10, description "separate men's and women's saunas that guests can use during public hours or book privately"; highlight "Public sauna".
+- "Lobby Bar Takka at number 13 is the fireplace bar at Lapland Hotels Riekonlinna" = Lobby Bar Takka, address Saariseläntie 13, description "The fireplace lobby bar at Lapland Hotels Riekonlinna"; highlight "Fireplace bar".
+- "Kaunis Jorma on Kiveliöntie runs karaoke and free bingo on Thursdays at 19:00" = Kaunis Jorma Saariselkä, address Kiveliöntie 3, description "karaoke ... Free bingo runs every Thursday at 19:00"; highlights "Karaoke", "Free bingo Thursdays". This is an event time stated in the description text, not an opening hour.
+- "Kieppi Kitchen & Bar on Raitopolku opens its bar corner several hours before the kitchen" = Kieppi Kitchen & Bar, address Raitopolku 1, description "A bar corner serves drinks and opens several hours before the kitchen". The row's highlight "Bar open from 09" is deliberately NOT quoted, because the rendered hours field says "Check venue for current hours".
+- "Restaurant Pirtti and the dance restaurant Siula share the restaurant building at Santa's Hotel Tunturi on Lutontie" = Restaurant Pirtti ("The pub in the restaurant building of Santa's Hotel Tunturi", Lutontie 3) and Restaurant Siula ("The dance restaurant in the restaurant building of Santa's Hotel Tunturi", Lutontie 3, type "Dance restaurant").
+- "Restaurant Kaunis at Star Arctic Hotel" on Kaunispää = Restaurant Kaunis, description "The restaurant of Star Arctic Hotel on the Kaunispää fell", address Ylämajantie 1.
+- "the summit restaurant that becomes the Northern Lights Lounge" = Northern Lights Lounge, description "the Kaunispää summit restaurant runs as the Northern Lights Lounge".
+
+KNOW 1
+- Street list = address fields of Teerenpesä / Local Pub Panimo / Lobby Bar Takka / Bistro & Café Kuukkeli (Saariseläntie), Gastropub Giitu (Revontulentie), Kaunis Jorma (Kiveliöntie), Kieppi Kitchen & Bar (Raitopolku), Restaurant Pirtti and Restaurant Siula (Lutontie). No distance, walking time or walkability is claimed, in metres or in words, because none is on the rows.
+- "Teerenpesä, Local Pub Panimo, Kaunis Jorma, Kieppi and Bistro & Café Kuukkeli each describe themselves as being in the centre of Saariselkä" = Teerenpesä "in the centre of Saariselkä", Local Pub Panimo "A pub in the centre of Saariselkä", Kaunis Jorma "A small pub in the centre of Saariselkä", Kieppi "in central Saariselkä" + highlight "Central Saariselkä", Bistro & Café Kuukkeli "in the centre of Saariselkä". Lobby Bar Takka, Restaurant Pirtti and Restaurant Siula are named on the street list only, because their rows carry no centre wording.
+- "Mettäbaari ... 2 km out towards Laanila and you step in straight off the ski trail" = Mettäbaari, description "two kilometres towards Laanila", "you can step in straight off the ski track"; highlight "Step in straight off the ski trail, 2 km towards Laanila".
+
+KNOW 2
+- "Wednesday and Saturday evenings through the dark season" = Northern Lights Lounge, description "On Wednesday and Saturday evenings through the dark season".
+- "ticket that includes entrance, one warm drink, snacks and a host" = same row, "A ticket includes entrance, one warm drink and snacks, and a host for the evening".
+- "Return transfers from Saariselkä can be added to the ticket" = same row, "Return transfers from Saariselkä can be included in the ticket". No ticket price is quoted, because the row's price field reads "Prices on the venue site".
+
+KNOW 3
+- "Several venues publish no daily hours" = hours.en "Check venue for current hours" on Local Pub Panimo, Kieppi Kitchen & Bar, Restaurant Pirtti, Restaurant Siula, Mettäbaari, Restaurant Kaunis, Northern Lights Lounge, Igloo Bar, Piano Bar at East Village Restaurant, Bistro & Café Kuukkeli (10 of 14 rows).
+- "Restaurant Pirtti ... opens in high seasons only" = Restaurant Pirtti, description "Lapland North notes it is open during high seasons only, and neither the hotel nor Lapland North publishes daily opening hours".
+- "Restaurant Kaunis ... closed from 20 April to 29 October 2026" = Restaurant Kaunis, source comment "Closed 20.4.-29.10.2026 per the hotel's own page".
+- "The two Kakslauttanen bars, Igloo Bar and the Piano Bar, sit outside the village on Kiilopääntie" = Igloo Bar (Kiilopääntie 9, comment "The resort sits outside Saariselkä village on Kiilopääntie") and Piano Bar at East Village Restaurant (Kiilopääntie 9, comment "Same postal area caveat as the Igloo Bar"). Nothing is said about how the resort is reached, because no row says.
+
+NOT USED ON PURPOSE
+- Google ratings: only Gastropub Giitu (4.7) and Teerenpesä (4.4) exist in src/data/generated/venue-ratings.json for this city; the other 12 venues are absent, so no ratings promise is made anywhere in the copy.
+- Hours from source comments that the rendered hours field withholds (Local Pub Panimo "Daily 14-02, Fri-Sat 14-03"; Kieppi "Daily bar 9-22:30, a la carte 14-21:30" and the highlight "Bar open from 09"; Mettäbaari "Daily 11-18, season 1 September - 30 April"; Northern Lights Lounge "Wed and Sat 21-23:30, season 6 November 2026 - 10 April 2027"): the page shows "Check venue for current hours", so no clock times are promised for those venues.
+- Lobby Bar Takka "Mon–Sun 15–22": the row comment flags these as summer-2026 hours that may differ in the ski season, so they are not quoted.
+- All prices (Giitu beer ~€7–8 and mains €16–25, Teerenpesä beer, Panimo sauna, Kieppi soup lunch €14.90, Northern Lights Lounge tickets): no price is stated anywhere in this copy, and the meta no longer promises prices.
+- Kakslauttanen distance "9 km from the village" appears only in an agent note in the Piano Bar row comment, so no kilometre figure and no travel-mode conclusion is given for it.
+- The two Kakslauttanen rows and Bistro & Café Kuukkeli carry open verification caveats (postal-area question, address conflict), so no claim beyond location is made about them.
+
+## ruka
+
+TITLE. "Slope Bars" = type field of Rinneravintola Piste and Monomesta ("Slope bar"). "Karaoke" = Bar Ihku Ruka (type "Karaoke bar and night club", highlight "Karaoke every night"). "Live Music" = Ravintola Zone (type "Night club and live music restaurant", highlight "Over 100 live nights a year") + Hanki Baari (highlight "Live music and DJ nights") + Restaurant Colorado Ruka (highlight "Live music most weeks in ski season"). CHANGED: the previous title's "an Ice Bar" is removed. The Rukan Salonki Ice Bar row's own comment reads "Stale listing - verify before publishing", the only page carrying it is ruka.fi with dates 4.2.2025-23.3.2025, and the operator's site rukansalonki.fi "does not mention an ice bar at all", so the venue cannot carry a headline promise.
+
+DESCRIPTION. "karaoke and live music on Rukankyläntie" = Bar Ihku Ruka (Rukankyläntie 15, karaoke every night) + Ravintola Zone (Rukankyläntie 13, over 100 live nights a year) + Hanki Baari (Rukankyläntie 11, live music and DJ nights) + Restaurant Colorado Ruka (Rukankyläntie 6, live music most weeks in ski season). "a slope bar reached only on skis" = Monomesta (description: reachable only on skis with a valid lift ticket, no road access). "a hotel restaurant bar out on the lake shore" = Hotelli-ravintola Rukatonttu (type "Hotel restaurant bar"; description "on the shore of Lake Talvijarvi, 650 metres from Ruka village centre"). CHANGED, three removals: (1) "Ratings" is gone — the Bar interface has no rating or review field at all (only name, city, type, description, highlights, price, address, website, hours, featured, tour), so no Ruka row carries one. (2) "prices" is gone — the price field of all 13 Ruka rows reads "Prices on the venue site" / "Hinnat kohteen sivulla", and the only euro figures on the rows are gig and door tickets, breakfasts, sauna, bowling and pool, none of them a drink price shown on the page. (3) "an ice bar by the lake" is gone for the stale-listing reason given under TITLE.
+
+TAGLINE. "Six of these venues stand on one street, Rukankyläntie" = the six address fields on that street: Restaurant Colorado Ruka (Rukankyläntie 6), Hanki Baari (11), Ravintola Zone (13), Bar Ihku Ruka (15), Lobby Bar Scandic Rukahovi (15), Rinneravintola Piste (17). "one more has no road to it at all" = Monomesta (no road access; address field states no street address published).
+
+INTRO, claim by claim.
+- "Ruka’s bar street is Rukankyläntie, in Kuusamo, and six venues carry its address" = the six Rukankyläntie addresses above, counted; "Kuusamo" from the address fields of Bar Ihku Ruka (93830 Kuusamo), Rinneravintola Piste (93825 Kuusamo), Restaurant Colorado Ruka (93825 Kuusamo) and Monomesta ("Ruka ski resort, Kuusamo"). CHANGED: the previous "most of an evening happens along it" is removed. That was a behavioural claim about where visitors spend the night, and no row carries a visitor-volume, capacity or footfall figure; the addresses support only the count, and 7 of the 13 Ruka rows are not on that street (Ahon Jussintie 7, Bistrotie 2, Jussinkuja 3, Salongintie 8, Rukatunturintie 9, Hiihtostadionintie 1, and Monomesta with no street address).
+- "Restaurant Colorado sits at number 6 in the walking centre with billiards and a sun terrace" = Restaurant Colorado Ruka (address Rukankyläntie 6; description "in the walking centre of Ruka"; highlights "Sports screens and billiards", "Sun terrace").
+- "Hanki Baari at 11 pours local beers and books live artists and DJs through the winter" = Hanki Baari (address Rukankyläntie 11; description "local beers, craft drinks, wines and coffee", "a rotating calendar of live artists and DJs through the winter").
+- "Ravintola Zone at 13 says it hosts over 100 live nights a year and keeps the grill on until 04" = Ravintola Zone (address Rukankyläntie 13; description "Its own site says it hosts over 100 live nights a year"; highlight "Grill kitchen until 04").
+- "Scandic Rukahovi at 15 holds two rooms: the Lobby Bar and Bar Ihku, the karaoke bar and night club" = Lobby Bar Scandic Rukahovi (address Rukankyläntie 15; description "The lobby bar of the Scandic Rukahovi hotel in the centre of Ruka village") + Bar Ihku Ruka (address Rukankyläntie 15; description "inside the Scandic Rukahovi hotel"; type "Karaoke bar and night club"). The two are the same building per Bar Ihku’s source comment and the Lobby Bar comment ("93830 for Rukankyläntie 15 is taken from barihku.fi, which is in the same building").
+- "Rinneravintola Piste stands at number 17, at the foot of the front slopes" = Rinneravintola Piste (address Rukankyläntie 17; highlight "At the foot of the front slopes").
+- "Vuosseli is the other named part of Ruka, and three venues place themselves in it: Ski Booster on Ahon Jussintie, CAMP Kitchen & Bar on Bistrotie and Rukan Olkkari on Jussinkuja" = Ski Booster (description "in the Vuosseli part of Ruka", address Ahon Jussintie 7) + CAMP Kitchen & Bar (description "in the Vuosseli side of Ruka, in Ruka Valley", address Bistrotie 2) + Rukan Olkkari (description "in Ruka’s Vuosseli area", address Jussinkuja 3). CHANGED: the word "cluster" is removed. The three rows give a district name, not proximity — they sit on three different streets and no distance between them is published on any row — so the sentence now claims only that each venue places itself in Vuosseli.
+- "Four sit outside both: Rukatonttu, 650 metres from the village centre on Lake Talvijarvi; Monomesta, a terrace below the Pessari slopes with no road to it; Rukan Salonki Ice Bar on Salongintie; and Rukan keilahalli on Rukatunturintie" = Hotelli-ravintola Rukatonttu (description "on the shore of Lake Talvijarvi, 650 metres from Ruka village centre"; address Hiihtostadionintie 1) + Monomesta (description "at the foot of the Pessari slopes", "there is no road access") + Rukan Salonki Ice Bar (description "by the lake outside Ruka village"; address Salongintie 8) + Rukan keilahalli (address Rukatunturintie 9). CHANGED: the previous "Two sit apart" is replaced. It was an exhaustive claim the page contradicted one paragraph later, because know[0] places the ice bar outside the village as well, and Rukan keilahalli is in neither named area either. The arithmetic is exact: 13 Ruka rows, 6 on Rukankyläntie, 3 in Vuosseli, 4 left over — the four now named.
+
+KNOW 1.
+- "no road access", "on skis with a valid lift ticket", "day shows are free", "serving area is 18+" = all four from the Monomesta description; "at the foot of the Pessari slopes" from the same row’s description and address field.
+- "out at the chalets by the lake on Salongintie, not in the village" = Rukan Salonki Ice Bar (description "at Rukan Salonki Chalets, by the lake outside Ruka village"; address Salongintie 8). No distance or travel time claimed, because none is published on that row, and no season or opening promise is made anywhere on the page because the row is flagged stale.
+
+KNOW 2.
+- "Bar Ihku takes door tickets from 8 euros and 10–25 euros on artist nights" = Bar Ihku Ruka source comment, "Hinta lahteessa: Door tickets from EUR 8, artist nights EUR 10-25".
+- "Hanki Baari’s gigs usually run 10–15 euros" = Hanki Baari source comment, "Hinta lahteessa: Gig tickets typically EUR 10-15" (the same comment notes this is gig ticket pricing, not drink pricing, which is why it is worded as gig tickets).
+- "live music at Restaurant Colorado is free to enter" = Restaurant Colorado Ruka source comment, "live music entry is free".
+
+KNOW 3.
+- "Ski Booster ... closed on Mondays and Tuesdays" = Ski Booster hours field, "Wed–Thu 11–22, Fri–Sat 11–24, Sun 11–22, Mon–Tue closed".
+- "Rukan keilahalli ... closed on Mondays and Tuesdays, and ... on Sundays as well" = Rukan keilahalli hours field, "Mon–Tue closed, Wed–Sat 15–21, Sun closed".
+- "Rukatonttu serves Tuesday to Saturday 17–21" = Hotelli-ravintola Rukatonttu hours field, "Tue–Sat 17–21".
+- "CAMP Kitchen & Bar is shut from 19 October to 17 November 2026 for a kitchen renovation and reopens daily 11–21 on 19 November" = CAMP Kitchen & Bar source comment, "closed 19.10.-17.11.2026 for kitchen renovation, winter season from 19.11. daily 11-21".
+
+NOT USED, and why. No rating is claimed anywhere, because the Bar interface has no rating field. No venue drink price is claimed anywhere, because every Ruka row's price field says the prices are on the venue's own site. Bar Ihku’s clock times (daily from 14, karaoke Sun–Thu 21–02, Fri–Sat 21–04, night club Fri 21–04, Sat 22–04), Ravintola Zone’s daily 8–04 and the Lobby Bar’s daily 9–01:30 live only in source comments while those rows’ own hours fields say "Check venue for current hours", so no opening time for those three is stated on the page. Rinneravintola Piste’s "Daily 11–18" is on the row but its comment marks it a dated seasonal block, so it is not presented as a standing week. The Rukan Salonki Ice Bar listing is flagged stale in its comment (2025 dates, operator site does not list the venue), so it appears only as a location in the intro and know[0] and carries no season, hours or headline slot. Rukan Olkkari has no hours on the row, so none are given. Colorado’s breakfast prices (EUR 14.50 / EUR 8), Rukatonttu’s breakfast EUR 19.50 and sauna EUR 14, and the bowling and pool prices (EUR 36 per lane hour, EUR 10 per hour) are on the rows but are food, sauna and game prices rather than drink prices, so they are left to the venue cards. No claim is made that Ruka is in Lapland: every geographic reference is to Kuusamo, Ruka village, Vuosseli or a named slope.
+
+## luosto
+
+Every claim and the bars.ts row it is read from (all seven rows carry city: 'Luosto').
+
+CHANGES MADE IN THIS PASS (the six counter-reader findings, and nothing else)
+1. description — "Ratings, hours, prices." removed. No row carries a rating field (the string "rating" does not occur in bars.ts), and hours/prices are exactly what the body withholds (every row: hours.en "Check venue for current hours", price.en "Prices on the venue site"). Replaced with "a hut bar and ticketed dance nights", both already sourced below.
+2. know[1] — "Karhu charges nothing for karaoke and is K-18" → "Karhu's karaoke is free of charge and K-18". The row binds the age limit to karaoke only, not to the venue.
+3. intro — the opening sentence "Most of the drinking in Luosto belongs to two hotels and the shopping centre" removed as an unsourced share judgement. Replaced with "Seven places in Luosto serve drinks.", a count of the seven rows (the same count know[2] already uses).
+4. know[2] — "the hotel venues follow the event calendar" split: only Karhu is event-calendar-driven; Keloravintola's row states the opposite mechanism (reservation only apart from theme nights and ticketed dances), so it is now named separately with its own wording.
+5. tagline — "300 metres up the road" → "about 300 metres from Lapland Hotels Luostotunturi", restoring the row's "about" and dropping the road relationship the source never states.
+
+TITLE / TAGLINE / H1
+- "One Nightclub" and "the village has one nightclub" — Nightclub Karhu row: description "on the hotel's own wording, the village's only nightclub"; highlight "The only nightclub in Luosto village, per the hotel's own site".
+- "Dance Nights" and "the live dance orchestras play in a log restaurant about 300 metres from Lapland Hotels Luostotunturi" — Keloravintola (Log Restaurant Kelo) row: "an atmospheric log restaurant about 300 metres from Lapland Hotels Luostotunturi"; "Its public evenings are ticketed dances with live dance orchestras". The row's comment forbids printing the hotel's street address as the restaurant's own, and its address field records that no separate street address is published; the tagline therefore names the hotel as the reference point exactly as the row does, with "about" kept.
+- "a Hut Bar" — Aarnikota row: type "Hut café and bar"; description "calls itself a 'Hut Café and Bar'".
+
+DESCRIPTION
+- "the hotel nightclub ... on Luostontie" — Nightclub Karhu row, address "Luostontie 1, 99555 Luosto (Lapland Hotels Luostotunturi)".
+- "Rumpu Bar on Luostontie" — Rumpu Bar (Rumpubaari) row, address "Luostontie 1, 99555 Luosto".
+- "a pub in the shopping centre" — Restaurant Punakettu row: "a family restaurant in Luosto's shopping centre that its own English site describes as 'a restaurant and a pub'".
+- "a hut bar" — Aarnikota row (as above).
+- "ticketed dance nights" — Keloravintola row: "Its public evenings are ticketed dances with live dance orchestras"; highlight "Ticketed dance evenings with live orchestras, 15-20 EUR".
+- Nothing is promised that the page does not carry: no ratings (no such field exists in bars.ts), no opening times, no drink prices.
+
+INTRO
+- "Seven places in Luosto serve drinks." — a count of the seven rows carrying city: 'Luosto' (Nightclub Karhu, Rumpu Bar, Restaurant Punakettu, Restaurant Vaisko, Aarnikota, Restaurant Aurora, Keloravintola). No claim is made about where most drinking happens; no such figure exists in the data.
+- "Lapland Hotels Luostotunturi at Luostontie 1 holds two venues" — Karhu row and Rumpu Bar row, both address "Luostontie 1, 99555 Luosto (Lapland Hotels Luostotunturi)".
+- "which the hotel calls the village's only nightclub" — Karhu row description and first highlight.
+- "Rumpu Bar, next to the Bistro restaurant and open to dogs" — Rumpu Bar row: "sits next to the à la carte restaurant Bistro"; "Dogs are welcome in the bar"; highlights "Next to the hotel's à la carte restaurant Bistro", "Dogs welcome".
+- "Keloravintola, the log restaurant seating 220" — Keloravintola row: "an atmospheric log restaurant ... seating up to 220 diners"; highlight "Log restaurant seating 220".
+- "stands about 300 metres from the same hotel" — Keloravintola row description and address field, both "about 300 m(etres) from Lapland Hotels Luostotunturi".
+- "opens to the public for ticketed dance evenings with live orchestras" — Keloravintola row: "open by reservation only apart from theme nights"; "Its public evenings are ticketed dances with live dance orchestras".
+- "Restaurant Punakettu at Luostontie 4 is in the shopping centre" — Punakettu row description + address "Luostontie 4, 99555 Luosto".
+- "calls itself a restaurant and a pub" — Punakettu row description and highlight "Own site calls it 'a restaurant and a pub'".
+- "a local craft brewery section and Teerenpeli whiskies on the list" — Punakettu row: "a local craft brewery section ... and Teerenpeli whiskies"; highlights "Local craft brewery section on the drinks list", "Teerenpeli whiskies". (The row's comment forbids naming specific tap beers or the Lapin Panimo / Tornio Panimo bottles; none are named here.)
+- "Restaurant Aurora at Luppokeino 1 belongs to Santa's Hotel Aurora, within walking distance of the village centre" — Restaurant Aurora row: "the restaurant of Santa's Hotel Aurora, within walking distance of Luosto village centre"; address field.
+- "the hotel names a lobby bar among its dining services" — Restaurant Aurora row: "The hotel lists a lobby bar among its dining services"; highlight "Lobby bar named on the hotel's own service list".
+- "Restaurant Vaisko at Hartsutie 1 welcomes guests in for a drink alone" — Restaurant Vaisko row: "The site states you are welcome at Vaisko just for a drink"; highlight "Own site invites guests in just for a drink"; address "Hartsutie 1, 99555 Luosto".
+- "a Laplander's hut at Kerotie 10 in Aarniluosto, about 1.5 km from the centre, reachable on foot, on skis, on snowshoes or by car" — Aarnikota row: "a small traditional Laplander's hut in Aarniluosto about 1.5 km from Luosto centre, reachable on foot, on skis, on snowshoes or by car"; address "Kerotie 10, 99555 Luosto (at the end of Kerotie road, Aarniluosto)".
+
+KNOW 1 (seasons)
+- "Vaisko is closed between seasons and opens for 2026–2027 on 26 November" — Restaurant Vaisko row comment: "Winter-season venue: opens 26.11.2026 for the 2026-2027 season"; "Closed at the time of checking. Season 2026-2027 opens 26 November 2026; no daily hours published".
+- "Aarnikota publishes dated windows instead of a standing timetable; Wednesday to Sunday 11–16 for the ruska season, to 27 September 2026" — Aarnikota row comment: "Opens only in defined seasonal windows; the current one is the Ruska season 3.9.-27.9.2026. Publish the window, not a bare weekday range"; "Wed-Sun 11-16 during the published Ruska season 3.9.-27.9.2026".
+
+KNOW 2 (entry and tickets)
+- "Karhu's karaoke is free of charge and K-18" — Karhu row highlight "Karaoke free of charge, K-18"; comment "No entry fee for karaoke (K-18)". The row ties both the free entry and the age limit to karaoke, and publishes no venue-wide age limit; the copy therefore states neither.
+- "live-band nights there are 10 euros" — Karhu row highlight "Live bands 10 EUR on artist nights"; comment "Live-band nights at Karhu 10 EUR".
+- "Keloravintola's public dance evenings are ticketed at 15–20 euros" — Keloravintola row highlight "Ticketed dance evenings with live orchestras, 15-20 EUR"; comment "Dance-night tickets 15-20 EUR".
+- "The 3-euro cloakroom fee is not included in the ticket price" — Karhu row comment: "Cloakroom fee 3 EUR, not included in ticket prices".
+
+KNOW 3 (no standing weekly hours)
+- "None of the seven publishes standing weekly opening hours" — all seven rows carry hours.en "Check venue for current hours".
+- "Karhu follows the hotel's event calendar" — Karhu row comment: "Hours are not published as fixed weekly opening times by the venue; they follow the event calendar"; "Event-driven; check the hotel's own event calendar". This is the only row that says so, so it is the only venue named for it.
+- "Keloravintola is by reservation only apart from theme nights and ticketed dances" — Keloravintola row comment: "By reservation only apart from theme nights and ticketed dances"; "Not a walk-in bar: apart from ticketed theme and dance nights it is a booking-only function restaurant".
+- "Punakettu, Rumpu Bar and Aarnikota publish theirs as dated periods" — Punakettu row comment: "the site publishes hours only as dated periods, so verify before each season"; Rumpu Bar row comment: "The hotel publishes opening hours only as dated seasonal windows, never as a standing daily time"; Aarnikota row comment as above.
+- "Restaurant Aurora publishes no times at all" — Restaurant Aurora row comment: "the venue's own page has an 'Opening hours' heading with no times published"; and "Do not publish 'Mon-Sat 16-22, Sun closed' — that figure appears nowhere on the venue's or the hotel's own pages".
+
+DELIBERATELY NOT WRITTEN (source forbids or does not support)
+- No ratings anywhere: bars.ts has no rating field on any row, so the meta description no longer promises one.
+- No weekly opening times for any venue (e.g. luosto.fi's "Fri-Sat 20-01" for Karhu, which the Karhu row's comment says the hotel's own calendar contradicts; and Vaisko's aggregator hours, which its comment says contradict the restaurant's own announcement).
+- No drink prices: every row's price field is "Prices on the venue site", and the Punakettu comment bars the 10 EUR half-litre.
+- No claim about which venues take the largest share of Luosto's drinking: no visitor, volume or share figure exists in the data.
+- No distance figures other than the two published ones (Aarnikota 1.5 km, Keloravintola about 300 m). Vaisko's and Punakettu's distances from each other are not in the data, so none is claimed.
+- No street address for Keloravintola itself, and no "up the road" or other road relationship: its address field states no separate street address is published and its comment forbids printing the hotel's as its own.
+- Luosto is in Finnish Lapland, so the Ruka / Iso-Syöte geography rule does not apply to this page; neither is mentioned.
+
+## pyha
+
+Every claim below is read off the six Pyhä rows in C:\Users\pesol\projects\laplandvibes\laplandbars-new\src\data\bars.ts (rows: Hanki Baari Pyhä, Mesta, Pyhä Dreams Wine Bar, CAMP Kitchen & Bar PYHÄ, Restaurant Huttuhippu, Sport Bar Pyhä).
+
+TITLE
+- "Slope Pubs": type 'Slope pub' (Restaurant Huttuhippu), type 'Slope bar' (Mesta), type 'Slope bar (talvikausi)' (Hanki Baari Pyhä).
+- "a Fell-Top Wine Bar": type 'Wine bar', "Pyhätunturin huipulla" (Pyhä Dreams Wine Bar).
+- "Karaoke": "karaoke ranging from evergreens to newer songs", highlight 'Karaoke and billiards' (Sport Bar Pyhä).
+
+DESCRIPTION
+- "a slope pub beside the family slope": type 'Slope pub' + description "next to Pyhä's family slope", highlight 'Next to the family slope' (Restaurant Huttuhippu).
+- "a wine bar on the summit": type 'Wine bar' + address "Pyhätunturin huippu" (Pyhä Dreams Wine Bar).
+- "a year-round sports bar with karaoke": type 'Sports bar', "open all year round from the afternoon until late", "karaoke ranging from evergreens to newer songs", highlight 'Open year-round' (Sport Bar Pyhä).
+- "Hours and addresses": both fields exist on the rows (hours.en on three rows, a placeholder on three; address on all six). No rating field exists anywhere in bars.ts and every Pyhä price field renders "Prices on the venue site", so neither ratings nor prices are promised.
+- The closed Hanki Baari Pyhä is not named in the description, so the SERP snippet offers no venue that is shut.
+
+TAGLINE
+- "Six bars around one resort": six Pyhä rows, all with the postal address 98530 Pyhätunturi.
+- "the wine bar is at the top of the fell": address "Pyhä Dreams -maisemamökki, Pyhätunturin huippu" (Pyhä Dreams Wine Bar).
+- No count of venues per street is claimed, because Mesta's street number is comment-flagged as unverified (see OMITTED below).
+
+INTRO
+- "in Pyhätunturi": postal address 98530 Pyhätunturi on all six rows. The municipality (Pelkosenniemi) is named on one row only (Pyhä Dreams) and is therefore not stated for the group.
+- "Two of them stand beside hotels": description "next to Hotel Kultakero" (Mesta) and "next to Hotel Pyhätunturi" + highlight 'Next to Hotel Pyhätunturi' (CAMP Kitchen & Bar PYHÄ). No street number is given for Mesta.
+- "a bar and terrace in the middle of the slopes next to Hotel Kultakero": description wording (Mesta).
+- "CAMP Kitchen & Bar PYHÄ at Kultakeronkatu 21 ... where panoramic windows face the fells": address Kultakeronkatu 21 + description "Panoramic windows open onto the fell scenery", highlight 'Panoramic fell views' (CAMP Kitchen & Bar PYHÄ).
+- "On the same street, at number 4, Sport Bar Pyhä sits in the Pyhä shopping centre": address Kultakeronkatu 4 + description "A bar in the Pyhä shopping centre" (Sport Bar Pyhä). The shared street is claimed only between the two rows whose numbers are not flagged.
+- "a pool table, karaoke and Viaplay sports channels": description "pool table, pinball, a dartboard, air hockey and board games, plus karaoke" + "Viaplay channel package covers sports broadcasts", highlights 'Karaoke and billiards' / 'Viaplay sports channels' (Sport Bar Pyhä).
+- "Restaurant Huttuhippu is at Ukonhattu 1, beside the family slope": address Ukonhattu 1 + description "next to Pyhä's family slope", highlight 'Next to the family slope' (Restaurant Huttuhippu).
+- "its Huttu-Pub is credited with the resort's largest beer selection": description "Pyhä's tourist site calls it the local pub with the largest beer selection in the resort", highlight 'Largest beer selection in the resort' (Restaurant Huttuhippu).
+- "Hanki Baari Pyhä is at Pohjoisrinteentie 1, at the foot of the North Slopes, and is closed until December 2026": address Pohjoisrinteentie 1 + description "Baari Pyhän Pohjoisrinteiden alapäässä" + "Auki jälleen joulukuussa 2026", highlight 'Rinteen juurella Pohjoisrinteillä' (Hanki Baari Pyhä). The closure is stated where the venue is first named, not held back.
+- "in a cabin on the summit of Pyhätunturi, reached by the scenic lift": description "Pyhä Dreams -maisemamökissä Pyhätunturin huipulla, jonne noustaan maisemahissillä", highlight 'Tunturin huipulla, maisemahissin päässä' (Pyhä Dreams Wine Bar).
+
+KNOW 1
+- "closed and opens again in December 2026": description "Auki jälleen joulukuussa 2026" + source note "Open again on December 2026" (Hanki Baari Pyhä).
+- "over-18s after 21:00 unless a parent is with you, and event nights are over-18 all evening": description "Klo 21 jälkeen K-18, paitsi alaikäiset vanhemman seurassa; tapahtumaillat ovat aina K-18", highlight 'K-18 klo 21 jälkeen' (Hanki Baari Pyhä).
+
+KNOW 2
+- "Restaurant Huttuhippu 13–22": hours.en 'Daily 13–22' (Restaurant Huttuhippu).
+- "CAMP Kitchen & Bar PYHÄ 16–21": hours.en 'Daily 16–21' (CAMP Kitchen & Bar PYHÄ).
+- "Sport Bar Pyhä 17–24, which says it is open all year round": hours.en 'Daily 17–24' + description "open all year round from the afternoon until late", highlight 'Open year-round' (Sport Bar Pyhä). No exclusivity is claimed, because Restaurant Huttuhippu's row comment also records "Avoinna päivittäin" year round (with a maintenance break 25.10.–30.11.).
+- "The other three — Mesta, Hanki Baari Pyhä and Pyhä Dreams Wine Bar — publish no set hours": hours.en 'Check venue for current hours' on all three rows.
+
+KNOW 3
+- "at the top of the fell, up the scenic lift": description + address (Pyhä Dreams Wine Bar).
+- "opens for a summer season and again for a winter season, so check the dates with the venue": description names both a summer and a winter season (Pyhä Dreams Wine Bar). The specific dates are not printed, because the row comment marks them as contested ("🔴 Päivät ristiriidassa lähteissä ... ja kauden lopuksi 21.9." + "Varmista päivät suoraan paikasta ennen julkaisua").
+- "guided tasting takes at most eight people, runs about two hours": description "opastetun viinimaistelun enintään kahdeksan hengen ryhmille ... kesto noin kaksi tuntia", highlight 'Opastettu viinimaistelu 5 viinillä, max 8 hlöä' (Pyhä Dreams Wine Bar).
+- "does not include the lift ticket": highlight 'Hissilippu ei sisälly maisteluun' (Pyhä Dreams Wine Bar).
+- "so book ahead": description "Tilat ovat rajalliset, joten ennakkovaraus kannattaa" (Pyhä Dreams Wine Bar).
+
+DELIBERATELY OMITTED (on the rows but not safe to state as page copy)
+- Mesta's street number Kultakeronkatu 21: the row comment says "OSOITE EI VARMISTETTU KOHTEEN OMALTA PINNALTA ... uskottava mutta tarkistettava". No street-count claim rests on it any more; Mesta is placed by "next to Hotel Kultakero", which is on the row itself.
+- The municipality Pelkosenniemi: appears in one address only (Pyhä Dreams), so it is not applied to the other five.
+- Pyhä Dreams season dates (19.6.–20.9.2026 / 21.9.) and days of week: contested in the row comment.
+- Pyhä Dreams tasting price 89 €/person and summer hours 12–17: only in row comments, flagged unverified; price field renders "Prices on the venue site" and hours "Check venue for current hours".
+- Mesta summer opening 10.7. and 12–20: row comment says explicitly unconfirmed, hours left empty.
+- Restaurant Huttuhippu maintenance break 25.10.–30.11. and Thursday bingo: comment-only and not needed; no year-round claim is made for this venue.
+- Sport Bar Pyhä third-party hours variants (ma–to 17–02 etc.): row trusts the operator's own 17–24, which is what is used.
+- Ratings and prices: no rating field exists in bars.ts and all six Pyhä price fields are the placeholder, so neither is promised or stated.
+- No distances between venues are stated anywhere, because none are on the rows.
+
+## iso-syote
+
+Every claim below is traceable to a bars.ts row with city 'Iso-Syöte' (all five read from C:/Users/pesol/projects/laplandvibes/laplandbars-new/src/data/bars.ts).
+
+TITLE / DESCRIPTION
+- "Slope Pub" (singular) / "a pub" = TunturiPUB, the only row of the five whose type is 'Pub' (address Romekievarintie 1; description "sits under the front slopes of Iso-Syöte"). Bistoria is NOT counted as a second pub: its type is 'Restaurant bar' and no row calls it a pub.
+- "hotel bar on Romekievarintie" = Bistoria Iso-Syöte (address Romekievarintie 4; highlight "Bar attached to KIDE Hotel"; description "the restaurant attached to KIDE Hotel ... a relaxed bar for the evening").
+- "After-Ski" / "after-ski bistro by the back lifts" = Pärjä Ski Bistro (type 'After-ski bistro'; description "stands right next to the lifts on Iso-Syöte's back slopes").
+- "a Summit Bar" / "a summit restaurant" = Ravintola Hilltop (type 'Summit restaurant bar'; "at the summit of Iso-Syöte fell").
+- "Addresses and menus." = the `address` field on all five rows (Romekievarintie 1, Romekievarintie 4, Takarinteentie 4, Isosyötteentie 246, Syötekeskuksentie 126) + the menu detail each row's description carries (TunturiPUB pizzas/burgers/salads and a children's menu; Bistoria meat, vegetarian and gluten-free options and a wine list; Pärjä burgers, pizza, international dishes, children's list, desserts; Hilltop foraged mushrooms, berries, reindeer; Kotva regional ingredients and a small-producer wine list). No ratings, hours or price table is promised — see NOT CLAIMED.
+
+TAGLINE
+- "every venue is attached to a hotel, a slope or a grocery shop" — checked one row at a time: TunturiPUB "sits under the front slopes ... and shares premises with the Tunturi Market grocery shop" (slope + grocery shop, NOT a hotel and no lift in its row); Bistoria "attached to KIDE Hotel"; Pärjä "right next to the lifts on Iso-Syöte's back slopes" (slope); Hilltop "on the top floor of the Hilltop Hotel"; Kotva "part of Ski Resort & Hotel Pikku-Syöte". No ownership by a hotel or lift base is claimed for TunturiPUB or Pärjä.
+- "two of the five sit on a fell top" = Ravintola Hilltop ("at the summit of Iso-Syöte fell") and Restaurant Kotva ("on top of Pikku-Syöte fell").
+
+INTRO
+- "attached to its hotels, its slopes and one grocery shop" = the same five-row check as the tagline; "one grocery shop" is TunturiPUB's Tunturi Market, the single row that is not at a hotel.
+- "postal addresses read Syöte or Pudasjärvi" = address fields: 93280 Syöte (TunturiPUB, Bistoria, Hilltop, Kotva) and 93280 Pudasjärvi (Pärjä Ski Bistro).
+- "TunturiPUB at number 1 ... at the foot of the front slopes" = TunturiPUB, address Romekievarintie 1; description "sits under the front slopes of Iso-Syöte".
+- "shares premises with the Tunturi Market grocery shop" = TunturiPUB description + highlight "Shares premises with the Tunturi Market grocery shop".
+- "keeps board games in the corner" = TunturiPUB description ("In the corner there is a pile of board games") + highlight "Board games in the corner".
+- "Bistoria at number 4, the restaurant attached to KIDE Hotel" = Bistoria Iso-Syöte, address Romekievarintie 4; description "the restaurant attached to KIDE Hotel at the foot of the Iso-Syöte fell"; highlight "Bar attached to KIDE Hotel".
+- "wine by the glass from EUR 8.80" = Bistoria highlight "Wine by the glass from EUR 8.80" + description + source comment ("Wine by the glass from EUR 8.80").
+- "TunturiPUB stands a few dozen metres from the hotel, so those two are a short walk apart" = TunturiPUB description ("a few dozen metres from KIDE Hotel") combined with Bistoria being attached to that same hotel. No metric distance is claimed beyond the row's own wording.
+- "Pärjä Ski Bistro ... on the back slopes at Takarinteentie 4, right next to the lifts" = Pärjä address Takarinteentie 4 + description/highlight "Right next to the back-slope lifts".
+- "terrace that catches the spring evening sun" = Pärjä description + highlight "Terrace with spring evening sun".
+- "200 seats on the top floor of the Hilltop Hotel at the summit" = Ravintola Hilltop description ("A 200-seat panoramic restaurant on the top floor of the Hilltop Hotel at the summit of Iso-Syöte fell") + highlight "200 seats at the summit of the fell".
+- "the same room running as Cafe Hilltop from 10:30 to 18:00" = Hilltop description ("The same space runs as Cafe Hilltop between 10:30 and 18:00") + highlight "Cafe Hilltop 10:30-18 in the same room".
+- "Restaurant Kotva is on another fell, on top of Pikku-Syöte at Syötekeskuksentie 126" = Kotva description ("on top of Pikku-Syöte fell") + address Syötekeskuksentie 126 + highlight "On top of Pikku-Syöte fell".
+- "three courses at EUR 59" = Kotva highlight "Three courses EUR 59, five courses EUR 79" + source comment.
+
+KNOW 1
+- "One of the five depends on the season" = Restaurant Kotva alone. Its source comment says "Not year-round" and its description says "Dinner only, on Fridays and Saturdays, and only during the season the venue announces". No other row is seasonal at venue level.
+- "the dates on its own page do not add up, so confirm them" = Kotva source comment ("states the season as 11.9.-3.10.2027, which is internally inconsistent ... confirm the year and dates before travelling"; "never publish Kotva as an always-open restaurant").
+- "at Ravintola Hilltop it is the menu rather than the venue that varies ... a la carte can be limited outside winter and may depend on booking ahead" = Ravintola Hilltop source comment ("Own site warns a la carte may be limited outside the winter season and can depend on advance reservation"). The same comment records the destination listing showing the venue open daily 8-22, so the limitation is stated about the menu only, not about the venue being seasonal.
+
+KNOW 2
+- "closed on Mondays and Tuesdays ... kitchen stops at 21:30 from Wednesday to Saturday ... bar runs to midnight midweek and to 03:00 on Friday and Saturday" = TunturiPUB source comment ("Mon-Tue closed, Wed-Thu 12-00 (kitchen to 21:30), Fri-Sat 12-03 (kitchen to 21:30), Sun 12-19"; "Kitchen closes well before the bar: 21:30 Wed-Sat").
+- "Pärjä Ski Bistro publishes its hours on Facebook only, not on its website" = Pärjä source comment ("Opening hours are on Facebook only, not on the website"; the venue's own site says only "Katso Facebookistamme").
+
+KNOW 3
+- "both are on Romekievarintie by KIDE Hotel, a few dozen metres apart" = TunturiPUB address Romekievarintie 1 + description "a few dozen metres from KIDE Hotel"; Bistoria address Romekievarintie 4 + "attached to KIDE Hotel".
+- "Ravintola Hilltop is at the summit of Iso-Syöte on Isosyötteentie" = Hilltop description + address Isosyötteentie 246.
+- "Restaurant Kotva on top of Pikku-Syöte" = Kotva description + highlight.
+- No kilometre or minute figure is given anywhere, because no row states a distance between venues.
+
+NOT CLAIMED (deliberately omitted, no row support): ratings of any kind — bars.ts has no rating field and none of the five names appears in src/data/generated/venue-ratings.json; hours as page content — the rendered `hours` field on all five is "Check venue for current hours", so only the two hour facts quoted from source comments in KNOW 2 are stated; prices as a comparison — every row's `price` field is "Prices on the venue site" and only Bistoria (EUR 8.80) and Kotva (EUR 59) have any figure, both from highlights; any distance in km or minutes; any claim that Iso-Syöte is in Lapland (it is in Pudasjärvi, Syöte); any claim that TunturiPUB or Pärjä belongs to a hotel or a lift base (no row says so); ticketed nights; Pärjä's liquor licence (its own source comment flags this as unevidenced); Hilltop's bar as a destination bar (comment: evidenced only by a photo caption).
+
+## salla
+
+TITLE (unchanged). "Ski Resort Pubs" = Papana Pupi row (at Salla Ski Resort / Sallatunturi) + Keloravintola row ("at the foot of the front slopes of Salla Ski Resort"). "Karaoke" = Papana Pupi row (karaoke in winter weeks), Ravintola Sallan Maja row (type "Karaoke pub"), Evakko Pub row (type "Village karaoke pub", "popular karaoke pub"). "Late Nights" = Sallan Maja row comment (Fri 22-04, Sat 22-02) + Evakko Pub row (Fri-Sat 22-02).
+
+DESCRIPTION. "two bars at the ski resort" = Papana Pupi row + Keloravintola row. "a karaoke pub on Hautajärventie" = Sallan Maja row (type "Karaoke pub", address Hautajärventie 32). "a village pub in Vallovaara" = Evakko Pub row (address Vallovaarantie 209, "in the village of Vallovaara"). FIXED: the old tail "Ratings, hours, prices." is gone — bars.ts has no rating field anywhere (grep "rating" = 0 hits) and no Salla row carries a score or review count, and the four price fields all read "Prices on the venue site" rather than prices. The new tail promises only hours (every row has an hours field), addresses (every row has an address field) and the caveats spelled out in the three know items.
+
+TAGLINE. FIXED: the antecedent of the second clause was wrong. "Three of the four bars run karaoke" = Papana Pupi (karaoke in winter weeks), Sallan Maja (karaoke), Evakko Pub (karaoke). Of those three, exactly ONE is at the fell — Papana Pupi (at Sallatunturi). Keloravintola is the second fell venue but its row lists no karaoke (highlights "Fully licensed", "After-ski and live music"; description mentions live music evenings only), so it is not among the three. The sentence now says "only one of those three", which is what the rows support.
+
+INTRO. "house pub of Sallatunturin Tuvat at Sallatunturi" / "same building as the reception and Restaurant Kiela" / "match jerseys and sticks from Finnish ice hockey players" = Papana Pupi row description; address Hangasjärventie 1 = Papana Pupi row address field (row comment notes the Hangasjärventie 2 claim is unsupported, so 1 is used). "log restaurant", "at the foot of the front slopes of Salla Ski Resort", "fully licensed", "sunny terrace", "after-ski" = Keloravintola row description and highlights; address Revontulentie 9 = Keloravintola row address. "lunch and a la carte kitchen", "its own pub, Majan Pubi", "karaoke, board games", "K-18 age limit from 22:00" = Sallan Maja row description; address Hautajärventie 32 = Sallan Maja row address. "the pub at Kairalan Kievari in the village of Vallovaara", "old elementary school building", "game room with darts and billiards" = Evakko Pub row description; address Vallovaarantie 209 = Evakko Pub row address. FIXED (two findings, one cause): "The other two are village addresses" and "Evakko Pub is in a different village, Vallovaara" both placed Sallan Maja in a village. Nothing in its row does — the description says only "A restaurant and pub in Salla", and the row comment states the "between Sallatunturi and the village centre" claim "is not in any source and has been removed". The transition is now a plain naming of the two remaining venues ("The other two are Ravintola Sallan Maja and Evakko Pub"), which asserts no location for Sallan Maja, and Evakko Pub's village is stated on its own terms rather than in contrast to another venue's. No distance between any two venues is stated, because no row gives one.
+
+KNOW 1. Mon-Thu 11-18, Fri 11-18 and 22-04, Sat 12-18 and 22-02, Sunday absent, the English/Finnish conflict (English page Fri-Sat 21-04), and the Mon-Thu 11-14 lunch buffet at EUR 13.50 with salad buffet and coffee = Sallan Maja row comment ("Aukiolo lahteessa", "Hinta lahteessa") and its highlights array. FIXED: the old opening claimed "Sallan Maja's pub closes between the day and the night shift". The row comment attributes the granular block to the venue's FINNISH FRONT PAGE, not to the pub, and the only pub-specific hours in the source are the English page's Fri-Sat 21-04, which has no daytime block and therefore no gap. The item now reports the disagreement between the two pages and attributes each block to the page it comes from, and claims no closure between segments. "Sunday is not in the hours block" follows the row comment's warning that closed-on-Sunday is an inference, so no closure is claimed there either.
+
+KNOW 2. Vallovaarantie 209 and the village of Vallovaara = Evakko Pub row address and description. Fri-Sat 22-02, the 2018 vintage of that page, Visit Salla's "open at weekends until early hours when needed" and the run to 03 on live music nights = Evakko Pub row comment ("HOURS UNCERTAIN") and hours field. FIXED (two findings): "so it is a drive rather than a walk from the fell" is deleted — no row states any distance or travel mode between Vallovaara and Sallatunturi, only street addresses, and the item's own basis was the inference the sourceNotes claimed to avoid. And "a page whose content dates from 2018" now reads "appears to date from 2018", restoring the row comment's hedge, which is the signal telling the reader how soft the hours evidence is.
+
+KNOW 3 (unchanged). "daily 13–20" and "open year round" = Keloravintola row hours field and row comment (Visit Salla and own site say year-round, seasonal=false). "Sallatunturin Tuvat banner, 08:00–22:00" and "later on winter gig nights but no closing time published" = Papana Pupi row comment (site-wide banner measured 12.9.2026). The second Keloravintola at Lapland Hotels Luostotunturi and the Revontulentie 9 identifier = Keloravintola row comment ("NAME CLASH CHECKED").
+
+NOT USED, deliberately: any rating, score or review count (no such field exists in bars.ts); any actual drink price (all four price fields say only "Prices on the venue site"; the EUR 13.50 lunch buffet is the one figure any row gives and it is used in know 1); any claim that Papana Pupi is slope-side or ski-in (row comment says sources never say so); any location for Ravintola Sallan Maja beyond its street address (row comment removed the "between Sallatunturi and the village centre" inference); any distance or travel time between venues; any Evakko Pub name variant beyond "Evakko Pub" (row comment says no spelling is authoritative); ticket prices or entry fees (no row mentions any).

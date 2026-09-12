@@ -1,0 +1,8 @@
+es     title  74  desc 104
+pt-BR  title  74  desc 107
+zh-CN  title  43  desc  43
+ko     title  51  desc  59
+fr     title  75  desc  92
+it     title  75  desc 107
+nl     title  74  desc 104
+sv     title  73  desc  98

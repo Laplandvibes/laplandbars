@@ -60,23 +60,23 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Pyhä',
     slug: 'pyha',
-    bandVenue: 'CAMP Kitchen & Bar Pyhä',
+    bandVenue: 'CAMP Kitchen & Bar PYHÄ',
     venues: [
       { name: 'Hanki Baari Pyhä', highlight: true },
       { name: 'Mesta', highlight: false },
-      { name: 'Pyhä Dreams', highlight: false },
-      { name: 'CAMP Kitchen & Bar Pyhä', highlight: false },
-      { name: 'Ravintola Huttuhippu', highlight: false },
-      { name: 'SportBar Pyhä', highlight: false },
+      { name: 'Pyhä Dreams Wine Bar', highlight: false },
+      { name: 'CAMP Kitchen & Bar PYHÄ', highlight: false },
+      { name: 'Restaurant Huttuhippu', highlight: false },
+      { name: 'Sport Bar Pyhä', highlight: false },
     ],
   },
   {
     resort: 'Luosto',
     slug: 'luosto',
-    bandVenue: 'Yökerho Karhu',
+    bandVenue: 'Nightclub Karhu',
     venues: [
-      { name: 'Bistro & Rumpu Baari', highlight: true },
-      { name: 'Yökerho Karhu', highlight: false },
+      { name: 'Rumpu Bar (Rumpubaari)', highlight: true },
+      { name: 'Nightclub Karhu', highlight: false },
     ],
   },
   {
@@ -91,9 +91,9 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Saariselkä',
     slug: 'saariselka',
-    bandVenue: 'Ravintola Pirtti',
+    bandVenue: 'Restaurant Pirtti',
     venues: [
-      { name: 'Ravintola Pirtti', highlight: true },
+      { name: 'Restaurant Pirtti', highlight: true },
     ],
   },
   {
@@ -105,7 +105,7 @@ const spotsMeta: ResortMeta[] = [
       { name: 'Bar Ihku Ruka', highlight: true },
       { name: 'Ravintola Zone', highlight: false },
       { name: 'Restaurant Colorado Ruka', highlight: false },
-      { name: 'Hanki Baari Ruka', highlight: false },
+      { name: 'Hanki Baari', highlight: false },
       { name: 'Rinneravintola Piste', highlight: false },
       { name: 'Lobby Bar Scandic Rukahovi', highlight: false },
     ],

@@ -71,31 +71,6 @@
       "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
       "note": "oma og:image on brandijuliste (sama molemmissa toimipisteissa); pyha.fi julkaisee paikan valokuvan"
     },
-    "pyha-dreams": {
-      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-02/DSC06791.jpg.webp?h=44392e80&itok=kXJCLD0c",
-      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-      "note": "oma sivu 404; pyha.fi:n oma kuva"
-    },
-    "sportbar-pyha": {
-      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2022-10/SportBar_Pyha.jpg.webp?h=050dc016&itok=wQ7teeNk",
-      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-      "note": "sportbarpyha.fi ei resolvoidu; pyha.fi:n oma kuva"
-    },
-    "bistro-rumpu-baari": {
-      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2022-10/Lapland_Hotels_Luostotunturi_ravintolat.jpg.webp?h=e5589425&itok=0rnGrEja",
-      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-      "note": "laplandhotels.com on bottisuojan takana (HTTP 429); Visit Pyha-Luoston oma kuva"
-    },
-    "yokerho-karhu": {
-      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-12/Lapland%20Hotels%20Luostotunturi%20Night%20Club%20Karhu%20dancefloor.png.webp?h=a9367d31&itok=fJw86McD",
-      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
-      "note": "sama bottisuoja; kuva on Karhun tanssilattia"
-    },
-    "hanki-baari-ruka": {
-      "imageUrl": "https://www.ruka.fi/sites/ruka/files/styles/width_1080_height_515/public/hanki_baari_tiski.jpg.webp?h=4521fff0&itok=lagFwcPE",
-      "sourceUrl": "https://www.ruka.fi/baarit",
-      "note": "oma og:image on brandijuliste; ruka.fi julkaisee baaritiskin kuvan"
-    },
     "keloravintola": {
       "imageUrl": "https://ski.salla.fi/wp-content/uploads/2017/11/keloravintola-salla.jpg",
       "sourceUrl": "https://ski.salla.fi/en/restaurants/",
@@ -105,6 +80,36 @@
       "imageUrl": "https://www.sallatunturi.fi/wp-content/uploads/2025/10/Papana-Pub-1536x600.webp",
       "sourceUrl": "https://www.sallatunturi.fi/en/restaurants/papana-pupi/",
       "note": "og:image oli kesakuva; tama on paikan oman sivun ylakuva"
+    },
+    "los-lompolos": {
+      "imageUrl": "https://cdn-datahub.visitfinland.com/images/d11d2d50-8426-11f1-b1ea-ede3ea94606d.jpeg?s=1920",
+      "sourceUrl": "https://www.yllas.fi/fi/ravintolat",
+      "note": "ei og:imagea omalla sivulla; Yllaksen oma ravintolalistaus (kohteen itse DataHubiin viema kuva)"
+    },
+    "lobby-bar-lapland-hotels-yllaskaltio": {
+      "imageUrl": "https://cdn-datahub.visitfinland.com/images/0fa01d50-6901-11ef-95af-1d4477f6ffc7.jpeg?s=1920",
+      "sourceUrl": "https://www.yllas.fi/fi/ravintolat",
+      "note": "laplandhotels.com torjuu haun (HTTP 429); Yllaksen oma listaus"
+    },
+    "pyha-dreams-wine-bar": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-02/DSC06791.jpg.webp?h=44392e80&itok=kXJCLD0c",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "oma sivu 404; pyha.fi:n oma kuva"
+    },
+    "hanki-baari": {
+      "imageUrl": "https://www.ruka.fi/sites/ruka/files/styles/width_1080_height_515/public/hanki_baari_tiski.jpg.webp?h=4521fff0&itok=lagFwcPE",
+      "sourceUrl": "https://www.ruka.fi/baarit",
+      "note": "oma og:image on brandijuliste; ruka.fi julkaisee baaritiskin kuvan"
+    },
+    "rumpu-bar-rumpubaari": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2022-10/Lapland_Hotels_Luostotunturi_ravintolat.jpg.webp?h=e5589425&itok=0rnGrEja",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "laplandhotels.com on bottisuojan takana (HTTP 429); Visit Pyha-Luoston oma kuva"
+    },
+    "nightclub-karhu": {
+      "imageUrl": "https://www.pyha.fi/sites/pyha/files/styles/width_1080_height_515/public/media/image/2025-12/Lapland%20Hotels%20Luostotunturi%20Night%20Club%20Karhu%20dancefloor.png.webp?h=a9367d31&itok=fJw86McD",
+      "sourceUrl": "https://pyha.fi/fi/ravintolat-viihde",
+      "note": "sama bottisuoja; kuva on Karhun tanssilattia"
     }
   },
   "extras": {
@@ -118,44 +123,58 @@
     }
   },
   "approved": [
-    "tornion-panimo",
-    "lapland-brewery",
-    "uitto-pub",
-    "nook-lounge",
-    "bull-bar-grill",
-    "ice-bar-arctic-snowhotel",
-    "hullu-poro-areena",
+    "aarnikota",
+    "arctic-snowhotel-icebar",
     "bar-ihku",
-    "pub-holmola",
-    "public-house-sohva",
-    "pub-old-mates",
-    "selva-pyy",
+    "bar-ihku-ruka",
+    "bar-kaappi",
+    "bistoria-iso-syote",
+    "bistro-cafe-kuukkeli",
+    "bull-bar-grill",
+    "camp-kitchen-bar",
+    "camp-kitchen-bar-pyha",
     "gastropub-giitu",
+    "hanki-baari",
+    "hanki-baari-pyha",
+    "hullu-poro-areena",
+    "ice-bar-arctic-snowhotel",
+    "joiku-pub",
+    "kaunis-jorma-saariselka",
     "kauppayhtio",
+    "keloravintola",
+    "kieppi-kitchen-bar",
+    "lapland-brewery",
+    "lobby-bar-lapland-hotels-yllaskaltio",
+    "lobby-bar-scandic-rukahovi",
+    "los-lompolos",
+    "nightclub-karhu",
+    "nook-lounge",
+    "papana-pupi",
+    "parja-ski-bistro",
+    "pub-holmola",
+    "pub-old-mates",
+    "public-house-sohva",
+    "pyha-dreams-wine-bar",
+    "ravintola-hilltop",
+    "ravintola-sallan-maja",
+    "ravintola-zone",
+    "restaurant-aurora",
+    "restaurant-colorado-ruka",
+    "restaurant-pirtti",
+    "restaurant-siula",
+    "restaurant-tuikku",
+    "rinneravintola-piste",
     "rovaniemen-oluthuone",
     "roy-club",
-    "v-inkkari",
-    "restaurant-tuikku",
-    "bar-kaappi",
-    "teerenpesa",
-    "arctic-snowhotel-icebar",
+    "rumpu-bar-rumpubaari",
+    "selva-pyy",
+    "ski-pub-ala-asema",
     "snowman-world-ice-bar",
-    "hanki-baari-pyha",
-    "pyha-dreams",
-    "sportbar-pyha",
-    "camp-kitchen-bar-pyha",
-    "bistro-rumpu-baari",
-    "yokerho-karhu",
-    "bar-ihku-ruka",
-    "ravintola-zone",
-    "restaurant-colorado-ruka",
-    "hanki-baari-ruka",
-    "rinneravintola-piste",
-    "lobby-bar-scandic-rukahovi",
-    "parja-ski-bistro",
-    "ravintola-pirtti",
-    "keloravintola",
-    "papana-pupi"
+    "sport-bar-pyha",
+    "teerenpesa",
+    "tornion-panimo",
+    "uitto-pub",
+    "v-inkkari"
   ],
   "noPhoto": {
     "cafe-bar-21": "Sivustolla vain brändikuvitusta, ei valokuvia",
@@ -164,8 +183,12 @@
     "mustakissa-kuppila": "Vain Facebook",
     "pub-sarvi": "Vain Facebook",
     "snowvillage-icebar": "snowvillage.fi on Vercelin bottisuojan takana (429 / tyhjä DOM)",
-    "ravintola-huttuhippu": "pyha.fi:n kuvatiedosto on Huttuhippu_kesa.jpg eli kesakuva.",
     "tunturipub": "Oma og:image on logo.",
-    "mesta": "pyha.fi:n kuva on Mestan logo vihrealla, ei valokuva paikasta."
+    "mesta": "pyha.fi:n kuva on Mestan logo vihrealla, ei valokuva paikasta.",
+    "rukan-salonki-ice-bar": "og:image on logo",
+    "restaurant-punakettu": "og:image on markkinointibanneri, jossa on teksti kuvan paalla",
+    "public-house-selva-pyy": "kaksoiskappale: sama paikka kuin Selva Pyy, joka on jo listalla",
+    "bistro-hissi": "og:image esittaa moottorikelkkoja lumella, ei bistroa",
+    "restaurant-huttuhippu": "pyha.fi:n kuvatiedosto on Huttuhippu_kesa.jpg eli kesakuva."
   }
 }

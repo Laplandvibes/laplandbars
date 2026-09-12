@@ -1,0 +1,542 @@
+{
+  "Bar Ihku Ruka": {
+    "type": "卡拉 OK 酒吧与夜店",
+    "description": "位于鲁卡村 Scandic Rukahovi 酒店内的卡拉 OK 酒吧、夜店兼滑雪后派对场所。雪道酒吧和露台下午开门，卡拉 OK 每晚进行，夜店在周五和周六营业。场地每周还有问答之夜和宾果之夜，并接受订座。",
+    "highlights": [
+      "每晚卡拉 OK",
+      "雪道旁的滑雪后派对露台",
+      "夜店周五至周六"
+    ]
+  },
+  "Ravintola Zone": {
+    "type": "夜店与现场音乐餐厅",
+    "description": "鲁卡村的一家餐厅，白天供应早餐、午餐和烤肉，夜里变成音乐与舞蹈的场所。自己的网站称这里一年有超过 100 场现场演出，从成名的芬兰歌手到较新的乐队，卡拉 OK 每晚 21 点开始。屋顶设有 Panorama Terrace 全景露台，可以整场预订。",
+    "highlights": [
+      "一年超过 100 场现场演出",
+      "每天 21 点开始卡拉 OK",
+      "烤肉厨房营业到 04"
+    ]
+  },
+  "Rinneravintola Piste": {
+    "type": "雪道酒吧",
+    "description": "位于鲁卡前坡脚下的雪道餐厅兼酒吧，自己的网站说这里供应冷饮、热饮和食物。鲁卡的 Spring Break 网站把它称作度假村的派对老字号和地标，整天放着音乐，露台俯瞰雪道和春季的滑雪过水池活动。",
+    "highlights": [
+      "前坡脚下",
+      "露台俯瞰雪道",
+      "旺季全天音乐"
+    ]
+  },
+  "Hanki Baari": {
+    "type": "酒吧",
+    "description": "鲁卡村的一家酒吧兼餐厅，自称“您在北极的本地客厅”。自己的网站列出本地啤酒、精酿饮品、葡萄酒和咖啡，搭配简单的食物，整个冬季有轮换的现场艺人和 DJ 演出，从民谣到另类音乐。欢迎带狗，不接受订座。",
+    "highlights": [
+      "本地啤酒与精酿饮品",
+      "现场音乐与 DJ 之夜",
+      "可携犬入内"
+    ]
+  },
+  "Lobby Bar Scandic Rukahovi": {
+    "type": "酒店大堂酒吧",
+    "description": "位于鲁卡村中心 Scandic Rukahovi 酒店的大堂酒吧。酒店自己的页面把它描述为舒适的角落，可以喝点清爽的饮品、吃些小食，大屏幕上放着体育比赛。咖啡服务早上 7 点开始，酒吧一直营业到深夜。",
+    "highlights": [
+      "大屏幕体育比赛",
+      "饮品与小食",
+      "营业至 01:30"
+    ]
+  },
+  "Restaurant Colorado Ruka": {
+    "type": "酒吧与烤肉餐厅",
+    "description": "位于鲁卡步行中心的美式酒吧兼烤肉餐厅。自己的页面把食物与“摇滚乐”放在一起，并描述了相连的酒吧：滑雪季里几乎每周都有现场音乐，还有游戏、台球和阳光露台。肉在炭烤炉里烤制，汉堡肉饼是自制的。",
+    "highlights": [
+      "滑雪季几乎每周现场音乐",
+      "体育屏幕与台球",
+      "阳光露台"
+    ]
+  },
+  "Monomesta": {
+    "type": "雪道酒吧",
+    "description": "位于避风山谷里 Pessari 雪道脚下的雪道酒吧和露台，只能持有效缆车票滑雪抵达，没有道路可通。鲁卡自己的网站称它是传奇的露台，并描述了一个最多可容纳一千名客人的滑雪后派对露台，Spring Break 期间有现场表演、DJ、多个吧台和各种附带比赛。白天的演出免费，售酒区域限 18 岁以上。",
+    "highlights": [
+      "只能滑雪抵达",
+      "露台可容纳一千人",
+      "滑雪后派对现场舞台"
+    ]
+  },
+  "Ski Booster": {
+    "type": "酒吧、咖啡馆与烤肉店",
+    "description": "位于鲁卡 Vuosseli 区的酒吧、咖啡馆兼烤肉店，以 Ruka Booster Oy 公司名义注册为酒馆和酒吧业务。周初休息，周五和周六的夜里营业到很晚。",
+    "highlights": [
+      "酒吧、咖啡馆与烤肉店",
+      "周五周六营业至深夜",
+      "周一至周二休息"
+    ]
+  },
+  "Rukan Salonki Ice Bar": {
+    "type": "冰吧",
+    "description": "位于鲁卡村外湖畔 Rukan Salonki Chalets 的一座完全用冰建成的酒吧。这里冷热饮都有：可以用热可可和热果汁取暖，也可以点冰镇鸡尾酒和无酒精特调。",
+    "highlights": [
+      "以冰建成",
+      "鸡尾酒与无酒精特调",
+      "也有热饮"
+    ]
+  },
+  "CAMP Kitchen & Bar": {
+    "type": "餐厅酒吧",
+    "description": "位于鲁卡 Vuosseli 一侧 Ruka Valley 的餐厅兼酒吧。自己的网站描述的是国际化的菜色，“从图尔库到泰国，从 Nuorgam 到纽约”，与饮品一同供应，店名里也写着酒吧。",
+    "highlights": [
+      "店名中写着酒吧",
+      "国际化菜单",
+      "Vuosseli 的 Ruka Valley"
+    ]
+  },
+  "Rukan keilahalli": {
+    "type": "保龄球馆酒吧",
+    "description": "位于鲁卡村 Kumpare 购物中心最下层的保龄球馆，从服务台和 Subway 之间的楼梯下去即到。自己的网站说酒吧有丰富且价格实惠的饮品选择。另外还有两张台球桌和三个飞镖靶。",
+    "highlights": [
+      "Kumpare 购物中心里的酒吧",
+      "两张台球桌、三个飞镖靶",
+      "荧光保龄球道"
+    ]
+  },
+  "Rukan Olkkari": {
+    "type": "滑雪后派对酒吧与咖啡馆",
+    "description": "位于鲁卡 Vuosseli 区的咖啡餐厅，自己的标语是“从雪道直接到沙发”。网站上列出热饮、咸味和甜味华夫饼、餐食、滑雪后的饮品和卡拉 OK，场地也承接外烩。菜单包括汉堡、素食菜品、薯条和前菜。欢迎携带宠物。",
+    "highlights": [
+      "滑雪后派对饮品",
+      "卡拉 OK",
+      "欢迎携带宠物"
+    ]
+  },
+  "Hotelli-ravintola Rukatonttu": {
+    "type": "酒店餐厅酒吧",
+    "description": "位于 Talvijarvi 湖畔的酒店餐厅，设有玻璃露台，距鲁卡村中心 650 米，距最近的雪道和越野雪道约 20 米。餐厅和露台共 120 个座位。自己的网站有“Ravintola & baari”一栏，并说滑雪后的时光是在餐厅的壁炉边度过的。",
+    "highlights": [
+      "滑进滑出",
+      "壁炉边的滑雪后时光",
+      "玻璃露台，120 座"
+    ]
+  },
+  "TunturiPUB": {
+    "type": "酒馆",
+    "description": "Tunturi Pub 位于伊索叙厄泰前坡下方，距 KIDE Hotel 只有几十米，与 Tunturi Market 杂货店共用同一处场地，公司自己的网站称之为“samoissa tiloissa toimiva ravintola Tunturi Pub”。厨房供应披萨、汉堡、沙拉和小食，另有单独的儿童菜单，可以堂食，也可以先电话预订再来取。滑雪场的餐厅页面列出冰镇生啤和纯素选项，酒馆自己的页面说，凭酒牌，晚上也可以在它所称的“更湿润的气氛”里度过。角落里堆着一摞桌游。",
+    "highlights": [
+      "与 Tunturi Market 杂货店共用场地",
+      "冰镇生啤（isosyote.fi）",
+      "角落里的桌游"
+    ]
+  },
+  "Bistoria Iso-Syöte": {
+    "type": "餐厅酒吧",
+    "description": "Bistoria 是伊索叙厄泰山脚下 KIDE Hotel 的附属餐厅，供应早餐和晚餐，晚上还有自己网站所说的轻松酒吧；午餐需团体提前预订。厨房把本地食材与国际化、偏意式的菜品结合，列出肉食、素食和无麸质选项。酒单有按杯和按瓶的选择，起价 8.80 欧元。滑雪场的餐厅页面还提到户外露台和休息区。",
+    "highlights": [
+      "KIDE Hotel 的附属酒吧",
+      "葡萄酒按杯 8.80 欧元起",
+      "户外露台与休息区（isosyote.fi）"
+    ]
+  },
+  "Pärjä Ski Bistro": {
+    "type": "滑雪后派对小酒馆",
+    "description": "Pärjä Ski Bistro 就在伊索叙厄泰后坡的缆车旁。自己的网站把这里称作“Iso-Syötteen after ski taivas”，也就是伊索叙厄泰的滑雪后派对天堂，并承诺有吃、有喝、有娱乐。菜单分为汉堡、披萨、国际菜、儿童菜单和甜点，滑雪场的餐厅页面还写有肋排、鸡翅和纯素选项。露台上照得到春天的傍晚阳光。",
+    "highlights": [
+      "紧邻后坡缆车",
+      "号称伊索叙厄泰的滑雪后派对去处",
+      "露台上的春日傍晚阳光"
+    ]
+  },
+  "Ravintola Hilltop": {
+    "type": "山顶餐厅酒吧",
+    "description": "位于伊索叙厄泰山顶 Hilltop Hotel 顶层的全景餐厅，共 200 个座位。厨房把自己所说的干净北方风味与本地食材结合：采摘的蘑菇、浆果和当地驯鹿。同一空间在 10:30 到 18:00 之间作为 Cafe Hilltop 运营，目的地页面的照片说明显示餐厅入口旁有酒吧和大堂区域。",
+    "highlights": [
+      "山顶 200 座",
+      "北方食材：野生蘑菇、浆果、驯鹿",
+      "同一空间 10:30–18 是 Cafe Hilltop"
+    ]
+  },
+  "Restaurant Kotva": {
+    "type": "精致餐饮葡萄酒餐厅",
+    "description": "位于 Pikku-Syöte 山顶的小型北欧美食餐厅，属于 Ski Resort & Hotel Pikku-Syöte。菜品围绕本地区食材构建。酒水单是餐厅所说的一份经过斟酌的选集，收录了令人意外的小酒庄葡萄酒和芬兰饮品。只在周五和周六供应晚餐，且仅限场地公布的季节。",
+    "highlights": [
+      "小酒庄葡萄酒与芬兰饮品",
+      "三道菜 59 欧元，五道菜 79 欧元",
+      "Pikku-Syöte 山顶"
+    ]
+  },
+  "Hanki Baari Pyhä": {
+    "type": "雪道酒吧（冬季）",
+    "description": "位于皮哈北坡下端的酒吧。自己的网站承诺简单的食物、饮品、本地啤酒、优质葡萄酒和咖啡。冬季的活动日历上几乎每个周末都有艺人和 DJ，从民谣、芬兰说唱到另类音乐。21 点之后限 18 岁以上，由家长陪同的未成年人除外；活动之夜一律限 18 岁以上。2026 年十二月重新开门。",
+    "highlights": [
+      "北坡雪道脚下",
+      "冬季的本地啤酒与几乎每周末的现场艺人",
+      "21 点后限 18 岁以上"
+    ]
+  },
+  "Mesta": {
+    "type": "雪道酒吧",
+    "description": "位于雪道中段、紧邻 Hotel Kultakero 的酒吧和露台，从日出到极光都能看到拉普兰的景色。皮哈自己的旅游网站把它列在 Bar/After ski 和雪道餐厅之下，描述了风味、音乐和景观。同一网站的一个活动页面把它定位在 Hotel Pyhätunturi 停车场的尽头、Kultakero 2 号楼旁，并称这里是喝点东西、吃些酒馆风格食物、放松一下的地方。",
+    "highlights": [
+      "露台上的山景",
+      "音乐",
+      "酒馆风格食物"
+    ]
+  },
+  "Pyhä Dreams Wine Bar": {
+    "type": "葡萄酒吧",
+    "description": "葡萄酒吧位于皮哈山顶的 Pyhä Dreams 景观小屋，乘景观缆车上山即到。夏季自 2026 年 6 月 19 日开始，至九月 20 日结束；冬季从十一月底到劳动节前后。场地也为最多八人的团体安排导览品酒：五款白葡萄酒、红葡萄酒和气泡酒，配咸味与甜味小食，约两小时。位置有限，建议提前预订。",
+    "highlights": [
+      "山顶，景观缆车的尽头",
+      "导览品酒 5 款酒，最多 8 人",
+      "缆车票不含在品酒内"
+    ]
+  },
+  "CAMP Kitchen & Bar PYHÄ": {
+    "type": "酒店餐厅酒吧",
+    "description": "紧邻 Hotel Pyhätunturi 的餐厅兼酒吧，供应场地自称从图尔库到泰国、从 Nuorgam 到纽约的菜色。全景窗外是山景，皮哈的旅游网站提到，您可以在一天结束时进来喝一杯，也可以坐下来吃一顿完整的晚餐。欢迎带狗，可以订座，也有礼品卡。",
+    "highlights": [
+      "紧邻 Hotel Pyhätunturi",
+      "全景山景",
+      "欢迎带狗"
+    ]
+  },
+  "Restaurant Huttuhippu": {
+    "type": "雪道酒馆",
+    "description": "紧邻皮哈家庭雪道的餐厅，白天是雪道餐厅，晚上做单点，驯鹿来自附近的养殖场，浆果和蘑菇来自当地森林。相连的 Huttu-Pub 以精酿酒厂产品和丰富的啤酒、威士忌、朗姆酒著称；皮哈的旅游网站称它是度假村里啤酒选择最多的本地酒馆。周四有宾果，酒馆里有桌游，还能看到雪道。",
+    "highlights": [
+      "度假村里最多的啤酒选择",
+      "紧邻家庭雪道",
+      "周四宾果"
+    ]
+  },
+  "Sport Bar Pyhä": {
+    "type": "体育酒吧",
+    "description": "位于皮哈购物中心的酒吧，经营者形容它是度假村中心地带客厅式的场所，全年开放，从下午一直营业到深夜。店里有台球桌、弹珠台、飞镖靶、桌上冰球和桌游，还有从经典老歌到新歌的卡拉 OK。厨房供应从汉堡到鸡翅的酒馆食物，也可以外带，Viaplay 频道包覆盖体育转播。",
+    "highlights": [
+      "卡拉 OK 与台球",
+      "Viaplay 体育频道",
+      "全年营业"
+    ]
+  },
+  "Papana Pupi": {
+    "type": "滑雪后派对酒馆",
+    "description": "位于 Sallatunturi 的 Sallatunturin Tuvat 自营酒馆，与前台和 Restaurant Kiela 同在一栋楼里。自己的页面说，酒单从招牌鸡尾酒和无酒精特调到啤酒和葡萄酒，其中不少用了本地生产者的产品，另有意式浓缩咖啡系列。冬季每周有卡拉 OK、音乐问答和宾果，周末有轮换的现场艺人。墙上挂着芬兰冰球运动员的比赛球衣和球杆，宽敞的露台欢迎宠物。",
+    "highlights": [
+      "招牌鸡尾酒",
+      "现场音乐与卡拉 OK",
+      "冰球纪念品"
+    ]
+  },
+  "Keloravintola": {
+    "type": "雪道餐厅酒吧",
+    "description": "位于 Salla Ski Resort 前坡脚下的原木餐厅。自己的网站说餐厅持有完整酒牌，供应烤制食物、披萨和从头做起的单点菜品，用的是拉普兰原料。Salla Ski Resort 描述这里有阳光露台和滑雪后的聚会，Visit Salla 和 2025 年的萨拉产品手册还提到现场音乐之夜。",
+    "highlights": [
+      "完整酒牌",
+      "滑雪后派对与现场音乐",
+      "位于前坡"
+    ]
+  },
+  "Ravintola Sallan Maja": {
+    "type": "卡拉 OK 酒馆",
+    "description": "萨拉的一家餐厅兼酒馆，除了自家的酒馆 Majan Pubi，还有午餐和单点厨房。酒馆页面说，您可以唱卡拉 OK、玩桌游，和同伴一起喝到凌晨，并写明 22:00 起限 18 岁以上，会按需查验证件。厨房使用拉普兰本地区的食材，糕点和披萨饼底来自当地的小面包坊，其中包括 Kursulainen。",
+    "highlights": [
+      "Majan Pubi 的卡拉 OK 与桌游",
+      "22:00 起限 18 岁以上，按需查证件",
+      "周一至周四自助午餐 13.50 欧元，含沙拉自助与咖啡"
+    ]
+  },
+  "Evakko Pub": {
+    "type": "乡村卡拉 OK 酒馆",
+    "description": "位于 Vallovaara 村 Kairalan Kievari 的酒馆，设在一栋旧小学校舍里。Visit Salla 说它在周末营业，需要时开到凌晨，现场音乐的安排也很多样。场地自己的页面描述了有飞镖和台球的游戏室，并列出含酒精饮品、咖啡、软饮和热巧克力。Kairalan Kievari 的住宿网站称它是受欢迎的卡拉 OK 酒馆，也是当地的夜间去处。",
+    "highlights": [
+      "卡拉 OK 与现场音乐",
+      "飞镖与台球",
+      "旧校舍建筑"
+    ]
+  },
+  "Nightclub Karhu": {
+    "type": "夜店",
+    "description": "Karhu 是 Lapland Hotels Luostotunturi 的夜店，按酒店自己的说法，也是卢奥斯托村里唯一的夜店。晚上有卡拉 OK，艺人之夜的派对会持续到凌晨；春天随乐队和客座艺人跳舞可以跳到 04.00。2026 年秋季的日历上，大多数晚上有卡拉 OK，两场 Ruska 酒馆问答之夜，以及 PIENIsuuriBÄNDI 和 Toni Jaatinen Band 等现场乐队。",
+    "highlights": [
+      "按酒店自己的网站，卢奥斯托村唯一的夜店",
+      "卡拉 OK 免费，限 18 岁以上",
+      "艺人之夜现场乐队 10 欧元"
+    ]
+  },
+  "Rumpu Bar (Rumpubaari)": {
+    "type": "酒店酒吧",
+    "description": "Rumpu Bar 就在 Lapland Hotels Luostotunturi 的单点餐厅 Bistro 旁边。酒店把它描述为享用一杯热饮或清爽饮品的地方。酒吧欢迎带狗。",
+    "highlights": [
+      "紧邻酒店的单点餐厅 Bistro",
+      "欢迎带狗",
+      "比 Bistro 厨房关得晚"
+    ]
+  },
+  "Restaurant Punakettu": {
+    "type": "餐厅与酒馆",
+    "description": "Punakettu 是卢奥斯托购物中心里的家庭餐厅，自己的英文网站把它描述为“a restaurant and a pub”。公布的酒单上有生啤、long drink 和苹果酒，一个本地精酿酒厂专区，按杯和按瓶的葡萄酒，包含自创作品的完整鸡尾酒和无酒精特调单，以及 Teerenpeli 威士忌。食物方面是汉堡、披萨和拉普兰菜，餐厅持有 Green Key 认证。",
+    "highlights": [
+      "自己的网站称它是“a restaurant and a pub”",
+      "酒单上的本地精酿酒厂专区",
+      "Teerenpeli 威士忌"
+    ]
+  },
+  "Restaurant Vaisko": {
+    "type": "餐厅与鸡尾酒吧",
+    "description": "Vaisko 是卢奥斯托的一家 Eat Lappi 餐厅，围绕本地食材和森林物产打造。自己的页面把饮品放在同等位置：一个带配餐建议和分享酒的酒柜，一小批国产和进口啤酒，以及一份包含经典和自创作品的鸡尾酒单。网站写明只来喝一杯也欢迎，楼上的阁楼可容纳约三十人的团体。",
+    "highlights": [
+      "网站欢迎客人只来喝一杯",
+      "带配餐建议的酒柜",
+      "经典之外还有自创鸡尾酒"
+    ]
+  },
+  "Aarnikota": {
+    "type": "小屋咖啡馆与酒吧",
+    "description": "Aarnikota 自称“Hut Café and Bar”，是 Aarniluosto 的一座传统拉普兰小屋，距卢奥斯托中心约 1.5 公里，可以步行、滑雪、穿雪鞋或开车前往。白天供应可丽饼和黑锅煮的咖啡，自己的页面说这里也为成年人和孩子准备了饮品。小屋的核心是一个可坐二十人的敞开式火塘；晚上可按团体要求开放，最多二十人。",
+    "highlights": [
+      "自称小屋咖啡馆与酒吧，供应成人饮品",
+      "可坐二十人的敞开式火塘",
+      "可从村里步行、滑雪或穿雪鞋抵达"
+    ]
+  },
+  "Restaurant Aurora": {
+    "type": "餐厅与大堂酒吧",
+    "description": "Restaurant Aurora 是 Santa's Hotel Aurora 的餐厅，从卢奥斯托村中心步行可达。开放式厨房里有熔岩石烤炉，还有壁炉和朝向森林的窗户，菜单围绕传统风味、国际影响和一份精选酒单构建。酒店把大堂酒吧列入自己的餐饮服务，餐厅页面则把大堂酒吧柔和的灯光描述为轻松交谈的场景。",
+    "highlights": [
+      "酒店服务清单上写明的大堂酒吧",
+      "开放式厨房里的熔岩石烤炉",
+      "精选酒单"
+    ]
+  },
+  "Keloravintola (Log Restaurant Kelo)": {
+    "type": "舞会与宴会餐厅",
+    "description": "Keloravintola 是距 Lapland Hotels Luostotunturi 约 300 米的原木餐厅，最多可坐 220 位客人。酒店说除主题之夜外只接受预订，并作为宴会场地承办婚礼和生日。对外开放的晚上是售票舞会，由现场舞曲乐队演出：2026 年秋季的日历上有 Toni Jaatinen Band、Alina Liikola & Afrodite、Marko Maunuksela & Fantasia、Tomi Markkola & Kipinä 和 Tanssiorkesteri Ässät。酒店也把卡拉 OK、现场音乐和宾果列在这里。",
+    "highlights": [
+      "220 座的原木餐厅",
+      "现场乐队售票舞会，15–20 欧元",
+      "卡拉 OK、现场音乐与宾果"
+    ]
+  },
+  "Local Pub Panimo Saariselkä": {
+    "type": "酒馆",
+    "description": "位于萨利色尔卡中心的酒馆，自称“您在萨利色尔卡的客厅”，供应本地和国际的饮品选择。厨房每天与酒吧同时运作。酒馆还设有男女分开的桑拿，客人可以在公共时段使用，也可以整间预订。",
+    "highlights": [
+      "卡拉 OK 与现场音乐",
+      "宾果与酒馆问答",
+      "公共桑拿"
+    ]
+  },
+  "Kaunis Jorma Saariselkä": {
+    "type": "酒馆",
+    "description": "位于萨利色尔卡中心的小酒馆，所在建筑于 2023 年底落成，全年营业。店里有壁炉、露台、卡拉 OK，以及配酒馆食物的饮品选择。每周四 19:00 有免费宾果。",
+    "highlights": [
+      "卡拉 OK",
+      "周四免费宾果",
+      "露台"
+    ]
+  },
+  "Kieppi Kitchen & Bar": {
+    "type": "餐厅与酒吧",
+    "description": "萨利色尔卡中心 Wilderness Hotel Kieppi 的餐厅，供应带现代手法的拉普兰菜。单点菜单涵盖牛排、本地鱼、汉堡和铁盘披萨。酒吧角落供应饮品，比厨房早开几个小时。",
+    "highlights": [
+      "酒吧 09 点起营业",
+      "铁盘披萨与本地鱼",
+      "萨利色尔卡中心"
+    ]
+  },
+  "Lobby Bar Takka": {
+    "type": "大堂酒吧",
+    "description": "Lapland Hotels Riekonlinna 的壁炉大堂酒吧，紧邻 Restaurant Linnansali。这里供应饮品和热饮，欢迎带狗。秋天和初春有游吟歌手在酒吧演出，免费入场。",
+    "highlights": [
+      "壁炉酒吧",
+      "现场游吟歌手",
+      "欢迎带狗"
+    ]
+  },
+  "Restaurant Pirtti": {
+    "type": "酒馆",
+    "description": "Santa's Hotel Tunturi 餐厅楼里的酒馆。酒店把它描述为放松、舒适的客厅，户外活动一天之后自然会飘进来，有温暖的传统拉普兰酒馆气氛、木质内饰、壁炉和滑雪后派对的劲头。自己的页面主打好酒和简单的家常食物。Lapland North 提到它只在旺季营业，酒店和 Lapland North 都没有公布每天的营业时间，出发前请先打电话确认。",
+    "highlights": [
+      "壁炉与木质内饰",
+      "滑雪后派对气氛",
+      "饮品与简单的家常菜"
+    ]
+  },
+  "Restaurant Siula": {
+    "type": "舞会餐厅",
+    "description": "Santa's Hotel Tunturi 餐厅楼里的舞会餐厅，酒店称它是传奇的舞会餐厅，音乐、笑声和舞蹈填满夜晚。冬季期间，同一空间在早上供应早餐。",
+    "highlights": [
+      "舞池",
+      "现场音乐之夜",
+      "大型活动场地"
+    ]
+  },
+  "Mettäbaari": {
+    "type": "森林酒吧",
+    "description": "位于萨利色尔卡健身与越野雪道旁森林里的酒吧，朝 Laanila 方向两公里，坐落在一组老原木建筑里，业主形容它们有着丰富多彩的历史。安静了几年之后，新业主把它重新开成 Mettäbaari。场地持有完整酒牌（A-oikeudet），自己的说法是您可以直接从雪道走进来。菜单很简单：薄煎饼、常见的软饮和热饮，以及熏制的伊纳里湖白鲑这类本地美味。每年春秋各一次，旧马厩会改成舞厅，举办有现场音乐的 Monotanssit 雪靴舞会，会唱的人可以在乐队休息时唱卡拉 OK。",
+    "highlights": [
+      "完整酒牌（A-oikeudet）",
+      "从雪道直接走进来，朝 Laanila 2 公里",
+      "薄煎饼与熏伊纳里湖白鲑"
+    ]
+  },
+  "Restaurant Kaunis": {
+    "type": "餐厅与酒廊酒吧",
+    "description": "位于 Kaunispää 山上 Star Arctic Hotel 的餐厅，供应以驯鹿、伊纳里湖鱼和北极浆果为基础的北极料理。壁炉旁的 Lounge Bar 供应葡萄酒和用本地浆果调制的自创鸡尾酒，酒店说这些只在这个酒吧才有。",
+    "highlights": [
+      "拉普兰浆果鸡尾酒",
+      "壁炉酒廊酒吧",
+      "山边酒店"
+    ]
+  },
+  "Northern Lights Lounge": {
+    "type": "极光酒廊酒吧",
+    "description": "在黑暗季节的每周三和周六晚上，Kaunispää 山顶餐厅会作为 Northern Lights Lounge 运营。酒吧供应鸡尾酒、葡萄酒、啤酒、软饮和小食，客人可以在山顶的户外观景区或温暖的室内酒廊等待极光。门票包含入场、一杯热饮和小食，以及一位当晚的主持人；其他饮品和食物现场购买。往返萨利色尔卡的接送可以包含在票内。",
+    "highlights": [
+      "在 Kaunispää 山顶看极光",
+      "海拔 438 米的鸡尾酒、葡萄酒与啤酒",
+      "门票含一杯热饮、小食与主持人"
+    ]
+  },
+  "Igloo Bar": {
+    "type": "鸡尾酒吧",
+    "description": "位于 Kakslauttanen Arctic Resort 西村 Aurora Restaurant 内的酒吧。这里供应鸡尾酒，空间把传统原木建筑与玻璃冰屋结合在一起，向外望是周围的景色。",
+    "highlights": [
+      "玻璃冰屋环境",
+      "鸡尾酒单",
+      "Aurora Restaurant 内"
+    ]
+  },
+  "Piano Bar at East Village Restaurant": {
+    "type": "钢琴酒吧",
+    "description": "位于 Kakslauttanen Arctic Resort 的 East Village Restaurant 内的酒吧，度假村描述它有现场钢琴演奏。East Village Restaurant 本身是一座枯木原木餐厅，也是度假村这一侧的主要用餐场所。",
+    "highlights": [
+      "现场钢琴演奏",
+      "枯木原木建筑",
+      "度假村场地"
+    ]
+  },
+  "Bistro & Café Kuukkeli": {
+    "type": "咖啡酒吧",
+    "description": "位于萨利色尔卡中心 Kuukkeli Shopping Center 里的咖啡餐厅。场地自己的页面描述了一个客人可以喝酒的壁炉酒吧。餐食方面涵盖早餐、工作日自助午餐，以及披萨、汉堡、炒驯鹿肉和汤。",
+    "highlights": [
+      "壁炉酒吧",
+      "周一至周六自助午餐",
+      "Kuukkeli Shopping Center 内"
+    ]
+  },
+  "Joiku Pub": {
+    "type": "酒馆",
+    "description": "Joiku Pub 是阿卡斯隆波洛的村中酒馆，与隔壁的 Eväskori 比萨店由同一家公司经营（两者都登记在企业代码 3090445-7 下）。自己的网站称它是于拉斯传奇的夜晚场所：一个轻松的空间，有好音乐、卡拉 OK，还有一个热闹到深夜的舞池。村里最大的阳光露台属于这家酒馆，从早春一直营业到晚秋，非旺季时店里有一张台球桌。只有 10 人以上的团体才需要订座。",
+    "highlights": [
+      "卡拉 OK 与舞池",
+      "村里最大的阳光露台",
+      "非旺季的台球桌"
+    ]
+  },
+  "Los Lompolos": {
+    "type": "鸡尾酒吧",
+    "description": "阿卡斯隆波洛中心的一家小酒吧。它自己的一行介绍被于拉斯旅游局和 Visit Finland 原样引用：一家充满 crossover 音乐、鸡尾酒和食物的小酒吧，随意来就好。",
+    "highlights": [
+      "鸡尾酒与 crossover 音乐",
+      "位于村中心",
+      "餐点 10–25 欧元"
+    ]
+  },
+  "Miilu Bar & Grill": {
+    "type": "酒吧与烤肉店",
+    "description": "Miilu Bar & Grill 位于于拉斯耶尔维湖畔，是 Miilu Resort 的一部分。用自家木炭余烬烧的明火烤炉是厨房的核心，场地的介绍说这里把时令食材与一系列饮品放在一起。大面积的窗户朝向湖面。可以开车、步行、滑雪、骑车或乘雪地摩托抵达。",
+    "highlights": [
+      "明火烤炉",
+      "大窗外的湖景与极光",
+      "也可滑雪或乘雪地摩托抵达"
+    ]
+  },
+  "Taiga Ylläs": {
+    "type": "雪道酒馆",
+    "description": "Taiga Ylläs 在自己的网站上把自己描述为位于于拉斯耶尔维 Ylläs Ski South 雪道脚下的餐厅、酒馆兼雪道餐厅，供应拉普兰食物、本地饮品、现场音乐和轻松的滑雪后派对气氛。滑雪场自己的介绍补充说，Taiga Pub 围绕轮换的啤酒选择和炭烤食物构建，演出之夜有现场音乐，春季还有单口喜剧。全年营业。",
+    "highlights": [
+      "雪道脚下的滑雪后派对",
+      "轮换的啤酒选择",
+      "演出之夜的现场音乐"
+    ]
+  },
+  "Y1 Ski Pub": {
+    "type": "雪道酒馆",
+    "description": "Y1 Ski Pub 是阿卡斯隆波洛一侧 Ylläs Ski Resort 里 Y1 餐厅群的一部分，靠近 Aurinkokuru 的 Aurinko-Express 缆车下站。Lapland Hotels 称它是最早开门、最晚打烊的餐厅，空间传统而温暖，像个酒馆，有壁炉可以在滑雪中或滑雪后坐下来，整个雪季都有现场表演，还有一个露台。厨房供应汉堡、皮塔饼和拉面汤等小酒馆食物，搭配丰富的冷热饮选择。",
+    "highlights": [
+      "最早开门，最晚打烊",
+      "壁炉与露台",
+      "整季都有表演者"
+    ]
+  },
+  "Takka bar": {
+    "type": "酒店大堂酒吧",
+    "description": "Lapland Hotels Äkäshotelli 的大堂酒吧，与 Restaurant Pirtukirkko 同在一栋楼里，就在隔壁。酒店把它描述为吃山地披萨、喝咖啡或来一杯清爽饮品的地方，这里还有 12 点到 15 点的汤品午餐。",
+    "highlights": [
+      "山地披萨",
+      "汤品午餐 12–15",
+      "紧邻 Pirtukirkko"
+    ]
+  },
+  "Ravintola Pirtukirkko": {
+    "type": "舞会餐厅",
+    "description": "Lapland Hotels Äkäshotelli 的餐厅，以教堂般的外观著称，从早餐到单点晚餐供应北方风味和经典菜品，旺季有自助餐。自己的页面主打夜生活的一面：秋季和初春在这里举办舞会，并公布表演者日历，入场费已含在房价里。同一栋楼的地下室是 Pirtukellari Night Club，楼上的 Pirtun Parvi 在演出之夜会开到凌晨。",
+    "highlights": [
+      "舞会与表演者日历",
+      "入场含在住宿价格内",
+      "同一栋楼里的夜店"
+    ]
+  },
+  "Bistro (Lapland Hotels Saaga)": {
+    "type": "酒店小酒馆酒吧",
+    "description": "于拉斯耶尔维 Lapland Hotels Saaga 的三家餐厅之一，另外两家是自助餐厅 Biegga 和单点餐厅 Tsohka。酒店自己的页面说，夏天在轻松舒适的 Bistro，您可以享用调酒师调制的鸡尾酒，或在阳光露台上来一杯冷饮；食物是三文鱼汤这类小食风格。酒店紧邻于拉斯的南坡，缆车就在旁边。",
+    "highlights": [
+      "调酒师的鸡尾酒",
+      "阳光露台",
+      "紧邻缆车"
+    ]
+  },
+  "Lobby Bar (Lapland Hotels Ylläskaltio)": {
+    "type": "酒店大堂酒吧",
+    "description": "阿卡斯隆波洛 Lapland Hotels Ylläskaltio 前台旁的酒吧。酒店说这里供应清爽饮品和热饮，配 Snacks 菜单，欢迎带狗，酒店的汤品午餐也在这里从 12 点供应到 15 点。秋季和春季的几周里，酒店餐厅会举办舞会，入场费含在房价里。",
+    "highlights": [
+      "欢迎带狗",
+      "大堂酒吧的汤品午餐",
+      "秋春的舞会之夜"
+    ]
+  },
+  "Ski pub Ala-Asema": {
+    "type": "滑雪酒馆",
+    "description": "Ski pub Ala-Asema 位于于拉斯耶尔维一侧于拉斯缆车下站旁。滑雪场的雪道餐厅页面和场地自己的介绍描述了一家轻松的滑雪酒馆，有台球、飞镖、桌游和卡拉 OK，供应饮品和酒馆食物。露台在旺季开放。",
+    "highlights": [
+      "缆车下站旁",
+      "台球、飞镖与卡拉 OK",
+      "冬季开放的露台"
+    ]
+  },
+  "Cafe & Bar Routa": {
+    "type": "咖啡酒吧（白天，17 点打烊）",
+    "description": "Cafe & Bar Routa 是阿卡斯隆波洛中心的咖啡馆兼酒吧，位于 K-Market Jounin kauppa 的楼里。于拉斯旅游局的页面把它描述为村里最热闹地段的一家活跃咖啡馆，并给出 3–18 欧元的价格区间。它 17 点打烊，因此是白天的去处，而不是夜晚的酒吧。",
+    "highlights": [
+      "村里最热闹的地段",
+      "餐点 3–18 欧元",
+      "全年营业"
+    ]
+  },
+  "Aurinkoravintola Ylläs": {
+    "type": "雪道酒吧",
+    "description": "Aurinkoravintola 是于拉斯的于拉斯耶尔维一侧 Aurinko 雪道上的传统雪道餐厅，滑雪季按缆车时刻表营业。于拉斯旅游局的页面说这里供应冷热饮和餐点，宽敞的露台服务追逐春冬阳光的客人。客人可以滑雪直达门口。",
+    "highlights": [
+      "春日阳光下的大露台",
+      "滑雪直达门口",
+      "按缆车时刻表营业"
+    ]
+  },
+  "Bistro Hissi": {
+    "type": "雪道小酒馆酒吧",
+    "description": "Bistro Hissi 位于于拉斯耶尔维一侧的雪道脚下、Ylläs Express 缆车旁。自己的网站说这里供应披萨、汉堡、沙拉和小食，缆车运行时就营业；滑雪场的雪道餐厅页面补充说，壁炉边供应热饮和冷饮。同一家公司也出租雪地摩托。",
+    "highlights": [
+      "雪道脚下",
+      "壁炉与热饮",
+      "同一处的雪地摩托租赁"
+    ]
+  }
+}

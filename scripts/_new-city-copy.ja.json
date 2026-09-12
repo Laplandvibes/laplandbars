@@ -1,0 +1,114 @@
+{
+  "cities": {
+    "yllas": {
+      "name": "ユッラス",
+      "at": "ユッラス",
+      "title": "ユッラスのバー：Äkäslompolo、Ylläsjärvi、ゲレンデのパブ | LaplandBars",
+      "description": "ユッラスで飲むなら：Äkäslompoloの村のパブとカラオケ、地下のナイトクラブ、Ylläsjärviのゴンドラ乗り場のスキーパブ。住所、営業時間。",
+      "h1": "ユッラスのバー",
+      "tagline": "バーのある村はÄkäslompoloとYlläsjärviのふたつ。ゲレンデ側にもパブがあり、住所を見ればどちらのリストが自分向けか分かります。",
+      "intro": "ユッラスにはバーのある村がふたつあり、住所を見ればどちら側にいるのかが分かります。Äkäslompoloでは、Tunturintie 16のSelvä Pyyが地元の人とスキーヤーの通うパブ。Jakolantie沿いのJoiku Pubは村でいちばん大きなサンテラスとカラオケフロアを持ち、Sivulantie沿いのLos Lompolosは中心部の小さなカクテルルームです。Äkäsentie 10というひとつの住所には3軒が入っています。Ravintola Pirtukirkko、その隣のTakkaバー、そして地下のPirtukellari Night Clubです。Tunturintie 56のY1 Ski Pubも同じ側にあり、AurinkokuruのAurinko-Expressチェアリフト乗り場のすぐ近く。Ylläsjärviでは、Ski pub Ala-AsemaとBistro HissiがどちらもIso-Ylläksentie 44に並び、ゴンドラの山麓駅とYlläs Expressチェアリフトが目の前です。Lapland Hotels Saagaのビストロは同じ通りの42番地。Bar KaappiとTaiga YlläsはVaeltajantie 2を共有し、Ylläs Ski Southのゲレンデの麓に立ちます。Miilu Bar & GrillはMiilu Resortの一部として、Ylläsjärvi湖の湖畔にあります。",
+      "know": [
+        "バーはふたつの村に分かれています。郵便番号95970のÄkäslompoloと、95980のYlläsjärviです。Miilu Bar & GrillはRantasaarentie 3-5、Ylläsjärvi湖の湖畔にあり、案内には車、徒歩、スキー、自転車、スノーモービルでの行き方が挙げられています。",
+        "リフトの時刻表で動く店が2軒あります。AurinkoゲレンデのAurinkoravintolaはスキーシーズン中、リフトの時刻表に合わせて営業し、Bistro Hissiはリフトが動いているあいだ開いています。Pirtukellari Night Clubはスキーシーズンの金曜と土曜の夜に営業し、AurinkokuruのY1 Ski Pubは2026年11月にオープンします。",
+        "Ravintola PirtukirkkoとTakkaバーを含むLapland Hotels Äkäshotelliのレストランサービスは、2026年9月27日から11月20日まで休みです。Lapland Hotels Saagaはホテル自身のページで記述が食い違っており、ビストロの営業時間は9月26日までと記載される一方、季節の告知ではレストランは9月24日から11月14日まで休業とされています。ÄkäslompoloのCafe & Bar Routaは通年営業ですが17時に閉まるため、夜ではなく昼の立ち寄り先です。"
+      ]
+    },
+    "saariselka": {
+      "name": "サーリセルカ",
+      "at": "サーリセルカ",
+      "title": "サーリセルカのバー：村のパブ、ダンス、山頂ラウンジ | LaplandBars",
+      "description": "サーリセルカで飲むなら：村の中心部のパブ、クラフトビールのガストロパブ、Kaunispää山頂のオーロララウンジ。営業時間、住所。",
+      "h1": "サーリセルカのバー",
+      "tagline": "飲む場所のほとんどは村の数本の通り沿い。1軒はKaunispääの山頂に、もう1軒はスキートレイル沿いにあります。",
+      "intro": "サーリセルカのバーは、村の数本の通りに集まっています。Revontulentie沿いのGastropub Giituは毎日2時までクラフトビールを注ぎ、キッチンは22時まで。Saariseläntie沿いのTeerenpesäは、ひとつのログハウスの下に3軒が入る構成で、ラップランド料理のレストラン、ダーツとビリヤードのあるスポーツパブ、そしてペアダンスとディスコフロアのナイトクラブがあります。同じ通りをさらに進むと、10番地のLocal Pub Panimoには男女それぞれのサウナがあり、13番地のLobby Bar TakkaはLapland Hotels Riekonlinnaの暖炉のバーです。Kiveliöntie沿いのKaunis Jormaは木曜19:00からカラオケと無料のビンゴを開き、Raitopolku沿いのKieppi Kitchen & Barはキッチンより数時間早くバーコーナーを開けます。Lutontie沿いのSanta's Hotel Tunturiでは、Restaurant PirttiとダンスレストランのSiulaがレストラン棟を共有しています。さらに2軒がKaunispääの上にあります。Star Arctic HotelのRestaurant Kaunisと、Northern Lights Loungeになる山頂のレストランです。",
+      "know": [
+        "店があるのは村の5本の通り、Saariseläntie、Revontulentie、Kiveliöntie、Raitopolku、Lutontieです。Teerenpesä、Local Pub Panimo、Kaunis Jorma、Kieppi、Bistro & Café Kuukkeliはいずれも自らをサーリセルカ中心部の店と紹介しています。例外はMettäbaariで、Laanila方面へ2kmの場所にあり、スキートレイルからそのまま入れます。",
+        "Northern Lights Loungeは、暗い季節のあいだ、水曜と土曜の夜にKaunispää山頂のレストランで開かれます。チケットには入場、温かい飲み物1杯、軽食、ホストが含まれます。サーリセルカからの往復送迎はチケットに追加できます。",
+        "日々の営業時間を公表していない店もいくつかあります。Santa's Hotel TunturiのRestaurant Pirttiはハイシーズンのみの営業で、Star Arctic HotelのRestaurant Kaunisは2026年4月20日から10月29日まで休業です。KakslauttanenのIgloo BarとPiano Barの2軒は村の外、Kiilopääntie沿いにあります。"
+      ]
+    },
+    "ruka": {
+      "name": "ルカ",
+      "at": "ルカ",
+      "title": "ルカのバー：ゲレンデバー、カラオケ、ライブ音楽 | LaplandBars",
+      "description": "ルカで飲むなら：Rukankyläntieのカラオケとライブ音楽、スキーでしか行けないゲレンデのバー、湖畔のアイスバー。営業時間、料金。",
+      "h1": "ルカのバー",
+      "tagline": "このうち6軒はRukankyläntieという1本の通りに並び、さらに1軒には道路が通じていません。",
+      "intro": "ルカのバー通りは、クーサモにあるRukankyläntieです。6軒がこの住所を持っています。6番地のRestaurant Coloradoは歩行者中心のエリアにあり、ビリヤード台とサンテラス付き。11番地のHanki Baariは地元のビールを注ぎ、冬のあいだライブアーティストやDJを呼びます。13番地のRavintola Zoneは年に100を超えるライブの夜を開いていると謳い、グリルは4時まで。15番地のScandic Rukahoviには2つの店、Lobby Barと、カラオケバー兼ナイトクラブのBar Ihkuが入っています。17番地のRinneravintola Pisteは、フロントスロープの麓に立ちます。ルカのもうひとつのエリアがVuosseliで、3軒がここを自らの場所としています。Ahon Jussintie沿いのSki Booster、Bistrotie沿いのCAMP Kitchen & Bar、Jussinkuja沿いのRukan Olkkariです。残る4軒はそのどちらにも属しません。村の中心から650メートル、Talvijärvi湖のほとりのRukatonttu、Pessariのゲレンデの下にあり道路の通じていないテラスのMonomesta、Salongintie沿いのRukan Salonki Ice Bar、そしてRukatunturintie沿いのRukan keilahalliです。",
+      "know": [
+        "Monomestaに道路はありません。Pessariのゲレンデの麓にあるテラスへは、有効なリフト券を持ってスキーで行きます。昼のショーは無料で、提供エリアは18歳以上です。Rukan Salonki Ice BarはSalongintie沿い、湖のそばのコテージ群にあり、村なかではありません。",
+        "入場料のかかる夜もあります。Bar Ihkuは入口で8ユーロから、アーティストの夜は10–25ユーロ。Hanki Baariのライブはたいてい10–15ユーロで、Restaurant Coloradoのライブ音楽は入場無料です。",
+        "Ski BoosterとRukan keilahalliはどちらも月曜と火曜が休みで、ボウリング場は日曜も休みです。Rukatonttuは火曜から土曜の17–21時に営業します。CAMP Kitchen & Barは厨房の改装のため2026年10月19日から11月17日まで閉まり、11月19日に毎日11–21時で再開します。"
+      ]
+    },
+    "luosto": {
+      "name": "ルオスト",
+      "at": "ルオスト",
+      "title": "ルオストのバー：唯一のナイトクラブ、ダンスの夜、コタのバー | LaplandBars",
+      "description": "ルオストで飲むなら：村で唯一のナイトクラブ、犬も入れるRumpu Bar、中心部から約1.5kmのコタのバー。村で飲める7軒すべて。",
+      "h1": "ルオストのバー",
+      "tagline": "村にナイトクラブは1軒だけ。生バンドのダンスは、Lapland Hotels Luostotunturiから約300メートルのログレストランで演奏されます。",
+      "intro": "ルオストで飲める場所は7軒です。Luostontie 1のLapland Hotels Luostotunturiには2軒が入っています。ホテルが村で唯一のナイトクラブと呼ぶNightclub Karhuと、Bistroレストランの隣にあり犬も入れるRumpu Barです。220席のログレストランKeloravintolaは同じホテルから約300メートルのところに立ち、生バンドを迎えるチケット制のダンスの夜には一般にも開かれます。Luostontie 4のRestaurant Punakettuはショッピングセンターの中にあり、自らをレストランでありパブでもあると称し、地元のクラフトブルワリーのコーナーとTeerenpeliのウイスキーをそろえています。Luppokeino 1のRestaurant AuroraはSanta's Hotel Auroraのレストランで、村の中心部から歩いて行ける距離にあり、ホテルはダイニングサービスのひとつとしてロビーバーを挙げています。Hartsutie 1のRestaurant Vaiskoは、飲むだけの客も迎えます。Aarnikotaだけは離れています。AarniluostoのKerotie 10に立つラップランド式のコタで、中心部から約1.5km、徒歩、スキー、スノーシュー、車で行けます。",
+      "know": [
+        "Vaiskoはシーズンの合間は休みで、2026–2027シーズンは11月26日に開きます。Aarnikotaは決まった時刻表ではなく日付つきの期間を公表しており、現在のものはruska（紅葉）シーズンの水曜から日曜の11–16時、2026年9月27日までです。",
+        "Karhuのカラオケは無料で18歳以上限定、生バンドの夜は10ユーロ、Keloravintolaの一般向けダンスの夜はチケット15–20ユーロです。3ユーロのクローク代はチケット代に含まれません。",
+        "7軒とも週ごとの決まった営業時間を公表していません。Karhuはホテルのイベントカレンダーに従い、Keloravintolaはテーマの夜とチケット制のダンス以外は予約のみ。Punakettu、Rumpu Bar、Aarnikotaは日付つきの期間として出しており、Restaurant Auroraは時間をまったく公表していません。1軒を軸に夜の予定を組む前に確認してください。"
+      ]
+    },
+    "pyha": {
+      "name": "ピュハ",
+      "at": "ピュハ",
+      "title": "ピュハのバー：ゲレンデのパブ、山頂のワインバー、カラオケ | LaplandBars",
+      "description": "ピュハで飲むなら：ファミリーゲレンデ脇のパブ、Pyhätunturi山頂のワインバー、カラオケのあるスポーツバー。6軒の住所と公表されている営業時間。",
+      "h1": "ピュハのバー",
+      "tagline": "ひとつのリゾートに6軒のバー。そしてワインバーは山頂にあります。",
+      "intro": "ピュハの6軒のバーは、いずれもPyhätunturiにあります。うち2軒はホテルに隣接しています。Hotel Kultakeroの隣、ゲレンデのまん中にあるバーとテラスのMestaと、Hotel Pyhätunturiの隣、Kultakeronkatu 21のCAMP Kitchen & Bar PYHÄで、こちらはパノラマ窓が山並みに向いています。同じ通りの4番地、Pyhäのショッピングセンターに入るSport Bar Pyhäには、ビリヤード台、カラオケ、Viaplayのスポーツチャンネルがあります。Restaurant HuttuhippuはUkonhattu 1、ファミリーゲレンデの脇にあり、併設のHuttu-Pubはリゾートで最大のビールの品ぞろえと評されています。Hanki Baari PyhäはPohjoisrinteentie 1、ノーススロープの麓にあり、2026年12月まで休業しています。6軒目は通り沿いにはありません。Pyhä Dreams Wine BarはPyhätunturiの山頂の小屋にあり、シーニックリフトで上がります。",
+      "know": [
+        "ノーススロープの麓のHanki Baari Pyhäは休業中で、2026年12月にまた開きます。営業しているときは、保護者の同伴がなければ21:00以降は18歳以上限定で、イベントの夜は一晩を通して18歳以上限定です。",
+        "毎日の営業時間は、Restaurant Huttuhippuが13–22時、CAMP Kitchen & Bar PYHÄが16–21時、Sport Bar Pyhäが17–24時で、Sport Barは通年営業をうたっています。残る3軒、Mesta、Hanki Baari Pyhä、Pyhä Dreams Wine Barは決まった時間を公表していないので、店に確認してください。",
+        "Pyhä Dreams Wine Barは山の頂上、シーニックリフトで上がった先にあり、夏のシーズンと冬のシーズンに営業するので、日程は店に確認してください。ガイドつきのテイスティングは最大8名、所要は約2時間で、リフト券は含まれないため事前に予約を。"
+      ]
+    },
+    "iso-syote": {
+      "name": "Iso-Syöte",
+      "at": "Iso-Syöte",
+      "title": "Iso-Syöteのバー：ゲレンデのパブ、アフタースキー、山頂のバー | LaplandBars",
+      "description": "Iso-Syöteで飲むなら：Romekievarintieのパブとホテルのバー、リフト脇のアフタースキー、山頂のレストラン。5軒の住所と料金。",
+      "h1": "Iso-Syöteのバー",
+      "tagline": "ここにバー通りはありません。どの店もホテルかゲレンデ、あるいは食料品店に付いていて、5軒のうち2軒は山の上にあります。",
+      "intro": "Iso-Syöteで飲める場所は、ホテル、ゲレンデ、そして1軒の食料品店に付いていて、郵便の住所はSyöteかPudasjärviと記されます。5軒のうち2軒は、フロントスロープの麓のRomekievarintieにあります。1番地のTunturiPUBは食料品店Tunturi Marketと同じ建物に入り、隅にボードゲームを置いています。4番地のBistoriaはKIDE Hotelに併設されたレストランで、グラスワインは8.80ユーロから。TunturiPUBはホテルから数十メートルのところに立つので、この2軒は歩いてすぐの距離です。Pärjä Ski Bistroは裏側のゲレンデ、Takarinteentie 4にあり、リフトのすぐ隣で、テラスには春の夕日が差します。Ravintola Hilltopはさらに上、山頂のHilltop Hotel最上階にある200席の店で、同じ空間が10:30から18:00までCafe Hilltopとして営業します。Restaurant Kotvaは別の山、Pikku-Syöteの上のSyötekeskuksentie 126にあり、3コースで59ユーロです。",
+      "know": [
+        "5軒のうち1軒は季節次第です。Restaurant Kotvaは、自ら告知している秋のruska（紅葉）シーズンに、金曜と土曜だけディナーを出します。自社ページの日付は辻褄が合っていないので、出かける前に確認してください。Ravintola Hilltopで変わるのは店ではなくメニューのほうで、公式サイトは冬以外はアラカルトが限られること、事前予約が前提になる場合があることを注意書きしています。",
+        "TunturiPUBは月曜と火曜が休みです。バー自体は週なかは24時まで、金曜と土曜は03:00まで開いていますが、キッチンは水曜から土曜まで21:30で終わります。Pärjä Ski Bistroは営業時間をFacebookにだけ出していて、ウェブサイトには載せていません。",
+        "隣り合っているのはTunturiPUBとBistoriaだけです。どちらもKIDE Hotelのそば、Romekievarintieにあり、その差は数十メートル。Ravintola HilltopはIsosyötteentie沿い、Iso-Syöteの山頂にあり、Restaurant KotvaはPikku-Syöteの上にあります。この2軒はゲレンデの麓から歩いて行ける店ではなく、それぞれ山を上る移動になります。"
+      ]
+    },
+    "salla": {
+      "name": "サッラ",
+      "at": "サッラ",
+      "title": "サッラのバー：スキーリゾートのパブ、カラオケ、深夜営業 | LaplandBars",
+      "description": "サッラで飲むなら：スキーリゾートの2軒、Hautajärventieのカラオケパブ、Vallovaara村の古い小学校のパブ。4軒の住所と営業時間。",
+      "h1": "サッラのバー",
+      "tagline": "ここの4軒のうち3軒がカラオケを開いていて、そのうち山にあるのは1軒だけです。",
+      "intro": "サッラはふたつに分かれます。2軒は山にあります。Papana Pupiは、Sallatunturi、Hangasjärventie 1のSallatunturin Tuvatのハウスパブで、レセプションとRestaurant Kielaと同じ建物に入り、壁にはフィンランドのアイスホッケー選手の試合用ジャージとスティックが並びます。Revontulentie 9のログレストランKeloravintolaは、Salla Ski Resortのフロントスロープの麓に立ち、フルライセンスで、日当たりのよいテラスとアフタースキーがあります。残る2軒はRavintola Sallan MajaとEvakko Pubです。Hautajärventie 32のSallan Majaは、昼はランチとアラカルトのキッチンを回し、遅い時間は自前のパブMajan Pubiを開けます。カラオケとボードゲームがあり、22:00からは18歳以上限定です。Evakko Pubは、Vallovaara村、Vallovaarantie 209のKairalan Kievariにあるパブで、古い小学校の建物を使い、ゲームルームにはダーツとビリヤードがあります。",
+      "know": [
+        "Ravintola Sallan Majaは自社ページ同士で内容が食い違っています。フィンランド語のトップページは月曜から木曜が11–18時、金曜が11–18時と22–04時、土曜が12–18時と22–02時と記載し、英語ページはパブが金曜と土曜の21–04時としています。日曜は営業時間の欄にまったく出てきません。月曜から木曜のランチビュッフェは11–14時、13.50ユーロで、サラダビュッフェとコーヒー込みです。",
+        "Evakko PubはVallovaara村、Vallovaarantie 209にあります。金曜と土曜の22–02時という表記は2018年ごろの内容と見られるページに由来し、Visit Sallaは必要に応じて週末に明け方まで開くとしか書いていないので、出かける前に確認してください。ライブ音楽の夜は3時まで続きます。",
+        "Keloravintolaは毎日13–20時と表示し、通年営業です。Papana PupiはSallatunturin Tuvatの看板に従って08:00–22:00、冬のライブの夜はもっと遅くまで開きますが、閉店時刻は公表されていません。Keloravintolaで検索すると、Lapland Hotels Luostotunturiにある別の同名店も出てきます。サッラのほうはRevontulentie 9です。"
+      ]
+    }
+  },
+  "cityVibes": {
+    "Ruka": "フィンランド領ラップランドではなく、Koillismaaにあるクーサモのフェルリゾート。リゾート内に13軒あり、ゲレンデのバー、アイスバー、ボウリング場のバー、ナイトクラブが2軒。",
+    "Pyha": "コンパクトなフェルリゾートに6軒。ゲレンデのパブ、ワインバー、スポーツバー。いくつかは冬の営業時間だけで動いています。",
+    "Luosto": "ひとつのホテル村を囲む7軒。ホテルのバー、Kerotieの突き当たりにあるコタのカフェバー、そして一般向けの夜が生バンドのチケット制ダンスになるログレストラン。",
+    "Salla": "4軒。ゲレンデの麓のログレストラン、アプレスキーのパブ、そして残る2軒ではカラオケ。",
+    "Iso-Syote": "フィンランド領ラップランドではなく、PudasjärviのSyöteの山にあります。5軒あり、パブ、アフタースキーのビストロ、山頂のバー、ワインレストラン。"
+  },
+  "bars": {
+    "title": "フィンランド領ラップランド、ルカ、Syöteのバー | LaplandBars",
+    "description": "地元の人が実際に飲みに行くバーを、ロヴァニエミ、レヴィ、ユッラス、サーリセルカ、ルカ、Iso-Syöteまで。営業時間、価格、評価。",
+    "heroSub": "ここに載っているバーはどれも実在し、営業していて、一晩を使う価値があります。スポンサー枠も埋め草もなく、あるのはラップランド、ルカ、Syöteの実際の飲み文化だけです。"
+  }
+}

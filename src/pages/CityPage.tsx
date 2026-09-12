@@ -10,11 +10,10 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import RelatedSites from '../components/RelatedSites';
 import NotFound from './NotFound';
-import { BARS } from '../data/images';
 import { BAR_CITIES, cityBySlug, barsForCity, SISTER_CITY_URLS } from '../data/barCities';
 import { findRating } from '../components/VenueRating';
 import { barItemList } from '../lib/barSchema';
-import { barImages } from './Bars';
+import { barImages } from '../data/barCardImages';
 
 const ORIGIN = 'https://laplandbars.com';
 
@@ -80,13 +79,18 @@ export default function CityPage() {
 
   // Sisarsivustojen SAMAN kaupungin sivut: syömään, yökerhoihin. Kolmas
   // linkki on koko verkoston matkasuunnittelu, kuten etusivulla.
+  //
+  // 🔴 Vain ne sisarsivut, jotka OIKEASTI vastaavat 200. Mitattu 12.9.2026:
+  // seitsemästä uudesta kaupungista laplanddiningilla on sivu neljälle ja
+  // laplandnightlifella viidelle. Ehdoton linkki olisi tuottanut 8 kuollutta
+  // linkkiä × 12 kieltä. Lippu on `barCities.ts`:n `sisters`.
   const related = [
-    {
+    city.sisters.dining && {
       anchor: t('cities.shared.eatHere', { name, at, defaultValue: `Where to eat in ${at}` }),
       desc: t('home.related.links.1.desc'),
       href: SISTER_CITY_URLS.dining(city.slug, prefix),
     },
-    {
+    city.sisters.nightlife && {
       anchor: t('cities.shared.nightlifeHere', { name, at, defaultValue: `Nightlife in ${at}` }),
       desc: t('home.related.links.0.desc'),
       href: SISTER_CITY_URLS.nightlife(city.slug, prefix),
@@ -96,7 +100,7 @@ export default function CityPage() {
       desc: t('home.related.links.2.desc'),
       href: 'https://laplandvisit.com',
     },
-  ];
+  ].filter(Boolean) as { anchor: string; desc: string; href: string }[];
 
   return (
     <>
@@ -104,7 +108,7 @@ export default function CityPage() {
         title={title}
         description={description}
         path={path}
-        ogImage={`${ORIGIN}${city.img}`}
+        ogImage={city.img ? `${ORIGIN}${city.img}` : undefined}
         jsonLd={[
           {
             '@type': 'BreadcrumbList',
@@ -120,15 +124,22 @@ export default function CityPage() {
 
       {/* Hero: sama svh-mitta ja md+-pakoluukku kuin muilla sivuilla */}
       <section className="relative min-h-[46svh] flex items-center justify-center overflow-hidden [@media(max-height:900px)_and_(min-width:768px)]:!items-start [@media(max-height:900px)_and_(min-width:768px)]:pt-24">
-        <img
-          src={city.img}
-          alt=""
-          aria-hidden="true"
-          className="absolute inset-0 w-full h-full object-cover"
-          fetchPriority="high"
-          decoding="async"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/60 to-night" />
+        {/* Kuva vain jos kaupungille on valittu sellainen; ks. barCities.ts. */}
+        {city.img ? (
+          <>
+            <img
+              src={city.img}
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 w-full h-full object-cover"
+              fetchPriority="high"
+              decoding="async"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/60 to-night" />
+          </>
+        ) : (
+          <div aria-hidden="true" className="absolute inset-0 bg-night" style={{ background: 'radial-gradient(80% 70% at 50% 0%, rgba(245,158,11,0.12) 0%, rgba(15,23,42,0) 68%)' }} />
+        )}
         <div className="relative z-10 max-w-4xl mx-auto px-5 py-20 text-center">
           <p className="inline-flex items-center gap-2 text-amber text-[11px] font-bold uppercase tracking-[0.25em] mb-4">
             <MapPin size={13} /> {t('cities.shared.kicker', { defaultValue: 'Where to drink' })}
@@ -193,7 +204,7 @@ export default function CityPage() {
               <BarCard
                 key={bar.name}
                 bar={bar}
-                image={barImages[bar.name] || BARS.heroMain}
+                image={barImages[bar.name]}
                 locale={locale}
                 campaign={`bars_city_${city.slug}`}
               />
