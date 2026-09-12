@@ -113,4 +113,5 @@ export const CARDS = {
   saunaBeer: '/images/cards/saunaBeer.webp',
   beerFlight: '/images/cards/beerFlight.webp',
   auroraLounge: '/images/cards/auroraLounge.webp',
+  apresToast: '/images/cards/apresToast.webp',
 } as const;

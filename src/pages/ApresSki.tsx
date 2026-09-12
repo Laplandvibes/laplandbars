@@ -1,7 +1,7 @@
-import { Mountain, Music, Beer, Hotel, ExternalLink } from 'lucide-react';
+import { Hotel, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { BARS } from '../data/images';
+import { BARS, CARDS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
@@ -47,7 +47,6 @@ type Pillar = { title: string; body: string };
 export default function ApresSki() {
   const { t } = useTranslation('pages');
   const { to } = useLocale();
-  const pillarIcons = [Mountain, Music, Beer];
   const pillars = (t('apresSki.pillars', { returnObjects: true }) as Pillar[]) || [];
   return (
     <>
@@ -86,37 +85,41 @@ export default function ApresSki() {
       </section>
       <PageBreadcrumb />
 
-      {/* What makes Lapland après-ski different */}
+      {/* Mika Lapin apres-skissa on toisin.
+          Vesa 12.9.2026: *"tama alku taalla on todella poor"* ja syyksi
+          "tyhjat ikonilaatikot" + "ei kuvia". Kolme pyoreaa laatikkoa ikonilla
+          oli sama vikaluokka kuin diningin KPI-laatat. Nyt sama teksti (12
+          kielta, ei uutta kaannettavaa) on numeroituna editoriaalina kuten
+          juomakulttuurin luvuissa, ja rinnalla on kuva. Samalla poistui
+          alempi kahden AI-kuvan kollaasi: saanto
+          `_claude/feedback_ei_geneerista_ai_ulkoasua.md` kieltaa ihmisia
+          esittavien AI-kuvien kollaasit. */}
       <section className="py-16 bg-night">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-12">
-            {pillars.map((p, i) => {
-              const Icon = pillarIcons[i] ?? Mountain;
-              return (
-                <div key={p.title} className="bar-card p-7 text-center">
-                  <div className="w-12 h-12 bg-amber/10 rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <Icon size={22} className="text-amber" />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_380px] gap-10 lg:gap-16 items-start">
+            <ol className="min-w-0 max-w-[58ch] space-y-8">
+              {pillars.map((p, i) => (
+                <li key={p.title} className="flex gap-5 sm:gap-6">
+                  <span className="font-heading text-4xl sm:text-5xl text-amber leading-none w-12 shrink-0 pt-0.5">
+                    {String(i + 1).padStart(2, '0')}
+                  </span>
+                  <div className="min-w-0">
+                    <h2 className="font-heading text-2xl sm:text-3xl text-white tracking-wide mb-2">{p.title}</h2>
+                    <p className="text-[17px] text-white/80 leading-[1.7]">{p.body}</p>
                   </div>
-                  <h3 className="font-heading text-lg text-white tracking-wide mb-2">{p.title}</h3>
-                  <p className="text-sm text-white/75 leading-relaxed">{p.body}</p>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      </section>
-
-      {/* Atmosphere collage — deck party energy + the toast */}
-      <section className="pb-16 bg-night">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 sm:grid-cols-5 gap-5">
-            <div className="bar-card relative overflow-hidden h-64 sm:h-96 sm:col-span-3">
-              <img src={BARS.apresDanceDeck} alt="Skiers dancing with drinks raised at an outdoor après-ski deck party at twilight" loading="lazy" decoding="async" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
-            </div>
-            <div className="bar-card relative overflow-hidden h-64 sm:h-96 sm:col-span-2">
-              <img src={BARS.apresToast} alt="Beer mugs clinking in a toast in ski gloves against the low winter sun" loading="lazy" decoding="async" className="w-full h-full object-cover" />
-              <div className="absolute inset-0 bg-gradient-to-t from-night/60 to-transparent" />
+                </li>
+              ))}
+            </ol>
+            <div className="order-first lg:order-none lg:sticky lg:top-24 mx-auto max-w-[380px] lg:max-w-none w-full">
+              <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 aspect-[16/10]">
+                <img
+                  src={CARDS.apresToast}
+                  alt="Olutkolpakot kilistetaan hiihtohanskoissa matalassa talviauringossa"
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>

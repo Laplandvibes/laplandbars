@@ -39,6 +39,7 @@ const NAMES = [
   'saunaBeer',       // 1.79 — Pub Sarvi
   'beerFlight',      // 1.78 — Bar Alakerta
   'auroraLounge',    // 1.78 — Pirtukellari Night Club
+  'apresToast',      // 1.79 — apres-ski-sivun avaus
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

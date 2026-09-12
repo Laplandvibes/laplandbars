@@ -13,6 +13,7 @@ import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
 import { AppPromoHero } from '../components/AppPromo';
 import BarCard from '../components/BarCard';
+import RelatedSites from '../components/RelatedSites';
 
 const barImages: Record<string, string> = {
   // Varakuva vain siltä varalta ettei omaa kuvaa ole hyväksytty; EI breweryInterior,
@@ -48,7 +49,6 @@ const stayCardsMeta = [
 
 type CategoryCard = { title: string; desc: string };
 type FaqItem = { q: string; a: string };
-type RelatedLink = { anchor: string; desc: string; href: string };
 
 // Per-question deep links into the pages that back each FAQ answer
 // (Vesa 2026-07-07: FAQ answers must point to our own supporting content).
@@ -77,7 +77,6 @@ export default function Home() {
   const { to, locale } = useLocale();
   const categoryCards = (t('home.categories.cards', { returnObjects: true }) as CategoryCard[]) || [];
   const faqItems = (t('home.faq.items', { returnObjects: true }) as FaqItem[]) || [];
-  const relatedLinks = (t('home.related.links', { returnObjects: true }) as RelatedLink[]) || [];
 
   const faqPageSchema = {
     '@type': 'FAQPage',
@@ -400,41 +399,12 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Related sites — contextual sibling links across the LaplandVibes network */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-night/95 border-t border-white/5">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12">
-            <p className="text-xs uppercase tracking-[0.25em] text-amber font-bold mb-3">{t('home.related.eyebrow')}</p>
-            <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
-              {t('home.related.title')}
-            </h2>
-            <p className="text-white/75 text-lg max-w-2xl mx-auto">
-              {t('home.related.sub')}
-            </p>
-          </div>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
-            {relatedLinks.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                target="_blank"
-                rel="noopener"
-                className="bar-card bar-card-hover group p-6 no-underline flex flex-col"
-              >
-                <div className="flex items-start justify-between gap-3 mb-2">
-                  <h3 className="font-heading text-2xl text-white tracking-wide group-hover:text-amber transition-colors">
-                    {link.anchor}
-                  </h3>
-                  <ArrowUpRight size={20} className="shrink-0 text-amber/70 group-hover:text-amber transition-colors" />
-                </div>
-                <p className="text-sm text-white/75 leading-relaxed">{link.desc}</p>
-              </a>
-            ))}
-          </div>
-
-          <AffiliateDisclosure variant="full" className="mt-12 text-white/45 max-w-2xl mx-auto" />
-        </div>
-      </section>
+      {/* Verkostolinkit: jaettu RelatedSites, sama kortti kuin /bars ja /city.
+          Oli oma kopio samasta lohkosta — kaksi paikkaa yllapidettavana. */}
+      <RelatedSites />
+      <div className="bg-night pb-16 px-4 sm:px-6 lg:px-8">
+        <AffiliateDisclosure variant="full" className="text-white/45 max-w-2xl mx-auto" />
+      </div>
     </>
   );
 }
