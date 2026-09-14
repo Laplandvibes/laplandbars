@@ -100,7 +100,7 @@ export default function VenueRating({
       rel="noopener"
       aria-label={label}
       title={label}
-      className="-m-2.5 p-2.5 inline-flex rounded-full hover:opacity-80 transition-opacity"
+      className="relative z-10 -m-2.5 p-2.5 inline-flex rounded-full hover:opacity-80 transition-opacity"
     >
       {pill}
     </a>

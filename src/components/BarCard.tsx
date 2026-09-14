@@ -138,7 +138,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
               href={withReferral(bar.website, campaign)}
               target="_blank"
               rel="nofollow noopener"
-              className="inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
+              className="lv-tap inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
             >
               {t('bars.venueWebsite')} <ExternalLink size={11} />
             </a>
@@ -148,7 +148,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
               href={rating.mapsUri}
               target="_blank"
               rel="nofollow noopener"
-              className="inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
+              className="lv-tap inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
             >
               <Map size={11} /> {t('bars.venueMap')}
             </a>
@@ -158,7 +158,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
               href={tourHref}
               target="_blank"
               rel={tourRel}
-              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] sm:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
             >
               <Ticket size={12} />
               {tourCta}
