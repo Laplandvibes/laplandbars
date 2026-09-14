@@ -172,7 +172,7 @@ export default function Home() {
           <div className="text-center mt-10">
             <Link
               to={to('/bars')}
-              className="inline-flex items-center gap-2 text-amber hover:text-amber/80 font-semibold transition-colors no-underline"
+              className="lv-tap inline-flex items-center gap-2 text-amber hover:text-amber/80 font-semibold transition-colors no-underline"
             >
               {t('home.featured.viewAll')}
               <ExternalLink size={16} />
@@ -375,7 +375,7 @@ export default function Home() {
                       <Link
                         key={key}
                         to={to(FAQ_ROUTE[key])}
-                        className="inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber hover:text-white transition-colors"
+                        className="lv-tap inline-flex items-center gap-1.5 text-xs sm:text-sm font-semibold uppercase tracking-wider text-amber hover:text-white transition-colors"
                       >
                         {tNav(`links.${key}`)} <ArrowUpRight className="w-3.5 h-3.5 shrink-0" />
                       </Link>

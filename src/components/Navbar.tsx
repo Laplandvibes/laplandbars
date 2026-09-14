@@ -39,7 +39,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={locale} currentDomain="laplandbars.com" />
-            <Link to={to('/')} className="no-underline">
+            <Link to={to('/')} className="no-underline inline-flex items-center min-h-11">
               <Logo light />
             </Link>
           </div>
@@ -63,7 +63,7 @@ export default function Navbar() {
             <LanguageSwitcher />
             <button
               onClick={() => setOpen(!open)}
-              className="p-2 text-white hover:text-amber transition-colors"
+              className="p-2 text-white hover:text-amber transition-colors inline-flex items-center justify-center min-h-11 min-w-11"
               aria-label={t('menu')}
             >
               {open ? <X size={24} /> : <Menu size={24} />}

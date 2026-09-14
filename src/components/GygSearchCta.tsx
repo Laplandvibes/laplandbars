@@ -63,7 +63,7 @@ export default function GygSearchCta({
         target="_blank"
         rel="sponsored nofollow noopener"
         onClick={() => trackAffiliateClick('getyourguide', `gyg_search:${sid}`, href)}
-        className={`inline-flex items-center gap-1.5 text-amber hover:text-amber/80 text-sm font-semibold no-underline transition-colors ${className}`}
+        className={`lv-tap inline-flex items-center gap-1.5 text-amber hover:text-amber/80 text-sm font-semibold no-underline transition-colors ${className}`}
       >
         {children}
         <ArrowUpRight size={14} className="shrink-0" />

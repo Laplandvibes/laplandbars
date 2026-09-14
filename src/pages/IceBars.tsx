@@ -178,7 +178,7 @@ export default function IceBars() {
                         href={withReferral(bar.website, 'bars_ice_bars')}
                         target="_blank"
                         rel="nofollow noopener"
-                        className="inline-flex items-center gap-1 text-[11px] text-white/65 hover:text-white/80 no-underline transition-colors"
+                        className="lv-tap inline-flex items-center gap-1 text-[11px] text-white/65 hover:text-white/80 no-underline transition-colors"
                       >
                         {t('iceBars.venueWebsite')} <ExternalLink size={10} />
                       </a>

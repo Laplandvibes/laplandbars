@@ -35,7 +35,7 @@ export default function MenuLink({ bar, label, labelPdf, campaign, className = '
       href={withReferral(menu.url, campaign)}
       target="_blank"
       rel="nofollow noopener"
-      className={`inline-flex items-center gap-1 text-[11px] no-underline transition-colors ${className}`}
+      className={`lv-tap inline-flex items-center gap-1 text-[11px] no-underline transition-colors ${className}`}
     >
       {menu.kind === 'pdf' ? labelPdf : label} <ExternalLink size={10} />
     </a>
