@@ -25,7 +25,7 @@
         },
         {
           "title": "Après-ski",
-          "desc": "De l'arène Hullu Poro et ses 1 700 places aux petits pubs de montagne, l'après-ski lapon n'est pas légendaire pour rien."
+          "desc": "De l'arène Hullu Poro et ses 1 700 places aux petits pubs de montagne, l'après-ski lapon n'est pas légendaire pour rien."
         },
         {
           "title": "Musique live",
@@ -64,7 +64,7 @@
         },
         {
           "q": "Où trouver les meilleurs bars d'après-ski à Levi et Ylläs ?",
-          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après une journée sur les fjälls, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
+          "a": "À Levi, la Hullu Poro Areena se trouve au pied de la piste principale et accueille jusqu'à 1 700 personnes sur deux niveaux, avec dix bars et des concerts finlandais ; Bar Ihku et Pub Hölmölä prennent le relais tard. Côté Ylläs, Selvä Pyy, au village d'Äkäslompolo, est le point de ralliement après une journée sur les fjälls, et la boîte du Lapland Hotels Äkäshotelli prend la suite quand les pubs ferment. Les remontées s'arrêtent vers 16 h et les bars se remplissent aussitôt."
         },
         {
           "q": "Peut-on boire de l'alcool en plein air en Finlande ?",
@@ -126,7 +126,7 @@
     "disclaimer": "Les prix et horaires varient selon la saison. Vérifiez toujours directement avec l'établissement avant de venir. Ce guide est tenu à jour autant que possible, mais n'est pas une plateforme de réservation en temps réel.",
     "cityVibes": {
       "Rovaniemi": "La capitale arctique à la nuit tombée, pubs de brasserie artisanale, bars à cocktails, et un vrai bar tout en glace.",
-      "Levi": "La capitale finlandaise de l'après-ski. L'arène Hullu Poro accueille 1 700 personnes. La montagne ferme à 16 h, la fête commence à 16 h 01.",
+      "Levi": "La capitale finlandaise de l'après-ski. L'arène Hullu Poro accueille 1 700 personnes. La montagne ferme à 16 h, la fête commence à 16 h 01.",
       "Yllas": "Plus calme que Levi, plus chaleureux que partout ailleurs. Des pubs de montagne feutrés où locaux et visiteurs se mélangent sans chichis.",
       "Saariselka": "Isolé, sombre et étonnamment bien fourni. Le Gastropub Giitu propose une carte de bières artisanales qui justifie le trajet aussi loin au nord.",
       "Ruka": "La station de montagne de Kuusamo, en Koillismaa, pas en Laponie. Treize adresses dans la station même : bars de piste, un bar de glace, un bar de bowling et deux boîtes de nuit.",
@@ -190,9 +190,9 @@
       },
       "Hullu Poro Areena": {
         "type": "Salle de musique live & après-ski",
-        "description": "La grande salle de Levi, au pied de la piste principale. Jusqu'à 1 700 personnes sur deux niveaux, dix bars et une vaste piste de danse. Têtes d'affiche finlandaises et DJ toute la saison de ski. En activité depuis 2001.",
+        "description": "La grande salle de Levi, au pied de la piste principale. Jusqu'à 1 700 personnes sur deux niveaux, dix bars et une vaste piste de danse. Têtes d'affiche finlandaises et DJ toute la saison de ski. En activité depuis 2001.",
         "highlights": [
-          "1 700 places",
+          "1 700 places",
           "Dix bars, deux niveaux",
           "Au pied des pistes",
           "Ouvert depuis 2001"
@@ -274,7 +274,7 @@
         "tour": {
           "label": "Visite de la brasserie & dégustation",
           "schedule": "Le vendredi à 17 h (déc.–mars, chaque semaine)",
-          "hint": "Inscription avant mer. 14 h, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
+          "hint": "Inscription avant mer. 14 h, minimum 3 personnes. Réservation via info@lapinpanimo.fi ou +358 45 133 4410.",
           "directLabel": "Réserver sur lapinpanimo.fi"
         }
       },
@@ -1017,7 +1017,7 @@
     "venues": {
       "Hullu Poro Areena": {
         "type": "Salle de musique live",
-        "desc": "Le roi incontesté. 1 700 places au pied de la piste principale. Têtes d'affiche finlandaises, DJ et groupes en live tous les soirs en saison. La fête de fin de piste à laquelle les autres stations lapones aspirent."
+        "desc": "Le roi incontesté. 1 700 places au pied de la piste principale. Têtes d'affiche finlandaises, DJ et groupes en live tous les soirs en saison. La fête de fin de piste à laquelle les autres stations lapones aspirent."
       },
       "Bar Ihku": {
         "type": "Boîte de nuit",
@@ -1217,7 +1217,7 @@
       {
         "name": "Tornion Panimo",
         "location": "Tornio (frontière suédoise)",
-        "description": "On brasse ici sur la rive du Tornionjoki depuis 1873. Hartwall a fermé le site en 2010 et déplacé la production vers le sud ; en 2016, plus de 1 900 petits investisseurs ont fait renaître la brasserie par financement participatif. Elle produit bières et spiritueux, dont l'Original Lapland Lager et l'Arctic Pale Ale, et propose des visites avec dégustation."
+        "description": "On brasse ici sur la rive du Tornionjoki depuis 1873. Hartwall a fermé le site en 2010 et déplacé la production vers le sud ; en 2016, plus de 1 900 petits investisseurs ont fait renaître la brasserie par financement participatif. Elle produit bières et spiritueux, dont l'Original Lapland Lager et l'Arctic Pale Ale, et propose des visites avec dégustation."
       },
       {
         "name": "Lapland Brewery",
@@ -1257,7 +1257,7 @@
           "name": "Lapland Original Lager",
           "brewery": "Tornion Panimo · Tornio",
           "abv": "5,2 %",
-          "desc": "Le fleuron de la brasserie que 1 900 petits investisseurs ont fait renaître en 2016. Lager, 5,2 %."
+          "desc": "Le fleuron de la brasserie que 1 900 petits investisseurs ont fait renaître en 2016. Lager, 5,2 %."
         },
         {
           "name": "Routa Imperial Stout Bourbon Oaked",
@@ -1287,7 +1287,7 @@
         "Comment les Finlandais le boivent ? Froid, sec, dans un petit verre. Parfois avec une bière en accompagnement (la combinaison s'appelle viina + kalja, le duo classique de la classe ouvrière finlandaise). En Laponie, vous le trouverez dans chaque pub, généralement à portée de main derrière le comptoir. Il a été sur les tables finlandaises lors des mariages, des enterrements, des saunas du samedi et des petits-déjeuners du dimanche. Il n'est pas glamour. C'est précisément le point."
       ],
       "factsLabel": "En bref :",
-      "facts": "Produit par Altia (aujourd'hui Anora Group). Plus de 10 millions de litres vendus chaque année en Finlande. Le village de Koskenkorva compte environ 1 500 habitants. La distillerie est l'une des plus efficaces au monde, sans déchet, les résidus de grain nourrissent le bétail."
+      "facts": "Produit par Altia (aujourd'hui Anora Group). Plus de 10 millions de litres vendus chaque année en Finlande. Le village de Koskenkorva compte environ 1 500 habitants. La distillerie est l'une des plus efficaces au monde, sans déchet, les résidus de grain nourrissent le bétail."
     },
     "finlandia": {
       "title": "Vodka Finlandia, la Finlande au monde",
@@ -1516,7 +1516,7 @@
       "description": "Où boire un verre à Levi : Hullu Poro Areena, Bar Ihku et les pubs du village au pied des pistes, plus un restaurant de sommet. Notes, horaires, prix.",
       "h1": "Bars à Levi",
       "tagline": "La capitale finlandaise de l’après-ski. Les remontées s’arrêtent à 16 h 00 et les bars se remplissent aussitôt.",
-      "intro": "Les bars de Levi se serrent dans le village au pied de la piste principale, officiellement appelé Sirkka, d’où les adresses postales qui indiquent Sirkka ou Kittilä. La Hullu Poro Areena, sur Hissitie, est la grande salle : deux étages, dix bars et jusqu’à 1 700 personnes les soirs de concert. Le Bar Ihku, sur Keskuskuja, et le Pub Hölmölä, sur Hiihtäjänkuja, assurent la fin de nuit, Public House Sohva et Pub Old Mates font bière et football, et le Bar Alakerta, sur Myllyjoentie, organise des jams à scène ouverte le dimanche. Le Restaurant Tuikku est l’exception : perché au sommet, il accueille l’après-ski de l’après-midi pendant la saison de ski.",
+      "intro": "Les bars de Levi se serrent dans le village au pied de la piste principale, officiellement appelé Sirkka, d’où les adresses postales qui indiquent Sirkka ou Kittilä. La Hullu Poro Areena, sur Hissitie, est la grande salle : deux étages, dix bars et jusqu’à 1 700 personnes les soirs de concert. Le Bar Ihku, sur Keskuskuja, et le Pub Hölmölä, sur Hiihtäjänkuja, assurent la fin de nuit, Public House Sohva et Pub Old Mates font bière et football, et le Bar Alakerta, sur Myllyjoentie, organise des jams à scène ouverte le dimanche. Le Restaurant Tuikku est l’exception : perché au sommet, il accueille l’après-ski de l’après-midi pendant la saison de ski.",
       "know": [
         "Tout, sauf Tuikku, est accessible à pied dans le village ; le sommet se rejoint en télécabine, à ski ou par la route du sommet.",
         "Les soirs de concert à la Hullu Poro Areena sont payants, en général autour de 25–30 euros ; les soirées pub ordinaires sont en entrée libre.",

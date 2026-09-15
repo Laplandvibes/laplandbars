@@ -25,7 +25,7 @@
         },
         {
           "title": "Afterski",
-          "desc": "Från Hullu Poro Areenas scen för 1 700 personer till mysiga fjällpubar. Lapplands afterski är legendarisk med all rätt."
+          "desc": "Från Hullu Poro Areenas scen för 1 700 personer till mysiga fjällpubar. Lapplands afterski är legendarisk med all rätt."
         },
         {
           "title": "Livemusik",
@@ -64,7 +64,7 @@
         },
         {
           "q": "Var finns de bästa afterski-barerna i Levi och Ylläs?",
-          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och rymmer upp till 1 700 personer på två våningar, med tio barer och finska liveakter. Bar Ihku och Pub Hölmölä tar de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar vid när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
+          "a": "I Levi ligger Hullu Poro Areena vid foten av huvudbacken och rymmer upp till 1 700 personer på två våningar, med tio barer och finska liveakter. Bar Ihku och Pub Hölmölä tar de sena timmarna. På Ylläs-sidan är Selvä Pyy i byn Äkäslompolo samlingsplatsen efter fjället, och nattklubben på Lapland Hotels Äkäshotelli tar vid när pubarna stänger. Liftarna stänger runt klockan 16 och barerna fylls direkt efter."
         },
         {
           "q": "Får man dricka alkohol utomhus i Finland?",
@@ -126,7 +126,7 @@
     "disclaimer": "Priser och öppettider ändras med säsongen. Bekräfta alltid direkt med stället innan du besöker det. Den här guiden hålls så korrekt som möjligt men är ingen bokningsplattform i realtid.",
     "cityVibes": {
       "Rovaniemi": "Arktis huvudstad efter mörkrets inbrott: bryggeripubar, cocktailbarer och en bar som faktiskt är gjord av is.",
-      "Levi": "Finlands afterski-huvudstad. Hullu Poro Areena rymmer 1 700 personer. Fjället stänger klockan 16 och festen börjar 16.01.",
+      "Levi": "Finlands afterski-huvudstad. Hullu Poro Areena rymmer 1 700 personer. Fjället stänger klockan 16 och festen börjar 16.01.",
       "Yllas": "Lugnare än Levi, varmare än någon annanstans. Mysiga fjällpubar där lokalbor och besökare blandas utan tillgjordhet.",
       "Saariselka": "Avlägset, mörkt och förvånansvärt välsorterat. Gastropub Giitu har en ölmeny som gör resan så här långt norrut värd besväret.",
       "Ruka": "Kuusamos fjällort i Koillismaa, inte i Lappland. Tretton ställen på själva orten: backbarer, en isbar, en bar i bowlinghallen och två nattklubbar.",
@@ -190,9 +190,9 @@
       },
       "Hullu Poro Areena": {
         "type": "Livemusikscen och afterski",
-        "description": "Levis stora sal, vid foten av huvudbacken. Upp till 1 700 personer på två våningar, tio barer och ett stort dansgolv. Finska headliners och dj:ar hela skidsäsongen. Har varit i gång sedan 2001.",
+        "description": "Levis stora sal, vid foten av huvudbacken. Upp till 1 700 personer på två våningar, tio barer och ett stort dansgolv. Finska headliners och dj:ar hela skidsäsongen. Har varit i gång sedan 2001.",
         "highlights": [
-          "1 700 personer",
+          "1 700 personer",
           "Tio barer, två våningar",
           "Intill backen",
           "Öppet sedan 2001"
@@ -274,7 +274,7 @@
         "tour": {
           "label": "Bryggerirundtur och provsmakning",
           "schedule": "Fredagar 17.00 (dec–mars, varje vecka)",
-          "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
+          "hint": "Anmäl senast ons 14.00, minst 3 personer. Boka via info@lapinpanimo.fi eller +358 45 133 4410.",
           "directLabel": "Boka på lapinpanimo.fi"
         }
       },
@@ -1017,7 +1017,7 @@
     "venues": {
       "Hullu Poro Areena": {
         "type": "Livemusikarena",
-        "desc": "Den obestridda kungen. Ett ställe med plats för 1 700 personer vid foten av frontbacken. Finlands toppartister, dj:ar och liveband varje kväll under skidsäsongen. Den afterski som andra Lapplandsorter strävar efter."
+        "desc": "Den obestridda kungen. Ett ställe med plats för 1 700 personer vid foten av frontbacken. Finlands toppartister, dj:ar och liveband varje kväll under skidsäsongen. Den afterski som andra Lapplandsorter strävar efter."
       },
       "Bar Ihku": {
         "type": "Nattklubb",
@@ -1217,7 +1217,7 @@
       {
         "name": "Tornion Panimo",
         "location": "Tornio (vid svenska gränsen)",
-        "description": "På Torne älvs strand har det bryggts öl sedan 1873. Hartwall stängde bryggeriet 2010 och flyttade produktionen söderut, men 2016 återuppväckte drygt 1 900 småsparare bryggeriet genom en gräsrotsfinansiering. Här görs både öl och sprit, bland annat Original Lapland Lager och Arctic Pale Ale, och bryggeriet ordnar provningsturer."
+        "description": "På Torne älvs strand har det bryggts öl sedan 1873. Hartwall stängde bryggeriet 2010 och flyttade produktionen söderut, men 2016 återuppväckte drygt 1 900 småsparare bryggeriet genom en gräsrotsfinansiering. Här görs både öl och sprit, bland annat Original Lapland Lager och Arctic Pale Ale, och bryggeriet ordnar provningsturer."
       },
       {
         "name": "Lapland Brewery",
@@ -1257,7 +1257,7 @@
           "name": "Lapland Original Lager",
           "brewery": "Tornion Panimo · Tornio",
           "abv": "5,2 %",
-          "desc": "Flaggskeppet från bryggeriet som 1 900 småinvesterare tog tillbaka 2016. Lager, 5,2 %."
+          "desc": "Flaggskeppet från bryggeriet som 1 900 småinvesterare tog tillbaka 2016. Lager, 5,2 %."
         },
         {
           "name": "Routa Imperial Stout Bourbon Oaked",
@@ -1287,7 +1287,7 @@
         "Hur dricker finländare den? Kall, ren, ur ett litet glas. Ibland med en öl att skölja ner med (kombinationen kallas viina + kalja, den klassiska finska arbetarklassduon). I Lappland hittar du den på varje pub, oftast längst fram i baren. Den har funnits på finska bord vid bröllop, begravningar, lördagsbastur och söndagsfrukostar. Den är inte glamorös. Det är hela poängen."
       ],
       "factsLabel": "Snabbfakta:",
-      "facts": "Produceras av Altia (numera Anora Group). Över 10 miljoner liter säljs årligen i Finland. Byn Koskenkorva har omkring 1 500 invånare. Destilleriet är ett av de mest effektiva sädesdestillerierna i världen och ger noll avfall, sädesresterna blir djurfoder."
+      "facts": "Produceras av Altia (numera Anora Group). Över 10 miljoner liter säljs årligen i Finland. Byn Koskenkorva har omkring 1 500 invånare. Destilleriet är ett av de mest effektiva sädesdestillerierna i världen och ger noll avfall, sädesresterna blir djurfoder."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Finland till världen",
@@ -1516,7 +1516,7 @@
       "description": "Var man dricker i Levi: Hullu Poro Areena, Bar Ihku och bypubarna vid backens fot, plus en fjälltoppsrestaurang. Betyg, öppettider och priser.",
       "h1": "Barer i Levi",
       "tagline": "Finlands afterski-huvudstad. Liftarna stannar kl. 16:00 och barerna fylls direkt efter.",
-      "intro": "Levis barer ligger tätt i byn vid frontbackens fot, som officiellt heter Sirkka, vilket är varför postadresserna säger Sirkka eller Kittilä. Hullu Poro Areena på Hissitie är den stora salen: två våningar, tio barer och upp till 1 700 personer på konsertkvällar. Bar Ihku på Keskuskuja och Pub Hölmölä på Hiihtäjänkuja tar sena skiftet, Public House Sohva och Pub Old Mates står för öl och fotboll, och Bar Alakerta på Myllyjoentie kör öppna scenjam på söndagar. Restaurant Tuikku är undantaget: den ligger på toppen och står för eftermiddagens afterski när skidsäsongen är igång.",
+      "intro": "Levis barer ligger tätt i byn vid frontbackens fot, som officiellt heter Sirkka, vilket är varför postadresserna säger Sirkka eller Kittilä. Hullu Poro Areena på Hissitie är den stora salen: två våningar, tio barer och upp till 1 700 personer på konsertkvällar. Bar Ihku på Keskuskuja och Pub Hölmölä på Hiihtäjänkuja tar sena skiftet, Public House Sohva och Pub Old Mates står för öl och fotboll, och Bar Alakerta på Myllyjoentie kör öppna scenjam på söndagar. Restaurant Tuikku är undantaget: den ligger på toppen och står för eftermiddagens afterski när skidsäsongen är igång.",
       "know": [
         "Allt utom Tuikku ligger på gångavstånd i byn; toppen nås med gondol, på skidor eller via toppvägen.",
         "Konsertkvällar på Hullu Poro Areena har biljett, vanligtvis runt 25–30 euro; vanliga pubkvällar är gratis.",

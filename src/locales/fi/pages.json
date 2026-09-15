@@ -25,7 +25,7 @@
         },
         {
           "title": "Après-ski",
-          "desc": "Hullu Poro Areenan 1 700 hengen lavasta lämpimiin tunturipubeihin. Lapin après-ski on syystäkin legendaarinen."
+          "desc": "Hullu Poro Areenan 1 700 hengen lavasta lämpimiin tunturipubeihin. Lapin après-ski on syystäkin legendaarinen."
         },
         {
           "title": "Live-musiikki",
@@ -64,7 +64,7 @@
         },
         {
           "q": "Mitkä ovat parhaat après-ski-baarit Levillä ja Ylläksellä?",
-          "a": "Levillä Hullu Poro Areena sijaitsee päärinteen juurella ja vetää kahteen kerrokseen jopa 1 700 ihmistä. Areenalla on kymmenen baaria ja kotimaisia esiintyjiä, ja myöhäiset tunnit jatkuvat Bar Ihkussa ja Pub Hölmölässä. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on tunturipäivän jälkeinen kokoontumispaikka, ja kun pubit hiljenevät, vuoro siirtyy Lapland Hotels Äkäshotellin yökerhoon. Hissit sulkeutuvat noin kello 16 ja baarit täyttyvät heti perään."
+          "a": "Levillä Hullu Poro Areena sijaitsee päärinteen juurella ja vetää kahteen kerrokseen jopa 1 700 ihmistä. Areenalla on kymmenen baaria ja kotimaisia esiintyjiä, ja myöhäiset tunnit jatkuvat Bar Ihkussa ja Pub Hölmölässä. Ylläksen puolella Selvä Pyy Äkäslompolon kylässä on tunturipäivän jälkeinen kokoontumispaikka, ja kun pubit hiljenevät, vuoro siirtyy Lapland Hotels Äkäshotellin yökerhoon. Hissit sulkeutuvat noin kello 16 ja baarit täyttyvät heti perään."
         },
         {
           "q": "Saako Suomessa juoda alkoholia ulkona?",
@@ -126,7 +126,7 @@
     "disclaimer": "Hinnat ja aukioloajat vaihtelevat kausittain. Varmista aina suoraan kohteesta ennen vierailua. Tämä opas pidetään niin ajantasaisena kuin mahdollista, mutta se ei ole reaaliaikainen varausalusta.",
     "cityVibes": {
       "Rovaniemi": "Arktinen pääkaupunki pimeän tultua, pienpanimopubit, cocktailbaarit ja oikea jäästä rakennettu baari.",
-      "Levi": "Suomen après-ski-pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkeutuu klo 16 ja bileet alkavat 16:01.",
+      "Levi": "Suomen après-ski-pääkaupunki. Hullu Poro Areenaan mahtuu 1 700 henkeä. Tunturi sulkeutuu klo 16 ja bileet alkavat 16:01.",
       "Yllas": "Leviä rauhallisempi, lämpimämpi kuin missään muualla. Lämpimät tunturipubit, joissa paikalliset ja vierailijat sekoittuvat ilman poseerausta.",
       "Saariselka": "Syrjäinen, pimeä ja yllättävän hyvin varustettu. Gastropub Giitussa on olutlista, jonka vuoksi kannattaa tulla näin pohjoiseen.",
       "Ruka": "Kuusamon tunturikeskus Koillismaalla, ei Lapissa. Kolmetoista paikkaa itse keskuksessa: rinnebaareja, jääbaari, keilahallin baari ja kaksi yökerhoa.",
@@ -190,9 +190,9 @@
       },
       "Hullu Poro Areena": {
         "type": "Live-musiikkilava ja rinnejuhlat",
-        "description": "Levin iso sali päärinteen juurella. Kahteen kerrokseen mahtuu jopa 1 700 ihmistä, baareja on kymmenen ja tanssilattia on iso. Kotimaisia nimiä ja DJ:itä läpi hiihtokauden. Paikka on ollut auki vuodesta 2001.",
+        "description": "Levin iso sali päärinteen juurella. Kahteen kerrokseen mahtuu jopa 1 700 ihmistä, baareja on kymmenen ja tanssilattia on iso. Kotimaisia nimiä ja DJ:itä läpi hiihtokauden. Paikka on ollut auki vuodesta 2001.",
         "highlights": [
-          "1 700 hengen tila",
+          "1 700 hengen tila",
           "Kymmenen baaria, kaksi kerrosta",
           "Rinteen vieressä",
           "Auki vuodesta 2001"
@@ -274,7 +274,7 @@
         "tour": {
           "label": "Panimokierros ja maistelu",
           "schedule": "Perjantaisin klo 17 (viikoittain joulu–maaliskuussa)",
-          "hint": "Ilmoittaudu keskiviikkoon klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
+          "hint": "Ilmoittaudu keskiviikkoon klo 14 mennessä, vähintään 3 henkeä. Varaus info@lapinpanimo.fi tai +358 45 133 4410.",
           "directLabel": "Varaa lapinpanimo.fi:sta"
         }
       },
@@ -1017,7 +1017,7 @@
     "venues": {
       "Hullu Poro Areena": {
         "type": "Live-musiikkiareena",
-        "desc": "Kiistaton kuningas. 1 700 hengen areena päärinteen juurella. Suomen ykkösartistit, DJ:t ja bändit joka ilta kaudella. Sellaista tunnelmaa, johon muut Lapin keskukset tähtäävät."
+        "desc": "Kiistaton kuningas. 1 700 hengen areena päärinteen juurella. Suomen ykkösartistit, DJ:t ja bändit joka ilta kaudella. Sellaista tunnelmaa, johon muut Lapin keskukset tähtäävät."
       },
       "Bar Ihku": {
         "type": "Yökerho",
@@ -1217,7 +1217,7 @@
       {
         "name": "Tornion Panimo",
         "location": "Tornio (Ruotsin raja)",
-        "description": "Oluenpano alkoi Tornionjoen rannalla jo vuonna 1873. Hartwall sulki panimon vuonna 2010 ja siirsi tuotannon etelään, mutta vuonna 2016 yli 1 900 pientä sijoittajaa herätti panimon henkiin joukkorahoituksella. Panimo tekee sekä oluita että väkeviä, muun muassa Original Lapland Lageria ja Arctic Pale Alea, ja järjestää maistelukierroksia."
+        "description": "Oluenpano alkoi Tornionjoen rannalla jo vuonna 1873. Hartwall sulki panimon vuonna 2010 ja siirsi tuotannon etelään, mutta vuonna 2016 yli 1 900 pientä sijoittajaa herätti panimon henkiin joukkorahoituksella. Panimo tekee sekä oluita että väkeviä, muun muassa Original Lapland Lageria ja Arctic Pale Alea, ja järjestää maistelukierroksia."
       },
       {
         "name": "Lapland Brewery",
@@ -1257,7 +1257,7 @@
           "name": "Lapland Original Lager",
           "brewery": "Tornion Panimo · Tornio",
           "abv": "5,2 %",
-          "desc": "Lippulaiva panimolta, jonka 1 900 piensijoittajaa toi takaisin vuonna 2016. Lager, 5,2 %."
+          "desc": "Lippulaiva panimolta, jonka 1 900 piensijoittajaa toi takaisin vuonna 2016. Lager, 5,2 %."
         },
         {
           "name": "Routa Imperial Stout Bourbon Oaked",
@@ -1287,7 +1287,7 @@
         "Miten suomalaiset sitä juovat? Kylmänä, suorana, pienestä lasista. Joskus olutchaserin kanssa (yhdistelmää kutsutaan viinaksi + kaljaksi, klassinen suomalainen työväenluokan pari). Lapissa sitä on tarjolla joka pubissa, useimmiten speed-railissa. Sitä on ollut suomalaisilla pöydillä häissä, hautajaisissa, lauantain saunailloissa ja sunnuntaiaamuissa. Se ei ole glamouria. Se on pointti."
       ],
       "factsLabel": "Pikatiedot:",
-      "facts": "Valmistaja Altia (nykyään Anora Group). Yli 10 miljoonaa litraa myydään Suomessa vuosittain. Koskenkorvan kylässä asuu noin 1 500 ihmistä. Tislaamo on yksi maailman tehokkaimmista viljatislaamoista: nollajäte, ja mäski syötetään karjalle."
+      "facts": "Valmistaja Altia (nykyään Anora Group). Yli 10 miljoonaa litraa myydään Suomessa vuosittain. Koskenkorvan kylässä asuu noin 1 500 ihmistä. Tislaamo on yksi maailman tehokkaimmista viljatislaamoista: nollajäte, ja mäski syötetään karjalle."
     },
     "finlandia": {
       "title": "Finlandia Vodka, Suomesta maailmalle",
@@ -1516,7 +1516,7 @@
       "description": "Missä juoda Levillä: Hullu Poro Areena, Bar Ihku ja kylän pubit rinteen juurella sekä tunturin huipun ravintola. Arviot, aukioloajat ja hinnat.",
       "h1": "Baarit Levillä",
       "tagline": "Suomen après-ski-pääkaupunki. Hissit pysähtyvät klo 16.00 ja baarit täyttyvät heti perään.",
-      "intro": "Levin baarit ovat tiiviisti eturinteen juurella kylässä, jonka virallinen nimi on Sirkka. Siksi postiosoitteissa lukee Sirkka tai Kittilä. Hissitien Hullu Poro Areena on se iso sali: kaksi kerrosta, kymmenen baaria ja konsertti-iltoina jopa 1 700 ihmistä. Keskuskujan Bar Ihku ja Hiihtäjänkujan Pub Hölmölä hoitavat myöhäisvuoron, Public House Sohva ja Pub Old Mates oluen ja jalkapallon, ja Myllyjoentien Bar Alakerta pitää open stage -jamit sunnuntaisin. Restaurant Tuikku on poikkeus: se on tunturin huipulla ja vetää iltapäivän après-skin, kun hiihtokausi on käynnissä.",
+      "intro": "Levin baarit ovat tiiviisti eturinteen juurella kylässä, jonka virallinen nimi on Sirkka. Siksi postiosoitteissa lukee Sirkka tai Kittilä. Hissitien Hullu Poro Areena on se iso sali: kaksi kerrosta, kymmenen baaria ja konsertti-iltoina jopa 1 700 ihmistä. Keskuskujan Bar Ihku ja Hiihtäjänkujan Pub Hölmölä hoitavat myöhäisvuoron, Public House Sohva ja Pub Old Mates oluen ja jalkapallon, ja Myllyjoentien Bar Alakerta pitää open stage -jamit sunnuntaisin. Restaurant Tuikku on poikkeus: se on tunturin huipulla ja vetää iltapäivän après-skin, kun hiihtokausi on käynnissä.",
       "know": [
         "Kaikki paitsi Tuikku ovat kävelymatkan päässä kylässä; huipulle pääsee gondolilla, suksilla tai huipputietä.",
         "Hullu Poro Areenan konsertti-illat ovat lipullisia, yleensä noin 25–30 euroa; tavallisina pubi-iltoina sisään pääsee ilmaiseksi.",
