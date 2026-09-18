@@ -275,7 +275,7 @@ export default function Newsletter() {
                 <span className="text-white/85 text-xs leading-relaxed">
                   {consentCopy.consent}{' '}
                   <a
-                    href="/privacy"
+                    href="/privacy/"
                     target="_blank"
                     rel="noopener"
                     onClick={(e) => e.stopPropagation()}
@@ -299,7 +299,7 @@ export default function Newsletter() {
             <Trans
               i18nKey="newsletter.footnote"
               ns="pages"
-              components={[<a key="0" href="/privacy" className="underline hover:text-white">Privacy</a>]}
+              components={[<a key="0" href="/privacy/" className="underline hover:text-white">Privacy</a>]}
             />
           </p>
         </div>
