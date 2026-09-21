@@ -141,7 +141,9 @@ export default function CityPage() {
           <div aria-hidden="true" className="absolute inset-0 bg-night" style={{ background: 'radial-gradient(80% 70% at 50% 0%, rgba(245,158,11,0.12) 0%, rgba(15,23,42,0) 68%)' }} />
         )}
         <div className="relative z-10 max-w-4xl mx-auto px-5 py-20 text-center">
-          <p className="inline-flex items-center gap-2 text-amber text-[11px] font-bold uppercase tracking-[0.25em] mb-4">
+          {/* 🔴 Sama laatta kuin etusivun silmaotsikossa: 11 px muste baarivalokuvalla
+              jai 28-41 %:ssa pikseleista alle 4,5:1 rajan. */}
+          <p className="inline-flex items-center gap-2 rounded-full bg-black/45 backdrop-blur-sm px-3 py-1 text-amber text-[11px] font-bold uppercase tracking-[0.25em] mb-4">
             <MapPin size={13} /> {t('cities.shared.kicker', { defaultValue: 'Where to drink' })}
           </p>
           <h1 className="font-heading text-4xl sm:text-5xl md:text-6xl tracking-wide text-white leading-[1.05] drop-shadow-[0_2px_18px_rgba(0,0,0,0.85)]">

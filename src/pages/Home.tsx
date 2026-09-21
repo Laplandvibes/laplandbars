@@ -105,7 +105,12 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/60 to-night/95" />
 
         <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
-          <p className="text-amber text-sm font-semibold tracking-[0.3em] uppercase mb-4 drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)]">{t('home.eyebrow')}</p>
+          <p className="mb-4">
+            {/* 🔴 Tumma laatta: 14 px amber-muste kesavalokuvalla oli mediaanina
+                3,40:1 ja 81 % pikseleista alle 4,5:1 rajan. Varjo ei riita
+                kirkkaalla taustalla. Sama ratkaisu kuin laplandstoren herossa. */}
+            <span className="inline-block rounded-full bg-black/45 backdrop-blur-sm px-3 py-1 text-amber text-sm font-semibold tracking-[0.3em] uppercase">{t('home.eyebrow')}</span>
+          </p>
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-tight mb-6 text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)]">
             {t('home.hero.headlineLine1')}<br />{t('home.hero.headlineLine2')}
           </h1>
