@@ -1,0 +1,326 @@
+{
+  "bars": {
+    "route": "/bars",
+    "line": "Pubs, taprooms and cocktail bars",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/drive/pubLaughter.webp",
+        "bytes": 174065,
+        "sha256": "0d7944c7c4fd71b24a8388ceb18880fd7b94042987ce5f14b472b5d23b6bb5eb",
+        "heroSha": "f3851f5013255d2e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15241,
+        "inkBox": [
+          368,
+          493,
+          832,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 68.4,
+        "centerSq": 77.8,
+        "photoRegion": 79.9,
+        "photoRegionRef": 79.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 467,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/drive/pubLaughter.webp",
+        "bytes": 174065,
+        "sha256": "0d7944c7c4fd71b24a8388ceb18880fd7b94042987ce5f14b472b5d23b6bb5eb",
+        "heroSha": "f3851f5013255d2e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 15241,
+        "inkBox": [
+          368,
+          493,
+          832,
+          603
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 68.4,
+        "centerSq": 77.8,
+        "photoRegion": 79.9,
+        "photoRegionRef": 79.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 467,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "city-rovaniemi": {
+    "route": "/city/rovaniemi",
+    "line": "Where to drink in Rovaniemi",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/drive/whiskyBar.webp",
+        "bytes": 157899,
+        "sha256": "575810aa97bfe20281b53acc056c8ac78ebe6be80d0cdc4afacf80ba5810a16c",
+        "heroSha": "f6ce6ee08462aaa2",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 14542,
+        "inkBox": [
+          405,
+          493,
+          793,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 43.8,
+        "centerSq": 52,
+        "photoRegion": 46.5,
+        "photoRegionRef": 46.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 390,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/drive/whiskyBar.webp",
+        "bytes": 157899,
+        "sha256": "575810aa97bfe20281b53acc056c8ac78ebe6be80d0cdc4afacf80ba5810a16c",
+        "heroSha": "f6ce6ee08462aaa2",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 14542,
+        "inkBox": [
+          405,
+          493,
+          793,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 43.8,
+        "centerSq": 52,
+        "photoRegion": 46.5,
+        "photoRegionRef": 46.5,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 390,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "city-levi": {
+    "route": "/city/levi",
+    "line": "Where to drink in Levi",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/drive/apresToast.webp",
+        "bytes": 151720,
+        "sha256": "55727889bf42925cfc2990b264e917fc7c8e19491b701fbaaf1dc819cfa4dc09",
+        "heroSha": "4e1d692202adbf42",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13682,
+        "inkBox": [
+          420,
+          493,
+          778,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 95.2,
+        "centerSq": 107.1,
+        "photoRegion": 116.9,
+        "photoRegionRef": 116.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 303,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/drive/apresToast.webp",
+        "bytes": 151720,
+        "sha256": "55727889bf42925cfc2990b264e917fc7c8e19491b701fbaaf1dc819cfa4dc09",
+        "heroSha": "4e1d692202adbf42",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13682,
+        "inkBox": [
+          420,
+          493,
+          778,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 95.2,
+        "centerSq": 107.1,
+        "photoRegion": 116.9,
+        "photoRegionRef": 116.9,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 303,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  },
+  "city-yllas": {
+    "route": "/city/yllas",
+    "line": "Where to drink in Ylläs",
+    "kaudet": {
+      "summer": {
+        "hero": "/images/drive/heroNightlife.webp",
+        "bytes": 190394,
+        "sha256": "0a51cedd8039f87cc9730a4dbbb8325a4959897742d35f360efaf9d28b2f7f5c",
+        "heroSha": "ab9390a6afcf129e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13852,
+        "inkBox": [
+          420,
+          493,
+          778,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 38.7,
+        "centerSq": 38.9,
+        "photoRegion": 39.8,
+        "photoRegionRef": 39.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 311,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": []
+      },
+      "winter": {
+        "hero": "/images/drive/heroNightlife.webp",
+        "bytes": 190394,
+        "sha256": "0a51cedd8039f87cc9730a4dbbb8325a4959897742d35f360efaf9d28b2f7f5c",
+        "heroSha": "ab9390a6afcf129e",
+        "bandH": 168,
+        "photoPct": 73.3,
+        "ink": 13852,
+        "inkBox": [
+          420,
+          493,
+          778,
+          597
+        ],
+        "safe": true,
+        "accentP10": 5.06,
+        "accentMed": 5.06,
+        "whiteP10": 17.08,
+        "whiteMed": 17.08,
+        "mean": 38.7,
+        "centerSq": 38.9,
+        "photoRegion": 39.8,
+        "photoRegionRef": 39.8,
+        "overlayPixels": 0,
+        "maxDiff": 0,
+        "fit": {
+          "size": 74,
+          "lines": 1,
+          "ts": 30,
+          "tagW": 311,
+          "fits": true,
+          "bandH": 168
+        },
+        "contrastOk": true,
+        "zeroOverlay": true,
+        "errors": [],
+        "samaKuinKesa": true
+      }
+    }
+  }
+}

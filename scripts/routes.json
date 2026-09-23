@@ -5,19 +5,39 @@
   },
   {
     "path": "/bars",
-    "jsonKey": "bars"
+    "jsonKey": "bars",
+    "ogImage": "/og/bars.jpg",
+    "ogCard": {
+      "hero": "/images/drive/pubLaughter.webp",
+      "line": "Pubs, taprooms and cocktail bars"
+    }
   },
   {
     "path": "/city/rovaniemi",
-    "jsonKey": "cities.rovaniemi"
+    "jsonKey": "cities.rovaniemi",
+    "ogImage": "/og/city-rovaniemi.jpg",
+    "ogCard": {
+      "hero": "/images/drive/whiskyBar.webp",
+      "line": "Where to drink in Rovaniemi"
+    }
   },
   {
     "path": "/city/levi",
-    "jsonKey": "cities.levi"
+    "jsonKey": "cities.levi",
+    "ogImage": "/og/city-levi.jpg",
+    "ogCard": {
+      "hero": "/images/drive/apresToast.webp",
+      "line": "Where to drink in Levi"
+    }
   },
   {
     "path": "/city/yllas",
-    "jsonKey": "cities.yllas"
+    "jsonKey": "cities.yllas",
+    "ogImage": "/og/city-yllas.jpg",
+    "ogCard": {
+      "hero": "/images/drive/heroNightlife.webp",
+      "line": "Where to drink in Ylläs"
+    }
   },
   {
     "path": "/city/saariselka",
