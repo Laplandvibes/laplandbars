@@ -21,7 +21,7 @@ const DISCLOSURE: Record<Locale, string> = {
   ja: 'このページにはアフィリエイトリンクが含まれます。リンク経由で予約・購入された場合、追加費用なしでLaplandVibesに手数料が支払われることがあります。',
   es: 'Esta página contiene enlaces de afiliación. Si reserva o compra a través de ellos, LaplandVibes puede recibir una comisión sin coste adicional para usted.',
   'pt-BR':
-    'Esta página contém links de afiliados. Se você reservar ou comprar por meio deles, a LaplandVibes pode receber comissão sem custo adicional para você.',
+    'Esta página contém links de afiliados. Se você reservar ou comprar por meio deles, o LaplandVibes pode receber comissão sem custo adicional para você.',
   'zh-CN':
     '本页面包含联盟链接。如果您通过这些链接预订或购买，LaplandVibes 可能会获得佣金，您无需支付额外费用。',
   ko: '이 페이지에는 제휴 링크가 포함되어 있습니다. 이 링크를 통해 예약하거나 구매하시면 귀하에게 추가 비용이 발생하지 않으며, LaplandVibes가 수수료를 받습니다.',

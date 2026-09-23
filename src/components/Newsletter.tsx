@@ -57,7 +57,7 @@ const CONSENT_COPY: Record<string, ConsentCopy> = {
     privacy: 'Política de privacidad',
   },
   'pt-BR': {
-    consent: 'Aceito receber a newsletter da LaplandVibes no e-mail informado, com dicas de viagem, informações de temporada e ofertas. Tenho 18 anos ou mais.',
+    consent: 'Aceito receber a newsletter do LaplandVibes no e-mail informado, com dicas de viagem, informações de temporada e ofertas. Tenho 18 anos ou mais.',
     privacy: 'Política de Privacidade',
   },
   'zh-CN': {
