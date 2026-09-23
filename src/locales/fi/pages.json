@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "Baarit Suomen Lapissa, Rukalla ja Syötteellä | LaplandBars",
+    "title": "Baarit Suomen Lapissa, Rukalla ja Syötteellä",
     "description": "Baarit, joissa paikalliset oikeasti käyvät: Rovaniemi, Levi, Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla ja Iso-Syöte. Aukiolot, hinnat ja arviot.",
     "hero": {
       "title": "Baarit ja pubit",
@@ -917,7 +917,7 @@
     "venueMap": "Kartta"
   },
   "iceBars": {
-    "title": "Jääbaarit Lapissa | LaplandBars",
+    "title": "Jääbaarit Lapissa",
     "description": "Lapin kolme jääbaaria: SnowVillage Lainiossa, Arctic SnowHotel Rovaniemen kupeessa ja Snowman World Joulupukin Pajakylässä. Kaudet, hinnat, pukeutuminen.",
     "hero": {
       "title": "Jääbaarit",
@@ -981,7 +981,7 @@
     "verifiedNote": "Tiedot tarkistettu kohteiden omilta sivuilta 10.7.2026. Hinnat ja ajat voivat muuttua kausittain."
   },
   "apresSki": {
-    "title": "Après-ski Lapissa: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "title": "Après-ski Lapissa: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto",
     "description": "Kun hissit sulkeutuvat, bileet alkavat: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Après-ski",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos, Pallas ja Suomu listaavat omilla sivuillaan rinneravintoloita, mutta eivät yhtään baaria, yökerhoa tai after ski -iltaa. Kilpisjärvellä ei ole laskettelurinteitä lainkaan."
   },
   "cocktails": {
-    "title": "Lapin cocktailit: hilla ja puolukka | LaplandBars",
+    "title": "Lapin cocktailit: hilla ja puolukka",
     "description": "Kolme arktista cocktailia: Cloudberry Sour, Northern Lights ja Lingonberry Spritz. Villit raaka-aineet hillasta tyrniin ja varattavat maistelut.",
     "hero": {
       "title": "Arktiset cocktailit",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "Lapin pienpanimot: Tornio ja Rovaniemi | LaplandBars",
+    "title": "Lapin pienpanimot: Tornio ja Rovaniemi",
     "description": "Kaksi lappilaista panimoa oluineen: Tornion Panimo Ruotsin rajalla ja Lapland Brewery Rovaniemellä. Arktiset oluttyylit sekä kierrokset ja maistelut.",
     "hero": {
       "title": "Pienpanimo-olut",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "Suomalainen juomakulttuuri Lapissa | LaplandBars",
+    "title": "Suomalainen juomakulttuuri Lapissa",
     "description": "Koskenkorva, lonkero, Lapin Kulta, saunakalja ja kalsarikännit: miten suomalaiset oikeasti juovat ja mitä tuoppi maksaa lappilaisessa baarissa.",
     "hero": {
       "title": "Suomalainen juomakulttuuri",
@@ -1435,15 +1435,15 @@
     "emailLabel": "Sähköposti"
   },
   "privacy": {
-    "title": "Tietosuojaseloste | LaplandBars",
+    "title": "Tietosuojaseloste",
     "description": "Miten LaplandBars käsittelee tietojasi."
   },
   "terms": {
-    "title": "Käyttöehdot | LaplandBars",
+    "title": "Käyttöehdot",
     "description": "LaplandBarsin käyttöehdot."
   },
   "cookie": {
-    "title": "Evästekäytäntö | LaplandBars",
+    "title": "Evästekäytäntö",
     "description": "Miten LaplandBars käyttää evästeitä."
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "Rovaniemi",
       "at": "Rovaniemellä",
-      "title": "Baarit Rovaniemellä: pubit, cocktailit ja jääbaari | LaplandBars",
+      "title": "Baarit Rovaniemellä: pubit, cocktailit ja jääbaari",
       "description": "Missä juoda Rovaniemellä: keskustan pubit ja cocktailbaarit, panimon taproom ja jääbaari 30 minuutin päässä. Google-arviot, aukioloajat ja hinnat.",
       "h1": "Baarit Rovaniemellä",
       "tagline": "Lapin ainoa kaupunki, jossa baarin voi valita kävellen.",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "Levi",
       "at": "Levillä",
-      "title": "Baarit Levillä: après-ski, pubit ja pitkät illat | LaplandBars",
+      "title": "Baarit Levillä: après-ski, pubit ja pitkät illat",
       "description": "Missä juoda Levillä: Hullu Poro Areena, Bar Ihku ja kylän pubit rinteen juurella sekä tunturin huipun ravintola. Arviot, aukioloajat ja hinnat.",
       "h1": "Baarit Levillä",
       "tagline": "Suomen après-ski-pääkaupunki. Hissit pysähtyvät klo 16.00 ja baarit täyttyvät heti perään.",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläksellä",
-      "title": "Ylläksen baarit: Äkäslompolo, Ylläsjärvi ja rinnepubit | LaplandBars",
+      "title": "Ylläksen baarit: Äkäslompolo, Ylläsjärvi ja rinnepubit",
       "description": "Missä juoda Ylläksellä: kyläpubit ja kellariyökerho Äkäslompolossa, rinneravintolat molemmin puolin, järvenrantagrilli Ylläsjärvellä.",
       "h1": "Ylläksen baarit",
       "tagline": "Kaksi baarikylää, Äkäslompolo ja Ylläsjärvi, ja rinnepubit molemmin puolin: osoite kertoo, kumpi lista on sinun.",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselällä",
-      "title": "Saariselän baarit: kyläpubit, tanssit ja huippulounge | LaplandBars",
+      "title": "Saariselän baarit: kyläpubit, tanssit ja huippulounge",
       "description": "Missä juoda Saariselällä: kylän keskustan pubit, gastropub, tanssiravintola ja revontulilounge Kaunispään huipulla.",
       "h1": "Saariselän baarit",
       "tagline": "Suurin osa juomapaikoista on muutamalla kylän kadulla, yksi baari Kaunispään huipulla ja yksi ladun varressa.",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Rukalla",
-      "title": "Rukan baarit: rinnebaarit, karaoke ja livemusiikki | LaplandBars",
+      "title": "Rukan baarit: rinnebaarit, karaoke ja livemusiikki",
       "description": "Missä juoda Rukalla: karaokea ja livemusiikkia Rukankyläntiellä, vain suksilla saavutettava rinnebaari ja hotelliravintolan baari järven rannalla.",
       "h1": "Rukan baarit",
       "tagline": "Kuusi näistä paikoista on yhden kadun varrella, Rukankyläntiellä, eikä yhteen niistä vie tietä lainkaan.",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luostolla",
-      "title": "Luoston baarit: yksi yökerho, tanssit ja kotabaari | LaplandBars",
+      "title": "Luoston baarit: yksi yökerho, tanssit ja kotabaari",
       "description": "Missä juoda Luostolla: hotellin yökerho ja Rumpu Bar Luostontiellä, pubi ostoskeskuksessa, kotabaari ja lipulliset tanssi-illat.",
       "h1": "Luoston baarit",
       "tagline": "Kylässä on yksi yökerho, ja tanssiorkesterit soittavat hirsiravintolassa noin 300 metrin päässä Lapland Hotels Luostotunturista.",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhällä",
-      "title": "Pyhän baarit: rinnepubit, huipun viinibaari ja karaoke | LaplandBars",
+      "title": "Pyhän baarit: rinnepubit, huipun viinibaari ja karaoke",
       "description": "Missä juoda Pyhällä: rinnepubi perherinteen vieressä, viinibaari huipulla ja ympäri vuoden auki oleva urheilubaari karaokella. Ajat ja osoitteet.",
       "h1": "Pyhän baarit",
       "tagline": "Kuusi baaria yhden hiihtokeskuksen ympärillä, ja viinibaari on tunturin huipulla.",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syötteellä",
-      "title": "Iso-Syötteen baarit: rinnepubi, after ski ja huippubaari | LaplandBars",
+      "title": "Iso-Syötteen baarit: rinnepubi, after ski ja huippubaari",
       "description": "Missä juoda Iso-Syötteellä: pubi ja hotellibaari Romekievarintiellä, after ski -bistro takahissien vieressä, huippuravintola. Osoitteet ja menut.",
       "h1": "Iso-Syötteen baarit",
       "tagline": "Täällä ei ole baarikatua: jokainen paikka on hotellin, rinteen tai ruokakaupan yhteydessä, ja viidestä kaksi on tunturin laella.",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Sallassa",
-      "title": "Sallan baarit: hiihtokeskuksen pubit, karaoke ja yömyöhä | LaplandBars",
+      "title": "Sallan baarit: hiihtokeskuksen pubit, karaoke ja yömyöhä",
       "description": "Missä juoda Sallassa: kaksi baaria hiihtokeskuksessa, karaokepubi Hautajärventiellä ja kyläpubi Vallovaarassa. Ajat, osoitteet ja mitä tarkistaa.",
       "h1": "Sallan baarit",
       "tagline": "Neljästä baarista kolmessa on karaokea, ja niistä kolmesta vain yksi on tunturissa.",

@@ -62,7 +62,7 @@ export default function CityPage() {
   const ratings = list.map((b) => findRating(b.name)?.rating).filter((n): n is number => typeof n === 'number');
   const best = ratings.length ? Math.max(...ratings) : null;
 
-  const title = tx(`${cityKey}.title`, `Bars in ${name} | LaplandBars`);
+  const title = tx(`${cityKey}.title`, `Bars in ${name}`);
   const description = tx(
     `${cityKey}.description`,
     `Where to drink in ${name}: pubs, cocktail bars and après-ski with Google ratings, opening hours and prices.`,

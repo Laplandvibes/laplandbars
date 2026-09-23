@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "Barer i finska Lappland, Ruka och Syöte | LaplandBars",
+    "title": "Barer i finska Lappland, Ruka och Syöte",
     "description": "Barerna som lokalborna faktiskt går till, från Rovaniemi och Levi till Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla och Iso-Syöte. Tider, priser, betyg.",
     "hero": {
       "title": "Barer och pubar",
@@ -917,7 +917,7 @@
     "venueMap": "Karta"
   },
   "iceBars": {
-    "title": "Isbarer i Lappland | LaplandBars",
+    "title": "Isbarer i Lappland",
     "description": "Lapplands tre isbarer: SnowVillage i Lainio, Arctic SnowHotel nära Rovaniemi och Snowman World i Santa Claus Village. Säsonger, priser och klädsel.",
     "hero": {
       "title": "Isbarer",
@@ -981,7 +981,7 @@
     "verifiedNote": "Uppgifterna kontrollerade mot ställenas egna webbplatser den 10 juli 2026. Priser och tider kan ändras med säsongen."
   },
   "apresSki": {
-    "title": "Afterski i Lappland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "title": "Afterski i Lappland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto",
     "description": "Festen börjar när liftarna stänger: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Afterski",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos, Pallas och Suomu listar backrestauranger på sina egna webbplatser, men nämner ingen bar, nattklubb eller afterskikväll. Kilpisjärvi har inga utförsåkningsbackar alls."
   },
   "cocktails": {
-    "title": "Cocktails i Lappland: hjortron och lingon | LaplandBars",
+    "title": "Cocktails i Lappland: hjortron och lingon",
     "description": "Tre arktiska cocktails: Hjortron-sour, Norrsken och Lingonspritz. De vilda råvarorna bakom dem och provningar som går att boka.",
     "hero": {
       "title": "Arktiska cocktails",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "Hantverksbryggerier i Lappland | LaplandBars",
+    "title": "Hantverksbryggerier i Lappland",
     "description": "Två bryggerier i Lappland: Tornion Panimo vid svenska gränsen och Lapland Brewery i Rovaniemi. Arktiska ölstilar och provsmakningar.",
     "hero": {
       "title": "Hantverksöl",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "Finsk dryckeskultur i Lappland | LaplandBars",
+    "title": "Finsk dryckeskultur i Lappland",
     "description": "Koskenkorva, lonkero, Lapin Kulta, bastuöl och kalsarikännit: hur finländare faktiskt dricker och vad en öl kostar på bar i Lappland.",
     "hero": {
       "title": "Finsk dryckeskultur",
@@ -1435,15 +1435,15 @@
     "emailLabel": "E-post"
   },
   "privacy": {
-    "title": "Integritetspolicy | LaplandBars",
+    "title": "Integritetspolicy",
     "description": "Hur LaplandBars hanterar dina uppgifter."
   },
   "terms": {
-    "title": "Användarvillkor | LaplandBars",
+    "title": "Användarvillkor",
     "description": "Användarvillkor för LaplandBars."
   },
   "cookie": {
-    "title": "Cookiepolicy | LaplandBars",
+    "title": "Cookiepolicy",
     "description": "Hur LaplandBars använder cookies."
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "Rovaniemi",
       "at": "Rovaniemi",
-      "title": "Barer i Rovaniemi: pubar, cocktails och isbaren | LaplandBars",
+      "title": "Barer i Rovaniemi: pubar, cocktails och isbaren",
       "description": "Var man dricker i Rovaniemi: pubar och cocktailbarer i centrum, ett bryggeri med taproom och en isbar 30 minuter bort. Betyg, öppettider och priser.",
       "h1": "Barer i Rovaniemi",
       "tagline": "Den enda staden i Lappland där du kan välja bar till fots.",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "Levi",
       "at": "Levi",
-      "title": "Barer i Levi: afterski, pubar och sena kvällar | LaplandBars",
+      "title": "Barer i Levi: afterski, pubar och sena kvällar",
       "description": "Var man dricker i Levi: Hullu Poro Areena, Bar Ihku och bypubarna vid backens fot, plus en fjälltoppsrestaurang. Betyg, öppettider och priser.",
       "h1": "Barer i Levi",
       "tagline": "Finlands afterski-huvudstad. Liftarna stannar kl. 16:00 och barerna fylls direkt efter.",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Barer i Ylläs: Äkäslompolo, Ylläsjärvi och pubar i backen | LaplandBars",
+      "title": "Barer i Ylläs: Äkäslompolo, Ylläsjärvi och pubar i backen",
       "description": "Var man dricker i Ylläs: byapubar och en källarklubb i Äkäslompolo, backrestauranger på båda sidor och en grill vid sjön i Ylläsjärvi.",
       "h1": "Barer i Ylläs",
       "tagline": "Två barbyar, Äkäslompolo och Ylläsjärvi, med pubar i backen på båda sidor: adressen avgör vilken lista som är din.",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Barer i Saariselkä: byapubar, dans och lounge på toppen | LaplandBars",
+      "title": "Barer i Saariselkä: byapubar, dans och lounge på toppen",
       "description": "Var man dricker i Saariselkä: pubar i byns centrum, en gastropub, en dansrestaurang och en norrskenslounge på toppen av Kaunispää.",
       "h1": "Barer i Saariselkä",
       "tagline": "Det mesta av drickandet sker på en handfull bygator, med en bar på toppen av Kaunispää och en ute vid skidspåret.",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Barer i Ruka: backbarer, karaoke och livemusik | LaplandBars",
+      "title": "Barer i Ruka: backbarer, karaoke och livemusik",
       "description": "Var man dricker i Ruka: karaoke och livemusik på Rukankyläntie, en backbar dit man bara tar sig på skidor och en hotellrestaurang vid sjöstranden.",
       "h1": "Barer i Ruka",
       "tagline": "Sex av de här ställena ligger på en och samma gata, Rukankyläntie, och till ett av dem går det ingen väg alls.",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Barer i Luosto: en nattklubb, danskvällar och en kåtabar | LaplandBars",
+      "title": "Barer i Luosto: en nattklubb, danskvällar och en kåtabar",
       "description": "Var man dricker i Luosto: hotellets nattklubb och Rumpu Bar på Luostontie, en pub i köpcentret, en kåtabar och biljettbelagda danskvällar.",
       "h1": "Barer i Luosto",
       "tagline": "Byn har en enda nattklubb, och dansorkestrarna spelar live i en timmerrestaurang omkring 300 meter från Lapland Hotels Luostotunturi.",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Barer i Pyhä: backpubar, vinbar på toppen och karaoke | LaplandBars",
+      "title": "Barer i Pyhä: backpubar, vinbar på toppen och karaoke",
       "description": "Var man dricker i Pyhä: en backpub vid familjebacken, en vinbar på toppen och en sportbar med karaoke året om. Tider och adresser.",
       "h1": "Barer i Pyhä",
       "tagline": "Sex barer runt en enda skidort, och vinbaren ligger på toppen av fjället.",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Barer i Iso-Syöte: backpub, afterski och en toppbar | LaplandBars",
+      "title": "Barer i Iso-Syöte: backpub, afterski och en toppbar",
       "description": "Var man dricker i Iso-Syöte: pub och hotellbar på Romekievarintie, afterskibistro vid de bakre liftarna, topprestaurang. Adresser och menyer.",
       "h1": "Barer i Iso-Syöte",
       "tagline": "Här finns ingen bargata: varje ställe hänger ihop med ett hotell, en backe eller en livsmedelsbutik, och två av de fem ligger på en fjälltopp.",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Barer i Salla: skidortens pubar, karaoke och sena nätter | LaplandBars",
+      "title": "Barer i Salla: skidortens pubar, karaoke och sena nätter",
       "description": "Var man dricker i Salla: två barer på skidorten, en karaokepub på Hautajärventie och en bypub i Vallovaara. Tider, adresser, vad du bör kolla.",
       "h1": "Barer i Salla",
       "tagline": "Tre av de fyra barerna här kör karaoke, och bara en av de tre ligger vid fjället.",

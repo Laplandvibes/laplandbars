@@ -3,7 +3,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Barer i Ylläs: Äkäslompolo, Ylläsjärvi och pubar i backen | LaplandBars",
+      "title": "Barer i Ylläs: Äkäslompolo, Ylläsjärvi och pubar i backen",
       "description": "Var man dricker i Ylläs: byapubar och en källarklubb i Äkäslompolo, backrestauranger på båda sidor och en grill vid sjön i Ylläsjärvi.",
       "h1": "Barer i Ylläs",
       "tagline": "Två barbyar, Äkäslompolo och Ylläsjärvi, med pubar i backen på båda sidor: adressen avgör vilken lista som är din.",
@@ -17,7 +17,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Barer i Saariselkä: byapubar, dans och lounge på toppen | LaplandBars",
+      "title": "Barer i Saariselkä: byapubar, dans och lounge på toppen",
       "description": "Var man dricker i Saariselkä: pubar i byns centrum, en gastropub, en dansrestaurang och en norrskenslounge på toppen av Kaunispää.",
       "h1": "Barer i Saariselkä",
       "tagline": "Det mesta av drickandet sker på en handfull bygator, med en bar på toppen av Kaunispää och en ute vid skidspåret.",
@@ -31,7 +31,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Barer i Ruka: backbarer, karaoke och livemusik | LaplandBars",
+      "title": "Barer i Ruka: backbarer, karaoke och livemusik",
       "description": "Var man dricker i Ruka: karaoke och livemusik på Rukankyläntie, en backbar dit man bara tar sig på skidor och en hotellrestaurang vid sjöstranden.",
       "h1": "Barer i Ruka",
       "tagline": "Sex av de här ställena ligger på en och samma gata, Rukankyläntie, och till ett av dem går det ingen väg alls.",
@@ -45,7 +45,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Barer i Luosto: en nattklubb, danskvällar och en kåtabar | LaplandBars",
+      "title": "Barer i Luosto: en nattklubb, danskvällar och en kåtabar",
       "description": "Var man dricker i Luosto: hotellets nattklubb och Rumpu Bar på Luostontie, en pub i köpcentret, en kåtabar och biljettbelagda danskvällar.",
       "h1": "Barer i Luosto",
       "tagline": "Byn har en enda nattklubb, och dansorkestrarna spelar live i en timmerrestaurang omkring 300 meter från Lapland Hotels Luostotunturi.",
@@ -59,7 +59,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Barer i Pyhä: backpubar, vinbar på toppen och karaoke | LaplandBars",
+      "title": "Barer i Pyhä: backpubar, vinbar på toppen och karaoke",
       "description": "Var man dricker i Pyhä: en backpub vid familjebacken, en vinbar på toppen och en sportbar med karaoke året om. Tider och adresser.",
       "h1": "Barer i Pyhä",
       "tagline": "Sex barer runt en enda skidort, och vinbaren ligger på toppen av fjället.",
@@ -73,7 +73,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Barer i Iso-Syöte: backpub, afterski och en toppbar | LaplandBars",
+      "title": "Barer i Iso-Syöte: backpub, afterski och en toppbar",
       "description": "Var man dricker i Iso-Syöte: pub och hotellbar på Romekievarintie, afterskibistro vid de bakre liftarna, topprestaurang. Adresser och menyer.",
       "h1": "Barer i Iso-Syöte",
       "tagline": "Här finns ingen bargata: varje ställe hänger ihop med ett hotell, en backe eller en livsmedelsbutik, och två av de fem ligger på en fjälltopp.",
@@ -87,7 +87,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Barer i Salla: skidortens pubar, karaoke och sena nätter | LaplandBars",
+      "title": "Barer i Salla: skidortens pubar, karaoke och sena nätter",
       "description": "Var man dricker i Salla: två barer på skidorten, en karaokepub på Hautajärventie och en bypub i Vallovaara. Tider, adresser, vad du bör kolla.",
       "h1": "Barer i Salla",
       "tagline": "Tre av de fyra barerna här kör karaoke, och bara en av de tre ligger vid fjället.",
@@ -107,7 +107,7 @@
     "Iso-Syote": "På Syöte-fjällen i Pudasjärvi, inte i Lappland. Fem ställen: en pub, en afterskibistro, en bar på toppen och en vinrestaurang."
   },
   "bars": {
-    "title": "Barer i finska Lappland, Ruka och Syöte | LaplandBars",
+    "title": "Barer i finska Lappland, Ruka och Syöte",
     "description": "Barerna som lokalborna faktiskt går till, från Rovaniemi och Levi till Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla och Iso-Syöte. Tider, priser, betyg.",
     "heroSub": "Varje bar i listan är på riktigt, öppen och värd din kväll. Inga sponsrade placeringar, ingen utfyllnad, bara den verkliga dryckeskulturen i Lappland, Ruka och Syöte."
   }

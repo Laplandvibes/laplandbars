@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "핀란드 라플란드, Ruka, Syöte의 바 | LaplandBars",
+    "title": "핀란드 라플란드, Ruka, Syöte의 바",
     "description": "핀란드 라플란드와 Ruka, Syöte의 바: Rovaniemi, Levi, Ylläs, Saariselkä, Salla. 영업시간과 가격, 평점.",
     "hero": {
       "title": "바 & 펍",
@@ -917,7 +917,7 @@
     "venueMap": "지도"
   },
   "iceBars": {
-    "title": "라플란드의 아이스 바 | LaplandBars",
+    "title": "라플란드의 아이스 바",
     "description": "라플란드의 아이스 바 세 곳, 라이니오의 스노 빌리지, 로바니에미 인근의 아크틱 스노호텔, 산타클로스 마을의 스노맨 월드. 시즌, 가격, 복장 안내.",
     "hero": {
       "title": "아이스 바",
@@ -981,7 +981,7 @@
     "verifiedNote": "2026년 7월 10일 각 시설 공식 사이트에서 확인. 가격과 시간은 시즌에 따라 변동될 수 있습니다."
   },
   "apresSki": {
-    "title": "라플란드 애프터 스키: 레비, 윌래스, 퓌하, 루카, 살라, 루오스토 | LaplandBars",
+    "title": "라플란드 애프터 스키: 레비, 윌래스, 퓌하, 루카, 살라, 루오스토",
     "description": "리프트가 멈추면 파티가 시작됩니다. 레비, 윌래스, 퓌하, 루카, 살라, 루오스토, 이소쉬외테, 사리셀카.",
     "hero": {
       "title": "애프터 스키",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos, Pallas, Suomu는 자체 사이트에 슬로프 레스토랑을 소개하지만 바나 클럽, 애프터 스키 밤은 하나도 언급하지 않습니다. Kilpisjärvi에는 알파인 슬로프가 아예 없습니다."
   },
   "cocktails": {
-    "title": "라플란드 칵테일: 클라우드베리와 링곤베리 | LaplandBars",
+    "title": "라플란드 칵테일: 클라우드베리와 링곤베리",
     "description": "북극 칵테일 세 잔, 클라우드베리 사워, 노던 라이트, 링곤베리 스프리츠. 재료가 되는 야생 베리와 예약 가능한 시음 체험까지.",
     "hero": {
       "title": "북극권 칵테일",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "라플란드의 크래프트 양조장 | LaplandBars",
+    "title": "라플란드의 크래프트 양조장",
     "description": "라플란드의 양조장 두 곳, 스웨덴 국경의 토르니온 파니모와 로바니에미의 라플란드 브루어리. 무엇을 양조하고 어디서 맛볼 수 있는지.",
     "hero": {
       "title": "크래프트 비어",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "라플란드의 핀란드 음주 문화 | LaplandBars",
+    "title": "라플란드의 핀란드 음주 문화",
     "description": "코스켄코르바, 롱케로, 라핀 쿨타, 사우나 맥주, 칼사리칸니. 핀란드 사람들이 실제로 어떻게 마시는지, 바에서 맥주 한 잔의 가격까지.",
     "hero": {
       "title": "핀란드 음주 문화",
@@ -1435,15 +1435,15 @@
     "emailLabel": "이메일"
   },
   "privacy": {
-    "title": "개인정보처리방침 | LaplandBars",
+    "title": "개인정보처리방침",
     "description": "LaplandBars의 데이터 처리에 대하여."
   },
   "terms": {
-    "title": "이용 약관 | LaplandBars",
+    "title": "이용 약관",
     "description": "LaplandBars 이용 약관."
   },
   "cookie": {
-    "title": "쿠키 정책 | LaplandBars",
+    "title": "쿠키 정책",
     "description": "LaplandBars의 쿠키 사용에 대하여."
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "로바니에미",
       "at": "로바니에미",
-      "title": "로바니에미의 바: 펍, 칵테일, 아이스 바 | LaplandBars",
+      "title": "로바니에미의 바: 펍, 칵테일, 아이스 바",
       "description": "로바니에미에서 마시기: 몇 블록 안에 모인 도심의 펍과 칵테일 바, 도시 외곽의 양조장 탭룸, 그리고 30분 거리의 아이스 바. 구글 평점, 영업시간, 가격.",
       "h1": "로바니에미의 바",
       "tagline": "라플란드에서 유일하게 걸어 다니며 바를 고를 수 있는 도시.",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "레비",
       "at": "레비",
-      "title": "레비의 바: 아프레 스키, 펍, 늦은 밤 | LaplandBars",
+      "title": "레비의 바: 아프레 스키, 펍, 늦은 밤",
       "description": "레비에서 마시기: Hullu Poro Areena, Bar Ihku, 슬로프 아래 마을의 펍, 그리고 곤돌라로 오르는 정상 레스토랑. 구글 평점, 영업시간, 가격.",
       "h1": "레비의 바",
       "tagline": "핀란드 아프레 스키의 수도. 리프트는 16:00에 멈추고, 바는 곧바로 채워집니다.",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Ylläs 바: Äkäslompolo, Ylläsjärvi, 슬로프 펍 | LaplandBars",
+      "title": "Ylläs 바: Äkäslompolo, Ylläsjärvi, 슬로프 펍",
       "description": "Ylläs에서 마시기: Äkäslompolo의 마을 펍과 지하 나이트클럽, Ylläsjärvi 호숫가의 그릴 레스토랑. 주소와 영업시간.",
       "h1": "Ylläs의 바",
       "tagline": "바가 모인 마을은 Äkäslompolo와 Ylläsjärvi 둘이고 슬로프 펍은 양쪽에 다 있습니다. 어느 목록이 내 것인지는 주소가 알려 줍니다.",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Saariselkä 바: 마을 펍, 댄스 저녁, 정상 라운지 | LaplandBars",
+      "title": "Saariselkä 바: 마을 펍, 댄스 저녁, 정상 라운지",
       "description": "Saariselkä에서 마시기: 마을 중심가의 펍과 가스트로펍, 댄스 레스토랑, Kaunispää 정상의 오로라 라운지. 주소와 영업시간.",
       "h1": "Saariselkä의 바",
       "tagline": "술자리 대부분은 마을의 몇 안 되는 거리에 모여 있고, 한 곳은 Kaunispää 정상에, 한 곳은 스키 트레일 옆에 있습니다.",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Ruka 바: 슬로프 바, 노래방, 라이브 음악 | LaplandBars",
+      "title": "Ruka 바: 슬로프 바, 노래방, 라이브 음악",
       "description": "Ruka에서 마시기: Rukankyläntie의 여섯 곳, 스키로만 닿는 Monomesta, 호숫가의 아이스 바. 주소와 영업시간, 입장료.",
       "h1": "Ruka의 바",
       "tagline": "이 가운데 여섯 곳은 Rukankyläntie 한 거리에 서 있고, 또 한 곳은 아예 길이 닿지 않습니다.",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Luosto 바: 나이트클럽 하나, 댄스 저녁, 오두막 바 | LaplandBars",
+      "title": "Luosto 바: 나이트클럽 하나, 댄스 저녁, 오두막 바",
       "description": "Luosto에서 마시기: Luostontie의 호텔 나이트클럽과 Rumpu Bar, 쇼핑센터 안의 펍, Kerotie의 오두막 바. 일곱 곳의 주소.",
       "h1": "Luosto의 바",
       "tagline": "마을에 나이트클럽은 하나뿐이고, 라이브 댄스 오케스트라는 Lapland Hotels Luostotunturi에서 약 300m 떨어진 통나무 레스토랑에서 연주합니다.",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Pyhä 바: 슬로프 펍, 산 정상 와인 바, 노래방 | LaplandBars",
+      "title": "Pyhä 바: 슬로프 펍, 산 정상 와인 바, 노래방",
       "description": "Pyhä에서 마시기: 패밀리 슬로프 옆 슬로프 펍, 전망 리프트로 오르는 정상의 와인 바, 노래방 스포츠 바. 여섯 곳의 영업시간과 주소.",
       "h1": "Pyhä의 바",
       "tagline": "리조트 한 곳을 둘러싼 바 여섯 곳, 그중 와인 바는 산 정상에 있습니다.",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Iso-Syöte 바: 슬로프 펍, 애프터스키, 정상 바 | LaplandBars",
+      "title": "Iso-Syöte 바: 슬로프 펍, 애프터스키, 정상 바",
       "description": "Iso-Syöte에서 마시기: Romekievarintie의 펍과 호텔 바, 리프트 옆 애프터스키 비스트로, 정상 레스토랑. 다섯 곳의 주소와 영업시간.",
       "h1": "Iso-Syöte의 바",
       "tagline": "여기에는 바 거리가 없습니다. 다섯 곳 모두 호텔이나 슬로프, 식료품점에 붙어 있고 그중 둘은 산 정상에 있습니다.",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Salla 바: 스키 리조트 펍, 노래방, 늦은 밤 | LaplandBars",
+      "title": "Salla 바: 스키 리조트 펍, 노래방, 늦은 밤",
       "description": "Salla에서 마시기: 스키 리조트의 바 두 곳, Hautajärventie의 노래방 펍, Vallovaara 옛 학교의 펍. 주소와 영업시간.",
       "h1": "Salla의 바",
       "tagline": "이곳 네 곳 가운데 셋이 노래방을 운영하고, 그 셋 중 산에 있는 곳은 하나뿐입니다.",

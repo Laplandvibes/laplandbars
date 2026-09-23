@@ -3,7 +3,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Bar a Ylläs: Äkäslompolo, Ylläsjärvi e pub sulle piste | LaplandBars",
+      "title": "Bar a Ylläs: Äkäslompolo, Ylläsjärvi e pub sulle piste",
       "description": "Dove bere a Ylläs: pub di paese e un nightclub nel seminterrato ad Äkäslompolo, ristoranti di pista sui due versanti, una griglia sul lago a Ylläsjärvi.",
       "h1": "Bar a Ylläs",
       "tagline": "Due villaggi di bar, Äkäslompolo e Ylläsjärvi, con pub di pista sui due versanti: è l'indirizzo a dirti quale elenco fa per te.",
@@ -17,7 +17,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Bar a Saariselkä: pub, serate danzanti e lounge in vetta | LaplandBars",
+      "title": "Bar a Saariselkä: pub, serate danzanti e lounge in vetta",
       "description": "Dove bere a Saariselkä: pub nel centro del villaggio, un gastropub, un ristorante da ballo e una lounge per l'aurora in cima al Kaunispää.",
       "h1": "Bar a Saariselkä",
       "tagline": "Quasi tutti i locali stanno su poche vie del villaggio, con un bar in cima al Kaunispää e uno fuori, sulla pista da sci.",
@@ -31,7 +31,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Bar a Ruka: bar sulle piste, karaoke e musica dal vivo | LaplandBars",
+      "title": "Bar a Ruka: bar sulle piste, karaoke e musica dal vivo",
       "description": "Dove bere a Ruka: karaoke e musica dal vivo in Rukankyläntie, un bar di pista raggiungibile solo con gli sci e un bar d'albergo sulla riva del lago.",
       "h1": "Bar a Ruka",
       "tagline": "Sei di questi locali stanno su una sola via, Rukankyläntie, e a un altro non arriva nessuna strada.",
@@ -45,7 +45,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Bar a Luosto: nightclub, serate danzanti e un bar-capanna | LaplandBars",
+      "title": "Bar a Luosto: nightclub, serate danzanti e un bar-capanna",
       "description": "Dove bere a Luosto: il nightclub dell'hotel e il Rumpu Bar in Luostontie, un pub nel centro commerciale, un bar-capanna e serate danzanti a pagamento.",
       "h1": "Bar a Luosto",
       "tagline": "Il villaggio ha un solo nightclub, e le orchestre da ballo dal vivo suonano in un ristorante di tronchi a circa 300 metri dal Lapland Hotels Luostotunturi.",
@@ -59,7 +59,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Bar a Pyhä: pub di pista, wine bar in vetta e karaoke | LaplandBars",
+      "title": "Bar a Pyhä: pub di pista, wine bar in vetta e karaoke",
       "description": "Dove bere a Pyhä: un pub accanto alla pista per famiglie, un wine bar in vetta e uno sports bar con karaoke aperto tutto l'anno. Orari e indirizzi.",
       "h1": "Bar a Pyhä",
       "tagline": "Sei bar attorno a un'unica stazione sciistica, e il wine bar sta in cima alla montagna.",
@@ -73,7 +73,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Bar a Iso-Syöte: pub di pista, after-ski e bar in vetta | LaplandBars",
+      "title": "Bar a Iso-Syöte: pub di pista, after-ski e bar in vetta",
       "description": "Dove bere a Iso-Syöte: un pub e un bar d'albergo in Romekievarintie, un bistrot after-ski alle piste posteriori, un ristorante in vetta.",
       "h1": "Bar a Iso-Syöte",
       "tagline": "Qui non c'è una via dei bar: ogni locale è attaccato a un hotel, a una pista o a un alimentari, e due dei cinque stanno su una cima.",
@@ -87,7 +87,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Bar a Salla: pub sulle piste, karaoke e notti lunghe | LaplandBars",
+      "title": "Bar a Salla: pub sulle piste, karaoke e notti lunghe",
       "description": "Dove bere a Salla: due bar alla stazione sciistica, un pub karaoke in Hautajärventie e un pub di paese a Vallovaara. Orari e indirizzi.",
       "h1": "Bar a Salla",
       "tagline": "Tre dei quattro bar di Salla fanno karaoke, e solo uno dei tre si trova sulla montagna.",
@@ -107,7 +107,7 @@
     "Iso-Syote": "Sulle alture di Syöte, a Pudasjärvi, non in Lapponia. Cinque locali: un pub, un bistrot after-ski, un bar in vetta e un ristorante dedicato al vino."
   },
   "bars": {
-    "title": "Bar in Lapponia finlandese, Ruka e Syöte | LaplandBars",
+    "title": "Bar in Lapponia finlandese, Ruka e Syöte",
     "description": "I bar dove bevono davvero i locali, da Rovaniemi e Levi a Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla e Iso-Syöte. Orari, prezzi, valutazioni.",
     "heroSub": "Ogni bar elencato qui esiste davvero, è aperto e merita la tua serata. Nessuna posizione sponsorizzata, nessun riempitivo, solo la vera cultura del bere di Lapponia, Ruka e Syöte."
   }

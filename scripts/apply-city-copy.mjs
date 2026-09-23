@@ -61,7 +61,7 @@ function check(lang, data) {
       const [lo, hi] = CJK.has(lang) ? [55, 90] : [105, 160];
       if (n < lo || n > hi) why.push(`${slug}.description on ${n} merkkiä (sallittu ${lo}–${hi})`);
     }
-    if (c.title && !c.title.endsWith(' | LaplandBars')) why.push(`${slug}.title ei pääty " | LaplandBars"`);
+    if (c.title && !c.title.endsWith('')) why.push(`${slug}.title ei pääty ""`);
     const all = [c.title, c.description, c.tagline, c.intro, ...(c.know || [])].join(' ');
     if (all.includes('—')) why.push(`${slug}: em-viiva`);
     if (NOT_LAPLAND.includes(slug)) {
@@ -86,7 +86,7 @@ function check(lang, data) {
 
   const b = data.bars || {};
   for (const f of ['title', 'description', 'heroSub']) if (!b[f]?.trim()) why.push(`bars.${f} puuttuu`);
-  if (b.title && !b.title.endsWith(' | LaplandBars')) why.push('bars.title ei pääty " | LaplandBars"');
+  if (b.title && !b.title.endsWith('')) why.push('bars.title ei pääty ""');
   return why;
 }
 

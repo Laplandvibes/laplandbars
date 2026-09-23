@@ -3,7 +3,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Ylläs 바: Äkäslompolo, Ylläsjärvi, 슬로프 펍 | LaplandBars",
+      "title": "Ylläs 바: Äkäslompolo, Ylläsjärvi, 슬로프 펍",
       "description": "Ylläs에서 마시기: Äkäslompolo의 마을 펍과 지하 나이트클럽, Ylläsjärvi 호숫가의 그릴 레스토랑. 주소와 영업시간.",
       "h1": "Ylläs의 바",
       "tagline": "바가 모인 마을은 Äkäslompolo와 Ylläsjärvi 둘이고 슬로프 펍은 양쪽에 다 있습니다. 어느 목록이 내 것인지는 주소가 알려 줍니다.",
@@ -17,7 +17,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Saariselkä 바: 마을 펍, 댄스 저녁, 정상 라운지 | LaplandBars",
+      "title": "Saariselkä 바: 마을 펍, 댄스 저녁, 정상 라운지",
       "description": "Saariselkä에서 마시기: 마을 중심가의 펍과 가스트로펍, 댄스 레스토랑, Kaunispää 정상의 오로라 라운지. 주소와 영업시간.",
       "h1": "Saariselkä의 바",
       "tagline": "술자리 대부분은 마을의 몇 안 되는 거리에 모여 있고, 한 곳은 Kaunispää 정상에, 한 곳은 스키 트레일 옆에 있습니다.",
@@ -31,7 +31,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Ruka 바: 슬로프 바, 노래방, 라이브 음악 | LaplandBars",
+      "title": "Ruka 바: 슬로프 바, 노래방, 라이브 음악",
       "description": "Ruka에서 마시기: Rukankyläntie의 여섯 곳, 스키로만 닿는 Monomesta, 호숫가의 아이스 바. 주소와 영업시간, 입장료.",
       "h1": "Ruka의 바",
       "tagline": "이 가운데 여섯 곳은 Rukankyläntie 한 거리에 서 있고, 또 한 곳은 아예 길이 닿지 않습니다.",
@@ -45,7 +45,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Luosto 바: 나이트클럽 하나, 댄스 저녁, 오두막 바 | LaplandBars",
+      "title": "Luosto 바: 나이트클럽 하나, 댄스 저녁, 오두막 바",
       "description": "Luosto에서 마시기: Luostontie의 호텔 나이트클럽과 Rumpu Bar, 쇼핑센터 안의 펍, Kerotie의 오두막 바. 일곱 곳의 주소.",
       "h1": "Luosto의 바",
       "tagline": "마을에 나이트클럽은 하나뿐이고, 라이브 댄스 오케스트라는 Lapland Hotels Luostotunturi에서 약 300m 떨어진 통나무 레스토랑에서 연주합니다.",
@@ -59,7 +59,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Pyhä 바: 슬로프 펍, 산 정상 와인 바, 노래방 | LaplandBars",
+      "title": "Pyhä 바: 슬로프 펍, 산 정상 와인 바, 노래방",
       "description": "Pyhä에서 마시기: 패밀리 슬로프 옆 슬로프 펍, 전망 리프트로 오르는 정상의 와인 바, 노래방 스포츠 바. 여섯 곳의 영업시간과 주소.",
       "h1": "Pyhä의 바",
       "tagline": "리조트 한 곳을 둘러싼 바 여섯 곳, 그중 와인 바는 산 정상에 있습니다.",
@@ -73,7 +73,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Iso-Syöte 바: 슬로프 펍, 애프터스키, 정상 바 | LaplandBars",
+      "title": "Iso-Syöte 바: 슬로프 펍, 애프터스키, 정상 바",
       "description": "Iso-Syöte에서 마시기: Romekievarintie의 펍과 호텔 바, 리프트 옆 애프터스키 비스트로, 정상 레스토랑. 다섯 곳의 주소와 영업시간.",
       "h1": "Iso-Syöte의 바",
       "tagline": "여기에는 바 거리가 없습니다. 다섯 곳 모두 호텔이나 슬로프, 식료품점에 붙어 있고 그중 둘은 산 정상에 있습니다.",
@@ -87,7 +87,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Salla 바: 스키 리조트 펍, 노래방, 늦은 밤 | LaplandBars",
+      "title": "Salla 바: 스키 리조트 펍, 노래방, 늦은 밤",
       "description": "Salla에서 마시기: 스키 리조트의 바 두 곳, Hautajärventie의 노래방 펍, Vallovaara 옛 학교의 펍. 주소와 영업시간.",
       "h1": "Salla의 바",
       "tagline": "이곳 네 곳 가운데 셋이 노래방을 운영하고, 그 셋 중 산에 있는 곳은 하나뿐입니다.",
@@ -107,7 +107,7 @@
     "Iso-Syote": "Pudasjärvi의 Syöte 펠 지대에 있으며 라플란드에 속하지 않습니다. 다섯 곳으로, 펍과 애프터스키 비스트로, 정상의 바, 와인 레스토랑입니다."
   },
   "bars": {
-    "title": "핀란드 라플란드, Ruka, Syöte의 바 | LaplandBars",
+    "title": "핀란드 라플란드, Ruka, Syöte의 바",
     "description": "핀란드 라플란드와 Ruka, Syöte의 바: Rovaniemi, Levi, Ylläs, Saariselkä, Salla. 영업시간과 가격, 평점.",
     "heroSub": "여기 실린 바는 모두 실제로 있고, 지금 영업 중이며, 저녁 한때를 보낼 만한 곳입니다. 광고 자리도 없고 채워 넣은 목록도 없이 라플란드와 Ruka, Syöte의 실제 술 문화만 담았습니다."
   }

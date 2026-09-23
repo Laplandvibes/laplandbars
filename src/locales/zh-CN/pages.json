@@ -1,6 +1,6 @@
 {
   "home": {
-    "title": "拉普兰真正喝酒的地方 | LaplandBars",
+    "title": "拉普兰真正喝酒的地方",
     "description": "芬兰拉普兰的酒吧、酿酒厂、冰吧、滑雪村的滑雪后聚会、鸡尾酒，以及本地芬兰人真正去喝酒的酒馆。一份独立的编辑指南，不是宣传册。",
     "eyebrow": "芬兰拉普兰",
     "hero": {
@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "芬兰拉普兰、Ruka 与 Syöte 的酒吧 | LaplandBars",
+    "title": "芬兰拉普兰、Ruka 与 Syöte 的酒吧",
     "description": "本地人真正会去喝一杯的酒吧：Rovaniemi、Levi、Ylläs、Saariselkä、Ruka、Pyhä、Luosto、Salla、Iso-Syöte。营业时间与评分。",
     "hero": {
       "title": "酒吧与酒馆",
@@ -917,7 +917,7 @@
     "venueMap": "地图"
   },
   "iceBars": {
-    "title": "拉普兰冰吧 | LaplandBars",
+    "title": "拉普兰冰吧",
     "description": "拉普兰的三家冰吧：SnowVillage（Lainio）、罗瓦涅米附近的 Arctic SnowHotel、圣诞老人村的 Snowman World。季节、价格与穿着。",
     "hero": {
       "title": "冰吧",
@@ -981,7 +981,7 @@
     "verifiedNote": "信息已于2026年7月10日在场馆官网核实，价格与时间可能随季节调整。"
   },
   "apresSki": {
-    "title": "拉普兰滑雪后派对：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托 | LaplandBars",
+    "title": "拉普兰滑雪后派对：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托",
     "description": "缆车一关，派对开场：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托、伊索叙厄泰、萨利色尔卡。",
     "hero": {
       "title": "滑雪后派对",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos、Pallas 和 Suomu 在自己的网站上列出了雪道餐厅，但没有提到任何酒吧、夜店或滑雪后派对之夜。Kilpisjärvi 根本没有高山雪道。"
   },
   "cocktails": {
-    "title": "拉普兰鸡尾酒：云莓与越橘 | LaplandBars",
+    "title": "拉普兰鸡尾酒：云莓与越橘",
     "description": "三款北极鸡尾酒：云莓酸酒、极光、越橘气泡。背后的野生食材，以及可预订的品鉴体验。",
     "hero": {
       "title": "北极鸡尾酒",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "拉普兰精酿啤酒厂 | LaplandBars",
+    "title": "拉普兰精酿啤酒厂",
     "description": "拉普兰的两家酿酒厂：瑞典边境的 Tornion Panimo 与罗瓦涅米的 Lapland Brewery。他们酿什么、去哪里品尝。",
     "hero": {
       "title": "精酿啤酒",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "芬兰人在拉普兰的饮酒文化 | LaplandBars",
+    "title": "芬兰人在拉普兰的饮酒文化",
     "description": "Koskenkorva、lonkero、Lapin Kulta、桑拿啤酒与 kalsarikännit：芬兰人到底怎么喝，以及酒吧一杯啤酒的价格。",
     "hero": {
       "title": "芬兰饮酒文化",
@@ -1435,15 +1435,15 @@
     "emailLabel": "电子邮箱"
   },
   "privacy": {
-    "title": "隐私政策 | LaplandBars",
+    "title": "隐私政策",
     "description": "关于 LaplandBars 如何处理您的数据。"
   },
   "terms": {
-    "title": "使用条款 | LaplandBars",
+    "title": "使用条款",
     "description": "使用 LaplandBars 的条款。"
   },
   "cookie": {
-    "title": "Cookie 政策 | LaplandBars",
+    "title": "Cookie 政策",
     "description": "关于 LaplandBars 的 Cookie 使用。"
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "罗瓦涅米",
       "at": "罗瓦涅米",
-      "title": "罗瓦涅米的酒吧：酒馆、鸡尾酒与冰吧 | LaplandBars",
+      "title": "罗瓦涅米的酒吧：酒馆、鸡尾酒与冰吧",
       "description": "在罗瓦涅米喝一杯：相隔几条街的市中心酒馆和鸡尾酒吧、城边的精酿酒厂直营酒馆，以及 30 分钟车程外的冰吧。Google 评分、营业时间和价格。",
       "h1": "罗瓦涅米的酒吧",
       "tagline": "拉普兰唯一可以步行挑选酒吧的城市。",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "莱维",
       "at": "莱维",
-      "title": "莱维的酒吧：滑雪后派对、酒馆与深夜 | LaplandBars",
+      "title": "莱维的酒吧：滑雪后派对、酒馆与深夜",
       "description": "在莱维喝一杯：Hullu Poro Areena、Bar Ihku、雪道脚下的村中酒馆，以及乘缆车前往的山顶餐厅。Google 评分、营业时间和价格。",
       "h1": "莱维的酒吧",
       "tagline": "芬兰的滑雪后派对之都。缆车 16:00 停运，酒吧随即坐满。",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Ylläs 酒吧：Äkäslompolo、Ylläsjärvi 与雪道酒吧 | LaplandBars",
+      "title": "Ylläs 酒吧：Äkäslompolo、Ylläsjärvi 与雪道酒吧",
       "description": "在 Ylläs 喝一杯：Äkäslompolo 的村庄酒吧、两侧雪道上的餐厅，以及 Ylläsjärvi 湖畔的 Miilu Bar & Grill。",
       "h1": "Ylläs 的酒吧",
       "tagline": "两个酒吧村庄 Äkäslompolo 和 Ylläsjärvi，两侧都有雪道酒吧：地址决定哪一份名单属于你。",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊 | LaplandBars",
+      "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊",
       "description": "在 Saariselkä 喝一杯：Revontulentie 上的美食酒吧、村中的舞会餐厅，以及 Kaunispää 山顶的极光酒廊。",
       "h1": "Saariselkä 的酒吧",
       "tagline": "喝酒的地方大多集中在几条村中街道上，另有一家在 Kaunispää 山顶，一家在雪道旁。",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐 | LaplandBars",
+      "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐",
       "description": "在 Ruka 喝一杯：Rukankyläntie 上的卡拉 OK 和现场音乐，以及只能滑雪抵达的雪道酒吧 Monomesta。",
       "h1": "Ruka 的酒吧",
       "tagline": "其中六家都在同一条街 Rukankyläntie 上，还有一家根本没有路能开到门口。",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧 | LaplandBars",
+      "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧",
       "description": "在 Luosto 喝一杯：Luostontie 上的夜店 Nightclub Karhu、购物中心里的酒馆，以及售票的舞会之夜。",
       "h1": "Luosto 的酒吧",
       "tagline": "村里只有一家夜店，现场舞会乐队则在距 Lapland Hotels Luostotunturi 约 300 米的原木餐厅里演奏。",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK | LaplandBars",
+      "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK",
       "description": "在 Pyhä 喝一杯：家庭雪道旁的雪道酒馆、带卡拉 OK 的运动酒吧，以及山顶的 Pyhä Dreams Wine Bar。",
       "h1": "Pyhä 的酒吧",
       "tagline": "一个雪场周边六家酒吧，其中葡萄酒吧在山顶上。",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Iso-Syöte 酒吧：雪道酒馆、雪后小酌与山顶酒吧 | LaplandBars",
+      "title": "Iso-Syöte 酒吧：雪道酒馆、雪后小酌与山顶酒吧",
       "description": "在 Iso-Syöte 喝一杯：Romekievarintie 上的酒馆和酒店酒吧、后坡缆车旁的 Pärjä Ski Bistro，以及两座山顶餐厅。",
       "h1": "Iso-Syöte 的酒吧",
       "tagline": "这里没有酒吧街：每一家都挂在酒店、雪道或杂货店上，五家里有两家在山顶。",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场 | LaplandBars",
+      "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场",
       "description": "在 Salla 喝一杯：雪场上的两家酒吧、Hautajärventie 上的卡拉 OK 酒馆，以及老校舍里的 Evakko Pub。",
       "h1": "Salla 的酒吧",
       "tagline": "这里四家酒吧中有三家做卡拉 OK，而这三家里只有一家在山上。",

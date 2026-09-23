@@ -3,7 +3,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Ylläs 酒吧：Äkäslompolo、Ylläsjärvi 与雪道酒吧 | LaplandBars",
+      "title": "Ylläs 酒吧：Äkäslompolo、Ylläsjärvi 与雪道酒吧",
       "description": "在 Ylläs 喝一杯：Äkäslompolo 的村庄酒吧、两侧雪道上的餐厅，以及 Ylläsjärvi 湖畔的 Miilu Bar & Grill。",
       "h1": "Ylläs 的酒吧",
       "tagline": "两个酒吧村庄 Äkäslompolo 和 Ylläsjärvi，两侧都有雪道酒吧：地址决定哪一份名单属于你。",
@@ -17,7 +17,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊 | LaplandBars",
+      "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊",
       "description": "在 Saariselkä 喝一杯：Revontulentie 上的美食酒吧、村中的舞会餐厅，以及 Kaunispää 山顶的极光酒廊。",
       "h1": "Saariselkä 的酒吧",
       "tagline": "喝酒的地方大多集中在几条村中街道上，另有一家在 Kaunispää 山顶，一家在雪道旁。",
@@ -31,7 +31,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐 | LaplandBars",
+      "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐",
       "description": "在 Ruka 喝一杯：Rukankyläntie 上的卡拉 OK 和现场音乐，以及只能滑雪抵达的雪道酒吧 Monomesta。",
       "h1": "Ruka 的酒吧",
       "tagline": "其中六家都在同一条街 Rukankyläntie 上，还有一家根本没有路能开到门口。",
@@ -45,7 +45,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧 | LaplandBars",
+      "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧",
       "description": "在 Luosto 喝一杯：Luostontie 上的夜店 Nightclub Karhu、购物中心里的酒馆，以及售票的舞会之夜。",
       "h1": "Luosto 的酒吧",
       "tagline": "村里只有一家夜店，现场舞会乐队则在距 Lapland Hotels Luostotunturi 约 300 米的原木餐厅里演奏。",
@@ -59,7 +59,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK | LaplandBars",
+      "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK",
       "description": "在 Pyhä 喝一杯：家庭雪道旁的雪道酒馆、带卡拉 OK 的运动酒吧，以及山顶的 Pyhä Dreams Wine Bar。",
       "h1": "Pyhä 的酒吧",
       "tagline": "一个雪场周边六家酒吧，其中葡萄酒吧在山顶上。",
@@ -73,7 +73,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Iso-Syöte 酒吧：雪道酒馆、雪后小酌与山顶酒吧 | LaplandBars",
+      "title": "Iso-Syöte 酒吧：雪道酒馆、雪后小酌与山顶酒吧",
       "description": "在 Iso-Syöte 喝一杯：Romekievarintie 上的酒馆和酒店酒吧、后坡缆车旁的 Pärjä Ski Bistro，以及两座山顶餐厅。",
       "h1": "Iso-Syöte 的酒吧",
       "tagline": "这里没有酒吧街：每一家都挂在酒店、雪道或杂货店上，五家里有两家在山顶。",
@@ -87,7 +87,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场 | LaplandBars",
+      "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场",
       "description": "在 Salla 喝一杯：雪场上的两家酒吧、Hautajärventie 上的卡拉 OK 酒馆，以及老校舍里的 Evakko Pub。",
       "h1": "Salla 的酒吧",
       "tagline": "这里四家酒吧中有三家做卡拉 OK，而这三家里只有一家在山上。",
@@ -107,7 +107,7 @@
     "Iso-Syote": "位于 Pudasjärvi 的 Syöte 山区，不在拉普兰。五家场所：一家酒馆、一家雪后小酒馆、一家山顶酒吧和一家葡萄酒餐厅。"
   },
   "bars": {
-    "title": "芬兰拉普兰、Ruka 与 Syöte 的酒吧 | LaplandBars",
+    "title": "芬兰拉普兰、Ruka 与 Syöte 的酒吧",
     "description": "本地人真正会去喝一杯的酒吧：Rovaniemi、Levi、Ylläs、Saariselkä、Ruka、Pyhä、Luosto、Salla、Iso-Syöte。营业时间与评分。",
     "heroSub": "这里列出的每一家酒吧都真实存在、正在营业，值得你花上一晚。没有赞助位，没有凑数内容，只有拉普兰、Ruka 和 Syöte 真实的酒馆文化。"
   }

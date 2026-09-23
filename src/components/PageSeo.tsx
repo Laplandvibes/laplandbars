@@ -59,12 +59,10 @@ export default function PageSeo({ title, description, titleKey, descriptionKey, 
   const currentUrl = `${ORIGIN}${localisedPath(path, locale)}`.replace(/\/?$/, '/');
   const og = ogImage ?? DEFAULT_OG;
   const bcp47 = LOCALE_BCP47[locale];
-  // Skip the brand suffix when the title already carries it (either a manual
-  // "|" or the brand word itself, e.g. "About LaplandBars") — otherwise the
-  // About titles rendered "About LaplandBars | LaplandBars" in all 12 locales.
-  const fullTitle = (path === '/' || resolvedTitle.includes('|') || resolvedTitle.includes(SITE_NAME))
-    ? resolvedTitle
-    : `${resolvedTitle} | ${SITE_NAME}`;
+  // No brand suffix in the title (Vesa 2026-09-22): Google prints the site name and
+  // domain above every result, so " | LaplandBars" only repeated them and spent
+  // characters of the ~60 the result shows. Static HTML and hydration agree.
+  const fullTitle = resolvedTitle;
 
   const graphItems = jsonLd
     ? Array.isArray(jsonLd)

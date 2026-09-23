@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "Bars in Fins Lapland, Ruka en Syöte | LaplandBars",
+    "title": "Bars in Fins Lapland, Ruka en Syöte",
     "description": "De bars waar men hier echt drinkt, van Rovaniemi en Levi tot Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla en Iso-Syöte. Tijden, prijzen, beoordelingen.",
     "hero": {
       "title": "Bars & pubs",
@@ -917,7 +917,7 @@
     "venueMap": "Kaart"
   },
   "iceBars": {
-    "title": "IJsbars in Lapland | LaplandBars",
+    "title": "IJsbars in Lapland",
     "description": "De drie ijsbars van Lapland: SnowVillage in Lainio, Arctic SnowHotel bij Rovaniemi en Snowman World in Santa Claus Village. Seizoenen, prijzen en kleding.",
     "hero": {
       "title": "IJsbars",
@@ -981,7 +981,7 @@
     "verifiedNote": "Gegevens gecontroleerd op de sites van de locaties op 10-07-2026. Prijzen en tijden kunnen per seizoen wijzigen."
   },
   "apresSki": {
-    "title": "Après-ski in Lapland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "title": "Après-ski in Lapland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto",
     "description": "Het feest begint zodra de liften sluiten: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Après-ski",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos, Pallas en Suomu noemen op hun eigen sites wel pisterestaurants, maar geen enkele bar, club of après-skiavond. Kilpisjärvi heeft helemaal geen afdalingspistes."
   },
   "cocktails": {
-    "title": "Arctische cocktails in Lapland | LaplandBars",
+    "title": "Arctische cocktails in Lapland",
     "description": "Drie Arctische cocktails: Cloudberry Sour, Noorderlicht en Lingonberry Spritz. De wilde ingrediënten erachter en boekbare proeverijen.",
     "hero": {
       "title": "Arctische cocktails",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "Ambachtelijke brouwerijen in Lapland | LaplandBars",
+    "title": "Ambachtelijke brouwerijen in Lapland",
     "description": "Twee brouwerijen in Lapland: Tornion Panimo aan de Zweedse grens en Lapland Brewery in Rovaniemi. Arctische bierstijlen en proeverijen.",
     "hero": {
       "title": "Ambachtelijk bier",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "Finse drinkcultuur in Lapland | LaplandBars",
+    "title": "Finse drinkcultuur in Lapland",
     "description": "Koskenkorva, lonkero, Lapin Kulta, saunabier en kalsarikännit: hoe Finnen echt drinken en wat een pint kost in een bar in Lapland.",
     "hero": {
       "title": "Finse drinkcultuur",
@@ -1435,15 +1435,15 @@
     "emailLabel": "E-mail"
   },
   "privacy": {
-    "title": "Privacybeleid | LaplandBars",
+    "title": "Privacybeleid",
     "description": "Hoe LaplandBars uw gegevens behandelt."
   },
   "terms": {
-    "title": "Gebruiksvoorwaarden | LaplandBars",
+    "title": "Gebruiksvoorwaarden",
     "description": "De gebruiksvoorwaarden van LaplandBars."
   },
   "cookie": {
-    "title": "Cookiebeleid | LaplandBars",
+    "title": "Cookiebeleid",
     "description": "Cookiegebruik op LaplandBars."
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "Rovaniemi",
       "at": "Rovaniemi",
-      "title": "Bars in Rovaniemi: pubs, cocktails en de ijsbar | LaplandBars",
+      "title": "Bars in Rovaniemi: pubs, cocktails en de ijsbar",
       "description": "Waar te drinken in Rovaniemi: pubs en cocktailbars in het centrum, een brouwerij met taproom en een ijsbar op 30 minuten. Beoordelingen, tijden, prijzen.",
       "h1": "Bars in Rovaniemi",
       "tagline": "De enige stad in Lapland waar u een bar te voet uitkiest.",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "Levi",
       "at": "Levi",
-      "title": "Bars in Levi: après-ski, pubs en late avonden | LaplandBars",
+      "title": "Bars in Levi: après-ski, pubs en late avonden",
       "description": "Waar te drinken in Levi: Hullu Poro Areena, Bar Ihku en de dorpspubs aan de voet van de pistes, plus een toprestaurant. Beoordelingen, tijden, prijzen.",
       "h1": "Bars in Levi",
       "tagline": "De après-skihoofdstad van Finland. De liften stoppen om 16:00 en de bars lopen meteen daarna vol.",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Bars in Ylläs: Äkäslompolo, Ylläsjärvi en pistebars | LaplandBars",
+      "title": "Bars in Ylläs: Äkäslompolo, Ylläsjärvi en pistebars",
       "description": "Waar u drinkt in Ylläs: dorpspubs en een kelderclub in Äkäslompolo, pisterestaurants aan beide kanten, een grill aan het meer in Ylläsjärvi.",
       "h1": "Bars in Ylläs",
       "tagline": "Twee bardorpen, Äkäslompolo en Ylläsjärvi, met pistepubs aan beide kanten: het adres vertelt u welke lijst de uwe is.",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Bars in Saariselkä: dorpspubs, dans en een lounge op de top | LaplandBars",
+      "title": "Bars in Saariselkä: dorpspubs, dans en een lounge op de top",
       "description": "Waar u drinkt in Saariselkä: pubs in het dorpscentrum, een gastropub, een dansrestaurant en een noorderlichtlounge op de top van Kaunispää.",
       "h1": "Bars in Saariselkä",
       "tagline": "Het meeste drinken gebeurt in een handvol dorpsstraten, met één bar op de top van Kaunispää en één aan de langlaufloipe.",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Bars in Ruka: pistebars, karaoke en livemuziek | LaplandBars",
+      "title": "Bars in Ruka: pistebars, karaoke en livemuziek",
       "description": "Waar u drinkt in Ruka: karaoke en livemuziek aan Rukankyläntie, een pistebar die alleen op ski's bereikbaar is en een hotelbar aan het meer.",
       "h1": "Bars in Ruka",
       "tagline": "Zes van deze zaken staan aan één straat, Rukankyläntie, en naar nog één ervan loopt helemaal geen weg.",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Bars in Luosto: één nachtclub, dansavonden en een barhut | LaplandBars",
+      "title": "Bars in Luosto: één nachtclub, dansavonden en een barhut",
       "description": "Waar u drinkt in Luosto: de hotelnachtclub en Rumpu Bar aan Luostontie, een pub in het winkelcentrum, een barhut en dansavonden met kaartverkoop.",
       "h1": "Bars in Luosto",
       "tagline": "Het dorp heeft één nachtclub, en de dansorkesten spelen live in een blokhutrestaurant op ongeveer 300 meter van Lapland Hotels Luostotunturi.",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Bars in Pyhä: pistepubs, een wijnbar op de top en karaoke | LaplandBars",
+      "title": "Bars in Pyhä: pistepubs, een wijnbar op de top en karaoke",
       "description": "Waar u drinkt in Pyhä: een pistepub bij de familiepiste, een wijnbar op de top en een sportbar met karaoke, het hele jaar open. Tijden en adressen.",
       "h1": "Bars in Pyhä",
       "tagline": "Zes bars rond één skigebied, en de wijnbar zit boven op de fjäll.",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Bars in Iso-Syöte: pistepub, après-ski en een bar op de top | LaplandBars",
+      "title": "Bars in Iso-Syöte: pistepub, après-ski en een bar op de top",
       "description": "Waar u drinkt in Iso-Syöte: een pub en hotelbar aan Romekievarintie, een après-skibistro bij de achterste liften, een toprestaurant. Adressen en menu's.",
       "h1": "Bars in Iso-Syöte",
       "tagline": "Hier is geen barstraat: elke zaak hangt aan een hotel, een piste of een supermarkt, en twee van de vijf staan boven op een fjäll.",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Bars in Salla: pubs in het skigebied, karaoke en late uren | LaplandBars",
+      "title": "Bars in Salla: pubs in het skigebied, karaoke en late uren",
       "description": "Waar u drinkt in Salla: twee bars in het skigebied, een karaokepub aan Hautajärventie en een dorpspub in Vallovaara. Tijden en adressen.",
       "h1": "Bars in Salla",
       "tagline": "Drie van de vier bars hier draaien karaoke, en maar één van die drie zit op de fjäll.",

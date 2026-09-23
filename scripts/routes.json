@@ -90,7 +90,7 @@
   {
     "path": "/privacy",
     "jsonKey": "privacy",
-    "fallbackTitle": "Privacy Policy | LaplandBars",
+    "fallbackTitle": "Privacy Policy",
     "harvestFiles": [
       "src/shared/Legal/PrivacyContent.tsx"
     ]
@@ -98,7 +98,7 @@
   {
     "path": "/terms",
     "jsonKey": "terms",
-    "fallbackTitle": "Terms of Use | LaplandBars",
+    "fallbackTitle": "Terms of Use",
     "harvestFiles": [
       "src/shared/Legal/TermsContent.tsx"
     ]
@@ -106,7 +106,7 @@
   {
     "path": "/cookie-policy",
     "jsonKey": "cookie",
-    "fallbackTitle": "Cookie Policy | LaplandBars",
+    "fallbackTitle": "Cookie Policy",
     "harvestFiles": [
       "src/shared/Legal/CookieContent.tsx"
     ]

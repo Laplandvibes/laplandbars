@@ -108,7 +108,7 @@
     }
   },
   "bars": {
-    "title": "Bars in Finnisch-Lappland, Ruka und Syöte | LaplandBars",
+    "title": "Bars in Finnisch-Lappland, Ruka und Syöte",
     "description": "Wo Einheimische wirklich trinken: von Rovaniemi und Levi bis Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla und Iso-Syöte. Zeiten, Preise, Bewertungen.",
     "hero": {
       "title": "Bars und Pubs",
@@ -917,7 +917,7 @@
     "venueMap": "Karte"
   },
   "iceBars": {
-    "title": "Eisbars in Lappland | LaplandBars",
+    "title": "Eisbars in Lappland",
     "description": "Lapplands drei Eisbars: SnowVillage in Lainio, Arctic SnowHotel bei Rovaniemi und Snowman World im Santa Claus Village. Saison, Preise und Kleidung.",
     "hero": {
       "title": "Eisbars",
@@ -981,7 +981,7 @@
     "verifiedNote": "Angaben am 10.7.2026 auf den Websites der Anbieter geprüft. Preise und Zeiten können sich saisonal ändern."
   },
   "apresSki": {
-    "title": "Après-Ski in Lappland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto | LaplandBars",
+    "title": "Après-Ski in Lappland: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto",
     "description": "Wenn die Lifte schließen, geht es los: Levi, Ylläs, Pyhä, Ruka, Salla, Luosto, Iso-Syöte, Saariselkä.",
     "hero": {
       "title": "Après-Ski",
@@ -1130,7 +1130,7 @@
     "notFound": "Olos, Pallas und Suomu führen auf ihren eigenen Seiten Pistenrestaurants auf, nennen aber keine Bar, keinen Club und keinen Après-Ski-Abend. In Kilpisjärvi gibt es überhaupt keine Abfahrtspisten."
   },
   "cocktails": {
-    "title": "Lappland-Cocktails: Moltebeere & Preiselbeere | LaplandBars",
+    "title": "Lappland-Cocktails: Moltebeere & Preiselbeere",
     "description": "Drei arktische Cocktails: Cloudberry Sour, Northern Lights und Lingonberry Spritz. Dazu die wilden Zutaten dahinter und buchbare Verkostungen.",
     "hero": {
       "title": "Arktische Cocktails",
@@ -1192,7 +1192,7 @@
     ]
   },
   "craftBeer": {
-    "title": "Mikrobrauereien in Lappland | LaplandBars",
+    "title": "Mikrobrauereien in Lappland",
     "description": "Zwei Brauereien in Lappland: Tornion Panimo an der schwedischen Grenze und Lapland Brewery mit Taproom in Rovaniemi. Arktische Bierstile und Verkostungen.",
     "hero": {
       "title": "Mikrobrauerei-Bier",
@@ -1269,7 +1269,7 @@
     }
   },
   "drinkingCulture": {
-    "title": "Finnische Trinkkultur in Lappland | LaplandBars",
+    "title": "Finnische Trinkkultur in Lappland",
     "description": "Koskenkorva, Lonkero, Lapin Kulta, Saunabier und Kalsarikännit: wie Finnen wirklich trinken und was ein Bier in einer Lappland-Bar kostet.",
     "hero": {
       "title": "Finnische Trinkkultur",
@@ -1435,15 +1435,15 @@
     "emailLabel": "E-Mail"
   },
   "privacy": {
-    "title": "Datenschutzerklärung | LaplandBars",
+    "title": "Datenschutzerklärung",
     "description": "Wie LaplandBars Ihre Daten behandelt."
   },
   "terms": {
-    "title": "Nutzungsbedingungen | LaplandBars",
+    "title": "Nutzungsbedingungen",
     "description": "Nutzungsbedingungen für LaplandBars."
   },
   "cookie": {
-    "title": "Cookie-Richtlinie | LaplandBars",
+    "title": "Cookie-Richtlinie",
     "description": "Wie LaplandBars Cookies verwendet."
   },
   "heroComponent": {
@@ -1498,7 +1498,7 @@
     "rovaniemi": {
       "name": "Rovaniemi",
       "at": "Rovaniemi",
-      "title": "Bars in Rovaniemi: Pubs, Cocktails und die Eisbar | LaplandBars",
+      "title": "Bars in Rovaniemi: Pubs, Cocktails und die Eisbar",
       "description": "Wo man in Rovaniemi trinkt: Pubs und Cocktailbars im Zentrum, ein Brauerei-Taproom und eine Eisbar 30 Minuten außerhalb. Bewertungen, Zeiten, Preise.",
       "h1": "Bars in Rovaniemi",
       "tagline": "Die einzige Stadt Lapplands, in der man die Bar zu Fuß aussucht.",
@@ -1512,7 +1512,7 @@
     "levi": {
       "name": "Levi",
       "at": "Levi",
-      "title": "Bars in Levi: Après-Ski, Pubs und lange Nächte | LaplandBars",
+      "title": "Bars in Levi: Après-Ski, Pubs und lange Nächte",
       "description": "Wo man in Levi trinkt: Hullu Poro Areena, Bar Ihku und die Dorfpubs am Fuß der Pisten, dazu ein Gipfelrestaurant. Bewertungen, Zeiten, Preise.",
       "h1": "Bars in Levi",
       "tagline": "Finnlands Après-Ski-Hauptstadt. Die Lifte halten um 16:00 Uhr, und die Bars füllen sich gleich danach.",
@@ -1526,7 +1526,7 @@
     "yllas": {
       "name": "Ylläs",
       "at": "Ylläs",
-      "title": "Bars in Ylläs: Äkäslompolo, Ylläsjärvi & Pistenkneipen | LaplandBars",
+      "title": "Bars in Ylläs: Äkäslompolo, Ylläsjärvi & Pistenkneipen",
       "description": "Wo man in Ylläs trinkt: Dorfkneipen und ein Kellerclub in Äkäslompolo, Pistenrestaurants auf beiden Seiten, ein Grill am See in Ylläsjärvi.",
       "h1": "Bars in Ylläs",
       "tagline": "Zwei Bardörfer, Äkäslompolo und Ylläsjärvi, mit Pistenkneipen auf beiden Seiten: Die Adresse verrät, welche Liste Ihre ist.",
@@ -1540,7 +1540,7 @@
     "saariselka": {
       "name": "Saariselkä",
       "at": "Saariselkä",
-      "title": "Bars in Saariselkä: Dorfkneipen, Tanz & Gipfellounge | LaplandBars",
+      "title": "Bars in Saariselkä: Dorfkneipen, Tanz & Gipfellounge",
       "description": "Wo man in Saariselkä trinkt: Kneipen im Dorfzentrum, ein Gastropub, ein Tanzrestaurant und eine Aurora-Lounge auf dem Gipfel des Kaunispää.",
       "h1": "Bars in Saariselkä",
       "tagline": "Das meiste Trinken spielt sich in einer Handvoll Dorfstraßen ab, dazu kommen eine Bar auf dem Gipfel des Kaunispää und eine draußen an der Loipe.",
@@ -1554,7 +1554,7 @@
     "ruka": {
       "name": "Ruka",
       "at": "Ruka",
-      "title": "Bars in Ruka: Pistenbars, Karaoke & Livemusik | LaplandBars",
+      "title": "Bars in Ruka: Pistenbars, Karaoke & Livemusik",
       "description": "Wo man in Ruka trinkt: Karaoke und Livemusik an der Rukankyläntie, eine nur auf Ski erreichbare Pistenbar und die Bar eines Hotelrestaurants am Seeufer.",
       "h1": "Bars in Ruka",
       "tagline": "Sechs dieser Lokale stehen an einer einzigen Straße, der Rukankyläntie, und zu einem weiteren führt überhaupt keine Straße.",
@@ -1568,7 +1568,7 @@
     "luosto": {
       "name": "Luosto",
       "at": "Luosto",
-      "title": "Bars in Luosto: Ein Nachtclub, Tanzabende & Hüttenbar | LaplandBars",
+      "title": "Bars in Luosto: Ein Nachtclub, Tanzabende & Hüttenbar",
       "description": "Wo man in Luosto trinkt: der Hotel-Nachtclub und die Rumpu Bar an der Luostontie, eine Kneipe im Einkaufszentrum, eine Hüttenbar, Tanzabende.",
       "h1": "Bars in Luosto",
       "tagline": "Das Dorf hat einen Nachtclub, und die Live-Tanzorchester spielen in einem Blockhausrestaurant etwa 300 Meter vom Lapland Hotels Luostotunturi entfernt.",
@@ -1582,7 +1582,7 @@
     "pyha": {
       "name": "Pyhä",
       "at": "Pyhä",
-      "title": "Bars in Pyhä: Pistenkneipen, Weinbar am Gipfel & Karaoke | LaplandBars",
+      "title": "Bars in Pyhä: Pistenkneipen, Weinbar am Gipfel & Karaoke",
       "description": "Wo man in Pyhä trinkt: eine Pistenkneipe an der Familienpiste, eine Weinbar auf dem Gipfel und eine ganzjährige Sportbar mit Karaoke. Zeiten und Adressen.",
       "h1": "Bars in Pyhä",
       "tagline": "Sechs Bars rund um ein Skigebiet, und die Weinbar liegt oben auf dem Fjell.",
@@ -1596,7 +1596,7 @@
     "iso-syote": {
       "name": "Iso-Syöte",
       "at": "Iso-Syöte",
-      "title": "Bars in Iso-Syöte: Pistenkneipe, Après-Ski & Gipfelbar | LaplandBars",
+      "title": "Bars in Iso-Syöte: Pistenkneipe, Après-Ski & Gipfelbar",
       "description": "Wo man in Iso-Syöte trinkt: Kneipe und Hotelbar an der Romekievarintie, Après-Ski-Bistro an den hinteren Liften, Gipfelrestaurant. Adressen, Speisekarten.",
       "h1": "Bars in Iso-Syöte",
       "tagline": "Eine Barstraße gibt es hier nicht: Jedes Lokal hängt an einem Hotel, an einer Piste oder an einem Lebensmittelladen, und zwei der fünf liegen auf einem Fjellgipfel.",
@@ -1610,7 +1610,7 @@
     "salla": {
       "name": "Salla",
       "at": "Salla",
-      "title": "Bars in Salla: Kneipen am Skigebiet, Karaoke & späte Nächte | LaplandBars",
+      "title": "Bars in Salla: Kneipen am Skigebiet, Karaoke & späte Nächte",
       "description": "Wo man in Salla trinkt: zwei Bars am Skigebiet, eine Karaokekneipe an der Hautajärventie, ein Dorfpub in Vallovaara. Zeiten, Adressen, was zu prüfen ist.",
       "h1": "Bars in Salla",
       "tagline": "Drei der vier Bars hier bieten Karaoke, und nur eine dieser drei liegt am Fjell.",
