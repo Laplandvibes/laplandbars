@@ -21,13 +21,16 @@ interface PageSeoProps {
   descriptionKey?: string;
   /** Site-relative path (no locale prefix), e.g. "/ice-bars". */
   path: string;
+  /** Ei kaytossa 23.9.2026 alkaen: jakokuvan kirjoittaa vain prerenderoija
+   *  (routes.json ogImage/ogCard). Taman komponentin oma og:image-tagi tuli
+   *  prerenderoidyn RINNALLE, eli sivulla oli JS:n jalkeen kaksi og:imagea.
+   *  Prop jaa, jotta kutsujat kaantyvat. */
   ogImage?: string;
   jsonLd?: object | object[];
 }
 
 const ORIGIN = 'https://laplandbars.com';
 const SITE_NAME = 'LaplandBars';
-const DEFAULT_OG = 'https://laplandbars.com/images/drive/cocktailTrio.webp';
 
 const OG_LOCALE: Record<Locale, string> = {
   en: 'en_US', fi: 'fi_FI', de: 'de_DE', ja: 'ja_JP', es: 'es_ES',
@@ -46,7 +49,7 @@ function injectInLanguage(node: unknown, bcp47: string): unknown {
   return node;
 }
 
-export default function PageSeo({ title, description, titleKey, descriptionKey, path, ogImage, jsonLd }: PageSeoProps) {
+export default function PageSeo({ title, description, titleKey, descriptionKey, path, jsonLd }: PageSeoProps) {
   const { t } = useTranslation('pages');
   const { locale } = useLocale();
   const resolvedTitle = titleKey ? t(titleKey) : (title ?? '');
@@ -57,7 +60,6 @@ export default function PageSeo({ title, description, titleKey, descriptionKey, 
   // form 308-redirects).
   const enUrl = `${ORIGIN}${path === '/' ? '/' : path}`.replace(/\/?$/, '/');
   const currentUrl = `${ORIGIN}${localisedPath(path, locale)}`.replace(/\/?$/, '/');
-  const og = ogImage ?? DEFAULT_OG;
   const bcp47 = LOCALE_BCP47[locale];
   // No brand suffix in the title (Vesa 2026-09-22): Google prints the site name and
   // domain above every result, so " | LaplandBars" only repeated them and spent
@@ -89,7 +91,6 @@ export default function PageSeo({ title, description, titleKey, descriptionKey, 
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={resolvedDesc} />
       <meta property="og:url" content={currentUrl} />
-      <meta property="og:image" content={og} />
       <meta property="og:site_name" content={SITE_NAME} />
       <meta property="og:locale" content={OG_LOCALE[locale]} />
       {SUPPORTED_LOCALES.filter((l) => l !== locale).map((l) => (
@@ -99,7 +100,6 @@ export default function PageSeo({ title, description, titleKey, descriptionKey, 
       <meta name="twitter:site" content="@laplandvibes" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={resolvedDesc} />
-      <meta name="twitter:image" content={og} />
       {localizedGraph && (
         <script
           type="application/ld+json"
