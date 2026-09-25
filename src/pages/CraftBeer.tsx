@@ -71,7 +71,7 @@ const GYG_FALLBACK_CARDS: Array<{
     title: {
       en: 'Lappish dinner experiences', fi: 'Lappilaiset illalliset',
       de: 'Lappländische Dinner-Erlebnisse', ja: 'ラップランドのディナー体験',
-      es: 'Cenas laponas', 'pt-BR': 'Jantares lapões', 'zh-CN': '拉普兰晚餐体验',
+      es: 'Cenas laponas', 'pt-BR': 'Jantares típicos da Lapônia', 'zh-CN': '拉普兰晚餐体验',
       ko: '라플란드 디너 체험', fr: 'Dîners lapons', it: 'Cene lapponi', nl: 'Laplandse diners',
       sv: 'Lappländska middagsupplevelser',
     },
