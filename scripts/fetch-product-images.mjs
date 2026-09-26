@@ -68,9 +68,19 @@ for (const [key, spec] of Object.entries(FILES)) {
     // tuotteen. Siksi `contain` yon siniselle taustalle, ei `cover`. Sama
     // oppi kuin korttikuvissa 12.9.2026: kuva tehdaan kehyksen suhteeseen,
     // jotta selain ei rajaa sita toista kertaa.
-    await sharp(buf).rotate().flatten({ background: '#0F172A' })
-      .resize({ width: 800, height: 1000, fit: 'contain', background: '#0F172A' })
-      .webp({ quality: 84 }).toFile(outPath);
+    // 🔴 CC BY-SA (26.9.2026): tiedostoa saa vain pienentää. Täyttöreunus ja läpinäkyvyyden litistys
+    // tekisivät siitä muokatun teoksen, joten BY-SA-kuva tallennetaan omassa kuvasuhteessaan ilman
+    // suurennusta. Kehystys hoituu näytöllä: DrinkingCulture piirtää `fit: 'contain'` -kuvan
+    // object-containilla 4:5-kehykseen, joten näkymä on sama. (Lonkero oli 454x758 → 599x1000, suurennettu.)
+    if (/SA/i.test(licence)) {
+      await sharp(buf).rotate()
+        .resize({ width: 800, height: 1000, fit: 'inside', withoutEnlargement: true })
+        .webp({ quality: 84 }).toFile(outPath);
+    } else {
+      await sharp(buf).rotate().flatten({ background: '#0F172A' })
+        .resize({ width: 800, height: 1000, fit: 'contain', background: '#0F172A' })
+        .webp({ quality: 84 }).toFile(outPath);
+    }
     const out = await sharp(outPath).metadata();
     registry[key] = {
       src: `/images/products/${key}.webp`, width: out.width, height: out.height,
