@@ -27,6 +27,7 @@
  * kielipolkuprefiksiksi (ks. GYG_WORKER_LANG alla).
  */
 import type { Locale } from '../i18n/config';
+import { GYG_LOCALE_PREFIX, gygProductPath } from '../shared/gyg/picks';
 
 const GO = 'https://go.laplandvibes.com/go/activities';
 const SITE_TAG = 'laplandbars';
@@ -57,9 +58,16 @@ export const GYG_WORKER_LANG: Record<Locale, string | undefined> = {
  *                     of this site's three ice-bar products died exactly that way
  *                     and were removed on 2026-07-30.
  * @param sid          Per-placement tag, e.g. `bar_lapland_brewery_pub`.
+ *
+ * 🔴 Since 2026-09-20 the Worker adds no locale prefix to a PRODUCT path
+ * (LV-GYG-PRODUCT-NOPREFIX): `…-tNNN?language=fi` opened the product in the
+ * visitor's GYG market language, English for most readers. Non-English links
+ * are now `<lang>-<cc>/-t<id>/` (gygProductPath, shared/gyg/picks.ts) with no
+ * `language`; English keeps the full slug.
  */
 export function gygDeepLink(productPath: string, sid: string, lang: Locale = 'en'): string {
-  const path = productPath.replace(/^\/+/, '').replace(/\/+$/, '');
-  const gygLang = GYG_WORKER_LANG[lang];
+  const clean = productPath.replace(/^\/+/, '').replace(/\/+$/, '');
+  const path = GYG_LOCALE_PREFIX[lang] ? gygProductPath(clean, lang) : clean;
+  const gygLang = path.includes('/-t') ? undefined : GYG_WORKER_LANG[lang];
   return `${GO}/${path}?sid=${SITE_TAG}_${sid}${gygLang ? `&language=${gygLang}` : ''}`;
 }
