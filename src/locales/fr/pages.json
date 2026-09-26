@@ -13,7 +13,7 @@
     },
     "featured": {
       "title": "À l'affiche",
-      "sub": "Une sélection éditoriale de bars et d'expériences emblématiques de la nuit lapone.",
+      "sub": "Une sélection éditoriale de bars et d'expériences emblématiques de la vie nocturne en Laponie.",
       "viewAll": "Voir tous les bars"
     },
     "categories": {
@@ -25,7 +25,7 @@
         },
         {
           "title": "Après-ski",
-          "desc": "De l'arène Hullu Poro et ses 1 700 places aux petits pubs de montagne, l'après-ski lapon n'est pas légendaire pour rien."
+          "desc": "De l'arène Hullu Poro et ses 1 700 places aux petits pubs de montagne, l'après-ski en Laponie n'est pas légendaire pour rien."
         },
         {
           "title": "Musique live",
@@ -200,7 +200,7 @@
       },
       "Bar Ihku": {
         "type": "Boîte de nuit & bar",
-        "description": "Déjà une légende parmi les fêtards de Levi. Ihku collectionne les anecdotes au fil des nuits de folie lapones. Karaoké, danse, locaux finlandais et skieurs internationaux sur la même piste de danse. L'un de ces endroits qui paraissent banals jusqu'à 23 h, après on comprend pourquoi tout le monde en parle.",
+        "description": "Déjà une légende parmi les fêtards de Levi. Ihku collectionne les anecdotes au fil des nuits de folie en Laponie. Karaoké, danse, locaux finlandais et skieurs internationaux sur la même piste de danse. L'un de ces endroits qui paraissent banals jusqu'à 23 h, après on comprend pourquoi tout le monde en parle.",
         "highlights": [
           "Institution nocturne",
           "Soirées karaoké",
@@ -256,10 +256,10 @@
       },
       "Gastropub Giitu": {
         "type": "Gastropub & bière artisanale",
-        "description": "Le meilleur bar de Saariselkä, un vrai gastropub avec une sélection de bières artisanales impressionnante et une carte qui dépasse largement les basiques. Giitu propose des plats inspirés de la cuisine lapone aux côtés d'une carte de pression qui tourne. Ambiance chaleureuse, moderne, exactement ce qu'on veut après une chasse aux aurores.",
+        "description": "Le meilleur bar de Saariselkä, un vrai gastropub avec une sélection de bières artisanales impressionnante et une carte qui dépasse largement les basiques. Giitu propose des plats inspirés de la cuisine de Laponie aux côtés d'une carte de pression qui tourne. Ambiance chaleureuse, moderne, exactement ce qu'on veut après une chasse aux aurores.",
         "highlights": [
           "Sélection bières artisanales",
-          "Cuisine lapone",
+          "Cuisine de Laponie",
           "Gastropub moderne"
         ]
       },
@@ -361,10 +361,10 @@
       },
       "Teerenpesä": {
         "type": "Restaurant, pub & club",
-        "description": "Trois adresses sous un même toit en rondins au centre de Saariselkä : un restaurant lapon qui sert des plats du Nord de saison, un pub sportif avec écrans, fléchettes et billard, et une discothèque qui alterne danses de couple traditionnelles et piste disco. Quel que soit le programme du groupe, tout est là.",
+        "description": "Trois adresses sous un même toit en rondins au centre de Saariselkä : un restaurant typique de Laponie qui sert des plats du Nord de saison, un pub sportif avec écrans, fléchettes et billard, et une discothèque qui alterne danses de couple traditionnelles et piste disco. Quel que soit le programme du groupe, tout est là.",
         "highlights": [
           "Trois lieux en un",
-          "Cuisine lapone",
+          "Cuisine de Laponie",
           "Danses & disco"
         ]
       },
@@ -541,7 +541,7 @@
       },
       "Mesta": {
         "type": "Bar de piste",
-        "description": "Bar et terrasse au milieu des pistes, à côté de l'Hotel Kultakero, avec vue sur le paysage lapon, du lever du soleil aux aurores boréales. Le site touristique de Pyhä le classe en Bar/After ski et restaurant de piste, et parle de saveurs, de musique et de panoramas. Une page festival du même site le situe au fond du parking de l'Hotel Pyhätunturi, à côté du bâtiment Kultakero 2, et en fait un endroit où souffler avec un verre et une cuisine de pub.",
+        "description": "Bar et terrasse au milieu des pistes, à côté de l'Hotel Kultakero, avec vue sur les paysages de Laponie, du lever du soleil aux aurores boréales. Le site touristique de Pyhä le classe en Bar/After ski et restaurant de piste, et parle de saveurs, de musique et de panoramas. Une page festival du même site le situe au fond du parking de l'Hotel Pyhätunturi, à côté du bâtiment Kultakero 2, et en fait un endroit où souffler avec un verre et une cuisine de pub.",
         "highlights": [
           "Terrasse avec vue sur les fjälls",
           "Musique",
@@ -595,7 +595,7 @@
       },
       "Keloravintola": {
         "type": "Restaurant bar de piste",
-        "description": "Restaurant en rondins au pied des pistes avant de Salla Ski Resort. Son site indique une licence complète et une carte de grillades, de pizzas et de plats à la carte préparés de A à Z avec des matières premières lapones. Salla Ski Resort évoque une terrasse ensoleillée et des retrouvailles d'après-ski, et Visit Salla comme le manuel produit Salla 2025 ajoutent des soirées de musique live.",
+        "description": "Restaurant en rondins au pied des pistes avant de Salla Ski Resort. Son site indique une licence complète et une carte de grillades, de pizzas et de plats à la carte préparés de A à Z avec des produits de Laponie. Salla Ski Resort évoque une terrasse ensoleillée et des retrouvailles d'après-ski, et Visit Salla comme le manuel produit Salla 2025 ajoutent des soirées de musique live.",
         "highlights": [
           "Licence complète",
           "Après-ski et concerts",
@@ -640,7 +640,7 @@
       },
       "Restaurant Punakettu": {
         "type": "Restaurant et pub",
-        "description": "Punakettu est un restaurant familial du centre commercial de Luosto que son site anglais décrit comme « a restaurant and a pub ». La carte des boissons publiée porte bière pression, long drinks et cidres, une section brasserie artisanale locale, des vins au verre et à la bouteille, une carte complète de cocktails et mocktails avec des créations maison, et des whiskies Teerenpeli. Côté cuisine, burgers, pizzas et plats lapons, et le restaurant détient un certificat Green Key.",
+        "description": "Punakettu est un restaurant familial du centre commercial de Luosto que son site anglais décrit comme « a restaurant and a pub ». La carte des boissons publiée porte bière pression, long drinks et cidres, une section brasserie artisanale locale, des vins au verre et à la bouteille, une carte complète de cocktails et mocktails avec des créations maison, et des whiskies Teerenpeli. Côté cuisine, burgers, pizzas et plats typiques de Laponie, et le restaurant détient un certificat Green Key.",
         "highlights": [
           "Se dit « a restaurant and a pub »",
           "Section brasserie artisanale locale",
@@ -658,7 +658,7 @@
       },
       "Aarnikota": {
         "type": "Café bar en hutte",
-        "description": "Aarnikota se présente comme un « Hut Café and Bar », une petite hutte lapone traditionnelle à Aarniluosto, à environ 1,5 km du centre de Luosto, accessible à pied, à skis, en raquettes ou en voiture. En journée, on y sert des crêpes et du café au chaudron noir, et sa page indique des boissons pour les adultes comme pour les enfants. Le cœur de la hutte est un foyer ouvert autour duquel vingt personnes prennent place ; le soir, la maison ouvre sur demande pour des groupes de vingt personnes au maximum.",
+        "description": "Aarnikota se présente comme un « Hut Café and Bar », une petite hutte traditionnelle de Laponie à Aarniluosto, à environ 1,5 km du centre de Luosto, accessible à pied, à skis, en raquettes ou en voiture. En journée, on y sert des crêpes et du café au chaudron noir, et sa page indique des boissons pour les adultes comme pour les enfants. Le cœur de la hutte est un foyer ouvert autour duquel vingt personnes prennent place ; le soir, la maison ouvre sur demande pour des groupes de vingt personnes au maximum.",
         "highlights": [
           "Café et bar en hutte, boissons pour adultes",
           "Foyer ouvert, vingt places",
@@ -703,7 +703,7 @@
       },
       "Kieppi Kitchen & Bar": {
         "type": "Restaurant et bar",
-        "description": "Le restaurant du Wilderness Hotel Kieppi, au centre de Saariselkä, avec une cuisine lapone aux touches modernes. La carte couvre les pièces de viande, le poisson local, les burgers et les pizzas à la poêle. Un coin bar sert les boissons et ouvre plusieurs heures avant la cuisine.",
+        "description": "Le restaurant du Wilderness Hotel Kieppi, au centre de Saariselkä, avec une cuisine de Laponie aux touches modernes. La carte couvre les pièces de viande, le poisson local, les burgers et les pizzas à la poêle. Un coin bar sert les boissons et ouvre plusieurs heures avant la cuisine.",
         "highlights": [
           "Bar ouvert dès 09 h",
           "Pizzas à la poêle et poisson local",
@@ -721,7 +721,7 @@
       },
       "Restaurant Pirtti": {
         "type": "Pub",
-        "description": "Le pub du bâtiment restaurant du Santa's Hotel Tunturi. L'hôtel le décrit comme un salon détendu et confortable où l'on échoue après une journée dehors, avec une ambiance chaleureuse de pub lapon traditionnel, des intérieurs en bois, une cheminée et un esprit après-ski. Sa page met en avant de bonnes boissons et une cuisine simple et réconfortante. Lapland North note qu'il n'ouvre qu'en haute saison, et ni l'hôtel ni Lapland North ne publient d'horaires quotidiens, mieux vaut appeler avant de s'y rendre.",
+        "description": "Le pub du bâtiment restaurant du Santa's Hotel Tunturi. L'hôtel le décrit comme un salon détendu et confortable où l'on échoue après une journée dehors, avec une ambiance chaleureuse de pub traditionnel de Laponie, des intérieurs en bois, une cheminée et un esprit après-ski. Sa page met en avant de bonnes boissons et une cuisine simple et réconfortante. Lapland North note qu'il n'ouvre qu'en haute saison, et ni l'hôtel ni Lapland North ne publient d'horaires quotidiens, mieux vaut appeler avant de s'y rendre.",
         "highlights": [
           "Cheminée et intérieurs en bois",
           "Ambiance après-ski",
@@ -750,7 +750,7 @@
         "type": "Restaurant et bar lounge",
         "description": "Le restaurant du Star Arctic Hotel sur le fjäll de Kaunispää, avec une cuisine arctique bâtie sur le renne, le poisson du lac Inari et les baies arctiques. Son Lounge Bar avec cheminée sert des vins et des cocktails maison aux baies de la région que, selon l'hôtel, on ne trouve que dans ce bar.",
         "highlights": [
-          "Cocktails aux baies lapones",
+          "Cocktails aux baies de Laponie",
           "Bar lounge avec cheminée",
           "Hôtel sur le fjäll"
         ]
@@ -820,7 +820,7 @@
       },
       "Taiga Ylläs": {
         "type": "Pub de piste",
-        "description": "Taiga Ylläs se décrit sur son site comme un restaurant, un pub et un restaurant de piste au pied de la piste Ylläs Ski South à Ylläsjärvi, avec cuisine lapone, boissons locales, musique live et ambiance après-ski détendue. La fiche de la station ajoute que le Taiga Pub se construit autour d'une sélection de bières qui change et de grillades au charbon de bois, avec des concerts les soirs d'artiste et des soirées stand-up au printemps. Ouvert toute l'année.",
+        "description": "Taiga Ylläs se décrit sur son site comme un restaurant, un pub et un restaurant de piste au pied de la piste Ylläs Ski South à Ylläsjärvi, avec cuisine de Laponie, boissons locales, musique live et ambiance après-ski détendue. La fiche de la station ajoute que le Taiga Pub se construit autour d'une sélection de bières qui change et de grillades au charbon de bois, avec des concerts les soirs d'artiste et des soirées stand-up au printemps. Ouvert toute l'année.",
         "highlights": [
           "Au pied des pistes, après-ski",
           "Sélection de bières changeante",
@@ -1017,7 +1017,7 @@
     "venues": {
       "Hullu Poro Areena": {
         "type": "Salle de musique live",
-        "desc": "Le roi incontesté. 1 700 places au pied de la piste principale. Têtes d'affiche finlandaises, DJ et groupes en live tous les soirs en saison. La fête de fin de piste à laquelle les autres stations lapones aspirent."
+        "desc": "Le roi incontesté. 1 700 places au pied de la piste principale. Têtes d'affiche finlandaises, DJ et groupes en live tous les soirs en saison. La fête de fin de piste à laquelle aspirent les autres stations de Laponie."
       },
       "Bar Ihku": {
         "type": "Boîte de nuit",
@@ -1203,7 +1203,7 @@
     "tours": {
       "kicker": "Visites & dégustations",
       "title": "Visites de brasseries et expériences gastronomiques réservables maintenant",
-      "sub": "Disponibilités en temps réel via GetYourGuide. Visites de brasseries, dégustations de distilleries et expériences culinaires lapones à Rovaniemi, Saariselkä et au-delà.",
+      "sub": "Disponibilités en temps réel via GetYourGuide. Visites de brasseries, dégustations de distilleries et expériences culinaires de Laponie à Rovaniemi, Saariselkä et au-delà.",
       "fallback": "Voir toutes les expériences gastronomiques en Laponie sur GetYourGuide"
     },
     "stay": {
@@ -1325,11 +1325,11 @@
           "value": "~3,50–4,50 €"
         },
         {
-          "label": "Pinte pression dans un bar lapon",
+          "label": "Pinte pression dans un bar en Laponie",
           "value": "~6–8 €"
         },
         {
-          "label": "Pinte de bière artisanale dans un bar lapon",
+          "label": "Pinte de bière artisanale dans un bar en Laponie",
           "value": "~7–10 €"
         }
       ],
@@ -1377,7 +1377,7 @@
       "title": "Sauna & sisu, l'image complète",
       "body": [
         "La culture finlandaise de la boisson est indissociable du sauna. Le samedi finlandais standard suit un ordre précis : travail, sauna, bière. La bière se boit dans le sauna ou juste après, quand la température du corps est encore élevée et que la bière froide produit un effet presque physiologique. Cette combinaison est si ancrée que la plupart des chalets d'été finlandais ont un rituel sauna-bière dédié, qui commence aux alentours de 16 h et se poursuit jusqu'à ce que quelqu'un s'endorme dans la barque.",
-        "En Laponie, le sauna est encore plus central. Après une journée à -30 °C, ce n'est pas un luxe, c'est de la réhydratation, de la récupération et de la sociabilité combinées. De nombreux hôtels et chalets lapons disposent d'un sauna privatif. La combinaison sauna, plongeon dans le lac ou la neige et bière froide vaut, selon les Finlandais, n'importe quel soin de spa au monde. Ils ont sans doute raison.",
+        "En Laponie, le sauna est encore plus central. Après une journée à -30 °C, ce n'est pas un luxe, c'est de la réhydratation, de la récupération et de la sociabilité combinées. De nombreux hôtels et chalets de Laponie disposent d'un sauna privatif. La combinaison sauna, plongeon dans le lac ou la neige et bière froide vaut, selon les Finlandais, n'importe quel soin de spa au monde. Ils ont sans doute raison.",
         "Sisu, concept finlandais unique de détermination stoïque, de résilience face à l'adversité, s'applique aussi à la boisson. Un Finlandais qui boit depuis sept heures et arrive quand même au travail le lundi n'est pas considéré comme irresponsable. Il est considéré comme ayant du sisu."
       ]
     },
@@ -1544,7 +1544,7 @@
       "description": "Où boire à Saariselkä : pubs du centre du village, un gastropub, un restaurant dansant et un salon aurores boréales au sommet du Kaunispää.",
       "h1": "Bars à Saariselkä",
       "tagline": "L’essentiel se boit dans une poignée de rues du village, avec un bar au sommet du Kaunispää et un autre au bord de la piste de ski.",
-      "intro": "Saariselkä garde la plupart de ses bars dans quelques rues du village. Le Gastropub Giitu, sur Revontulentie, sert de la bière artisanale tous les jours jusqu’à 2 h, la cuisine tenant jusqu’à 22 h. Le Teerenpesä, sur Saariseläntie, réunit trois lieux sous un même toit de rondins : un restaurant lapon, un pub sportif avec fléchettes et billard, et une boîte de nuit où se succèdent bals en couple et piste disco. Plus loin dans la même rue, le Local Pub Panimo, au numéro 10, dispose de ses propres saunas hommes et femmes, et le Lobby Bar Takka, au numéro 13, est le bar à cheminée du Lapland Hotels Riekonlinna. Le Kaunis Jorma, sur Kiveliöntie, propose karaoké et bingo gratuit le jeudi à 19 h 00, le Kieppi Kitchen & Bar, sur Raitopolku, ouvre son coin bar plusieurs heures avant la cuisine, et le Restaurant Pirtti et le restaurant dansant Siula partagent le bâtiment de restauration du Santa’s Hotel Tunturi, sur Lutontie. Deux autres se tiennent en haut du Kaunispää : le Restaurant Kaunis, au Star Arctic Hotel, et le restaurant du sommet qui devient le Northern Lights Lounge.",
+      "intro": "Saariselkä garde la plupart de ses bars dans quelques rues du village. Le Gastropub Giitu, sur Revontulentie, sert de la bière artisanale tous les jours jusqu’à 2 h, la cuisine tenant jusqu’à 22 h. Le Teerenpesä, sur Saariseläntie, réunit trois lieux sous un même toit de rondins : un restaurant typique de Laponie, un pub sportif avec fléchettes et billard, et une boîte de nuit où se succèdent bals en couple et piste disco. Plus loin dans la même rue, le Local Pub Panimo, au numéro 10, dispose de ses propres saunas hommes et femmes, et le Lobby Bar Takka, au numéro 13, est le bar à cheminée du Lapland Hotels Riekonlinna. Le Kaunis Jorma, sur Kiveliöntie, propose karaoké et bingo gratuit le jeudi à 19 h 00, le Kieppi Kitchen & Bar, sur Raitopolku, ouvre son coin bar plusieurs heures avant la cuisine, et le Restaurant Pirtti et le restaurant dansant Siula partagent le bâtiment de restauration du Santa’s Hotel Tunturi, sur Lutontie. Deux autres se tiennent en haut du Kaunispää : le Restaurant Kaunis, au Star Arctic Hotel, et le restaurant du sommet qui devient le Northern Lights Lounge.",
       "know": [
         "Les établissements se répartissent sur cinq rues du village : Saariseläntie, Revontulentie, Kiveliöntie, Raitopolku et Lutontie. Le Teerenpesä, le Local Pub Panimo, le Kaunis Jorma, le Kieppi et le Bistro & Café Kuukkeli se décrivent tous comme étant au centre de Saariselkä. Le Mettäbaari fait exception : il est à 2 km en direction de Laanila et l’on y entre directement depuis la piste de ski.",
         "Le Northern Lights Lounge se tient au restaurant du sommet du Kaunispää les mercredis et samedis soir pendant la saison sombre, sur un billet qui comprend l’entrée, une boisson chaude, des collations et un hôte. Les transferts aller-retour depuis Saariselkä peuvent être ajoutés au billet.",
@@ -1572,7 +1572,7 @@
       "description": "Où boire à Luosto : la boîte de l’hôtel et le Rumpu Bar sur Luostontie, un pub au centre commercial, un bar en kota et des bals payants.",
       "h1": "Bars à Luosto",
       "tagline": "Le village n’a qu’une boîte de nuit, et les orchestres de bal jouent dans un restaurant en rondins situé à environ 300 mètres du Lapland Hotels Luostotunturi.",
-      "intro": "Sept adresses servent à boire à Luosto. Le Lapland Hotels Luostotunturi, au Luostontie 1, en abrite deux : le Nightclub Karhu, que l’hôtel présente comme la seule boîte de nuit du village, et le Rumpu Bar, voisin du restaurant Bistro et ouvert aux chiens. Le Keloravintola, restaurant en rondins de 220 couverts, se dresse à environ 300 mètres du même hôtel et ouvre au public pour des soirées dansantes payantes avec orchestres. Le Restaurant Punakettu, au Luostontie 4, est dans le centre commercial et se dit à la fois restaurant et pub, avec un rayon de brasserie artisanale locale et des whiskies Teerenpeli à la carte. Le Restaurant Aurora, au Luppokeino 1, appartient au Santa’s Hotel Aurora, à distance de marche du centre du village, et l’hôtel cite un bar de lobby parmi ses services de restauration. Le Restaurant Vaisko, au Hartsutie 1, accueille volontiers ceux qui viennent seulement pour un verre. L’Aarnikota est à part : une kota lapone au Kerotie 10, à Aarniluosto, à environ 1,5 km du centre, que l’on rejoint à pied, à skis, en raquettes ou en voiture.",
+      "intro": "Sept adresses servent à boire à Luosto. Le Lapland Hotels Luostotunturi, au Luostontie 1, en abrite deux : le Nightclub Karhu, que l’hôtel présente comme la seule boîte de nuit du village, et le Rumpu Bar, voisin du restaurant Bistro et ouvert aux chiens. Le Keloravintola, restaurant en rondins de 220 couverts, se dresse à environ 300 mètres du même hôtel et ouvre au public pour des soirées dansantes payantes avec orchestres. Le Restaurant Punakettu, au Luostontie 4, est dans le centre commercial et se dit à la fois restaurant et pub, avec un rayon de brasserie artisanale locale et des whiskies Teerenpeli à la carte. Le Restaurant Aurora, au Luppokeino 1, appartient au Santa’s Hotel Aurora, à distance de marche du centre du village, et l’hôtel cite un bar de lobby parmi ses services de restauration. Le Restaurant Vaisko, au Hartsutie 1, accueille volontiers ceux qui viennent seulement pour un verre. L’Aarnikota est à part : une kota traditionnelle de Laponie au Kerotie 10, à Aarniluosto, à environ 1,5 km du centre, que l’on rejoint à pied, à skis, en raquettes ou en voiture.",
       "know": [
         "Le Vaisko est fermé entre les saisons et rouvre pour 2026-2027 le 26 novembre. L’Aarnikota publie des périodes datées plutôt qu’un horaire fixe ; l’actuelle va du mercredi au dimanche, de 11 h à 16 h, pour la saison de la ruska, jusqu’au 27 septembre 2026.",
         "Le karaoké du Karhu est gratuit et interdit aux moins de 18 ans, les soirées avec groupe y coûtent 10 euros, et les soirées dansantes publiques du Keloravintola sont payantes, de 15 à 20 euros. Les 3 euros de vestiaire ne sont pas compris dans le prix du billet.",

@@ -172,7 +172,7 @@
   },
   "Mesta": {
     "type": "Bar sulle piste",
-    "description": "Bar con terrazza in mezzo alle piste, accanto all'Hotel Kultakero, con vista sul paesaggio lappone dall'alba fino alle aurore boreali. Il sito turistico di Pyhä lo elenca sotto Bar/After ski e ristorante sulle piste e parla di sapori, musica e panorami. Una pagina di un festival sullo stesso sito lo colloca in fondo al parcheggio dell'Hotel Pyhätunturi, accanto all'edificio Kultakero 2, e lo descrive come un posto dove rilassarsi con qualcosa da bere e cibo da pub.",
+    "description": "Bar con terrazza in mezzo alle piste, accanto all'Hotel Kultakero, con vista sul paesaggio della Lapponia dall'alba fino alle aurore boreali. Il sito turistico di Pyhä lo elenca sotto Bar/After ski e ristorante sulle piste e parla di sapori, musica e panorami. Una pagina di un festival sullo stesso sito lo colloca in fondo al parcheggio dell'Hotel Pyhätunturi, accanto all'edificio Kultakero 2, e lo descrive come un posto dove rilassarsi con qualcosa da bere e cibo da pub.",
     "highlights": [
       "Terrazza con vista sui fjäll",
       "Musica",
@@ -226,7 +226,7 @@
   },
   "Keloravintola": {
     "type": "Ristorante bar sulle piste",
-    "description": "Ristorante in tronchi di kelo ai piedi delle piste frontali della Salla Ski Resort. Il suo sito dice che il ristorante ha la licenza completa per gli alcolici e serve piatti alla griglia, pizze e piatti à la carte preparati da zero con materie prime lapponi. La Salla Ski Resort descrive qui una terrazza soleggiata e i ritrovi after-ski, e Visit Salla e il manuale prodotto di Salla del 2025 aggiungono serate con musica dal vivo.",
+    "description": "Ristorante in tronchi di kelo ai piedi delle piste frontali della Salla Ski Resort. Il suo sito dice che il ristorante ha la licenza completa per gli alcolici e serve piatti alla griglia, pizze e piatti à la carte preparati da zero con materie prime della Lapponia. La Salla Ski Resort descrive qui una terrazza soleggiata e i ritrovi after-ski, e Visit Salla e il manuale prodotto di Salla del 2025 aggiungono serate con musica dal vivo.",
     "highlights": [
       "Licenza completa per gli alcolici",
       "After-ski e musica dal vivo",
@@ -271,7 +271,7 @@
   },
   "Restaurant Punakettu": {
     "type": "Ristorante e pub",
-    "description": "Punakettu è un ristorante per famiglie nel centro commerciale di Luosto che il suo sito in inglese descrive come «a restaurant and a pub». La lista delle bevande pubblicata comprende birra alla spina, long drink e sidri, una sezione dedicata a un birrificio artigianale locale, vini al calice e in bottiglia, una lista completa di cocktail e mocktail con creazioni della casa e i whisky Teerenpeli. Sul fronte del cibo ci sono hamburger, pizze e piatti lapponi, e il ristorante ha la certificazione Green Key.",
+    "description": "Punakettu è un ristorante per famiglie nel centro commerciale di Luosto che il suo sito in inglese descrive come «a restaurant and a pub». La lista delle bevande pubblicata comprende birra alla spina, long drink e sidri, una sezione dedicata a un birrificio artigianale locale, vini al calice e in bottiglia, una lista completa di cocktail e mocktail con creazioni della casa e i whisky Teerenpeli. Sul fronte del cibo ci sono hamburger, pizze e piatti tipici della Lapponia, e il ristorante ha la certificazione Green Key.",
     "highlights": [
       "Il sito lo chiama «a restaurant and a pub»",
       "Sezione di birrificio artigianale locale nella lista bevande",
@@ -289,7 +289,7 @@
   },
   "Aarnikota": {
     "type": "Caffè bar in kota",
-    "description": "Aarnikota si definisce un «Hut Café and Bar», una piccola kota lappone tradizionale ad Aarniluosto, a circa 1,5 km dal centro di Luosto, raggiungibile a piedi, con gli sci, con le racchette da neve o in auto. Di giorno serve crêpe e caffè cotto nel pentolone nero, e la sua pagina dice che offre bevande per gli adulti oltre che per i bambini. Il cuore della kota è un focolare aperto con venti posti a sedere; la sera apre su richiesta per gruppi fino a venti persone.",
+    "description": "Aarnikota si definisce un «Hut Café and Bar», una piccola kota tradizionale della Lapponia ad Aarniluosto, a circa 1,5 km dal centro di Luosto, raggiungibile a piedi, con gli sci, con le racchette da neve o in auto. Di giorno serve crêpe e caffè cotto nel pentolone nero, e la sua pagina dice che offre bevande per gli adulti oltre che per i bambini. Il cuore della kota è un focolare aperto con venti posti a sedere; la sera apre su richiesta per gruppi fino a venti persone.",
     "highlights": [
       "Si definisce caffè e bar in kota, con bevande per adulti",
       "Focolare aperto con venti posti",
@@ -334,7 +334,7 @@
   },
   "Kieppi Kitchen & Bar": {
     "type": "Ristorante e bar",
-    "description": "Il ristorante del Wilderness Hotel Kieppi, nel centro di Saariselkä, con cucina lappone dai tocchi moderni. Il menu à la carte comprende bistecche, pesce locale, hamburger e pizze in teglia. Un angolo bar serve i drink e apre diverse ore prima della cucina.",
+    "description": "Il ristorante del Wilderness Hotel Kieppi, nel centro di Saariselkä, con cucina della Lapponia dai tocchi moderni. Il menu à la carte comprende bistecche, pesce locale, hamburger e pizze in teglia. Un angolo bar serve i drink e apre diverse ore prima della cucina.",
     "highlights": [
       "Bar aperto dalle 09",
       "Pizze in teglia e pesce locale",
@@ -352,7 +352,7 @@
   },
   "Restaurant Pirtti": {
     "type": "Pub",
-    "description": "Il pub nell'edificio del ristorante del Santa's Hotel Tunturi. L'hotel lo descrive come un salotto rilassato e accogliente in cui si scivola dopo una giornata all'aperto, con la calda atmosfera dei pub tradizionali lapponi, interni in legno, un camino e uno spirito after-ski. La sua pagina mette in primo piano i buoni drink e il comfort food semplice. Lapland North segnala che è aperto solo nelle alte stagioni, e né l'hotel né Lapland North pubblicano gli orari giornalieri, quindi conviene telefonare prima di andare.",
+    "description": "Il pub nell'edificio del ristorante del Santa's Hotel Tunturi. L'hotel lo descrive come un salotto rilassato e accogliente in cui si scivola dopo una giornata all'aperto, con la calda atmosfera dei pub tradizionali della Lapponia, interni in legno, un camino e uno spirito after-ski. La sua pagina mette in primo piano i buoni drink e il comfort food semplice. Lapland North segnala che è aperto solo nelle alte stagioni, e né l'hotel né Lapland North pubblicano gli orari giornalieri, quindi conviene telefonare prima di andare.",
     "highlights": [
       "Camino e interni in legno",
       "Atmosfera after-ski",
@@ -381,7 +381,7 @@
     "type": "Ristorante e lounge bar",
     "description": "Il ristorante dello Star Arctic Hotel sul fjäll Kaunispää, con una cucina artica costruita su renna, pesce del lago Inari e bacche artiche. Il suo Lounge Bar con camino versa vini e cocktail della casa preparati con bacche della zona, che secondo l'hotel si trovano solo in questo bar.",
     "highlights": [
-      "Cocktail alle bacche lapponi",
+      "Cocktail alle bacche della Lapponia",
       "Lounge bar con camino",
       "Hotel sul fjäll"
     ]
@@ -451,7 +451,7 @@
   },
   "Taiga Ylläs": {
     "type": "Pub sulle piste",
-    "description": "Taiga Ylläs si descrive sul proprio sito come ristorante, pub e ristorante sulle piste ai piedi della pista Ylläs Ski South a Ylläsjärvi, con cibo lappone, bevande locali, musica dal vivo e un'atmosfera après-ski rilassata. La scheda della stazione sciistica aggiunge che il Taiga Pub è costruito attorno a una selezione di birre che cambia e a piatti cotti sulla brace, con musica dal vivo nelle serate degli artisti e spettacoli di stand-up nella stagione primaverile. È aperto tutto l'anno.",
+    "description": "Taiga Ylläs si descrive sul proprio sito come ristorante, pub e ristorante sulle piste ai piedi della pista Ylläs Ski South a Ylläsjärvi, con cibo tipico della Lapponia, bevande locali, musica dal vivo e un'atmosfera après-ski rilassata. La scheda della stazione sciistica aggiunge che il Taiga Pub è costruito attorno a una selezione di birre che cambia e a piatti cotti sulla brace, con musica dal vivo nelle serate degli artisti e spettacoli di stand-up nella stagione primaverile. È aperto tutto l'anno.",
     "highlights": [
       "Ai piedi delle piste, après-ski",
       "Selezione di birre che cambia",

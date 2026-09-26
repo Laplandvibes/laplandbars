@@ -44,12 +44,12 @@ const GYG_FALLBACK_LEAD: Record<string, string> = {
   fi: 'Lappilaista ruokaa, maisteluja ja panimoretkiä. Live-hinnat ja välitön vahvistus.',
   de: 'Lappländisches Essen, Verkostungen und brauereinahe Erlebnisse. Live-Preise und sofortige Bestätigung.',
   ja: 'ラップランドの食、テイスティング、醸造関連の体験。リアルタイムの料金と即時確認。',
-  es: 'Comida lapona, catas y experiencias cerca de cervecerías: precios en tiempo real y confirmación inmediata.',
+  es: 'Comida de Laponia, catas y experiencias cerca de cervecerías: precios en tiempo real y confirmación inmediata.',
   'pt-BR': 'Comida lapônia, degustações e experiências ligadas a cervejarias. Preços em tempo real e confirmação imediata.',
   'zh-CN': '拉普兰美食、品鉴及酒厂相关体验：实时价格、即时确认。',
   ko: '라플란드 음식, 시음, 양조장 관련 체험. 실시간 가격과 즉시 확정.',
-  fr: 'Cuisine laponne, dégustations et expériences autour des brasseries. Prix en temps réel et confirmation immédiate.',
-  it: 'Cucina lappone, degustazioni ed esperienze legate ai birrifici. Prezzi in tempo reale e conferma immediata.',
+  fr: 'Cuisine de Laponie, dégustations et expériences autour des brasseries. Prix en temps réel et confirmation immédiate.',
+  it: 'Cucina della Lapponia, degustazioni ed esperienze legate ai birrifici. Prezzi in tempo reale e conferma immediata.',
   nl: 'Laplandse gerechten, proeverijen en brouwerij-ervaringen. Actuele prijzen en directe bevestiging.',
   sv: 'Lappländsk mat, provsmakningar och bryggerinära upplevelser. Aktuella priser och direkt bekräftelse.',
 };
@@ -71,8 +71,8 @@ const GYG_FALLBACK_CARDS: Array<{
     title: {
       en: 'Lappish dinner experiences', fi: 'Lappilaiset illalliset',
       de: 'Lappländische Dinner-Erlebnisse', ja: 'ラップランドのディナー体験',
-      es: 'Cenas laponas', 'pt-BR': 'Jantares típicos da Lapônia', 'zh-CN': '拉普兰晚餐体验',
-      ko: '라플란드 디너 체험', fr: 'Dîners lapons', it: 'Cene lapponi', nl: 'Laplandse diners',
+      es: 'Cenas típicas de Laponia', 'pt-BR': 'Jantares típicos da Lapônia', 'zh-CN': '拉普兰晚餐体验',
+      ko: '라플란드 디너 체험', fr: 'Dîners typiques de Laponie', it: 'Cene tipiche della Lapponia', nl: 'Laplandse diners',
       sv: 'Lappländska middagsupplevelser',
     },
     desc: {
