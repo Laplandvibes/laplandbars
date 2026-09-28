@@ -450,12 +450,12 @@
         ]
       },
       "Hanki Baari Pyhä": {
-        "type": "Slope bar (talvikausi)",
-        "description": "Baari Pyhän Pohjoisrinteiden alapäässä. Oma sivu lupaa yksinkertaista ruokaa, juomia, paikallisia oluita, laadukkaita viinejä ja kahvia. Talvikaudella tapahtumakalenterissa on artisteja ja DJ:itä lähes joka viikonloppu, folkista ja suomiräpistä vaihtoehtomusiikkiin. Klo 21 jälkeen K-18, paitsi alaikäiset vanhemman seurassa; tapahtumaillat ovat aina K-18. Auki jälleen joulukuussa 2026.",
+        "type": "Slope bar (winter season)",
+        "description": "A bar at the foot of Pyhä's North Slopes. Its own site promises simple food, drinks, local beers, good wines and coffee. In the winter season the events calendar has artists and DJs almost every weekend, from folk and Finnish rap to alternative music. After 21:00 it is over-18s only, except for minors with a parent; event nights are always over-18. Open again in December 2026.",
         "highlights": [
-          "Rinteen juurella Pohjoisrinteillä",
-          "Paikallisia oluita ja live-artisteja lähes joka viikonloppu talvikaudella",
-          "K-18 klo 21 jälkeen"
+          "At the foot of the North Slopes",
+          "Local beers and live artists almost every winter weekend",
+          "Over-18s after 21:00"
         ]
       },
       "Mesta": {
@@ -469,11 +469,11 @@
       },
       "Pyhä Dreams Wine Bar": {
         "type": "Wine bar",
-        "description": "Viinibaari Pyhä Dreams -maisemamökissä Pyhätunturin huipulla, jonne noustaan maisemahissillä. Kesäkausi kulkee 19.6.2026 alkaen syyskuun 20. päivään ja talvikausi marraskuun lopusta noin vappuun. Paikka järjestää myös opastetun viinimaistelun enintään kahdeksan hengen ryhmille: viisi valko-, puna- ja kuohuviiniä suolaisten ja makeiden suupalojen kanssa, kesto noin kaksi tuntia. Tilat ovat rajalliset, joten ennakkovaraus kannattaa.",
+        "description": "A wine bar in the Pyhä Dreams scenic cabin on the summit of Pyhätunturi, reached by the scenic lift. The summer season runs from 19 June 2026 to 20 September and the winter season from the end of November to around May Day. The venue also runs a guided wine tasting for groups of up to eight: five white, red and sparkling wines with savoury and sweet bites, lasting about two hours. Space is limited, so it is worth booking ahead.",
         "highlights": [
-          "Tunturin huipulla, maisemahissin päässä",
-          "Opastettu viinimaistelu 5 viinillä, max 8 hlöä",
-          "Hissilippu ei sisälly maisteluun"
+          "On the fell summit, at the top of the scenic lift",
+          "Guided tasting of 5 wines, max 8 people",
+          "Lift ticket not included in the tasting"
         ]
       },
       "CAMP Kitchen & Bar PYHÄ": {
@@ -714,117 +714,117 @@
         "type": "Pub",
         "description": "Joiku Pub is the village pub in Äkäslompolo, run by the same company as the Eväskori pizzeria next door (both listed under business ID 3090445-7). Its own site calls it Ylläs's legendary evening venue: a relaxed room with good music, karaoke and a dance floor that fills late into the night. The village's largest sun terrace belongs to the pub and serves from early spring to late autumn, and outside the season there is a billiard table in the pub. Table reservations only for groups over 10.",
         "highlights": [
-          "Karaoke ja tanssilattia",
-          "Kylän isoin aurinkoterassi",
-          "Biljardipöytä sesongin ulkopuolella"
+          "Karaoke and dance floor",
+          "Biggest sun terrace in the village",
+          "Pool table in the off-season"
         ]
       },
       "Los Lompolos": {
         "type": "Cocktail bar",
         "description": "A small bar in the centre of Äkäslompolo. Its own one-line description, carried verbatim by both the Ylläs tourist board and Visit Finland, reads: tiny bar fulfilled with crossover music, cocktails and food, come as you are.",
         "highlights": [
-          "Cocktailit ja crossover-musiikki",
-          "Kylän keskustassa",
-          "Ruokaa 10–25 €"
+          "Cocktails and crossover music",
+          "In the village centre",
+          "Food €10–25"
         ]
       },
       "Miilu Bar & Grill": {
         "type": "Bar & grill",
         "description": "Miilu Bar & Grill stands on the shore of Lake Ylläsjärvi as part of Miilu Resort. The open fire grill, burning the house's own charcoal embers, is the heart of the kitchen, and the venue's listing says it puts seasonal ingredients together with a selection of drinks. Large windows face the lake. It can be reached by car, on foot, on skis, by bike or by snowmobile.",
         "highlights": [
-          "Avotuligrilli",
-          "Järvinäkymä ja revontulet suurista ikkunoista",
-          "Saapuminen myös suksilla tai kelkalla"
+          "Open-fire grill",
+          "Lake view and northern lights through big windows",
+          "Arrive on skis or by snowmobile too"
         ]
       },
       "Taiga Ylläs": {
         "type": "Slope pub",
         "description": "Taiga Ylläs describes itself on its own site as a restaurant, pub and slope restaurant at the foot of the Ylläs Ski South slope in Ylläsjärvi, serving Lappish food, local drinks, live music and a relaxed après-ski atmosphere. The ski resort's own listing adds that Taiga Pub is built around a changing selection of beers and charcoal-grilled food, with live music on performer nights and stand-up gigs in the spring season. It is open year-round.",
         "highlights": [
-          "Rinteen juurella, après-ski",
-          "Vaihtuva olutvalikoima",
-          "Livemusiikkia esiintyjäiltoina"
+          "At the foot of the slope, après-ski",
+          "Rotating beer selection",
+          "Live music on artist nights"
         ]
       },
       "Y1 Ski Pub": {
         "type": "Slope pub",
         "description": "Y1 Ski Pub is part of the Y1 restaurant world at Ylläs Ski Resort on the Äkäslompolo side, near the base of the Aurinko-Express chairlift at Aurinkokuru. Lapland Hotels calls it the restaurant that opens first and closes last, with a traditional, warm pub-like room, a fireplace to sit by during or after skiing, live performers through the season and a terrace. The kitchen serves bistro food such as burgers, pita breads and ramen soups alongside a wide selection of hot and cold drinks.",
         "highlights": [
-          "Aukeaa ensimmäisenä, sulkee viimeisenä",
-          "Takka ja terassi",
-          "Esiintyjiä läpi kauden"
+          "First to open, last to close",
+          "Fireplace and terrace",
+          "Performers all season"
         ]
       },
       "Takka bar": {
         "type": "Hotel lobby bar",
         "description": "The lobby bar at Lapland Hotels Äkäshotelli, in the same building as and next to Restaurant Pirtukirkko. The hotel describes it as the place for its mountain pizzas, a coffee or a refreshing drink, and it runs a soup lunch from 12 to 15.",
         "highlights": [
-          "Tunturipizzat",
-          "Keittolounas 12–15",
-          "Pirtukirkon vieressä"
+          "Fell pizzas",
+          "Soup lunch 12–15",
+          "Next to Pirtukirkko"
         ]
       },
       "Ravintola Pirtukirkko": {
         "type": "Dance restaurant",
         "description": "The restaurant at Lapland Hotels Äkäshotelli, known for its church-like exterior, serving northern flavours and classic dishes from breakfast through à la carte dinner, with a buffet in peak season. Its own page leads on the nightlife side: dances are held there during the autumn and early spring with a published performer calendar, and admission is included in the room rate. Pirtukellari Night Club is in the basement of the same building, and the upstairs Pirtun Parvi keeps going until the early hours on performer nights.",
         "highlights": [
-          "Tanssit ja esiintyjäkalenteri",
-          "Sisäänpääsy majoitushintaan",
-          "Yökerho samassa rakennuksessa"
+          "Dance nights and a gig calendar",
+          "Entry included in the room rate",
+          "Nightclub in the same building"
         ]
       },
       "Bistro (Lapland Hotels Saaga)": {
         "type": "Hotel bistro bar",
         "description": "One of the three restaurants at Lapland Hotels Saaga in Ylläsjärvi, alongside the buffet restaurant Biegga and the à la carte Tsohka. The hotel's own page says that in the summer at the relaxed and cosy Bistro you can enjoy cocktails made by the bartender or a cold drink on the sunny terrace; the food is snack-style, such as salmon soup. The hotel sits next to the southern slopes of Ylläs, with the gondola right beside it.",
         "highlights": [
-          "Baarimikon cocktailit",
-          "Aurinkoterassi",
-          "Gondolin vieressä"
+          "Cocktails from the bartender",
+          "Sun terrace",
+          "Next to the gondola"
         ]
       },
       "Lobby Bar (Lapland Hotels Ylläskaltio)": {
         "type": "Hotel lobby bar",
         "description": "The bar next to the reception at Lapland Hotels Ylläskaltio in Äkäslompolo. The hotel says it serves refreshing drinks and hot drinks with a Snacks menu and that dogs are welcome, and the hotel's soup lunch is served here from 12 to 15. Dance events are held in the hotel's restaurant during the autumn and spring weeks, with admission included in the room rate.",
         "highlights": [
-          "Koirat tervetulleita",
-          "Keittolounas aulabaarissa",
-          "Tanssi-illat syksyllä ja keväällä"
+          "Dogs welcome",
+          "Soup lunch in the lobby bar",
+          "Dance nights in autumn and spring"
         ]
       },
       "Ski pub Ala-Asema": {
         "type": "Ski pub",
         "description": "Ski pub Ala-Asema sits next to the lower station of the Ylläs gondola on the Ylläsjärvi side. The resort's slope-restaurant page and the venue's own listing describe a relaxed ski pub with billiards, darts, board games and karaoke, serving drinks and pub food. A terrace is in use in season.",
         "highlights": [
-          "Gondolin ala-aseman vieressä",
-          "Biljardi, tikka ja karaoke",
-          "Terassi talvikaudella"
+          "Next to the gondola base station",
+          "Pool, darts and karaoke",
+          "Terrace in the winter season"
         ]
       },
       "Cafe & Bar Routa": {
         "type": "Cafe bar (daytime, closes 17)",
         "description": "Cafe & Bar Routa is a cafe and bar in the heart of Äkäslompolo, in the K-Market Jounin kauppa building. The Ylläs tourist board page describes it as a lively cafe in the busiest part of the village and gives a price range of 3–18 euros. It closes at 17, so it is a daytime spot rather than an evening bar.",
         "highlights": [
-          "Kylän vilkkaimmalla paikalla",
-          "Annokset 3–18 €",
-          "Auki ympäri vuoden"
+          "At the busiest spot in the village",
+          "Dishes €3–18",
+          "Open all year"
         ]
       },
       "Aurinkoravintola Ylläs": {
         "type": "Slope bar",
         "description": "Aurinkoravintola is a traditional slope restaurant on the Aurinko slope on the Ylläsjärvi side of Ylläs, open during the ski season according to the lift timetables. The Ylläs tourist board page says it serves cold and hot drinks and food portions, and that its large terrace serves spring-winter sun seekers. Guests ski straight to the door.",
         "highlights": [
-          "Iso terassi kevätauringossa",
-          "Suksilla ovelle",
-          "Auki hissien aikataulun mukaan"
+          "Big terrace in the spring sun",
+          "Ski right to the door",
+          "Open to the lift schedule"
         ]
       },
       "Bistro Hissi": {
         "type": "Slope bistro bar",
         "description": "Bistro Hissi is at the foot of the slopes on the Ylläsjärvi side, by the Ylläs Express chairlift. Its own site says it serves pizzas, burgers, salads and snacks and is open when the lifts are running; the resort's slope-restaurant page adds that it serves warm and cold drinks by the fireplace. The same company also rents snowmobiles.",
         "highlights": [
-          "Rinteen juurella",
-          "Takka ja lämpimät juomat",
-          "Kelkkavuokraus samasta talosta"
+          "At the foot of the slope",
+          "Fireplace and hot drinks",
+          "Snowmobile rental in the same building"
         ]
       }
     },

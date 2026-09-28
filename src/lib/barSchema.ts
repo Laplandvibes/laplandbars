@@ -20,7 +20,8 @@ const VENUES = (maps as MapsFile).venues;
 export function barSchema(bar: Bar, origin = 'https://laplandbars.com') {
   const rating = ROWS.find((r) => r.name === bar.name && r.matched && typeof r.rating === 'number');
   const loc = VENUES[bar.name]?.location;
-  const [street, postal] = splitAddress(bar.address);
+  // Tyhjä osoite = kohde ei julkaise omaa katuosoitetta ⇒ streetAddress jää pois.
+  const [street, postal] = bar.address ? splitAddress(bar.address) : [null, null];
   // Vain kohteen oma, hyväksytty kuva — AI-kuvitusta ei ilmoiteta hakukoneelle kohteen kuvaksi.
   const photo = venuePhoto(bar.name);
   return {
@@ -30,7 +31,7 @@ export function barSchema(bar: Bar, origin = 'https://laplandbars.com') {
     ...(photo ? { image: `${origin}${photo.src}` } : {}),
     address: {
       '@type': 'PostalAddress',
-      streetAddress: street,
+      ...(street ? { streetAddress: street } : {}),
       ...(postal ? { postalCode: postal } : {}),
       addressLocality: bar.city,
       addressRegion: 'Lapland',

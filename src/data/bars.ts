@@ -1,38 +1,24 @@
 /**
  * Localised string for tabular data fields like `hours` / `price` that we want
- * to render in the user's current language (EN/FI/DE) without going through a
- * JSON translation file. Keeping the translations next to the data keeps the
- * data file self-contained and avoids the "string drifts out of sync with JSON"
+ * to render in the user's current language without going through a JSON
+ * translation file. Keeping the translations next to the data keeps the data
+ * file self-contained and avoids the "string drifts out of sync with JSON"
  * class of bugs.
+ *
+ * Every site language is required: a missing one fails the type check instead
+ * of rendering English on that language's page.
  *
  * Read it with the `pickLocalised` helper below.
  */
-export type Localised = {
-  en: string;
-  fi: string;
-  de?: string;
-  ja?: string;
-  es?: string;
-  'pt-BR'?: string;
-  'zh-CN'?: string;
-  ko?: string;
-  fr?: string;
-  it?: string;
-  nl?: string;
-  sv?: string;
-};
+export type Localised = Record<Locale, string>;
 
 import type { Locale } from '../i18n/config';
 import barMenus from './generated/bar-menus.json';
 
-/**
- * Pick the string for the current locale. Falls back to EN if a translation
- * for that locale is not yet provided (so a half-bootstrapped `de` doesn't
- * render an empty cell).
- */
+/** Pick the string for the current locale. No English fallback: `Localised` carries every language. */
 export function pickLocalised(value: Localised | string, locale: Locale): string {
   if (typeof value === 'string') return value;
-  return (value as Record<string, string | undefined>)[locale] ?? value.en;
+  return value[locale];
 }
 
 /**
@@ -89,11 +75,21 @@ export interface Bar {
   type: string;
   description: string;
   highlights: string[];
-  /** Price summary localised across EN / FI / DE. Read via `pickLocalised`. */
+  /** Price summary in every site language. Read via `pickLocalised`. */
   price: Localised;
+  /**
+   * Street address as published, never translated; feeds the BarOrPub
+   * PostalAddress. Empty when the venue publishes no street address of its own.
+   */
   address: string;
+  /**
+   * The visible address line when it carries words rather than just an
+   * address (a location without a street address, or a directions note).
+   * Shown instead of `address`, in the reader's language.
+   */
+  addressLine?: Localised;
   website?: string;
-  /** Opening hours localised across EN / FI / DE. Read via `pickLocalised`. */
+  /** Opening hours in every site language. Read via `pickLocalised`. */
   hours: Localised;
   /**
    * Editorial pick — an opinion, not an ad. Nothing is paid for it: this site
@@ -1387,7 +1383,21 @@ export const bars: Bar[] = [
       ko: '가격은 매장 사이트에서',
       'zh-CN': '价格见店家网站',
     },
-    address: 'At the foot of the Pessari slopes, Ruka ski resort, Kuusamo - no street address published',
+    address: '',
+    addressLine: {
+      en: 'At the foot of the Pessari slopes, Ruka ski resort, Kuusamo',
+      fi: 'Pessarin rinteiden juurella, Rukan hiihtokeskus, Kuusamo',
+      de: 'Am Fuß der Pessari-Pisten, Skigebiet Ruka, Kuusamo',
+      sv: 'Vid foten av Pessari-backarna, skidorten Ruka, Kuusamo',
+      fr: 'Au pied des pistes de Pessari, station de Ruka, Kuusamo',
+      it: 'Ai piedi delle piste di Pessari, comprensorio sciistico di Ruka, Kuusamo',
+      nl: 'Aan de voet van de Pessari-pistes, skigebied Ruka, Kuusamo',
+      es: 'Al pie de las pistas de Pessari, estación de esquí de Ruka, Kuusamo',
+      'pt-BR': 'No pé das pistas de Pessari, estação de esqui de Ruka, Kuusamo',
+      ja: 'クーサモ、ルカ・スキーリゾートのPessariゲレンデのふもと',
+      ko: '쿠사모 루카 스키 리조트, Pessari 슬로프 발치',
+      'zh-CN': '库萨莫鲁卡滑雪场，Pessari 雪道脚下',
+    },
     website: 'https://www.facebook.com/Monomesta',
     hours: {
       en: 'Check venue for current hours',
@@ -1903,9 +1913,9 @@ export const bars: Bar[] = [
     // K-18.
     name: 'Hanki Baari Pyhä',
     city: 'Pyhä',
-    type: 'Slope bar (talvikausi)',
-    description: 'Baari Pyhän Pohjoisrinteiden alapäässä. Oma sivu lupaa yksinkertaista ruokaa, juomia, paikallisia oluita, laadukkaita viinejä ja kahvia. Talvikaudella tapahtumakalenterissa on artisteja ja DJ:itä lähes joka viikonloppu, folkista ja suomiräpistä vaihtoehtomusiikkiin. Klo 21 jälkeen K-18, paitsi alaikäiset vanhemman seurassa; tapahtumaillat ovat aina K-18. Auki jälleen joulukuussa 2026.',
-    highlights: ['Rinteen juurella Pohjoisrinteillä', 'Paikallisia oluita ja live-artisteja lähes joka viikonloppu talvikaudella', 'K-18 klo 21 jälkeen'],
+    type: 'Slope bar (winter season)',
+    description: "A bar at the foot of Pyhä's North Slopes. Its own site promises simple food, drinks, local beers, good wines and coffee. In the winter season the events calendar has artists and DJs almost every weekend, from folk and Finnish rap to alternative music. After 21:00 it is over-18s only, except for minors with a parent; event nights are always over-18. Open again in December 2026.",
+    highlights: ['At the foot of the North Slopes', 'Local beers and live artists almost every winter weekend', 'Over-18s after 21:00'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -1997,8 +2007,8 @@ export const bars: Bar[] = [
     name: 'Pyhä Dreams Wine Bar',
     city: 'Pyhä',
     type: 'Wine bar',
-    description: 'Viinibaari Pyhä Dreams -maisemamökissä Pyhätunturin huipulla, jonne noustaan maisemahissillä. Kesäkausi kulkee 19.6.2026 alkaen syyskuun 20. päivään ja talvikausi marraskuun lopusta noin vappuun. Paikka järjestää myös opastetun viinimaistelun enintään kahdeksan hengen ryhmille: viisi valko-, puna- ja kuohuviiniä suolaisten ja makeiden suupalojen kanssa, kesto noin kaksi tuntia. Tilat ovat rajalliset, joten ennakkovaraus kannattaa.',
-    highlights: ['Tunturin huipulla, maisemahissin päässä', 'Opastettu viinimaistelu 5 viinillä, max 8 hlöä', 'Hissilippu ei sisälly maisteluun'],
+    description: 'A wine bar in the Pyhä Dreams scenic cabin on the summit of Pyhätunturi, reached by the scenic lift. The summer season runs from 19 June 2026 to 20 September and the winter season from the end of November to around May Day. The venue also runs a guided wine tasting for groups of up to eight: five white, red and sparkling wines with savoury and sweet bites, lasting about two hours. Space is limited, so it is worth booking ahead.',
+    highlights: ['On the fell summit, at the top of the scenic lift', 'Guided tasting of 5 wines, max 8 people', 'Lift ticket not included in the tasting'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -2014,6 +2024,20 @@ export const bars: Bar[] = [
       'zh-CN': '价格见店家网站',
     },
     address: 'Pyhä Dreams -maisemamökki, Pyhätunturin huippu, 98530 Pyhätunturi (Pelkosenniemi)',
+    addressLine: {
+      en: 'Pyhä Dreams scenic cabin, summit of Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      fi: 'Pyhä Dreams -maisemamökki, Pyhätunturin huippu, 98530 Pyhätunturi (Pelkosenniemi)',
+      de: 'Aussichtshütte Pyhä Dreams, Gipfel des Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      sv: 'Utsiktsstugan Pyhä Dreams, toppen av Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      fr: 'Chalet panoramique Pyhä Dreams, sommet du Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      it: 'Baita panoramica Pyhä Dreams, cima del Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      nl: 'Uitzichthut Pyhä Dreams, top van de Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      es: 'Cabaña panorámica Pyhä Dreams, cima del Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      'pt-BR': 'Cabana panorâmica Pyhä Dreams, topo do monte Pyhätunturi, 98530 Pyhätunturi (Pelkosenniemi)',
+      ja: 'ピュハのフェルの頂上、景観コテージPyhä Dreams（98530 Pyhätunturi、Pelkosenniemi）',
+      ko: 'Pyhätunturi 정상 전망 오두막 Pyhä Dreams (98530 Pyhätunturi, Pelkosenniemi)',
+      'zh-CN': '皮哈山顶 Pyhä Dreams 景观小屋（98530 Pyhätunturi，Pelkosenniemi）',
+    },
     website: 'https://pyhadreams.fi/wine-bar',
     hours: {
       en: 'Check venue for current hours',
@@ -2561,7 +2585,21 @@ export const bars: Bar[] = [
       ko: '가격은 매장 사이트에서',
       'zh-CN': '价格见店家网站',
     },
-    address: 'Kerotie 10, 99555 Luosto (at the end of Kerotie road, Aarniluosto)',
+    address: 'Kerotie 10, 99555 Luosto',
+    addressLine: {
+      en: 'Kerotie 10, 99555 Luosto (at the end of Kerotie road, Aarniluosto)',
+      fi: 'Kerotie 10, 99555 Luosto (Kerotien päässä, Aarniluosto)',
+      de: 'Kerotie 10, 99555 Luosto (am Ende der Kerotie, Aarniluosto)',
+      sv: 'Kerotie 10, 99555 Luosto (i slutet av Kerotie, Aarniluosto)',
+      fr: 'Kerotie 10, 99555 Luosto (au bout de la route Kerotie, Aarniluosto)',
+      it: 'Kerotie 10, 99555 Luosto (in fondo alla strada Kerotie, Aarniluosto)',
+      nl: 'Kerotie 10, 99555 Luosto (aan het einde van de Kerotie, Aarniluosto)',
+      es: 'Kerotie 10, 99555 Luosto (al final de la calle Kerotie, Aarniluosto)',
+      'pt-BR': 'Kerotie 10, 99555 Luosto (no fim da rua Kerotie, Aarniluosto)',
+      ja: 'Kerotie 10, 99555 Luosto（Kerotie通りの突き当たり、Aarniluosto）',
+      ko: 'Kerotie 10, 99555 Luosto (Kerotie 길 끝, Aarniluosto)',
+      'zh-CN': 'Kerotie 10, 99555 Luosto（Kerotie 路尽头，Aarniluosto）',
+    },
     website: 'https://aarnikota.fi/en/',
     hours: {
       en: 'Check venue for current hours',
@@ -2648,7 +2686,21 @@ export const bars: Bar[] = [
       ko: '가격은 매장 사이트에서',
       'zh-CN': '价格见店家网站',
     },
-    address: 'About 300 m from Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto); no separate street address is published for the restaurant itself',
+    address: '',
+    addressLine: {
+      en: 'About 300 m from Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      fi: 'Noin 300 metrin päässä Lapland Hotels Luostotunturista (Luostontie 1, 99555 Luosto)',
+      de: 'Etwa 300 m vom Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      sv: 'Cirka 300 m från Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      fr: 'À environ 300 m du Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      it: 'A circa 300 m dal Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      nl: 'Op ongeveer 300 m van Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      es: 'A unos 300 m del Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      'pt-BR': 'A cerca de 300 m do Lapland Hotels Luostotunturi (Luostontie 1, 99555 Luosto)',
+      ja: 'Lapland Hotels Luostotunturiから約300 m（Luostontie 1, 99555 Luosto）',
+      ko: 'Lapland Hotels Luostotunturi에서 약 300m (Luostontie 1, 99555 Luosto)',
+      'zh-CN': '距 Lapland Hotels Luostotunturi 约 300 米（Luostontie 1, 99555 Luosto）',
+    },
     website: 'https://www.laplandhotels.com/fi/hotellit-ja-kohteet/luosto/lapland-hotels-luostotunturi/kokoukset-ja-juhlat',
     hours: {
       en: 'Check venue for current hours',
@@ -3193,7 +3245,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Pub',
     description: "Joiku Pub is the village pub in Äkäslompolo, run by the same company as the Eväskori pizzeria next door (both listed under business ID 3090445-7). Its own site calls it Ylläs's legendary evening venue: a relaxed room with good music, karaoke and a dance floor that fills late into the night. The village's largest sun terrace belongs to the pub and serves from early spring to late autumn, and outside the season there is a billiard table in the pub. Table reservations only for groups over 10.",
-    highlights: ['Karaoke ja tanssilattia', 'Kylän isoin aurinkoterassi', 'Biljardipöytä sesongin ulkopuolella'],
+    highlights: ['Karaoke and dance floor', 'Biggest sun terrace in the village', 'Pool table in the off-season'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3236,7 +3288,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Cocktail bar',
     description: 'A small bar in the centre of Äkäslompolo. Its own one-line description, carried verbatim by both the Ylläs tourist board and Visit Finland, reads: tiny bar fulfilled with crossover music, cocktails and food, come as you are.',
-    highlights: ['Cocktailit ja crossover-musiikki', 'Kylän keskustassa', 'Ruokaa 10–25 €'],
+    highlights: ['Cocktails and crossover music', 'In the village centre', 'Food €10–25'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3278,7 +3330,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Bar & grill',
     description: "Miilu Bar & Grill stands on the shore of Lake Ylläsjärvi as part of Miilu Resort. The open fire grill, burning the house's own charcoal embers, is the heart of the kitchen, and the venue's listing says it puts seasonal ingredients together with a selection of drinks. Large windows face the lake. It can be reached by car, on foot, on skis, by bike or by snowmobile.",
-    highlights: ['Avotuligrilli', 'Järvinäkymä ja revontulet suurista ikkunoista', 'Saapuminen myös suksilla tai kelkalla'],
+    highlights: ['Open-fire grill', 'Lake view and northern lights through big windows', 'Arrive on skis or by snowmobile too'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3320,7 +3372,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Slope pub',
     description: "Taiga Ylläs describes itself on its own site as a restaurant, pub and slope restaurant at the foot of the Ylläs Ski South slope in Ylläsjärvi, serving Lappish food, local drinks, live music and a relaxed après-ski atmosphere. The ski resort's own listing adds that Taiga Pub is built around a changing selection of beers and charcoal-grilled food, with live music on performer nights and stand-up gigs in the spring season. It is open year-round.",
-    highlights: ['Rinteen juurella, après-ski', 'Vaihtuva olutvalikoima', 'Livemusiikkia esiintyjäiltoina'],
+    highlights: ['At the foot of the slope, après-ski', 'Rotating beer selection', 'Live music on artist nights'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3362,7 +3414,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Slope pub',
     description: 'Y1 Ski Pub is part of the Y1 restaurant world at Ylläs Ski Resort on the Äkäslompolo side, near the base of the Aurinko-Express chairlift at Aurinkokuru. Lapland Hotels calls it the restaurant that opens first and closes last, with a traditional, warm pub-like room, a fireplace to sit by during or after skiing, live performers through the season and a terrace. The kitchen serves bistro food such as burgers, pita breads and ramen soups alongside a wide selection of hot and cold drinks.',
-    highlights: ['Aukeaa ensimmäisenä, sulkee viimeisenä', 'Takka ja terassi', 'Esiintyjiä läpi kauden'],
+    highlights: ['First to open, last to close', 'Fireplace and terrace', 'Performers all season'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3404,7 +3456,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Hotel lobby bar',
     description: 'The lobby bar at Lapland Hotels Äkäshotelli, in the same building as and next to Restaurant Pirtukirkko. The hotel describes it as the place for its mountain pizzas, a coffee or a refreshing drink, and it runs a soup lunch from 12 to 15.',
-    highlights: ['Tunturipizzat', 'Keittolounas 12–15', 'Pirtukirkon vieressä'],
+    highlights: ['Fell pizzas', 'Soup lunch 12–15', 'Next to Pirtukirkko'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3446,7 +3498,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Dance restaurant',
     description: 'The restaurant at Lapland Hotels Äkäshotelli, known for its church-like exterior, serving northern flavours and classic dishes from breakfast through à la carte dinner, with a buffet in peak season. Its own page leads on the nightlife side: dances are held there during the autumn and early spring with a published performer calendar, and admission is included in the room rate. Pirtukellari Night Club is in the basement of the same building, and the upstairs Pirtun Parvi keeps going until the early hours on performer nights.',
-    highlights: ['Tanssit ja esiintyjäkalenteri', 'Sisäänpääsy majoitushintaan', 'Yökerho samassa rakennuksessa'],
+    highlights: ['Dance nights and a gig calendar', 'Entry included in the room rate', 'Nightclub in the same building'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3489,7 +3541,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Hotel bistro bar',
     description: "One of the three restaurants at Lapland Hotels Saaga in Ylläsjärvi, alongside the buffet restaurant Biegga and the à la carte Tsohka. The hotel's own page says that in the summer at the relaxed and cosy Bistro you can enjoy cocktails made by the bartender or a cold drink on the sunny terrace; the food is snack-style, such as salmon soup. The hotel sits next to the southern slopes of Ylläs, with the gondola right beside it.",
-    highlights: ['Baarimikon cocktailit', 'Aurinkoterassi', 'Gondolin vieressä'],
+    highlights: ['Cocktails from the bartender', 'Sun terrace', 'Next to the gondola'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3532,7 +3584,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Hotel lobby bar',
     description: "The bar next to the reception at Lapland Hotels Ylläskaltio in Äkäslompolo. The hotel says it serves refreshing drinks and hot drinks with a Snacks menu and that dogs are welcome, and the hotel's soup lunch is served here from 12 to 15. Dance events are held in the hotel's restaurant during the autumn and spring weeks, with admission included in the room rate.",
-    highlights: ['Koirat tervetulleita', 'Keittolounas aulabaarissa', 'Tanssi-illat syksyllä ja keväällä'],
+    highlights: ['Dogs welcome', 'Soup lunch in the lobby bar', 'Dance nights in autumn and spring'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3574,7 +3626,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Ski pub',
     description: "Ski pub Ala-Asema sits next to the lower station of the Ylläs gondola on the Ylläsjärvi side. The resort's slope-restaurant page and the venue's own listing describe a relaxed ski pub with billiards, darts, board games and karaoke, serving drinks and pub food. A terrace is in use in season.",
-    highlights: ['Gondolin ala-aseman vieressä', 'Biljardi, tikka ja karaoke', 'Terassi talvikaudella'],
+    highlights: ['Next to the gondola base station', 'Pool, darts and karaoke', 'Terrace in the winter season'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3616,7 +3668,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Cafe bar (daytime, closes 17)',
     description: 'Cafe & Bar Routa is a cafe and bar in the heart of Äkäslompolo, in the K-Market Jounin kauppa building. The Ylläs tourist board page describes it as a lively cafe in the busiest part of the village and gives a price range of 3–18 euros. It closes at 17, so it is a daytime spot rather than an evening bar.',
-    highlights: ['Kylän vilkkaimmalla paikalla', 'Annokset 3–18 €', 'Auki ympäri vuoden'],
+    highlights: ['At the busiest spot in the village', 'Dishes €3–18', 'Open all year'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3658,7 +3710,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Slope bar',
     description: 'Aurinkoravintola is a traditional slope restaurant on the Aurinko slope on the Ylläsjärvi side of Ylläs, open during the ski season according to the lift timetables. The Ylläs tourist board page says it serves cold and hot drinks and food portions, and that its large terrace serves spring-winter sun seekers. Guests ski straight to the door.',
-    highlights: ['Iso terassi kevätauringossa', 'Suksilla ovelle', 'Auki hissien aikataulun mukaan'],
+    highlights: ['Big terrace in the spring sun', 'Ski right to the door', 'Open to the lift schedule'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',
@@ -3701,7 +3753,7 @@ export const bars: Bar[] = [
     city: 'Ylläs',
     type: 'Slope bistro bar',
     description: "Bistro Hissi is at the foot of the slopes on the Ylläsjärvi side, by the Ylläs Express chairlift. Its own site says it serves pizzas, burgers, salads and snacks and is open when the lifts are running; the resort's slope-restaurant page adds that it serves warm and cold drinks by the fireplace. The same company also rents snowmobiles.",
-    highlights: ['Rinteen juurella', 'Takka ja lämpimät juomat', 'Kelkkavuokraus samasta talosta'],
+    highlights: ['At the foot of the slope', 'Fireplace and hot drinks', 'Snowmobile rental in the same building'],
     price: {
       en: 'Prices on the venue site',
       fi: 'Hinnat kohteen sivulla',

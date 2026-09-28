@@ -106,7 +106,9 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
         <div className="space-y-2 pt-4 border-t border-white/10">
           <div className="flex items-start gap-2">
             <MapPin size={13} className="text-amber/70 mt-0.5 shrink-0" />
-            <p className="text-[13px] text-white/70 leading-relaxed line-clamp-1">{bar.address}</p>
+            <p className="text-[13px] text-white/70 leading-relaxed line-clamp-1">
+              {bar.addressLine ? pickLocalised(bar.addressLine, locale) : bar.address}
+            </p>
           </div>
           <div className="flex items-start gap-2">
             <Clock size={13} className="text-amber/70 mt-0.5 shrink-0" />
