@@ -36,12 +36,14 @@ export default function Navbar() {
       scrolled ? 'bg-night/95 backdrop-blur-md border-b border-white/10 shadow-lg' : 'bg-transparent'
     }`}>
       <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
-          <div className="flex items-center gap-3 sm:gap-5 shrink-0">
+        <div className="lv-navrivi flex items-center justify-between h-16">
+          <div className="lv-navvasen flex items-center gap-3 sm:gap-5 shrink-0">
             <EcosystemMenu lang={locale} currentDomain="laplandbars.com" />
-            <Link to={to('/')} className="no-underline inline-flex items-center min-h-11">
-              <Logo light />
-            </Link>
+            <div className="lv-wm-paikka">
+              <Link to={to('/')} className="no-underline inline-flex items-center min-h-11">
+                <Logo light nav />
+              </Link>
+            </div>
           </div>
 
           <div className="hidden xl:flex items-center gap-6">
