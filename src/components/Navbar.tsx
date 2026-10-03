@@ -54,7 +54,7 @@ export default function Navbar() {
                 // 🔴 Kosketuskorkeus 44 px: navilinkit olivat 20 px korkeita (pelkka
                 // tekstirivi) 12 kielella x 3 leveydella = 210 loydosta navi-portissa.
                 // Saman tiedoston logolinkki kayttaa jo tata samaa kaavaa.
-                className={`inline-flex items-center min-h-11 font-medium transition-colors duration-200 text-sm tracking-wide no-underline ${
+                className={`inline-flex items-center min-h-11 font-medium transition-colors duration-200 text-sm no-underline ${
                   pathWithoutLocale === link.basePath ? 'text-amber' : 'text-white/70 hover:text-amber'
                 }`}
               >
