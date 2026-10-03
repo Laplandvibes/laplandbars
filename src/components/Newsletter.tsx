@@ -2,6 +2,7 @@ import { useEffect, useRef, useState, type FormEvent } from 'react';
 import { ArrowRight, CheckCircle2, Bell, Snowflake, Music, Beer, AlertCircle } from 'lucide-react';
 import { useTranslation, Trans } from 'react-i18next';
 import { useLocale } from '../i18n/useLocale';
+import { bebasEm, Fraasit, ilmanValeja } from '../lib/otsikkoRivit';
 import { trackNewsletterSignup } from '../lib/analytics';
 import FounderByline from '../shared/FounderByline';
 
@@ -198,9 +199,16 @@ export default function Newsletter() {
               components={[<span key="0" className="font-heading tracking-wider">#LAPLANDVIBES</span>]}
             />
           </p>
-          <h2 className="font-heading text-4xl sm:text-5xl md:text-6xl text-white tracking-wide mb-4">
-            {t('newsletter.headlineLine1')}<br className="hidden sm:block" /> {t('newsletter.headlineLine2')}
-          </h2>
+          {/* lg+: otsikko 768 px:n palstaa leveämpänä (960 / xl 1024 px), ja sm+ koko pidemmän rivin mukaan.
+              768 px:ssä "Dann schreiben wir, was wir lernen." ei mahtunut 60 px:llä: kolme riviä de/fr/ja (Vesa 3.10.). */}
+          <div className="@container lg:-mx-24 xl:-mx-32">
+            <h2
+              className={`font-heading text-4xl sm:[--h2-max:3rem] md:[--h2-max:3.75rem] sm:[font-size:min(var(--h2-max),calc(100cqi/var(--h2-em)))] text-white tracking-wide mb-4${ilmanValeja(locale) ? ' [word-break:keep-all] [overflow-wrap:anywhere]' : ''}`}
+              style={{ ['--h2-em' as string]: Math.max(bebasEm(t('newsletter.headlineLine1'), 0.025), bebasEm(t('newsletter.headlineLine2'), 0.025)).toFixed(2) }}
+            >
+              <Fraasit text={t('newsletter.headlineLine1')} lang={locale} /><br className="hidden sm:block" /> <Fraasit text={t('newsletter.headlineLine2')} lang={locale} />
+            </h2>
+          </div>
           <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
             {t('newsletter.sub')}
           </p>

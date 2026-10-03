@@ -11,6 +11,7 @@ import Newsletter from '../components/Newsletter';
 import HomeAdSlots, { MainPartnerBanner } from '../shared/HomeAdSlots';
 import { AD_SLOTS } from '../data/adSlots';
 import { useLocale } from '../i18n/useLocale';
+import { bebasEm, Fraasit, ilmanValeja } from '../lib/otsikkoRivit';
 import { AppPromoHero } from '../components/AppPromo';
 import BarCard from '../components/BarCard';
 import RelatedSites from '../components/RelatedSites';
@@ -104,15 +105,22 @@ export default function Home() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/60 to-night/95" />
 
-        <div className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto">
+        {/* @container + w-full: otsikon koko lasketaan palstasta (100cqi). lg+ palsta 1104 px (ennen 848): 848 px:ssä
+            "brindiamo al circolo polare" (10 em) ei mahtunut 100 px:n koolla ja otsikko oli kolmella rivillä fr/it/nl. */}
+        <div className="@container relative z-10 text-center px-4 sm:px-6 w-full max-w-4xl lg:max-w-6xl mx-auto">
           <p className="mb-4">
             {/* 🔴 Tumma laatta: 14 px amber-muste kesavalokuvalla oli mediaanina
                 3,40:1 ja 81 % pikseleista alle 4,5:1 rajan. Varjo ei riita
                 kirkkaalla taustalla. Sama ratkaisu kuin laplandstoren herossa. */}
             <span className="inline-block rounded-full bg-black/45 backdrop-blur-sm px-3 py-1 text-amber text-sm font-semibold tracking-[0.3em] uppercase">{t('home.eyebrow')}</span>
           </p>
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-tight mb-6 text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)] xl:text-[clamp(96px,1.5vw_+_76.8px,115.2px)]">
-            {t('home.hero.headlineLine1')}<br />{t('home.hero.headlineLine2')}
+          {/* Kaksi riviä jokaisella kielellä: puhelin pitää koon, sm+ koko = pienempi kahdesta, suunniteltu --h1-max
+              tai koko jolla pidempi rivi mahtuu palstaan. ja/zh katkeavat vain fraasien välistä (keep-all + <wbr>). */}
+          <h1
+            className={`font-heading text-5xl sm:[--h1-max:3.75rem] md:[--h1-max:4.5rem] lg:[--h1-max:6rem] xl:[--h1-max:clamp(96px,1.5vw_+_76.8px,115.2px)] sm:[font-size:min(var(--h1-max),calc(100cqi/var(--h1-em)))] text-white tracking-wide leading-tight mb-6 text-balance drop-shadow-[0_2px_10px_rgba(0,0,0,0.5)]${ilmanValeja(locale) ? ' [word-break:keep-all] [overflow-wrap:anywhere]' : ''}`}
+            style={{ ['--h1-em' as string]: Math.max(bebasEm(t('home.hero.headlineLine1'), 0.025), bebasEm(t('home.hero.headlineLine2'), 0.025)).toFixed(2) }}
+          >
+            <Fraasit text={t('home.hero.headlineLine1')} lang={locale} /><br /><Fraasit text={t('home.hero.headlineLine2')} lang={locale} />
           </h1>
           <p className="text-lg sm:text-xl text-white/80 max-w-2xl xl:max-w-4xl mx-auto mb-10 leading-relaxed text-pretty drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)] xl:text-2xl">
             {isSummerSeason() ? t('home.hero.subSummer') : t('home.hero.sub')}
