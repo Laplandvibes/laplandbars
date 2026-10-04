@@ -93,6 +93,16 @@ export const BARS = {
   // fabricated "Arctic Lodge Pub" sign). Picsart gemini-3-pro-image 4K,
   // downscaled to 2400px. No signage/text anywhere in frame by design.
   heroBarsNight: '/images/drive/heroBarsNight.webp',
+
+  // 🟢 4.10.2026 kuvavaihto (Vesa: "tee ne kaikki"): herot, kaupunkikuvat, cocktail-,
+  // jääbaari- ja après-kuvat ovat nyt VALOKUVIA (Wikimedia Commons + yksi oma kuva).
+  // Tiedostonimet pidettiin (versiotagi ja viittaukset), mutta nimi ei enää kuvaa
+  // sisältöä — totuus on `data/photoCredits.ts`:n alt-kentässä. Esim. heroMain = oma
+  // kuva Wanha Mestari -pubista Torniossa, whiskyBar = Rovaniemen keskusta yöllä.
+  // Yhä tekoälyä: saunaBeer, kalsarikannitSofa, beerFlight, auroraLounge,
+  // liveMusicVenue, iceBarTunnel ja MustaKissan kuvitus (ei löytynyt aitoa vapaata kuvaa).
+  drinkingCultureHero: '/images/drive/drinkingCultureHero.webp',
+  citySaariselka: '/images/drive/citySaariselka.webp',
 };
 
 /**
@@ -105,7 +115,9 @@ export const BARS = {
  */
 export const CARDS = {
   cocktailTrio: '/images/cards/cocktailTrio.webp',
-  cocktailBerry: '/images/cards/cocktailBerry.webp',
+  // MustaKissa Kuppilan kuvitus (tekoäly, "Kuvituskuva"). Erotettu cocktailBerrystä
+  // 4.10.2026, kun drive/cocktailBerry vaihtui oikeaksi hillakuvaksi Cloudberry Sourille.
+  mustaKissa: '/images/cards/mustaKissa.webp',
   iceBarTunnel: '/images/cards/iceBarTunnel.webp',
   heroIceBars: '/images/cards/heroIceBars.webp',
   heroApres: '/images/cards/heroApres.webp',

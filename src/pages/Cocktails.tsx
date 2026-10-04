@@ -6,6 +6,7 @@ import AffiliateCTA from '../components/AffiliateCTA';
 import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 type CocktailItem = { name: string; ingredients: string; description: string; season: string };
 type IngredientItem = { name: string; note: string };
@@ -38,13 +39,16 @@ export default function Cocktails() {
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.cocktailTrio}
-          alt="Arctic cocktails"
+          alt={photoAlt(BARS.cocktailTrio, 'Arctic cocktails')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
+            mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
+        <ImageMark src={BARS.cocktailTrio} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('cocktails.hero.title')}
@@ -66,8 +70,10 @@ export default function Cocktails() {
                 className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center ${i % 2 === 1 ? 'md:grid-flow-col-dense' : ''}`}
               >
                 <div className={`bar-card relative overflow-hidden h-72 md:h-80 ${i % 2 === 1 ? 'md:col-start-2' : ''}`}>
-                  <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={c.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  {/* 4.10.2026: valokuva raaka-aineesta tai vastaavasta drinkistä, ei tästä reseptistä; alt kertoo mitä kuvassa on. */}
+                  <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={photoAlt(cocktailImages[i] ?? BARS.cocktailTrio, c.name)} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
+                  <ImageMark src={cocktailImages[i] ?? BARS.cocktailTrio} />
                 </div>
                 <div className={i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
                   <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>

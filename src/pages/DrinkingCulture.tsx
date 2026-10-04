@@ -10,6 +10,7 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 import { useLocale } from '../i18n/useLocale';
 import { PHOTO_BY, ILLUSTRATION_LABEL } from '../lib/venueImage';
 import products from '../data/generated/product-images.json';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 type PriceRow = { label: string; value: string };
 type Product = { src: string; width: number; height: number; fit: string; title: string; artist: string; licence: string; licenceUrl: string; fileUrl: string };
@@ -88,14 +89,15 @@ export default function DrinkingCulture() {
       {/* Hero: valokuva ajelehtii hitaasti (transform only) */}
       <section className="dc-hero relative min-h-[62vh] flex items-end overflow-hidden">
         <img
-          src={BARS.heroNightlife}
-          alt="Cosy Finnish pub with fireplace"
+          src={BARS.drinkingCultureHero}
+          alt={photoAlt(BARS.drinkingCultureHero, 'A Finnish pub')}
           className="dc-hero-img absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
         <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.45) 45%, rgba(15,23,42,0.25) 100%)' }} />
+        <ImageMark src={BARS.drinkingCultureHero} />
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-32">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-[0.95] max-w-4xl drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('drinkingCulture.hero.title')}

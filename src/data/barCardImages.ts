@@ -24,7 +24,7 @@ export const barImages: Record<string, string> = {
   'Ice Bar @ Arctic SnowHotel': BARS.iceBarDrinks,
   'Kauppayhtiö': BARS.liveMusicVenue, // pubLaughter on nyt /bars-sivun hero
   'Rovaniemen Oluthuone': BARS.terraceLonkero,
-  'MustaKissa Kuppila': CARDS.cocktailBerry,
+  'MustaKissa Kuppila': CARDS.mustaKissa,
   'Pub Sarvi': CARDS.saunaBeer,
   'Roy Club': BARS.apresDanceDeck,
   // Levi

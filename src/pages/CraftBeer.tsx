@@ -10,6 +10,7 @@ import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import VenuePhoto from '../components/VenuePhoto';
 import { useLocale } from '../i18n/useLocale';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 type Brewery = { name: string; location: string; description: string };
 type RealBeer = { name: string; brewery: string; abv: string; desc: string };
@@ -202,13 +203,16 @@ export default function CraftBeer() {
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.craftBeerGlasses}
-          alt="Craft beer in Lapland"
+          alt={photoAlt(BARS.craftBeerGlasses, 'Craft beer in Lapland')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
+            mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
+        <ImageMark src={BARS.craftBeerGlasses} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('craftBeer.hero.title')}

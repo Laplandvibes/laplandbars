@@ -21,6 +21,7 @@ import RelatedSites from '../components/RelatedSites';
 // -kyltti (poistettu /bars-sivulta jo 11.7.). Kopio ei anna virhettä, se vain
 // vanhenee — siksi yksi jaettu moduuli.
 import { barImages } from '../data/barCardImages';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 const categoryCardsMeta = [
   { image: CARDS.heroIceBars, to: '/ice-bars', icon: Snowflake },
@@ -97,13 +98,14 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
           src={isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain}
-          alt="Bar in Finnish Lapland"
+          alt={photoAlt(isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain, 'Bar in Finnish Lapland')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-night/80 via-night/60 to-night/95" />
+        <ImageMark src={isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain} />
 
         {/* @container + w-full: otsikon koko lasketaan palstasta (100cqi). lg+ palsta 1104 px (ennen 848): 848 px:ssä
             "brindiamo al circolo polare" (10 em) ei mahtunut 100 px:n koolla ja otsikko oli kolmella rivillä fr/it/nl. */}
@@ -218,12 +220,14 @@ export default function Home() {
                 >
                   <img
                     src={meta.image}
-                    alt={card.title}
+                    alt={photoAlt(meta.image, card.title)}
                     loading="lazy"
                     decoding="async"
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-night via-night/60 to-transparent" />
+                  {/* Koko ruutu on linkki: krediitti tekstinä, linkit sivun kuvaluettelossa. */}
+                  <ImageMark src={meta.image} linked={false} />
                   <div className="relative z-10 h-full flex flex-col justify-end p-6">
                     <div className="w-12 h-12 bg-amber/20 rounded-xl flex items-center justify-center mb-3">
                       <Icon size={24} className="text-amber" />

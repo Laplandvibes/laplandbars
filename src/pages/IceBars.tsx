@@ -11,6 +11,7 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 import VenuePhoto from '../components/VenuePhoto';
 import { gygDeepLink } from '../lib/gyg';
 import { withReferral } from '../lib/withReferral';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 type ExpectItem = { title: string; body: string };
 
@@ -38,13 +39,16 @@ export default function IceBars() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.heroIceBars}
-          alt="Ice bar interior with sculptures"
+          alt={photoAlt(BARS.heroIceBars, 'Ice bar interior')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
+            mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
+        <ImageMark src={BARS.heroIceBars} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <div className="flex justify-center mb-4">
             <Snowflake size={32} className="text-ice drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]" />

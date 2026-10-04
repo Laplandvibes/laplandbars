@@ -22,6 +22,7 @@ const NotFound = lazy(() => import('./pages/NotFound'))
 import { useLocale } from './i18n/useLocale';
 import LocaleAutoRedirect from './i18n/LocaleAutoRedirect';
 import { AppPromoNudge } from './components/AppPromo';
+import { CreditsProvider, PhotoCreditList } from './components/PhotoCredit';
 
 /**
  * 🔴 The app layout's landmark, EXCEPT on /terms.
@@ -172,6 +173,7 @@ function AppLayout() {
       <LocaleAutoRedirect />
       <LocaleSync />
       <Navbar />
+      <CreditsProvider>
       <MainOrDiv>
         <Suspense fallback={<div className="min-h-screen" />}>
           <Routes>
@@ -180,7 +182,10 @@ function AppLayout() {
           ))}
         </Routes>
         </Suspense>
+        {/* Sivun Commons-valokuvien tekijät ja lisenssit linkkeinä (CC BY / BY-SA). */}
+        <PhotoCreditList />
       </MainOrDiv>
+      </CreditsProvider>
       <SharedFooter pillarLinks={pillarLinks} dict={dict} />
       <SharedCookieBanner consentKey="laplandbars_cookie_consent" lang={i18n.language} />
       <NewsletterPopup />

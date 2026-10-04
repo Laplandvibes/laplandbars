@@ -8,6 +8,7 @@ import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import VenuePhoto from '../components/VenuePhoto';
 import { useLocale } from '../i18n/useLocale';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 // Hotel search query + sid per resort (for the lodging partner via go.laplandvibes.com)
 // Single-part place names only ("X, Finland") — "X, Lapland, Finland" can hit
@@ -159,13 +160,18 @@ export default function ApresSki() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.heroApres}
-          alt="Après-ski bar in Lapland"
+          alt={photoAlt(BARS.heroApres, 'Après-ski bar in Lapland')}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.80) 0%, rgba(15,23,42,0.42) 50%, rgba(15,23,42,0.30) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
+            mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
+        {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px, 4.10.2026). */}
+        <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
+        <ImageMark src={BARS.heroApres} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('apresSki.hero.title')}
@@ -203,14 +209,15 @@ export default function ApresSki() {
               ))}
             </ol>
             <div className="order-first lg:order-none lg:sticky lg:top-24 mx-auto max-w-[380px] lg:max-w-none w-full">
-              <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 aspect-[16/10]">
+              <div className="relative rounded-2xl overflow-hidden ring-1 ring-white/10 aspect-[16/10]">
                 <img
                   src={CARDS.apresToast}
-                  alt="Olutkolpakot kilistetaan hiihtohanskoissa matalassa talviauringossa"
+                  alt={photoAlt(CARDS.apresToast, 'Après-ski by the slopes')}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover"
                 />
+                <ImageMark src={CARDS.apresToast} />
               </div>
             </div>
           </div>

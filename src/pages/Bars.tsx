@@ -16,6 +16,7 @@ import RelatedSites from '../components/RelatedSites';
 import { barItemList } from '../lib/barSchema';
 
 import { barImages } from '../data/barCardImages';
+import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
 /**
  * Kaupungin otsikkokortin kuvitus. 🔴 EI oletusta: kohde, jolle ei ole
@@ -27,7 +28,7 @@ const cityImages: Record<string, string> = {
   Rovaniemi: BARS.whiskyBar,
   Levi: BARS.apresSkiLevi,
   Ylläs: BARS.heroNightlife,
-  Saariselkä: BARS.heroMain,
+  Saariselkä: BARS.citySaariselka, // 4.10.2026: oma Commons-kuva (ennen jakoi etusivun heron)
 };
 
 /**
@@ -69,7 +70,7 @@ export default function Bars() {
             kortista (nyt liveMusicVenue), ettei se toistu samalla sivulla. */}
         <img
           src={BARS.pubLaughter}
-          alt="Friends laughing over beers by the fireplace in a Lapland log pub"
+          alt={photoAlt(BARS.pubLaughter, 'A pub interior in Finland')}
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -77,7 +78,10 @@ export default function Bars() {
         />
         {/* Keskikohdan 0.42 päästi valaistut mökin ikkunat läpi juuri ingressin
             kohdalla (auditti 4.8.). 0.62 pitää tekstin luettavana. */}
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.82) 0%, rgba(15,23,42,0.70) 50%, rgba(15,23,42,0.40) 100%)' }} />
+        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.85) 0%, rgba(15,23,42,0.72) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px, 4.10.2026). */}
+        <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
+        <ImageMark src={BARS.pubLaughter} />
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4 sm:px-6">
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('bars.hero.title')}
@@ -174,12 +178,13 @@ export default function Bars() {
                     <>
                       <img
                         src={vibeImage}
-                        alt={city}
+                        alt={photoAlt(vibeImage, city)}
                         loading="lazy"
                         decoding="async"
                         className="absolute inset-0 w-full h-full object-cover"
                       />
                       <div className="absolute inset-0 bg-gradient-to-r from-night/95 via-night/75 to-night/20" />
+                      <ImageMark src={vibeImage} />
                     </>
                   ) : (
                     <div aria-hidden="true" className="absolute inset-0 bg-night-light/50" style={{ background: 'radial-gradient(90% 130% at 88% 50%, rgba(245,158,11,0.14) 0%, rgba(15,23,42,0) 62%)' }} />

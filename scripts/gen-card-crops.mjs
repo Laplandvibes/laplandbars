@@ -29,17 +29,16 @@ const OUT_DIR = path.join(ROOT, 'public/images/cards');
 const W = 800, H = 500; // 16:10, sama kuin VenuePhoto-kehys
 
 /** Kuvitukset, jotka renderöityvät korttikehyksessä. Lähdesuhde suluissa. */
+/* 🔴 4.10.2026: cocktailTrio, heroIceBars, heroApres ja apresToast ovat nyt Wikimedia
+   Commonsin valokuvia (osa CC BY-SA). BY-SA-kuvaa EI saa rajata (01-kuvat §6.6), joten ne
+   tehdään kuvavaihdossa pelkkinä pienennöksinä ja kortti rajaa selaimessa. Älä lisää niitä
+   takaisin tähän listaan. cocktailBerry poistui (MustaKissan kuvitus = cards/mustaKissa.webp). */
 const NAMES = [
-  'cocktailTrio',    // 2.36 — Café & Bar 21 (ei omaa kuvaa)
-  'cocktailBerry',   // 2.36 — MustaKissa Kuppila
   'iceBarTunnel',    // 2.36 — SnowVillage IceBar
-  'heroIceBars',     // 2.36 — etusivun kategoriaruutu
-  'heroApres',       // 2.36 — etusivun kategoriaruutu
   'liveMusicVenue',  // 1.78 — etusivun kategoriaruutu
   'saunaBeer',       // 1.79 — Pub Sarvi
   'beerFlight',      // 1.78 — Bar Alakerta
   'auroraLounge',    // 1.78 — Pirtukellari Night Club
-  'apresToast',      // 1.79 — apres-ski-sivun avaus
 ];
 
 fs.mkdirSync(OUT_DIR, { recursive: true });

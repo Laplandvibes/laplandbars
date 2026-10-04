@@ -1,6 +1,8 @@
 import type { ReactNode } from 'react';
 import { venuePhoto, photoCaption } from '../lib/venueImage';
 import type { Locale } from '../i18n/config';
+import { PhotoCredit } from './PhotoCredit';
+import { creditFor } from '../data/photoCredits';
 
 /**
  * Kohteen kuva ja sen lähdemerkintä — yksi komponentti joka pinnalle.
@@ -96,9 +98,16 @@ export default function VenuePhoto({
       />
       {scrim && <div className={`absolute inset-0 ${scrim}`} />}
       {children}
-      <span className="absolute bottom-0 right-0 z-10 px-2 py-[3px] rounded-tl-md bg-night/70 backdrop-blur-[2px] text-white/70 text-[9px] leading-none tracking-wide pointer-events-none">
-        {photoCaption(name, locale)}
-      </span>
+      {/* 4.10.2026: varakuva voi olla aito valokuva aiheesta (Commons). Silloin merkintä on
+          "Kuvituskuva · Kuva: tekijä · lisenssi" — kuva ei esitä tätä kohdetta, mutta CC BY
+          vaatii tekijän ja lisenssin näkyviin. Kortti ei ole linkki, joten linkit sallittu. */}
+      {!photo && creditFor(fallback) ? (
+        <PhotoCredit src={fallback} illustration />
+      ) : (
+        <span className="absolute bottom-0 right-0 z-10 px-2 py-[3px] rounded-tl-md bg-night/70 backdrop-blur-[2px] text-white/70 text-[9px] leading-none tracking-wide pointer-events-none">
+          {photoCaption(name, locale)}
+        </span>
+      )}
     </div>
   );
 }

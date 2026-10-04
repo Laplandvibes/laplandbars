@@ -8,7 +8,7 @@
     "jsonKey": "bars",
     "ogImage": "/og/bars.jpg",
     "ogCard": {
-      "hero": "/images/drive/pubLaughter.webp",
+      "hero": "/images/drive/heroMain.webp",
       "line": "Pubs, taprooms and cocktail bars"
     }
   },
@@ -26,7 +26,7 @@
     "jsonKey": "cities.levi",
     "ogImage": "/og/city-levi.jpg",
     "ogCard": {
-      "hero": "/images/drive/apresToast.webp",
+      "hero": "/images/drive/apresSkiLevi.webp",
       "line": "Where to drink in Levi"
     }
   },

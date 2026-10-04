@@ -14,6 +14,7 @@ import { BAR_CITIES, cityBySlug, barsForCity, SISTER_CITY_URLS } from '../data/b
 import { findRating } from '../components/VenueRating';
 import { barItemList } from '../lib/barSchema';
 import { barImages } from '../data/barCardImages';
+import ImageMark from '../components/PhotoCredit';
 
 const ORIGIN = 'https://laplandbars.com';
 
@@ -135,7 +136,10 @@ export default function CityPage() {
               fetchPriority="high"
               decoding="async"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-night/70 via-night/60 to-night" />
+            <div className="absolute inset-0 bg-gradient-to-b from-night/75 via-night/72 to-night" />
+            {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px, 4.10.2026). */}
+            <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
+            <ImageMark src={city.img} />
           </>
         ) : (
           <div aria-hidden="true" className="absolute inset-0 bg-night" style={{ background: 'radial-gradient(80% 70% at 50% 0%, rgba(245,158,11,0.12) 0%, rgba(15,23,42,0) 68%)' }} />
