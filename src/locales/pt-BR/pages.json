@@ -256,10 +256,10 @@
       },
       "Gastropub Giitu": {
         "type": "gastropub e cerveja artesanal",
-        "description": "O melhor bar de Saariselkä, um gastropub de verdade, com seleção impressionante de cervejas artesanais e cardápio que vai muito além do básico. O Giitu serve pratos de inspiração lapã ao lado de uma carta rotativa de torneiras. O ambiente é acolhedor, moderno e exatamente o que você quer depois de uma caça à aurora.",
+        "description": "O melhor bar de Saariselkä, um gastropub de verdade, com seleção impressionante de cervejas artesanais e cardápio que vai muito além do básico. O Giitu serve pratos inspirados na Lapônia ao lado de uma carta rotativa de torneiras. O ambiente é acolhedor, moderno e exatamente o que você quer depois de uma caça à aurora.",
         "highlights": [
           "Seleção de cerveja artesanal",
-          "Cozinha lapã",
+          "Cozinha da Lapônia",
           "Gastropub moderno"
         ]
       },
@@ -1203,7 +1203,7 @@
     "tours": {
       "kicker": "Tours e degustações",
       "title": "Tours de cervejaria e gastronomia disponíveis agora",
-      "sub": "Disponibilidade em tempo real do GetYourGuide. Visitas a cervejarias, degustações em destilarias e experiências gastronômicas lapãs em Rovaniemi, Saariselkä e arredores.",
+      "sub": "Disponibilidade em tempo real do GetYourGuide. Visitas a cervejarias, degustações em destilarias e experiências gastronômicas da Lapônia em Rovaniemi, Saariselkä e arredores.",
       "fallback": "Ver todas as experiências de gastronomia e bebida na Lapônia no GetYourGuide"
     },
     "stay": {
@@ -1572,7 +1572,7 @@
       "description": "Onde beber em Luosto: a boate do hotel e o Rumpu Bar na Luostontie, um pub no centro comercial, um bar-cabana e bailes com ingresso.",
       "h1": "Bares em Luosto",
       "tagline": "A vila tem uma única boate, e as orquestras de baile ao vivo tocam em um restaurante de troncos a cerca de 300 metros do Lapland Hotels Luostotunturi.",
-      "intro": "Sete lugares em Luosto servem bebidas. O Lapland Hotels Luostotunturi, na Luostontie 1, abriga duas casas: o Nightclub Karhu, que o hotel chama de única boate da vila, e o Rumpu Bar, ao lado do restaurante Bistro e aberto a cães. O Keloravintola, restaurante de troncos com 220 lugares, fica a cerca de 300 metros do mesmo hotel e abre ao público em noites de baile com ingresso e orquestras ao vivo. O Restaurant Punakettu, na Luostontie 4, fica no centro comercial e se define como restaurante e pub, com uma seção de cervejaria artesanal local e uísques Teerenpeli na carta. O Restaurant Aurora, no Luppokeino 1, pertence ao Santa's Hotel Aurora, a uma caminhada do centro da vila, e o hotel cita um lobby bar entre seus serviços de restauração. O Restaurant Vaisko, na Hartsutie 1, recebe quem quiser entrar só para tomar um drinque. O Aarnikota fica à parte: uma cabana lapã na Kerotie 10, em Aarniluosto, a cerca de 1,5 km do centro, acessível a pé, de esqui, de raquetes de neve ou de carro.",
+      "intro": "Sete lugares em Luosto servem bebidas. O Lapland Hotels Luostotunturi, na Luostontie 1, abriga duas casas: o Nightclub Karhu, que o hotel chama de única boate da vila, e o Rumpu Bar, ao lado do restaurante Bistro e aberto a cães. O Keloravintola, restaurante de troncos com 220 lugares, fica a cerca de 300 metros do mesmo hotel e abre ao público em noites de baile com ingresso e orquestras ao vivo. O Restaurant Punakettu, na Luostontie 4, fica no centro comercial e se define como restaurante e pub, com uma seção de cervejaria artesanal local e uísques Teerenpeli na carta. O Restaurant Aurora, no Luppokeino 1, pertence ao Santa's Hotel Aurora, a uma caminhada do centro da vila, e o hotel cita um lobby bar entre seus serviços de restauração. O Restaurant Vaisko, na Hartsutie 1, recebe quem quiser entrar só para tomar um drinque. O Aarnikota fica à parte: uma cabana tradicional da Lapônia na Kerotie 10, em Aarniluosto, a cerca de 1,5 km do centro, acessível a pé, de esqui, de raquetes de neve ou de carro.",
       "know": [
         "O Vaisko fecha entre temporadas e abre para 2026–2027 em 26 de novembro. O Aarnikota publica períodos datados em vez de um horário fixo; o atual é de quarta a domingo, das 11h às 16h, para a temporada de ruska, até 27 de setembro de 2026.",
         "O karaokê do Karhu é gratuito e K-18, as noites de banda ao vivo lá custam 10 euros e os bailes públicos do Keloravintola têm ingresso de 15–20 euros. A taxa de chapelaria de 3 euros não está incluída no preço do ingresso.",
