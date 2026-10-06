@@ -410,14 +410,20 @@ async function main() {
 
       // Business status is a FINDING, not just a rejection reason: a closed bar
       // is the thing this sweep is looking for.
+      // CLOSED_TEMPORARILY is RECORDED but NOT rejected (Vesa 2026-10-06: "kesällä monet paikat on
+      // kiinni ja avaa vasta marraskuussa"). Google flags an off-season pause as a temporary closure,
+      // so it stays on the closed list as a re-check flag and the match is kept. Any other
+      // non-operational status (CLOSED_PERMANENTLY) is still a finding AND a rejection.
       if (p.businessStatus && p.businessStatus !== 'OPERATIONAL') {
         closed.push({
           key, name: venue.name, city: venue.city,
           matchedName: candName, businessStatus: p.businessStatus,
           address: p.formattedAddress, googlePlaceId: p.id,
         });
-        rejected.push(`"${candName}" businessStatus=${p.businessStatus} (RECORDED as closed finding)`);
-        continue;
+        if (p.businessStatus !== 'CLOSED_TEMPORARILY') {
+          rejected.push(`"${candName}" businessStatus=${p.businessStatus} (RECORDED as closed finding)`);
+          continue;
+        }
       }
       if (typeof p.rating !== 'number' || typeof p.userRatingCount !== 'number') {
         rejected.push(`"${candName}" matched but Google returned no rating`);
