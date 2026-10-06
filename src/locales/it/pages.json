@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "Informativa sulla privacy",
-    "description": "Come trattiamo i Suoi dati su LaplandBars."
+    "description": "Come trattiamo i Suoi dati su LaplandBars. Raccogliamo dati analitici pseudonimi tramite Google Analytics 4."
   },
   "terms": {
     "title": "Termini di utilizzo",
-    "description": "I termini di utilizzo di LaplandBars."
+    "description": "I termini di utilizzo di LaplandBars. Accedendo o utilizzando il presente sito web, Lei accetta i presenti termini."
   },
   "cookie": {
     "title": "Informativa sui cookie",
-    "description": "Uso dei cookie su LaplandBars."
+    "description": "Uso dei cookie su LaplandBars. I cookie sono piccoli file di testo memorizzati sul Suo dispositivo quando visita un sito web."
   },
   "heroComponent": {
     "titleLine1": "I migliori bar e pub della",

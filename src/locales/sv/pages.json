@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "Integritetspolicy",
-    "description": "Hur LaplandBars hanterar dina uppgifter."
+    "description": "Hur LaplandBars hanterar dina uppgifter. Vi samlar in pseudonym analysdata via Google Analytics 4."
   },
   "terms": {
     "title": "Användarvillkor",
-    "description": "Användarvillkor för LaplandBars."
+    "description": "Användarvillkor för LaplandBars. Genom att öppna eller använda denna webbplats godkänner du dessa villkor."
   },
   "cookie": {
     "title": "Cookiepolicy",
-    "description": "Hur LaplandBars använder cookies."
+    "description": "Hur LaplandBars använder cookies. Cookies är små textfiler som lagras på din enhet när du besöker en webbplats."
   },
   "heroComponent": {
     "titleLine1": "Bästa barerna och pubarna i",

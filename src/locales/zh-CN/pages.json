@@ -982,7 +982,7 @@
   },
   "apresSki": {
     "title": "拉普兰滑雪后派对：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托",
-    "description": "缆车一关，派对开场：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托、伊索叙厄泰、萨利色尔卡。",
+    "description": "缆车一关，派对开场：莱维、于拉斯、皮哈、鲁卡、萨拉、卢奥斯托、伊索叙厄泰、萨利色尔卡。各雪场的滑雪后酒吧与附近住宿一览。",
     "hero": {
       "title": "滑雪后派对",
       "sub": "在拉普兰，雪道下午 4 点关闭，4 点 01 分派对开场。芬兰的滑雪后派对比世界任何地方都更喧闹、更温暖、也更真诚。"
@@ -1131,7 +1131,7 @@
   },
   "cocktails": {
     "title": "拉普兰鸡尾酒：云莓与越橘",
-    "description": "三款北极鸡尾酒：云莓酸酒、极光、越橘气泡。背后的野生食材，以及可预订的品鉴体验。",
+    "description": "三款北极鸡尾酒：云莓酸酒、极光、越橘气泡。背后的野生食材，以及可预订的品鉴体验。让拉普兰野莓格外出众的北极环境，在杯中同样制造非凡风味。",
     "hero": {
       "title": "北极鸡尾酒",
       "sub": "让拉普兰野莓格外出众的北极环境，在杯中同样制造非凡风味。这是一种构建在野外采集食材上的鸡尾酒文化，别处难觅。"
@@ -1390,7 +1390,7 @@
   },
   "about": {
     "title": "关于 LaplandBars",
-    "description": "关于 LaplandBars，一份关于拉普兰在哪里、以何种方式喝酒的独立编辑指南。",
+    "description": "LaplandBars 是一份独立的编辑指南，覆盖整个芬兰拉普兰的酒吧、酒馆、冰吧与夜生活场所，由我们在芬兰本地撰写。",
     "h1": "关于 LaplandBars",
     "body": [
       "LaplandBars 是一份独立的编辑指南，覆盖整个芬兰拉普兰的酒吧、酒馆、冰吧与夜生活场所，由我们在芬兰本地撰写，而非由数据库自动生成。",
@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "隐私政策",
-    "description": "关于 LaplandBars 如何处理您的数据。"
+    "description": "关于 LaplandBars 如何处理您的数据。我们通过 Google Analytics 4 收集假名化的访问分析数据。如果您订阅了我们的电子简报，我们会安全地存储您的电子邮件地址。"
   },
   "terms": {
     "title": "使用条款",
-    "description": "使用 LaplandBars 的条款。"
+    "description": "使用 LaplandBars 的条款。访问或使用本网站，即表示您同意本条款。如果您不同意，请停止使用本网站。旅行信息（包括价格、营业时间、天气状况和可订情况）经常发生变化。"
   },
   "cookie": {
     "title": "Cookie 政策",
-    "description": "关于 LaplandBars 的 Cookie 使用。"
+    "description": "关于 LaplandBars 的 Cookie 使用。Cookie 是您访问网站时存储在您设备上的小型文本文件。它们帮助网站记住您的偏好，并了解您如何使用该网站。"
   },
   "heroComponent": {
     "titleLine1": "最棒的酒吧与酒馆",
@@ -1541,7 +1541,7 @@
       "name": "Saariselkä",
       "at": "Saariselkä",
       "title": "Saariselkä 酒吧：村中酒馆、舞会与山顶酒廊",
-      "description": "在 Saariselkä 喝一杯：Revontulentie 上的美食酒吧、村中的舞会餐厅，以及 Kaunispää 山顶的极光酒廊。",
+      "description": "在 Saariselkä 喝一杯：村中心的酒馆、Revontulentie 上的美食酒吧、舞会餐厅、Kaunispää 山顶的极光酒廊，以及雪道旁的一家酒吧。",
       "h1": "Saariselkä 的酒吧",
       "tagline": "喝酒的地方大多集中在几条村中街道上，另有一家在 Kaunispää 山顶，一家在雪道旁。",
       "intro": "Saariselkä 的酒吧大多集中在几条村中街道上。Revontulentie 上的 Gastropub Giitu 每天供应精酿啤酒到 02 点，厨房开到 22 点。Saariseläntie 上的 Teerenpesä 在同一个原木屋顶下有三家场所：一家拉普兰餐厅、一家有飞镖和台球的运动酒吧，以及一家举办双人舞会和迪斯科的夜店。沿同一条街往前走，10 号的 Local Pub Panimo 有自己的男宾和女宾桑拿，13 号的 Lobby Bar Takka 是 Lapland Hotels Riekonlinna 的壁炉酒吧。Kiveliöntie 上的 Kaunis Jorma 每周四 19:00 有卡拉 OK 和免费宾果，Raitopolku 上的 Kieppi Kitchen & Bar 的吧台角比厨房早开几个小时，Lutontie 上 Santa’s Hotel Tunturi 的餐厅楼里则是 Restaurant Pirtti 和舞会餐厅 Siula。还有两家在 Kaunispää 山上：Star Arctic Hotel 的 Restaurant Kaunis，以及会变身为 Northern Lights Lounge 的山顶餐厅。",
@@ -1555,7 +1555,7 @@
       "name": "Ruka",
       "at": "Ruka",
       "title": "Ruka 酒吧：雪道酒吧、卡拉 OK 与现场音乐",
-      "description": "在 Ruka 喝一杯：Rukankyläntie 上的卡拉 OK 和现场音乐，以及只能滑雪抵达的雪道酒吧 Monomesta。",
+      "description": "在 Ruka 喝一杯：Rukankyläntie 上的卡拉 OK 和现场音乐、只能滑雪抵达的雪道酒吧 Monomesta，以及 Talvijärvi 湖畔的 Rukatonttu。",
       "h1": "Ruka 的酒吧",
       "tagline": "其中六家都在同一条街 Rukankyläntie 上，还有一家根本没有路能开到门口。",
       "intro": "Ruka 的酒吧街是 Kuusamo 的 Rukankyläntie，六家场所用的都是这条街的地址。6 号的 Restaurant Colorado 在步行中心区，有台球和阳光露台；11 号的 Hanki Baari 供应本地啤酒，整个冬天都安排现场艺人和 DJ；13 号的 Ravintola Zone 自称一年办 100 多个现场之夜，烧烤厨房开到 04 点；15 号的 Scandic Rukahovi 里有两个厅：Lobby Bar，以及卡拉 OK 酒吧兼夜店 Bar Ihku。17 号是 Rinneravintola Piste，就在前坡脚下。Vuosseli 是 Ruka 另一个有名字的片区，有三家把自己定位在那里：Ahon Jussintie 上的 Ski Booster、Bistrotie 上的 CAMP Kitchen & Bar 和 Jussinkuja 上的 Rukan Olkkari。还有四家两边都不属：距村中心 650 米、在 Talvijärvi 湖畔的 Rukatonttu；Pessari 雪道下方、没有道路通达的露台 Monomesta；Salongintie 上的 Rukan Salonki Ice Bar；以及 Rukatunturintie 上的 Rukan keilahalli。",
@@ -1569,7 +1569,7 @@
       "name": "Luosto",
       "at": "Luosto",
       "title": "Luosto 酒吧：一家夜店、舞会之夜与小木屋酒吧",
-      "description": "在 Luosto 喝一杯：Luostontie 上的夜店 Nightclub Karhu、购物中心里的酒馆，以及售票的舞会之夜。",
+      "description": "在 Luosto 喝一杯：Luostontie 上的夜店 Nightclub Karhu、购物中心里的酒馆、一家小木屋酒吧，以及售票的舞会之夜。",
       "h1": "Luosto 的酒吧",
       "tagline": "村里只有一家夜店，现场舞会乐队则在距 Lapland Hotels Luostotunturi 约 300 米的原木餐厅里演奏。",
       "intro": "Luosto 有七个地方供应酒水。Luostontie 1 的 Lapland Hotels Luostotunturi 里有两家：酒店称为村里唯一夜店的 Nightclub Karhu，以及紧挨 Bistro 餐厅、允许带狗进入的 Rumpu Bar。可坐 220 人的原木餐厅 Keloravintola 距同一家酒店约 300 米，在有现场乐队的售票舞会之夜对公众开放。Luostontie 4 的 Restaurant Punakettu 在购物中心里，自称既是餐厅也是酒馆，设有本地精酿啤酒区，酒单上有 Teerenpeli 威士忌。Luppokeino 1 的 Restaurant Aurora 属于 Santa's Hotel Aurora，步行即可到村中心，酒店把大堂吧列在自己的餐饮服务里。Hartsutie 1 的 Restaurant Vaisko 欢迎只进来喝一杯的客人。Aarnikota 自成一处：它是 Aarniluosto 的 Kerotie 10 上的一座拉普兰式小屋，距中心约 1.5 公里，步行、滑雪、穿雪鞋或开车都能到。",
@@ -1583,7 +1583,7 @@
       "name": "Pyhä",
       "at": "Pyhä",
       "title": "Pyhä 酒吧：雪道酒馆、山顶葡萄酒吧与卡拉 OK",
-      "description": "在 Pyhä 喝一杯：家庭雪道旁的雪道酒馆、带卡拉 OK 的运动酒吧，以及山顶的 Pyhä Dreams Wine Bar。",
+      "description": "在 Pyhä 喝一杯：家庭雪道旁的雪道酒馆、带卡拉 OK 的运动酒吧，以及山顶的 Pyhä Dreams Wine Bar。附营业时间和地址。",
       "h1": "Pyhä 的酒吧",
       "tagline": "一个雪场周边六家酒吧，其中葡萄酒吧在山顶上。",
       "intro": "Pyhä 的六家酒吧都在 Pyhätunturi。其中两家挨着酒店：Mesta 是雪道中间、紧邻 Hotel Kultakero 的酒吧和露台；Kultakeronkatu 21 的 CAMP Kitchen & Bar PYHÄ 在 Hotel Pyhätunturi 旁边，全景窗对着群山。同一条街 4 号的 Sport Bar Pyhä 在 Pyhä 购物中心里，有台球桌、卡拉 OK 和 Viaplay 体育频道。Restaurant Huttuhippu 在 Ukonhattu 1，就在家庭雪道旁，它的 Huttu-Pub 被认为拥有雪场里最多的啤酒选择。Hanki Baari Pyhä 在 Pohjoisrinteentie 1，位于北坡脚下，休业到 2026 年 12 月。第六家根本不在街面上：Pyhä Dreams Wine Bar 在 Pyhätunturi 山顶的一间小屋里，坐观景缆车上去。",
@@ -1611,7 +1611,7 @@
       "name": "Salla",
       "at": "Salla",
       "title": "Salla 酒吧：雪场酒馆、卡拉 OK 与深夜场",
-      "description": "在 Salla 喝一杯：雪场上的两家酒吧、Hautajärventie 上的卡拉 OK 酒馆，以及老校舍里的 Evakko Pub。",
+      "description": "在 Salla 喝一杯：雪场上的两家酒吧、Hautajärventie 上的卡拉 OK 酒馆，以及 Vallovaara 村老校舍里的 Evakko Pub。",
       "h1": "Salla 的酒吧",
       "tagline": "这里四家酒吧中有三家做卡拉 OK，而这三家里只有一家在山上。",
       "intro": "Salla 分成两边。两家在山上：Papana Pupi 是 Sallatunturin Tuvat 的自营酒馆，地址在 Sallatunturi 的 Hangasjärventie 1，与前台和 Restaurant Kiela 同在一栋楼里，墙上挂着芬兰冰球运动员的比赛球衣和球棍。原木餐厅 Keloravintola 在 Revontulentie 9，位于 Salla Ski Resort 前坡脚下，持全酒牌，有向阳露台和雪后小酌。另外两家是 Ravintola Sallan Maja 和 Evakko Pub。Hautajärventie 32 的 Sallan Maja 白天做午餐和单点，深夜则开自家的酒馆 Majan Pubi，有卡拉 OK、桌游，22:00 起限 18 岁以上。Evakko Pub 是 Vallovaara 村 Vallovaarantie 209 上 Kairalan Kievari 的酒馆，设在一栋旧小学校舍中，游戏室里有飞镖和台球。",

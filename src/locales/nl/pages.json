@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "Privacybeleid",
-    "description": "Hoe LaplandBars uw gegevens behandelt."
+    "description": "Hoe LaplandBars uw gegevens behandelt. Wij verzamelen gepseudonimiseerde analysegegevens via Google Analytics 4."
   },
   "terms": {
     "title": "Gebruiksvoorwaarden",
-    "description": "De gebruiksvoorwaarden van LaplandBars."
+    "description": "De gebruiksvoorwaarden van LaplandBars. Door deze website te bezoeken of te gebruiken, gaat u akkoord met deze voorwaarden."
   },
   "cookie": {
     "title": "Cookiebeleid",
-    "description": "Cookiegebruik op LaplandBars."
+    "description": "Cookiegebruik op LaplandBars. Cookies zijn kleine tekstbestanden die op uw apparaat worden opgeslagen wanneer u een website bezoekt."
   },
   "heroComponent": {
     "titleLine1": "De beste bars & pubs in",

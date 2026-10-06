@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "Política de privacidade",
-    "description": "Sobre como o LaplandBars trata seus dados."
+    "description": "Sobre como o LaplandBars trata seus dados. Coletamos dados analíticos pseudonimizados por meio do Google Analytics 4."
   },
   "terms": {
     "title": "Termos de uso",
-    "description": "Termos para usar o LaplandBars."
+    "description": "Termos para usar o LaplandBars. Ao acessar ou usar este site, você concorda com estes termos."
   },
   "cookie": {
     "title": "Política de cookies",
-    "description": "Sobre o uso de cookies no LaplandBars."
+    "description": "Sobre o uso de cookies no LaplandBars. Cookies são pequenos arquivos de texto armazenados no seu dispositivo quando você visita um site."
   },
   "heroComponent": {
     "titleLine1": "Os melhores bares e pubs da",

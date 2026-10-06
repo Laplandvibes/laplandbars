@@ -1355,15 +1355,15 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "description": "How LaplandBars handles your data."
+    "description": "How LaplandBars handles your data. We collect pseudonymous analytics data via Google Analytics 4."
   },
   "terms": {
     "title": "Terms of Use",
-    "description": "Terms of use for LaplandBars."
+    "description": "Terms of use for LaplandBars. By accessing or using this website, you agree to these terms."
   },
   "cookie": {
     "title": "Cookie Policy",
-    "description": "How LaplandBars uses cookies."
+    "description": "How LaplandBars uses cookies. Cookies are small text files stored on your device when you visit a website."
   },
   "heroComponent": {
     "titleLine1": "Best Bars & Pubs in",

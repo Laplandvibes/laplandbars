@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "Tietosuojaseloste",
-    "description": "Miten LaplandBars käsittelee tietojasi."
+    "description": "Miten LaplandBars käsittelee tietojasi. Keräämme pseudonyymejä kävijäanalytiikkatietoja Google Analytics 4:n kautta."
   },
   "terms": {
     "title": "Käyttöehdot",
-    "description": "LaplandBarsin käyttöehdot."
+    "description": "LaplandBarsin käyttöehdot. Käyttämällä tätä sivustoa hyväksyt nämä käyttöehdot."
   },
   "cookie": {
     "title": "Evästekäytäntö",
-    "description": "Miten LaplandBars käyttää evästeitä."
+    "description": "Miten LaplandBars käyttää evästeitä. Evästeet ovat pieniä tekstitiedostoja, jotka tallentuvat laitteellesi vieraillessasi verkkosivustolla."
   },
   "heroComponent": {
     "titleLine1": "Lapin parhaat baarit",

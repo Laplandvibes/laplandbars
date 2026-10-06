@@ -1390,7 +1390,7 @@
   },
   "about": {
     "title": "LaplandBars について",
-    "description": "LaplandBars について、ラップランドがどこでどう飲むかについての独立系編集ガイド。",
+    "description": "LaplandBarsは、フィンランド・ラップランド全域のバー、パブ、アイスバー、ナイトライフスポットを扱う独立系の編集ガイドです。フィンランドで執筆しています。",
     "h1": "LaplandBars について",
     "body": [
       "LaplandBarsは、フィンランド・ラップランド全域のバー、パブ、アイスバー、ナイトライフスポットに関する独立系の編集ガイドです——フィンランドから書かれ、データベースからの自動生成ではありません。",
@@ -1436,15 +1436,15 @@
   },
   "privacy": {
     "title": "プライバシーポリシー",
-    "description": "LaplandBarsのデータ取扱について。"
+    "description": "LaplandBarsのデータ取扱について。Google Analytics 4 を通じて仮名化されたアクセス解析データを収集しています。"
   },
   "terms": {
     "title": "利用規約",
-    "description": "LaplandBarsの利用規約。"
+    "description": "LaplandBarsの利用規約。本ウェブサイトをご利用いただくには、本規約に同意していただく必要があります。同意いただけない場合は、ご利用をお控えください。"
   },
   "cookie": {
     "title": "クッキーポリシー",
-    "description": "LaplandBarsのクッキー利用について。"
+    "description": "LaplandBarsのクッキー利用について。クッキーとは、ウェブサイトを訪問した際にお客様のデバイスに保存される小さなテキストファイルです。"
   },
   "heroComponent": {
     "titleLine1": "最高のバー＆パブ",
