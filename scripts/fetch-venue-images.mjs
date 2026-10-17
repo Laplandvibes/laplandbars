@@ -105,6 +105,7 @@ function writeRuntime(reg) {
 }
 
 if (process.argv.includes('--runtime-only')) {
+  for (const [slug, o] of Object.entries(ov.own ?? {})) registry[slug] = await ownRow(slug, o);
   for (const [slug, r] of Object.entries(registry)) r.approved = !!r.src && approved.has(slug);
   fs.writeFileSync(REGISTRY, JSON.stringify(registry, null, 2) + '\n');
   writeRuntime(registry);
@@ -158,9 +159,33 @@ async function writeImage(slug, buf, meta, fit = 'cover') {
   return sharp(outPath).metadata();
 }
 
+/**
+ * LV:n oma valokuva kohteesta (overrides `own`, 17.10.2026). Ei haeta verkosta eikä
+ * poisteta: tiedosto on tehty käsin reissun masterista, ja rivi kirjoitetaan siitä.
+ * Merkintä kortissa "Kuva: LaplandVibes". Lähde-URL:ia ei ole, joten sourceUrl on tyhjä.
+ */
+async function ownRow(slug, o) {
+  const file = path.join(ROOT, 'public', o.src);
+  if (!fs.existsSync(file)) throw new Error(`oma kuva puuttuu levyltä: ${o.src}`);
+  const m = await sharp(file).metadata();
+  return {
+    name: o.name, src: o.src, kind: 'own', status: 'own', credit: 'LaplandVibes', sourceUrl: '',
+    master: o.master, changes: o.changes, shotAt: o.shotAt, note: o.note,
+    width: m.width, height: m.height, approved: approved.has(slug),
+  };
+}
+
 let ok = 0;
 for (const v of venues) {
   if (only && v.slug !== only) continue;
+  if (ov.own?.[v.slug]) {
+    try {
+      registry[v.slug] = await ownRow(v.slug, ov.own[v.slug]);
+      ok++;
+      console.log(`📷 ${v.slug.padEnd(28)} oma kuva  LaplandVibes`);
+    } catch (e) { console.error(`🔴 ${v.slug}: ${e.message}`); process.exitCode = 1; }
+    continue;
+  }
   const row = { name: v.name, website: v.website, fetchedAt: new Date().toISOString().slice(0, 10) };
   try {
     const o = ov.overrides[v.slug];

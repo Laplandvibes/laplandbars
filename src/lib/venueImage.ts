@@ -32,8 +32,9 @@ const REG = registry as Record<string, Row>;
 
 export interface VenuePhoto {
   src: string;
-  /** Lähdesivuston domain ilman www:tä, esim. "selvapyy.fi". */
+  /** Lähdesivuston domain ilman www:tä, esim. "selvapyy.fi", tai "LaplandVibes" omalle kuvalle. */
   credit: string;
+  /** Tyhjä LV:n omalle kuvalle. */
   sourceUrl: string;
   width: number;
   height: number;
@@ -41,8 +42,9 @@ export interface VenuePhoto {
 
 export function venuePhoto(name: string): VenuePhoto | null {
   const r = REG[barSlug(name)];
-  if (!r || !r.src || !r.credit || !r.sourceUrl || !r.width || !r.height) return null;
-  return { src: r.src, credit: r.credit, sourceUrl: r.sourceUrl, width: r.width, height: r.height };
+  // sourceUrl ei ole pakollinen: LV:n omalla kuvalla (credit "LaplandVibes") lähdesivua ei ole.
+  if (!r || !r.src || !r.credit || !r.width || !r.height) return null;
+  return { src: r.src, credit: r.credit, sourceUrl: r.sourceUrl ?? '', width: r.width, height: r.height };
 }
 
 export const ILLUSTRATION_LABEL: Record<Locale, string> = {

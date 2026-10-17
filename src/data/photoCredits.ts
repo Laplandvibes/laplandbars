@@ -49,11 +49,13 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
     alt: "Colourful cocktails with mint and lime on a bar counter",
     taken: "2017-04-12 17:51:39", changes: "Pienennetty 4928×3264 → .webp 800x530; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
   },
+  // 17.10.2026: Commons-yökuva (Hansjoerg Eberle, CC BY 3.0) → oma kuva Rovaniemen baarista.
+  // Vanha tiedosto: _reissu-2026-07/_ai-originals-backup/laplandbars-new/public/images/drive/whiskyBar.commons-eberle.webp
   "/images/drive/whiskyBar.webp": {
-    author: "Hansjoerg Eberle", license: "CC BY 3.0", licenseUrl: "https://creativecommons.org/licenses/by/3.0/",
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Rovaniemi,_Finland_-_panoramio_(10).jpg", title: "Rovaniemi, Finland - panoramio (10).jpg",
-    alt: "Shop and hotel lights in central Rovaniemi on a November night",
-    taken: "2 November 2015", changes: "Pienennetty 5184×3456 → .webp 2400x1600; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
+    author: "LaplandVibes", license: "", licenseUrl: "", own: true, place: "Hemingway's, Rovaniemi",
+    sourceUrl: "", title: "own:20261015_185456",
+    alt: "The bar counter of Hemingway's pub in Rovaniemi, with the draught beer board and a portrait of Hemingway on the wall",
+    taken: "2026-10-15 18:54", changes: "Oma kuva (Galaxy S25 Edge 4000×2252), rajattu x 0–3300, y 420–2252 (ylähyllyn väkevien pakkaukset ja oikean reunan asiakkaat pois), pienennetty → .webp 2400x1332.", fetched: '2026-10-17', cost: '0 €',
   },
   "/images/drive/apresSkiLevi.webp": {
     author: "Евгений Гранат", license: "Public domain", licenseUrl: "",

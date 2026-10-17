@@ -122,6 +122,16 @@
       "note": "Ei bars.ts:ssä (panimo, ei baari). Sivustolla ei ole valokuvaa panimosta; tämä on heidän oma tuotekuvansa Lapland Original Lagerista. Läpinäkyvä PNG ⇒ taustaksi yön sininen."
     }
   },
+  "own": {
+    "cafe-bar-21": {
+      "name": "Café & Bar 21",
+      "src": "/images/venues/cafe-bar-21.webp",
+      "master": "_reissu-2026-10: 2026-10-15_levi-kolari-haaparanta-rovaniemi/20261015_183000.jpg",
+      "changes": "rajaus 0,430–2252,1837 (16:10), pienennys 800x500, WebP q82",
+      "shotAt": "2026-10-15",
+      "note": "LaplandVibesin oma valokuva paikan päältä 15.10.2026: sisäänkäynti ja valaistu 21-kyltti, Rovakatu 21. Kohteen omalla sivustolla vain brändikuvitusta, joten tämä korvasi Commons-cocktailkuvituksen."
+    }
+  },
   "approved": [
     "aarnikota",
     "arctic-snowhotel-icebar",
@@ -131,6 +141,7 @@
     "bistoria-iso-syote",
     "bistro-cafe-kuukkeli",
     "bull-bar-grill",
+    "cafe-bar-21",
     "camp-kitchen-bar",
     "camp-kitchen-bar-pyha",
     "gastropub-giitu",
@@ -177,7 +188,6 @@
     "v-inkkari"
   ],
   "noPhoto": {
-    "cafe-bar-21": "Sivustolla vain brändikuvitusta, ei valokuvia",
     "bar-alakerta": "Vain Facebook",
     "pirtukellari-night-club": "Vain Facebook",
     "mustakissa-kuppila": "Vain Facebook",
