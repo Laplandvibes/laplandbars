@@ -907,6 +907,15 @@
           "Takka ja lämpimät juomat",
           "Kelkkavuokraus samasta talosta"
         ]
+      },
+      "Wanha Mestari Keskusta Rovaniemi": {
+        "type": "Pubi",
+        "description": "Pubi Koskikadulla Rovaniemen keskustassa, osa Wanha Mestari -ketjua. Paikka lupaa laajan juomavalikoiman ja hyvää musiikkia viikon jokaisena päivänä, ja ovet aukeavat iltapäivällä, lauantaisin jo puoliltapäivin. Tila oli ennen Hemingway's, ja tiskin takana olevassa hanaoluttaulussa lukee yhä vanha nimi.",
+        "highlights": [
+          "Auki joka päivä, lauantaisin puoliltapäivin",
+          "Laaja juomavalikoima",
+          "Koskikatu, keskusta"
+        ]
       }
     },
     "cityNav": {

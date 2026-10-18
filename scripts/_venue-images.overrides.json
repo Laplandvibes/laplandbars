@@ -130,6 +130,14 @@
       "changes": "rajaus 0,430–2252,1837 (16:10), pienennys 800x500, WebP q82",
       "shotAt": "2026-10-15",
       "note": "LaplandVibesin oma valokuva paikan päältä 15.10.2026: sisäänkäynti ja valaistu 21-kyltti, Rovakatu 21. Kohteen omalla sivustolla vain brändikuvitusta, joten tämä korvasi Commons-cocktailkuvituksen."
+    },
+    "wanha-mestari-keskusta-rovaniemi": {
+      "name": "Wanha Mestari Keskusta Rovaniemi",
+      "src": "/images/venues/wanha-mestari-keskusta-rovaniemi.webp",
+      "master": "_reissu-2026-10: 2026-10-15_levi-kolari-haaparanta-rovaniemi/20261015_183822.jpg",
+      "changes": "rajaus 500,150–3700,2150 (16:10), pienennys 800x500, WebP q82",
+      "shotAt": "2026-10-15",
+      "note": "LaplandVibesin oma valokuva paikan päältä 15.10.2026: julkisivu ja BAR WANHA MESTARI -ikkunateksti, Koskikatu 11. Olutmainokset (Guinness, Staropramen) ovat mietoja; väkevien mainoksia ei ruudussa."
     }
   },
   "approved": [
@@ -185,7 +193,8 @@
     "teerenpesa",
     "tornion-panimo",
     "uitto-pub",
-    "v-inkkari"
+    "v-inkkari",
+    "wanha-mestari-keskusta-rovaniemi"
   ],
   "noPhoto": {
     "bar-alakerta": "Vain Facebook",

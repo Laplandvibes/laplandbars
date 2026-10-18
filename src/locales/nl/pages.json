@@ -907,6 +907,15 @@
           "Open haard en warme dranken",
           "Sneeuwscooterverhuur uit hetzelfde huis"
         ]
+      },
+      "Wanha Mestari Keskusta Rovaniemi": {
+        "type": "Pub",
+        "description": "Een pub aan de Koskikatu in het centrum van Rovaniemi, onderdeel van de keten Wanha Mestari. De zaak belooft een ruime drankenkeuze en goede muziek op elke dag van de week; open vanaf de middag, op zaterdag al vanaf twaalf uur. Vroeger zat hier een Hemingway's, en op het tapbierbord achter de bar staat nog de oude naam.",
+        "highlights": [
+          "Elke dag open, zaterdag vanaf twaalf uur",
+          "Ruime drankenkeuze",
+          "Koskikatu, centrum"
+        ]
       }
     },
     "cityNav": {

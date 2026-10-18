@@ -907,6 +907,15 @@
           "壁炉与热饮",
           "同一处的雪地摩托租赁"
         ]
+      },
+      "Wanha Mestari Keskusta Rovaniemi": {
+        "type": "酒馆",
+        "description": "位于罗瓦涅米市中心 Koskikatu 街的酒馆，属于 Wanha Mestari 连锁。店家主打每天都有丰富的饮品和好音乐，下午开门，周六中午起营业。这里以前是 Hemingway's，吧台后面的生啤板上至今还写着旧店名。",
+        "highlights": [
+          "每天营业，周六中午起",
+          "饮品丰富",
+          "Koskikatu 街，市中心"
+        ]
       }
     },
     "cityNav": {

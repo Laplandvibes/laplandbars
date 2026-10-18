@@ -907,6 +907,15 @@
           "Brasa och varma drycker",
           "Skoteruthyrning i samma hus"
         ]
+      },
+      "Wanha Mestari Keskusta Rovaniemi": {
+        "type": "Pub",
+        "description": "En pub på Koskikatu i centrala Rovaniemi, en del av kedjan Wanha Mestari. Stället lovar ett brett dryckesutbud och bra musik alla veckans dagar, och det öppnar på eftermiddagen, på lördagar redan vid tolv. Lokalen var tidigare en Hemingway's, och på fatölstavlan bakom disken står det gamla namnet kvar.",
+        "highlights": [
+          "Öppet alla dagar, lördagar från tolv",
+          "Brett dryckesutbud",
+          "Koskikatu, centrum"
+        ]
       }
     },
     "cityNav": {

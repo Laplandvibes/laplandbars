@@ -907,6 +907,15 @@
           "Camino e bevande calde",
           "Noleggio motoslitte nella stessa casa"
         ]
+      },
+      "Wanha Mestari Keskusta Rovaniemi": {
+        "type": "Pub",
+        "description": "Un pub sulla Koskikatu, nel centro di Rovaniemi, parte della catena Wanha Mestari. Il locale promette un'ampia scelta di bevande e buona musica tutti i giorni della settimana; apre nel pomeriggio, il sabato già a mezzogiorno. Prima qui c'era un Hemingway's, e la lavagna delle birre alla spina dietro il bancone riporta ancora il vecchio nome.",
+        "highlights": [
+          "Aperto tutti i giorni, il sabato da mezzogiorno",
+          "Ampia scelta di bevande",
+          "Koskikatu, centro"
+        ]
       }
     },
     "cityNav": {

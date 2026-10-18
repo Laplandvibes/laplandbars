@@ -823,6 +823,48 @@ export const bars: Bar[] = [
     },
   },
   {
+    // Lähde https://www.wanhamestari.fi/ravintola/wanha-mestari-keskusta-rovaniemi/ (luettu 18.10.2026):
+    // Koskikatu 11, 96200 Rovaniemi; Ma–To 14–01, Pe 14–02, La 12–02, Su 14–24; "laaja valikoima juomia
+    // ja hyvää musiikkia viikon jokaisena päivänä". Ketjusivulla ei hintoja eikä toistuvia tapahtumia, joten
+    // niitä ei luvata. Sama osoite oli ennen Hemingway's (Restel); LV:n oma kuva 15.10.2026 sisältä näyttää
+    // tiskin takana yhä taulun "HEMINGWAY'S DRAFT BEERS". Kortin kuva: oma julkisivukuva 20261015_183822.
+    name: 'Wanha Mestari Keskusta Rovaniemi',
+    city: 'Rovaniemi',
+    type: 'Pub',
+    description: "A pub on Koskikatu in the centre of Rovaniemi, part of the Wanha Mestari chain. The bar's own line is a wide selection of drinks and good music every day of the week, and it opens in the afternoon, at noon on Saturdays. The room used to be a Hemingway's, and the draught-beer board behind the counter still carries the old name.",
+    highlights: ['Open every day, Saturdays from noon', 'Wide drinks selection', 'Koskikatu, city centre'],
+    price: {
+      en: 'Prices at the bar',
+      fi: 'Hinnat baarissa',
+      de: 'Preise vor Ort',
+      sv: 'Priser i baren',
+      fr: 'Tarifs sur place',
+      it: 'Prezzi al locale',
+      nl: 'Prijzen ter plaatse',
+      es: 'Precios en el local',
+      'pt-BR': 'Preços no local',
+      ja: '料金は店頭で',
+      ko: '가격은 매장에서',
+      'zh-CN': '价格以店内为准',
+    },
+    address: 'Koskikatu 11, 96200 Rovaniemi',
+    website: 'https://www.wanhamestari.fi/ravintola/wanha-mestari-keskusta-rovaniemi/',
+    hours: {
+      en: 'Mon–Thu 14–01, Fri 14–02, Sat 12–02, Sun 14–24',
+      fi: 'Ma–To 14–01, Pe 14–02, La 12–02, Su 14–24',
+      de: 'Mo–Do 14–01, Fr 14–02, Sa 12–02, So 14–24',
+      sv: 'Mån–Tors 14–01, Fre 14–02, Lör 12–02, Sön 14–24',
+      fr: 'Lun–Jeu 14–01, Ven 14–02, Sam 12–02, Dim 14–24',
+      it: 'Lun–Gio 14–01, Ven 14–02, Sab 12–02, Dom 14–24',
+      nl: 'Ma–Do 14–01, Vr 14–02, Za 12–02, Zo 14–24',
+      es: 'Lun–Jue 14–01, Vie 14–02, Sáb 12–02, Dom 14–24',
+      'pt-BR': 'Seg–Qui 14–01, Sex 14–02, Sáb 12–02, Dom 14–24',
+      ja: '月–木 14–01、金 14–02、土 12–02、日 14–24',
+      ko: '월–목 14–01, 금 14–02, 토 12–02, 일 14–24',
+      'zh-CN': '周一–周四 14–01，周五 14–02，周六 12–02，周日 14–24',
+    },
+  },
+  {
     name: 'MustaKissa Kuppila',
     city: 'Rovaniemi',
     type: 'Cocktail Bar',

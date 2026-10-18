@@ -52,9 +52,11 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
   // 17.10.2026: Commons-yökuva (Hansjoerg Eberle, CC BY 3.0) → oma kuva Rovaniemen baarista.
   // Vanha tiedosto: _reissu-2026-07/_ai-originals-backup/laplandbars-new/public/images/drive/whiskyBar.commons-eberle.webp
   "/images/drive/whiskyBar.webp": {
-    author: "LaplandVibes", license: "", licenseUrl: "", own: true, place: "Hemingway's, Rovaniemi",
+    // 18.10.2026: paikka on Wanha Mestari Keskusta Rovaniemi (Koskikatu 11). Se oli ennen Hemingway's, ja
+    // sisustus (hanaoluttaulu, Hemingwayn muotokuva) jäi; 17.10. merkinnässä luki virheellisesti "Hemingway's".
+    author: "LaplandVibes", license: "", licenseUrl: "", own: true, place: "Wanha Mestari, Rovaniemi",
     sourceUrl: "", title: "own:20261015_185456",
-    alt: "The bar counter of Hemingway's pub in Rovaniemi, with the draught beer board and a portrait of Hemingway on the wall",
+    alt: "The bar counter of pub Wanha Mestari on Koskikatu in Rovaniemi, with the draught beer board and a portrait of Hemingway on the wall",
     taken: "2026-10-15 18:54", changes: "Oma kuva (Galaxy S25 Edge 4000×2252), rajattu x 0–3300, y 420–2252 (ylähyllyn väkevien pakkaukset ja oikean reunan asiakkaat pois), pienennetty → .webp 2400x1332.", fetched: '2026-10-17', cost: '0 €',
   },
   "/images/drive/apresSkiLevi.webp": {

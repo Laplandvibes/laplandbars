@@ -369,5 +369,12 @@
     "sourceUrl": "https://hiyllas.fi/en/company/ski-pub-ala-asema/",
     "width": 800,
     "height": 500
+  },
+  "wanha-mestari-keskusta-rovaniemi": {
+    "src": "/images/venues/wanha-mestari-keskusta-rovaniemi.webp",
+    "credit": "LaplandVibes",
+    "sourceUrl": "",
+    "width": 800,
+    "height": 500
   }
 }
