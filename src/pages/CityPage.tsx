@@ -136,7 +136,9 @@ export default function CityPage() {
               fetchPriority="high"
               decoding="async"
             />
-            <div className="absolute inset-0 bg-gradient-to-b from-night/75 via-night/72 to-night" />
+            {/* 18.10.2026: ennen tasainen 0,72–0,75 koko kuvan päällä; nyt soikio tekstin takana ja
+                alareuna murupolun väriin, jotta oma kuva (Rovaniemellä Wanha Mestari) näkyy. */}
+            <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 80% 78% at 50% 54%, rgba(15,23,42,0.8) 0%, rgba(15,23,42,0.62) 55%, rgba(15,23,42,0.28) 100%), linear-gradient(to top, rgba(15,23,42,1) 0%, rgba(15,23,42,0) 30%)' }} />
             {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px, 4.10.2026). */}
             <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
             <ImageMark src={city.img} />
@@ -158,12 +160,14 @@ export default function CityPage() {
               {tagline}
             </p>
           )}
-          <p className="mt-6 inline-flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-white/75 text-sm">
-            <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 font-semibold">
+          <p className="mt-6 inline-flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-white/90 text-sm">
+            {/* 18.10.2026: chipeillä oma tumma pohja (oli bg-white/10): Levin lumikuvan päällä
+                14 px teksti mittasi 3,0–4,0:1 puhelimella. */}
+            <span className="inline-flex items-center gap-1.5 rounded-full bg-night/75 ring-1 ring-white/15 backdrop-blur-sm px-3 py-1.5 font-semibold">
               {countLabel}
             </span>
             {best !== null && (
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-white/10 px-3 py-1.5 font-semibold">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-night/75 ring-1 ring-white/15 backdrop-blur-sm px-3 py-1.5 font-semibold">
                 <Star size={12} className="text-amber fill-amber" />
                 {t('cities.shared.bestRated', {
                   rating: best.toLocaleString(locale, { minimumFractionDigits: 1, maximumFractionDigits: 1 }),

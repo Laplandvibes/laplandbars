@@ -41,6 +41,14 @@ const BRAND_WORD: Record<string, string> = {
   'laplandskiresorts.com': 'SKIRESORTS',
 };
 
+function hostOf(href: string): string {
+  try {
+    return new URL(href).hostname.replace(/^www\./, '');
+  } catch {
+    return href;
+  }
+}
+
 function brandWord(href: string): string | null {
   try {
     return BRAND_WORD[new URL(href).hostname.replace(/^www\./, '')] ?? null;
@@ -93,7 +101,9 @@ export default function RelatedSites({ links, className = '' }: { links?: Relate
                   </h3>
                   <p className="text-[15px] text-white/75 leading-relaxed mb-6">{link.desc}</p>
                   <span className="mt-auto inline-flex items-center gap-2 text-xs font-bold uppercase tracking-[0.18em] text-amber/90 group-hover:text-amber transition-colors">
-                    {t('home.related.cta', { defaultValue: link.href.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '') })}
+                    {/* 18.10.2026: vain verkkotunnus. Koko polku ("laplanddining.com/fi/city/rovaniemi")
+                        leikkautui kaupunkisivulla kortin reunan yli. */}
+                    <span className="min-w-0 truncate">{t('home.related.cta', { defaultValue: hostOf(link.href) })}</span>
                     <ArrowUpRight size={16} className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                   </span>
                   {/* Hover: amber-viiva pohjaan, sivuston oma korostus. */}

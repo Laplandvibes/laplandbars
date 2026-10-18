@@ -1,8 +1,8 @@
-import { ChevronDown, MapPin, ExternalLink, Snowflake, Music, Beer, Hotel, ArrowUpRight, Car } from 'lucide-react';
+import { ChevronDown, MapPin, ExternalLink, Snowflake, Music, Beer, Hotel, ArrowUpRight } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { BARS, CARDS, isSummerSeason } from '../data/images';
-import { bars, iceBars, getFeaturedBars, cities } from '../data/bars';
+import { getFeaturedBars, cities } from '../data/bars';
 import { slugForCity } from '../data/barCities';
 import PageSeo from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
@@ -276,23 +276,9 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Stat tiles — numbers derived from the live data (bars.ts), never
-              hardcoded: the old "16" survived two directory expansions. */}
-          <div className="mt-16 grid grid-cols-3 gap-3 md:gap-4 max-w-2xl mx-auto">
-            {[
-              { value: bars.length, label: t('home.destinations.statVenues') },
-              { value: cities.length, label: t('home.destinations.statDestinations') },
-              { value: iceBars.length, label: t('home.destinations.statIceBars') },
-            ].map((s) => (
-              <div
-                key={s.label}
-                className="rounded-3xl border border-white/10 bg-night/85 backdrop-blur-md p-4 md:p-5 text-center shadow-[0_8px_30px_rgba(0,0,0,0.35)]"
-              >
-                <p className="font-heading text-4xl md:text-5xl text-amber tracking-wide">{s.value}</p>
-                <p className="text-white/65 text-xs md:text-sm mt-1">{s.label}</p>
-              </div>
-            ))}
-          </div>
+          {/* 18.10.2026: lukulaatat (86 kohdetta · 9 kohdetta · 3 jääbaaria) poistettu: niitä ei voinut
+              klikata eivätkä ne kertoneet mitään, mitä kohdenapit yllä eivät jo kerro. Sama vikaluokka
+              kuin diningin KPI-laatat (Vesa 12.9.: "tyhjät ikonilaatikot"). */}
         </div>
       </section>
 
@@ -346,23 +332,9 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Getting home — Welcome Pickups airport/ride ad (advertiser-brand-skinned) */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-night">
-        <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-8">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber/10 border border-amber/30 text-amber text-xs font-semibold tracking-widest uppercase mb-4">
-              <Car size={12} />
-              {t('rideBand.kicker')}
-            </div>
-            <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-3 text-balance">
-              {t('rideBand.title')}
-            </h2>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto text-pretty">
-              {t('rideBand.sub')}
-            </p>
-          </div>
-        </div>
-      </section>
+      {/* 18.10.2026: "Sovi kyyti ennen ensimmäistä tuoppia" -osio poistettu. Sen kyytimainos
+          (Welcome Pickups) oli poistunut aiemmin, ja jäljelle jäi otsikko ja ingressi ilman yhtään
+          linkkiä tai nappia (Vesa: "jokainen kohta pitää olla syy miksi asiakas klikkaisi"). */}
 
       {/* FAQ — visible Q&A, mirrored by FAQPage JSON-LD in PageSeo above */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-night border-t border-white/5">

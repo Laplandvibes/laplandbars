@@ -16,6 +16,13 @@ type IngredientItem = { name: string; note: string };
 // aurora-shimmer shot and Lingonberry Spritz the lingonberry shot — literal matches.
 const cocktailImages = [BARS.cocktailBerry, BARS.cocktailAurora, BARS.lingonberryCocktails];
 
+/** Kaupungit, joissa cocktailbaarit ovat (cocktails.stayBand.sub nimeää nämä kolme). */
+const STAY_CITIES = [
+  { slug: 'rovaniemi', name: 'Rovaniemi', query: 'Rovaniemi, Finland' },
+  { slug: 'levi', name: 'Levi', query: 'Levi, Finland' },
+  { slug: 'saariselka', name: 'Saariselkä', query: 'Saariselkä, Finland' },
+];
+
 export default function Cocktails() {
   const { t } = useTranslation('pages');
   const cocktails = (t('cocktails.cocktails', { returnObjects: true }) as CocktailItem[]) || [];
@@ -45,7 +52,11 @@ export default function Cocktails() {
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 18.10.2026: tummennus soikiona tekstin takana, reunat kirkkaiksi (sama kuin /ice-bars ja
+            /apres-ski). Tasainen 0,56–0,88-peite teki kuvasta sameaa ja tummaa. */}
+        <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 80% 76% at 50% 54%, rgba(15,23,42,0.78) 0%, rgba(15,23,42,0.6) 55%, rgba(15,23,42,0.26) 100%), linear-gradient(to top, rgba(15,23,42,0.9) 0%, rgba(15,23,42,0) 28%)' }} />
+        {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px 18.10.2026: 2,4–3,5:1 ilman). */}
+        <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
         {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
             mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
         <ImageMark src={BARS.cocktailTrio} />
@@ -146,15 +157,25 @@ export default function Cocktails() {
                 {t('cocktails.stayBand.sub')}
               </p>
             </div>
-            <AffiliateCTA
-              partner="hotels"
-              sid="cocktails_stay_lapland"
-              destination="Lapland, Finland"
-              className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-3 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
-            >
-              {t('cocktails.stayBand.cta')}
-              <ExternalLink size={14} />
-            </AffiliateCTA>
+            {/* 18.10.2026: teksti päättyy "Hotellit kävelymatkan päässä:" ja sen perään kuuluvat
+                kaupungit, joissa cocktailbaarit ovat. Yksi "Etsi hotelleja Lapista" -nappi jätti
+                lauseen kesken ja vei koko Lapin listaan; nyt kolme nappia, kukin oman kaupungin
+                hotelleihin (syvin parametri, ks. CLAUDE.md "Affiliate Links"). */}
+            <div className="flex flex-wrap gap-2 sm:flex-col sm:items-stretch shrink-0">
+              {STAY_CITIES.map((c) => (
+                <AffiliateCTA
+                  key={c.slug}
+                  partner="hotels"
+                  sid={`cocktails_stay_${c.slug}`}
+                  destination={c.query}
+                  className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
+                >
+                  <Hotel size={14} />
+                  {t(`cities.${c.slug}.name`, { defaultValue: c.name })}
+                  <ExternalLink size={13} />
+                </AffiliateCTA>
+              ))}
+            </div>
           </div>
           <AffiliateDisclosure variant="full" className="mt-8 text-white/45 max-w-2xl mx-auto" />
         </div>

@@ -1,4 +1,4 @@
-import { Beer, Hotel, ExternalLink, Compass, UtensilsCrossed, Flame, ArrowUpRight } from 'lucide-react';
+import { Beer, Hotel, ExternalLink, Compass, UtensilsCrossed, Flame, ArrowUpRight, Map, Ticket } from 'lucide-react';
 import { useEffect, useRef, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { BARS } from '../data/images';
@@ -11,6 +11,9 @@ import PageBreadcrumb from '../components/PageBreadcrumb';
 import VenuePhoto from '../components/VenuePhoto';
 import { useLocale } from '../i18n/useLocale';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
+import { bars } from '../data/bars';
+import { findRating } from '../components/VenueRating';
+import { withReferral } from '../lib/withReferral';
 
 type Brewery = { name: string; location: string; description: string };
 type RealBeer = { name: string; brewery: string; abv: string; desc: string };
@@ -147,6 +150,19 @@ const GYG_FALLBACK_CARDS: Array<{
   },
 ];
 
+/**
+ * Panimokortin linkit. Vesa 18.10.2026: *"jokainen kohta pitää olla syy miksi asiakas klikkaisi"* —
+ * kortissa oli kuva ja teksti mutta ei yhtään linkkiä panimoon. Lapland Brewery on bars.ts:ssä
+ * (verkkosivu, panimokierroksen varaus, karttalinkki arviorivistä); Tornion Panimoa ei ole, joten sen
+ * verkkosivu tulee kuvarekisteristä (tornionpanimo.fi) ja kartta on Googlen hakulinkki nimellä.
+ */
+const BREWERY_EXTRA: Record<string, { website?: string; map?: string }> = {
+  'Tornion Panimo': {
+    website: 'https://tornionpanimo.fi/',
+    map: 'https://www.google.com/maps/search/?api=1&query=Tornion%20Panimo%2C%20Tornio',
+  },
+};
+
 export default function CraftBeer() {
   const { t, i18n } = useTranslation('pages');
   const { locale } = useLocale();
@@ -209,7 +225,11 @@ export default function CraftBeer() {
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 18.10.2026: tummennus soikiona tekstin takana, reunat kirkkaiksi (sama kuin /ice-bars ja
+            /apres-ski). Tasainen 0,56–0,88-peite teki kuvasta sameaa ja tummaa. */}
+        <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 80% 76% at 50% 54%, rgba(15,23,42,0.78) 0%, rgba(15,23,42,0.6) 55%, rgba(15,23,42,0.26) 100%), linear-gradient(to top, rgba(15,23,42,0.9) 0%, rgba(15,23,42,0) 28%)' }} />
+        {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px 18.10.2026: 2,4–3,5:1 ilman). */}
+        <div className="absolute inset-0 bg-night/25 sm:hidden pointer-events-none" aria-hidden="true" />
         {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
             mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
         <ImageMark src={BARS.craftBeerGlasses} />
@@ -232,41 +252,86 @@ export default function CraftBeer() {
               const featured = featuredFlags[brewery.name] ?? false;
               const beers = breweryBeers[brewery.name] ?? [];
               return (
-                <div
+                <article
                   key={brewery.name}
-                  className={`bar-card bar-card-hover group overflow-hidden p-7 flex flex-col h-full${featured ? ' bar-card-featured' : ''}`}
+                  className={`bar-card bar-card-hover group overflow-hidden flex flex-col h-full${featured ? ' bar-card-featured' : ''}`}
                 >
                   {/* Panimon OMA kuva: Lapin Panimon panimopubi ja Tornion
                       Panimon oma tuotekuva. Tassa oli AI-kuva, jonka tynnyreissa
-                      luki keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.). */}
+                      luki keksitty "LAPON PANIMO" (kuvien tekstiauditti 17.8.).
+                      18.10.2026: kuva reunasta reunaan 4:3 kuten baarikorteissa. */}
                   <VenuePhoto
                     name={brewery.name}
                     fallback={BARS.craftBeerTaps}
                     alt={brewery.name}
                     locale={locale}
-                    className="-mx-7 -mt-7 mb-6 aspect-[16/10] shrink-0"
+                    className="aspect-[4/3] shrink-0"
                     hoverZoom
                   />
-                  {featured && (
-                    <div className="flex items-center gap-2 text-amber text-xs uppercase tracking-widest mb-4">
-                      <Beer size={12} />
-                      {t('craftBeer.featuredKicker')}
+                  <div className="p-6 sm:p-7 flex flex-col flex-1">
+                    {featured && (
+                      <div className="flex items-center gap-2 text-amber text-xs font-semibold uppercase tracking-[0.16em] mb-3">
+                        <Beer size={13} />
+                        {t('craftBeer.featuredKicker')}
+                      </div>
+                    )}
+                    <h3 className="font-heading text-2xl text-white tracking-wide leading-[1.15] mb-1">{brewery.name}</h3>
+                    <p className="text-xs text-amber font-semibold uppercase tracking-[0.16em] mb-4">{brewery.location}</p>
+                    <p className="text-[15px] text-white/85 leading-relaxed mb-5">{brewery.description}</p>
+                    <div className="mb-5">
+                      <p className="text-xs text-white/70 font-semibold uppercase tracking-wider mb-2">{t('craftBeer.knownBeers')}</p>
+                      <div className="flex flex-wrap gap-2">
+                        {beers.map((beer) => (
+                          <span key={beer} className="text-xs bg-amber/10 text-amber/90 border border-amber/15 px-2.5 py-1 rounded-full">
+                            {beer}
+                          </span>
+                        ))}
+                      </div>
                     </div>
-                  )}
-                  <h3 className="font-heading text-xl text-white tracking-wide mb-1">{brewery.name}</h3>
-                  <p className="text-xs text-white/65 uppercase tracking-wider mb-4">{brewery.location}</p>
-                  <p className="text-sm text-white/80 leading-relaxed mb-5">{brewery.description}</p>
-                  <div>
-                    <p className="text-xs text-white/65 uppercase tracking-wider mb-2">{t('craftBeer.knownBeers')}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {beers.map((beer) => (
-                        <span key={beer} className="text-xs bg-amber/8 text-amber/70 px-2 py-1 rounded-full">
-                          {beer}
-                        </span>
-                      ))}
-                    </div>
+                    {(() => {
+                      const bar = bars.find((x) => x.name === brewery.name);
+                      const extra = BREWERY_EXTRA[brewery.name] ?? {};
+                      const website = bar?.website ?? extra.website;
+                      const map = findRating(brewery.name)?.mapsUri ?? extra.map;
+                      const tourUrl = bar?.tour?.directBookingUrl;
+                      return (
+                        <div className="mt-auto pt-4 border-t border-white/10 flex flex-wrap items-center gap-x-5 -mb-2">
+                          {website && (
+                            <a
+                              href={withReferral(website, 'bars_craft_beer')}
+                              target="_blank"
+                              rel="nofollow noopener"
+                              className="lv-tap inline-flex items-center gap-1 py-2.5 text-[13px] font-semibold uppercase tracking-wider text-white/80 hover:text-white no-underline transition-colors"
+                            >
+                              {t('bars.venueWebsite')} <ExternalLink size={11} />
+                            </a>
+                          )}
+                          {map && (
+                            <a
+                              href={map}
+                              target="_blank"
+                              rel="nofollow noopener"
+                              className="lv-tap inline-flex items-center gap-1 py-2.5 text-[13px] font-semibold uppercase tracking-wider text-white/80 hover:text-white no-underline transition-colors"
+                            >
+                              <Map size={11} /> {t('bars.venueMap')}
+                            </a>
+                          )}
+                          {tourUrl && (
+                            <a
+                              href={withReferral(tourUrl, 'bars_craft_beer_tour')}
+                              target="_blank"
+                              rel="nofollow noopener"
+                              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                            >
+                              <Ticket size={12} />
+                              {t(`bars.venues.${brewery.name}.tour.directLabel`, { defaultValue: bar?.tour?.directBookingLabel ?? t('bars.bookDirect') })}
+                            </a>
+                          )}
+                        </div>
+                      );
+                    })()}
                   </div>
-                </div>
+                </article>
               );
             })}
           </div>
