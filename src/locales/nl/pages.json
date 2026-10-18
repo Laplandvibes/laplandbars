@@ -916,6 +916,15 @@
           "Ruime drankenkeuze",
           "Koskikatu, centrum"
         ]
+      },
+      "Kultahippu Ivalo": {
+        "type": "Hotelrestaurant met bar",
+        "description": "Restaurant, bar en nachtclub van Hotel Kultahippu in Ivalo, zo'n 30 km ten noorden van Saariselkä over de weg (ongeveer 25 minuten), dus niet in het dorp zelf. Volgens het hotel staat het restaurant bekend om zijn eten: de à-la-cartekaart loopt van noordelijke specialiteiten tot de paradepaardjes van de chef, en op werkdagen is er van 11 tot 15 uur een lunchbuffet. De vernieuwde nachtclub gaat open op evenementavonden.",
+        "highlights": [
+          "In Ivalo, zo'n 30 km ten noorden van Saariselkä",
+          "À la carte met noordelijke specialiteiten",
+          "Nachtclub op evenementavonden"
+        ]
       }
     },
     "cityNav": {

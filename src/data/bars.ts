@@ -2804,6 +2804,51 @@ export const bars: Bar[] = [
     },
   },
   {
+    // Lähde https://hotellikultahippu.fi/ravintola-ja-yokerho/ ja etusivu (luettu 18.10.2026): Hotelli
+    // Kultahippu, Petsamontie 1, 99800 Ivalo; ravintola ma–su 11–22 (12.4.–15.11.2026) ja 11–23
+    // (16.11.2026–4.4.2027); lounasbuffet arkisin 11–15; "uudistunut yökerho" vain tapahtumailtoina.
+    // 🔴 IVALOSSA, EI Saariselällä: Vesa 18.10.2026 halusi kohteen Saariselän alle selvällä Ivalo-
+    // merkinnällä (Ivalossa ei ole omaa baarisivua, alaraja 4 kohdetta). Etäisyys tietä pitkin noin 30 km
+    // POHJOISEEN (31–32 km, n. 25 min). Kuuluu Visit Inarille (kumppani). Kortin kuva: oma kuva
+    // ravintolan takasta 20261012_120223; baaritiskin kuva 120148 hylätty (Minttu-juliste ja Fireball-
+    // tiskimatot = väkevien mainontaa, alkoholilaki, sama syy kuin jääbaarin Minttu-banneri).
+    name: 'Kultahippu Ivalo',
+    city: 'Saariselkä',
+    type: 'Hotel restaurant bar',
+    description: "Hotel Kultahippu's restaurant, bar and nightclub in Ivalo, about 30 km north of Saariselkä by road (around 25 minutes), not in the village itself. The hotel says its restaurant is known for its food, with an à la carte list running from northern specialities to the head chef's own signature dishes, plus a lunch buffet on weekdays from 11 to 15. The renovated nightclub opens on event nights.",
+    highlights: ['In Ivalo, about 30 km north of Saariselkä', 'À la carte with northern specialities', 'Nightclub on event nights'],
+    price: {
+      en: 'Prices at the bar',
+      fi: 'Hinnat baarissa',
+      de: 'Preise vor Ort',
+      sv: 'Priser i baren',
+      fr: 'Tarifs sur place',
+      it: 'Prezzi al locale',
+      nl: 'Prijzen ter plaatse',
+      es: 'Precios en el local',
+      'pt-BR': 'Preços no local',
+      ja: '料金は店頭で',
+      ko: '가격은 매장에서',
+      'zh-CN': '价格以店内为准',
+    },
+    address: 'Petsamontie 1, 99800 Ivalo',
+    website: 'https://hotellikultahippu.fi/ravintola-ja-yokerho/',
+    hours: {
+      en: 'Daily 11–22, from 16 Nov daily 11–23',
+      fi: 'Joka päivä 11–22, 16.11. alkaen joka päivä 11–23',
+      de: 'Täglich 11–22, ab 16. Nov. täglich 11–23',
+      sv: 'Dagligen 11–22, från 16 nov dagligen 11–23',
+      fr: 'Tous les jours 11–22, dès le 16 nov. tous les jours 11–23',
+      it: 'Tutti i giorni 11–22, dal 16 nov. tutti i giorni 11–23',
+      nl: 'Dagelijks 11–22, vanaf 16 nov. dagelijks 11–23',
+      es: 'Todos los días 11–22, desde el 16 nov. todos los días 11–23',
+      'pt-BR': 'Todos os dias 11–22, a partir de 16 nov. todos os dias 11–23',
+      ja: '毎日 11–22、11月16日から毎日 11–23',
+      ko: '매일 11–22, 11월 16일부터 매일 11–23',
+      'zh-CN': '每天 11–22，11月16日起每天 11–23',
+    },
+  },
+  {
     // Lähde https://www.tulikuuma.fi/ravintolat/kaunis-jorma/ · https://www.facebook.com/kaunisjormasaariselka/ (luettu 12.9.2026)
     // Hours conflict between two of the venue's own channels: the opening-hours table on
     // tulikuuma.fi says Mon-Thu 14-24 (extendable to 02), Fri-Sat 14-02, Sun closed, while a

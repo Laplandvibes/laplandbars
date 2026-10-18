@@ -916,6 +916,15 @@
           "Large choix de boissons",
           "Koskikatu, centre-ville"
         ]
+      },
+      "Kultahippu Ivalo": {
+        "type": "Restaurant bar d'hôtel",
+        "description": "Le restaurant, le bar et la boîte de nuit de l'hôtel Kultahippu à Ivalo, à environ 30 km au nord de Saariselkä par la route (environ 25 minutes), donc pas dans le village même. Selon l'hôtel, le restaurant est réputé pour sa cuisine : une carte allant des spécialités du Grand Nord aux plats signature du chef, et un buffet du midi en semaine de 11 h à 15 h. La boîte de nuit rénovée ouvre les soirs d'événement.",
+        "highlights": [
+          "À Ivalo, à environ 30 km au nord de Saariselkä",
+          "Carte de spécialités du Grand Nord",
+          "Boîte de nuit les soirs d'événement"
+        ]
       }
     },
     "cityNav": {

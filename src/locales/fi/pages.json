@@ -916,6 +916,15 @@
           "Laaja juomavalikoima",
           "Koskikatu, keskusta"
         ]
+      },
+      "Kultahippu Ivalo": {
+        "type": "Hotelliravintolan baari",
+        "description": "Hotelli Kultahipun ravintola, baari ja yökerho Ivalossa, noin 30 km Saariselältä pohjoiseen tietä pitkin (noin 25 minuuttia), eli ei itse kylässä. Hotellin mukaan ravintola on tunnettu hyvästä ruoastaan: à la carte -listalla on pohjoisen erikoisuuksista keittiömestarin omiin bravuureihin, ja arkisin klo 11–15 on lounasbuffet. Uudistunut yökerho on auki tapahtumailtoina.",
+        "highlights": [
+          "Ivalossa, noin 30 km Saariselältä pohjoiseen",
+          "À la carte, pohjoisen erikoisuuksia",
+          "Yökerho tapahtumailtoina"
+        ]
       }
     },
     "cityNav": {

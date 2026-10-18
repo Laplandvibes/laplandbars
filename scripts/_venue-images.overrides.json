@@ -138,6 +138,14 @@
       "changes": "rajaus 500,150–3700,2150 (16:10), pienennys 800x500, WebP q82",
       "shotAt": "2026-10-15",
       "note": "LaplandVibesin oma valokuva paikan päältä 15.10.2026: julkisivu ja BAR WANHA MESTARI -ikkunateksti, Koskikatu 11. Olutmainokset (Guinness, Staropramen) ovat mietoja; väkevien mainoksia ei ruudussa."
+    },
+    "kultahippu-ivalo": {
+      "name": "Kultahippu Ivalo",
+      "src": "/images/venues/kultahippu-ivalo.webp",
+      "master": "_reissu-2026-10: 2026-10-12_saariselka-ivalo-inari-kaamanen/20261012_120223.jpg",
+      "changes": "pystyruutu, rajaus 0,1500–2252,2907 (16:10), pienennys 800x500, WebP q82",
+      "shotAt": "2026-10-12",
+      "note": "LaplandVibesin oma kuva Hotelli Kultahipun ravintolan kivitakasta 12.10.2026 (Visit Inari on kumppani: oma kuva kumppanin tiloista sallittu). Baaritiskin kuva 20261012_120148 hylätty: Minttu-juliste ja Fireball-tiskimatot ovat väkevien alkoholijuomien mainontaa."
     }
   },
   "approved": [
@@ -162,6 +170,7 @@
     "kauppayhtio",
     "keloravintola",
     "kieppi-kitchen-bar",
+    "kultahippu-ivalo",
     "lapland-brewery",
     "lobby-bar-lapland-hotels-yllaskaltio",
     "lobby-bar-scandic-rukahovi",

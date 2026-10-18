@@ -376,5 +376,12 @@
     "sourceUrl": "",
     "width": 800,
     "height": 500
+  },
+  "kultahippu-ivalo": {
+    "src": "/images/venues/kultahippu-ivalo.webp",
+    "credit": "LaplandVibes",
+    "sourceUrl": "",
+    "width": 800,
+    "height": 500
   }
 }

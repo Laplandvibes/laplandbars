@@ -916,6 +916,15 @@
           "Amplia carta de bebidas",
           "Koskikatu, centro"
         ]
+      },
+      "Kultahippu Ivalo": {
+        "type": "Restaurante-bar de hotel",
+        "description": "El restaurante, el bar y la discoteca del hotel Kultahippu en Ivalo, a unos 30 km al norte de Saariselkä por carretera (unos 25 minutos), es decir, fuera del propio pueblo. Según el hotel, el restaurante es conocido por su cocina: la carta va de las especialidades del norte a los platos estrella del chef, y los días laborables hay bufé de almuerzo de 11 a 15. La discoteca renovada abre las noches de eventos.",
+        "highlights": [
+          "En Ivalo, a unos 30 km al norte de Saariselkä",
+          "Carta con especialidades del norte",
+          "Discoteca las noches de eventos"
+        ]
       }
     },
     "cityNav": {

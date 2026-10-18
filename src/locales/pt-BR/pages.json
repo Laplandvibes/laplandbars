@@ -916,6 +916,15 @@
           "Ampla seleção de bebidas",
           "Koskikatu, centro"
         ]
+      },
+      "Kultahippu Ivalo": {
+        "type": "Restaurante-bar de hotel",
+        "description": "Restaurante, bar e balada do Hotel Kultahippu em Ivalo, a cerca de 30 km ao norte de Saariselkä pela estrada (uns 25 minutos), ou seja, fora da vila. Segundo o hotel, o restaurante é conhecido pela comida: o cardápio à la carte vai das especialidades do norte aos pratos assinatura do chef, e nos dias úteis há bufê de almoço das 11h às 15h. A balada reformada abre em noites de eventos.",
+        "highlights": [
+          "Em Ivalo, a cerca de 30 km ao norte de Saariselkä",
+          "À la carte com especialidades do norte",
+          "Balada em noites de eventos"
+        ]
       }
     },
     "cityNav": {
