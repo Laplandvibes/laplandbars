@@ -93,6 +93,11 @@
 
   body {
     font-family: var(--font-body);
+    /* Vesa 18.10.2026: *"tekstit voisi olla hieman selkeämmät vielä! mieti fonttityylejä"*.
+       DM Sans 400 vaalealla tekstillä tummalla pohjalla piirtyy Windowsin ClearTypellä ohueksi
+       13–15 px:n koossa. Muuttuva fontti (100–1000) antaa välipainon: 450 lukee selvemmin
+       ilman että teksti näyttää lihavoidulta. Otsikot ovat Bebas Neuea, eivät muutu. */
+    font-weight: 450;
     background-color: var(--color-night);
     color: #F9FAFB;
     -webkit-font-smoothing: antialiased;

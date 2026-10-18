@@ -90,8 +90,11 @@ export default function DrinkingCulture() {
       <section className="dc-hero relative min-h-[62vh] flex items-end overflow-hidden">
         <img
           src={BARS.drinkingCultureHero}
-          alt={photoAlt(BARS.drinkingCultureHero, 'A Finnish pub')}
+          alt={photoAlt(BARS.drinkingCultureHero, 'Queues outside the state liquor stores in Helsinki on 5 April 1932')}
           className="dc-hero-img absolute inset-0 w-full h-full object-cover"
+          /* 1932-kuvan ratsupoliisit ovat oikealla alhaalla: kohdistus pitää hevoset ja jonon näkyvissä
+             sekä leveällä että puhelimen pystyruudulla. */
+          style={{ objectPosition: '60% 70%' }}
           loading="eager"
           fetchPriority="high"
           decoding="async"

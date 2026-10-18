@@ -71,11 +71,14 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
     alt: "Hotel On-Piste at the Ylläs ski resort on a March evening",
     taken: "5 March 2008", changes: "Pienennetty 3300×2477 → .webp 2400x1801; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
   },
+  // 18.10.2026 (Vesa: hero *"ei aiheuta fiilistä että luempa historiaa"*): Oulun Jumpru-pubin
+  // pullohylly vaihtui päivään, jona kieltolaki päättyi. Finna/Museovirasto: tekijä, kokoelma ja
+  // organisaatio mainittava. Kuvan ihmiset ovat 1932 julkisen jonon väkeä, ei markkinointikäyttöä.
   "/images/drive/drinkingCultureHero.webp": {
-    author: "Estormiz", license: "CC0", licenseUrl: "https://creativecommons.org/publicdomain/zero/1.0/",
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Jumpru_Pub_Bar_Oulu_20130718.jpg", title: "Jumpru Pub Bar Oulu 20130718.jpg",
-    alt: "Bottles and glasses behind the bar of Pub Jumpru in Oulu",
-    taken: "18 July 2013, 20:02:42", changes: "Pienennetty 2460×1845 → .webp 2400x1800; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
+    author: "Hugo Sundström / Museovirasto, JOKA", license: "CC BY 4.0", licenseUrl: "https://creativecommons.org/licenses/by/4.0/",
+    sourceUrl: "https://www.finna.fi/Record/museovirasto.a932f6bd-a1fc-48be-9f25-ec1a382970a9", title: "Oy Alkoholiliike Ab:n myymälät aukeavat (Finna)",
+    alt: "Mounted police keep order as people queue outside the newly opened state liquor stores in Helsinki on 5 April 1932, the day prohibition ended",
+    taken: "1932-04-05", changes: "Pienennetty 3000×1938 → .webp 2400x1550 harmaasävynä; ei rajausta, ei muita muutoksia.", fetched: '2026-10-18', cost: '0 €',
   },
   "/images/drive/heroMain.webp": {
     author: "LaplandVibes", license: "", licenseUrl: "", own: true, place: "Wanha Mestari, Tornio",
@@ -89,17 +92,25 @@ export const PHOTO_CREDITS: Record<string, PhotoCredit> = {
     alt: "Snowy fell landscape seen from Kaunispää in Saariselkä on a February morning",
     taken: "2019-02-21 10:55", changes: "Pienennetty 3008×1692 → .webp 2400x1350; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
   },
+  // 18.10.2026 (Vesa: jääbaarien hero *"ei oikein mitään fiilistä herätä"*): Rukan hämärä
+  // jäätiski vaihtui Kemin LumiLinnan siniseksi valaistuun jääpöytäsaliin.
   "/images/drive/heroIceBars.webp": {
-    author: "Timo Newton-Syms", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ice_Bar_(4466369333).jpg", title: "Ice Bar (4466369333).jpg",
-    alt: "The ice counter and ice block seats inside the Chalet Ruka Peak ice bar in Ruka",
-    taken: "2010-03-27 12:30", changes: "Pienennetty 1600×1200 → .webp 1600x1200; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
+    author: "CookMeSomeKai", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:LumiLinna_SnowCastle_2012,_restaurant_area_2.JPG", title: "LumiLinna SnowCastle 2012, restaurant area 2.JPG",
+    alt: "Blue-lit ice tables and carved snow walls in the restaurant hall of the LumiLinna SnowCastle in Kemi",
+    taken: "2012-04-08 16:05", changes: "Muunnettu .webp 1600x1200 (alkuperäinen koko); ei rajausta, ei muita muutoksia.", fetched: '2026-10-18', cost: '0 €',
   },
   "/images/cards/heroIceBars.webp": {
-    author: "Timo Newton-Syms", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",
-    sourceUrl: "https://commons.wikimedia.org/wiki/File:Ice_Bar_(4466369333).jpg", title: "Ice Bar (4466369333).jpg",
-    alt: "The ice counter and ice block seats inside the Chalet Ruka Peak ice bar in Ruka",
-    taken: "2010-03-27 12:30", changes: "Pienennetty 1600×1200 → .webp 800x600; ei rajausta, ei muita muutoksia.", fetched: '2026-10-04', cost: '0 €',
+    author: "CookMeSomeKai", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:LumiLinna_SnowCastle_2012,_bar_area.JPG", title: "LumiLinna SnowCastle 2012, bar area.JPG",
+    alt: "An ice bar counter engraved with a fox beside a lit snow sculpture in the LumiLinna SnowCastle in Kemi",
+    taken: "2012-04-08 16:07", changes: "Pienennetty 1600×1200 → .webp 800x600; ei rajausta, ei muita muutoksia.", fetched: '2026-10-18', cost: '0 €',
+  },
+  "/images/drive/snowHotelRooms.webp": {
+    author: "CookMeSomeKai", license: "CC BY-SA 3.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/3.0/",
+    sourceUrl: "https://commons.wikimedia.org/wiki/File:LumiLinna_SnowCastle_2012,_hotel_rooms.JPG", title: "LumiLinna SnowCastle 2012, hotel rooms.JPG",
+    alt: "Blue wooden doors to the snow hotel rooms along a carved snow corridor in the LumiLinna SnowCastle in Kemi",
+    taken: "2012-04-08 15:44", changes: "Pienennetty 1600×1200 → .webp 1200x900; ei rajausta, ei muita muutoksia.", fetched: '2026-10-18', cost: '0 €',
   },
   "/images/drive/heroApres.webp": {
     author: "Timo Newton-Syms", license: "CC BY-SA 2.0", licenseUrl: "https://creativecommons.org/licenses/by-sa/2.0/",

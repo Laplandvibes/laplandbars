@@ -6,7 +6,8 @@ import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo'
 import AffiliateCTA from '../components/AffiliateCTA';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
-import VenuePhoto from '../components/VenuePhoto';
+import BarCard from '../components/BarCard';
+import { bars } from '../data/bars';
 import { useLocale } from '../i18n/useLocale';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
 
@@ -25,13 +26,14 @@ const resortStays: Record<string, { query: string; sid: string; hintKey: string 
   'Iso-Syöte': { query: 'Syöte, Finland', sid: 'apres_stay_isosyote', hintKey: 'IsoSyote' },
 };
 
+/** Après-ski-paikat ovat kaikki bars.ts:ssä (osoite, aukiolo, hinta, verkkosivu). */
+const BAR_BY_NAME = new Map(bars.map((b) => [b.name, b]));
+
 type ResortMeta = {
   resort: string;
   slug: string;
   /** Naytetaan nimen vieressa vain kun kohde EI ole Lapissa. */
   region?: string;
-  /** Kohde, jonka oma valokuva on kaistassa. Lahde nakyy kuvan kulmassa. */
-  bandVenue: string;
   venues: { name: string; highlight: boolean }[];
 };
 
@@ -39,9 +41,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Levi',
     slug: 'levi',
-    // Kaistan kuva on kohteen OMA valokuva, ei AI-kuvitus: aiemmin tassa oli
-    // BARS.apresSkiLevi. Kuvan lahde nakyy kaistan kulmassa (VenuePhoto).
-    bandVenue: 'Hullu Poro Areena',
     venues: [
       { name: 'Hullu Poro Areena', highlight: true },
       { name: 'Bar Ihku', highlight: false },
@@ -52,7 +51,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Ylläs',
     slug: 'yllas',
-    bandVenue: 'Selvä Pyy',
     venues: [
       { name: 'Selvä Pyy', highlight: true },
       { name: 'Pirtukellari Night Club', highlight: false },
@@ -61,7 +59,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Pyhä',
     slug: 'pyha',
-    bandVenue: 'CAMP Kitchen & Bar PYHÄ',
     venues: [
       { name: 'Hanki Baari Pyhä', highlight: true },
       { name: 'Mesta', highlight: false },
@@ -74,7 +71,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Luosto',
     slug: 'luosto',
-    bandVenue: 'Nightclub Karhu',
     venues: [
       { name: 'Rumpu Bar (Rumpubaari)', highlight: true },
       { name: 'Nightclub Karhu', highlight: false },
@@ -83,7 +79,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Salla',
     slug: 'salla',
-    bandVenue: 'Keloravintola',
     venues: [
       { name: 'Keloravintola', highlight: true },
       { name: 'Papana Pupi', highlight: false },
@@ -92,7 +87,6 @@ const spotsMeta: ResortMeta[] = [
   {
     resort: 'Saariselkä',
     slug: 'saariselka',
-    bandVenue: 'Restaurant Pirtti',
     venues: [
       { name: 'Restaurant Pirtti', highlight: true },
     ],
@@ -101,7 +95,6 @@ const spotsMeta: ResortMeta[] = [
     resort: 'Ruka',
     slug: 'ruka',
     region: 'Koillismaa',
-    bandVenue: 'Bar Ihku Ruka',
     venues: [
       { name: 'Bar Ihku Ruka', highlight: true },
       { name: 'Ravintola Zone', highlight: false },
@@ -115,7 +108,6 @@ const spotsMeta: ResortMeta[] = [
     resort: 'Iso-Syöte',
     slug: 'iso-syote',
     region: 'Syöte',
-    bandVenue: 'Pärjä Ski Bistro',
     venues: [
       { name: 'Pärjä Ski Bistro', highlight: true },
       { name: 'TunturiPUB', highlight: false },
@@ -162,11 +154,18 @@ export default function ApresSki() {
           src={BARS.heroApres}
           alt={photoAlt(BARS.heroApres, 'Après-ski bar in Lapland')}
           className="absolute inset-0 w-full h-full object-cover"
+          /* Vesa 18.10.2026: *"kuvaa voisi nostaa jolloin rinnettä näkyy vähemmän ja itse baari näkyisi"*.
+             Jääbaari (liput, sisäänkäynti) on kuvan alaneljänneksellä; keskikohdistus näytti rinteen. */
+          style={{ objectPosition: 'center 85%' }}
           loading="eager"
           fetchPriority="high"
           decoding="async"
         />
-        <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.88) 0%, rgba(15,23,42,0.68) 50%, rgba(15,23,42,0.56) 100%)' }} />
+        {/* 18.10.2026 (Vesa: "ei oikein mitään fiilistä herätä"): tasainen 0,56–0,88-peite peitti koko
+            kuvan. Nyt tummennus on soikiona tekstin takana ja reunat jäävät kirkkaiksi; alareuna liukuu
+            murupolun väriin. Après-skin kuvassa ingressin alla on paljasta lunta: heroteksti-portti mittasi
+            0,64-keskellä 3,6–4,2:1, joten tällä sivulla keskikohta 0,74. */}
+        <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(ellipse 78% 72% at 50% 52%, rgba(15,23,42,0.74) 0%, rgba(15,23,42,0.52) 55%, rgba(15,23,42,0.2) 100%), linear-gradient(to top, rgba(15,23,42,0.9) 0%, rgba(15,23,42,0) 28%)' }} />
         {/* 4.10.2026: valokuva (lumi, jää, valo) on kirkkaampi kuin entinen tekoälykuva: heroteksti-portti
             mittasi ingressin 2,0–3,2:1. Keskikaista 0,42 → 0,68 (valkoinen teksti ≥ 4,5:1 valkoisenkin kohdan päällä). */}
         {/* Puhelimella ingressi täyttää koko leveyden: lisäpeite (heroteksti-portti 375 px, 4.10.2026). */}
@@ -246,74 +245,69 @@ export default function ApresSki() {
             </ul>
           </nav>
 
-          {spotsMeta.map((resort) => (
-            <div key={resort.resort} id={resort.slug} className="scroll-mt-24">
-              {/* Kohteen otsikko: vasemmalla kohteen OMA valokuva (16:10, lahde
-                  kuvan kulmassa), oikealla nimi, alue ja majoitus-CTA. Aiemmin
-                  tassa oli koko leveyden AI-kuvakaista, josta nakyi 27 % —
-                  gate:kuvakehys kaatuu siihen. */}
-              <div className="grid grid-cols-1 md:grid-cols-[340px_minmax(0,1fr)] gap-6 md:gap-8 items-center mb-8">
-                <VenuePhoto
-                  name={resort.bandVenue}
-                  fallback={CARDS.apresToast}
-                  alt={resort.bandVenue}
-                  locale={locale}
-                  className="rounded-2xl aspect-[16/10]"
-                  scrim="bg-gradient-to-t from-night/55 to-transparent"
-                />
-                <div className="min-w-0">
-                  <div className="flex items-baseline flex-wrap gap-x-4 gap-y-2 mb-3">
-                    <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide">{resort.resort}</h2>
-                    {resort.region && (
-                      <span className="text-[11px] font-bold uppercase tracking-[0.2em] text-ice/80 border border-ice/25 rounded-full px-2.5 py-1">
-                        {resort.region}
-                      </span>
-                    )}
-                  </div>
-                  {resortStays[resort.resort] && (
-                    <>
-                      <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-1.5 flex items-center gap-1.5">
-                        <Hotel size={11} />
-                        {t('apresSki.stayKicker', { resort: resort.resort })}
-                      </p>
-                      <p className="text-white/70 text-sm leading-relaxed mb-4">{t(`apresSki.stayHints.${resortStays[resort.resort].hintKey}`)}</p>
-                      <AffiliateCTA
-                        partner="hotels"
-                        sid={resortStays[resort.resort].sid}
-                        destination={resortStays[resort.resort].query}
-                        className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
-                      >
-                        {t('apresSki.findHotel')}
-                        <ExternalLink size={14} />
-                      </AffiliateCTA>
-                    </>
-                  )}
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                {resort.venues.map((venue) => {
-                  const type = t(`apresSki.venues.${venue.name}.type`);
-                  const desc = t(`apresSki.venues.${venue.name}.desc`);
-                  return (
-                    <div
-                      key={venue.name}
-                      className={`bar-card bar-card-hover p-7 flex flex-col h-full${venue.highlight ? ' bar-card-featured' : ''}`}
-                    >
-                      {venue.highlight && (
-                        <span className="inline-block self-start text-xs bg-amber/15 text-amber px-2 py-0.5 rounded-full mb-3 font-medium">
-                          {t('apresSki.topInResort', { resort: resort.resort })}
+          {/* Vesa 18.10.2026: *"mikä ihme tämä apres ski teema on ja meininki, aivan paskaa?
+              ihan keskeneräinen?"*. Ennen: pieni kuva + jättimäinen hotellinappi + tekstilaatikot
+              ilman yhtään linkkiä, eli lukija ei päässyt minnekään muualle kuin majoitukseen.
+              Nyt jokainen paikka on sama BarCard kuin /bars-sivulla: oma kuva, aukiolo, osoite,
+              hinta ja linkit (ruokalista, verkkosivu, kartta). Kuvaus on after ski -näkökulma
+              (apresSki.venues.*, 12 kieltä). Majoitus on otsikkorivin toissijainen nappi. */}
+          {spotsMeta.map((resort) => {
+            const stay = resortStays[resort.resort];
+            return (
+              <div key={resort.resort} id={resort.slug} className="scroll-mt-24">
+                <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 md:gap-8 mb-8 pb-5 border-b border-white/10">
+                  <div className="min-w-0">
+                    <div className="flex items-baseline flex-wrap gap-x-4 gap-y-2">
+                      <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide">{resort.resort}</h2>
+                      {resort.region && (
+                        <span className="text-xs font-bold uppercase tracking-[0.2em] text-ice/85 border border-ice/25 rounded-full px-2.5 py-1">
+                          {resort.region}
                         </span>
                       )}
-                      <h3 className="font-heading text-xl text-white tracking-wide mb-1">{venue.name}</h3>
-                      <p className="text-xs text-white/65 uppercase tracking-wider mb-3">{type}</p>
-                      <p className="text-sm text-white/80 leading-relaxed">{desc}</p>
                     </div>
-                  );
-                })}
+                    {stay && (
+                      <p className="mt-2 text-[15px] text-white/80 leading-relaxed max-w-2xl">
+                        <span className="inline-flex items-center gap-1.5 text-amber text-xs font-semibold uppercase tracking-widest mr-2 align-[1px]">
+                          <Hotel size={12} />
+                          {t('apresSki.stayKicker', { resort: resort.resort })}
+                        </span>
+                        {t(`apresSki.stayHints.${stay.hintKey}`)}
+                      </p>
+                    )}
+                  </div>
+                  {stay && (
+                    <AffiliateCTA
+                      partner="hotels"
+                      sid={stay.sid}
+                      destination={stay.query}
+                      className="shrink-0 self-start md:self-auto inline-flex items-center justify-center gap-2 border border-amber/55 text-amber hover:bg-amber hover:text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-colors whitespace-nowrap no-underline"
+                    >
+                      {t('apresSki.findHotel')}
+                      <ExternalLink size={14} />
+                    </AffiliateCTA>
+                  )}
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                  {resort.venues.map((venue) => {
+                    const bar = BAR_BY_NAME.get(venue.name);
+                    if (!bar) return null;
+                    return (
+                      <BarCard
+                        key={venue.name}
+                        bar={bar}
+                        locale={locale}
+                        campaign={`bars_apres_${resort.slug.replace(/-/g, '_')}`}
+                        typeLabel={t(`apresSki.venues.${venue.name}.type`)}
+                        description={t(`apresSki.venues.${venue.name}.desc`)}
+                        badge={venue.highlight ? t('apresSki.topInResort', { resort: resort.resort }) : null}
+                      />
+                    );
+                  })}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           {/* Mista apres-skita EI loytynyt. Yhta arvokas tulos kuin loytyneet:
               Olos, Pallas ja Suomu listaavat rinneravintoloita mutta eivat
@@ -321,12 +315,6 @@ export default function ApresSki() {
           <p className="text-sm text-white/55 leading-relaxed border-l-2 border-finland-blue pl-5 max-w-3xl">
             {t('apresSki.notFound')}
           </p>
-        </div>
-      </section>
-
-      {/* Getting home after the resort night — Welcome Pickups (advertiser-brand-skinned) */}
-      <section className="py-14 bg-night">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         </div>
       </section>
 

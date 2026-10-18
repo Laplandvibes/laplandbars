@@ -41,7 +41,15 @@ export interface VenuePhotoProps {
   locale: Locale;
   /** Ulkokehyksen luokat, esim. "h-48 sm:h-56 shrink-0". */
   className?: string;
-  /** Tumma liuku kuvan päälle; anna '' jos ei haluta. */
+  /**
+   * Kuvattoman paneelin kehys, jos eri kuin `className`. 18.10.2026: puhelimella yksi
+   * sarake, joten paneelin ei tarvitse olla kuvan korkuinen rivin tasaamiseksi; tyhjä
+   * 4:3-laatta vei puoli ruutua ilman sisältöä.
+   */
+  panelClassName?: string;
+  /** Tumma liuku kuvan päälle; anna '' jos ei haluta. Oletus vain alareunaan (lähdemerkinnän
+   *  tausta), ei koko kuvan päälle: Vesa 18.10.2026 *"onko kuvat käsitelty niin että niistä tulee
+   *  epäselviä?"* — /70-liuku himmensi kuvan alaosan. */
   scrim?: string;
   /** Kortin hover-zoomi (vaatii vanhemmalta `group`-luokan). */
   hoverZoom?: boolean;
@@ -50,7 +58,7 @@ export interface VenuePhotoProps {
 }
 
 export default function VenuePhoto({
-  name, fallback, alt, locale, className = '', scrim = 'bg-gradient-to-t from-night/70 via-night/10 to-transparent', hoverZoom = false, panelLabel, children,
+  name, fallback, alt, locale, className = '', panelClassName, scrim = 'bg-gradient-to-t from-night/45 via-transparent to-transparent', hoverZoom = false, panelLabel, children,
 }: VenuePhotoProps) {
   const photo = venuePhoto(name);
 
@@ -70,7 +78,7 @@ export default function VenuePhoto({
     const x = 12 + (h % 5) * 19;
     const y = (h % 3) * 22;
     return (
-      <div className={`relative overflow-hidden bg-night-light/45 ${className}`} title={panelLabel || undefined}>
+      <div className={`relative overflow-hidden bg-night-light/45 ${panelClassName ?? className}`} title={panelLabel || undefined}>
         <div
           aria-hidden="true"
           className="absolute inset-0"

@@ -44,18 +44,18 @@ const LIST_TITLE: Record<Lang, string> = {
 };
 
 const LIST_LEAD: Record<Lang, string> = {
-  en: 'The photographs on this page come from Wikimedia Commons under the licence shown; each link opens the original file and its licence.',
-  fi: 'Tämän sivun valokuvat ovat Wikimedia Commonsista mainitulla lisenssillä; linkit avaavat alkuperäisen tiedoston ja lisenssin.',
-  de: 'Die Fotos auf dieser Seite stammen von Wikimedia Commons unter der angegebenen Lizenz; jeder Link öffnet die Originaldatei und ihre Lizenz.',
-  sv: 'Bilderna på den här sidan kommer från Wikimedia Commons under angiven licens; länkarna öppnar originalfilen och licensen.',
-  ja: 'このページの写真はWikimedia Commonsから記載のライセンスで使用しており、リンク先で元ファイルとライセンスを確認できます。',
-  es: 'Las fotos de esta página proceden de Wikimedia Commons con la licencia indicada; cada enlace abre el archivo original y su licencia.',
-  'pt-BR': 'As fotos desta página vêm do Wikimedia Commons com a licença indicada; cada link abre o arquivo original e sua licença.',
-  'zh-CN': '本页照片来自维基共享资源，采用所示许可协议；链接指向原始文件及其许可。',
-  ko: '이 페이지의 사진은 위키미디어 공용에서 표시된 라이선스로 사용하며, 링크는 원본 파일과 라이선스로 연결됩니다.',
-  fr: 'Les photos de cette page proviennent de Wikimedia Commons sous la licence indiquée ; chaque lien ouvre le fichier original et sa licence.',
-  it: 'Le foto di questa pagina provengono da Wikimedia Commons con la licenza indicata; ogni link apre il file originale e la sua licenza.',
-  nl: "De foto's op deze pagina komen van Wikimedia Commons onder de vermelde licentie; elke link opent het originele bestand en de licentie.",
+  en: 'The photographs on this page come from open image archives (Wikimedia Commons, Finna) under the licence shown; each link opens the original file and its licence.',
+  fi: 'Tämän sivun valokuvat ovat avoimista kuva-arkistoista (Wikimedia Commons, Finna) mainitulla lisenssillä; linkit avaavat alkuperäisen tiedoston ja lisenssin.',
+  de: 'Die Fotos auf dieser Seite stammen aus offenen Bildarchiven (Wikimedia Commons, Finna) unter der angegebenen Lizenz; jeder Link öffnet die Originaldatei und ihre Lizenz.',
+  sv: 'Bilderna på den här sidan kommer från öppna bildarkiv (Wikimedia Commons, Finna) under angiven licens; länkarna öppnar originalfilen och licensen.',
+  ja: 'このページの写真はオープンな画像アーカイブ（Wikimedia Commons、Finna）から記載のライセンスで使用しており、リンク先で元ファイルとライセンスを確認できます。',
+  es: 'Las fotos de esta página proceden de archivos abiertos de imágenes (Wikimedia Commons, Finna) con la licencia indicada; cada enlace abre el archivo original y su licencia.',
+  'pt-BR': 'As fotos desta página vêm de acervos abertos de imagens (Wikimedia Commons, Finna) com a licença indicada; cada link abre o arquivo original e sua licença.',
+  'zh-CN': '本页照片来自开放图片档案（维基共享资源、Finna），采用所示许可协议；链接指向原始文件及其许可。',
+  ko: '이 페이지의 사진은 공개 이미지 아카이브(위키미디어 공용, Finna)에서 표시된 라이선스로 사용하며, 링크는 원본 파일과 라이선스로 연결됩니다.',
+  fr: 'Les photos de cette page proviennent d’archives d’images ouvertes (Wikimedia Commons, Finna) sous la licence indiquée ; chaque lien ouvre le fichier original et sa licence.',
+  it: 'Le foto di questa pagina provengono da archivi di immagini aperti (Wikimedia Commons, Finna) con la licenza indicata; ogni link apre il file originale e la sua licenza.',
+  nl: "De foto's op deze pagina komen uit open beeldarchieven (Wikimedia Commons, Finna) onder de vermelde licentie; elke link opent het originele bestand en de licentie.",
 };
 
 /* ── Sivun kuvaluettelo: jokainen renderöity krediitti ilmoittautuu, luettelo listaa ne ── */

@@ -102,6 +102,8 @@ export const BARS = {
   // Yhä tekoälyä: saunaBeer, kalsarikannitSofa, beerFlight, auroraLounge,
   // liveMusicVenue, iceBarTunnel ja MustaKissan kuvitus (ei löytynyt aitoa vapaata kuvaa).
   drinkingCultureHero: '/images/drive/drinkingCultureHero.webp',
+  // 18.10.2026: /ice-bars "Nuku lumihuoneessa" -kaistan kuva (LumiLinna, Kemi; photoCredits.ts).
+  snowHotelRooms: '/images/drive/snowHotelRooms.webp',
   citySaariselka: '/images/drive/citySaariselka.webp',
 };
 

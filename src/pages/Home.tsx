@@ -225,7 +225,9 @@ export default function Home() {
                     decoding="async"
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-night via-night/60 to-transparent" />
+                  {/* 18.10.2026: tummennus vain tekstin alle (alareunan ~55 %), ei koko kuvan päälle:
+                      via-night/60 himmensi kuvan yläosankin, ja jääbaarikortti näytti sumuiselta. */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-night via-night/55 via-45% to-transparent to-80%" />
                   {/* Koko ruutu on linkki: krediitti tekstinä, linkit sivun kuvaluettelossa. */}
                   <ImageMark src={meta.image} linked={false} />
                   <div className="relative z-10 h-full flex flex-col justify-end p-6">

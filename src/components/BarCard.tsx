@@ -41,12 +41,21 @@ export interface BarCardProps {
   campaign: string;
   /** Etusivun poiminta: kaupunki näkyy tyyppirivillä, koska lista on sekakaupunki. */
   showCity?: boolean;
+  /** Teemasivun oma tyyppi (esim. /apres-ski: "Live-musiikkiareena"). Oletus: bars.venues.<nimi>.type. */
+  typeLabel?: string;
+  /** Teemasivun oma kuvaus (esim. /apres-ski kertoo after ski -näkökulman). Oletus: bars.venues.<nimi>.description. */
+  description?: string;
+  /**
+   * Kuvan kulman lätkä. undefined = "Toimituksen poiminta" jos `bar.featured`;
+   * merkkijono = tämä teksti (esim. "#1: Levi"); null = ei lätkää.
+   */
+  badge?: string | null;
 }
 
-export default function BarCard({ bar, image, locale, campaign, showCity = false }: BarCardProps) {
+export default function BarCard({ bar, image, locale, campaign, showCity = false, typeLabel, description: descriptionOverride, badge }: BarCardProps) {
   const { t } = useTranslation('pages');
-  const type = t(`bars.venues.${bar.name}.type`, { defaultValue: bar.type });
-  const description = t(`bars.venues.${bar.name}.description`, { defaultValue: bar.description });
+  const type = typeLabel ?? t(`bars.venues.${bar.name}.type`, { defaultValue: bar.type });
+  const description = descriptionOverride ?? t(`bars.venues.${bar.name}.description`, { defaultValue: bar.description });
   const highlights = (t(`bars.venues.${bar.name}.highlights`, { returnObjects: true, defaultValue: bar.highlights }) as string[]) || bar.highlights;
   const tourLabel = bar.tour ? t(`bars.venues.${bar.name}.tour.label`, { defaultValue: bar.tour.label }) : '';
   const tourSchedule = bar.tour ? t(`bars.venues.${bar.name}.tour.schedule`, { defaultValue: bar.tour.schedule }) : '';
@@ -55,7 +64,8 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
     ? t(`bars.venues.${bar.name}.tour.directLabel`, { defaultValue: bar.tour.directBookingLabel })
     : t('bars.bookDirect');
   const rating = findRating(bar.name);
-  const cardClass = `bar-card bar-card-hover group overflow-hidden flex flex-col h-full${bar.featured ? ' bar-card-featured' : ''}`;
+  const badgeText = badge === undefined ? (bar.featured ? t('bars.featuredBadge') : null) : badge;
+  const cardClass = `bar-card bar-card-hover group overflow-hidden flex flex-col h-full${badgeText ? ' bar-card-featured' : ''}`;
 
   const tourHref = bar.tour?.gygProductPath
     ? gygDeepLink(bar.tour.gygProductPath, bar.tour.sid, locale)
@@ -68,11 +78,13 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
   return (
     <article className={cardClass}>
       {/* Kuva: kiinteä korkeus, poimintamerkki vasemmassa yläkulmassa ja
-          lähdemerkintä oikeassa alakulmassa ("Kuva: selvapyy.fi" / "Kuvituskuva"). */}
-      <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} panelLabel={type} className="aspect-[16/10] shrink-0" hoverZoom>
-        {bar.featured && (
-          <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-amber text-night text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
-            {t('bars.featuredBadge')}
+          lähdemerkintä oikeassa alakulmassa ("Kuva: selvapyy.fi" / "Kuvituskuva").
+          Vesa 18.10.2026: *"onko kuvaruutu sitten ihan vähän liian pieni?"* — 16:10 oli
+          kortin korkeudesta kolmannes. 4:3 antaa kuvalle 20 % lisää korkeutta. */}
+      <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} panelLabel={type} className="aspect-[4/3] shrink-0" panelClassName="aspect-[5/2] sm:aspect-[4/3] shrink-0" hoverZoom>
+        {badgeText && (
+          <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-amber text-night text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
+            {badgeText}
           </span>
         )}
       </VenuePhoto>
@@ -88,10 +100,10 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
             <VenueRating name={bar.name} lang={locale} />
           </span>
         </div>
-        <p className="text-[11px] text-amber/85 font-semibold uppercase tracking-[0.18em] mt-1 mb-3 line-clamp-1">
+        <p className="text-xs text-amber font-semibold uppercase tracking-[0.16em] mt-1 mb-3 line-clamp-1">
           {showCity ? `${bar.city} · ${type}` : type}
         </p>
-        <p className="text-[15px] text-white/80 leading-relaxed line-clamp-4 min-h-[6.1rem] mb-4">{description}</p>
+        <p className="text-[15px] text-white/85 leading-relaxed line-clamp-4 min-h-[6.1rem] mb-4">{description}</p>
 
         {/* Kohokohdat: yksi rivi, ylivuoto leikataan (ei rivitystä) */}
         <div className="flex flex-wrap gap-2 h-7 overflow-hidden mb-5">
@@ -105,20 +117,20 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
         {/* Osoite, aukiolo, hinta: aina samat rivit samassa järjestyksessä */}
         <div className="space-y-2 pt-4 border-t border-white/10">
           <div className="flex items-start gap-2">
-            <MapPin size={13} className="text-amber/70 mt-0.5 shrink-0" />
-            <p className="text-[13px] text-white/70 leading-relaxed line-clamp-1">
+            <MapPin size={14} className="text-amber/80 mt-1 shrink-0" />
+            <p className="text-sm text-white/80 leading-relaxed line-clamp-1">
               {bar.addressLine ? pickLocalised(bar.addressLine, locale) : bar.address}
             </p>
           </div>
           <div className="flex items-start gap-2">
-            <Clock size={13} className="text-amber/70 mt-0.5 shrink-0" />
-            <p className="text-[13px] text-white/70 leading-relaxed line-clamp-2 min-h-[2.6rem]">{pickLocalised(bar.hours, locale)}</p>
+            <Clock size={14} className="text-amber/80 mt-1 shrink-0" />
+            <p className="text-sm text-white/80 leading-relaxed line-clamp-2 min-h-[2.85rem]">{pickLocalised(bar.hours, locale)}</p>
           </div>
-          <p className="text-[13px] text-amber/80 font-medium pt-1 line-clamp-1">{pickLocalised(bar.price, locale)}</p>
+          <p className="text-sm text-amber font-medium pt-1 line-clamp-1">{pickLocalised(bar.price, locale)}</p>
           {bar.tour && (
             <div className="flex items-start gap-2">
-              <Ticket size={13} className="text-amber/70 mt-0.5 shrink-0" />
-              <p className="text-[13px] text-white/70 leading-relaxed line-clamp-2">
+              <Ticket size={14} className="text-amber/80 mt-1 shrink-0" />
+              <p className="text-sm text-white/80 leading-relaxed line-clamp-2">
                 {tourLabel}: {tourSchedule}, {tourPrice}
               </p>
             </div>
@@ -126,21 +138,21 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
         </div>
 
         {/* Linkit pohjassa: ruokalista, verkkosivu, kartta, ja kierroksen
-            varaus amber-pillerinä. Kosketusalue 44 px, teksti 12 px. */}
+            varaus amber-pillerinä. Kosketusalue 44 px, teksti 13 px (18.10.2026, oli 12). */}
         <div className="mt-auto pt-4 -mb-2 flex flex-wrap items-center gap-x-4 gap-y-0">
           <MenuLink
             bar={bar}
             label={t('bars.venueMenu')}
             labelPdf={t('bars.venueMenuPdf')}
             campaign={`${campaign}_menu`}
-            className="py-2.5 text-xs font-semibold uppercase tracking-wider text-amber/90 hover:text-amber"
+            className="py-2.5 text-[13px] font-semibold uppercase tracking-wider text-amber hover:text-amber/80"
           />
           {bar.website && (
             <a
               href={withReferral(bar.website, campaign)}
               target="_blank"
               rel="nofollow noopener"
-              className="lv-tap inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
+              className="lv-tap inline-flex items-center gap-1 py-2.5 text-[13px] font-semibold uppercase tracking-wider text-white/80 hover:text-white no-underline transition-colors"
             >
               {t('bars.venueWebsite')} <ExternalLink size={11} />
             </a>
@@ -150,7 +162,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
               href={rating.mapsUri}
               target="_blank"
               rel="nofollow noopener"
-              className="lv-tap inline-flex items-center gap-1 py-2.5 text-xs font-semibold uppercase tracking-wider text-white/70 hover:text-white no-underline transition-colors"
+              className="lv-tap inline-flex items-center gap-1 py-2.5 text-[13px] font-semibold uppercase tracking-wider text-white/80 hover:text-white no-underline transition-colors"
             >
               <Map size={11} /> {t('bars.venueMap')}
             </a>
