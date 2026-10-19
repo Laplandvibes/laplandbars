@@ -1,4 +1,5 @@
-import { Fragment, type ReactNode } from 'react';
+import { type ReactNode } from 'react';
+import { fraasiLapset } from '../shared/cjk/otsikko';
 
 /* ── Otsikon rivit tietokoneella (Vesa 3.10.2026: "tehdään turhaan kolmirivisiä") ──────────────────────────────
  * Mitattu livenä 3.10. (scripts/audit_otsikkorivit.mjs, 12 kieltä × 1280/1536/1920): otsikon koko kasvaa näytön
@@ -31,39 +32,13 @@ export function bebasEm(s: string, tracking = 0): number {
 /** ja ja zh kirjoitetaan ilman välilyöntejä: ilman katkokohtia selain katkaisee rivin mistä tahansa merkistä. */
 export const ilmanValeja = (lang: string) => lang === 'ja' || lang === 'zh-CN';
 
-const segmentoija = (lang: string) => {
-  try {
-    return typeof Intl !== 'undefined' && 'Segmenter' in Intl
-      ? new Intl.Segmenter(lang, { granularity: 'word' })
-      : null;
-  } catch {
-    return null;
-  }
-};
-
-/** ja/zh: teksti fraaseiksi, joiden väliin <wbr>. Sanojen rajat Intl.Segmenterilta; japanissa pelkät hiraganat
- *  (partikkelit, taivutuspäätteet) ja välimerkit liitetään edelliseen, jotta rivi ei ala "へ"- tai "。"-merkillä.
- *  Käytetään yhdessä `word-break: keep-all`:n kanssa, jolloin rivi katkeaa vain näistä kohdista. Muilla kielillä
- *  ja ilman Segmenteriä teksti palaa sellaisenaan. */
+/** ja/zh: fraasien väliin <wbr> verkoston yhteisellä jaolla (src/shared/cjk, sama kuin muissa otsikoissa: paikannimet
+ *  ehjinä, partikkelit ja okurigana edelliseen, pitkä katakanasana inline-blockina). CJK_CSS antaa keep-allin, jolloin
+ *  rivi katkeaa vain näistä kohdista eikä kesken sanan ("ラップ / ランド"). Aiempi oma jako (Intl.Segmenter + hiraganat
+ *  edelliseen) pilkkoi translitteroidut paikannimet merkeittäin, eikä JSX-välikappale näe valmiita <wbr>-elementtejä
+ *  (19.10.2026). Muilla kielillä teksti sellaisenaan. */
 export function Fraasit({ text, lang }: { text: string; lang: string }): ReactNode {
-  if (!ilmanValeja(lang)) return text;
-  const seg = segmentoija(lang);
-  if (!seg) return text;
-  const osat: string[] = [];
-  for (const { segment } of seg.segment(text)) {
-    const liita = osat.length > 0 && (
-      /^[\u3001\u3002\uff01\uff1f\uff0c\uff1a\uff1b)）」』】\u30fc]+$/.test(segment)
-      || (lang === 'ja' && /^[\u3040-\u309f]+$/.test(segment))
-    );
-    if (liita) osat[osat.length - 1] += segment;
-    else osat.push(segment);
-  }
-  return osat.map((o, i) => (
-    <Fragment key={i}>
-      {i > 0 && <wbr />}
-      {o}
-    </Fragment>
-  ));
+  return ilmanValeja(lang) ? fraasiLapset(text) : text;
 }
 
 /** Lauseet omiksi osikseen: 。/！/？ jälkeen tai . ! ? jälkeen kun perässä on väli. */
