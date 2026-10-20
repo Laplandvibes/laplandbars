@@ -200,7 +200,7 @@
       },
       "Bar Ihku": {
         "type": "Nightclub & Bar",
-        "description": "Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm — then you understand why everyone talks about it.",
+        "description": "Already a legend among Levi party-goers. Ihku has accumulated stories over years of late-night Lapland chaos. Karaoke, dancing, Finnish locals and international skiers sharing the same floor. One of those places that looks ordinary until 11pm. Then you understand why everyone talks about it.",
         "highlights": [
           "Late-night institution",
           "Karaoke nights",
@@ -237,7 +237,7 @@
       },
       "Selvä Pyy": {
         "type": "Pub & Restaurant",
-        "description": "The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge — no pretension, just good drinks and easy company.",
+        "description": "The go-to pub in Äkäslompolo village on the Ylläs side. Selvä Pyy serves craft beers, cocktails and proper Finnish pub food in a warm, log-cabin atmosphere. After a day on the fells, this is where locals and skiers converge: no pretension, just good drinks and easy company.",
         "highlights": [
           "Äkäslompolo village",
           "Craft beers",
@@ -406,7 +406,7 @@
       },
       "TunturiPUB": {
         "type": "Pub",
-        "description": "Tunturi Pub sits under the front slopes of Iso-Syöte, a few dozen metres from KIDE Hotel, and shares premises with the Tunturi Market grocery shop — the company's own site calls it \"samoissa tiloissa toimiva ravintola Tunturi Pub\". The kitchen serves pizzas, burgers, salads and smaller snacks plus a separate children's menu, either eaten in or phoned ahead and collected. The ski resort's restaurant page lists cold draught drinks and vegan options, and the pub's own page says evenings can also be spent, with a licence, in what it calls wetter spirits. In the corner there is a pile of board games.",
+        "description": "Tunturi Pub sits under the front slopes of Iso-Syöte, a few dozen metres from KIDE Hotel, and shares premises with the Tunturi Market grocery shop. The company's own site calls it \"samoissa tiloissa toimiva ravintola Tunturi Pub\". The kitchen serves pizzas, burgers, salads and smaller snacks plus a separate children's menu, either eaten in or phoned ahead and collected. The ski resort's restaurant page lists cold draught drinks and vegan options, and the pub's own page says evenings can also be spent, with a licence, in what it calls wetter spirits. In the corner there is a pile of board games.",
         "highlights": [
           "Shares premises with the Tunturi Market grocery shop",
           "Cold draught drinks (isosyote.fi)",
@@ -424,7 +424,7 @@
       },
       "Pärjä Ski Bistro": {
         "type": "After-ski bistro",
-        "description": "Pärjä Ski Bistro stands right next to the lifts on Iso-Syöte's back slopes. Its own site bills the place as \"Iso-Syötteen after ski taivas\" — Iso-Syöte's after-ski heaven — and promises food, drink and entertainment. The menu is organised into burgers, pizza, international dishes, a children's list and desserts, with ribs and wings and vegan options per the ski resort's restaurant page. The terrace catches the spring evening sun.",
+        "description": "Pärjä Ski Bistro stands right next to the lifts on Iso-Syöte's back slopes. Its own site bills the place as \"Iso-Syötteen after ski taivas\" (Iso-Syöte's after-ski heaven) and promises food, drink and entertainment. The menu is organised into burgers, pizza, international dishes, a children's list and desserts, with ribs and wings and vegan options per the ski resort's restaurant page. The terrace catches the spring evening sun.",
         "highlights": [
           "Right next to the back-slope lifts",
           "Billed as Iso-Syöte's after-ski spot",
@@ -433,7 +433,7 @@
       },
       "Ravintola Hilltop": {
         "type": "Summit restaurant bar",
-        "description": "A 200-seat panoramic restaurant on the top floor of the Hilltop Hotel at the summit of Iso-Syöte fell. The kitchen combines what it calls clean northern flavours with local ingredients — foraged mushrooms, berries and local reindeer. The same space runs as Cafe Hilltop between 10:30 and 18:00, and the destination listing's photo caption shows a bar and lobby area by the restaurant entrance.",
+        "description": "A 200-seat panoramic restaurant on the top floor of the Hilltop Hotel at the summit of Iso-Syöte fell. The kitchen combines what it calls clean northern flavours with local ingredients: foraged mushrooms, berries and local reindeer. The same space runs as Cafe Hilltop between 10:30 and 18:00, and the destination listing's photo caption shows a bar and lobby area by the restaurant entrance.",
         "highlights": [
           "200 seats at the summit of the fell",
           "Northern ingredients: foraged mushrooms, berries, reindeer",
@@ -640,7 +640,7 @@
       },
       "Restaurant Pirtti": {
         "type": "Pub",
-        "description": "The pub in the restaurant building of Santa's Hotel Tunturi. The hotel describes it as a relaxed, cozy living room you drift into after a day outdoors, with a warm traditional Lapland pub atmosphere, wooden interiors, a fireplace and an after-ski spirit. Its own page leads with good drinks and simple comfort food. Lapland North notes it is open during high seasons only, and neither the hotel nor Lapland North publishes daily opening hours — check by phone before going.",
+        "description": "The pub in the restaurant building of Santa's Hotel Tunturi. The hotel describes it as a relaxed, cozy living room you drift into after a day outdoors, with a warm traditional Lapland pub atmosphere, wooden interiors, a fireplace and an after-ski spirit. Its own page leads with good drinks and simple comfort food. Lapland North notes it is open during high seasons only, and neither the hotel nor Lapland North publishes daily opening hours. Check by phone before going.",
         "highlights": [
           "Fireplace and wooden interiors",
           "After-ski atmosphere",
