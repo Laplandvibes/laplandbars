@@ -74,7 +74,10 @@ export default function RelatedSites({ links, className = '' }: { links?: Relate
       >
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="text-xs uppercase tracking-[0.25em] text-amber font-bold mb-3">{t('home.related.eyebrow')}</p>
-          <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-3 max-w-3xl">{t('home.related.title')}</h2>
+          {/* Ei omaa max-w-rajaa (gate:otsikkorivit 23.10.2026): max-w-3xl katkaisi otsikon ja/ko/it-kielillä
+              kahdelle riville, vaikka yksi rivi on 771–814 px ja palstassa tilaa 1 088 px; korea katkesi sanan
+              keskeltä ("나 / 머지"), joten koreaksi rivi katkeaa vain sanaväleistä. */}
+          <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-3 text-balance [&:lang(ko)]:[word-break:keep-all]">{t('home.related.title')}</h2>
           <p className="text-white/70 leading-relaxed max-w-2xl mb-10">{t('home.related.sub')}</p>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
