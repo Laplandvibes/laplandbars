@@ -2,6 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useState, t
 import { creditFor, photoKey, type PhotoCredit as Credit } from '../data/photoCredits';
 import { useLocale } from '../i18n/useLocale';
 import type { Locale as Lang } from '../i18n/config';
+import { localizeAlt } from '../data/photoAlts';
 
 /**
  * Kuvan merkintä: oikean valokuvan tekijä + lisenssi, tai tekoälykuvituksen "Kuvituskuva".
@@ -129,9 +130,13 @@ export default function ImageMark({ src, linked = true }: { src?: string | null;
   return null;
 }
 
-/** Totuudellinen kuvateksti: krediitin alt, tai annettu varateksti tekoälykuvitukselle. */
-export function photoAlt(src: string | null | undefined, fallback: string): string {
-  return creditFor(src)?.alt ?? fallback;
+/**
+ * Totuudellinen kuvateksti: krediitin alt lukijan kielellä (`photoAlts.ts`), tai annettu
+ * varateksti tekoälykuvitukselle.
+ */
+export function photoAlt(src: string | null | undefined, fallback: string, lang: Lang = 'en'): string {
+  const alt = creditFor(src)?.alt;
+  return alt ? localizeAlt(alt, lang) : fallback;
 }
 
 /** Sivun lopun kuvaluettelo: tämän sivun valokuvat linkkeineen (tiedostosivu + lisenssi). */

@@ -93,7 +93,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
         {/* Otsikkorivi: nimi vasemmalla, Googlen arvio oikealla. Varaa aina
             kahden rivin tilan, jotta pitkä nimi ei siirrä alempia lohkoja. */}
         <div className="flex items-start justify-between gap-3 min-h-[3.75rem]">
-          <h3 className="font-heading text-2xl text-white tracking-wide leading-[1.15] line-clamp-2 group-hover:text-amber transition-colors">
+          <h3 translate="no" className="font-heading text-2xl text-white tracking-wide leading-[1.15] line-clamp-2 group-hover:text-amber transition-colors">
             {bar.name}
           </h3>
           <span className="shrink-0 pt-0.5">

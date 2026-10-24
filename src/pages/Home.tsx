@@ -98,7 +98,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
           src={isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain}
-          alt={photoAlt(isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain, 'Bar in Finnish Lapland')}
+          alt={photoAlt(isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain, 'Bar in Finnish Lapland', locale)}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -220,7 +220,7 @@ export default function Home() {
                 >
                   <img
                     src={meta.image}
-                    alt={photoAlt(meta.image, card.title)}
+                    alt={photoAlt(meta.image, card.title, locale)}
                     loading="lazy"
                     decoding="async"
                     className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"

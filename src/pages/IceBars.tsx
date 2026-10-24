@@ -42,7 +42,7 @@ export default function IceBars() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.heroIceBars}
-          alt={photoAlt(BARS.heroIceBars, 'Ice bar interior')}
+          alt={photoAlt(BARS.heroIceBars, 'Ice bar interior', locale)}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -234,7 +234,7 @@ export default function IceBars() {
               <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[320px]">
                 <img
                   src={BARS.snowHotelRooms}
-                  alt={photoAlt(BARS.snowHotelRooms, 'Snow hotel rooms')}
+                  alt={photoAlt(BARS.snowHotelRooms, 'Snow hotel rooms', locale)}
                   loading="lazy"
                   decoding="async"
                   className="absolute inset-0 w-full h-full object-cover"

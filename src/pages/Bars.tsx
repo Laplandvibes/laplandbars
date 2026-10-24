@@ -70,7 +70,7 @@ export default function Bars() {
             kortista (nyt liveMusicVenue), ettei se toistu samalla sivulla. */}
         <img
           src={BARS.pubLaughter}
-          alt={photoAlt(BARS.pubLaughter, 'A pub interior in Finland')}
+          alt={photoAlt(BARS.pubLaughter, 'A pub interior in Finland', locale)}
           loading="eager"
           fetchPriority="high"
           decoding="async"
@@ -178,7 +178,7 @@ export default function Bars() {
                     <>
                       <img
                         src={vibeImage}
-                        alt={photoAlt(vibeImage, city)}
+                        alt={photoAlt(vibeImage, city, locale)}
                         loading="lazy"
                         decoding="async"
                         className="absolute inset-0 w-full h-full object-cover"

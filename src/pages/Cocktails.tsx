@@ -1,5 +1,6 @@
 import { Hotel, ExternalLink, Martini } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import { useLocale } from '../i18n/useLocale';
 import { BARS } from '../data/images';
 import PageSeo, { pillarBreadcrumb, articleSchema } from '../components/PageSeo';
 import AffiliateCTA from '../components/AffiliateCTA';
@@ -25,6 +26,7 @@ const STAY_CITIES = [
 
 export default function Cocktails() {
   const { t } = useTranslation('pages');
+  const { locale } = useLocale();
   const cocktails = (t('cocktails.cocktails', { returnObjects: true }) as CocktailItem[]) || [];
   const ingredients = (t('cocktails.ingredients', { returnObjects: true }) as IngredientItem[]) || [];
   return (
@@ -46,7 +48,7 @@ export default function Cocktails() {
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.cocktailTrio}
-          alt={photoAlt(BARS.cocktailTrio, 'Arctic cocktails')}
+          alt={photoAlt(BARS.cocktailTrio, 'Arctic cocktails', locale)}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -82,7 +84,7 @@ export default function Cocktails() {
               >
                 <div className={`bar-card relative overflow-hidden h-72 md:h-80 ${i % 2 === 1 ? 'md:col-start-2' : ''}`}>
                   {/* 4.10.2026: valokuva raaka-aineesta tai vastaavasta drinkistä, ei tästä reseptistä; alt kertoo mitä kuvassa on. */}
-                  <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={photoAlt(cocktailImages[i] ?? BARS.cocktailTrio, c.name)} loading="lazy" decoding="async" className="w-full h-full object-cover" />
+                  <img src={cocktailImages[i] ?? BARS.cocktailTrio} alt={photoAlt(cocktailImages[i] ?? BARS.cocktailTrio, c.name, locale)} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                   <ImageMark src={cocktailImages[i] ?? BARS.cocktailTrio} />
                 </div>

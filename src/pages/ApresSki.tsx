@@ -152,7 +152,7 @@ export default function ApresSki() {
       <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.heroApres}
-          alt={photoAlt(BARS.heroApres, 'Après-ski bar in Lapland')}
+          alt={photoAlt(BARS.heroApres, 'Après-ski bar in Lapland', locale)}
           className="absolute inset-0 w-full h-full object-cover"
           /* Vesa 18.10.2026: *"kuvaa voisi nostaa jolloin rinnettä näkyy vähemmän ja itse baari näkyisi"*.
              Jääbaari (liput, sisäänkäynti) on kuvan alaneljänneksellä; keskikohdistus näytti rinteen. */
@@ -211,7 +211,7 @@ export default function ApresSki() {
               <div className="relative rounded-2xl overflow-hidden ring-1 ring-white/10 aspect-[16/10]">
                 <img
                   src={CARDS.apresToast}
-                  alt={photoAlt(CARDS.apresToast, 'Après-ski by the slopes')}
+                  alt={photoAlt(CARDS.apresToast, 'Après-ski by the slopes', locale)}
                   loading="lazy"
                   decoding="async"
                   className="w-full h-full object-cover"

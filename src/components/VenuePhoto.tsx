@@ -99,6 +99,8 @@ export default function VenuePhoto({
       <img
         src={photo?.src ?? fallback}
         alt={alt}
+        // alt on aina paikan nimi (baari, panimo): nimi ei käänny (gate:a11y-nimet).
+        translate="no"
         {...(photo ? { width: photo.width, height: photo.height } : {})}
         loading="lazy"
         decoding="async"

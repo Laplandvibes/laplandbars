@@ -219,7 +219,7 @@ export default function CraftBeer() {
       <section className="relative min-h-[55vh] flex items-center justify-center overflow-hidden">
         <img
           src={BARS.craftBeerGlasses}
-          alt={photoAlt(BARS.craftBeerGlasses, 'Craft beer in Lapland')}
+          alt={photoAlt(BARS.craftBeerGlasses, 'Craft beer in Lapland', locale)}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
