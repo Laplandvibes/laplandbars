@@ -112,7 +112,7 @@
     "description": "I bar dove bevono davvero i locali, da Rovaniemi e Levi a Ylläs, Saariselkä, Ruka, Pyhä, Luosto, Salla e Iso-Syöte. Orari, prezzi, valutazioni.",
     "hero": {
       "title": "Bar & pub",
-      "sub": "Ogni bar elencato qui esiste davvero, è aperto e merita la tua serata. Nessuna posizione sponsorizzata, nessun riempitivo, solo la vera cultura del bere di Lapponia, Ruka e Syöte."
+      "sub": "Ogni bar elencato qui esiste davvero, è aperto e merita la Sua serata. Nessuna posizione sponsorizzata, nessun riempitivo, solo la vera cultura del bere di Lapponia, Ruka e Syöte."
     },
     "featuredBadge": "Scelta della redazione",
     "venueWebsite": "Sito del locale",
@@ -928,7 +928,7 @@
       }
     },
     "cityNav": {
-      "label": "Scegli la località"
+      "label": "Scelga la località"
     },
     "venueMenu": "Menù",
     "venueMenuPdf": "Menù (PDF)",
@@ -1227,7 +1227,7 @@
     "stay": {
       "kicker": "Dorma vicino al birrificio",
       "title": "Eviti il taxi, prenoti un hotel a portata di passeggiata",
-      "body": "Tornion Panimo si trova dall’altra parte del fiume. Lapland Brewery è nella zona di Teollisuustie, a pochi minuti di auto dal centro di Rovaniemi. Scegli il birrificio e prenota un hotel da cui sia facile rientrare.",
+      "body": "Tornion Panimo si trova dall’altra parte del fiume. Lapland Brewery è nella zona di Teollisuustie, a pochi minuti di auto dal centro di Rovaniemi. Scelga il birrificio e prenoti un hotel da cui sia facile rientrare.",
       "ctaRovaniemi": "Rovaniemi (Lapland Brewery)",
       "ctaTornio": "Tornio (Tornion Panimo)"
     },
@@ -1418,7 +1418,7 @@
       "Una parte dei link di questo sito passa da go.laplandvibes.com e genera una piccola commissione quando prenota, senza costi aggiuntivi per Lei. Quel ricavo copre l'hosting e il tempo speso a tenere aggiornate le schede. Non decide quali locali compaiano qui: la commissione arriva da partner alberghieri e di escursioni, non dai bar. Niente in queste pagine è posizionamento a pagamento: nessun locale paga per essere elencato, e nessuno paga per la scelta della redazione.",
       "Cosa non è: una piattaforma di prenotazione. Qui non c'è disponibilità in tempo reale né un sistema di prenotazione. Ogni locale rimanda al proprio sito, ed è voluto: solo il locale sa a che ora apre stasera e se il dehors è in funzione. Prendete prezzi e orari di queste pagine come punto di partenza e confermate il resto sul posto."
     ],
-    "back": "← Torni alla home"
+    "back": "← Torna alla home"
   },
   "newsletter": {
     "kicker": "Newsletter <1>#LAPLANDVIBES</1>",
@@ -1472,15 +1472,15 @@
   },
   "rideBand": {
     "kicker": "Il ritorno",
-    "title": "Organizza il rientro prima del primo giro",
-    "sub": "I drink sono la parte facile. Decidi prima come torni alla baita, poi siediti con calma."
+    "title": "Organizzi il rientro prima del primo giro",
+    "sub": "I drink sono la parte facile. Decida prima come tornare alla baita, poi si sieda con calma."
   },
   "experiences": {
     "barCrawl": {
       "kicker": "Prenota",
       "rovaniemi": {
         "title": "Tour di bar e birrifici a Rovaniemi",
-        "body": "Preferisci sistemare tutto prima di arrivare? Le visite guidate ai birrifici, le degustazioni e i giri tra i bar di Rovaniemi si prenotano già ora, con disponibilità in tempo reale e recensioni vere.",
+        "body": "Preferisce sistemare tutto prima di arrivare? Le visite guidate ai birrifici, le degustazioni e i giri tra i bar di Rovaniemi si prenotano già ora, con disponibilità in tempo reale e recensioni vere.",
         "cta": "Vedi i tour a Rovaniemi"
       },
       "levi": {
@@ -1488,12 +1488,12 @@
         "body": "Levi è fatta per questo. Sfogli le esperienze après-ski e i bar che una guida può organizzare per Lei: niente da pianificare, basta presentarsi.",
         "cta": "Vedi le esperienze a Levi"
       },
-      "sectionTitle": "Preferisci una serata guidata? Prenota in anticipo"
+      "sectionTitle": "Preferisce una serata guidata? Prenoti in anticipo"
     },
     "cocktail": {
       "kicker": "Li faccia Lei",
       "title": "Esperienze di cocktail e degustazioni",
-      "body": "Alcune delle migliori sessioni di cocktail artici e degustazioni di distillati in Lapponia si prenotano con una guida. Impara il cloudberry sour alla fonte, poi ordinalo da intenditore.",
+      "body": "Alcune delle migliori sessioni di cocktail artici e degustazioni di distillati in Lapponia si prenotano con una guida. Impari il cloudberry sour alla fonte, poi lo ordini da intenditore.",
       "cta": "Vedi le esperienze cocktail"
     }
   },
@@ -1503,9 +1503,9 @@
       "countLabel": "{{count}} bar a {{at}}",
       "countLabel_one": "1 bar a {{at}}",
       "bestRated": "Il più votato {{rating}}",
-      "hoursNote": "Qui gli orari seguono la stagione sciistica. Controlla la pagina del locale prima di uscire.",
+      "hoursNote": "Qui gli orari seguono la stagione sciistica. Controlli la pagina del locale prima di uscire.",
       "stayHeadline": "Dormi a {{at}}?",
-      "stayLead": "Prenota una camera a pochi passi dai bar qui sopra.",
+      "stayLead": "Prenoti una camera a pochi passi dai bar qui sopra.",
       "stayCta": "Trova un alloggio a {{at}}",
       "otherCities": "Bere altrove in Lapponia",
       "allBars": "Tutti i bar →",
@@ -1538,7 +1538,7 @@
       "know": [
         "Tutto tranne Tuikku è raggiungibile a piedi nel villaggio; in vetta si sale in cabinovia, con gli sci o dalla strada della cima.",
         "Le serate con concerto alla Hullu Poro Areena sono a biglietto, di solito intorno a 25–30 euro; le normali serate da pub sono a ingresso libero.",
-        "V’inkkari e i locali da après-ski tengono orari pieni solo in stagione sciistica: fuori dall’inverno verifica il locale prima di costruirci intorno la serata."
+        "V’inkkari e i locali da après-ski tengono orari pieni solo in stagione sciistica: fuori dall’inverno verifichi il locale prima di costruirci intorno la serata."
       ]
     },
     "yllas": {
@@ -1547,8 +1547,8 @@
       "title": "Bar a Ylläs: Äkäslompolo, Ylläsjärvi e pub sulle piste",
       "description": "Dove bere a Ylläs: pub di paese e un nightclub nel seminterrato ad Äkäslompolo, ristoranti di pista sui due versanti, una griglia sul lago a Ylläsjärvi.",
       "h1": "Bar a Ylläs",
-      "tagline": "Due villaggi di bar, Äkäslompolo e Ylläsjärvi, con pub di pista sui due versanti: è l'indirizzo a dirti quale elenco fa per te.",
-      "intro": "Ylläs ha due villaggi di bar, e l'indirizzo dice da quale lato ti trovi. Ad Äkäslompolo, Selvä Pyy in Tunturintie 16 è il pub che usano gli abitanti e gli sciatori, Joiku Pub in Jakolantie ha la terrazza al sole più grande del villaggio e una sala karaoke, e Los Lompolos in Sivulantie è la piccola sala cocktail del centro. Tre locali condividono un unico indirizzo in Äkäsentie 10: Ravintola Pirtukirkko, il bar Takka accanto e il Pirtukellari Night Club al piano di sotto. Y1 Ski Pub in Tunturintie 56 sta sullo stesso lato, vicino alla partenza della seggiovia Aurinko-Express ad Aurinkokuru. A Ylläsjärvi, Ski pub Ala-Asema e Bistro Hissi si trovano entrambi in Iso-Ylläksentie 44, accanto alla stazione a valle della cabinovia e alla seggiovia Ylläs Express, mentre il Bistro del Lapland Hotels Saaga è al numero 42. Bar Kaappi e Taiga Ylläs condividono l'indirizzo Vaeltajantie 2, ai piedi della pista Ylläs Ski South, e il Miilu Bar & Grill sorge sulla riva del lago Ylläsjärvi come parte del Miilu Resort.",
+      "tagline": "Due villaggi di bar, Äkäslompolo e Ylläsjärvi, con pub di pista sui due versanti: è l'indirizzo a dirLe quale elenco fa per Lei.",
+      "intro": "Ylläs ha due villaggi di bar, e l'indirizzo dice da quale lato si trova Lei. Ad Äkäslompolo, Selvä Pyy in Tunturintie 16 è il pub che usano gli abitanti e gli sciatori, Joiku Pub in Jakolantie ha la terrazza al sole più grande del villaggio e una sala karaoke, e Los Lompolos in Sivulantie è la piccola sala cocktail del centro. Tre locali condividono un unico indirizzo in Äkäsentie 10: Ravintola Pirtukirkko, il bar Takka accanto e il Pirtukellari Night Club al piano di sotto. Y1 Ski Pub in Tunturintie 56 sta sullo stesso lato, vicino alla partenza della seggiovia Aurinko-Express ad Aurinkokuru. A Ylläsjärvi, Ski pub Ala-Asema e Bistro Hissi si trovano entrambi in Iso-Ylläksentie 44, accanto alla stazione a valle della cabinovia e alla seggiovia Ylläs Express, mentre il Bistro del Lapland Hotels Saaga è al numero 42. Bar Kaappi e Taiga Ylläs condividono l'indirizzo Vaeltajantie 2, ai piedi della pista Ylläs Ski South, e il Miilu Bar & Grill sorge sulla riva del lago Ylläsjärvi come parte del Miilu Resort.",
       "know": [
         "I bar si dividono tra due villaggi: Äkäslompolo, codice postale 95970, e Ylläsjärvi, codice postale 95980. Il Miilu Bar & Grill è fuori, sulla riva del lago Ylläsjärvi in Rantasaarentie 3-5, e la sua scheda indica auto, piedi, sci, bici e motoslitta come modi per arrivarci.",
         "Due locali seguono l'orario degli impianti: l'Aurinkoravintola sulla pista Aurinko è aperto durante la stagione sciistica secondo gli orari degli impianti, e il Bistro Hissi apre quando gli impianti sono in funzione. Il Pirtukellari Night Club apre nella stagione sciistica il venerdì e il sabato sera, e lo Y1 Ski Pub ad Aurinkokuru apre a novembre 2026.",
@@ -1594,7 +1594,7 @@
       "know": [
         "Il Vaisko è chiuso tra una stagione e l'altra e apre per il 2026–2027 il 26 novembre. Aarnikota pubblica periodi con date invece di un orario fisso; quello attuale è dal mercoledì alla domenica 11–16 per la stagione del ruska, fino al 27 settembre 2026.",
         "Il karaoke del Karhu è gratuito e riservato ai maggiori di 18 anni, le serate con band dal vivo costano 10 euro e le serate danzanti aperte al pubblico del Keloravintola hanno un biglietto da 15–20 euro. I 3 euro di guardaroba non sono compresi nel prezzo del biglietto.",
-        "Nessuno dei sette pubblica un orario settimanale fisso: il Karhu segue il calendario eventi dell'hotel, il Keloravintola lavora solo su prenotazione a parte le serate a tema e i balli a pagamento, Punakettu, Rumpu Bar e Aarnikota indicano periodi con date, e il Restaurant Aurora non pubblica alcun orario. Verifica prima di costruirci sopra la serata."
+        "Nessuno dei sette pubblica un orario settimanale fisso: il Karhu segue il calendario eventi dell'hotel, il Keloravintola lavora solo su prenotazione a parte le serate a tema e i balli a pagamento, Punakettu, Rumpu Bar e Aarnikota indicano periodi con date, e il Restaurant Aurora non pubblica alcun orario. Verifichi prima di costruirci sopra la serata."
       ]
     },
     "pyha": {
@@ -1608,7 +1608,7 @@
       "know": [
         "L'Hanki Baari Pyhä, ai piedi delle North Slopes, è chiuso e riapre a dicembre 2026. Quando è in funzione, dopo le 21:00 l'ingresso è riservato ai maggiori di 18 anni, a meno che non si sia accompagnati da un genitore, e nelle serate con eventi il limite dei 18 anni vale per tutta la sera.",
         "Orari giornalieri: Restaurant Huttuhippu 13–22, CAMP Kitchen & Bar PYHÄ 16–21 e Sport Bar Pyhä 17–24, che si dichiara aperto tutto l'anno. Gli altri tre, Mesta, Hanki Baari Pyhä e Pyhä Dreams Wine Bar, non pubblicano orari fissi: conviene chiedere al locale.",
-        "Il Pyhä Dreams Wine Bar è in cima alla montagna, dove arriva la seggiovia panoramica, e apre per una stagione estiva e di nuovo per una invernale, quindi verifica le date con il locale. La sua degustazione guidata accoglie al massimo otto persone, dura circa due ore e non comprende il biglietto della seggiovia, quindi conviene prenotare."
+        "Il Pyhä Dreams Wine Bar è in cima alla montagna, dove arriva la seggiovia panoramica, e apre per una stagione estiva e di nuovo per una invernale, quindi verifichi le date con il locale. La sua degustazione guidata accoglie al massimo otto persone, dura circa due ore e non comprende il biglietto della seggiovia, quindi conviene prenotare."
       ]
     },
     "iso-syote": {
