@@ -93,7 +93,7 @@ export default function RelatedSites({ links, className = '' }: { links?: Relate
                 >
                   {/* Sanamerkki on kortin kuva: iso, meidän, eikä voi valehdella. */}
                   {word && (
-                    <span className="font-heading tracking-wide text-[26px] sm:text-[30px] leading-none mb-6 block">
+                    <span translate="no" className="notranslate font-heading tracking-wide text-[26px] sm:text-[30px] leading-none mb-6 block">
                       <span className="text-vibe-pink">#</span>
                       <span className="text-white">LAPLAND</span>
                       <span className="text-vibe-pink">{word}</span>

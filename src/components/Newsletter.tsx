@@ -215,7 +215,7 @@ export default function Newsletter() {
             <Trans
               i18nKey="newsletter.kicker"
               ns="pages"
-              components={[<span key="0" className="font-heading tracking-wider">#LAPLANDVIBES</span>]}
+              components={[<span translate="no" key="0" className="notranslate font-heading tracking-wider">#LAPLANDVIBES</span>]}
             />
           </p>
           {/* lg+: otsikko 768 px:n palstaa leveämpänä (960 / xl 1024 px), ja sm+ koko pidemmän rivin mukaan.

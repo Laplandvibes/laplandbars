@@ -84,7 +84,7 @@ export default function VenuePhoto({
           className="absolute inset-0"
           style={{ background: `radial-gradient(115% 95% at ${x}% ${y}%, rgba(245,158,11,0.13) 0%, rgba(15,23,42,0) 62%)` }}
         />
-        <span aria-hidden="true" className="absolute inset-0 flex items-center justify-center font-heading text-3xl sm:text-4xl tracking-wide select-none">
+        <span translate="no" aria-hidden="true" className="notranslate absolute inset-0 flex items-center justify-center font-heading text-3xl sm:text-4xl tracking-wide select-none">
           <span className="text-vibe-pink/25">#</span>
           <span className="text-white/[0.13]">LAPLAND</span>
           <span className="text-vibe-pink/25">BARS</span>

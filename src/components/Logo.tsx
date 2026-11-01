@@ -19,8 +19,8 @@ export default function Logo({ className = '', light = false, nav = false }: Log
   void light;
   return (
     <div className={`flex items-center ${className}`}>
-      <span
-        className={`font-heading text-3xl tracking-wide leading-none ${nav ? ' lv-wm' : ''}`}
+      <span translate="no"
+        className={`notranslate font-heading text-3xl tracking-wide leading-none ${nav ? ' lv-wm' : ''}`}
         data-lv-sanamerkki={nav ? '' : undefined}
         style={nav ? WM_STYLE : undefined}
       >
