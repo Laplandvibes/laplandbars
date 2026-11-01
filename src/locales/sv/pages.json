@@ -1449,7 +1449,7 @@
     "submitLoading": "Skickar…",
     "errorPrefix": "Kunde inte prenumerera",
     "errorFallback": "Kunde inte prenumerera. Försök igen eller mejla info@laplandvibes.com.",
-    "footnote": "Ett mejl när det finns något att säga. Avsluta med ett klick, inga frågor. <1>Integritetspolicy</1>.",
+    "footnote": "Ett mejl när det finns något att säga. Avsluta med ett klick, inga frågor.",
     "emailLabel": "E-post"
   },
   "privacy": {

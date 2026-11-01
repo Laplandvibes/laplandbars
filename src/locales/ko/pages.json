@@ -1449,7 +1449,7 @@
     "submitLoading": "전송 중…",
     "errorPrefix": "구독할 수 없었습니다",
     "errorFallback": "구독할 수 없었습니다. 다시 시도하시거나 info@laplandvibes.com 으로 메일을 보내주세요.",
-    "footnote": "전할 가치가 있을 때 한 통의 메일. 원클릭 구독 해지, 질문 없음. <1>개인정보처리방침</1>",
+    "footnote": "전할 가치가 있을 때 한 통의 메일. 원클릭 구독 해지, 질문 없음.",
     "emailLabel": "이메일"
   },
   "privacy": {

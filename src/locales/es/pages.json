@@ -1449,7 +1449,7 @@
     "submitLoading": "Enviando…",
     "errorPrefix": "No se pudo suscribir",
     "errorFallback": "No pudimos completar la suscripción. Inténtelo de nuevo o escríbanos a info@laplandvibes.com.",
-    "footnote": "Un correo cuando hay algo que contar. Cancele con un clic, sin preguntas. <1>Política de privacidad</1>",
+    "footnote": "Un correo cuando hay algo que contar. Cancele con un clic, sin preguntas.",
     "emailLabel": "Correo electrónico"
   },
   "privacy": {

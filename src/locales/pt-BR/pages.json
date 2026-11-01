@@ -1449,7 +1449,7 @@
     "submitLoading": "Enviando…",
     "errorPrefix": "Não conseguimos te inscrever",
     "errorFallback": "Não conseguimos concluir a assinatura. Tente novamente ou escreva para info@laplandvibes.com.",
-    "footnote": "Um e-mail quando vale a pena. Cancele com um clique, sem perguntas. <1>Política de privacidade</1>",
+    "footnote": "Um e-mail quando vale a pena. Cancele com um clique, sem perguntas.",
     "emailLabel": "E-mail"
   },
   "privacy": {

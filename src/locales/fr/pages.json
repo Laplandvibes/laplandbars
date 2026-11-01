@@ -1449,7 +1449,7 @@
     "submitLoading": "Envoi…",
     "errorPrefix": "Échec de l'inscription",
     "errorFallback": "Échec de l'inscription. Réessayez ou écrivez-nous à info@laplandvibes.com.",
-    "footnote": "Un e-mail quand cela vaut la peine. Désabonnement en un clic, sans question. <1>Politique de confidentialité</1>",
+    "footnote": "Un e-mail quand cela vaut la peine. Désabonnement en un clic, sans question.",
     "emailLabel": "E-mail"
   },
   "privacy": {

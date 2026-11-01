@@ -323,7 +323,6 @@ export default function Newsletter() {
             <Trans
               i18nKey="newsletter.footnote"
               ns="pages"
-              components={[<a key="0" href="/privacy/" className="underline hover:text-white">Privacy</a>]}
             />
           </p>
         </div>

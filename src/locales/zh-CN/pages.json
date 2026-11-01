@@ -1449,7 +1449,7 @@
     "submitLoading": "发送中…",
     "errorPrefix": "无法订阅",
     "errorFallback": "无法完成订阅。请稍后再试，或写信至 info@laplandvibes.com。",
-    "footnote": "只有真正值得分享时才发邮件。一键取消订阅，不问原因。<1>隐私政策</1>",
+    "footnote": "只有真正值得分享时才发邮件。一键取消订阅，不问原因。",
     "emailLabel": "电子邮箱"
   },
   "privacy": {

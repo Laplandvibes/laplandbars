@@ -1449,7 +1449,7 @@
     "submitLoading": "Wird gesendet…",
     "errorPrefix": "Abonnement fehlgeschlagen",
     "errorFallback": "Abonnement fehlgeschlagen. Bitte versuchen Sie es erneut oder schreiben Sie an info@laplandvibes.com.",
-    "footnote": "Eine E-Mail, wenn es etwas zu sagen gibt. Mit einem Klick abbestellen, ohne Nachfragen. <1>Datenschutzerklärung</1>.",
+    "footnote": "Eine E-Mail, wenn es etwas zu sagen gibt. Mit einem Klick abbestellen, ohne Nachfragen.",
     "emailLabel": "E-Mail"
   },
   "privacy": {

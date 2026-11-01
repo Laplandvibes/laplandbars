@@ -1449,7 +1449,7 @@
     "submitLoading": "Invio in corso…",
     "errorPrefix": "Iscrizione non riuscita",
     "errorFallback": "Iscrizione non riuscita. Riprovi o scriva a info@laplandvibes.com.",
-    "footnote": "Una mail quando ne vale la pena. Cancellazione con un clic, senza domande. <1>Informativa sulla privacy</1>",
+    "footnote": "Una mail quando ne vale la pena. Cancellazione con un clic, senza domande.",
     "emailLabel": "E-mail"
   },
   "privacy": {

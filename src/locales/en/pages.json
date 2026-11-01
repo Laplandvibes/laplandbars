@@ -1368,7 +1368,7 @@
     "submitLoading": "Sending…",
     "errorPrefix": "Could not subscribe",
     "errorFallback": "Could not subscribe. Try again or email info@laplandvibes.com.",
-    "footnote": "One email when there's something to say. Unsubscribe with one click, no questions. <1>Privacy Policy</1>.",
+    "footnote": "One email when there's something to say. Unsubscribe with one click, no questions.",
     "emailLabel": "Email"
   },
   "privacy": {

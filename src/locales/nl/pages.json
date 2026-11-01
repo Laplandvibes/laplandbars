@@ -1449,7 +1449,7 @@
     "submitLoading": "Versturen…",
     "errorPrefix": "Aanmelden mislukt",
     "errorFallback": "Aanmelden mislukt. Probeer opnieuw of mail naar info@laplandvibes.com.",
-    "footnote": "Eén e-mail wanneer het de moeite waard is. Uitschrijven met één klik, zonder vragen. <1>Privacybeleid</1>",
+    "footnote": "Eén e-mail wanneer het de moeite waard is. Uitschrijven met één klik, zonder vragen.",
     "emailLabel": "E-mail"
   },
   "privacy": {

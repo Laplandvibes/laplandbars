@@ -1449,7 +1449,7 @@
     "submitLoading": "Lähetetään…",
     "errorPrefix": "Tilaus ei onnistunut",
     "errorFallback": "Tilaus ei onnistunut. Yritä uudelleen tai lähetä viesti osoitteeseen info@laplandvibes.com.",
-    "footnote": "Yksi sähköposti silloin kun on jotain sanottavaa. Peruuta yhdellä klikkauksella, ilman kysymyksiä. <1>Tietosuojaseloste</1>.",
+    "footnote": "Yksi sähköposti silloin kun on jotain sanottavaa. Peruuta yhdellä klikkauksella, ilman kysymyksiä.",
     "emailLabel": "Sähköposti"
   },
   "privacy": {
