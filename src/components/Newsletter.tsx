@@ -234,7 +234,7 @@ export default function Newsletter() {
               <Fraasit text={t('newsletter.headlineLine1')} lang={locale} /><br className="hidden sm:block" /> <Fraasit text={t('newsletter.headlineLine2')} lang={locale} />
             </h2>
           </div>
-          <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto mb-12 leading-relaxed">
+          <p className="text-white/90 text-base sm:text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-12 leading-relaxed">
             {t('newsletter.sub')}
           </p>
         </div>

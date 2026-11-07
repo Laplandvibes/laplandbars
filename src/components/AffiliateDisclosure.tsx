@@ -51,11 +51,13 @@ export default function AffiliateDisclosure({
   return (
     <p
       className={`flex items-center gap-2 ${
-        variant === 'compact' ? 'text-xs' : 'text-sm justify-center'
+        variant === 'compact' ? 'text-xs' : 'text-sm justify-center max-lg:text-left'
       } ${className}`}
       role="note"
     >
       <Info className="w-3.5 h-3.5 shrink-0" aria-hidden="true" />
+      {/* Full variant sits in centred sections: below 1024 px a 3-line centred note reads ragged (gate:tabletti 7.11.2026),
+          so the text block stays centred as a unit and its lines align left. */}
       <span className="text-balance">{text}</span>
     </p>
   );

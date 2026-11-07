@@ -150,8 +150,8 @@ export function PhotoCreditList() {
   return (
     <section aria-labelledby="photo-credits-h" className="bg-night px-4 sm:px-6 lg:px-8 py-10 border-t border-white/10">
       <div className="max-w-5xl mx-auto">
-        <h2 id="photo-credits-h" className="font-heading text-2xl text-white tracking-wide mb-2">{LIST_TITLE[lang]}</h2>
-        <p className="text-white/80 text-base leading-relaxed mb-4">{LIST_LEAD[lang]}</p>
+        <h2 id="photo-credits-h" className="font-heading text-2xl text-white tracking-wide mb-2 text-center lg:text-left">{LIST_TITLE[lang]}</h2>
+        <p className="text-white/80 text-base leading-relaxed mb-4 mx-auto w-fit lg:mx-0 lg:w-auto">{LIST_LEAD[lang]}</p>
         <ul className="columns-1 sm:columns-2 gap-8 text-base leading-relaxed text-white/80">
           {uniq.map((c) => (
             <li key={c.sourceUrl} className="break-inside-avoid mb-1.5">

@@ -124,7 +124,7 @@ export default function Home() {
           >
             <Fraasit text={t('home.hero.headlineLine1')} lang={locale} /><br /><Fraasit text={t('home.hero.headlineLine2')} lang={locale} />
           </h1>
-          <p className="text-lg sm:text-xl text-white/80 max-w-2xl xl:max-w-4xl mx-auto mb-10 leading-relaxed text-pretty drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)] xl:text-2xl">
+          <p className="text-lg sm:text-xl text-white/80 max-w-2xl xl:max-w-4xl mx-auto max-lg:w-fit max-lg:text-left mb-10 leading-relaxed text-pretty drop-shadow-[0_1px_6px_rgba(0,0,0,0.5)] xl:text-2xl">
             {isSummerSeason() ? t('home.hero.subSummer') : t('home.hero.sub')}
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
@@ -132,14 +132,14 @@ export default function Home() {
               partner="hotels"
               sid="home_hero_stay_lapland"
               destination="Lapland, Finland"
-              className="inline-flex items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
+              className="inline-flex max-sm:w-full max-sm:max-w-[18rem] justify-center items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
             >
               <Hotel size={20} />
               {t('home.hero.ctaStay')}
             </AffiliateCTA>
             <Link
               to={to('/bars')}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border border-white/20 no-underline"
+              className="inline-flex max-sm:w-full max-sm:max-w-[18rem] justify-center items-center gap-2 bg-white/10 hover:bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border border-white/20 no-underline"
             >
               {t('home.hero.ctaBrowse')}
               <ChevronDown size={20} />

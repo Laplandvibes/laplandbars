@@ -208,7 +208,7 @@ export default function CityPage() {
       {/* Baarit */}
       <section className="bar-depth pb-20 pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="font-heading text-3xl sm:text-4xl tracking-wide text-white mb-8">{countLabel}</h2>
+          <h2 className="font-heading text-3xl sm:text-4xl tracking-wide text-white mb-8 text-center lg:text-left">{countLabel}</h2>
           <div className="grid gap-8 lg:gap-10 sm:grid-cols-2 lg:grid-cols-3 items-start">
             {list.map((bar) => (
               <BarCard
@@ -248,10 +248,10 @@ export default function CityPage() {
           sivuista verkoston eikä saaria. */}
       <section className="bg-night pb-16">
         <div className="max-w-6xl mx-auto px-5">
-          <h2 className="font-heading text-2xl sm:text-3xl tracking-wide text-white mb-6">
+          <h2 className="font-heading text-2xl sm:text-3xl tracking-wide text-white mb-6 text-center lg:text-left">
             {t('cities.shared.otherCities', { defaultValue: 'Drink somewhere else in Lapland' })}
           </h2>
-          <div className="flex flex-wrap gap-2.5">
+          <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
             {others.map((c) => (
               <Link
                 key={c.slug}
