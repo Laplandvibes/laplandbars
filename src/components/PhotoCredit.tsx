@@ -3,6 +3,7 @@ import { creditFor, photoKey, type PhotoCredit as Credit } from '../data/photoCr
 import { useLocale } from '../i18n/useLocale';
 import type { Locale as Lang } from '../i18n/config';
 import { localizeAlt } from '../data/photoAlts';
+import { Erotinrivi } from '../shared/Erotin';
 
 /**
  * Kuvan merkintä: oikean valokuvan tekijä + lisenssi, tai tekoälykuvituksen "Kuvituskuva".
@@ -156,13 +157,15 @@ export function PhotoCreditList() {
           {uniq.map((c) => (
             <li key={c.sourceUrl} className="break-inside-avoid mb-1.5">
               {/* Tiedostonimi, tekijä ja lisenssi ovat tunnisteita, eivät käännettävää tekstiä. */}
-              <a href={c.sourceUrl} target="_blank" rel="noopener" className="lv-tap text-ice underline underline-offset-2 hover:text-white break-words" translate="no">{c.title}</a>
-              {' · '}<span translate="no">{c.author}</span>{' · '}
-              {c.licenseUrl ? (
-                <a href={c.licenseUrl} target="_blank" rel="license noopener" className="lv-tap whitespace-nowrap underline underline-offset-2 hover:text-white" translate="no">{c.license}</a>
-              ) : (
-                <span className="whitespace-nowrap" translate="no">{c.license}</span>
-              )}
+              <Erotinrivi as="span" osat={[
+                <a href={c.sourceUrl} target="_blank" rel="noopener" className="lv-tap text-ice underline underline-offset-2 hover:text-white break-words" translate="no">{c.title}</a>,
+                <span translate="no">{c.author}</span>,
+                c.licenseUrl ? (
+                  <a href={c.licenseUrl} target="_blank" rel="license noopener" className="lv-tap whitespace-nowrap underline underline-offset-2 hover:text-white" translate="no">{c.license}</a>
+                ) : (
+                  <span className="whitespace-nowrap" translate="no">{c.license}</span>
+                ),
+              ]} />
             </li>
           ))}
         </ul>

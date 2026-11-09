@@ -22,6 +22,7 @@ import RelatedSites from '../components/RelatedSites';
 // vanhenee — siksi yksi jaettu moduuli.
 import { barImages } from '../data/barCardImages';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const categoryCardsMeta = [
   { image: CARDS.heroIceBars, to: '/ice-bars', icon: Snowflake },
@@ -318,7 +319,7 @@ export default function Home() {
                 <h3 className="font-heading text-2xl text-white tracking-wide mb-1.5 group-hover:text-amber transition-colors">
                   {t('home.stayBand.cardCtaLabel', { city: d.cityKey })}
                 </h3>
-                <p className="text-sm text-white/75 leading-relaxed mb-4 flex-1">{t(`home.stayBand.subs.${d.subKey}`)}</p>
+                <Erotinrivi className="text-sm text-white/75 leading-relaxed mb-4 flex-1" osat={erotinOsat(t(`home.stayBand.subs.${d.subKey}`))} />
                 <div className="flex items-center gap-1.5 text-amber text-sm font-semibold">
                   {t('home.stayBand.browseCta')}
                   <ExternalLink size={14} />

@@ -100,8 +100,10 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
             <VenueRating name={bar.name} lang={locale} />
           </span>
         </div>
-        <p className="text-xs text-amber font-semibold uppercase tracking-[0.16em] mt-1 mb-3 line-clamp-1">
-          {showCity ? `${bar.city} · ${type}` : type}
+        {/* Yksi rivi: kaupunki + tyyppi, tyyppi lyhenee (…) eikä rivity. line-clamp-1 rivitti ennen tyypin toiselle,
+            piilotetulle riville ja jätti pisteen rivin loppuun ("LEVI ·", Vesa 9.11.2026: piste ihan irrallaan). */}
+        <p className="text-xs text-amber font-semibold uppercase tracking-[0.16em] mt-1 mb-3 flex min-w-0 whitespace-nowrap">
+          {showCity ? <><span className="shrink-0">{bar.city}</span><span className="min-w-0 truncate">{'\u00A0· '}{type}</span></> : <span className="min-w-0 truncate">{type}</span>}
         </p>
         <p className="text-[15px] text-white/85 leading-relaxed line-clamp-4 min-h-[6.1rem] mb-4">{description}</p>
 

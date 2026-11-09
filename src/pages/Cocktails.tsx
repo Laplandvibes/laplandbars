@@ -8,6 +8,7 @@ import GygSearchCta from '../components/GygSearchCta';
 import AffiliateDisclosure from '../components/AffiliateDisclosure';
 import PageBreadcrumb from '../components/PageBreadcrumb';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
+import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 type CocktailItem = { name: string; ingredients: string; description: string; season: string };
 type IngredientItem = { name: string; note: string };
@@ -93,7 +94,7 @@ export default function Cocktails() {
                 <div className={`max-md:text-center ${i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}`}>
                   <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>
                   <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">{c.name}</h2>
-                  <p className="text-white/65 text-sm mb-4 font-mono max-md:mx-auto max-md:w-fit max-md:text-left">{c.ingredients}</p>
+                  <Erotinrivi className="text-white/65 text-sm mb-4 font-mono max-md:mx-auto max-md:w-fit max-md:text-left" osat={erotinOsat(c.ingredients)} />
                   <p className="text-white/80 leading-relaxed max-md:mx-auto max-md:w-fit max-md:text-left">{c.description}</p>
                 </div>
               </div>

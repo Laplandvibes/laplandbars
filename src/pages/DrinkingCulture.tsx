@@ -11,6 +11,7 @@ import { useLocale } from '../i18n/useLocale';
 import { PHOTO_BY, ILLUSTRATION_LABEL } from '../lib/venueImage';
 import products from '../data/generated/product-images.json';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
+import { Erotinrivi } from '../shared/Erotin';
 
 type PriceRow = { label: string; value: string };
 type Product = { src: string; width: number; height: number; fit: string; title: string; artist: string; licence: string; licenceUrl: string; fileUrl: string };
@@ -306,12 +307,13 @@ function ProductFigure({ p, locale }: { p: Product | undefined; locale: keyof ty
         <img src={p.src} alt={p.title} width={p.width} height={p.height} loading="lazy" decoding="async" className={`w-full h-full ${p.fit === 'contain' ? 'object-contain p-6' : 'object-cover'}`} />
       </div>
       <figcaption className="mt-2.5 text-[11px] leading-snug text-white/45">
-        {PHOTO_BY[locale]}:{' '}
-        <a href={p.fileUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.artist}</a>
-        {' '}· Wikimedia Commons ·{' '}
-        {p.licenceUrl ? (
-          <a href={p.licenceUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.licence}</a>
-        ) : p.licence}
+        <Erotinrivi as="span" osat={[
+          <>{PHOTO_BY[locale]}:{' '}<a href={p.fileUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.artist}</a></>,
+          'Wikimedia Commons',
+          p.licenceUrl ? (
+            <a href={p.licenceUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.licence}</a>
+          ) : p.licence,
+        ]} />
       </figcaption>
     </figure>
   );
