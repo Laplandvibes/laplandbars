@@ -237,7 +237,7 @@ export default function CraftBeer() {
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('craftBeer.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {t('craftBeer.hero.sub')}
           </p>
         </div>
@@ -350,7 +350,7 @@ export default function CraftBeer() {
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
               {t('craftBeer.realBeers.title')}
             </h2>
-            <p className="text-white/75 max-w-2xl mx-auto">
+            <p className="text-white/75 max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('craftBeer.realBeers.sub')}
             </p>
           </div>
@@ -382,7 +382,7 @@ export default function CraftBeer() {
             <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">
               {t('craftBeer.tours.title')}
             </h2>
-            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto">
+            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('craftBeer.tours.sub')}
             </p>
           </div>
@@ -408,7 +408,7 @@ export default function CraftBeer() {
 
           {gygBlocked && (
             <div>
-              <p className="text-white/80 text-sm leading-relaxed max-w-xl mx-auto text-center mb-6">
+              <p className="text-white/80 text-sm leading-relaxed max-w-xl mx-auto w-fit text-center max-lg:text-left mb-6">
                 {GYG_FALLBACK_LEAD[lang] ?? GYG_FALLBACK_LEAD.en}
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">

@@ -163,7 +163,7 @@ export default function Home() {
             <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
               {t('home.featured.title')}
             </h2>
-            <p className="text-white/75 text-lg max-w-2xl mx-auto">
+            <p className="text-white/75 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('home.featured.sub')}
             </p>
           </div>
@@ -171,7 +171,8 @@ export default function Home() {
           {/* Sama BarCard kuin /bars- ja /city-sivuilla. Vesa 11.9.: kulman
               "Vaatii"/"Olut"-lätkä oli hintatekstin ENSIMMÄINEN SANA eikä arvio,
               ja 10 korttia jätti yhden orvoksi omalle rivilleen ⇒ 9 = 3 × 3. */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+          {/* Kahdessa sarakkeessa (640–1023 px) pariton viimeinen kortti keskelle muiden levyisenä, ei venytetä (gate:tabletti laaja 9.11.2026). */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 sm:max-lg:[&>*:last-child:nth-child(odd)]:col-span-2 sm:max-lg:[&>*:last-child:nth-child(odd)]:justify-self-center sm:max-lg:[&>*:last-child:nth-child(odd)]:w-[calc(50%_-_16px)]">
             {featured.slice(0, 9).map((bar) => (
               <BarCard
                 key={bar.name}
@@ -259,7 +260,7 @@ export default function Home() {
           <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
             {t('home.destinations.title')}
           </h2>
-          <p className="text-white/75 text-lg max-w-2xl mx-auto mb-12">
+          <p className="text-white/75 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-12">
             {t('home.destinations.sub')}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
@@ -296,7 +297,7 @@ export default function Home() {
             <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
               {t('home.stayBand.title')}
             </h2>
-            <p className="text-white/80 text-lg max-w-2xl mx-auto">
+            <p className="text-white/80 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('home.stayBand.sub')}
             </p>
           </div>
@@ -343,7 +344,7 @@ export default function Home() {
             <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide mb-4">
               {t('home.faq.title')}
             </h2>
-            <p className="text-white/75 text-lg max-w-2xl mx-auto">
+            <p className="text-white/75 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('home.faq.sub')}
             </p>
           </div>

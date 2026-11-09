@@ -175,7 +175,7 @@ export default function ApresSki() {
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('apresSki.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {t('apresSki.hero.sub')}
           </p>
         </div>
@@ -255,9 +255,11 @@ export default function ApresSki() {
             const stay = resortStays[resort.resort];
             return (
               <div key={resort.resort} id={resort.slug} className="scroll-mt-24">
-                <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 md:gap-8 mb-8 pb-5 border-b border-white/10">
+                {/* Alle 1024 px otsikkorivi keskiakselille: keskus + alue keskelle, majoitusvihje keskitetyssä palstassa
+                    vasemmalle, nappi keskelle (gate:tabletti laaja 9.11.2026). lg+ ennallaan (nappi oikeassa päässä). */}
+                <div className="flex flex-col items-center text-center lg:flex-row lg:items-end lg:justify-between lg:text-left gap-4 lg:gap-8 mb-8 pb-5 border-b border-white/10">
                   <div className="min-w-0">
-                    <div className="flex items-baseline flex-wrap gap-x-4 gap-y-2">
+                    <div className="flex items-baseline flex-wrap justify-center lg:justify-start gap-x-4 gap-y-2">
                       <h2 className="font-heading text-4xl sm:text-5xl text-white tracking-wide">{resort.resort}</h2>
                       {resort.region && (
                         <span className="text-xs font-bold uppercase tracking-[0.2em] text-ice/85 border border-ice/25 rounded-full px-2.5 py-1">
@@ -266,7 +268,7 @@ export default function ApresSki() {
                       )}
                     </div>
                     {stay && (
-                      <p className="mt-2 text-[15px] text-white/80 leading-relaxed max-w-2xl">
+                      <p className="mt-2 text-[15px] text-white/80 leading-relaxed max-w-2xl max-lg:mx-auto max-lg:w-fit max-lg:text-left">
                         <span className="inline-flex items-center gap-1.5 text-amber text-xs font-semibold uppercase tracking-widest mr-2 align-[1px]">
                           <Hotel size={12} />
                           {t('apresSki.stayKicker', { resort: resort.resort })}
@@ -280,7 +282,7 @@ export default function ApresSki() {
                       partner="hotels"
                       sid={stay.sid}
                       destination={stay.query}
-                      className="shrink-0 self-start md:self-auto inline-flex items-center justify-center gap-2 border border-amber/55 text-amber hover:bg-amber hover:text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-colors whitespace-nowrap no-underline"
+                      className="shrink-0 self-center lg:self-auto inline-flex items-center justify-center gap-2 border border-amber/55 text-amber hover:bg-amber hover:text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-colors whitespace-nowrap no-underline"
                     >
                       {t('apresSki.findHotel')}
                       <ExternalLink size={14} />
@@ -288,7 +290,7 @@ export default function ApresSki() {
                   )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 sm:max-lg:[&>*:last-child:nth-child(odd)]:col-span-2 sm:max-lg:[&>*:last-child:nth-child(odd)]:justify-self-center sm:max-lg:[&>*:last-child:nth-child(odd)]:w-[calc(50%_-_12px)]">
                   {resort.venues.map((venue) => {
                     const bar = BAR_BY_NAME.get(venue.name);
                     if (!bar) return null;

@@ -216,7 +216,8 @@ export default function Bars() {
                 </div>
 
                 {/* Baarikortit */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10">
+                {/* Kahdessa sarakkeessa (640–1023 px) pariton viimeinen kortti keskelle muiden levyisenä, ei venytetä (gate:tabletti laaja 9.11.2026). */}
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-10 sm:max-lg:[&>*:last-child:nth-child(odd)]:col-span-2 sm:max-lg:[&>*:last-child:nth-child(odd)]:justify-self-center sm:max-lg:[&>*:last-child:nth-child(odd)]:w-[calc(50%_-_16px)]">
                   {cityBars.map((bar) => (
                     <BarCard
                       key={bar.name}
@@ -295,7 +296,7 @@ export default function Bars() {
       {/* Vastuulauseke */}
       <section className="py-10 bg-night">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <p className="text-white/75 text-sm leading-relaxed text-pretty">
+          <p className="text-white/75 text-sm leading-relaxed text-pretty max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {t('bars.disclaimer')}
           </p>
           <AffiliateDisclosure variant="full" className="mt-6 text-white/45" />

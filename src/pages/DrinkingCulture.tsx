@@ -101,11 +101,13 @@ export default function DrinkingCulture() {
         />
         <div className="absolute inset-0" style={{ backgroundImage: 'linear-gradient(to top, rgba(15,23,42,0.92) 0%, rgba(15,23,42,0.45) 45%, rgba(15,23,42,0.25) 100%)' }} />
         <ImageMark src={BARS.drinkingCultureHero} />
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-32">
-          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-[0.95] max-w-4xl drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
+        {/* Alle 1024 px otsikko keskiakselille ja johdanto keskitetyssä palstassa vasemmalle (gate:tabletti laaja
+            9.11.2026; muistisääntö 8.11.: "/drinking-culture/ h1 vasemmalla ilman syytä ⇒ korjattava on otsikko"). */}
+        <div className="relative z-10 w-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-14 pt-32 max-lg:text-center">
+          <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white tracking-wide leading-[0.95] max-w-4xl max-lg:mx-auto drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('drinkingCulture.hero.title')}
           </h1>
-          <p className="mt-5 text-white/85 text-lg sm:text-xl max-w-2xl leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="mt-5 text-white/85 text-lg sm:text-xl max-w-2xl max-lg:mx-auto max-lg:w-fit max-lg:text-left leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {t('drinkingCulture.hero.sub')}
           </p>
         </div>
@@ -115,11 +117,11 @@ export default function DrinkingCulture() {
       {/* Johdanto + sisällys */}
       <section className="bg-night pt-14 pb-12">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl space-y-6 text-white/85 text-lg sm:text-xl leading-[1.65]">
+          <div className="max-w-3xl max-lg:mx-auto space-y-6 text-white/85 text-lg sm:text-xl leading-[1.65]">
             {intro.map((p, i) => <p key={i}>{p}</p>)}
           </div>
           <nav aria-label={t('drinkingCulture.hero.title')} className="mt-12">
-            <ol className="flex flex-wrap gap-x-8 gap-y-4">
+            <ol className="flex flex-wrap justify-center lg:justify-start gap-x-8 gap-y-4">
               {CHAPTERS.map((c, i) => (
                 <li key={c.id}>
                   <a href={`#${c.id}`} className="group inline-flex items-baseline gap-2.5 no-underline">
@@ -227,22 +229,22 @@ export default function DrinkingCulture() {
           <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-4">
             {t('drinkingCulture.cta.title')}
           </h2>
-          <p className="text-white/75 mb-8 leading-relaxed">
+          <p className="text-white/75 mb-8 leading-relaxed max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {t('drinkingCulture.cta.sub')}
           </p>
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+          <div className="flex flex-col items-stretch gap-3 max-w-sm mx-auto sm:max-w-none sm:flex-row sm:items-center sm:justify-center">
             <AffiliateCTA
               partner="hotels"
               sid="drinking_culture_stay_lapland"
               destination="Lapland, Finland"
-              className="inline-flex items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
+              className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
             >
               <Hotel size={20} />
               {t('drinkingCulture.cta.btnStay')}
             </AffiliateCTA>
             <Link
               to={to('/bars')}
-              className="inline-flex items-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border border-white/15 no-underline"
+              className="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 border border-white/15 no-underline"
             >
               {t('drinkingCulture.cta.btnExplore')}
               <ExternalLink size={18} />
@@ -267,8 +269,9 @@ function Chapter({ id, n, title, body, figure, extra, first, children }: {
   return (
     <section id={id} className={`scroll-mt-24 py-14 lg:py-20 ${first ? '' : 'border-t border-white/[0.07]'}`}>
       <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_340px] gap-10 lg:gap-20 items-start">
-        <div className="min-w-0 max-w-[62ch]">
-          <div className="flex items-baseline gap-4 sm:gap-5 mb-6">
+        <div className="min-w-0 max-w-[62ch] max-lg:mx-auto">
+          {/* Alle 1024 px numero otsikon yllä ja otsikko keskelle; leipäteksti vasemmalle (9.11.2026). */}
+          <div className="flex flex-col items-center gap-2 text-center lg:flex-row lg:items-baseline lg:gap-5 lg:text-left mb-6">
             <span className="font-heading text-5xl sm:text-6xl text-amber leading-none">{n}</span>
             <h2 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-white tracking-wide leading-[1.02]">{title}</h2>
           </div>

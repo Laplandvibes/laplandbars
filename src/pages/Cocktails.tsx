@@ -66,7 +66,7 @@ export default function Cocktails() {
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('cocktails.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {t('cocktails.hero.sub')}
           </p>
         </div>
@@ -88,11 +88,13 @@ export default function Cocktails() {
                   <div className="absolute inset-0 bg-gradient-to-t from-night/40 to-transparent" />
                   <ImageMark src={cocktailImages[i] ?? BARS.cocktailTrio} />
                 </div>
-                <div className={i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}>
+                {/* Alle 768 px kuva on tekstin yläpuolella: kausi ja nimi keskelle, teksti keskitetyssä palstassa
+                    vasemmalle (gate:tabletti laaja 9.11.2026). 768 px+ teksti on kuvan vieressä ja pysyy vasemmalla. */}
+                <div className={`max-md:text-center ${i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}`}>
                   <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>
                   <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">{c.name}</h2>
-                  <p className="text-white/65 text-sm mb-4 font-mono">{c.ingredients}</p>
-                  <p className="text-white/80 leading-relaxed">{c.description}</p>
+                  <p className="text-white/65 text-sm mb-4 font-mono max-md:mx-auto max-md:w-fit max-md:text-left">{c.ingredients}</p>
+                  <p className="text-white/80 leading-relaxed max-md:mx-auto max-md:w-fit max-md:text-left">{c.description}</p>
                 </div>
               </div>
             ))}
@@ -107,7 +109,7 @@ export default function Cocktails() {
             <h2 className="font-heading text-4xl text-white tracking-wide mb-4">
               {t('cocktails.ingredientsTitle')}
             </h2>
-            <p className="text-white/75 max-w-2xl mx-auto">
+            <p className="text-white/75 max-w-2xl mx-auto max-lg:w-fit max-lg:text-left">
               {t('cocktails.ingredientsSub')}
             </p>
           </div>
@@ -133,7 +135,7 @@ export default function Cocktails() {
             <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3 text-balance">
               {t('experiences.cocktail.title')}
             </h2>
-            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto mb-7 text-pretty">
+            <p className="text-white/80 text-sm sm:text-base max-w-2xl mx-auto max-lg:w-fit max-lg:text-left mb-7 text-pretty">
               {t('experiences.cocktail.body')}
             </p>
             <GygSearchCta query="Rovaniemi cocktail tasting experience" sid="cocktails_exp_lapland">
@@ -163,7 +165,8 @@ export default function Cocktails() {
                 kaupungit, joissa cocktailbaarit ovat. Yksi "Etsi hotelleja Lapista" -nappi jätti
                 lauseen kesken ja vei koko Lapin listaan; nyt kolme nappia, kukin oman kaupungin
                 hotelleihin (syvin parametri, ks. CLAUDE.md "Affiliate Links"). */}
-            <div className="flex flex-wrap gap-2 sm:flex-col sm:items-stretch shrink-0">
+            {/* Puhelimella (alle 640 px) napit pinossa saman levyisinä, kuten sm+ (9.11.2026). */}
+            <div className="flex flex-col items-stretch gap-2 shrink-0">
               {STAY_CITIES.map((c) => (
                 <AffiliateCTA
                   key={c.slug}

@@ -156,7 +156,7 @@ export default function CityPage() {
             {tx(`${cityKey}.h1`, `Bars in ${name}`)}
           </h1>
           {tagline && (
-            <p className="mt-4 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto text-white/85 drop-shadow-[0_2px_14px_rgba(0,0,0,0.9)]">
+            <p className="mt-4 text-lg sm:text-xl leading-relaxed max-w-2xl mx-auto max-lg:w-fit max-lg:text-left text-white/85 drop-shadow-[0_2px_14px_rgba(0,0,0,0.9)]">
               {tagline}
             </p>
           )}
@@ -209,7 +209,8 @@ export default function CityPage() {
       <section className="bar-depth pb-20 pt-4">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="font-heading text-3xl sm:text-4xl tracking-wide text-white mb-8 text-center lg:text-left">{countLabel}</h2>
-          <div className="grid gap-8 lg:gap-10 sm:grid-cols-2 lg:grid-cols-3 items-start">
+          {/* Kahdessa sarakkeessa (640–1023 px) pariton viimeinen kortti keskelle muiden levyisenä, ei venytetä (gate:tabletti laaja 9.11.2026). */}
+          <div className="grid gap-8 lg:gap-10 sm:grid-cols-2 lg:grid-cols-3 items-start sm:max-lg:[&>*:last-child:nth-child(odd)]:col-span-2 sm:max-lg:[&>*:last-child:nth-child(odd)]:justify-self-center sm:max-lg:[&>*:last-child:nth-child(odd)]:w-[calc(50%_-_16px)]">
             {list.map((bar) => (
               <BarCard
                 key={bar.name}

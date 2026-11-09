@@ -62,7 +62,7 @@ export default function IceBars() {
           <h1 className="font-heading text-5xl sm:text-6xl md:text-7xl text-white tracking-wide mb-5 drop-shadow-[0_2px_16px_rgba(0,0,0,0.9)]">
             {t('iceBars.hero.title')}
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
+          <p className="text-white/80 text-lg max-w-2xl mx-auto max-lg:w-fit max-lg:text-left leading-relaxed drop-shadow-[0_2px_12px_rgba(0,0,0,0.9)]">
             {t('iceBars.hero.sub')}
           </p>
         </div>
@@ -88,7 +88,7 @@ export default function IceBars() {
       {expectItems.length > 0 && (
         <section className="bg-night pb-12">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="font-heading text-2xl sm:text-3xl text-white tracking-wide mb-5">{t('iceBars.expect.title')}</h2>
+            <h2 className="font-heading text-2xl sm:text-3xl text-white tracking-wide mb-5 text-center lg:text-left">{t('iceBars.expect.title')}</h2>
             <dl className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 rounded-2xl ring-1 ring-ice/20 bg-ice/[0.04] overflow-hidden">
               {expectItems.map((item, i) => {
                 const Icon = EXPECT_ICONS[i] ?? Snowflake;
