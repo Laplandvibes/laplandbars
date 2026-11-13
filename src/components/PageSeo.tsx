@@ -49,6 +49,34 @@ function injectInLanguage(node: unknown, bcp47: string): unknown {
   return node;
 }
 
+/**
+ * Rakenteisen datan sisäiset osoitteet samaan muotoon kuin kanoninen, hreflang ja sivukartta:
+ * sivun OMA kieliversio ja loppukauttaviiva. Sivujen schema-oliot on kirjoitettu englannin
+ * osoitteilla (`https://laplandbars.com/bars`), jolloin esim. /fi/bars/ kertoi Googlelle osoitteekseen
+ * englanninkielisen sivun 308-ohjautuvan muodon, ja baarilistan 91 `subjectOf.url`-riviä osoittivat
+ * englanninkieliseen sivuun. Mitattu 12.–13.11.2026, mittari lv-ops `scripts/audit_jsonld_osoitteet.mjs`.
+ * - polullinen osoite → kieliversio + kauttaviiva (`/fi/bars/`)
+ * - juuri → `https://laplandbars.com/`; murupolun `item` saisi kielijuuren (`/fi/`)
+ * - tiedostot (.svg, .jpg), ankkurit (#org) ja ulkoiset osoitteet jäävät ennalleen
+ */
+const INTERNAL_URL = /^https:\/\/laplandbars\.com((?:\/[A-Za-z0-9_-]+)*)\/?$/;
+function localizeUrls(node: unknown, locale: Locale, key = ''): unknown {
+  if (typeof node === 'string') {
+    const m = INTERNAL_URL.exec(node);
+    if (!m) return node;
+    const path = m[1] || '/';
+    if (path === '/' && key !== 'item') return `${ORIGIN}/`;
+    return `${ORIGIN}${localisedPath(path, locale)}`.replace(/\/?$/, '/');
+  }
+  if (Array.isArray(node)) return node.map((n) => localizeUrls(n, locale, key));
+  if (node && typeof node === 'object') {
+    const out: Record<string, unknown> = {};
+    for (const [k, v] of Object.entries(node as Record<string, unknown>)) out[k] = localizeUrls(v, locale, k);
+    return out;
+  }
+  return node;
+}
+
 export default function PageSeo({ title, description, titleKey, descriptionKey, path, jsonLd }: PageSeoProps) {
   const { t } = useTranslation('pages');
   const { locale } = useLocale();
@@ -66,13 +94,16 @@ export default function PageSeo({ title, description, titleKey, descriptionKey, 
   // characters of the ~60 the result shows. Static HTML and hydration agree.
   const fullTitle = resolvedTitle;
 
+  // Sivun oma BreadcrumbList pudotetaan: esirenderöijä kirjoittaa jokaiselle sivulle murupolun sivun kielellä
+  // ja oikeilla osoitteilla, kun taas sivujen omat oliot sanoivat "Home" ja englannin osoitteen joka kielellä
+  // (sama ratkaisu kuin laplandcarrental 25.9. ja laplandwellness 12.11.2026).
   const graphItems = jsonLd
-    ? Array.isArray(jsonLd)
-      ? jsonLd
-      : [jsonLd]
+    ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]).filter(
+        (s) => (s as { '@type'?: string })['@type'] !== 'BreadcrumbList',
+      )
     : null;
-  const localizedGraph = graphItems
-    ? (injectInLanguage(JSON.parse(JSON.stringify(graphItems)), bcp47) as unknown[])
+  const localizedGraph = graphItems && graphItems.length
+    ? (localizeUrls(injectInLanguage(JSON.parse(JSON.stringify(graphItems)), bcp47), locale) as unknown[])
     : null;
 
   return (
