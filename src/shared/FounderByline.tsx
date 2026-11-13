@@ -61,9 +61,19 @@ interface FounderBylineProps {
   lang?: string;
   /** Founder avatar path, defaults to the shared network asset. */
   image?: string;
+  /**
+   * Show the second line ("These letters come from me").
+   *
+   * Default true = the newsletter band this component was built for. Set false
+   * where the byline is used only to put a name and a face on a page — the note
+   * is newsletter-specific and would be untrue anywhere else (added 15.9.2026
+   * for laplandwork's employer page, where the point is "a real company runs
+   * this", not "I write the letters").
+   */
+  showNote?: boolean;
 }
 
-export default function FounderByline({ tone = 'pink', lang, image = '/vesa-founder.webp' }: FounderBylineProps) {
+export default function FounderByline({ tone = 'pink', lang, image = '/vesa-founder.webp', showNote = true }: FounderBylineProps) {
   // Re-read <html lang> whenever the route changes (locale switches navigate).
   useLocation();
   const resolved = normalizeLang(
@@ -116,9 +126,11 @@ export default function FounderByline({ tone = 'pink', lang, image = '/vesa-foun
           <p style={{ margin: 0, fontSize: '1.0625rem', fontWeight: 700, color: t.role, lineHeight: 1.3 }}>
             {s.role}
           </p>
-          <p style={{ margin: '2px 0 0', fontSize: '0.875rem', color: t.note, lineHeight: 1.35 }}>
-            {s.note}
-          </p>
+          {showNote && (
+            <p style={{ margin: '2px 0 0', fontSize: '0.875rem', color: t.note, lineHeight: 1.35 }}>
+              {s.note}
+            </p>
+          )}
         </div>
       </div>
     </div>
