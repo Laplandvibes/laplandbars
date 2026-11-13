@@ -66,11 +66,17 @@ jobs:
           npm ci --no-audit --no-fund
           node scripts/portti.mjs --site "$SIVUSTO_DIR" --taso dist
 
+      # Julkaisuvaihe ajetaan sivuston omalla Node-versiolla, kuten ennen tätä lohkoa.
+      - name: LV-portit — sivuston oma Node takaisin
+        if: ${{ vars.LV_PORTIT_POIS != '1' && steps.lvops.outcome == 'success' }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
       - name: LV-portit — ohitettu
         if: ${{ vars.LV_PORTIT_POIS == '1' || steps.lvops.outcome != 'success' }}
         run: echo "::warning::LV-portit ohitettu (LV_PORTIT_POIS='${{ vars.LV_PORTIT_POIS }}', lv-ops-haku='${{ steps.lvops.outcome }}')"
       # ─── /LV-PORTIT-CI ───────────────────────────────────────────────────────────────────
-
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
