@@ -9,6 +9,11 @@ name: Portit (raportti)
 
 on:
   workflow_dispatch:
+    inputs:
+      selain:
+        description: "Aja myös selainportit (Playwright, 20–60 min; lataa sivuja jotka kutsuvat Cloudflaren funktioita)"
+        type: boolean
+        default: false
 
 concurrency:
   group: portit-${{ github.ref }}
@@ -58,11 +63,13 @@ jobs:
         run: node scripts/portti.mjs --site "$SIVUSTO_DIR" --taso dist --json _portit/raportit/ci-dist.json
 
       - name: Selain (Playwright)
+        if: inputs.selain
         working-directory: lv-ops
         run: npx playwright install --with-deps chromium
 
       - name: Selainportit
         id: selain
+        if: inputs.selain
         continue-on-error: true
         working-directory: lv-ops
         run: node scripts/portti.mjs --site "$SIVUSTO_DIR" --taso selain --json _portit/raportit/ci-selain.json
