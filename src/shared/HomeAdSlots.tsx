@@ -85,10 +85,17 @@ export function MainPartnerBanner({ config, locale, surface = 'dark', houseAdTon
           light-themed sites in the network get the same separation inverted. */}
       <div
         className={[
-          'max-w-6xl mx-auto rounded-2xl border p-3 sm:p-4',
-          houseAdTone === 'subtle' && !partner
-            ? 'bg-white/[0.02] border-white/10'
-            : surface === 'light' ? 'bg-vibe-pink/[0.05] border-vibe-pink/20' : 'bg-vibe-pink/[0.07] border-vibe-pink/25',
+          'max-w-6xl mx-auto rounded-2xl p-3 sm:p-4',
+          // 🔴 Pinkki kehys on MYYNTIKEHYS: se kertoo että paikka on ostettavissa.
+          // Maksaneen kumppanin alla se teki päinvastaista työtä — haalensi kortin
+          // taustaan (Vesa 6.9.: "onhan tällainen mainos ihan kamalan näköinen").
+          // Kun paikka on myyty, kortti itse kantaa erottelun (umpinainen pinta,
+          // kumppanin väriviiva, varjo) eikä kehystä tarvita.
+          partner
+            ? ''
+            : houseAdTone === 'subtle'
+              ? 'border bg-white/[0.02] border-white/10'
+              : surface === 'light' ? 'border bg-vibe-pink/[0.05] border-vibe-pink/20' : 'border bg-vibe-pink/[0.07] border-vibe-pink/25',
         ].join(' ')}
       >
         <PartnerSlot
@@ -162,6 +169,11 @@ export default function HomeAdSlots({ config, locale, surface = 'dark', houseAdT
   // paikkaa — se lukee rikkinäisenä käyttöliittymänä. Kun toinen paikka ON
   // myyty, tyhjä pari säilyy: silloin se on aito kutsu jäljellä olevaan paikkaan.
   const bothEmpty = !a && !b;
+  // Vain toinen paikka myyty: kortti B renderöi tyhjää (house-ad vain
+  // pääkumppanibannerissa, sääntö 4.9.) ⇒ kaksipalstainen ruudukko jätti
+  // oikealle tyhjän aukon (gifts/Keloa, Vesa 5.9.). Yksi myyty kortti saa
+  // yhden palstan ja rajatun leveyden — ei aukkoa eikä venytettyä korttia.
+  const single = (a !== null && b === null) || (a === null && b !== null);
 
   return (
     <section
@@ -171,6 +183,7 @@ export default function HomeAdSlots({ config, locale, surface = 'dark', houseAdT
       <div className="max-w-6xl mx-auto">
         {/* Kävijälle vain neutraali "Kumppanit" — tier-nimet ovat myyntikieltä
             (elävät vain house-adien pitchissä + LV Media -portaalissa). */}
+        {!single && (
         <p
           className={[
             'text-xs uppercase tracking-[0.2em] font-semibold mb-5',
@@ -179,10 +192,13 @@ export default function HomeAdSlots({ config, locale, surface = 'dark', houseAdT
         >
           {t.partners}
         </p>
+        )}
 
         <div className={[
           'grid grid-cols-1 gap-4 sm:gap-5 items-stretch',
-          bothEmpty ? '' : 'sm:grid-cols-2',
+          bothEmpty || single ? '' : 'md:grid-cols-2',
+          // 62rem = sama sisäleveys kuin tuoteriveillä (max-w-5xl − px-4).
+          single ? 'max-w-[62rem] mx-auto' : '',
         ].filter(Boolean).join(' ')}>
           {/* Kortti A (vasen desktopissa). House-ad-placeholder vain
               myyntikielillä — muilla lokaaleilla tyhjä paikka ei renderöidy. */}
@@ -193,13 +209,14 @@ export default function HomeAdSlots({ config, locale, surface = 'dark', houseAdT
               locale={locale}
               surface={surface}
               houseAdTone={houseAdTone}
+              layout={single ? 'wide' : 'stack'}
               className={['w-full', cardClassName].filter(Boolean).join(' ')}
               placeholder={salesLocale ? { siteSlug: config.siteSlug, slotId: 'card_a', level: 'card' } : undefined}
             />
           </div>
           {/* Kortti B (oikea desktopissa; parittomana päivänä ylin mobiilissa).
               Jätetään pois kun kumpaakaan ei ole myyty — ks. bothEmpty. */}
-          {!bothEmpty && (
+          {!bothEmpty && !single && (
             <div className={['flex', flipMobile ? 'max-sm:order-first' : ''].filter(Boolean).join(' ')}>
               <PartnerSlot
                 variant="card"
