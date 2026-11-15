@@ -132,7 +132,7 @@ export default function Newsletter() {
   // changeLanguage() call, so resolvedLanguage stays 'en' for the session and
   // the consent checkbox rendered English on an otherwise localized page
   // (same bug as the hub, fixed network-wide 2026-08-15).
-  const { locale } = useLocale();
+  const { locale, to } = useLocale();
   const consentCopy = consentCopyFor(locale);
   // [LV-FUNNEL] view = osio vieritetty näkyviin (kerran), start = 1. fokus,
   // blocked kerran per submit-yritys (natiivi invalid laukeaa per kenttä).
@@ -320,7 +320,7 @@ export default function Newsletter() {
                 <span className="text-white text-xs leading-relaxed">
                   {consentCopy.consent}{' '}
                   <a
-                    href="/privacy/"
+                    href={to('/privacy/')}
                     target="_blank"
                     rel="noopener"
                     onClick={(e) => e.stopPropagation()}
