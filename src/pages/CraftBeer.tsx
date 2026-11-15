@@ -492,7 +492,7 @@ export default function CraftBeer() {
               </div>
             </div>
           </div>
-          <AffiliateDisclosure variant="full" className="mt-10 text-white/45 max-w-2xl mx-auto" />
+          <AffiliateDisclosure variant="full" className="mt-10 text-white/75 max-w-2xl mx-auto" />
         </div>
       </section>
     </>

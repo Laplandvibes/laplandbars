@@ -183,7 +183,7 @@ export default function Cocktails() {
               ))}
             </div>
           </div>
-          <AffiliateDisclosure variant="full" className="mt-8 text-white/45 max-w-2xl mx-auto" />
+          <AffiliateDisclosure variant="full" className="mt-8 text-white/75 max-w-2xl mx-auto" />
         </div>
       </section>
     </>

@@ -194,7 +194,8 @@ export default function DrinkingCulture() {
                         </div>
                       ))}
                     </dl>
-                    <p className="mt-3 text-xs text-white/45 leading-relaxed">{t('drinkingCulture.lapinKulta.priceFootnote')}</p>
+                    {/* Taulukon alaviite on täysi virke = leipätekstiä: 16 px, muste /75 (§33, 15.11.2026; oli 12 px /45). */}
+                    <p className="mt-3 text-base text-white/75 leading-relaxed">{t('drinkingCulture.lapinKulta.priceFootnote')}</p>
                   </div>
                   <div className="max-w-3xl">
                     <Facts label={noColon(t('drinkingCulture.lapinKulta.otherLabel'))}>
@@ -251,7 +252,7 @@ export default function DrinkingCulture() {
               <ExternalLink size={18} />
             </Link>
           </div>
-          <AffiliateDisclosure variant="full" className="mt-10 text-white/45" />
+          <AffiliateDisclosure variant="full" className="mt-10 text-white/75" />
         </div>
       </section>
     </>
@@ -306,12 +307,13 @@ function ProductFigure({ p, locale }: { p: Product | undefined; locale: keyof ty
       <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 bg-night-light aspect-[4/5]">
         <img src={p.src} alt={p.title} width={p.width} height={p.height} loading="lazy" decoding="async" className={`w-full h-full ${p.fit === 'contain' ? 'object-contain p-6' : 'object-cover'}`} />
       </div>
-      <figcaption className="mt-2.5 text-[11px] leading-snug text-white/45">
+      <figcaption className="mt-2.5 text-[11px] leading-snug text-white/75">
         <Erotinrivi as="span" osat={[
-          <>{PHOTO_BY[locale]}:{' '}<a href={p.fileUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.artist}</a></>,
+          // Tekijä on nimi (Helsingin kaupunginmuseo, Commons-käyttäjä), ei käännettävää tekstiä: translate="no" kuten PhotoCreditissa.
+          <>{PHOTO_BY[locale]}:{' '}<a href={p.fileUrl} target="_blank" rel="noopener nofollow" translate="no" className="underline decoration-white/25 hover:text-white">{p.artist}</a></>,
           'Wikimedia Commons',
           p.licenceUrl ? (
-            <a href={p.licenceUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white/70">{p.licence}</a>
+            <a href={p.licenceUrl} target="_blank" rel="noopener nofollow" className="underline decoration-white/25 hover:text-white">{p.licence}</a>
           ) : p.licence,
         ]} />
       </figcaption>
@@ -326,7 +328,7 @@ function IllustrationFigure({ src, alt, label }: { src: string; alt: string; lab
       <div className="rounded-2xl overflow-hidden ring-1 ring-white/10 bg-night-light aspect-[4/5]">
         <img src={src} alt={alt} loading="lazy" decoding="async" className="w-full h-full object-cover" />
       </div>
-      <figcaption className="mt-2.5 text-[11px] leading-snug text-white/45">{label}</figcaption>
+      <figcaption className="mt-2.5 text-[11px] leading-snug text-white/75">{label}</figcaption>
     </figure>
   );
 }

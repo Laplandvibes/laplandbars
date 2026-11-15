@@ -277,7 +277,7 @@ export default function CityPage() {
 
       <section className="py-8 bg-night">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 text-center">
-          <AffiliateDisclosure variant="full" className="text-white/45" />
+          <AffiliateDisclosure variant="full" className="text-white/75" />
         </div>
       </section>
     </>

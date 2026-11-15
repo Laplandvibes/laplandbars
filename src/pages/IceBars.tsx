@@ -221,8 +221,10 @@ export default function IceBars() {
             })}
           </div>
 
-          {/* Data provenance — hours/prices checked against the venues' own sites */}
-          <p className="mt-6 text-center text-[11px] text-white/45">
+          {/* Data provenance — hours/prices checked against the venues' own sites.
+              Täysi virke = leipätekstiä: 16 px ja muste /75 (lv_permanent_rules §33, 15.11.2026; oli 11 px /45 = 4,47:1).
+              Alle 1024 px lohko keskellä ja rivit vasemmalla, kuten AffiliateDisclosure (gate:tabletti). */}
+          <p className="mt-6 mx-auto max-w-2xl text-center text-base leading-relaxed text-white/75 text-balance max-lg:w-fit max-lg:text-left">
             {t('iceBars.verifiedNote')}
           </p>
 
@@ -275,7 +277,7 @@ export default function IceBars() {
               </div>
             </div>
           </div>
-          <AffiliateDisclosure variant="full" className="mt-10 text-white/45 max-w-2xl mx-auto" />
+          <AffiliateDisclosure variant="full" className="mt-10 text-white/75 max-w-2xl mx-auto" />
         </div>
       </section>
 

@@ -22,6 +22,7 @@ import RelatedSites from '../components/RelatedSites';
 // vanhenee — siksi yksi jaettu moduuli.
 import { barImages } from '../data/barCardImages';
 import ImageMark, { photoAlt } from '../components/PhotoCredit';
+import { SUMMER_HERO_ALT } from '../data/photoAlts';
 import { Erotinrivi, erotinOsat } from '../shared/Erotin';
 
 const categoryCardsMeta = [
@@ -99,7 +100,7 @@ export default function Home() {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <img
           src={isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain}
-          alt={photoAlt(isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain, 'Bar in Finnish Lapland', locale)}
+          alt={photoAlt(isSummerSeason() ? BARS.heroMainSummer : BARS.heroMain, SUMMER_HERO_ALT, locale)}
           className="absolute inset-0 w-full h-full object-cover"
           loading="eager"
           fetchPriority="high"
@@ -385,7 +386,7 @@ export default function Home() {
           Oli oma kopio samasta lohkosta — kaksi paikkaa yllapidettavana. */}
       <RelatedSites />
       <div className="bg-night pb-16 px-4 sm:px-6 lg:px-8">
-        <AffiliateDisclosure variant="full" className="text-white/45 max-w-2xl mx-auto" />
+        <AffiliateDisclosure variant="full" className="text-white/75 max-w-2xl mx-auto" />
       </div>
     </>
   );

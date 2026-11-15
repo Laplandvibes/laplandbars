@@ -11,7 +11,28 @@ import type { Locale } from '../i18n/config';
  */
 type Alts = Record<Exclude<Locale, 'en'>, string>;
 
+/**
+ * Etusivun kesähero (`heroMain-summer.webp`, touko–syyskuu) on tekoälykuvitus ilman krediittiä, joten sen
+ * alt tulee tästä varatekstistä. Ennen 15.11.2026 se oli "Bar in Finnish Lapland" englanniksi kaikilla
+ * 12 kielellä. Kuvaus kertoo vain sen, mitä kuvassa näkyy, eikä nimeä oikeaa paikkaa (kuvitus).
+ * Tunturi verkoston sanaston mukaan (GLOSSARY-TIER3: fjäll, pt-BR monte, ja フェル, ko 펠, zh 山丘).
+ */
+export const SUMMER_HERO_ALT = 'A terrace bar on a fellside at dusk, string lights over the counter and a candle on a wooden table';
+
 export const PHOTO_ALTS: Record<string, Alts> = {
+  [SUMMER_HERO_ALT]: {
+    fi: 'Terassibaari tunturin rinteellä iltahämärässä, tiskin yllä valosarja ja puupöydällä kynttilä',
+    sv: 'Terrassbar på en fjällsluttning i skymningen, ljusslinga över disken och ett ljus på ett träbord',
+    de: 'Terrassenbar am Hang eines Fjälls in der Dämmerung, Lichterkette über dem Tresen und eine Kerze auf einem Holztisch',
+    es: 'Bar con terraza en la ladera de un fjäll al anochecer, guirnalda de luces sobre la barra y una vela en una mesa de madera',
+    fr: 'Bar en terrasse sur un versant de fjäll au crépuscule, guirlande lumineuse au-dessus du comptoir et bougie sur une table en bois',
+    it: 'Bar con terrazza su un pendio del fjäll al crepuscolo, catena di luci sopra il bancone e candela su un tavolo di legno',
+    nl: 'Terrasbar op de helling van een fjäll in de schemering, lichtsnoer boven de bar en een kaars op een houten tafel',
+    'pt-BR': 'Bar com terraço na encosta de um monte ao entardecer, cordão de luzes sobre o balcão e uma vela em uma mesa de madeira',
+    ja: '夕暮れのフェルの斜面にあるテラスバー、カウンターの上の電飾と木のテーブルの上のキャンドル',
+    ko: '해 질 녘 펠 비탈의 테라스 바, 카운터 위의 전구 장식과 나무 테이블 위의 촛불',
+    'zh-CN': '黄昏时分山丘斜坡上的露台酒吧，吧台上方的串灯和木桌上的一支蜡烛',
+  },
   'A Blue Lagoon cocktail made with vodka and blue curaçao': {
     fi: 'Blue Lagoon -drinkki, jossa on vodkaa ja blue curaçaota',
     sv: 'En Blue Lagoon-drink med vodka och blå curaçao',

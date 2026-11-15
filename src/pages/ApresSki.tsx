@@ -331,7 +331,7 @@ export default function ApresSki() {
           >
             {t('apresSki.cta.btn')}
           </Link>
-          <AffiliateDisclosure variant="full" className="mt-10 text-white/45" />
+          <AffiliateDisclosure variant="full" className="mt-10 text-white/75" />
         </div>
       </section>
     </>

@@ -133,11 +133,13 @@ export default function ImageMark({ src, linked = true }: { src?: string | null;
 
 /**
  * Totuudellinen kuvateksti: krediitin alt lukijan kielellä (`photoAlts.ts`), tai annettu
- * varateksti tekoälykuvitukselle.
+ * varateksti tekoälykuvitukselle, sekin lukijan kielellä kun `photoAlts.ts` tuntee sen.
+ * Etusivun kesähero (touko–syyskuu) on kuvitus ilman krediittiä: sen englanninkielinen
+ * varateksti näkyi 12 kielellä (mitattu 15.11.2026).
  */
 export function photoAlt(src: string | null | undefined, fallback: string, lang: Lang = 'en'): string {
   const alt = creditFor(src)?.alt;
-  return alt ? localizeAlt(alt, lang) : fallback;
+  return localizeAlt(alt || fallback, lang);
 }
 
 /** Sivun lopun kuvaluettelo: tämän sivun valokuvat linkkeineen (tiedostosivu + lisenssi). */

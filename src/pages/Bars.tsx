@@ -299,7 +299,7 @@ export default function Bars() {
           <p className="text-white/75 text-sm leading-relaxed text-pretty max-lg:mx-auto max-lg:w-fit max-lg:text-left">
             {t('bars.disclaimer')}
           </p>
-          <AffiliateDisclosure variant="full" className="mt-6 text-white/45" />
+          <AffiliateDisclosure variant="full" className="mt-6 text-white/75" />
         </div>
       </section>
     </>
