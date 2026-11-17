@@ -173,7 +173,7 @@ export default function IceBars() {
                           href={gygDeepLink(bar.visitGygProductPath, bar.visitSid, locale)}
                           target="_blank"
                           rel="sponsored nofollow noopener"
-                          className="inline-flex items-center justify-center gap-1.5 w-full min-h-[44px] bg-amber hover:bg-amber/90 text-night px-4 rounded-full text-sm font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                          className="inline-flex items-center justify-center gap-1.5 w-full min-h-[44px] bg-amber hover:bg-amber/90 text-night px-4 rounded-full text-sm font-bold transition-all shadow-md shadow-black/30 no-underline"
                         >
                           <Ticket size={14} />
                           {t('iceBars.bookCta')}
@@ -231,7 +231,7 @@ export default function IceBars() {
           {/* Lodging-first band — snow suites are a Lapland icon */}
           {/* 18.10.2026: kaistalla on nyt kuva lumihotellin käytävästä. Pelkkä teksti ja kaksi
               nappia näyttivät mainokselta; kuva kertoo mitä "nuku lumihuoneessa" tarkoittaa. */}
-          <div className="bar-card mt-12 overflow-hidden bg-gradient-to-br from-ice/[0.06] via-night/0 to-amber/[0.04]">
+          <div className="bar-card mt-12 overflow-hidden bg-gradient-to-br from-white/[0.05] via-night/0 to-white/[0.02]">
             <div className="grid grid-cols-1 md:grid-cols-[minmax(0,5fr)_minmax(0,7fr)] items-stretch">
               <div className="relative aspect-[4/3] md:aspect-auto md:min-h-[320px]">
                 <img
@@ -259,7 +259,7 @@ export default function IceBars() {
                   partner="hotels"
                   sid="icebar_band_arctic_snowhotel"
                   destination="Arctic SnowHotel & Glass Igloos"
-                  className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-3 rounded-full font-semibold text-sm transition-all shadow-lg shadow-amber/20 no-underline"
+                  className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-3 rounded-full font-semibold text-sm transition-all shadow-lg shadow-black/30 no-underline"
                 >
                   <Hotel size={16} />
                   {t('iceBars.band.ctaArctic')}

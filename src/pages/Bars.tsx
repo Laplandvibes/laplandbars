@@ -143,7 +143,7 @@ export default function Bars() {
                   onClick={() => setActive(city)}
                   className={`inline-flex items-center justify-center gap-2 whitespace-nowrap px-4 py-2 min-h-[44px] sm:min-h-[36px] rounded-full text-sm font-semibold transition-all duration-200 no-underline ${
                     isActive
-                      ? 'bg-amber text-night shadow-lg shadow-amber/20'
+                      ? 'bg-[#F9FAFB] text-night shadow-lg shadow-black/30'
                       : 'bg-white/5 text-white/80 hover:text-white hover:bg-white/10 border border-white/[0.08]'
                   }`}
                 >
@@ -187,10 +187,10 @@ export default function Bars() {
                       <ImageMark src={vibeImage} />
                     </>
                   ) : (
-                    <div aria-hidden="true" className="absolute inset-0 bg-night-light/50" style={{ background: 'radial-gradient(90% 130% at 88% 50%, rgba(245,158,11,0.14) 0%, rgba(15,23,42,0) 62%)' }} />
+                    <div aria-hidden="true" className="absolute inset-0 bg-night-light/50" style={{ background: 'radial-gradient(90% 130% at 88% 50%, rgba(148,163,184,0.10) 0%, rgba(15,23,42,0) 62%)' }} />
                   )}
                   <div className="absolute inset-0 flex flex-col justify-center px-6 sm:px-10">
-                    <div className="flex items-center gap-2 text-amber text-[11px] font-bold tracking-[0.25em] uppercase mb-2">
+                    <div className="inline-flex w-fit items-center gap-2 rounded-full bg-[rgba(15,23,42,0.82)] px-2.5 py-1 text-white text-[11px] font-bold tracking-[0.25em] uppercase mb-2">
                       <MapPin size={13} />
                       {t('cities.shared.kicker', { defaultValue: 'Where to drink' })}
                     </div>
@@ -248,7 +248,7 @@ export default function Bars() {
                     partner="hotels"
                     sid={`bars_city_stay_${cityAnchor(city)}`}
                     destination={`${city === 'Ylläs' ? 'Äkäslompolo' : city}, Finland`}
-                    className="inline-flex items-center justify-center gap-2 min-h-[44px] bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
+                    className="inline-flex items-center justify-center gap-2 min-h-[44px] bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-black/30 no-underline"
                   >
                     {t('bars.stayBand.cta', { city })}
                     <ExternalLink size={14} />

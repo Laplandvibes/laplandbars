@@ -166,7 +166,7 @@ export default function DrinkingCulture() {
                     <ul className="space-y-1.5">
                       {lonkeroBrandFacts.map((f, k) => (
                         <li key={k} className="flex gap-3 text-[15px] text-white/75 leading-relaxed">
-                          <span className="text-amber mt-[9px] h-1.5 w-1.5 rounded-full bg-amber shrink-0" aria-hidden="true" />
+                          <span className="text-amber mt-[9px] h-1.5 w-1.5 rounded-full bg-white/60 shrink-0" aria-hidden="true" />
                           {f}
                         </li>
                       ))}
@@ -239,7 +239,7 @@ export default function DrinkingCulture() {
               partner="hotels"
               sid="drinking_culture_stay_lapland"
               destination="Lapland, Finland"
-              className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
+              className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-black/30 no-underline"
             >
               <Hotel size={20} />
               {t('drinkingCulture.cta.btnStay')}

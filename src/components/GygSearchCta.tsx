@@ -77,7 +77,7 @@ export default function GygSearchCta({
       target="_blank"
       rel="sponsored nofollow noopener"
       onClick={() => trackAffiliateClick('getyourguide', `gyg_search:${sid}`, href)}
-      className={`inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all hover:scale-[1.02] shadow-md shadow-amber/20 no-underline ${className}`}
+      className={`inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 py-2.5 rounded-full font-semibold text-sm transition-all hover:scale-[1.02] shadow-md shadow-black/30 no-underline ${className}`}
     >
       <Ticket size={15} className="shrink-0" />
       {children}

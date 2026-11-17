@@ -86,7 +86,106 @@
   --color-aurora-green: #10B981;
 }
 
+/* ── RAUHALLINEN VÄRILINJA ───────────────────────────────────────────────────
+   Kirkas väri tummalla pohjalla ei ole tekstin väri. Meripihka jää varausnappiin
+   (täyttö, tumma teksti) ja pinkki logoon. Muu korostus on lämmin vaalea sävy tai
+   valkoinen, reunat neutraaleja, hehkuja ei ole.
+
+   Miten: luokat (text-amber, border-amber/30, bg-amber/10 …) pysyvät koodissa, mutta
+   teksti, reuna ja täyttö saavat kukin oman arvonsa. Arvo on muuttuja, jonka lähin
+   pinta tai rooli asettaa (alla @layer base). inline on pakollinen: ilman sitä
+   muuttuja ratkeaisi :rootissa eikä elementissä, jossa sitä käytetään. */
+@theme inline {
+  --text-color-amber:        var(--lv-ink-amber);
+  --text-color-ice:          var(--lv-ink-ice);
+  --text-color-vibe-pink:    var(--lv-ink-pink);
+  --text-color-arctic-cyan:  var(--lv-ink-cyan);
+  --text-color-aurora-green: var(--lv-ink-green);
+
+  --fill-amber: var(--lv-ink-amber);
+
+  --border-color-amber:        var(--lv-line);
+  --border-color-ice:          var(--lv-line);
+  --border-color-vibe-pink:    var(--lv-line);
+  --border-color-arctic-cyan:  var(--lv-line);
+  --border-color-aurora-green: var(--lv-line);
+
+  --ring-color-amber:       var(--lv-line);
+  --ring-color-ice:         var(--lv-line);
+  --ring-color-vibe-pink:   var(--lv-line);
+  --ring-color-arctic-cyan: var(--lv-line);
+
+  --background-color-amber:       var(--lv-fill-amber);
+  --background-color-ice:         var(--lv-fill-ice);
+  --background-color-vibe-pink:   var(--lv-fill-pink);
+  --background-color-arctic-cyan: var(--lv-fill-cyan);
+}
+
 @layer base {
+  /* RAUHALLINEN VÄRILINJA: oletus = tumma pohja. */
+  :root {
+    --lv-ink-amber: #F8E3B0;   /* linkki, kuvake, korostus: lämmin vaalea */
+    --lv-ink-ice:   #BAE6FD;
+    --lv-ink-pink:  #F8E3B0;   /* jaettujen osien linkit samaa sävyä kuin sivuston omat */
+    --lv-ink-cyan:  #BAE6FD;
+    --lv-ink-green: #A7F3D0;   /* tilaväri pastellina */
+    --lv-line:      #94A3B8;   /* korostusreuna neutraalina; läpikuultavuus tulee luokasta (/30) */
+    --lv-fill-amber: #F59E0B;  /* varausnappi: sivun ainoa kirkas täyttö */
+    --lv-fill-ice:   #E2E8F0;
+    --lv-fill-pink:  #DB2777;
+    --lv-fill-cyan:  #E2E8F0;
+  }
+  /* Sävytetty lasi (bg-amber/10 …) on neutraali. Vain umpinainen bg-amber on meripihkaa. */
+  :where([class~="bg-amber/5"], [class~="bg-amber/10"], [class~="bg-amber/15"], [class~="bg-amber/20"],
+         [class~="hover:bg-amber/10"], [class~="hover:bg-amber/25"]) {
+    --lv-fill-amber: #CBD5E1;
+  }
+  /* Pieni versaaliyläotsikko: himmennetty versio ympäröivästä tekstiväristä, joten sama
+     sääntö käy tummalle ja vaalealle pinnalle. Linkissä ja napissa vahvempi. */
+  :where(.uppercase) {
+    --lv-ink-amber: color-mix(in oklab, currentColor 66%, transparent);
+    --lv-ink-ice:   color-mix(in oklab, currentColor 66%, transparent);
+    --lv-ink-pink:  color-mix(in oklab, currentColor 66%, transparent);
+    --lv-ink-cyan:  color-mix(in oklab, currentColor 66%, transparent);
+  }
+  :where(a.uppercase, button.uppercase, a .uppercase, button .uppercase) {
+    --lv-ink-amber: color-mix(in oklab, currentColor 86%, transparent);
+    --lv-ink-ice:   color-mix(in oklab, currentColor 86%, transparent);
+    --lv-ink-pink:  color-mix(in oklab, currentColor 86%, transparent);
+    --lv-ink-cyan:  color-mix(in oklab, currentColor 86%, transparent);
+  }
+  /* Otsikon korostussana ja otsikkofontilla ladottu iso luku ovat ympäröivän tekstin väriä:
+     ei kaksivärisiä otsikoita eikä värillisiä lukuja.
+     Tämän pitää olla versaalisäännön JÄLKEEN (versaaliotsikko on otsikko). */
+  :where(h1, h2, h3, h4, h5, h6, .font-heading) {
+    --lv-ink-amber: currentColor;
+    --lv-ink-ice:   currentColor;
+    --lv-ink-pink:  currentColor;
+    --lv-ink-cyan:  currentColor;
+  }
+  /* Vaalea pinta: korostus on syvä sävy. */
+  :where(.bg-white, .bg-snow, .lv-vaalea) {
+    --lv-ink-amber: #92400E;
+    --lv-ink-ice:   #0E7490;
+    --lv-ink-pink:  #BE185D;
+    --lv-ink-cyan:  #0E7490;
+    --lv-ink-green: #047857;
+    --lv-line:      #64748B;
+  }
+  /* Tumma esine vaalean pinnan sisällä palauttaa tumman oletuksen. */
+  :where(.bg-deep-night, .bg-night, .bg-night-light, .bar-card, .lv-yo) {
+    --lv-ink-amber: #F8E3B0;
+    --lv-ink-ice:   #BAE6FD;
+    --lv-ink-pink:  #F8E3B0;
+    --lv-ink-cyan:  #BAE6FD;
+    --lv-ink-green: #A7F3D0;
+    --lv-line:      #94A3B8;
+  }
+  /* Logo pitää pinkkinsä (yläpalkin piirros, heron ja tekstin sanamerkit). */
+  [data-lv-sanamerkki], .notranslate {
+    --lv-ink-pink: #EC4899; --lv-ink-amber: #F59E0B;
+  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -127,7 +226,7 @@
 
   ::-webkit-scrollbar { width: 6px; }
   ::-webkit-scrollbar-track { background: var(--color-night); }
-  ::-webkit-scrollbar-thumb { background: var(--color-amber); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb { background: #475569; border-radius: 3px; }
 
   .aurora-glow {
     position: relative;
@@ -136,8 +235,8 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: radial-gradient(ellipse at 30% 50%, rgba(245,158,11,0.04) 0%, transparent 60%),
-                radial-gradient(ellipse at 70% 50%, rgba(125,211,252,0.03) 0%, transparent 60%);
+    background: radial-gradient(ellipse at 30% 50%, rgba(148,163,184,0.04) 0%, transparent 60%),
+                radial-gradient(ellipse at 70% 50%, rgba(148,163,184,0.03) 0%, transparent 60%);
     pointer-events: none;
   }
 
@@ -176,19 +275,19 @@
   .bar-card-hover:hover {
     transform: translateY(-4px);
     box-shadow:
-      0 0 0 1px rgba(245, 158, 11, 0.35),
+      0 0 0 1px rgba(255, 255, 255, 0.28),
       0 2px 4px rgba(0, 0, 0, 0.50),
       0 20px 38px -12px rgba(0, 0, 0, 0.68),
       0 56px 96px -36px rgba(0, 0, 0, 0.78);
   }
   .bar-card-featured {
     box-shadow:
-      0 0 0 1px rgba(245, 158, 11, 0.40),
+      0 0 0 1px rgba(255, 255, 255, 0.22),
       0 1px 2px rgba(0, 0, 0, 0.45),
       0 14px 28px -10px rgba(0, 0, 0, 0.60),
       0 40px 72px -32px rgba(0, 0, 0, 0.70);
   }
-  /* Osio: pystygradientti + hillitty amber-hehku yläreunaan. */
+  /* Osio: pystygradientti + neutraali valo yläreunaan (ei värihehkua). */
   .bar-depth {
     position: relative;
     background-image: linear-gradient(to bottom,
@@ -201,7 +300,7 @@
     position: absolute;
     inset: 0 0 auto 0;
     height: 42rem;
-    background: radial-gradient(60% 45% at 50% 0%, rgba(245, 158, 11, 0.10), transparent 70%);
+    background: radial-gradient(60% 45% at 50% 0%, rgba(148, 163, 184, 0.07), transparent 70%);
     pointer-events: none;
   }
   .bar-depth > * { position: relative; }

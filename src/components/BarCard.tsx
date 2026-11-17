@@ -83,7 +83,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
           kortin korkeudesta kolmannes. 4:3 antaa kuvalle 20 % lisää korkeutta. */}
       <VenuePhoto name={bar.name} fallback={image} alt={bar.name} locale={locale} panelLabel={type} className="aspect-[4/3] shrink-0" panelClassName="aspect-[5/2] sm:aspect-[4/3] shrink-0" hoverZoom>
         {badgeText && (
-          <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-amber text-night text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
+          <span className="absolute top-3 left-3 inline-flex items-center rounded-full bg-[#0F172A]/85 border border-white/20 text-white text-[11px] font-bold uppercase tracking-wider px-2.5 py-1 shadow-md">
             {badgeText}
           </span>
         )}
@@ -174,7 +174,7 @@ export default function BarCard({ bar, image, locale, campaign, showCity = false
               href={tourHref}
               target="_blank"
               rel={tourRel}
-              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-black/30 no-underline"
             >
               <Ticket size={12} />
               {tourCta}

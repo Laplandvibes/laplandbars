@@ -134,7 +134,7 @@ export default function Home() {
               partner="hotels"
               sid="home_hero_stay_lapland"
               destination="Lapland, Finland"
-              className="inline-flex max-sm:w-full max-sm:max-w-[18rem] justify-center items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
+              className="inline-flex max-sm:w-full max-sm:max-w-[18rem] justify-center items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-black/30 no-underline"
             >
               <Hotel size={20} />
               {t('home.hero.ctaStay')}

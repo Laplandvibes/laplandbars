@@ -327,7 +327,7 @@ export default function ApresSki() {
           <p className="text-white/75 mb-8 text-pretty">{t('apresSki.cta.sub')}</p>
           <Link
             to={to('/bars')}
-            className="inline-flex items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-amber/25 no-underline"
+            className="inline-flex items-center gap-2 bg-amber hover:bg-amber/90 text-night px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:scale-105 shadow-lg shadow-black/30 no-underline"
           >
             {t('apresSki.cta.btn')}
           </Link>

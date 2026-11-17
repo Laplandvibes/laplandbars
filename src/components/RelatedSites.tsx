@@ -112,7 +112,7 @@ export default function RelatedSites({ links, className = '' }: { links?: Relate
                   {/* Hover: amber-viiva pohjaan, sivuston oma korostus. */}
                   <span
                     aria-hidden="true"
-                    className="absolute inset-x-0 bottom-0 h-[3px] bg-amber origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"
+                    className="absolute inset-x-0 bottom-0 h-[3px] bg-white/70 origin-left scale-x-0 group-hover:scale-x-100 transition-transform duration-500"
                   />
                 </a>
               );

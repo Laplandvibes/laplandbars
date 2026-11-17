@@ -92,7 +92,7 @@ export default function Cocktails() {
                 {/* Alle 768 px kuva on tekstin yläpuolella: kausi ja nimi keskelle, teksti keskitetyssä palstassa
                     vasemmalle (gate:tabletti laaja 9.11.2026). 768 px+ teksti on kuvan vieressä ja pysyy vasemmalla. */}
                 <div className={`max-md:text-center ${i % 2 === 1 ? 'md:col-start-1 md:row-start-1' : ''}`}>
-                  <p className="text-xs text-amber/70 uppercase tracking-widest mb-3">{c.season}</p>
+                  <p className="text-xs text-amber uppercase tracking-widest mb-3">{c.season}</p>
                   <h2 className="font-heading text-3xl sm:text-4xl text-white tracking-wide mb-3">{c.name}</h2>
                   <Erotinrivi className="text-white/65 text-sm mb-4 font-mono max-md:mx-auto max-md:w-fit max-md:text-left" osat={erotinOsat(c.ingredients)} />
                   <p className="text-white/80 leading-relaxed max-md:mx-auto max-md:w-fit max-md:text-left">{c.description}</p>
@@ -128,7 +128,7 @@ export default function Cocktails() {
       {/* Bookable cocktail & tasting experiences via GetYourGuide (search → live results) */}
       <section className="py-16 bg-night/95">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bar-card bg-gradient-to-br from-amber/[0.07] via-night/0 to-ice/[0.04] p-8 sm:p-10 text-center">
+          <div className="bar-card bg-gradient-to-br from-white/[0.05] via-night/0 to-white/[0.02] p-8 sm:p-10 text-center">
             <div className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-amber/10 border border-amber/30 text-amber text-[11px] font-semibold uppercase tracking-widest mb-4">
               <Martini size={11} />
               {t('experiences.cocktail.kicker')}
@@ -174,7 +174,7 @@ export default function Cocktails() {
                   partner="hotels"
                   sid={`cocktails_stay_${c.slug}`}
                   destination={c.query}
-                  className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-amber/20 no-underline"
+                  className="inline-flex items-center justify-center gap-2 bg-amber hover:bg-amber/90 text-night px-5 min-h-[44px] rounded-full font-semibold text-sm transition-all whitespace-nowrap shadow-md shadow-black/30 no-underline"
                 >
                   <Hotel size={14} />
                   {t(`cities.${c.slug}.name`, { defaultValue: c.name })}

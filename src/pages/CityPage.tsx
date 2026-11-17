@@ -144,7 +144,7 @@ export default function CityPage() {
             <ImageMark src={city.img} />
           </>
         ) : (
-          <div aria-hidden="true" className="absolute inset-0 bg-night" style={{ background: 'radial-gradient(80% 70% at 50% 0%, rgba(245,158,11,0.12) 0%, rgba(15,23,42,0) 68%)' }} />
+          <div aria-hidden="true" className="absolute inset-0 bg-night" style={{ background: 'radial-gradient(80% 70% at 50% 0%, rgba(148,163,184,0.09) 0%, rgba(15,23,42,0) 68%)' }} />
         )}
         <div className="relative z-10 max-w-4xl mx-auto px-5 py-20 text-center">
           {/* 🔴 Sama laatta kuin etusivun silmaotsikossa: 11 px muste baarivalokuvalla
@@ -237,7 +237,7 @@ export default function CityPage() {
             partner="hotels"
             sid={`city_${city.slug}_stay`}
             destination={city.stayQuery}
-            className="inline-flex items-center justify-center gap-2 rounded-full bg-amber px-7 py-3.5 min-h-[44px] text-night font-bold tracking-wide hover:bg-amber/90 transition-colors shadow-lg shadow-amber/20 no-underline"
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-amber px-7 py-3.5 min-h-[44px] text-night font-bold tracking-wide hover:bg-amber/90 transition-colors shadow-lg shadow-black/30 no-underline"
           >
             {t('cities.shared.stayCta', { name, at, defaultValue: `Find stays in ${at}` })}
             <ExternalLink size={14} />

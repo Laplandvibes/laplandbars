@@ -321,7 +321,7 @@ export default function CraftBeer() {
                               href={withReferral(tourUrl, 'bars_craft_beer_tour')}
                               target="_blank"
                               rel="nofollow noopener"
-                              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-amber/20 no-underline"
+                              className="ml-auto inline-flex items-center gap-1.5 min-h-[44px] lg:min-h-[36px] my-1 bg-amber hover:bg-amber/90 text-night px-3.5 py-1.5 rounded-full text-xs font-bold transition-all shadow-md shadow-black/30 no-underline"
                             >
                               <Ticket size={12} />
                               {t(`bars.venues.${brewery.name}.tour.directLabel`, { defaultValue: bar?.tour?.directBookingLabel ?? t('bars.bookDirect') })}
@@ -456,7 +456,7 @@ export default function CraftBeer() {
       {/* Stay near the brewery */}
       <section className="py-16 bg-night/95">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bar-card bg-gradient-to-br from-amber/[0.06] via-night/0 to-ice/[0.04] p-8 sm:p-10">
+          <div className="bar-card bg-gradient-to-br from-white/[0.05] via-night/0 to-white/[0.02] p-8 sm:p-10">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-center">
               <div className="md:col-span-2">
                 <p className="text-amber text-[11px] font-semibold uppercase tracking-widest mb-3 flex items-center gap-1.5">
