@@ -32,11 +32,12 @@
     "checkedAt": "2026-08-10"
   },
   "gastropub-giitu": {
-    "url": "https://gastropubgiitu.fi/en/menu",
+    "url": "https://gastropubgiitu.fi/en/menu1",
     "kind": "page",
     "title": "Menu",
-    "evidence": 36,
-    "checkedAt": "2026-08-10"
+    "evidence": 30,
+    "checkedAt": "2026-11-19",
+    "note": "19.11.2026: /en/menu oli 404; ravintolan oma englanninkielinen valikko vie osoitteeseen /en/menu1 (30 hintaa). Sama osoite on laplanddiningin urlEn-kentassa (14.11.)."
   },
   "hullu-poro-areena": {
     "url": "https://www.hulluporo.fi/en/restaurants/hullu-poro-areena/grill/",
